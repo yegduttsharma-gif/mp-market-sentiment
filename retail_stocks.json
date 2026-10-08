@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-08T20:51:52.378343+00:00",
+  "collected_at": "2026-10-08T20:55:46.494934+00:00",
   "method": "public_reddit_post_titles_lexicon_v1",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -8,16 +8,16 @@
   "source_errors": [
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
-  "coverage": "Public Reddit RSS or indexed Reddit post titles; limited watchlist, title-only; not all retail investors.",
-  "posts_collected": 100,
+  "coverage": "Public Reddit RSS and search-indexed Reddit titles; expanded selected Indian stocks, title-only, incomplete sample; not all retail investors.",
+  "posts_collected": 244,
   "status": "available",
   "stocks": [
     {
       "name": "Infosys",
-      "mentions": 3,
+      "mentions": 5,
       "bullish": 0,
       "bearish": 0,
-      "unclear": 3,
+      "unclear": 5,
       "bullish_pct": null,
       "evidence": [
         {
@@ -40,22 +40,119 @@
           "published": "2026-10-08T15:42:03+00:00",
           "subreddit": "IndianStockMarket",
           "sentiment": "unclear"
+        },
+        {
+          "title": "People who brought IT shares like TCS and Infosys during COVID (2020) sitting at near 0% gain today - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXdETHdhbG1CU3RnMndNVkFTQjRIekFaWG92a0Fjb0xETUJjMnh5OHBhb3JvdVVta1ZHQ1BQSTZlM1lXLXhoNDdDVVdsS1lkLXNMZ1RxTU5QdUlwb1ltMWQ4d2NDQUdjbm43eFpIcEl0WURNRTJyamZNTDJtbHVINDZmV0lTelJYaHV3M3RSNjBjZzJBTl84MWN1UmprV0g5SElTLWg5ZDNHTnFJd2E0?oc=5",
+          "published": "Sat, 03 Oct 2026 05:56:33 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "unclear"
+        },
+        {
+          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
+          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "unclear"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "HDFC Bank",
+      "mentions": 4,
+      "bullish": 0,
+      "bearish": 2,
+      "unclear": 2,
+      "bullish_pct": 0,
+      "evidence": [
+        {
+          "title": "Why Hdfcbank is falling even after getting a MD and CEO , seems market does not liked it ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTlpfX2R5R2FqZkkxVFJPNmZlVDdiSGdFYTZibktnXzlxaXVhbG84Z05pakx6eWpaQVU5RHN5bGVQcWZIRTdCcUw2VjkxR3YzdVRxY2VhSkVQYzJ4RFhocjlHZmFlZjBpeFptbnFST2tTNjFGRWtXeU14aXh0a3JsQUw5TDhBSVVfS3A2aS16b09sOTdYaWZNbjlSeDRWdGozN2w1SU9CYk5JNmM?oc=5",
+          "published": "Mon, 05 Oct 2026 07:38:41 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "HDFC Bank CEO race ends. Anup Bagchi takes the role for the next 3 years. - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY0thY1NjbTNUTWRLT0FvSFV4R1ZySGdIWFdGWThHcFY3UjdDUk00MjBqQUlOMlNiWE9naDN1SHBjUVNaajBmOXJrbEVPXzRHYkpnTGJiTW11ckZPcEo3VFJWY0tmblA1OWpqR1paN1lDanY0Q29mbTZjM3dKR0dJOXQyZVROMk5hams2aUp2X3c1R3R4a3ItRUxUczUwbWVOdVgzRW1Hclc?oc=5",
+          "published": "Fri, 02 Oct 2026 05:44:42 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "unclear"
+        },
+        {
+          "title": "HDFC Bank Elliott Wave - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYV9idXdhNXdYTnJsR2I3Si1RLWUwcDMzZ21PaFYzNHdiUVpwRHNDWjNtVkdOOUVkaVRCUEZLUmxteTJ3RVZONDZUMnRjS2Vxa3Z2Y1h5VHpfcU02MWVEUW9XQWp2OVNrc1VjcWR6Ymxza2hQVlNRYWRscFlXMEhYUExMUEpIekVmMWc?oc=5",
+          "published": "Thu, 08 Oct 2026 07:13:03 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "unclear"
+        },
+        {
+          "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
+          "published": "Thu, 08 Oct 2026 05:47:08 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "bearish"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Vodafone Idea",
+      "mentions": 1,
+      "bullish": 1,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Thoughts on Vodafone Idea for long term? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHpNR0EwaGF6MEdrbjNzbi1haGhYNnIxamtKZ3hfR1dtQV9TVjhnNDI4WUs2WDgzWXFxSHdWQTZNSGJ1M2psRU9pV1R5T0JibERNWC05RzVuS2dpaW9VZElNVnRCd2VodUVQV1hCekJ6QXVtNFBNalZrMW4yMndfRjhCdFJnYW5Rb0FGSHNTeV9wT3pOaDdOSWkyWmFaZ0xvMkE?oc=5",
+          "published": "Mon, 05 Oct 2026 04:59:24 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "bullish"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Tata Power",
+      "mentions": 1,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Tata Power and Power Grid both fell on October 1 right after the government announced a major new transmission programme. A good example of stock price and business news moving in opposite directions - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
+          "published": "Sat, 03 Oct 2026 11:06:28 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "unclear"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "CG Power",
+      "mentions": 1,
+      "bullish": 1,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "CG power : target of 1020 as per Motilal Oswal. CP of 895. 14% upside. - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYmY5WmpXLVhGcDU4a000OTBUdVE2WndPVk5YV1BXcUxGbEpKTDg3X1piR3gwLW4td3k3czVsaXlpYWg5YlFHSll1dWxJMmIwREVia3lYVnlxZ0psSkw2N2pNTE5DZGIzQWZLTHdZUzJ2YjAybWRfSEVkelZVQlVzRmprRU1pVEU3Q1hxem13SEgzRDlqZkpGV2JPTmoxOUU5dWhGV1dTVl9KT00?oc=5",
+          "published": "Tue, 06 Oct 2026 04:13:44 GMT",
+          "subreddit": "indexed_public_discussion",
+          "sentiment": "bullish"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Reliance Industries",
-      "mentions": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "unclear": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "HDFC Bank",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
@@ -185,7 +282,7 @@
       "sufficient": false
     },
     {
-      "name": "W aaree Energies",
+      "name": "Waaree Energies",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
@@ -226,6 +323,356 @@
     },
     {
       "name": "Coal India",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Yes Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "JP Power",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "IRFC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "NHPC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "NBCC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "JSW Energy",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Green",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Ports",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Punjab National Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Canara Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "IDFC First Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Bank of Baroda",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Axis Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Kotak Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Mahindra & Mahindra",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Hyundai Motor India",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "ONGC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Vedanta",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Hindustan Zinc",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "HFCL",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "RailTel",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Titagarh Rail",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "CDSL",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "BSE Ltd",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "MCX",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Jubilant Foodworks",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Dixon Technologies",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "KPIT Technologies",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Persistent Systems",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Polycab",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "unclear": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Indian Hotels",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
