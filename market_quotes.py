@@ -12,7 +12,9 @@ for name,symbol in SYMBOLS.items():
         price=meta.get("regularMarketPrice")
         stamp=meta.get("regularMarketTime")
         if not isinstance(price,(int,float)) or price<=0 or not stamp: raise ValueError("missing price or quote timestamp")
-        out["quotes"][name]={"value":round(float(price),2),"as_of":datetime.datetime.fromtimestamp(stamp,datetime.timezone.utc).isoformat(),"symbol":symbol}
+        previous=meta.get("chartPreviousClose") or meta.get("previousClose")
+        previous=float(previous) if isinstance(previous,(int,float)) and previous>0 else None
+        out["quotes"][name]={"value":round(float(price),2),"as_of":datetime.datetime.fromtimestamp(stamp,datetime.timezone.utc).isoformat(),"symbol":symbol,"previous_close":previous}
         print(name,price)
     except Exception as e:
         print(name,"UNAVAILABLE",str(e))
