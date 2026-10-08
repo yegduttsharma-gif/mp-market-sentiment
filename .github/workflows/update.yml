@@ -9,6 +9,9 @@ on:
     - cron: '30 8 * * 1-5'
     - cron: '15 10 * * 1-5'
   workflow_dispatch:
+concurrency:
+  group: pdmp-snapshot-main
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -32,4 +35,26 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.json market.json vix_history.json retail_stocks.json
-          git diff --cached --quiet || (git commit -m "Update public sentiment snapshot" && git push)
+          if git diff --cached --quiet; then
+            echo "No snapshot changes"
+            exit 0
+          fi
+          git commit -m "Update public sentiment snapshot"
+          # Another editor or Pages-triggering commit may have landed during collection.
+          # Rebase our data-only commit onto the latest main, then retry a bounded number of times.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Snapshot rebase conflict; will retry on next scheduled run."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              echo "Snapshot saved successfully"
+              exit 0
+            fi
+            echo "Concurrent update detected; retrying ($attempt/5)"
+            sleep 3
+          done
+          echo "Unable to push after 5 attempts"
+          exit 1
