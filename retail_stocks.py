@@ -1,5 +1,5 @@
 """Public Reddit-post headline sentiment: a limited proxy, NOT measured retail ownership."""
-import json,re,urllib.request,xml.etree.ElementTree as ET
+import json,re,urllib.request,urllib.parse,xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
 from collections import Counter
@@ -45,6 +45,20 @@ for url in FEEDS:
    if now-dt>timedelta(days=7) or dt>now+timedelta(minutes=5):continue
    posts.append({"title":title,"url":href,"published":published,"subreddit":url.split("/")[4]})
  except Exception as e:failures.append(type(e).__name__+": "+str(e)[:120])
+# If Reddit blocks RSS requests, Google News may still index public Reddit discussions.
+# These are only search-result titles, not a representative sample.
+if not posts:
+ for community in ["IndianStockMarket","IndianStreetBets"]:
+  try:
+   query=urllib.parse.quote(f"site:reddit.com/r/{community} (stocks OR shares OR bullish OR buy) when:7d")
+   url=f"https://news.google.com/rss/search?q={query}&hl=en-IN&gl=IN&ceid=IN:en"
+   req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+   with urllib.request.urlopen(req,timeout=20) as r: root=ET.fromstring(r.read(1500000))
+   for item in root.findall(".//item"):
+    title=(item.findtext("title") or "").strip()
+    link=(item.findtext("link") or "").strip()
+    if title and link: posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":community})
+  except Exception as e: failures.append("Google News Reddit index: "+type(e).__name__)
 rows=[]
 for name,aliases in STOCKS.items():
  relevant=[p for p in posts if any(re.search(r"(?<![a-z0-9])"+re.escape(alias)+r"(?![a-z0-9])",p["title"].lower()) for alias in aliases)]
@@ -57,9 +71,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"unclear":counts["unclear"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"public_reddit_post_titles_lexicon_v1","sources":FEEDS,"source_errors":failures,"coverage":"Two subreddit new-post RSS feeds; last 7 days; title-only; fixed watchlist; not all retail investors.","stocks":rows}
-if posts:
- Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
- print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows))
-else:
- print("No usable posts; preserving previous snapshot.",failures)
+out={"collected_at":now.isoformat(),"method":"public_reddit_post_titles_lexicon_v1","sources":FEEDS,"source_errors":failures,"coverage":"Public Reddit RSS or indexed Reddit post titles; limited watchlist, title-only; not all retail investors.","posts_collected":len(posts),"status":"available" if posts else "sources_unavailable","stocks":rows}
+Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
+print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
