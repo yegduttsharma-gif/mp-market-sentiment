@@ -24,7 +24,9 @@ jobs:
           python-version: '3.12'
       - name: Collect public news
         run: python collect.py
-      - name: Collect Bitcoin volatility and price\n        run: python btc_volatility.py\n      - name: Collect public Indian stock discussion signals
+      - name: Collect Bitcoin volatility and price
+        run: python btc_volatility.py
+      - name: Collect public Indian stock discussion signals
         run: python retail_stocks.py
       - name: Fetch index and India VIX quotes
         run: python market_quotes.py
