@@ -10,7 +10,7 @@ DOWN=set("fall falls falling decline declines declined drop drops dropped slump 
 def classify(title):
     words=re.findall(r"[a-z]+",title.lower())
     a=sum(w in UP for w in words); b=sum(w in DOWN for w in words)
-    return "bullish" if a>b else "bearish"
+    return "bullish" if a>b else "bearish" if b>a else "neutral"
 def collect(query):
     q=urllib.parse.quote(query+" when:1d")
     url=f"https://news.google.com/rss/search?q={q}&hl=en-IN&gl=IN&ceid=IN:en"
@@ -30,7 +30,7 @@ try:
     prior=json.loads(Path("data.json").read_text(encoding="utf-8"))
 except (FileNotFoundError,ValueError):
     prior={"markets":{}}
-out={"updated_at":datetime.now(timezone.utc).isoformat(),"method":"headline_binary_lexicon_v2","markets":{},"feed_status":{}}
+out={"updated_at":datetime.now(timezone.utc).isoformat(),"method":"headline_three_way_lexicon_v3","markets":{},"feed_status":{}}
 success=0
 for name,query in QUERIES.items():
     try:
@@ -45,7 +45,7 @@ for name,query in QUERIES.items():
             for item in saved.get("items",[]):
                 item["sentiment"]=classify(item.get("title",""))
             counts=Counter(item["sentiment"] for item in saved.get("items",[]))
-            saved.update({"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":0})
+            saved.update({"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"]})
             out["markets"][name]=saved
             out["feed_status"][name]="retained_previous_snapshot"
             continue
