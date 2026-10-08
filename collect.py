@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from collections import Counter
-QUERIES={"NIFTY 50":"Nifty 50 Indian stock market","SENSEX":"BSE Sensex stock market","BANK NIFTY":"Bank Nifty banking index","GOLD":"gold price bullion markets","CRUDE OIL":"crude oil Brent WTI prices"}
+QUERIES={"NIFTY 50":"Nifty 50 Indian stock market","SENSEX":"BSE Sensex stock market","BANK NIFTY":"Bank Nifty banking index","GOLD":"gold price bullion markets","CRUDE OIL":"crude oil Brent WTI prices","BITCOIN":"Bitcoin BTC cryptocurrency price market sentiment"}
 UP=set("rise rises rising rally rallies rallied gain gains gained higher surge surges surging jump jumps jumped bullish optimism optimistic rebound rebounds recovered recovery strength strong upside soar soars".split())
 DOWN=set("fall falls falling decline declines declined drop drops dropped slump slumps slumped lower bearish pessimism pessimistic crash crashes crashed weak weakness downside plunge plunges loss losses".split())
 def classify(title):
