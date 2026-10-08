@@ -50,7 +50,14 @@ for name,query in QUERIES.items():
     counts=Counter(x["sentiment"] for x in items)
     out["markets"][name]={"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"sources":len({x["source"] for x in items}),"items":items}
     print(name,len(items))
-if success==0: raise RuntimeError("All RSS fetches failed; preserving prior data.")
+if success==0:
+    print("WARNING: All RSS feeds unavailable; preserving last saved headline snapshot.")
+    if prior.get("markets"):
+        out["markets"]=prior["markets"]
+        out["feed_status"]={name:"retained_previous_snapshot" for name in QUERIES}
+        out["updated_at"]=prior.get("updated_at",out["updated_at"])
+    else:
+        print("WARNING: No prior news data available.")
 out["updated_markets"]=success
 out["collected_at"]=out["updated_at"]
 Path("data.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
