@@ -1,21 +1,24 @@
 {
-  "checked_at": "2026-10-08T20:13:55.376738+00:00",
+  "checked_at": "2026-10-08T20:17:04.828792+00:00",
   "provider": "Yahoo Finance public chart endpoint (unofficial, may be unavailable)",
   "quotes": {
     "vix": {
       "value": 15.28,
       "as_of": "2026-10-08T10:12:54+00:00",
-      "symbol": "^INDIAVIX"
+      "symbol": "^INDIAVIX",
+      "previous_close": 13.61
     },
     "nifty": {
       "value": 22231.8,
       "as_of": "2026-10-08T10:01:53+00:00",
-      "symbol": "^NSEI"
+      "symbol": "^NSEI",
+      "previous_close": 22776.1
     },
     "sensex": {
       "value": 71593.24,
       "as_of": "2026-10-08T10:02:32+00:00",
-      "symbol": "^BSESN"
+      "symbol": "^BSESN",
+      "previous_close": 73067.8
     }
   }
 }
