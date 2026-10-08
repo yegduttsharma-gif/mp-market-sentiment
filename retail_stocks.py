@@ -19,11 +19,49 @@ STOCKS={
 "IREDA":["ireda"],
 "RVNL":["rvnl","rail vikas nigam"],
 "Zomato / Eternal":["zomato","eternal ltd","eternal stock"],
-"W aaree Energies":["waaree energies","waaree stock"],
+"Waaree Energies":["waaree energies","waaree stock"],
 "Jio Financial":["jio financial","jiofin"],
 "Trent":["trent stock","trent ltd"],
 "BEL":["bharat electronics","bel stock"],
 "Coal India":["coal india"],
+"Paytm":["paytm","one97"],
+"Vodafone Idea":["vodafone idea","vi stock","idea stock"],
+"Yes Bank":["yes bank","yesbank"],
+"Suzlon Energy":["suzlon"],
+"JP Power":["jaiprakash power","jp power"],
+"IRFC":["irfc","indian railway finance"],
+"NHPC":["nhpc"],
+"NBCC":["nbcc"],
+"Tata Power":["tata power"],
+"JSW Energy":["jsw energy"],
+"Adani Power":["adani power"],
+"Adani Green":["adani green"],
+"Adani Ports":["adani ports"],
+"Punjab National Bank":["punjab national bank","pnb stock"],
+"Canara Bank":["canara bank"],
+"IDFC First Bank":["idfc first"],
+"Bank of Baroda":["bank of baroda"],
+"Axis Bank":["axis bank"],
+"Kotak Bank":["kotak mahindra bank","kotak bank"],
+"Maruti Suzuki":["maruti suzuki","maruti stock"],
+"Mahindra & Mahindra":["mahindra and mahindra","m&m stock"],
+"Hyundai Motor India":["hyundai motor india"],
+"ONGC":["ongc"],
+"Vedanta":["vedanta stock","vedanta ltd"],
+"Hindustan Zinc":["hindustan zinc"],
+"HFCL":["hfcl"],
+"RailTel":["railtel"],
+"Titagarh Rail":["titagarh"],
+"CDSL":["cdsl"],
+"BSE Ltd":["bse ltd","bse stock"],
+"MCX":["mcx stock","multi commodity exchange"],
+"Jubilant Foodworks":["jubilant foodworks"],
+"Dixon Technologies":["dixon technologies"],
+"KPIT Technologies":["kpit"],
+"Persistent Systems":["persistent systems"],
+"Polycab":["polycab"],
+"CG Power":["cg power"],
+"Indian Hotels":["indian hotels","ihcl"],
 }
 POS=set("buy buying bought accumulate accumulating bullish upside breakout multibagger undervalued conviction hold holding long opportunity strong upside rebound rally outperform".split())
 NEG=set("sell selling sold bearish overvalued avoid crash falling weak loss losses trap dump short downside".split())
@@ -47,18 +85,28 @@ for url in FEEDS:
  except Exception as e:failures.append(type(e).__name__+": "+str(e)[:120])
 # If Reddit blocks RSS requests, Google News may still index public Reddit discussions.
 # These are only search-result titles, not a representative sample.
-if not posts:
- for community in ["IndianStockMarket","IndianStreetBets"]:
-  try:
-   query=urllib.parse.quote(f"site:reddit.com/r/{community} (stocks OR shares OR bullish OR buy) when:7d")
-   url=f"https://news.google.com/rss/search?q={query}&hl=en-IN&gl=IN&ceid=IN:en"
-   req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
-   with urllib.request.urlopen(req,timeout=20) as r: root=ET.fromstring(r.read(1500000))
-   for item in root.findall(".//item"):
-    title=(item.findtext("title") or "").strip()
-    link=(item.findtext("link") or "").strip()
-    if title and link: posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":community})
-  except Exception as e: failures.append("Google News Reddit index: "+type(e).__name__)
+# Broader discovery: indexed public discussion titles across several stock groups.
+# Search-engine indexing is incomplete; this is not a representative retail poll.
+SEARCHES=[
+ 'site:reddit.com/r/IndianStockMarket (stock OR shares OR buy OR bullish) when:7d',
+ 'site:reddit.com/r/IndianStreetBets (stock OR shares OR buy OR bullish) when:7d',
+ 'site:reddit.com/r/IndianStockMarket (suzlon OR irfc OR ireda OR rvnl OR paytm OR yesbank) when:7d',
+ 'site:reddit.com/r/IndianStreetBets (tata OR reliance OR hdfc OR adani OR bank) when:7d',
+ 'site:reddit.com/r/IndianStockMarket (smallcap OR midcap OR multibagger OR portfolio) when:7d',
+]
+for query in SEARCHES:
+ try:
+  url="https://news.google.com/rss/search?q="+urllib.parse.quote(query)+"&hl=en-IN&gl=IN&ceid=IN:en"
+  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+  with urllib.request.urlopen(req,timeout=18) as r: root=ET.fromstring(r.read(1500000))
+  for item in root.findall(".//item"):
+   title=(item.findtext("title") or "").strip()
+   link=(item.findtext("link") or "").strip()
+   if title and link:
+    posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":"indexed_public_discussion"})
+ except Exception as e:failures.append("Indexed discussion search: "+type(e).__name__)
+posts=list({(p["title"].strip().lower()):p for p in posts}.values())
+
 rows=[]
 for name,aliases in STOCKS.items():
  relevant=[p for p in posts if any(re.search(r"(?<![a-z0-9])"+re.escape(alias)+r"(?![a-z0-9])",p["title"].lower()) for alias in aliases)]
@@ -71,6 +119,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"unclear":counts["unclear"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"public_reddit_post_titles_lexicon_v1","sources":FEEDS,"source_errors":failures,"coverage":"Public Reddit RSS or indexed Reddit post titles; limited watchlist, title-only; not all retail investors.","posts_collected":len(posts),"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"public_reddit_post_titles_lexicon_v1","sources":FEEDS,"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit titles; expanded selected Indian stocks, title-only, incomplete sample; not all retail investors.","posts_collected":len(posts),"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
