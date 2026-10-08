@@ -1,4 +1,4 @@
-"""Public Reddit-post headline sentiment: a limited proxy, NOT measured retail ownership."""
+"""Multi-forum investor discussion sentiment; NOT measured retail ownership."""
 import json,re,urllib.request,urllib.parse,xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
@@ -93,6 +93,10 @@ SEARCHES=[
  'site:reddit.com/r/IndianStockMarket (suzlon OR irfc OR ireda OR rvnl OR paytm OR yesbank) when:7d',
  'site:reddit.com/r/IndianStreetBets (tata OR reliance OR hdfc OR adani OR bank) when:7d',
  'site:reddit.com/r/IndianStockMarket (smallcap OR midcap OR multibagger OR portfolio) when:7d',
+ 'site:tradingqna.com (stock OR shares OR bullish OR buying) when:7d',
+ 'site:forum.valuepickr.com (stock OR shares OR buy OR investing) when:7d',
+ 'site:tradingqna.com (suzlon OR irfc OR ireda OR rvnl OR reliance OR hdfc) when:7d',
+ 'site:forum.valuepickr.com (tata OR adani OR bank OR smallcap OR midcap) when:7d',
 ]
 for query in SEARCHES:
  try:
@@ -103,9 +107,10 @@ for query in SEARCHES:
    title=(item.findtext("title") or "").strip()
    link=(item.findtext("link") or "").strip()
    if title and link:
-    posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":"indexed_public_discussion"})
+    posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":("tradingqna" if "tradingqna.com" in query else "valuepickr" if "valuepickr.com" in query else "indexed_reddit")})
  except Exception as e:failures.append("Indexed discussion search: "+type(e).__name__)
 posts=list({(p["title"].strip().lower()):p for p in posts}.values())
+source_counts=dict(Counter(p["subreddit"] for p in posts))
 
 rows=[]
 for name,aliases in STOCKS.items():
@@ -119,6 +124,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"unclear":counts["unclear"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"public_reddit_post_titles_lexicon_v1","sources":FEEDS,"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit titles; expanded selected Indian stocks, title-only, incomplete sample; not all retail investors.","posts_collected":len(posts),"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"public_multi_forum_titles_lexicon_v2","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions"],"source_errors":failures,"coverage":"Reddit RSS plus indexed Reddit, TradingQnA and ValuePickr discussions; title-only biased sample, not retail holdings or representative polling.","posts_collected":len(posts),"source_counts":source_counts,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
