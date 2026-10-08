@@ -26,15 +26,31 @@ def collect(query):
         except Exception: published=None
         out.append({"title":title,"url":link,"source":item.findtext("source") or "Google News","published":published,"sentiment":classify(title)})
     return out
-out={"updated_at":datetime.now(timezone.utc).isoformat(),"method":"headline_lexicon_v1","markets":{}}
+try:
+    prior=json.loads(Path("data.json").read_text(encoding="utf-8"))
+except (FileNotFoundError,ValueError):
+    prior={"markets":{}}
+out={"updated_at":datetime.now(timezone.utc).isoformat(),"method":"headline_lexicon_v1","markets":{},"feed_status":{}}
 success=0
 for name,query in QUERIES.items():
     try:
-        items=collect(query); success+=1
+        items=collect(query)
+        if not items: raise ValueError("empty RSS response")
+        success+=1
+        out["feed_status"][name]="updated"
     except Exception as error:
-        print(f"{name}: {type(error).__name__}: {error}"); items=[]
+        print(f"{name}: {type(error).__name__}: {error}")
+        saved=prior.get("markets",{}).get(name)
+        if saved:
+            out["markets"][name]=saved
+            out["feed_status"][name]="retained_previous_snapshot"
+            continue
+        items=[]
+        out["feed_status"][name]="unavailable"
     counts=Counter(x["sentiment"] for x in items)
     out["markets"][name]={"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"sources":len({x["source"] for x in items}),"items":items}
     print(name,len(items))
 if success==0: raise RuntimeError("All RSS fetches failed; preserving prior data.")
+out["updated_markets"]=success
+out["collected_at"]=out["updated_at"]
 Path("data.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
