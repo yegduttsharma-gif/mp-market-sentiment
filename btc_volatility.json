@@ -1,9 +1,14 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-10-08T21:10:03.239735+00:00",
   "source": "Deribit public API",
-  "btc_usd": null,
-  "dvol": null,
-  "errors": [
-    "Awaiting first automatic scheduled collection"
-  ]
+  "btc_usd": {
+    "value": 81629.87,
+    "as_of": "2026-10-08T21:10:03.239735+00:00"
+  },
+  "dvol": {
+    "value": 37.87,
+    "as_of": "2026-10-08T21:00:00+00:00",
+    "description": "Deribit BTC 30-day implied volatility"
+  },
+  "errors": []
 }
