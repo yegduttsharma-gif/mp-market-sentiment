@@ -74,7 +74,7 @@ def direction(title):
  words=set(re.findall(r"[a-z]+",t))
  up=len(words&POS)+2*sum(p in t for p in POS_PHRASES)
  down=len(words&NEG)+2*sum(p in t for p in NEG_PHRASES)
- return "bullish" if up>down else "bearish" if down>up else "not_scored"
+ return "bullish" if up>down else "bearish"  # forced binary estimate; ties lean bearish
 
 FEEDS=["https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100","https://www.reddit.com/r/IndianStreetBets/new/.rss?limit=100"]
 ATOM="{http://www.w3.org/2005/Atom}"
@@ -138,8 +138,8 @@ for name,aliases in STOCKS.items():
   p["sentiment"]=direction(p["title"])
  counts=Counter(p["sentiment"] for p in relevant)
  directional=counts["bullish"]+counts["bearish"]
- rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"unscored":counts["not_scored"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
+ rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"unscored":0,"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"directional_public_multi_forum_titles_lexicon_v4","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"forced_binary_public_multi_forum_titles_lexicon_v5","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
