@@ -94,6 +94,33 @@ for url in FEEDS:
    if now-dt>timedelta(days=7) or dt>now+timedelta(minutes=5):continue
    posts.append({"title":title,"url":href,"published":published,"subreddit":url.split("/")[4]})
  except Exception as e:failures.append(type(e).__name__+": "+str(e)[:120])
+# Direct public Discourse feeds: do not depend on search indexing for these forums.
+# Keep publication dates and source labels; RSS titles are not individual trader votes.
+import email.utils
+DIRECT_FORUMS={
+ "tradingqna":"https://www.tradingqna.com/latest.rss?order=created",
+ "valuepickr":"https://forum.valuepickr.com/latest.rss?order=created",
+}
+feed_health={}
+for source,url in DIRECT_FORUMS.items():
+ try:
+  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; PDMP public research)","Accept":"application/rss+xml,application/xml,*/*"})
+  with urllib.request.urlopen(req,timeout=20) as response: root=ET.fromstring(response.read(1600000))
+  accepted=0
+  for item in root.findall(".//item"):
+   title=(item.findtext("title") or "").strip()
+   link=(item.findtext("link") or "").strip()
+   published=(item.findtext("pubDate") or "").strip()
+   if not title or not link or not published:continue
+   try: dt=email.utils.parsedate_to_datetime(published).astimezone(timezone.utc)
+   except (TypeError,ValueError):continue
+   if now-dt>timedelta(days=7) or dt>now+timedelta(minutes=5):continue
+   posts.append({"title":title,"url":link,"published":published,"subreddit":source})
+   accepted+=1
+  feed_health[source]={"status":"ok","recent_items":accepted}
+ except Exception as exc:
+  feed_health[source]={"status":"unavailable","recent_items":0,"error":type(exc).__name__}
+  failures.append(source+" direct RSS: "+type(exc).__name__)
 # If Reddit blocks RSS requests, Google News may still index public Reddit discussions.
 # These are only search-result titles, not a representative sample.
 # Broader discovery: indexed public discussion titles across several stock groups.
@@ -127,7 +154,9 @@ for query in SEARCHES:
    if title and link:
     posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":("tradingqna" if "tradingqna.com" in query else "valuepickr" if "valuepickr.com" in query else "x" if "site:x.com" in query or "site:twitter.com" in query else "youtube" if "site:youtube.com" in query else "facebook" if "site:facebook.com" in query else "instagram" if "site:instagram.com" in query else "indexed_reddit")})
  except Exception as e:failures.append("Indexed discussion search: "+type(e).__name__)
-posts=list({(p["title"].strip().lower()):p for p in posts}.values())
+# Preserve the original source URL, prefer direct forum links to indexed duplicates.
+posts.sort(key=lambda p: (p["subreddit"] in ("tradingqna","valuepickr","IndianStockMarket","IndianStreetBets")),reverse=True)
+posts=list({re.sub(r"\\s+"," ",re.sub(r" - (Reddit|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I).strip().lower()):p for p in posts}.values())
 source_counts=dict(Counter(p["subreddit"] for p in posts))
 
 rows=[]
@@ -140,6 +169,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_public_multi_forum_titles_lexicon_v6","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_indexed_titles_v7","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
