@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-09T05:24:43.222059+00:00",
+  "collected_at": "2026-10-09T05:52:04.330000+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,13 +15,13 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.",
-  "posts_collected": 867,
+  "posts_collected": 868,
   "source_counts": {
     "IndianStockMarket": 95,
-    "indexed_reddit": 145,
+    "indexed_reddit": 146,
     "tradingqna": 34,
-    "valuepickr": 9,
-    "x": 190,
+    "valuepickr": 8,
+    "x": 191,
     "youtube": 197,
     "facebook": 98,
     "instagram": 99
@@ -40,12 +40,19 @@
   "stocks": [
     {
       "name": "Maruti Suzuki",
-      "mentions": 10,
+      "mentions": 11,
       "bullish": 5,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 6,
       "bullish_pct": 100,
       "evidence": [
+        {
+          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
+          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
         {
           "title": "Electric Car Sales September 2026 India Tata Motors \u2013 14,769 Mahindra & Mahindra \u2013 7,779 JSW MG Motor India \u2013 5,242 VinFast India \u2013 2,963 Kia India \u2013 1,263 Maruti Suzuki India \u2013 1,103 BYD India \u2013 836 Hyundai Motor India \u2013 792 BMW India \u2013 502 Tesla - X",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URnJrQWE2eWVnbG1wTWR3SzV1YjVXdDk3MEVsQ2ZKOHFRS0xRUW1sRndWeElIMDEtS0hhbHhLc3hLQk90cU5tRUsyUjV2NVU2UFdiZC1YbWNBRDBJc0puQUVkM3RrcmpFVEtFaA?oc=5",
@@ -121,10 +128,10 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 53,
+      "mentions": 54,
       "bullish": 14,
       "bearish": 2,
-      "neutral": 37,
+      "neutral": 38,
       "bullish_pct": 88,
       "evidence": [
         {
@@ -216,10 +223,10 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 15,
+      "mentions": 14,
       "bullish": 1,
       "bearish": 2,
-      "neutral": 12,
+      "neutral": 11,
       "bullish_pct": 33,
       "evidence": [
         {
@@ -228,13 +235,6 @@
           "published": "Mon, 05 Oct 2026 07:38:41 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "bearish"
-        },
-        {
-          "title": "HDFC Bank CEO race ends. Anup Bagchi takes the role for the next 3 years. - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY0thY1NjbTNUTWRLT0FvSFV4R1ZySGdIWFdGWThHcFY3UjdDUk00MjBqQUlOMlNiWE9naDN1SHBjUVNaajBmOXJrbEVPXzRHYkpnTGJiTW11ckZPcEo3VFJWY0tmblA1OWpqR1paN1lDanY0Q29mbTZjM3dKR0dJOXQyZVROMk5hams2aUp2X3c1R3R4a3ItRUxUczUwbWVOdVgzRW1Hclc?oc=5",
-          "published": "Fri, 02 Oct 2026 05:44:42 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral"
         },
         {
           "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
@@ -303,6 +303,13 @@
           "title": "\ud83d\udcca KEY STOCKS IN FOCUS | 5 OCTOBER 2026 A fresh look at today\u2019s key corporate developments across coal & power, banking, IT, pharma, defence, real estate and infrastructure. \ud83d\udfe2 Positive: Coal India | HDFC Bank | Infosys | Aarti Industries | Aurobindo Pha - X",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XTk1lVGktZllya1QtYkZYX2VDMWxDdHNxYUNpUHRFUDB5NXA1Q3A5TlFjV1J3MXY2VDJPQWRfQ1FMR2VoYk0yaHBVcUp1MVI2R19pQUQyajJ3M1R5ZW1PemtYamV4TkU3bmhzS293?oc=5",
           "published": "Mon, 05 Oct 2026 03:23:17 GMT",
+          "subreddit": "x",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Top Indian Companies by Market Capitalization (September 24, 2026 Closing) Reliance Industries \u2014 \u20b916.5 Lakh Cr HDFC Bank \u2014 \u20b911.3 Lakh Cr Bharti Airtel \u2014 \u20b911.2 Lakh Cr ICICI Bank \u2014 \u20b99.6 Lakh Cr State Bank of India (SBI) \u2014 \u20b99.0 Lakh Cr Tata Consu - X",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FNzY5cndRSFhieDZwRHhRZ0l2UElyaUxyNHhpemFJcDRWelh0NDhnVExhZEpQeWZCaklGMjhhOUxHQTNQMXJkYVhaMkkyMjc0LVdXYmVVenpUOGd1b0lMNkpHRVY2MU16c2JZVHZXRkU?oc=5",
+          "published": "Sun, 04 Oct 2026 04:03:00 GMT",
           "subreddit": "x",
           "sentiment": "neutral"
         }
@@ -664,6 +671,38 @@
       "sufficient": false
     },
     {
+      "name": "Vodafone Idea",
+      "mentions": 3,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Are you bullish or bearish on Vodafone Idea?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1d5tf/are_you_bullish_or_bearish_on_vodafone_idea/",
+          "published": "2026-10-09T05:35:47+00:00",
+          "subreddit": "IndianStockMarket",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Thoughts on Vodafone Idea for long term? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHpNR0EwaGF6MEdrbjNzbi1haGhYNnIxamtKZ3hfR1dtQV9TVjhnNDI4WUs2WDgzWXFxSHdWQTZNSGJ1M2psRU9pV1R5T0JibERNWC05RzVuS2dpaW9VZElNVnRCd2VodUVQV1hCekJ6QXVtNFBNalZrMW4yMndfRjhCdFJnYW5Rb0FGSHNTeV9wT3pOaDdOSWkyWmFaZ0xvMkE?oc=5",
+          "published": "Mon, 05 Oct 2026 04:59:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
+          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Suzlon Energy",
       "mentions": 3,
       "bullish": 0,
@@ -822,31 +861,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
           "published": "Fri, 02 Oct 2026 15:00:07 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Vodafone Idea",
-      "mentions": 2,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Thoughts on Vodafone Idea for long term? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHpNR0EwaGF6MEdrbjNzbi1haGhYNnIxamtKZ3hfR1dtQV9TVjhnNDI4WUs2WDgzWXFxSHdWQTZNSGJ1M2psRU9pV1R5T0JibERNWC05RzVuS2dpaW9VZElNVnRCd2VodUVQV1hCekJ6QXVtNFBNalZrMW4yMndfRjhCdFJnYW5Rb0FGSHNTeV9wT3pOaDdOSWkyWmFaZ0xvMkE?oc=5",
-          "published": "Mon, 05 Oct 2026 04:59:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
-          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
@@ -1054,42 +1068,6 @@
       "sufficient": false
     },
     {
-      "name": "ONGC",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stocks That Closed Below Their Previous 52-Week Lows Today \ud83d\udcc9 - ONGC - REC - Voltas - Chambal Fertilisers - Power Finance Corporation (PFC) - KPIT Technologies - Happiest Minds Technologies - Crompton Greaves Consumer Electricals - Godrej Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tWjdVV2xPWFpxejJDODdaeDFyVHlWVnJueHdzajNvSGtfZkVKS2t2VVJmaXdxdzl1Tk02OW1RMVlvSWt1SnlnaTgwc0FrSWxBU0tVa3M0M25UX2ZkZm12aHd4bHZXNTdCT1RKUUtjOHo2RVlBOFE?oc=5",
-          "published": "Fri, 02 Oct 2026 05:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "KPIT Technologies",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stocks That Closed Below Their Previous 52-Week Lows Today \ud83d\udcc9 - ONGC - REC - Voltas - Chambal Fertilisers - Power Finance Corporation (PFC) - KPIT Technologies - Happiest Minds Technologies - Crompton Greaves Consumer Electricals - Godrej Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tWjdVV2xPWFpxejJDODdaeDFyVHlWVnJueHdzajNvSGtfZkVKS2t2VVJmaXdxdzl1Tk02OW1RMVlvSWt1SnlnaTgwc0FrSWxBU0tVa3M0M25UX2ZkZm12aHd4bHZXNTdCT1RKUUtjOHo2RVlBOFE?oc=5",
-          "published": "Fri, 02 Oct 2026 05:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Persistent Systems",
       "mentions": 1,
       "bullish": 1,
@@ -1284,6 +1262,16 @@
       "sufficient": false
     },
     {
+      "name": "ONGC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Vedanta",
       "mentions": 0,
       "bullish": 0,
@@ -1375,6 +1363,16 @@
     },
     {
       "name": "Dixon Technologies",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "KPIT Technologies",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
