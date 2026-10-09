@@ -11,6 +11,22 @@ def classify(title):
     words=re.findall(r"[a-z]+",title.lower())
     a=sum(w in UP for w in words); b=sum(w in DOWN for w in words)
     return "bullish" if a>b else "bearish" if b>a else "neutral"
+# Bitcoin-specific contextual phrases. Match multiword expressions before individual words.
+BTC_UP_PHRASES=("etf inflows","etf inflow","net inflows","net inflow","institutional buying","buying pressure","short squeeze","short liquidations","short liquidation","breaks above","breakout above","price recovery","bullish momentum","new all time high")
+BTC_DOWN_PHRASES=("etf outflows","etf outflow","net outflows","net outflow","institutional selling","selling pressure","long liquidations","long liquidation","breaks below","drops below","bearish momentum","price correction")
+BTC_UP_WORDS=set("climb climbs climbed climbing recover recovers recovering rebounds rebounding advance advances advanced advancing rallies rallying uptick gains gaining inflows inflow accumulation breakout tops".split())
+BTC_DOWN_WORDS=set("slip slips slipped slipping tumble tumbles tumbled tumbling sink sinks sank sinking retreat retreats retreated retreating selloff selloffs outflows outflow liquidation liquidations correction corrected correcting dip dips dipped dipping plunge plunges plunging".split())
+def classify_bitcoin(title):
+    text=" ".join(re.findall(r"[a-z]+",title.lower()))
+    # Phrase scoring prevents 'ETF inflows' being missed and avoids treating 'short liquidations' as bearish.
+    up=sum(text.count(p) for p in BTC_UP_PHRASES)
+    down=sum(text.count(p) for p in BTC_DOWN_PHRASES)
+    for p in BTC_UP_PHRASES+BTC_DOWN_PHRASES:
+        text=text.replace(p," ")
+    words=text.split()
+    up+=sum(w in UP or w in BTC_UP_WORDS for w in words)
+    down+=sum(w in DOWN or w in BTC_DOWN_WORDS for w in words)
+    return "bullish" if up>down else "bearish" if down>up else "neutral"
 def collect(query):
     q=urllib.parse.quote(query+" when:1d")
     url=f"https://news.google.com/rss/search?q={q}&hl=en-IN&gl=IN&ceid=IN:en"
@@ -24,13 +40,13 @@ def collect(query):
         date=item.findtext("pubDate") or ""
         try: published=parsedate_to_datetime(date).astimezone(timezone.utc).isoformat()
         except Exception: published=None
-        out.append({"title":title,"url":link,"source":item.findtext("source") or "Google News","published":published,"sentiment":classify(title)})
+        out.append({"title":title,"url":link,"source":item.findtext("source") or "Google News","published":published,"sentiment":classify_bitcoin(title) if query==QUERIES["BITCOIN"] else classify(title)})
     return out
 try:
     prior=json.loads(Path("data.json").read_text(encoding="utf-8"))
 except (FileNotFoundError,ValueError):
     prior={"markets":{}}
-out={"updated_at":datetime.now(timezone.utc).isoformat(),"method":"headline_three_way_lexicon_v3","markets":{},"feed_status":{}}
+out={"updated_at":datetime.now(timezone.utc).isoformat(),"method":"headline_three_way_lexicon_v4_bitcoin_context","markets":{},"feed_status":{}}
 success=0
 for name,query in QUERIES.items():
     try:
@@ -43,7 +59,7 @@ for name,query in QUERIES.items():
         saved=prior.get("markets",{}).get(name)
         if saved:
             for item in saved.get("items",[]):
-                item["sentiment"]=classify(item.get("title",""))
+                item["sentiment"]=(classify_bitcoin(item.get("title","")) if name=="BITCOIN" else classify(item.get("title","")))
             counts=Counter(item["sentiment"] for item in saved.get("items",[]))
             saved.update({"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"]})
             out["markets"][name]=saved
@@ -58,7 +74,7 @@ if success==0:
     print("WARNING: All RSS feeds unavailable; preserving last saved headline snapshot.")
     if prior.get("markets"):
         out["markets"]=prior["markets"]
-        for market in out["markets"].values():
+        for name,market in out["markets"].items():
             for item in market.get("items",[]):
                 item["sentiment"]=classify(item.get("title",""))
             counts=Counter(item["sentiment"] for item in market.get("items",[]))
