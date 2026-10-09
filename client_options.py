@@ -1,5 +1,5 @@
 """Daily NSE client-category index-option long open-interest snapshot (not trades)."""
-import csv, io, json, urllib.request
+import csv, io, json, re, urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -10,14 +10,20 @@ def get_report(day):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; PDMP public-data dashboard)","Accept":"text/csv,*/*","Referer":"https://www.nseindia.com/"})
     with urllib.request.urlopen(req,timeout=18) as response:
         raw=response.read().decode("utf-8-sig",errors="replace")
-    rows=list(csv.DictReader(io.StringIO(raw)))
+    # NSE files may start with a report-title/date line before the CSV header.
+    # Locate the real header instead of assuming it is line one.
+    lines=raw.splitlines()
+    header_index=next((i for i,line in enumerate(lines) if "client type" in line.lower() and "option index call long" in line.lower()),None)
+    if header_index is None:
+        raise ValueError("NSE CSV header missing: "+repr(lines[:2])[:160])
+    rows=csv.DictReader(io.StringIO("\n".join(lines[header_index:])))
     for row in rows:
-        cleaned={str(k).strip().lower():str(v or "").strip() for k,v in row.items() if k}
+        cleaned={re.sub(r"\\s+"," ",str(k).strip().lower()):str(v or "").strip() for k,v in row.items() if k}
         if cleaned.get("client type","").lower()=="client":
             def value(name):
                 return int(float(cleaned[name.lower()].replace(",","")))
             return {"date":day.isoformat(),"call_long":value("Option Index Call Long"),"put_long":value("Option Index Put Long"),"source":url}
-    raise ValueError("Client row missing")
+    raise ValueError("Client row missing after valid header")
 now=datetime.now(IST)
 today=now.date()
 snapshot=None
