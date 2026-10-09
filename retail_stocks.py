@@ -143,17 +143,34 @@ SEARCHES=[
  'site:x.com (suzlon OR irfc OR ireda OR rvnl OR tata motors OR reliance) when:7d',
  'site:youtube.com/watch (suzlon OR irfc OR ireda OR rvnl OR tata motors OR reliance) when:7d',
 ]
-for query in SEARCHES:
- try:
-  url="https://news.google.com/rss/search?q="+urllib.parse.quote(query)+"&hl=en-IN&gl=IN&ceid=IN:en"
-  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
-  with urllib.request.urlopen(req,timeout=18) as r: root=ET.fromstring(r.read(1500000))
-  for item in root.findall(".//item"):
-   title=(item.findtext("title") or "").strip()
-   link=(item.findtext("link") or "").strip()
-   if title and link:
-    posts.append({"title":title,"url":link,"published":item.findtext("pubDate"),"subreddit":("tradingqna" if "tradingqna.com" in query else "valuepickr" if "valuepickr.com" in query else "x" if "site:x.com" in query or "site:twitter.com" in query else "youtube" if "site:youtube.com" in query else "facebook" if "site:facebook.com" in query else "instagram" if "site:instagram.com" in query else "indexed_reddit")})
- except Exception as e:failures.append("Indexed discussion search: "+type(e).__name__)
+# Search queries are independent; fetch concurrently to reduce workflow time.
+# Indexed search is discovery only, not a direct platform API.
+from concurrent.futures import ThreadPoolExecutor,as_completed
+def fetch_indexed(query):
+ url="https://news.google.com/rss/search?q="+urllib.parse.quote(query)+"&hl=en-IN&gl=IN&ceid=IN:en"
+ req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+ with urllib.request.urlopen(req,timeout=10) as r: root=ET.fromstring(r.read(1500000))
+ source=("tradingqna" if "tradingqna.com" in query else "valuepickr" if "valuepickr.com" in query else "x" if "site:x.com" in query or "site:twitter.com" in query else "youtube" if "site:youtube.com" in query else "facebook" if "site:facebook.com" in query else "instagram" if "site:instagram.com" in query else "indexed_reddit")
+ found=[]
+ for item in root.findall(".//item"):
+  title=(item.findtext("title") or "").strip()
+  link=(item.findtext("link") or "").strip()
+  published=(item.findtext("pubDate") or "").strip()
+  if not title or not link or not published:continue
+  try: dt=email.utils.parsedate_to_datetime(published).astimezone(timezone.utc)
+  except (TypeError,ValueError):continue
+  if now-dt>timedelta(days=7) or dt>now+timedelta(minutes=5):continue
+  # Google News may return unrelated articles; require a matching source domain in title.
+  domain={"indexed_reddit":"reddit.com","tradingqna":"tradingqna.com","valuepickr":"valuepickr.com","x":"x.com","youtube":"youtube.com","facebook":"facebook.com","instagram":"instagram.com"}[source]
+  markers={"indexed_reddit":("reddit",),"tradingqna":("tradingqna","trading q&a"),"valuepickr":("valuepickr",),"x":("twitter","x.com"),"youtube":("youtube",),"facebook":("facebook",),"instagram":("instagram",)}[source]
+  if not any(marker in title.lower() for marker in markers):continue
+  found.append({"title":title,"url":link,"published":published,"subreddit":source})
+ return found
+with ThreadPoolExecutor(max_workers=6) as pool:
+ futures={pool.submit(fetch_indexed,q):q for q in SEARCHES}
+ for future in as_completed(futures):
+  try: posts.extend(future.result())
+  except Exception as e: failures.append("Indexed search "+type(e).__name__)
 # Preserve the original source URL, prefer direct forum links to indexed duplicates.
 posts.sort(key=lambda p: (p["subreddit"] in ("tradingqna","valuepickr","IndianStockMarket","IndianStreetBets")),reverse=True)
 posts=list({re.sub(r"\\s+"," ",re.sub(r" - (Reddit|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I).strip().lower()):p for p in posts}.values())
@@ -169,6 +186,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_indexed_titles_v7","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_indexed_titles_v7","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
