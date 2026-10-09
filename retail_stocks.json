@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-09T09:52:55.893599+00:00",
+  "collected_at": "2026-10-09T10:26:06.171018+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -14,17 +14,16 @@
   "source_errors": [
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
-  "coverage": "Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.",
-  "posts_collected": 864,
+  "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
+  "posts_collected": 674,
   "source_counts": {
     "IndianStockMarket": 95,
     "indexed_reddit": 144,
-    "tradingqna": 33,
+    "tradingqna": 32,
     "valuepickr": 9,
-    "x": 188,
-    "youtube": 198,
-    "facebook": 98,
-    "instagram": 99
+    "youtube": 197,
+    "instagram": 99,
+    "facebook": 98
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -39,285 +38,95 @@
   "status": "available",
   "stocks": [
     {
-      "name": "Maruti Suzuki",
-      "mentions": 12,
-      "bullish": 5,
-      "bearish": 0,
-      "neutral": 7,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Electric Car Sales September 2026 India Tata Motors \u2013 14,769 Mahindra & Mahindra \u2013 7,779 JSW MG Motor India \u2013 5,242 VinFast India \u2013 2,963 Kia India \u2013 1,263 Maruti Suzuki India \u2013 1,103 BYD India \u2013 836 Hyundai Motor India \u2013 792 BMW India \u2013 502 Tesla - X",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URnJrQWE2eWVnbG1wTWR3SzV1YjVXdDk3MEVsQ2ZKOHFRS0xRUW1sRndWeElIMDEtS0hhbHhLc3hLQk90cU5tRUsyUjV2NVU2UFdiZC1YbWNBRDBJc0puQUVkM3RrcmpFVEtFaA?oc=5",
-          "published": "Sun, 04 Oct 2026 05:41:01 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Battery-as-a-Service is emerging as the EV industry's newest battleground. Tata Motors' expansion of the model is intensifying competition among Mahindra, MG, Maruti Suzuki and Hyundai, while lowering upfront EV costs through separate battery financing. - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QREFlUGxmQXZaenhhTGl3ZW5ucGJ1NWxuLW4zYmhBOUVyY0NwbHktME81b3Z2NDhXVmNhNDFhUm9UcXVNbXFCWkZ6Zzk4dnFmb3ZHSGg3Unp4eW5SNlRMT2xjRQ?oc=5",
-          "published": "Sat, 03 Oct 2026 03:21:03 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "\ud83d\udcca September 2026 Car Dispatches ! \ud83d\ude97\ud83d\udcc8 \ud83c\uddee\ud83c\uddf3 Top OEMs \u2014 September- 2026 \u26a0\ufe0f NOTE: The data mentioned below represents factory dispatches / wholesale volumes and is NOT VAHAN retail registration data. \ud83c\udfc6 TOP OEMs IN INDIA \ud83e\udd47 No.1 \u2014 Maruti Suzuki In - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52VHBTUmRWQ0sxeXdpRVRObGZBNGE2bzRwZWh0cC1nSFFpVjNKSFpqWUMxdlZDYU9BVjlGOUxwZUJxZUN4Z09MMGlmMTVyM3hUTU9oN3dnWnZVQTd4aDVkU1lTMA?oc=5",
-          "published": "Fri, 02 Oct 2026 11:16:58 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Maruti Suzuki accounted for nearly four in ten passenger vehicle registrations in India in September, whereas Mahindra edged past Tata Motors by just 0.02%. - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04YzBzVm43NWp6dHNZWURmbVRSeFdmRUFfRENVNDlWbFcxZjhEVnYyOFZZMjlNMW05LUw5LTNpb0EtYUwySW0yc002VFRHLUtwS2Q2YkdLQmVoVkFlT25lMmNn?oc=5",
-          "published": "Wed, 07 Oct 2026 16:06:38 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\"In September, automotive sales in India showed remarkable growth due to increased demand following the GST rate cuts. Maruti Suzuki led the market with a notable 37% sales increase, delivering 181,838 units. Other automakers, including Tata Motors and - X",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14cnZReUcyOVFyeVhSX2pHb2JOdjBSYkRxVHZRb2hrOFFNdzZCZmlMVWtpUC1TT3VXZmQ5WWhsSzdwaG4xeHlWdUFaRmptSGtqUkpQaTlKdHhuaWp3OGRtSnhiVWgtWm1TTVE?oc=5",
-          "published": "Fri, 02 Oct 2026 12:50:00 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "\ud83e\udef5\ud83c\udffb Vahan Data \ud83d\udcc8 the Top -10 OEMs !! \ud83d\udcca Top-10 OEM Passenger Vehicle Registrations \u2014 September 2026 1. Maruti Suzuki \u2014 1,68,745 2. Tata Motors \u2014 56,972 3. Mahindra & Mahindra \u2014 56,743 4. Hyundai Motor India \u2014 49,998 5. Toyota Kirloskar Motor \u2014 - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HNDVvR2FKZVpvWjFCcDhVQ0NfejNuM2ZuWk9DSVZKU0UwUG5jNXRYQzdPdjlzUVVYX21mekNWdVM5ZHoySThpazJpWkd6N1JPMkIzU2VZdUdWekN0aUVaWm5hOA?oc=5",
-          "published": "Fri, 02 Oct 2026 11:34:02 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "INDIA'S PASSENGER VEHICLE MARKET \u2014 WHO DOMINATES? Top Car Manufacturers by Market Share \ud83d\udcca 1- Maruti Suzuki \u2014 39.59% 2- Mahindra & Mahindra \u2014 13.42% 3- Tata Motors \u2014 13.40% 4- Hyundai \u2014 11.75% 5- Toyota \u2014 6.57% 6- Others \u2014 15.2 - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4Qmg1UnZvelJ4dDhnSC1kMGFfMWtyMHRpUXRURUthUkJyQXpaeHNGN1oxbXY3Nmgyb0NJU21ja2FZQ2ZYQmg2aEdhOWlhYjJKOTBYMW1vTHozVXY0N28tUHVHMUs?oc=5",
-          "published": "Fri, 09 Oct 2026 09:00:05 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "September 2026: Auto Sector Snapshot The auto sector continued its growth trajectory in September, with strong YoY performance across segments. Passenger vehicles saw Maruti Suzuki (+37%) lead the pack, while TVS Motor (+23%) topped two-wheelers. - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwQTd6ekV6Nzhkbm9fM09KSklhLVRISW50ajhSX1hkLVJUTnBFb1FGX0dVYzRiZWdLU3NvNEt5SVRBWlB3TnhPa0czSEYzS2x3dVpNaFFfTV9JQkdQOG9pTmVEMjM?oc=5",
-          "published": "Mon, 05 Oct 2026 05:27:58 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "India\u2019s Duopoly Market Explained 1- Telecom Reliance \u2013 39% | Bharti Airtel \u2013 38.01% 2- UPI Apps PhonePe \u2013 45% | Google Pay \u2013 35% 3- Passenger Vehicles Maruti Suzuki \u2013 41% | Tata Motors PV \u2013 14.3% 4- Food Delivery Eternal \u2013 58% | Swiggy \u2013 40% 5- - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11RDhRU3VPNTNubFVvSDNBdTdnYTFMS1VnVmEzdldDbC0zTWczMG16QUs4bjAwNEtKQ1JCdWp1X2VJM3hMR2ZRdmwxZ3VSUUZTeDRIb0xueG1IdDlTVHNyTw?oc=5",
-          "published": "Sun, 04 Oct 2026 10:46:01 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "The business Maruti Suzuki sells passenger cars, SUVs, vans and light commercial vehicles. Its key strengths: A wide dealership and service network. Strong brand recognition and resale value. A broad portfolio across price segments. Manufacturing scale an - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6WmxmdGJLTHdGTXhNMHFGOUhxRm9zSFRPMWFlbFdNQnE2elBlcWFycC1kX3pBMHNMWFI4b01idkc1ZGxGYTZnbFZzekd2VFN0VzJfT3dYV0ZaSXl4Z2pWc1d6RQ?oc=5",
-          "published": "Fri, 09 Oct 2026 02:42:51 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "Top 10 Monthly Breakdown \ud83d\udc94Stocks based on Sep-26 Closing : \ud83d\udd38PB Fintech Ltd \ud83d\udd38Gillette India Ltd \ud83d\udd38Maruti Suzuki India Ltd \ud83d\udd38Indiamart Intermesh Ltd \ud83d\udd38Voltas Ltd \ud83d\udd38Ahluwalia Contracts (India) Ltd \ud83d\udd38Bikaji Foods International Ltd \ud83d\udd38Pokarna Ltd \ud83d\udd38Tata Motors Pa - X",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjZjJCc1pJWEN6WHo2N2VUWmlyNnZUVWVLMFlha0Q5SVdsdVhzU2sxc3EwUHlKSkFMcEoxRF9NSTNIRFV6YWl1OVlsSkNYeUoyTU1GY2lieVVIZzRHaHRMSzRzcC1rMFBqT05nWg?oc=5",
-          "published": "Sat, 03 Oct 2026 05:36:40 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "Tata Motors \u0927\u094b \u0926\u0947\u0917\u0940 Maruti Suzuki \u0915\u094b \ud83d\ude27 Brezza facelift, tata nexon,punch fronx, Sales Report Sep - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmOVdKNEVMekFISzN2Q3pnY3pweUxpQ2I2bmtSNmpvcmtoSGlWUnJ6WENhYnUxSEUxWHBIaTQybXdIdFpJR2FILVd0d25BRmh2MGVERWR3?oc=5",
-          "published": "Fri, 02 Oct 2026 11:46:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": true
-    },
-    {
       "name": "Tata Motors",
-      "mentions": 53,
-      "bullish": 12,
+      "mentions": 19,
+      "bullish": 6,
       "bearish": 2,
-      "neutral": 39,
-      "bullish_pct": 86,
+      "neutral": 11,
+      "bullish_pct": 75,
       "evidence": [
         {
-          "title": "India\u2019s auto industry is not just Maruti, Tata Motors, Mahindra or Bajaj. Behind every vehicle is a massive ecosystem of companies making thousands of different parts. From steel & forgings to brakes, bearings, electronics, batteries and EV motors. Here\u2019s the co - X",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5RnBXdVBWRlhEeWRIUnVBWFBwQ01kLU5oRGpPdW5XTWZ6REV4VFpiVDNzSV9sLUlZM0lRbXRTMkdQXzlPU3hKRjdTM3VPYmQ5MGJZdXBxdFJpaFF3TnhvdWtscm5qX0k?oc=5",
-          "published": "Sat, 03 Oct 2026 10:39:52 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "TATA MOTORS PV: UK SAID TO IMPOSE IMPORT TAX ON CHINESE EV CARS - X",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KeWFJX0J5V1N1cHduMk1KNUpEejZ4SjAtS3JmSzRZYnY2eEhGdHZrTnMxa0kwenRsVGlpTHdIMUtycU5USXE5TnJONXhTblloMFgwQnhQNWUwSmI3dVF1LXJHaGZPRVhDQlQ1QQ?oc=5",
-          "published": "Mon, 05 Oct 2026 06:28:10 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "@jafwarsi Hi, thank you for reaching out. Our service team will connect with you shortly. @TataMotors_Cars @Tataev @TataMotorsCV - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YU1ZTeUlIRlpycUJES3UwR3Ayd1J4bnBPLUFNYUlTZlJEV0EzbXRQVHlIRVl3bjZjUWdMeFJ0c19kSmJ4ZnJtd3VOTjc0TjBYMVRLQkkzbFBNdUpKOTd1cw?oc=5",
-          "published": "Sat, 03 Oct 2026 09:57:02 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "@DavidKaimal @DavidKaimal Hi, thank you for reaching out. Our service team will connect with you shortly. @TataMotors_Cars @Tataev @TataMotorsCV - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hZ29xdkhLUk9oUW95MlpBQTQtYk9CZHZTc09GcmdiTFBGLVI4QW5qRjFDcTljeWNJY0pvLTJVUzM4NkRwMmcxeDduWEFLcXJZNnJfQkFGdjZmelFEOFk4WQ?oc=5",
-          "published": "Fri, 02 Oct 2026 20:38:07 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Tata Motors Passenger Vehicles Limited - JLR Q2 FY27 Wholesales Rise 25% YoY to 82,400 Units; Retail Sales Decline 7% YoY to 79,000 Units https://t.co/BrQDUfBg2Y - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wMFZ2ZW8yWG50Q21LY2dTNkstMXNFNGZWUkMwS2hXbkhMMFZVdlVkbmx1OWZTeDZqT0ZSMjkzcWl5eGtPSXg4Snp0QjktT2h6aDluRGNoZ3JmTm8waW5YZHVFaUg?oc=5",
-          "published": "Sat, 03 Oct 2026 11:32:02 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Electric Car Sales September 2026 India Tata Motors \u2013 14,769 Mahindra & Mahindra \u2013 7,779 JSW MG Motor India \u2013 5,242 VinFast India \u2013 2,963 Kia India \u2013 1,263 Maruti Suzuki India \u2013 1,103 BYD India \u2013 836 Hyundai Motor India \u2013 792 BMW India \u2013 502 Tesla - X",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URnJrQWE2eWVnbG1wTWR3SzV1YjVXdDk3MEVsQ2ZKOHFRS0xRUW1sRndWeElIMDEtS0hhbHhLc3hLQk90cU5tRUsyUjV2NVU2UFdiZC1YbWNBRDBJc0puQUVkM3RrcmpFVEtFaA?oc=5",
-          "published": "Sun, 04 Oct 2026 05:41:01 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Mahindra targeted margin dominance; Tata flooded the sub-\u20b910 lakh floor. \ud83d\ude97\ud83e\udd3a The result: Just six months after Mahindra seized the crown, Tata Motors has toppled its rival to reclaim India's No. 2 spot in H1 FY27 (376,840 units vs. Mahindra\u2019s 358,142). \ud83e\udd48 Her - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45WG82eFUwcC1MckVzelQ5N25XV0p0ZzZ6ZUZNVlg5UlZNcVdNZC0wOUNjZ1g1RGZnVkN3YV9ERC15WE5TYzNULVdHSGdZSkNqMC1HbUlLR2dzWDg2ZXMwR19R?oc=5",
-          "published": "Mon, 05 Oct 2026 06:01:19 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83d\ude97\"We set out to reimagine and redefine the product\u201d: Tata Motors PV's Kulkarni on Aeris Read at: https://t.co/GYU1cweAur @TataMotors #auto #TataAeris #Tata.Cars #Tatafutureplans #TataMotors #newcarlaunch #TataSedan #ETAuto - X",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UbFdSUlhTcXlTcFNKWGRLUXFYTzBpc1NtdW9OT2dTaWpYUy1uNVNXcXRpRFJVRFF4TEppMlZRVjZwLTZUdERIQ2R5SUFjOGtPZ2ZQX08tbHVILUtpaUIxdmpCSS1Zdw?oc=5",
-          "published": "Mon, 05 Oct 2026 01:43:22 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "@sanjeeb88 Hi, thank you for reaching out. Our service team will connect with you shortly. @TataMotors_Cars @Tataev @TataMotorsCV - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZRjJGbEtVM3h3UUNIZGtHcXRfT2d6SjlmRmpJZ3JVeGhtcWJ5UjJLNFc1VW5tV2lhUGJzRnFHYnlLZWR3YURTblJzM3A4RDl1V2VvNmRzUmFmNXVTYmkwUA?oc=5",
-          "published": "Sat, 03 Oct 2026 16:43:26 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Tata, Mahindra in Fierce Race for No. 2: Tata Motors Tops Mahindra in H1FY27 With 376,840 Cars, Hyundai Eyes Comeback With Bayon Tata Overtakes Mahindra After Mahindra beat both Hyundai and Tata Motors to emerge as the second-largest carmaker i - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XRk1xM0RZcFJpUzVxaFJCb3JXcGFOSndyTWdaNXhaOGp1TWFZWVRPR2lZa3N1SnJCbjZVOFBGM2dzcjZHTW9HUU80aC1XRjJmZWdsdXc5alRGaEVLZ2tfQXBTUEc?oc=5",
-          "published": "Sun, 04 Oct 2026 06:38:44 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Indian companies spending the most on R&D, FY2026 1. Mahindra & Mahindra: $647M 2. Reliance Industries: $532M 3. Tata Motors Passenger Vehicles: $322M 4. Hindustan Aeronautics: $318M 5. Dr. Reddy's Laboratories: $245M 6. Sun Pharmaceutical - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5obGRYSDNQMjdOVXQxaUhXSmZwQ04xYW1VMlA0SlpxNndXRmdlN0U0YWR6aDdfX0tqSlNMU3NUU09xdGotam9FTDQtVXNUdmtzMnpuYnZ3dDdlVS1ITFhobg?oc=5",
-          "published": "Wed, 07 Oct 2026 13:58:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Tata Motors PV asked suppliers to support 100,000 vehicles a month from FY28. It plans \u20b937,500-40,000 cr over FY27-FY31 for 1.2 million annual sales and a 20% share by FY31. H1 FY27 average sales were 65,000 a month; scheduled output is about 75,00 - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrSl9pMmQwaVF6dUpzOEpLODlRQ01OU1o0WFh5ZEJfdnctSUVHZXNTVG51OXZPXzY5UVNoRXpWcjFCNExTLWwtNThlM1E1dEVjWW0xei1LdFlvLVZPTXB3OElENA?oc=5",
-          "published": "Wed, 07 Oct 2026 00:40:43 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": true
-    },
-    {
-      "name": "HDFC Bank",
-      "mentions": 15,
-      "bullish": 1,
-      "bearish": 2,
-      "neutral": 12,
-      "bullish_pct": 33,
-      "evidence": [
-        {
-          "title": "Why Hdfcbank is falling even after getting a MD and CEO , seems market does not liked it ? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTlpfX2R5R2FqZkkxVFJPNmZlVDdiSGdFYTZibktnXzlxaXVhbG84Z05pakx6eWpaQVU5RHN5bGVQcWZIRTdCcUw2VjkxR3YzdVRxY2VhSkVQYzJ4RFhocjlHZmFlZjBpeFptbnFST2tTNjFGRWtXeU14aXh0a3JsQUw5TDhBSVVfS3A2aS16b09sOTdYaWZNbjlSeDRWdGozN2w1SU9CYk5JNmM?oc=5",
-          "published": "Mon, 05 Oct 2026 07:38:41 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
-          "published": "Thu, 08 Oct 2026 05:47:08 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "HDFC Bank Elliott Wave - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYV9idXdhNXdYTnJsR2I3Si1RLWUwcDMzZ21PaFYzNHdiUVpwRHNDWjNtVkdOOUVkaVRCUEZLUmxteTJ3RVZONDZUMnRjS2Vxa3Z2Y1h5VHpfcU02MWVEUW9XQWp2OVNrc1VjcWR6Ymxza2hQVlNRYWRscFlXMEhYUExMUEpIekVmMWc?oc=5",
-          "published": "Thu, 08 Oct 2026 07:13:03 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "#MarketsWithMC | Here's why HDFC Bank shares fell over 2% today despite optimism over appointment of new CEO On Oct 5, HDFC shares, which have the largest weight on Nifty 50 benchmark index, closed 2.3% lower at Rs 704.8 apiece, wiping off Rs 25,2 - X",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qdnJES1ROSjB4WXlCOERBMjVOWjVZYWxOT2dQLXJuOUhHcTlINW5NOGZOUmwzMnFuMXVFUnkwNHVWWHVUUHBwRW9TbVFScHhVYVYzN09iWThjTElxOXkzb294M2VJd2dKNTJEQjVhb0lyUQ?oc=5",
-          "published": "Mon, 05 Oct 2026 12:50:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Can HDFC Bank & IT stocks lead a bounce? Oil @ $102. No relief from rising global bond yields. 10-year yield @ 5.27% despite softer US jobs! #Nifty nearly made double bottom at April low of 22,182. Set-up @_prashantnair #GIFTNifty #BankNifty #Trump #Ir - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94UjR3d0hVSkNfd2NiVnZ6a09DcC1jNEV5dHFlc09BdW1zVVUzZ0hhc0wtcERpTDhqNHZta2hNTGY4RUJCM2IwekFLcXdldzN0bm1PdGtfbEJOV0w2aFBrV2xxaw?oc=5",
-          "published": "Mon, 05 Oct 2026 02:52:29 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market Live | Nityas Gems IPO | Vishal Nirmiti IPO | HDFC Bank, NMDC, DMart Share \u092e\u0947\u0902\u0915\u094d\u092f\u093e\u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tTUs4dXEwREN2WXhmbGR2OFJDUWNiVU5HN1BGQ0p0MmtlY2VScl84N3B6ZUhkOHBqLVR0QUFQbVk2Q0NTMk9ZdERiQ3lWRVdqeDBTM3N3?oc=5",
-          "published": "Mon, 05 Oct 2026 22:07:59 GMT",
+          "title": "\ud83d\ude31 TATA MOTORS HIRING 2026 | ALL BRANCHES | TATA JOBS 2026 | JOB | JOBS | HIRING 2026 \ud83d\ude0d - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yckpiU255UE1fUl8wTDlsWFJtSEh3cGcwQkplR0t5WWNPelpSX29BSzZVVmVnWHNCYVFwcWFXc1NyZklTZHFIaUJRcjN3Z21yS3dwTnhB?oc=5",
+          "published": "Fri, 02 Oct 2026 13:39:33 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
-          "published": "Sun, 04 Oct 2026 18:54:37 GMT",
-          "subreddit": "facebook",
+          "title": "Finally Tata Motors Biggest Hiring Announced | Dont Miss | off Campus Drive | 2026 Batch - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ydlZLWmFqUVJKVFNxMkllREViYlJyTk9LOVRDN2xmR3FTV08xTXM5TmFlOElVWlZqSnk5MTJ3OVhzSm5QVDB2dzN2Q3RSWUtFSnBNZmJR?oc=5",
+          "published": "Fri, 02 Oct 2026 10:50:13 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "Moneyview IPO latest news, HDFC Bank, Bajaj Finance, Vi, LG Electronics share | Watch Stock Market Live with Varun Joshi and Mudit Goyal : https://www.youtube.com/live/TWriUDDT9w8 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEJSV1VUTmk4VFVHOE0yaUN1QXJWWkt6aU1icTJwcDNXVzB0YmhtZzJLVTg2N0tKZkU1VDdzV05GZGpneG5pQWZrcGNaaWp1X1lOcWxEbEQtbXU5MF9aMHNzZUN5NUtHV3d6bWFYOEJwdHR6WGJyQlI1NTlNUjZfYjg2dm9qS3NVNExKUmM2WHZUQVRaMHJ5WlpXTU9yVmtzcXdQdE9CelpubEs3d2REWHlPdExYM19yUVpaMElqUThmYmdXTHBVNWVxeERCNm8tbXB4bUgxbno1cFQ3RjV3?oc=5",
-          "published": "Sat, 03 Oct 2026 05:05:47 GMT",
-          "subreddit": "facebook",
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "84% of Nifty 50 stocks are now trading below their 200 DMA. 1. Tata Motors, Maruti & Infosys: 19% below 2. TCS: 18% below 3. RIL & HDFC Bank: 14% below The index hasn't crashed because mid or small caps and select sectors are holding ground but the h - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kTWFmTWYxaThEYmRxTEx2MHBBSldQOFlNb1dmaE5IZE5tUGlnZU94b0paVFF3d1E4MWtuZG1DUkhQcjVWNUgyLUo1Wk5DSXl0V1dZdl9HLXVKNlhQMWt0ODhB?oc=5",
-          "published": "Mon, 05 Oct 2026 17:49:08 GMT",
-          "subreddit": "x",
+          "title": "Samdarshi, Head - Sustainability Transition Advisory, Tata Motors | BW Sustainability 40 under 40 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2MzJmOFNMMVc0aldSSVA1QkFhY3JSSjIwU0J3b3JJejJZTTVjQXZfYl9uSHdSMUh3NG1PaXk0dk02NWVOX3NuYk51Y1kwV245UFJKSHVkTWF5Q0MyU1UyaUd0d1NlVkNOYjMwZGRB?oc=5",
+          "published": "Wed, 07 Oct 2026 04:28:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Tata Motors On FY27 Demand: Shailesh Chandra Expects 10%+ Growth Despite Cost Pressures | ET Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04aS1iTFRrZTNVUHNVb0l5NUFfX2NlRWpfS1A0VHB6RGR5a3BXMC16b2xsTWhuUm5IdDRZTUc3b0VudTM5czJiRGdVa3dmTHVFbU42T19B?oc=5",
+          "published": "Sun, 04 Oct 2026 05:30:08 GMT",
+          "subreddit": "youtube",
           "sentiment": "bullish"
         },
         {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
+          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
+          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
+          "title": "Tata Motor PV Share Price | Tata Motors PV Share \u092a\u0930 Expert \u0915\u093e \u092d\u0930\u094b\u0938\u093e? Long Term \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0939\u0948 Scope? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53S0V3emZlcFBqVGJUS0x3UVJoMDdJMnRERDhQbFhXOWs0Xy1OOWE4Q3d6ejJuUlFJckpOYWY5a0xzY1NuYVlRWGpzMmQyVzE4NTlZcTV3?oc=5",
+          "published": "Mon, 05 Oct 2026 09:54:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "Moneycontrol Ideas For Profit: Tata Motors | CNBC TV18 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RWVBOMDd3ajF3bkEyZ2VTSTRPMkY3VGxmeEgxb1FrLWVWRDJTeU9MUXc2RU05c1lncHRTLXlsZ2tVM2NYYjBLbzZYaFpoakdqS3ZBeURn?oc=5",
+          "published": "Thu, 08 Oct 2026 06:05:58 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
+          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "\ud83d\udcca KEY STOCKS IN FOCUS | 5 OCTOBER 2026 A fresh look at today\u2019s key corporate developments across coal & power, banking, IT, pharma, defence, real estate and infrastructure. \ud83d\udfe2 Positive: Coal India | HDFC Bank | Infosys | Aarti Industries | Aurobindo Pha - X",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XTk1lVGktZllya1QtYkZYX2VDMWxDdHNxYUNpUHRFUDB5NXA1Q3A5TlFjV1J3MXY2VDJPQWRfQ1FMR2VoYk0yaHBVcUp1MVI2R19pQUQyajJ3M1R5ZW1PemtYamV4TkU3bmhzS293?oc=5",
-          "published": "Mon, 05 Oct 2026 03:23:17 GMT",
-          "subreddit": "x",
+          "title": "Tata Motors Biggest Update Out | Assessment Mails | Tata Motors SHL Assessment & Interview - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2TF9MeHM3aldSQW84d3ZaQ0NoWlZiQ29JeGxJTUxja1l6akJsRUVVRGRXeDhBcGhwVGEyZG83eXpXTmE3RGcyVUd4elFzLW5ZU3JuSTF3?oc=5",
+          "published": "Thu, 08 Oct 2026 05:24:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "How Tata Motors Went from India\u2019s Biggest Loss to $39B - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96YnlTcnZjWm9VU29zV2lBQWwzTmx1MUltTUo2aEF2UE5OenctT1ZOdUoxYTJxWjBlcjFvM1NjS1ctb0NlclJYWXdjVHBXR0V3MTJqRWRB?oc=5",
+          "published": "Sun, 04 Oct 2026 08:58:25 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "TCS \u092a\u0930 \u0906\u0930\u094b\u092a?\ud83e\udd2f\ud83d\udd34 \u0932\u094b \u0906\u0917\u092f\u093e Jio IPO?\ud83d\udd34 DMART Q2\ud83d\udd34 Bajaj Finance Q2\ud83d\udd34 Tata Motors Q2\ud83d\udd34 Bajaj Housing Q2 SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NZjlDcVNhbHgtVFMwWmhRUjdTRl9sZUotejRwN25ZQmxma2ROVndEWlpTeWVqVFJWOE1oR1NCOFNUWnNuUUVhaUpEMVlyYVBEWkdVa3BR?oc=5",
+          "published": "Sun, 04 Oct 2026 15:59:26 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -325,11 +134,11 @@
     },
     {
       "name": "Infosys",
-      "mentions": 7,
-      "bullish": 1,
+      "mentions": 5,
+      "bullish": 0,
       "bearish": 5,
-      "neutral": 1,
-      "bullish_pct": 17,
+      "neutral": 0,
+      "bullish_pct": 0,
       "evidence": [
         {
           "title": "US SUSPENDS IMMIGRATION PROGRAM FOR COGNIZANT, INFOSYS, TCS, REST IN PEACE INDIAN IT SECTOR",
@@ -353,13 +162,6 @@
           "sentiment": "bearish"
         },
         {
-          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
-          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bearish"
-        },
-        {
           "title": "People who brought IT shares like TCS and Infosys during COVID (2020) sitting at near 0% gain today - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXdETHdhbG1CU3RnMndNVkFTQjRIekFaWG92a0Fjb0xETUJjMnh5OHBhb3JvdVVta1ZHQ1BQSTZlM1lXLXhoNDdDVVdsS1lkLXNMZ1RxTU5QdUlwb1ltMWQ4d2NDQUdjbm43eFpIcEl0WURNRTJyamZNTDJtbHVINDZmV0lTelJYaHV3M3RSNjBjZzJBTl84MWN1UmprV0g5SElTLWg5ZDNHTnFJd2E0?oc=5",
           "published": "Sat, 03 Oct 2026 05:56:33 GMT",
@@ -367,123 +169,63 @@
           "sentiment": "bearish"
         },
         {
-          "title": "84% of Nifty 50 stocks are now trading below their 200 DMA. 1. Tata Motors, Maruti & Infosys: 19% below 2. TCS: 18% below 3. RIL & HDFC Bank: 14% below The index hasn't crashed because mid or small caps and select sectors are holding ground but the h - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kTWFmTWYxaThEYmRxTEx2MHBBSldQOFlNb1dmaE5IZE5tUGlnZU94b0paVFF3d1E4MWtuZG1DUkhQcjVWNUgyLUo1Wk5DSXl0V1dZdl9HLXVKNlhQMWt0ODhB?oc=5",
-          "published": "Mon, 05 Oct 2026 17:49:08 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "\ud83d\udcca KEY STOCKS IN FOCUS | 5 OCTOBER 2026 A fresh look at today\u2019s key corporate developments across coal & power, banking, IT, pharma, defence, real estate and infrastructure. \ud83d\udfe2 Positive: Coal India | HDFC Bank | Infosys | Aarti Industries | Aurobindo Pha - X",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XTk1lVGktZllya1QtYkZYX2VDMWxDdHNxYUNpUHRFUDB5NXA1Q3A5TlFjV1J3MXY2VDJPQWRfQ1FMR2VoYk0yaHBVcUp1MVI2R19pQUQyajJ3M1R5ZW1PemtYamV4TkU3bmhzS293?oc=5",
-          "published": "Mon, 05 Oct 2026 03:23:17 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
+          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
+          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
         }
       ],
       "sufficient": true
     },
     {
-      "name": "Bharti Airtel",
+      "name": "HDFC Bank",
       "mentions": 7,
       "bullish": 0,
-      "bearish": 0,
-      "neutral": 7,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
-          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Adani\u2019s data-centre bet is already bigger than Airtel, Reliance and Tata put together. \u2022 Adani Enterprises has put about Rs.8,379 crore into AdaniConneX, its joint venture with EdgeConneX, since it entered the business in 2021. \u2022 Bharti Airtel, Reliance Industri - X",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCZGVvWDgzU05sQnl1WTJodkRucmVTVWZBWU14QWZOLXBRY003Yi1fY0hvU3VIeTNZZXRzZkE0RGlZRG5Zam1aUDVoRF92YmMxQk5oUjROLTl5RjN2SzR1WFVrazV0QQ?oc=5",
-          "published": "Tue, 06 Oct 2026 05:56:49 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "JIO CHANGED INDIA\u2019S TELECOM MARKET COMPLETELY!\ud83d\udcf1\ud83c\uddee\ud83c\uddf3 Before Jio \u2014 August 2016 1- Bharti Airtel \u2014 25.0% 2- Vodafone \u2014 19.5% 3- Idea \u2014 17.2% 4- BSNL \u2014 9.0% 5- Aircel \u2014 8.7% 6- Reliance Communications \u2014 8.5% 7- Tata \u2014 5.7% 8- Telenor - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lYzF6dkR3d3dETFN2dTZsNXZabDNSVGdRNFhwN3FxQ29pVkpIZ0FhLU9KZ2VvTEZNenlLRmdvcVp1dzJ1WDJXYnBiNnJuMFBTQVNSaTh5eWZGRVpNMkNicGxweS0?oc=5",
-          "published": "Wed, 07 Oct 2026 10:31:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "India\u2019s Duopoly Market Explained 1- Telecom Reliance \u2013 39% | Bharti Airtel \u2013 38.01% 2- UPI Apps PhonePe \u2013 45% | Google Pay \u2013 35% 3- Passenger Vehicles Maruti Suzuki \u2013 41% | Tata Motors PV \u2013 14.3% 4- Food Delivery Eternal \u2013 58% | Swiggy \u2013 40% 5- - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11RDhRU3VPNTNubFVvSDNBdTdnYTFMS1VnVmEzdldDbC0zTWczMG16QUs4bjAwNEtKQ1JCdWp1X2VJM3hMR2ZRdmwxZ3VSUUZTeDRIb0xueG1IdDlTVHNyTw?oc=5",
-          "published": "Sun, 04 Oct 2026 10:46:01 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Top Indian Companies by Market Capitalization (September 24, 2026 Closing) Reliance Industries \u2014 \u20b916.5 Lakh Cr HDFC Bank \u2014 \u20b911.3 Lakh Cr Bharti Airtel \u2014 \u20b911.2 Lakh Cr ICICI Bank \u2014 \u20b99.6 Lakh Cr State Bank of India (SBI) \u2014 \u20b99.0 Lakh Cr Tata Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FNzY5cndRSFhieDZwRHhRZ0l2UElyaUxyNHhpemFJcDRWelh0NDhnVExhZEpQeWZCaklGMjhhOUxHQTNQMXJkYVhaMkkyMjc0LVdXYmVVenpUOGd1b0lMNkpHRVY2MU16c2JZVHZXRkU?oc=5",
-          "published": "Sun, 04 Oct 2026 04:03:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Reliance Industries",
-      "mentions": 6,
-      "bullish": 1,
-      "bearish": 0,
+      "bearish": 2,
       "neutral": 5,
-      "bullish_pct": 100,
+      "bullish_pct": 0,
       "evidence": [
         {
-          "title": "Share market update: BSE Sensex and NSE Nifty climbed in early trade, extended previous session rally, aided by buying in bank stocks, Reliance Industries, Trent and positive global cues amidst crude prices. https://ebx.sh/rF3vOr - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3RjY0ZIcW1tSEZRdUJWVUc2bzdDRlpqYlhMaDZ4VnZTU0UzWlpOQ2d0eENUMkFDTXF4cENWVEpUNGtLNnlXcnZGdWROMVNQeGZremh5eXY1UTR5Mllnd1BQSThUM2xzVmdWbHFwN0pjcTFIZzdsVnM0RG9tV0cxbDJnSEd2ZUh0ZFE3QVVpNkZHbGJxbVFpcVZlUDVFanVQa2xXUFBOc1pTMVY2QUFsRjdmdl9PWUd5Z0JYZE9BQnhveHZDcEN6bTdocXdDZ1IwT1lzMjdWQVIzdw?oc=5",
-          "published": "Tue, 06 Oct 2026 06:15:04 GMT",
+          "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
+          "published": "Thu, 08 Oct 2026 05:47:08 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "Why Hdfcbank is falling even after getting a MD and CEO , seems market does not liked it ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTlpfX2R5R2FqZkkxVFJPNmZlVDdiSGdFYTZibktnXzlxaXVhbG84Z05pakx6eWpaQVU5RHN5bGVQcWZIRTdCcUw2VjkxR3YzdVRxY2VhSkVQYzJ4RFhocjlHZmFlZjBpeFptbnFST2tTNjFGRWtXeU14aXh0a3JsQUw5TDhBSVVfS3A2aS16b09sOTdYaWZNbjlSeDRWdGozN2w1SU9CYk5JNmM?oc=5",
+          "published": "Mon, 05 Oct 2026 07:38:41 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "HDFC Bank Elliott Wave - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYV9idXdhNXdYTnJsR2I3Si1RLWUwcDMzZ21PaFYzNHdiUVpwRHNDWjNtVkdOOUVkaVRCUEZLUmxteTJ3RVZONDZUMnRjS2Vxa3Z2Y1h5VHpfcU02MWVEUW9XQWp2OVNrc1VjcWR6Ymxza2hQVlNRYWRscFlXMEhYUExMUEpIekVmMWc?oc=5",
+          "published": "Thu, 08 Oct 2026 07:13:03 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
+          "published": "Sun, 04 Oct 2026 18:54:37 GMT",
           "subreddit": "facebook",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Indian companies spending the most on R&D, FY2026 1. Mahindra & Mahindra: $647M 2. Reliance Industries: $532M 3. Tata Motors Passenger Vehicles: $322M 4. Hindustan Aeronautics: $318M 5. Dr. Reddy's Laboratories: $245M 6. Sun Pharmaceutical - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5obGRYSDNQMjdOVXQxaUhXSmZwQ04xYW1VMlA0SlpxNndXRmdlN0U0YWR6aDdfX0tqSlNMU3NUU09xdGotam9FTDQtVXNUdmtzMnpuYnZ3dDdlVS1ITFhobg?oc=5",
-          "published": "Wed, 07 Oct 2026 13:58:00 GMT",
-          "subreddit": "x",
           "sentiment": "neutral"
         },
         {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
+          "title": "Moneyview IPO latest news, HDFC Bank, Bajaj Finance, Vi, LG Electronics share | Watch Stock Market Live with Varun Joshi and Mudit Goyal : https://www.youtube.com/live/TWriUDDT9w8 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEJSV1VUTmk4VFVHOE0yaUN1QXJWWkt6aU1icTJwcDNXVzB0YmhtZzJLVTg2N0tKZkU1VDdzV05GZGpneG5pQWZrcGNaaWp1X1lOcWxEbEQtbXU5MF9aMHNzZUN5NUtHV3d6bWFYOEJwdHR6WGJyQlI1NTlNUjZfYjg2dm9qS3NVNExKUmM2WHZUQVRaMHJ5WlpXTU9yVmtzcXdQdE9CelpubEs3d2REWHlPdExYM19yUVpaMElqUThmYmdXTHBVNWVxeERCNm8tbXB4bUgxbno1cFQ3RjV3?oc=5",
+          "published": "Sat, 03 Oct 2026 05:05:47 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral"
         },
         {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Top Indian Companies by Market Capitalization (September 24, 2026 Closing) Reliance Industries \u2014 \u20b916.5 Lakh Cr HDFC Bank \u2014 \u20b911.3 Lakh Cr Bharti Airtel \u2014 \u20b911.2 Lakh Cr ICICI Bank \u2014 \u20b99.6 Lakh Cr State Bank of India (SBI) \u2014 \u20b99.0 Lakh Cr Tata Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FNzY5cndRSFhieDZwRHhRZ0l2UElyaUxyNHhpemFJcDRWelh0NDhnVExhZEpQeWZCaklGMjhhOUxHQTNQMXJkYVhaMkkyMjc0LVdXYmVVenpUOGd1b0lMNkpHRVY2MU16c2JZVHZXRkU?oc=5",
-          "published": "Sun, 04 Oct 2026 04:03:00 GMT",
-          "subreddit": "x",
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
@@ -491,155 +233,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
           "published": "Fri, 02 Oct 2026 15:00:07 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 4,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 4,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
-          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Top Indian Companies by Market Capitalization (September 24, 2026 Closing) Reliance Industries \u2014 \u20b916.5 Lakh Cr HDFC Bank \u2014 \u20b911.3 Lakh Cr Bharti Airtel \u2014 \u20b911.2 Lakh Cr ICICI Bank \u2014 \u20b99.6 Lakh Cr State Bank of India (SBI) \u2014 \u20b99.0 Lakh Cr Tata Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FNzY5cndRSFhieDZwRHhRZ0l2UElyaUxyNHhpemFJcDRWelh0NDhnVExhZEpQeWZCaklGMjhhOUxHQTNQMXJkYVhaMkkyMjc0LVdXYmVVenpUOGd1b0lMNkpHRVY2MU16c2JZVHZXRkU?oc=5",
-          "published": "Sun, 04 Oct 2026 04:03:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Enterprises",
-      "mentions": 4,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 4,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Adani\u2019s data-centre bet is already bigger than Airtel, Reliance and Tata put together. \u2022 Adani Enterprises has put about Rs.8,379 crore into AdaniConneX, its joint venture with EdgeConneX, since it entered the business in 2021. \u2022 Bharti Airtel, Reliance Industri - X",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCZGVvWDgzU05sQnl1WTJodkRucmVTVWZBWU14QWZOLXBRY003Yi1fY0hvU3VIeTNZZXRzZkE0RGlZRG5Zam1aUDVoRF92YmMxQk5oUjROLTl5RjN2SzR1WFVrazV0QQ?oc=5",
-          "published": "Tue, 06 Oct 2026 05:56:49 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Adani Group outpaces India\u2019s biggest corporate rivals in data centre investments \u25aa\ufe0fAdani Enterprises has invested around \u20b938,379 crore in AdaniConneX, its data centre JV with EdgeConneX, since entering the sector in 2021. \u25aa\ufe0fThis is nearly 2\u00d7 the combine - X",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tY0RqMVVpWnFOTUo4Z3VDUEF2S1lSOFAzdGtXZ0lCSzI5d1V2ZGhsTHA3WUU2U2FNcFlLZFEwQmwyVUl2cl9ISWN5STBiTnhWV3N4SEFGcThmZGhRUjlFY1NxWW9JUQ?oc=5",
-          "published": "Tue, 06 Oct 2026 10:26:41 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Adani\u2019s data centre bet is already bigger than Airtel, Reliance and Tata combined Gautam Adani\u2019s computing push is ahead of India\u2019s other big business houses as the AI boom turns data centres into a new investment avenue. Adani Enterprises has put about - X",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GSUlIeXBpVHJXYnFYam90aFRvME1RdDRxUmRoTm1Eb09aTzNiLVNzcHpFSFJidWdqQVF4S1ZRY0tZdmQxb2FuRzM5OG81U1FnZE41LXJTSlFUc0xqT2VZMWg5eV9nZE9EUFBYUlVWLTNWdw?oc=5",
-          "published": "Tue, 06 Oct 2026 02:41:43 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Adani\u2019s data centre bet is now bigger than those of its corporate rivals combined as AI boom spurs India\u2019s business houses to diversify into computing infrastructure as the new investment avenue. Adani Enterprises Ltd. has invested about \u20b98,379 crore in Ada - X",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Id1JHdW04Z1cxXzRXdGZJa3BfTktTSHFBMThGdmZMR3Znd2t0RzhZUUtoWWRvaTBGVXBkRnJhNFhHRlJ4M1NoeVhOMnRoWVlmN3RoYUlNTWhlUXhDRHBvT2NTakJCLXU3UkkwU2tPMW9aQQ?oc=5",
-          "published": "Tue, 06 Oct 2026 04:19:03 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Paytm",
-      "mentions": 4,
-      "bullish": 0,
-      "bearish": 1,
-      "neutral": 3,
-      "bullish_pct": 0,
-      "evidence": [
-        {
-          "title": "Fintech Stocks Crash! 10% \u0924\u0915 \u0932\u0941\u0922\u093c\u0915\u0947 Paytm, MobiKwik, Pine Labs, \u0915\u094d\u092f\u094b\u0902 \u0906\u092f\u093e \u092d\u0942\u091a\u093e\u0932? #Business #FintechStocksCrash https://t.co/Qnr2dtM1l9 - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NZFdLdG9RdF9hU2trV1dFbUdsWTRfdFloN2N0YWpDcDZabzBjRExDelF0cC1oZUVFWmJlVW96Y1FHX3Y4MzdpQjZCNHY1eEt0RWhhZDlFRHE0Tm1wNjV0UUZn?oc=5",
-          "published": "Thu, 08 Oct 2026 06:00:31 GMT",
-          "subreddit": "x",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
-          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
-          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83d\udea8 BIG IPO SIZE \u2260 BIG LISTING GAINS India has witnessed some of the largest IPOs in history, but their listing-day performance tells a very different story. \ud83d\udd39 Hyundai Motor India \u2014 \u20b927,859 Cr \u2192 -1.3% \ud83d\udd39 LIC \u2014 \u20b920,557 Cr \u2192 -8.1% \ud83d\udd39 Paytm \u2014 \u20b918,300 Cr \u2192 - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SUWdmWWdlQktYT091NW9YT1pHQS1jNnNBZmZnVzU4dllKTXk0Z2xaT0JMbGx6RjZSR1R3NkpkMmRjX2RTMmN6ZTNCUkdmMVNZeGFOcW9NSW9EdzdqbnNJQzd3?oc=5",
-          "published": "Thu, 08 Oct 2026 12:23:58 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "SBI",
-      "mentions": 3,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 3,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Top Indian Companies by Market Capitalization (September 24, 2026 Closing) Reliance Industries \u2014 \u20b916.5 Lakh Cr HDFC Bank \u2014 \u20b911.3 Lakh Cr Bharti Airtel \u2014 \u20b911.2 Lakh Cr ICICI Bank \u2014 \u20b99.6 Lakh Cr State Bank of India (SBI) \u2014 \u20b99.0 Lakh Cr Tata Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FNzY5cndRSFhieDZwRHhRZ0l2UElyaUxyNHhpemFJcDRWelh0NDhnVExhZEpQeWZCaklGMjhhOUxHQTNQMXJkYVhaMkkyMjc0LVdXYmVVenpUOGd1b0lMNkpHRVY2MU16c2JZVHZXRkU?oc=5",
-          "published": "Sun, 04 Oct 2026 04:03:00 GMT",
-          "subreddit": "x",
           "sentiment": "neutral"
         }
       ],
@@ -742,64 +335,7 @@
       "sufficient": false
     },
     {
-      "name": "Hyundai Motor India",
-      "mentions": 3,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 3,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Electric Car Sales September 2026 India Tata Motors \u2013 14,769 Mahindra & Mahindra \u2013 7,779 JSW MG Motor India \u2013 5,242 VinFast India \u2013 2,963 Kia India \u2013 1,263 Maruti Suzuki India \u2013 1,103 BYD India \u2013 836 Hyundai Motor India \u2013 792 BMW India \u2013 502 Tesla - X",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URnJrQWE2eWVnbG1wTWR3SzV1YjVXdDk3MEVsQ2ZKOHFRS0xRUW1sRndWeElIMDEtS0hhbHhLc3hLQk90cU5tRUsyUjV2NVU2UFdiZC1YbWNBRDBJc0puQUVkM3RrcmpFVEtFaA?oc=5",
-          "published": "Sun, 04 Oct 2026 05:41:01 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83e\udef5\ud83c\udffb Vahan Data \ud83d\udcc8 the Top -10 OEMs !! \ud83d\udcca Top-10 OEM Passenger Vehicle Registrations \u2014 September 2026 1. Maruti Suzuki \u2014 1,68,745 2. Tata Motors \u2014 56,972 3. Mahindra & Mahindra \u2014 56,743 4. Hyundai Motor India \u2014 49,998 5. Toyota Kirloskar Motor \u2014 - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HNDVvR2FKZVpvWjFCcDhVQ0NfejNuM2ZuWk9DSVZKU0UwUG5jNXRYQzdPdjlzUVVYX21mekNWdVM5ZHoySThpazJpWkd6N1JPMkIzU2VZdUdWekN0aUVaWm5hOA?oc=5",
-          "published": "Fri, 02 Oct 2026 11:34:02 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83d\udea8 BIG IPO SIZE \u2260 BIG LISTING GAINS India has witnessed some of the largest IPOs in history, but their listing-day performance tells a very different story. \ud83d\udd39 Hyundai Motor India \u2014 \u20b927,859 Cr \u2192 -1.3% \ud83d\udd39 LIC \u2014 \u20b920,557 Cr \u2192 -8.1% \ud83d\udd39 Paytm \u2014 \u20b918,300 Cr \u2192 - X",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SUWdmWWdlQktYT091NW9YT1pHQS1jNnNBZmZnVzU4dllKTXk0Z2xaT0JMbGx6RjZSR1R3NkpkMmRjX2RTMmN6ZTNCUkdmMVNZeGFOcW9NSW9EdzdqbnNJQzd3?oc=5",
-          "published": "Thu, 08 Oct 2026 12:23:58 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Consultancy Services",
-      "mentions": 2,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "HAL",
+      "name": "Reliance Industries",
       "mentions": 2,
       "bullish": 1,
       "bearish": 0,
@@ -807,24 +343,24 @@
       "bullish_pct": 100,
       "evidence": [
         {
-          "title": "\ud83c\uddee\ud83c\uddf3 Indian companies spending the most on R&D, FY2026 1. Mahindra & Mahindra: $647M 2. Reliance Industries: $532M 3. Tata Motors Passenger Vehicles: $322M 4. Hindustan Aeronautics: $318M 5. Dr. Reddy's Laboratories: $245M 6. Sun Pharmaceutical - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5obGRYSDNQMjdOVXQxaUhXSmZwQ04xYW1VMlA0SlpxNndXRmdlN0U0YWR6aDdfX0tqSlNMU3NUU09xdGotam9FTDQtVXNUdmtzMnpuYnZ3dDdlVS1ITFhobg?oc=5",
-          "published": "Wed, 07 Oct 2026 13:58:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
+          "title": "Share market update: BSE Sensex and NSE Nifty climbed in early trade, extended previous session rally, aided by buying in bank stocks, Reliance Industries, Trent and positive global cues amidst crude prices. https://ebx.sh/rF3vOr - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3RjY0ZIcW1tSEZRdUJWVUc2bzdDRlpqYlhMaDZ4VnZTU0UzWlpOQ2d0eENUMkFDTXF4cENWVEpUNGtLNnlXcnZGdWROMVNQeGZremh5eXY1UTR5Mllnd1BQSThUM2xzVmdWbHFwN0pjcTFIZzdsVnM0RG9tV0cxbDJnSEd2ZUh0ZFE3QVVpNkZHbGJxbVFpcVZlUDVFanVQa2xXUFBOc1pTMVY2QUFsRjdmdl9PWUd5Z0JYZE9BQnhveHZDcEN6bTdocXdDZ1IwT1lzMjdWQVIzdw?oc=5",
+          "published": "Tue, 06 Oct 2026 06:15:04 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish"
         },
         {
-          "title": "Lockheed Martin plan to expand india production if it wins $10 .5 billion aircraft deal 5 Indian companies, Tata Advanced Systems Limited (TASL), Mahindra Group, Adani Defence & Aerospace, Hindustan Aeronautics Limited (HAL) and Reliance Defence, are - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jT0k2ZFdUZXJibGNUX1ZwNnN2aXI1VlRtclJucWplYTVGNFhnQ2N5VWVnQmEwOUdKR0xMM01SNGM2WjlRM2Q0QmpvM250TUozRG9sQjdWbURnb3FWanZvZA?oc=5",
-          "published": "Sun, 04 Oct 2026 17:52:33 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
+          "title": "Reliance Industries, HDFC Bank, PC Jeweller, SBI, Coal India, Suzlon, ITC, L&T \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
+          "published": "Fri, 02 Oct 2026 15:00:07 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
         }
       ],
       "sufficient": false
     },
     {
-      "name": "Coal India",
+      "name": "Jio Financial",
       "mentions": 2,
       "bullish": 0,
       "bearish": 0,
@@ -832,16 +368,41 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "\ud83d\udcca KEY STOCKS IN FOCUS | 5 OCTOBER 2026 A fresh look at today\u2019s key corporate developments across coal & power, banking, IT, pharma, defence, real estate and infrastructure. \ud83d\udfe2 Positive: Coal India | HDFC Bank | Infosys | Aarti Industries | Aurobindo Pha - X",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XTk1lVGktZllya1QtYkZYX2VDMWxDdHNxYUNpUHRFUDB5NXA1Q3A5TlFjV1J3MXY2VDJPQWRfQ1FMR2VoYk0yaHBVcUp1MVI2R19pQUQyajJ3M1R5ZW1PemtYamV4TkU3bmhzS293?oc=5",
-          "published": "Mon, 05 Oct 2026 03:23:17 GMT",
-          "subreddit": "x",
+          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "Reliance Industries, HDFC Bank, PC Jeweller, SBI, Coal India, Suzlon, ITC, L&T \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
-          "published": "Fri, 02 Oct 2026 15:00:07 GMT",
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
+          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
+      "mentions": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
+          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         }
@@ -857,43 +418,54 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
-          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
+          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         },
         {
-          "title": "Good-quality stocks are correcting from their peaks!\ud83d\udcc9 BOI \u2013 78% IRFC \u2013 67% SJVN \u2013 66% NCC \u2013 64% Tata Motors \u2013 61% REC \u2013 56% Cyient \u2013 55% Trent \u2013 54% HUDCO \u2013 54% Godrej Properties \u2013 53% JSW Energy \u2013 40% NBCC \u2013 45% Astral \u2013 45% Voltas \u2013 - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wNFZfNlJvYzBvOEtDdHB5dTcwY2VmQXc0ODVlaUg4UmRNQV84OFFNcGhBOFZVSU8teU5aMXFMWHFqcnJESk9Sc2REMlRaZkNQcDNQTk1Pa042R0ZOenhmcjN5eEI?oc=5",
-          "published": "Sat, 03 Oct 2026 13:53:00 GMT",
-          "subreddit": "x",
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
+          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
       "sufficient": false
     },
     {
-      "name": "Axis Bank",
-      "mentions": 2,
-      "bullish": 1,
+      "name": "ICICI Bank",
+      "mentions": 1,
+      "bullish": 0,
       "bearish": 0,
       "neutral": 1,
-      "bullish_pct": 100,
+      "bullish_pct": null,
       "evidence": [
         {
-          "title": "#MarketsWithMC | Stock Market opens in Green!! Nifty opens at 22,560, Sensex gains; Axis Bank, Trent, Angel One, IEX in focus \ud83d\udd34Track LIVE updates \u2935\ufe0f https://t.co/H5aifRgvUE - X",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE04cDUwREVIV3ZXRExaeHJMUGFlVEFNcGgtMDdCaDBkRUo3UTlvRWlrYkdySkxqVllFNDBwaGNvbTdWLU8tWEpPczNTTWFsaE5qU2daZVRwbXp6aHk4ZHBrdkdGc1R1bERRMXk5V3N3b2pCUQ?oc=5",
-          "published": "Tue, 06 Oct 2026 03:50:56 GMT",
-          "subreddit": "x",
+          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
+          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral"
-        },
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
+      "mentions": 1,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
         {
-          "title": "Early Q2FY27 (quarter ended September 2026) Signals A : Credit is the clearest positive pocket. Multiple banks, SFBs and NBFCs have flagged healthy growth and, in several cases, decent asset quality. Axis Bank 22%+ growth with a decent QoQ uptick; Kota - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xSE1lVTNSVC11aThFTEJHRkwzWlZ0YWtXUk9ocjAydGZGQy1FMEJkd3hNWnVsQ21xZ3daMy1BVHBrWHR4YWM2YjdFZUhnb1RrbldaU1hfRnRmUmlvM1dLTA?oc=5",
-          "published": "Mon, 05 Oct 2026 16:34:48 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
+          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
+          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
         }
       ],
       "sufficient": false
@@ -935,7 +507,7 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
+      "name": "Coal India",
       "mentions": 1,
       "bullish": 0,
       "bearish": 0,
@@ -943,28 +515,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
-          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
+          "title": "Reliance Industries, HDFC Bank, PC Jeweller, SBI, Coal India, Suzlon, ITC, L&T \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
+          "published": "Fri, 02 Oct 2026 15:00:07 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "NBCC",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Good-quality stocks are correcting from their peaks!\ud83d\udcc9 BOI \u2013 78% IRFC \u2013 67% SJVN \u2013 66% NCC \u2013 64% Tata Motors \u2013 61% REC \u2013 56% Cyient \u2013 55% Trent \u2013 54% HUDCO \u2013 54% Godrej Properties \u2013 53% JSW Energy \u2013 40% NBCC \u2013 45% Astral \u2013 45% Voltas \u2013 - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wNFZfNlJvYzBvOEtDdHB5dTcwY2VmQXc0ODVlaUg4UmRNQV84OFFNcGhBOFZVSU8teU5aMXFMWHFqcnJESk9Sc2REMlRaZkNQcDNQTk1Pa042R0ZOenhmcjN5eEI?oc=5",
-          "published": "Sat, 03 Oct 2026 13:53:00 GMT",
-          "subreddit": "x",
           "sentiment": "neutral"
         }
       ],
@@ -983,24 +537,6 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
           "published": "Sat, 03 Oct 2026 11:06:28 GMT",
           "subreddit": "indexed_reddit",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "JSW Energy",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Good-quality stocks are correcting from their peaks!\ud83d\udcc9 BOI \u2013 78% IRFC \u2013 67% SJVN \u2013 66% NCC \u2013 64% Tata Motors \u2013 61% REC \u2013 56% Cyient \u2013 55% Trent \u2013 54% HUDCO \u2013 54% Godrej Properties \u2013 53% JSW Energy \u2013 40% NBCC \u2013 45% Astral \u2013 45% Voltas \u2013 - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wNFZfNlJvYzBvOEtDdHB5dTcwY2VmQXc0ODVlaUg4UmRNQV84OFFNcGhBOFZVSU8teU5aMXFMWHFqcnJESk9Sc2REMlRaZkNQcDNQTk1Pa042R0ZOenhmcjN5eEI?oc=5",
-          "published": "Sat, 03 Oct 2026 13:53:00 GMT",
-          "subreddit": "x",
           "sentiment": "neutral"
         }
       ],
@@ -1043,19 +579,19 @@
       "sufficient": false
     },
     {
-      "name": "Persistent Systems",
+      "name": "Maruti Suzuki",
       "mentions": 1,
-      "bullish": 1,
+      "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": 100,
+      "neutral": 1,
+      "bullish_pct": null,
       "evidence": [
         {
-          "title": "IT stocks rally on AI optimism; Persistent Systems, Wipro, TCS among top gainers https://t.co/J5qb6HCccr #ITStocks #AI #TCS #Wipro #PersistentSystems - X",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1NDFXdl9WeFpmTFBSVWVlc1VhU21Ea3VKaGZ2ZHJWMXBheENncmJ5anlwZHQxbS1TaV94QXYzR3kyNHkzVGlNWVJ4ZEpuZlhMb3hJQzRYZ0VMNG0zZC1NN29NZw?oc=5",
-          "published": "Mon, 05 Oct 2026 07:07:16 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
+          "title": "Tata Motors \u0927\u094b \u0926\u0947\u0917\u0940 Maruti Suzuki \u0915\u094b \ud83d\ude27 Brezza facelift, tata nexon,punch fronx, Sales Report Sep - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmOVdKNEVMekFISzN2Q3pnY3pweUxpQ2I2bmtSNmpvcmtoSGlWUnJ6WENhYnUxSEUxWHBIaTQybXdIdFpJR2FILVd0d25BRmh2MGVERWR3?oc=5",
+          "published": "Fri, 02 Oct 2026 11:46:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
         }
       ],
       "sufficient": false
@@ -1079,25 +615,47 @@
       "sufficient": false
     },
     {
-      "name": "Indian Hotels",
-      "mentions": 1,
+      "name": "SBI",
+      "mentions": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udea8 Largest Tata Group Companies by Employee Count \ud83d\udc68\u200d\ud83d\udcbc\ud83d\udcca \u2022 TCS \u2014 5,84,519 Employees \u2022 Tata Electronics \u2014 86,466 \u2022 Tata Steel \u2014 77,000 \u2022 Tata Motors (Passenger Vehicles) \u2014 60,332 \u2022 Tata Digital \u2014 41,523 \u2022 IHCL \u2014 39,475 \u2022 Air India \u2014 32,536 \u2022 Trent \u2014 - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53TTNkSUQwcTM2X1M2TmttWkhDdFRzSmRiWFdrbzVDam1aSUpiXzFJYUZmOGhjdUhrY1pnd2NzRWZmWkxzYVJfbVEzSk84V204OWNUcEcyOVlBOUgwWWFGYw?oc=5",
-          "published": "Fri, 02 Oct 2026 10:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
       "sufficient": false
     },
     {
       "name": "ITC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Enterprises",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "HAL",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
@@ -1187,6 +745,26 @@
       "sufficient": false
     },
     {
+      "name": "NBCC",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "JSW Energy",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Adani Power",
       "mentions": 0,
       "bullish": 0,
@@ -1237,7 +815,27 @@
       "sufficient": false
     },
     {
+      "name": "Axis Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Mahindra & Mahindra",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Hyundai Motor India",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
@@ -1367,7 +965,27 @@
       "sufficient": false
     },
     {
+      "name": "Persistent Systems",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Polycab",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Indian Hotels",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
