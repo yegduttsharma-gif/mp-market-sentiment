@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-09T12:57:37.102734+00:00",
+  "collected_at": "2026-10-09T13:27:17.344324+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 673,
+  "posts_collected": 676,
   "source_counts": {
     "IndianStockMarket": 99,
-    "tradingqna": 32,
+    "tradingqna": 34,
     "valuepickr": 9,
-    "indexed_reddit": 139,
+    "indexed_reddit": 140,
     "youtube": 198,
     "instagram": 99,
     "facebook": 97,
-    "total_unique": 673
+    "total_unique": 676
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -135,9 +135,9 @@
     },
     {
       "name": "Infosys",
-      "mentions": 5,
+      "mentions": 3,
       "bullish": 0,
-      "bearish": 5,
+      "bearish": 3,
       "neutral": 0,
       "bullish_pct": 0,
       "evidence": [
@@ -145,20 +145,6 @@
           "title": "US SUSPENDS IMMIGRATION PROGRAM FOR COGNIZANT, INFOSYS, TCS, REST IN PEACE INDIAN IT SECTOR",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0yw82/us_suspends_immigration_program_for_cognizant/",
           "published": "2026-10-08T18:36:49+00:00",
-          "subreddit": "IndianStockMarket",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "Terrible news for IT stocks - US suspends Microsoft, Infosys, TCS, Wipro, Cognizant from green card programme over alleged H-1B abuse",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0uuga/terrible_news_for_it_stocks_us_suspends_microsoft/",
-          "published": "2026-10-08T16:03:05+00:00",
-          "subreddit": "IndianStockMarket",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0ua0k/i_am_hereby_suspending_from_the_permanent_labor/",
-          "published": "2026-10-08T15:42:03+00:00",
           "subreddit": "IndianStockMarket",
           "sentiment": "bearish"
         },
