@@ -23,23 +23,73 @@ jobs:
         with:
           python-version: '3.12'
       - name: Collect public news
+        id: news
+        continue-on-error: true
+        timeout-minutes: 3
         run: python collect.py
       - name: Collect Bitcoin volatility and price
+        id: bitcoin
+        continue-on-error: true
+        timeout-minutes: 3
         run: python btc_volatility.py
       - name: Collect public Indian stock discussion signals
+        id: retail
+        continue-on-error: true
+        timeout-minutes: 8
         run: python retail_stocks.py
       - name: Collect NSE client CE versus PE long positions
+        id: options
+        continue-on-error: true
+        timeout-minutes: 3
         run: python client_options.py
       - name: Fetch index and India VIX quotes
+        id: market
+        continue-on-error: true
+        timeout-minutes: 3
         run: python market_quotes.py
       - name: Save dated VIX readings and prior close
+        id: vix
+        continue-on-error: true
+        timeout-minutes: 3
         run: python vix_history.py
+      - name: Record collector health
+        if: always()
+        env:
+          NEWS: ${{ steps.news.outcome }}
+          BITCOIN: ${{ steps.bitcoin.outcome }}
+          RETAIL: ${{ steps.retail.outcome }}
+          OPTIONS: ${{ steps.options.outcome }}
+          MARKET: ${{ steps.market.outcome }}
+          VIX: ${{ steps.vix.outcome }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from datetime import datetime,timezone
+          from pathlib import Path
+          files={"news":"data.json","bitcoin":"btc_volatility.json","retail":"retail_stocks.json","options":"client_options.json","market":"market.json","vix":"vix_history.json"}
+          checks={}
+          for key,path in files.items():
+              file=Path(path)
+              status=os.getenv(key.upper(),"unknown")
+              try:
+                  payload=json.loads(file.read_text()) if file.exists() else None
+                  valid=payload is not None
+                  stamp=payload.get("collected_at") if isinstance(payload,dict) else None
+              except (ValueError,OSError):
+                  valid=False
+                  stamp=None
+              checks[key]={"step":status,"file_valid":valid,"data_timestamp":stamp}
+          Path("collector_health.json").write_text(json.dumps({"checked_at":datetime.now(timezone.utc).isoformat(),"collectors":checks},indent=2)+"\\n")
+          print(json.dumps(checks,indent=2))
+          PY
       - name: Commit snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json market.json vix_history.json retail_stocks.json btc_volatility.json
-          if [ -f client_options.json ]; then git add client_options.json; fi
+          git add collector_health.json
+          for f in data.json market.json vix_history.json retail_stocks.json btc_volatility.json client_options.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           if git diff --cached --quiet; then
             echo "No snapshot changes"
             exit 0
