@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-09T02:22:52.975720+00:00",
+  "collected_at": "2026-10-09T02:51:05.687481+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,15 +15,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Public Reddit RSS and search-indexed Reddit, TradingQnA, ValuePickr, X, YouTube, Facebook and Instagram titles. Indexed coverage varies sharply by platform; not comprehensive, not retail holdings or a representative poll.",
-  "posts_collected": 837,
+  "posts_collected": 868,
   "source_counts": {
-    "IndianStockMarket": 97,
-    "indexed_reddit": 112,
+    "IndianStockMarket": 95,
+    "indexed_reddit": 146,
     "tradingqna": 34,
     "valuepickr": 8,
-    "x": 192,
-    "youtube": 199,
-    "facebook": 96,
+    "x": 191,
+    "youtube": 198,
+    "facebook": 97,
     "instagram": 99
   },
   "direct_feed_health": {
@@ -115,10 +115,10 @@
     {
       "name": "Tata Motors",
       "mentions": 54,
-      "bullish": 13,
+      "bullish": 12,
       "bearish": 2,
-      "neutral": 39,
-      "bullish_pct": 87,
+      "neutral": 40,
+      "bullish_pct": 86,
       "evidence": [
         {
           "title": "India\u2019s auto industry is not just Maruti, Tata Motors, Mahindra or Bajaj. Behind every vehicle is a massive ecosystem of companies making thousands of different parts. From steel & forgings to brakes, bearings, electronics, batteries and EV motors. Here\u2019s the co - X",
@@ -209,11 +209,11 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 14,
+      "mentions": 15,
       "bullish": 2,
-      "bearish": 1,
+      "bearish": 2,
       "neutral": 11,
-      "bullish_pct": 67,
+      "bullish_pct": 50,
       "evidence": [
         {
           "title": "Why Hdfcbank is falling even after getting a MD and CEO , seems market does not liked it ? - Reddit",
@@ -228,6 +228,13 @@
           "published": "Fri, 02 Oct 2026 05:44:42 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral"
+        },
+        {
+          "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
+          "published": "Thu, 08 Oct 2026 05:47:08 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
         },
         {
           "title": "HDFC Bank Elliott Wave - Reddit",
@@ -291,24 +298,17 @@
           "published": "Mon, 05 Oct 2026 09:30:00 GMT",
           "subreddit": "x",
           "sentiment": "neutral"
-        },
-        {
-          "title": "\ud83d\udcca KEY STOCKS IN FOCUS | 5 OCTOBER 2026 A fresh look at today\u2019s key corporate developments across coal & power, banking, IT, pharma, defence, real estate and infrastructure. \ud83d\udfe2 Positive: Coal India | HDFC Bank | Infosys | Aarti Industries | Aurobindo Pha - X",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XTk1lVGktZllya1QtYkZYX2VDMWxDdHNxYUNpUHRFUDB5NXA1Q3A5TlFjV1J3MXY2VDJPQWRfQ1FMR2VoYk0yaHBVcUp1MVI2R19pQUQyajJ3M1R5ZW1PemtYamV4TkU3bmhzS293?oc=5",
-          "published": "Mon, 05 Oct 2026 03:23:17 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
         }
       ],
       "sufficient": true
     },
     {
       "name": "Infosys",
-      "mentions": 6,
+      "mentions": 7,
       "bullish": 1,
-      "bearish": 4,
+      "bearish": 5,
       "neutral": 1,
-      "bullish_pct": 20,
+      "bullish_pct": 17,
       "evidence": [
         {
           "title": "US SUSPENDS IMMIGRATION PROGRAM FOR COGNIZANT, INFOSYS, TCS, REST IN PEACE INDIAN IT SECTOR",
@@ -335,6 +335,13 @@
           "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
           "published": "Thu, 08 Oct 2026 15:41:17 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "People who brought IT shares like TCS and Infosys during COVID (2020) sitting at near 0% gain today - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXdETHdhbG1CU3RnMndNVkFTQjRIekFaWG92a0Fjb0xETUJjMnh5OHBhb3JvdVVta1ZHQ1BQSTZlM1lXLXhoNDdDVVdsS1lkLXNMZ1RxTU5QdUlwb1ltMWQ4d2NDQUdjbm43eFpIcEl0WURNRTJyamZNTDJtbHVINDZmV0lTelJYaHV3M3RSNjBjZzJBTl84MWN1UmprV0g5SElTLWg5ZDNHTnFJd2E0?oc=5",
+          "published": "Sat, 03 Oct 2026 05:56:33 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "bearish"
         },
@@ -409,6 +416,52 @@
       "sufficient": false
     },
     {
+      "name": "Reliance Industries",
+      "mentions": 5,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 4,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Share market update: BSE Sensex and NSE Nifty climbed in early trade, extended previous session rally, aided by buying in bank stocks, Reliance Industries, Trent and positive global cues amidst crude prices. https://ebx.sh/rF3vOr - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3RjY0ZIcW1tSEZRdUJWVUc2bzdDRlpqYlhMaDZ4VnZTU0UzWlpOQ2d0eENUMkFDTXF4cENWVEpUNGtLNnlXcnZGdWROMVNQeGZremh5eXY1UTR5Mllnd1BQSThUM2xzVmdWbHFwN0pjcTFIZzdsVnM0RG9tV0cxbDJnSEd2ZUh0ZFE3QVVpNkZHbGJxbVFpcVZlUDVFanVQa2xXUFBOc1pTMVY2QUFsRjdmdl9PWUd5Z0JYZE9BQnhveHZDcEN6bTdocXdDZ1IwT1lzMjdWQVIzdw?oc=5",
+          "published": "Tue, 06 Oct 2026 06:15:04 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "\ud83c\uddee\ud83c\uddf3 Indian companies spending the most on R&D, FY2026 1. Mahindra & Mahindra: $647M 2. Reliance Industries: $532M 3. Tata Motors Passenger Vehicles: $322M 4. Hindustan Aeronautics: $318M 5. Dr. Reddy's Laboratories: $245M 6. Sun Pharmaceutical - X",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5obGRYSDNQMjdOVXQxaUhXSmZwQ04xYW1VMlA0SlpxNndXRmdlN0U0YWR6aDdfX0tqSlNMU3NUU09xdGotam9FTDQtVXNUdmtzMnpuYnZ3dDdlVS1ITFhobg?oc=5",
+          "published": "Wed, 07 Oct 2026 13:58:00 GMT",
+          "subreddit": "x",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
+          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
+          "subreddit": "x",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
+          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
+          "subreddit": "x",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, PC Jeweller, SBI, Coal India, Suzlon, ITC, L&T \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
+          "published": "Fri, 02 Oct 2026 15:00:07 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Paytm",
       "mentions": 5,
       "bullish": 0,
@@ -449,45 +502,6 @@
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SUWdmWWdlQktYT091NW9YT1pHQS1jNnNBZmZnVzU4dllKTXk0Z2xaT0JMbGx6RjZSR1R3NkpkMmRjX2RTMmN6ZTNCUkdmMVNZeGFOcW9NSW9EdzdqbnNJQzd3?oc=5",
           "published": "Thu, 08 Oct 2026 12:23:58 GMT",
           "subreddit": "x",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Reliance Industries",
-      "mentions": 4,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 3,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Share market update: BSE Sensex and NSE Nifty climbed in early trade, extended previous session rally, aided by buying in bank stocks, Reliance Industries, Trent and positive global cues amidst crude prices. https://ebx.sh/rF3vOr - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3RjY0ZIcW1tSEZRdUJWVUc2bzdDRlpqYlhMaDZ4VnZTU0UzWlpOQ2d0eENUMkFDTXF4cENWVEpUNGtLNnlXcnZGdWROMVNQeGZremh5eXY1UTR5Mllnd1BQSThUM2xzVmdWbHFwN0pjcTFIZzdsVnM0RG9tV0cxbDJnSEd2ZUh0ZFE3QVVpNkZHbGJxbVFpcVZlUDVFanVQa2xXUFBOc1pTMVY2QUFsRjdmdl9PWUd5Z0JYZE9BQnhveHZDcEN6bTdocXdDZ1IwT1lzMjdWQVIzdw?oc=5",
-          "published": "Tue, 06 Oct 2026 06:15:04 GMT",
-          "subreddit": "facebook",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3 Largest companies in India by market cap 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Lars - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UEZ2UGR5bXJ2Z2JZZlVNZ3JKUXdGeGlDbFhnV3pTNFljMkozWXJ1UjVBc0x3WHE5bVhVRjJXY1RtMGpORzQzbkZFTnU3eE83YlZxYVNuM1d3eGg4Tm04aA?oc=5",
-          "published": "Mon, 05 Oct 2026 11:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Largest companies in India by market cap!\ud83c\udfaf 1. Reliance Industries: $164.08B 2. HDFC Bank: $114.81B 3. Bharti Airtel: $112.79B 4. ICICI Bank: $98.48B 5. State Bank of India: $91.45B 6. Tata Consultancy Services: $77.95B 7. Bajaj Finance: $61.25B 8. Larse - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OZlE5QUNjbFVWYkVXbmROQW1iRFk1WmZaVDZXRU90Z0JSNWZxNFoyTEo2QmtLOE5fNlNlVEZzRDB4OFBGRG9sSElmblo1NTdaMlc5d19XeVd3dnIzc3YyMDNDSUg?oc=5",
-          "published": "Mon, 05 Oct 2026 09:30:00 GMT",
-          "subreddit": "x",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, PC Jeweller, SBI, Coal India, Suzlon, ITC, L&T \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbFp5UDZOdFlBU1VsZmpJRHZ1QXRSclhWTG8zMGxmbUVMSjBodW1iUVpwMHR5aTdNMjZhYnZURmlfcHBka3NFREg3aUt5bXl6bHdDUmV3?oc=5",
-          "published": "Fri, 02 Oct 2026 15:00:07 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -750,6 +764,31 @@
       "sufficient": false
     },
     {
+      "name": "HAL",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "\ud83c\uddee\ud83c\uddf3 Indian companies spending the most on R&D, FY2026 1. Mahindra & Mahindra: $647M 2. Reliance Industries: $532M 3. Tata Motors Passenger Vehicles: $322M 4. Hindustan Aeronautics: $318M 5. Dr. Reddy's Laboratories: $245M 6. Sun Pharmaceutical - X",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5obGRYSDNQMjdOVXQxaUhXSmZwQ04xYW1VMlA0SlpxNndXRmdlN0U0YWR6aDdfX0tqSlNMU3NUU09xdGotam9FTDQtVXNUdmtzMnpuYnZ3dDdlVS1ITFhobg?oc=5",
+          "published": "Wed, 07 Oct 2026 13:58:00 GMT",
+          "subreddit": "x",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Lockheed Martin plan to expand india production if it wins $10 .5 billion aircraft deal 5 Indian companies, Tata Advanced Systems Limited (TASL), Mahindra Group, Adani Defence & Aerospace, Hindustan Aeronautics Limited (HAL) and Reliance Defence, are - X",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jT0k2ZFdUZXJibGNUX1ZwNnN2aXI1VlRtclJucWplYTVGNFhnQ2N5VWVnQmEwOUdKR0xMM01SNGM2WjlRM2Q0QmpvM250TUozRG9sQjdWbURnb3FWanZvZA?oc=5",
+          "published": "Sun, 04 Oct 2026 17:52:33 GMT",
+          "subreddit": "x",
+          "sentiment": "bullish"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "BHEL",
       "mentions": 2,
       "bullish": 0,
@@ -850,6 +889,31 @@
       "sufficient": false
     },
     {
+      "name": "Vodafone Idea",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Thoughts on Vodafone Idea for long term? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHpNR0EwaGF6MEdrbjNzbi1haGhYNnIxamtKZ3hfR1dtQV9TVjhnNDI4WUs2WDgzWXFxSHdWQTZNSGJ1M2psRU9pV1R5T0JibERNWC05RzVuS2dpaW9VZElNVnRCd2VodUVQV1hCekJ6QXVtNFBNalZrMW4yMndfRjhCdFJnYW5Rb0FGSHNTeV9wT3pOaDdOSWkyWmFaZ0xvMkE?oc=5",
+          "published": "Mon, 05 Oct 2026 04:59:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
+          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Tata Power",
       "mentions": 2,
       "bullish": 0,
@@ -900,24 +964,6 @@
       "sufficient": false
     },
     {
-      "name": "HAL",
-      "mentions": 1,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Lockheed Martin plan to expand india production if it wins $10 .5 billion aircraft deal 5 Indian companies, Tata Advanced Systems Limited (TASL), Mahindra Group, Adani Defence & Aerospace, Hindustan Aeronautics Limited (HAL) and Reliance Defence, are - X",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jT0k2ZFdUZXJibGNUX1ZwNnN2aXI1VlRtclJucWplYTVGNFhnQ2N5VWVnQmEwOUdKR0xMM01SNGM2WjlRM2Q0QmpvM250TUozRG9sQjdWbURnb3FWanZvZA?oc=5",
-          "published": "Sun, 04 Oct 2026 17:52:33 GMT",
-          "subreddit": "x",
-          "sentiment": "bullish"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IREDA",
       "mentions": 1,
       "bullish": 0,
@@ -930,24 +976,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkWE5raEQ2YVNyU2N3RC1sZ09kcWhCQV9PaDNoLV9VcXVxLUZROE85c21HZ0x3WGlqS2JPY0tGaVlyX2haVkQxeDRKUU9HbTgzUEhteTZR?oc=5",
           "published": "Fri, 02 Oct 2026 08:00:09 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Vodafone Idea",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
-          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
@@ -1035,7 +1063,7 @@
       "evidence": [
         {
           "title": "Stocks That Closed Below Their Previous 52-Week Lows Today \ud83d\udcc9 - ONGC - REC - Voltas - Chambal Fertilisers - Power Finance Corporation (PFC) - KPIT Technologies - Happiest Minds Technologies - Crompton Greaves Consumer Electricals - Godrej Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RRUxyLWlnbW5DdVlpdnNTenQ2Tm5CMWtXWFVud3VyaHFweEFwcEhqSXI3TVBDdDBHdDFBcUVlOC1tQXpNWEtlYU5xVldWVUpwYTNvRm0wZVBUOEVjeXdCc1FYdmg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tWjdVV2xPWFpxejJDODdaeDFyVHlWVnJueHdzajNvSGtfZkVKS2t2VVJmaXdxdzl1Tk02OW1RMVlvSWt1SnlnaTgwc0FrSWxBU0tVa3M0M25UX2ZkZm12aHd4bHZXNTdCT1RKUUtjOHo2RVlBOFE?oc=5",
           "published": "Fri, 02 Oct 2026 05:30:00 GMT",
           "subreddit": "x",
           "sentiment": "neutral"
@@ -1071,7 +1099,7 @@
       "evidence": [
         {
           "title": "Stocks That Closed Below Their Previous 52-Week Lows Today \ud83d\udcc9 - ONGC - REC - Voltas - Chambal Fertilisers - Power Finance Corporation (PFC) - KPIT Technologies - Happiest Minds Technologies - Crompton Greaves Consumer Electricals - Godrej Consu - X",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RRUxyLWlnbW5DdVlpdnNTenQ2Tm5CMWtXWFVud3VyaHFweEFwcEhqSXI3TVBDdDBHdDFBcUVlOC1tQXpNWEtlYU5xVldWVUpwYTNvRm0wZVBUOEVjeXdCc1FYdmg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tWjdVV2xPWFpxejJDODdaeDFyVHlWVnJueHdzajNvSGtfZkVKS2t2VVJmaXdxdzl1Tk02OW1RMVlvSWt1SnlnaTgwc0FrSWxBU0tVa3M0M25UX2ZkZm12aHd4bHZXNTdCT1RKUUtjOHo2RVlBOFE?oc=5",
           "published": "Fri, 02 Oct 2026 05:30:00 GMT",
           "subreddit": "x",
           "sentiment": "neutral"
