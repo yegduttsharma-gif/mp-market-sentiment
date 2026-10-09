@@ -79,7 +79,7 @@ jobs:
                   valid=False
                   stamp=None
               checks[key]={"step":status,"file_valid":valid,"data_timestamp":stamp}
-          Path("collector_health.json").write_text(json.dumps({"checked_at":datetime.now(timezone.utc).isoformat(),"collectors":checks},indent=2)+"\\n")
+          Path("collector_health.json").write_text(json.dumps({"checked_at":datetime.now(timezone.utc).isoformat(),"collectors":checks},indent=2)+chr(10))
           print(json.dumps(checks,indent=2))
           PY
       - name: Commit snapshot
