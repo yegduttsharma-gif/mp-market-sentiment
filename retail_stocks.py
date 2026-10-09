@@ -63,12 +63,12 @@ STOCKS={
 "CG Power":["cg power"],
 "Indian Hotels":["indian hotels","ihcl"],
 }
-POS=set("buy buying bought accumulate accumulating bullish upside breakout multibagger undervalued conviction hold holding long opportunity strong upside rebound rally outperform".split())
+POS=set("buy buying bought accumulate accumulating bullish upside breakout multibagger undervalued conviction hold holding long opportunity strong rebound rally outperform".split())
 NEG=set("sell selling sold bearish overvalued avoid crash falling weak loss losses trap dump short downside".split())
 NEG |= set("suspend suspends suspended suspending suspension ban banned bans restriction restrictions investigation investigations probe probes fraud alleged allegations terrible layoffs layoff fired firing recession crisis slump collapse collapses collapsed plunge plunges losses warning downgrade downgraded".split())
 POS |= set("approval approved approves expansion expands expanded growth grows growing contract contracts order orders wins won profit profits profitable upgrade upgraded record recovery".split())
-NEG_PHRASES=("rest in peace","green card programme","green card program","immigration program","immigration programme","labor certification","labour certification","near 0% gain","near zero gain","regulatory action","regulatory crackdown","under investigation","h-1b abuse","h1b abuse")
-POS_PHRASES=("beats estimates","record profit","strong earnings","raises guidance","new order win","wins contract","receives approval","all time high","all-time high")
+NEG_PHRASES=("not a buy","do not buy","dont buy","avoid buying","not bullish","no upside","sell on rise","rest in peace","green card programme","green card program","immigration program","immigration programme","labor certification","labour certification","near 0% gain","near zero gain","regulatory action","regulatory crackdown","under investigation","h-1b abuse","h1b abuse")
+POS_PHRASES=("not bearish","do not sell","dont sell","buy on dips","beats estimates","record profit","strong earnings","raises guidance","new order win","wins contract","receives approval","all time high","all-time high")
 def direction(title):
  t=title.lower()
  words=set(re.findall(r"[a-z]+",t))
