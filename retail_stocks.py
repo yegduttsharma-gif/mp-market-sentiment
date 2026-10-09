@@ -173,8 +173,13 @@ with ThreadPoolExecutor(max_workers=6) as pool:
   except Exception as e: failures.append("Indexed search "+type(e).__name__)
 # Preserve the original source URL, prefer direct forum links to indexed duplicates.
 posts.sort(key=lambda p: (p["subreddit"] in ("tradingqna","valuepickr","IndianStockMarket","IndianStreetBets")),reverse=True)
-posts=list({re.sub(r"\\s+"," ",re.sub(r" - (Reddit|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I).strip().lower()):p for p in posts}.values())
+unique={}
+for p in posts:
+ key=re.sub(r"\\s+"," ",re.sub(r" - (Reddit|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I).strip().lower())
+ if key not in unique: unique[key]=p
+posts=list(unique.values())
 source_counts=dict(Counter(p["subreddit"] for p in posts))
+source_counts["total_unique"]=len(posts)
 
 rows=[]
 for name,aliases in STOCKS.items():
