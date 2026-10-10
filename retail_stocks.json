@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T01:23:37.146856+00:00",
+  "collected_at": "2026-10-10T01:51:26.121338+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 676,
+  "posts_collected": 677,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 8,
     "indexed_reddit": 138,
     "youtube": 199,
-    "instagram": 99,
+    "instagram": 100,
     "facebook": 98,
-    "total_unique": 676
+    "total_unique": 677
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -322,31 +322,6 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 2,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "IREDA Stock Crash: Share Falls 64% From All-Time High | What Went Wrong? | @SakshiTVBusiness1 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJRzVJMXhvRE5uMWRMVUZFU19DblFRZDdRSkRhWjRRM2xDNmtBQy1IeVRhYVpaQnM4TE9PYUJhaFE5bHVPdllDZjQ5c01iTV9wdUdmcXZR?oc=5",
-          "published": "Tue, 06 Oct 2026 12:00:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
-          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Jio Financial",
       "mentions": 2,
       "bullish": 0,
@@ -483,6 +458,24 @@
       "sufficient": false
     },
     {
+      "name": "IREDA",
+      "mentions": 1,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
+          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "RVNL",
       "mentions": 1,
       "bullish": 0,
@@ -510,8 +503,8 @@
       "evidence": [
         {
           "title": "Tata Power and Power Grid both fell on October 1 right after the government announced a major new transmission programme. A good example of stock price and business news moving in opposite directions - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQkNQX3RJa09DQmp2WWgxVVJaa1FhdFlMRTdxblJrSEZLYVdhYzVHSXRrUnYybk5PN0I0SXNXbmNGNWhNQVRLaVhJVEtxaHFzVnFCX2FxZzVnQ0I4a2RDOXIyM3Y0WGE5VC1FZDZUdnpHV29IS0FYWnJfMjJfaGdSaGhHQ0dSb29iRmJZTjA3OERyTFNWYWJlMk45WU5WTkFkdXUyUVlQS3hVT2lo?oc=5",
-          "published": "Mon, 05 Oct 2026 11:44:19 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
+          "published": "Sat, 03 Oct 2026 11:06:28 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral"
         }
