@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T05:49:55.489552+00:00",
+  "collected_at": "2026-10-10T06:28:06.078912+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 676,
+  "posts_collected": 678,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 10,
-    "indexed_reddit": 137,
+    "indexed_reddit": 138,
     "youtube": 199,
-    "facebook": 97,
     "instagram": 99,
-    "total_unique": 676
+    "facebook": 98,
+    "total_unique": 678
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -40,10 +40,10 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 16,
+      "mentions": 15,
       "bullish": 5,
       "bearish": 2,
-      "neutral": 9,
+      "neutral": 8,
       "bullish_pct": 71,
       "evidence": [
         {
@@ -128,38 +128,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Sc20xdEYzTUVHX0pWbmtFQTlreDBWQkNETEhtaHVPS3V0MmRVY0ZmRk50QTE5RTRFM3NlbzN5bncxOG1aVU1oWnV2Y3JFS044RHdUZ1h3?oc=5",
           "published": "Thu, 08 Oct 2026 16:03:54 GMT",
           "subreddit": "youtube",
-          "sentiment": "bullish"
-        }
-      ],
-      "sufficient": true
-    },
-    {
-      "name": "Infosys",
-      "mentions": 3,
-      "bullish": 1,
-      "bearish": 2,
-      "neutral": 0,
-      "bullish_pct": 33,
-      "evidence": [
-        {
-          "title": "People who brought IT shares like TCS and Infosys during COVID (2020) sitting at near 0% gain today - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXdETHdhbG1CU3RnMndNVkFTQjRIekFaWG92a0Fjb0xETUJjMnh5OHBhb3JvdVVta1ZHQ1BQSTZlM1lXLXhoNDdDVVdsS1lkLXNMZ1RxTU5QdUlwb1ltMWQ4d2NDQUdjbm43eFpIcEl0WURNRTJyamZNTDJtbHVINDZmV0lTelJYaHV3M3RSNjBjZzJBTl84MWN1UmprV0g5SElTLWg5ZDNHTnFJd2E0?oc=5",
-          "published": "Sat, 03 Oct 2026 05:56:33 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
-          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "Sensex bounced back by 900 points, adding around \u20b94 lakh crore to investor wealth in a single day. IT stocks led the recovery, with TCS, Infosys and HCLTech gaining. #aismschool - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vMDFDMTg5NVR4YlFjOUgzWU5JOXI3c1lZSWFMd29FNTFRc0I5WGRHYTF2RWwyMUJicVdfYzFhSzhQdHlyQVkzZElmUXRCZGdHREE?oc=5",
-          "published": "Fri, 09 Oct 2026 16:42:15 GMT",
-          "subreddit": "instagram",
           "sentiment": "bullish"
         }
       ],
@@ -251,38 +219,6 @@
       "sufficient": false
     },
     {
-      "name": "Suzlon Energy",
-      "mentions": 3,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 3,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
-          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
-          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Suzlon Energy Big Update | JSW vs Tata Motors vs Ashok Leyland | Suzlon Stock Market News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsYlM5cFQzckd3SEtyYklsYjdYNDNPLXk5VnpVN20xdENkcm1UTjZQUk5sNmZJSVZha1hrdTBqTFpaSVhjaVhMd2VJbnotX2NyOEhOQ1dR?oc=5",
-          "published": "Sat, 03 Oct 2026 14:50:59 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Kotak Bank",
       "mentions": 3,
       "bullish": 0,
@@ -340,6 +276,31 @@
       "sufficient": false
     },
     {
+      "name": "Infosys",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 1,
+      "neutral": 0,
+      "bullish_pct": 50,
+      "evidence": [
+        {
+          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
+          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "Sensex bounced back by 900 points, adding around \u20b94 lakh crore to investor wealth in a single day. IT stocks led the recovery, with TCS, Infosys and HCLTech gaining. #aismschool - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vMDFDMTg5NVR4YlFjOUgzWU5JOXI3c1lZSWFMd29FNTFRc0I5WGRHYTF2RWwyMUJicVdfYzFhSzhQdHlyQVkzZElmUXRCZGdHREE?oc=5",
+          "published": "Fri, 09 Oct 2026 16:42:15 GMT",
+          "subreddit": "instagram",
+          "sentiment": "bullish"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IREDA",
       "mentions": 2,
       "bullish": 1,
@@ -383,6 +344,31 @@
           "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
           "published": "Thu, 08 Oct 2026 11:48:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
+          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         }
@@ -528,24 +514,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56QVFtVUpCUzFBNjE2RU5NMk5HLTNHQ1o2VG4xSHhuWkpkclFONktXYWRWNjFnamxSTWRkNUE0RHZlNlhvWjM4ZktBNGpma0J4TEh1OFJR?oc=5",
           "published": "Tue, 06 Oct 2026 01:30:04 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
-          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
@@ -781,6 +749,16 @@
     },
     {
       "name": "Axis Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
