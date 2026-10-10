@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T02:22:46.602269+00:00",
+  "collected_at": "2026-10-10T02:51:23.761175+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 678,
+  "posts_collected": 676,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 8,
     "indexed_reddit": 139,
     "youtube": 199,
-    "instagram": 100,
-    "facebook": 98,
-    "total_unique": 678
+    "facebook": 97,
+    "instagram": 99,
+    "total_unique": 676
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -135,19 +135,12 @@
     },
     {
       "name": "Infosys",
-      "mentions": 4,
+      "mentions": 3,
       "bullish": 1,
-      "bearish": 3,
+      "bearish": 2,
       "neutral": 0,
-      "bullish_pct": 25,
+      "bullish_pct": 33,
       "evidence": [
-        {
-          "title": "US SUSPENDS IMMIGRATION PROGRAM FOR COGNIZANT, INFOSYS, TCS, REST IN PEACE INDIAN IT SECTOR",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0yw82/us_suspends_immigration_program_for_cognizant/",
-          "published": "2026-10-08T18:36:49+00:00",
-          "subreddit": "IndianStockMarket",
-          "sentiment": "bearish"
-        },
         {
           "title": "People who brought IT shares like TCS and Infosys during COVID (2020) sitting at near 0% gain today - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXdETHdhbG1CU3RnMndNVkFTQjRIekFaWG92a0Fjb0xETUJjMnh5OHBhb3JvdVVta1ZHQ1BQSTZlM1lXLXhoNDdDVVdsS1lkLXNMZ1RxTU5QdUlwb1ltMWQ4d2NDQUdjbm43eFpIcEl0WURNRTJyamZNTDJtbHVINDZmV0lTelJYaHV3M3RSNjBjZzJBTl84MWN1UmprV0g5SElTLWg5ZDNHTnFJd2E0?oc=5",
@@ -174,10 +167,10 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 7,
+      "mentions": 6,
       "bullish": 0,
       "bearish": 2,
-      "neutral": 5,
+      "neutral": 4,
       "bullish_pct": 0,
       "evidence": [
         {
@@ -212,13 +205,6 @@
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Moneyview IPO latest news, HDFC Bank, Bajaj Finance, Vi, LG Electronics share | Watch Stock Market Live with Varun Joshi and Mudit Goyal : https://www.youtube.com/live/TWriUDDT9w8 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEJSV1VUTmk4VFVHOE0yaUN1QXJWWkt6aU1icTJwcDNXVzB0YmhtZzJLVTg2N0tKZkU1VDdzV05GZGpneG5pQWZrcGNaaWp1X1lOcWxEbEQtbXU5MF9aMHNzZUN5NUtHV3d6bWFYOEJwdHR6WGJyQlI1NTlNUjZfYjg2dm9qS3NVNExKUmM2WHZUQVRaMHJ5WlpXTU9yVmtzcXdQdE9CelpubEs3d2REWHlPdExYM19yUVpaMElqUThmYmdXTHBVNWVxeERCNm8tbXB4bUgxbno1cFQ3RjV3?oc=5",
-          "published": "Sat, 03 Oct 2026 05:05:47 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral"
         },
@@ -392,17 +378,17 @@
     {
       "name": "ICICI Bank",
       "mentions": 1,
-      "bullish": 0,
+      "bullish": 1,
       "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
+      "neutral": 0,
+      "bullish_pct": 100,
       "evidence": [
         {
-          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
-          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
         }
       ],
       "sufficient": false
@@ -492,24 +478,6 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
           "published": "Sat, 03 Oct 2026 11:06:28 GMT",
           "subreddit": "indexed_reddit",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Ports",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market Live | HCL tech Share, Asian Paints, JSW cement, Titan, adani ports share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 | Watch Live Now : https://www.youtube.com/live/CNRwoU5xdr8 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUVFXRjlWcEZOWHl2QTFJRzQ0cjNtbW50TW1tOTRmZXFSZ0tmS3oxNm1YVUd4aWptelJxWVVqWkFKdXc3RV9rX3VPYmM5cFhRNTFkLXd2UHNwZjE0aWRoWV9LWE4yZGZyWHU4RkdkdFp1N3czc0o1SG1EcHh2RGVfUGowNXRrR3JRbFFZZmlHaDdQVUVoVWg0VVloZ1NHTE5yRk01dDkwSkJmVUI2MmFFQjRlWi1rcFBtdXZ5WVZJTEYtVHVla05iaEhDRXh2WjhoaUs2RVdteTZnQXNBZlBJ?oc=5",
-          "published": "Wed, 07 Oct 2026 03:07:53 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
@@ -741,6 +709,16 @@
     },
     {
       "name": "Adani Green",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Ports",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
