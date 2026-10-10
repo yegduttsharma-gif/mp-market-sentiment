@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T02:51:23.761175+00:00",
+  "collected_at": "2026-10-10T03:23:17.743881+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 676,
+  "posts_collected": 677,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 8,
     "indexed_reddit": 139,
     "youtube": 199,
-    "facebook": 97,
     "instagram": 99,
-    "total_unique": 676
+    "facebook": 98,
+    "total_unique": 677
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -167,10 +167,10 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 6,
+      "mentions": 7,
       "bullish": 0,
       "bearish": 2,
-      "neutral": 4,
+      "neutral": 5,
       "bullish_pct": 0,
       "evidence": [
         {
@@ -205,6 +205,13 @@
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Moneyview IPO latest news, HDFC Bank, Bajaj Finance, Vi, LG Electronics share | Watch Stock Market Live with Varun Joshi and Mudit Goyal : https://www.youtube.com/live/TWriUDDT9w8 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEJSV1VUTmk4VFVHOE0yaUN1QXJWWkt6aU1icTJwcDNXVzB0YmhtZzJLVTg2N0tKZkU1VDdzV05GZGpneG5pQWZrcGNaaWp1X1lOcWxEbEQtbXU5MF9aMHNzZUN5NUtHV3d6bWFYOEJwdHR6WGJyQlI1NTlNUjZfYjg2dm9qS3NVNExKUmM2WHZUQVRaMHJ5WlpXTU9yVmtzcXdQdE9CelpubEs3d2REWHlPdExYM19yUVpaMElqUThmYmdXTHBVNWVxeERCNm8tbXB4bUgxbno1cFQ3RjV3?oc=5",
+          "published": "Sat, 03 Oct 2026 05:05:47 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral"
         },
@@ -283,6 +290,31 @@
       "sufficient": false
     },
     {
+      "name": "ICICI Bank",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
+          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IREDA",
       "mentions": 2,
       "bullish": 1,
@@ -333,6 +365,56 @@
       "sufficient": false
     },
     {
+      "name": "Paytm",
+      "mentions": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
+          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
+          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IRFC",
       "mentions": 2,
       "bullish": 0,
@@ -376,24 +458,6 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
-      "mentions": 1,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
-          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "bullish": 0,
@@ -430,42 +494,6 @@
       "sufficient": false
     },
     {
-      "name": "Paytm",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
-          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
-          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Tata Power",
       "mentions": 1,
       "bullish": 0,
@@ -478,6 +506,24 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
           "published": "Sat, 03 Oct 2026 11:06:28 GMT",
           "subreddit": "indexed_reddit",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Ports",
+      "mentions": 1,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Live | HCL tech Share, Asian Paints, JSW cement, Titan, adani ports share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 | Watch Live Now : https://www.youtube.com/live/CNRwoU5xdr8 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUVFXRjlWcEZOWHl2QTFJRzQ0cjNtbW50TW1tOTRmZXFSZ0tmS3oxNm1YVUd4aWptelJxWVVqWkFKdXc3RV9rX3VPYmM5cFhRNTFkLXd2UHNwZjE0aWRoWV9LWE4yZGZyWHU4RkdkdFp1N3czc0o1SG1EcHh2RGVfUGowNXRrR3JRbFFZZmlHaDdQVUVoVWg0VVloZ1NHTE5yRk01dDkwSkJmVUI2MmFFQjRlWi1rcFBtdXZ5WVZJTEYtVHVla05iaEhDRXh2WjhoaUs2RVdteTZnQXNBZlBJ?oc=5",
+          "published": "Wed, 07 Oct 2026 03:07:53 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
@@ -709,16 +755,6 @@
     },
     {
       "name": "Adani Green",
-      "mentions": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Ports",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
