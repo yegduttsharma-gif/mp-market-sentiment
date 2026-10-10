@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T12:55:00.107700+00:00",
+  "collected_at": "2026-10-10T13:22:37.103986+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 681,
+  "posts_collected": 680,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 9,
     "indexed_reddit": 140,
     "youtube": 200,
-    "instagram": 100,
+    "instagram": 99,
     "facebook": 98,
-    "total_unique": 681
+    "total_unique": 680
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -40,16 +40,23 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 16,
+      "mentions": 17,
       "bullish": 4,
       "bearish": 2,
-      "neutral": 10,
+      "neutral": 11,
       "bullish_pct": 67,
       "evidence": [
         {
           "title": "TMCV Share Price: Tata Motors CV \u092a\u0930 Gaurang Shah \u0915\u0940 \u0930\u093e\u092f | Tata Motors Share Price | Business News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mSHZVMURTMmI5dHVaQnhxeW1fa0sycldLcG5NNVI1VjVWcU5BdGNGUXBlTHZrdW45eG1WVEF0VEYydC1EWW5SdWEwSnlBUV81aFN5bXhn?oc=5",
           "published": "Sat, 10 Oct 2026 08:15:04 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Tata Motors Commercial Vehicles | Durga Puja - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fUUZhU3g2bVh1QUpTaFRiOTdIMU12SV8zc0kxclBYR3o2OTYtRVdaYUJUak1QS1FaWkU5Z3FPWk5oZlNYSUo5THNLUWVhSFc3M3ZBUmlB?oc=5",
+          "published": "Sat, 10 Oct 2026 11:56:59 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         },
@@ -122,13 +129,6 @@
           "published": "Tue, 06 Oct 2026 10:22:54 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
-        },
-        {
-          "title": "Tata Motors Targets 1 Lakh Cars a Month, Is a Major Capacity Expansion Coming? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Sc20xdEYzTUVHX0pWbmtFQTlreDBWQkNETEhtaHVPS3V0MmRVY0ZmRk50QTE5RTRFM3NlbzN5bncxOG1aVU1oWnV2Y3JFS044RHdUZ1h3?oc=5",
-          "published": "Thu, 08 Oct 2026 16:03:54 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish"
         }
       ],
       "sufficient": true
@@ -184,17 +184,17 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
-          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -407,6 +407,31 @@
       "sufficient": false
     },
     {
+      "name": "Infosys",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 1,
+      "neutral": 0,
+      "bullish_pct": 50,
+      "evidence": [
+        {
+          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
+          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bearish"
+        },
+        {
+          "title": "Sensex bounced back by 900 points, adding around \u20b94 lakh crore to investor wealth in a single day. IT stocks led the recovery, with TCS, Infosys and HCLTech gaining. #aismschool - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vMDFDMTg5NVR4YlFjOUgzWU5JOXI3c1lZSWFMd29FNTFRc0I5WGRHYTF2RWwyMUJicVdfYzFhSzhQdHlyQVkzZElmUXRCZGdHREE?oc=5",
+          "published": "Fri, 09 Oct 2026 16:42:15 GMT",
+          "subreddit": "instagram",
+          "sentiment": "bullish"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "RVNL",
       "mentions": 2,
       "bullish": 0,
@@ -415,17 +440,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
-          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
+          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -445,24 +470,6 @@
           "published": "Tue, 06 Oct 2026 06:15:04 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 1,
-      "neutral": 0,
-      "bullish_pct": 0,
-      "evidence": [
-        {
-          "title": "I am hereby suspending from the Permanent Labor Certification Program some of the largest IT outsourcing firms in the world \u2014 Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini \u2014 and also, due to multiple active federal investigations, - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcVFoeENKRzRTUkx5XzNZbENKVFJ4LS1COVkxYjg4QUtGMzRmOGZPNWZCWXh3dHZtUFBjaFVSZkxVMVZvcm9sOWY1OTFrNmhONXFBV2RjOXlBcERuTDc3NG1zbUpqNjFCc2tWcHhaNl95TjE0RG83anNjTmpxeW5hM1p5VnNnVFdUZC15cC1EMnVaaFhsY19pVjY3WG8xNVRUNEF4Y0I1aTRfbUU?oc=5",
-          "published": "Thu, 08 Oct 2026 15:41:17 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bearish"
         }
       ],
       "sufficient": false
