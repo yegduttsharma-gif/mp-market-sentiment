@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T22:49:12.261017+00:00",
+  "collected_at": "2026-10-10T23:21:01.885994+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 682,
+  "posts_collected": 683,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 8,
-    "indexed_reddit": 142,
+    "indexed_reddit": 143,
     "youtube": 200,
     "facebook": 99,
     "instagram": 99,
-    "total_unique": 682
+    "total_unique": 683
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -40,10 +40,10 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 15,
+      "mentions": 18,
       "bullish": 4,
       "bearish": 2,
-      "neutral": 9,
+      "neutral": 12,
       "bullish_pct": 67,
       "evidence": [
         {
@@ -103,6 +103,13 @@
           "sentiment": "bullish"
         },
         {
+          "title": "Tata Motors Biggest Update Out | Assessment Mails | Tata Motors SHL Assessment & Interview - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2TF9MeHM3aldSQW84d3ZaQ0NoWlZiQ29JeGxJTUxja1l6akJsRUVVRGRXeDhBcGhwVGEyZG83eXpXTmE3RGcyVUd4elFzLW5ZU3JuSTF3?oc=5",
+          "published": "Thu, 08 Oct 2026 05:24:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
           "title": "Dream Come True Moment for Satish K Videos \ud83d\udd25 #tatamotors - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03R2stVEJPXzU0ODI2WlpCNzBqMG5KM185STBSVC1OZEp2RTdybXpnWTBKU2FlUTkzYnZLdk90emVMNDk4SWptaWNac002ckJjclFEQ053?oc=5",
           "published": "Fri, 09 Oct 2026 06:46:33 GMT",
@@ -110,9 +117,9 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Tata Motors Biggest Update Out | Assessment Mails | Tata Motors SHL Assessment & Interview - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2TF9MeHM3aldSQW84d3ZaQ0NoWlZiQ29JeGxJTUxja1l6akJsRUVVRGRXeDhBcGhwVGEyZG83eXpXTmE3RGcyVUd4elFzLW5ZU3JuSTF3?oc=5",
-          "published": "Thu, 08 Oct 2026 05:24:30 GMT",
+          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
+          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         },
@@ -122,13 +129,6 @@
           "published": "Sun, 04 Oct 2026 08:58:25 GMT",
           "subreddit": "youtube",
           "sentiment": "bearish"
-        },
-        {
-          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
-          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
         }
       ],
       "sufficient": true
@@ -336,38 +336,6 @@
       "sufficient": false
     },
     {
-      "name": "IRFC",
-      "mentions": 3,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
-          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
-          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "IRFC Share Price: \u0928\u090f 52 Weeks Low \u092a\u0930 \u0906\u092f\u093e IRFC \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | Business News | ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14dFZzdkxWMGZmSGFFYTRVQmJHaC1JNEhzRW9RMFlOSGRKdWlfM1Z0VnU2eHU1MTIyXzhDSWxSVV9LMEdBRjhoVVdwY1NWbVNVMUx1ajBB?oc=5",
-          "published": "Fri, 09 Oct 2026 04:38:01 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Kotak Bank",
       "mentions": 3,
       "bullish": 0,
@@ -451,6 +419,31 @@
     },
     {
       "name": "Jio Financial",
+      "mentions": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
+          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IRFC",
       "mentions": 2,
       "bullish": 0,
       "bearish": 0,
