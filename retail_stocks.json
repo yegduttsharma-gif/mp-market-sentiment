@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T22:21:52.006538+00:00",
+  "collected_at": "2026-10-10T22:49:12.261017+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 681,
+  "posts_collected": 682,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 8,
-    "indexed_reddit": 141,
+    "indexed_reddit": 142,
     "youtube": 200,
-    "instagram": 99,
     "facebook": 99,
-    "total_unique": 681
+    "instagram": 99,
+    "total_unique": 682
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -40,10 +40,10 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 18,
+      "mentions": 15,
       "bullish": 4,
       "bearish": 2,
-      "neutral": 12,
+      "neutral": 9,
       "bullish_pct": 67,
       "evidence": [
         {
@@ -103,13 +103,6 @@
           "sentiment": "bullish"
         },
         {
-          "title": "Tata Motors Biggest Update Out | Assessment Mails | Tata Motors SHL Assessment & Interview - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2TF9MeHM3aldSQW84d3ZaQ0NoWlZiQ29JeGxJTUxja1l6akJsRUVVRGRXeDhBcGhwVGEyZG83eXpXTmE3RGcyVUd4elFzLW5ZU3JuSTF3?oc=5",
-          "published": "Thu, 08 Oct 2026 05:24:30 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Dream Come True Moment for Satish K Videos \ud83d\udd25 #tatamotors - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03R2stVEJPXzU0ODI2WlpCNzBqMG5KM185STBSVC1OZEp2RTdybXpnWTBKU2FlUTkzYnZLdk90emVMNDk4SWptaWNac002ckJjclFEQ053?oc=5",
           "published": "Fri, 09 Oct 2026 06:46:33 GMT",
@@ -117,9 +110,9 @@
           "sentiment": "neutral"
         },
         {
-          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
-          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
+          "title": "Tata Motors Biggest Update Out | Assessment Mails | Tata Motors SHL Assessment & Interview - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2TF9MeHM3aldSQW84d3ZaQ0NoWlZiQ29JeGxJTUxja1l6akJsRUVVRGRXeDhBcGhwVGEyZG83eXpXTmE3RGcyVUd4elFzLW5ZU3JuSTF3?oc=5",
+          "published": "Thu, 08 Oct 2026 05:24:30 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         },
@@ -129,6 +122,13 @@
           "published": "Sun, 04 Oct 2026 08:58:25 GMT",
           "subreddit": "youtube",
           "sentiment": "bearish"
+        },
+        {
+          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
+          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
         }
       ],
       "sufficient": true
@@ -177,17 +177,17 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
-          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -336,6 +336,38 @@
       "sufficient": false
     },
     {
+      "name": "IRFC",
+      "mentions": 3,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
+          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "IRFC Share Price: \u0928\u090f 52 Weeks Low \u092a\u0930 \u0906\u092f\u093e IRFC \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | Business News | ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14dFZzdkxWMGZmSGFFYTRVQmJHaC1JNEhzRW9RMFlOSGRKdWlfM1Z0VnU2eHU1MTIyXzhDSWxSVV9LMEdBRjhoVVdwY1NWbVNVMUx1ajBB?oc=5",
+          "published": "Fri, 09 Oct 2026 04:38:01 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Kotak Bank",
       "mentions": 3,
       "bullish": 0,
@@ -401,17 +433,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
-          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
+          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -419,31 +451,6 @@
     },
     {
       "name": "Jio Financial",
-      "mentions": 2,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
-          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQmQ3TEliLUREVEhNd2JjalNYSDJlUEpjMU9tWVNLVWZyeEZmOVo1enZfSjBTdDhqakFGVGFFUzBfNGVSLVktSDFlWExpbFdmLUZ4dHV3?oc=5",
-          "published": "Tue, 06 Oct 2026 05:30:00 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IRFC",
       "mentions": 2,
       "bullish": 0,
       "bearish": 0,
