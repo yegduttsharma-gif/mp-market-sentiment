@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T16:22:11.756991+00:00",
+  "collected_at": "2026-10-10T16:50:08.100858+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 679,
+  "posts_collected": 680,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 9,
-    "indexed_reddit": 139,
+    "indexed_reddit": 140,
     "youtube": 200,
-    "instagram": 99,
     "facebook": 98,
-    "total_unique": 679
+    "instagram": 99,
+    "total_unique": 680
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -311,38 +311,6 @@
       "sufficient": false
     },
     {
-      "name": "Vodafone Idea",
-      "mentions": 3,
-      "bullish": 1,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": 100,
-      "evidence": [
-        {
-          "title": "Are you bullish or bearish on Vodafone Idea?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1d5tf/are_you_bullish_or_bearish_on_vodafone_idea/",
-          "published": "2026-10-09T05:35:47+00:00",
-          "subreddit": "IndianStockMarket",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Thoughts on Vodafone Idea for long term? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHpNR0EwaGF6MEdrbjNzbi1haGhYNnIxamtKZ3hfR1dtQV9TVjhnNDI4WUs2WDgzWXFxSHdWQTZNSGJ1M2psRU9pV1R5T0JibERNWC05RzVuS2dpaW9VZElNVnRCd2VodUVQV1hCekJ6QXVtNFBNalZrMW4yMndfRjhCdFJnYW5Rb0FGSHNTeV9wT3pOaDdOSWkyWmFaZ0xvMkE?oc=5",
-          "published": "Mon, 05 Oct 2026 04:59:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
-          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Kotak Bank",
       "mentions": 3,
       "bullish": 0,
@@ -444,6 +412,31 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
           "published": "Sat, 10 Oct 2026 08:30:10 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Vodafone Idea",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Thoughts on Vodafone Idea for long term? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHpNR0EwaGF6MEdrbjNzbi1haGhYNnIxamtKZ3hfR1dtQV9TVjhnNDI4WUs2WDgzWXFxSHdWQTZNSGJ1M2psRU9pV1R5T0JibERNWC05RzVuS2dpaW9VZElNVnRCd2VodUVQV1hCekJ6QXVtNFBNalZrMW4yMndfRjhCdFJnYW5Rb0FGSHNTeV9wT3pOaDdOSWkyWmFaZ0xvMkE?oc=5",
+          "published": "Mon, 05 Oct 2026 04:59:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
+          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
