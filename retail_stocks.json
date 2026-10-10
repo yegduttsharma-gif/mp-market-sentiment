@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T07:23:25.436337+00:00",
+  "collected_at": "2026-10-10T07:49:24.674159+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 678,
+  "posts_collected": 676,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 10,
-    "indexed_reddit": 140,
+    "indexed_reddit": 137,
     "youtube": 198,
-    "facebook": 97,
     "instagram": 99,
-    "total_unique": 678
+    "facebook": 98,
+    "total_unique": 676
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -315,6 +315,31 @@
       "sufficient": false
     },
     {
+      "name": "ICICI Bank",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
+          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Infosys",
       "mentions": 2,
       "bullish": 1,
@@ -378,24 +403,6 @@
           "published": "Tue, 06 Oct 2026 06:15:04 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
-          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
         }
       ],
       "sufficient": false
@@ -521,24 +528,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56QVFtVUpCUzFBNjE2RU5NMk5HLTNHQ1o2VG4xSHhuWkpkclFONktXYWRWNjFnamxSTWRkNUE0RHZlNlhvWjM4ZktBNGpma0J4TEh1OFJR?oc=5",
           "published": "Tue, 06 Oct 2026 01:30:04 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
-          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral"
         }
       ],
@@ -774,6 +763,16 @@
     },
     {
       "name": "Axis Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
