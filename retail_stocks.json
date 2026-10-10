@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T09:22:43.174813+00:00",
+  "collected_at": "2026-10-10T09:49:58.311472+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 682,
+  "posts_collected": 683,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 10,
-    "indexed_reddit": 141,
+    "indexed_reddit": 142,
     "youtube": 200,
-    "facebook": 98,
     "instagram": 99,
-    "total_unique": 682
+    "facebook": 98,
+    "total_unique": 683
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -40,10 +40,10 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 16,
+      "mentions": 15,
       "bullish": 4,
       "bearish": 2,
-      "neutral": 10,
+      "neutral": 9,
       "bullish_pct": 67,
       "evidence": [
         {
@@ -135,9 +135,9 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 8,
+      "mentions": 7,
       "bullish": 0,
-      "bearish": 3,
+      "bearish": 2,
       "neutral": 5,
       "bullish_pct": 0,
       "evidence": [
@@ -177,13 +177,6 @@
           "sentiment": "neutral"
         },
         {
-          "title": "HDFC Bank Stock Analysis: Market Expert Predicts Short-Term View - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyczVmbTlRb3g0UkJIdkM5NkkzSTdmUlZ3ZHFTZU9rV2Q1V2FzeExjczVzUWc2TFpFTEFLbllOcUxUZkVGZmNMeDloY1lTS0EzcGtkcUFn?oc=5",
-          "published": "Mon, 05 Oct 2026 08:30:51 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bearish"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
@@ -194,52 +187,6 @@
           "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
           "published": "Mon, 05 Oct 2026 03:22:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": true
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 5,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 5,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
-          "published": "Fri, 09 Oct 2026 11:30:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
-          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
-          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
-          "published": "Fri, 09 Oct 2026 14:14:45 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Suzlon Energy Big Update | JSW vs Tata Motors vs Ashok Leyland | Suzlon Stock Market News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsYlM5cFQzckd3SEtyYklsYjdYNDNPLXk5VnpVN20xdENkcm1UTjZQUk5sNmZJSVZha1hrdTBqTFpaSVhjaVhMd2VJbnotX2NyOEhOQ1dR?oc=5",
-          "published": "Sat, 03 Oct 2026 14:50:59 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         }
@@ -286,6 +233,45 @@
       "sufficient": false
     },
     {
+      "name": "Suzlon Energy",
+      "mentions": 4,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 4,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
+          "published": "Fri, 09 Oct 2026 11:30:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
+          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
+          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IREDA",
       "mentions": 3,
       "bullish": 1,
@@ -310,7 +296,7 @@
         {
           "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
-          "published": "Fri, 09 Oct 2026 14:14:45 GMT",
+          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         }
@@ -449,7 +435,7 @@
         {
           "title": "IREDA, Suzlon, VI, PC Jew., IFCI, Physicswallah, OLA, Vedanta, Meesho, Nykaa, RVNL \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
-          "published": "Fri, 09 Oct 2026 14:14:45 GMT",
+          "published": "Sat, 10 Oct 2026 08:30:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         }
@@ -541,6 +527,24 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
           "published": "Sat, 03 Oct 2026 11:06:28 GMT",
           "subreddit": "indexed_reddit",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
+      "mentions": 1,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Adani Power, Indigo, SML Mahindra, Reliance Ind, PVR INOX, Pidilite Ind Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOTzI4cjdwZjN2SHNMSTdQTTlOOU44ZUdPQlVlNFNQUUQ0cUJKWXdkSGFpS2ZwTzRGVldEWnVxdzBoS1VwUjk5cXhIT2E0eUtVMm9LbHFB?oc=5",
+          "published": "Fri, 09 Oct 2026 03:54:43 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -752,16 +756,6 @@
     },
     {
       "name": "JSW Energy",
-      "mentions": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Power",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
