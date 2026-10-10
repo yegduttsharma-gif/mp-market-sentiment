@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T17:48:30.601630+00:00",
+  "collected_at": "2026-10-10T18:24:56.837631+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -22,8 +22,8 @@
     "valuepickr": 8,
     "indexed_reddit": 138,
     "youtube": 200,
-    "instagram": 99,
     "facebook": 99,
+    "instagram": 99,
     "total_unique": 678
   },
   "direct_feed_health": {
@@ -135,11 +135,11 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 8,
-      "bullish": 1,
+      "mentions": 7,
+      "bullish": 0,
       "bearish": 2,
       "neutral": 5,
-      "bullish_pct": 33,
+      "bullish_pct": 0,
       "evidence": [
         {
           "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
@@ -161,13 +161,6 @@
           "published": "Thu, 08 Oct 2026 07:13:03 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral"
-        },
-        {
-          "title": "Market Recovery Alert! HDFC Bank Fall, IT Index Weakness & Nifty Key Levels | Anil Singhvi - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CcHIzaGlpOWNNZ2szb3ZsbVpOM3ZXdzRYTlN6eE55cjhJaWRaWVQwTWRzN21vMi1OSWFSaEhvZzNvTl9oSVhmUEFiUFlOZDNPUk9qV01B?oc=5",
-          "published": "Mon, 05 Oct 2026 09:20:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish"
         },
         {
           "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
@@ -198,7 +191,7 @@
           "sentiment": "neutral"
         }
       ],
-      "sufficient": true
+      "sufficient": false
     },
     {
       "name": "Paytm",
@@ -587,24 +580,6 @@
       "sufficient": false
     },
     {
-      "name": "Maruti Suzuki",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "2026 Ertiga Maha Comparison \ud83d\udd25| 2026 Maruti Suzuki Ertiga LXI Vs VXI Vs ZXI | beCARladka - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uMTNKVW5WNmc4ZktCVUxIUE90dGVZdUNaMUM1VzdaTzRlQnFUejBKX2owSVQyOXF1QkJJd3NrZkRKNk1vaURKdXdfYktwUFZKd0pvb1dR?oc=5",
-          "published": "Fri, 09 Oct 2026 11:00:50 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "CG Power",
       "mentions": 1,
       "bullish": 1,
@@ -824,6 +799,16 @@
     },
     {
       "name": "Axis Bank",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
