@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T11:49:36.387884+00:00",
+  "collected_at": "2026-10-10T12:26:47.791911+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -22,8 +22,8 @@
     "valuepickr": 10,
     "indexed_reddit": 140,
     "youtube": 200,
-    "facebook": 98,
     "instagram": 99,
+    "facebook": 98,
     "total_unique": 681
   },
   "direct_feed_health": {
@@ -135,11 +135,11 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 7,
-      "bullish": 0,
+      "mentions": 8,
+      "bullish": 1,
       "bearish": 2,
       "neutral": 5,
-      "bullish_pct": 0,
+      "bullish_pct": 33,
       "evidence": [
         {
           "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
@@ -161,6 +161,13 @@
           "published": "Thu, 08 Oct 2026 07:13:03 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral"
+        },
+        {
+          "title": "Market Recovery Alert! HDFC Bank Fall, IT Index Weakness & Nifty Key Levels | Anil Singhvi - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CcHIzaGlpOWNNZ2szb3ZsbVpOM3ZXdzRYTlN6eE55cjhJaWRaWVQwTWRzN21vMi1OSWFSaEhvZzNvTl9oSVhmUEFiUFlOZDNPUk9qV01B?oc=5",
+          "published": "Mon, 05 Oct 2026 09:20:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
         },
         {
           "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
@@ -191,20 +198,27 @@
           "sentiment": "neutral"
         }
       ],
-      "sufficient": false
+      "sufficient": true
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 4,
+      "mentions": 5,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 5,
       "bullish_pct": null,
       "evidence": [
         {
           "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
           "published": "Fri, 09 Oct 2026 11:30:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
         },
@@ -227,6 +241,45 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsYlM5cFQzckd3SEtyYklsYjdYNDNPLXk5VnpVN20xdENkcm1UTjZQUk5sNmZJSVZha1hrdTBqTFpaSVhjaVhMd2VJbnotX2NyOEhOQ1dR?oc=5",
           "published": "Sat, 03 Oct 2026 14:50:59 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
+      "mentions": 4,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 4,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
+          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
+          "published": "Fri, 09 Oct 2026 11:30:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
+          "published": "Thu, 08 Oct 2026 11:48:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
+          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral"
         }
       ],
@@ -259,38 +312,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LdzZzZGtUNncwWW8taEhIb0hjRGZlVTZFRldnVFVsaUI4XzdfcDQxSXBrX2JuSXpPakZiX3VrQ21Kd3pNVWVTN1JkVTRhNk9xUHp4UHRn?oc=5",
           "published": "Sat, 10 Oct 2026 08:30:10 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Paytm",
-      "mentions": 3,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 3,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
-          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
-          "published": "Fri, 09 Oct 2026 11:30:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
-          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral"
         }
       ],
@@ -361,6 +382,31 @@
       "sufficient": false
     },
     {
+      "name": "ICICI Bank",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
+          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Infosys",
       "mentions": 2,
       "bullish": 1,
@@ -424,24 +470,6 @@
           "published": "Tue, 06 Oct 2026 06:15:04 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
-          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral"
         }
       ],
       "sufficient": false
