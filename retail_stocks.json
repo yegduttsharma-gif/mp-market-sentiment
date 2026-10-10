@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T17:20:52.290384+00:00",
+  "collected_at": "2026-10-10T17:48:30.601630+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 679,
+  "posts_collected": 678,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 35,
     "valuepickr": 8,
-    "indexed_reddit": 139,
+    "indexed_reddit": 138,
     "youtube": 200,
     "instagram": 99,
     "facebook": 99,
-    "total_unique": 679
+    "total_unique": 678
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -551,24 +551,6 @@
       "sufficient": false
     },
     {
-      "name": "Adani Power",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Adani Power, Indigo, SML Mahindra, Reliance Ind, PVR INOX, Pidilite Ind Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOTzI4cjdwZjN2SHNMSTdQTTlOOU44ZUdPQlVlNFNQUUQ0cUJKWXdkSGFpS2ZwTzRGVldEWnVxdzBoS1VwUjk5cXhIT2E0eUtVMm9LbHFB?oc=5",
-          "published": "Fri, 09 Oct 2026 03:54:43 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Adani Ports",
       "mentions": 1,
       "bullish": 0,
@@ -782,6 +764,16 @@
     },
     {
       "name": "JSW Energy",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
