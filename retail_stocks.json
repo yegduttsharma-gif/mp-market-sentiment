@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T01:00:36.694493+00:00",
+  "collected_at": "2026-10-10T01:23:37.146856+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 674,
+  "posts_collected": 676,
   "source_counts": {
     "IndianStockMarket": 99,
-    "tradingqna": 34,
+    "tradingqna": 35,
     "valuepickr": 8,
     "indexed_reddit": 138,
     "youtube": 199,
     "instagram": 99,
-    "facebook": 97,
-    "total_unique": 674
+    "facebook": 98,
+    "total_unique": 676
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -209,13 +209,6 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
-          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
@@ -227,6 +220,13 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEJSV1VUTmk4VFVHOE0yaUN1QXJWWkt6aU1icTJwcDNXVzB0YmhtZzJLVTg2N0tKZkU1VDdzV05GZGpneG5pQWZrcGNaaWp1X1lOcWxEbEQtbXU5MF9aMHNzZUN5NUtHV3d6bWFYOEJwdHR6WGJyQlI1NTlNUjZfYjg2dm9qS3NVNExKUmM2WHZUQVRaMHJ5WlpXTU9yVmtzcXdQdE9CelpubEs3d2REWHlPdExYM19yUVpaMElqUThmYmdXTHBVNWVxeERCNm8tbXB4bUgxbno1cFQ3RjV3?oc=5",
           "published": "Sat, 03 Oct 2026 05:05:47 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -316,6 +316,31 @@
           "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
           "published": "Tue, 06 Oct 2026 14:00:10 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 2,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "IREDA Stock Crash: Share Falls 64% From All-Time High | What Went Wrong? | @SakshiTVBusiness1 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJRzVJMXhvRE5uMWRMVUZFU19DblFRZDdRSkRhWjRRM2xDNmtBQy1IeVRhYVpaQnM4TE9PYUJhaFE5bHVPdllDZjQ5c01iTV9wdUdmcXZR?oc=5",
+          "published": "Tue, 06 Oct 2026 12:00:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish"
+        },
+        {
+          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
+          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -458,24 +483,6 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
-          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "RVNL",
       "mentions": 1,
       "bullish": 0,
@@ -503,27 +510,9 @@
       "evidence": [
         {
           "title": "Tata Power and Power Grid both fell on October 1 right after the government announced a major new transmission programme. A good example of stock price and business news moving in opposite directions - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUVZcmt1NkpMMG5PTy1oNGhtUkRlbWFXNVFOQ0lGMk56TF9uWEZPbTZsWExWY1pDV255M2h2VVctMkhRUGNCT2VJeDJEX21GQWxZQzZncnhqN2tXUVo3eU4zX0wxeWNETlRtdWJxNmd4MjZXMGlwMHZOcVlLLVRUWkQ1bTZ0VUE4Qmd4bE1DZWgxc20xU3F2eWszUVBKakw5bWhmOVdURkMtOFdF?oc=5",
-          "published": "Sat, 03 Oct 2026 11:06:28 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQkNQX3RJa09DQmp2WWgxVVJaa1FhdFlMRTdxblJrSEZLYVdhYzVHSXRrUnYybk5PN0I0SXNXbmNGNWhNQVRLaVhJVEtxaHFzVnFCX2FxZzVnQ0I4a2RDOXIyM3Y0WGE5VC1FZDZUdnpHV29IS0FYWnJfMjJfaGdSaGhHQ0dSb29iRmJZTjA3OERyTFNWYWJlMk45WU5WTkFkdXUyUVlQS3hVT2lo?oc=5",
+          "published": "Mon, 05 Oct 2026 11:44:19 GMT",
           "subreddit": "indexed_reddit",
-          "sentiment": "neutral"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Power",
-      "mentions": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Adani Power, Indigo, SML Mahindra, Reliance Ind, PVR INOX, Pidilite Ind Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOTzI4cjdwZjN2SHNMSTdQTTlOOU44ZUdPQlVlNFNQUUQ0cUJKWXdkSGFpS2ZwTzRGVldEWnVxdzBoS1VwUjk5cXhIT2E0eUtVMm9LbHFB?oc=5",
-          "published": "Fri, 09 Oct 2026 03:54:43 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral"
         }
       ],
@@ -753,6 +742,16 @@
     },
     {
       "name": "JSW Energy",
+      "mentions": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
       "mentions": 0,
       "bullish": 0,
       "bearish": 0,
