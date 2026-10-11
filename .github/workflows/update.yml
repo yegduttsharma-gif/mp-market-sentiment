@@ -5,6 +5,7 @@ on:
     paths:
       - 'index_crowd.py'
       - 'social_comments.py'
+      - 'youtube_comments.py'
       - 'retail_stocks.py'
       - 'collect.py'
       - '.github/workflows/update.yml'
@@ -45,6 +46,13 @@ jobs:
         continue-on-error: true
         timeout-minutes: 8
         run: python retail_stocks.py
+      - name: Collect actual YouTube viewer comments
+        id: youtube
+        continue-on-error: true
+        timeout-minutes: 5
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python youtube_comments.py
       - name: Collect no-account public social comments
         continue-on-error: true
         timeout-minutes: 2
@@ -77,6 +85,7 @@ jobs:
       - name: Record collector health
         if: always()
         env:
+          YOUTUBE: ${{ steps.youtube.outcome }}
           NEWS: ${{ steps.news.outcome }}
           BITCOIN: ${{ steps.bitcoin.outcome }}
           RETAIL: ${{ steps.retail.outcome }}
@@ -88,7 +97,7 @@ jobs:
           import json,os
           from datetime import datetime,timezone
           from pathlib import Path
-          files={"news":"data.json","bitcoin":"btc_volatility.json","retail":"retail_stocks.json","options":"client_options.json","market":"market.json","vix":"vix_history.json"}
+          files={"youtube":"youtube_comments.json","news":"data.json","bitcoin":"btc_volatility.json","retail":"retail_stocks.json","options":"client_options.json","market":"market.json","vix":"vix_history.json"}
           checks={}
           for key,path in files.items():
               file=Path(path)
@@ -109,6 +118,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add collector_health.json
+          if [ -f youtube_comments.json ]; then git add youtube_comments.json; fi
           if [ -f social_comments.json ]; then git add social_comments.json; fi
           if [ -f index_crowd.json ]; then git add index_crowd.json; fi
           if [ -f nse_fno_underlyings.json ]; then git add nse_fno_underlyings.json; fi
