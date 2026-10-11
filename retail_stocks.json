@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T13:37:44.952912+00:00",
+  "collected_at": "2026-10-11T13:44:48.605199+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 617,
+  "posts_collected": 562,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 10,
-    "indexed_reddit": 197,
-    "youtube": 196,
+    "indexed_reddit": 142,
     "instagram": 98,
     "facebook": 82,
-    "total_unique": 617
+    "youtube": 196,
+    "total_unique": 562
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,14 +52,14 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 10,
-      "investor_mentions": 5,
+      "mentions": 11,
+      "investor_mentions": 6,
       "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 6,
       "bullish_pct": null,
       "evidence": [
         {
@@ -87,6 +87,38 @@
           "evidence_type": "investor_discussion"
         },
         {
+          "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
+          "published": "Sun, 04 Oct 2026 18:54:37 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFC Bank said: let\u2019s test everyone\u2019s long-term investment strategy\u2026 personally. \ud83d\udcc9\ud83d\ude02 - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSWpnMHg0NnhZRF85Q1ZPQW11ak5RV0d2WnY1ejRTdThBMkFpYmgwYjQ3Y0VvTE95YU95S0pmb2M2dTRBSy1XdTliR2NzNkpXbHI4a0J6S2JBX0FzVGk5amY0Q0F3MWFiWWN5azh3bTQ4MmV0UUJVUHFzbGVQdERjODlhamFiMEQwNHdCczhmeXd6TmtENVN0Z0ZBU1BEM0R0bmc2UXRBSQ?oc=5",
+          "published": "Mon, 05 Oct 2026 10:13:34 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
           "title": "Suzlon, ITC, Vedanta, HDFC Bank, TCS, Hexaware, Paytm, Sagility, Laxmi Org. Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
           "published": "Fri, 09 Oct 2026 11:30:39 GMT",
@@ -99,14 +131,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyczVmbTlRb3g0UkJIdkM5NkkzSTdmUlZ3ZHFTZU9rV2Q1V2FzeExjczVzUWc2TFpFTEFLbllOcUxUZkVGZmNMeDloY1lTS0EzcGtkcUFn?oc=5",
           "published": "Mon, 05 Oct 2026 08:30:51 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
-          "published": "Sun, 04 Oct 2026 18:54:37 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -125,22 +149,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFC Bank said: let\u2019s test everyone\u2019s long-term investment strategy\u2026 personally. \ud83d\udcc9\ud83d\ude02 - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSWpnMHg0NnhZRF85Q1ZPQW11ak5RV0d2WnY1ejRTdThBMkFpYmgwYjQ3Y0VvTE95YU95S0pmb2M2dTRBSy1XdTliR2NzNkpXbHI4a0J6S2JBX0FzVGk5amY0Q0F3MWFiWWN5azh3bTQ4MmV0UUJVUHFzbGVQdERjODlhamFiMEQwNHdCczhmeXd6TmtENVN0Z0ZBU1BEM0R0bmc2UXRBSQ?oc=5",
-          "published": "Mon, 05 Oct 2026 10:13:34 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -237,6 +245,14 @@
       "bullish_pct": null,
       "evidence": [
         {
+          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
+          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
           "published": "Thu, 08 Oct 2026 09:01:12 GMT",
@@ -249,14 +265,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWFRIRjFJY2hVa21mNnd3NzBad0IzWldPRnh0RDk1Tjd4VFM1a2paaFlab3R6dzRsVkNCRXdKTlJMNFJSdFBCLU80T1JSNVcxS0Zjd2Zn?oc=5",
           "published": "Fri, 09 Oct 2026 11:30:39 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
-          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -276,14 +284,6 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock In Action: Expiry \u092a\u0930 \u0915\u093f\u0928 Stocks \u092e\u0947\u0902 \u0926\u092e\u0926\u093e\u0930 Action? Trent, Kotak Bank \u0938\u0947 Meesho \u0924\u0915 |Anil Singhvi - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xXzBFTEZ1R1FUUUJZTnBnUDZVZWJyVUM0Y0pJNXp6U2tENk1mbHh0NzcwRThEWDhNV21aa21teGhRc0tiSGRqdXNoWThOaUdBbF83N3RR?oc=5",
-          "published": "Tue, 06 Oct 2026 09:05:51 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "#OpeningBell: Sensex gains over 150 pts, Nifty tops 22,600; Kotak Bank, BSE rise up to 3% #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-vedant-kotak-bank-share-pric - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcE0wNE56VC1JLW1jeEZaMTZUM0Zjc3hsZmtDWnNzbjQwdkxuUEt4ZHlFODkwelBCWkpRWWJQVXZsWklNd1FwRjdOQkp1OUVFbFpBUDB2UXdtV2tRV0hDZVZISF83NVVycmt3ZEZmd0RBS1QzdmIxZ2YzTmpsZzdENkFRTjJZeGlVWGlqT1JUczJrNWU4M2NuQzJOazV3Y3duRFBQZVlZRThyUHFMRFVGWjhxT3J0dVIzZXdia29qcEU2OXhkMy0zUFhTaUdOR25EcG5GS1hn?oc=5",
           "published": "Tue, 06 Oct 2026 03:47:24 GMT",
@@ -296,6 +296,14 @@
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2MzWWFfZlIwYkFNSzVIS0t5SnhoRzE1WTJrak05anpDREhIR2VKNjZWRnVWWGRDYmZWMEhaQmI5N29DZEhOSWVXcjhmX3dmT3JPUVgyQ05Id2F0UEE5c044N0lRMUZBZHVSRGJDNHkwbjJKWTczZlFqZ0d5ZmlESlNMU3FKR09QMkNOWVdZVFV6SWFraUFhNjdPUnVlTVR2UzB5aXM4Y3YwVko1WWozaHM0QzNJc1ZsZmpyWG5idnJfaTdwUS03WEpqeExVbG5SNVV2cUIycThOQ01EZ0E?oc=5",
           "published": "Tue, 06 Oct 2026 04:44:48 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock In Action: Expiry \u092a\u0930 \u0915\u093f\u0928 Stocks \u092e\u0947\u0902 \u0926\u092e\u0926\u093e\u0930 Action? Trent, Kotak Bank \u0938\u0947 Meesho \u0924\u0915 |Anil Singhvi - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xXzBFTEZ1R1FUUUJZTnBnUDZVZWJyVUM0Y0pJNXp6U2tENk1mbHh0NzcwRThEWDhNV21aa21teGhRc0tiSGRqdXNoWThOaUdBbF83N3RR?oc=5",
+          "published": "Tue, 06 Oct 2026 09:05:51 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -315,18 +323,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sat, 10 Oct 2026 11:07:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Share market update: BSE Sensex and NSE Nifty climbed in early trade, extended previous session rally, aided by buying in bank stocks, Reliance Industries, Trent and positive global cues amidst crude prices. https://ebx.sh/rF3vOr - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3RjY0ZIcW1tSEZRdUJWVUc2bzdDRlpqYlhMaDZ4VnZTU0UzWlpOQ2d0eENUMkFDTXF4cENWVEpUNGtLNnlXcnZGdWROMVNQeGZremh5eXY1UTR5Mllnd1BQSThUM2xzVmdWbHFwN0pjcTFIZzdsVnM0RG9tV0cxbDJnSEd2ZUh0ZFE3QVVpNkZHbGJxbVFpcVZlUDVFanVQa2xXUFBOc1pTMVY2QUFsRjdmdl9PWUd5Z0JYZE9BQnhveHZDcEN6bTdocXdDZ1IwT1lzMjdWQVIzdw?oc=5",
           "published": "Tue, 06 Oct 2026 06:15:04 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sat, 10 Oct 2026 11:07:03 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -346,18 +354,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
-          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
           "published": "Tue, 06 Oct 2026 14:00:10 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -439,18 +447,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sat, 10 Oct 2026 11:07:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock Market Live | HDFC Bank, Ola electric, Bajaj Finance, Hind. zinc, RVNL, Aurobindo Pharma share Watch Live Now : https://www.youtube.com/live/V3QeLOt4KtA - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZE5nclNPMXFfYS03cllsdzgtMW1NODN6OXNvaXVCYkNXRUpPM2ZWalY5MFlZa3V3OG1FdFF1YzlWUVR2SHU2SnIyQXFHY29tVEVhSWFFVi1kbFgwTDJ6UnZEaXNrR3YwSXBSdnptc0FYVTFBS0FiV3lEQUlKc3NicEw0YVNKQU8wSzlNM0ZNUXZnRGpFRVZoUFVwbGJJTnh0eHVoa0x4VGxQOXFya0R2S0pUZTVGOU9XWHE0eFR2YllPamVKbWc2S0Y4ZWs0X2xxRUNTSXVudmFGUlAzQTlN?oc=5",
           "published": "Sun, 04 Oct 2026 18:54:37 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sat, 10 Oct 2026 11:07:03 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
