@@ -1,5 +1,5 @@
 """Read limited public ValuePickr posts; publish directional author counts, not comments."""
-import json,re,html,urllib.request
+import json,re,html,urllib.request,urllib.parse
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
 BASE="https://forum.valuepickr.com";now=datetime.now(timezone.utc)
@@ -12,10 +12,23 @@ def get(url):
 out={"collected_at":now.isoformat(),"platform":"ValuePickr","method":"public_forum_unique_author_explicit_direction_v1","source_health":{},"assets":{},"posts_checked":0}
 posts=[]
 try:
- listing=get(BASE+"/latest.json");topics=listing.get("topic_list",{}).get("topics",[])[:15]
+ listing=get(BASE+"/latest.json");topics=listing.get("topic_list",{}).get("topics",[])[:10]
  out["source_health"]["latest"]={"status":"ok","topics":len(topics)}
 except Exception as e:
  topics=[];out["source_health"]["latest"]={"status":"unavailable","error":type(e).__name__}
+# Search public posts for index-specific topics; gracefully retain latest fallback.
+search_health={}
+known={str(t["id"]):t for t in topics}
+for term in ("nifty","bank nifty","sensex","kpit"):
+ try:
+  result=get(BASE+"/search.json?"+urllib.parse.urlencode({"q":term+" order:latest"}))
+  found=result.get("topics",[])
+  for topic in found[:12]:
+   if topic.get("id"):known[str(topic["id"])]=topic
+  search_health[term]={"status":"ok","topics":len(found)}
+ except Exception as e:search_health[term]={"status":"unavailable","error":type(e).__name__}
+topics=list(known.values())[:45]
+out["source_health"]["targeted_search"]=search_health
 errors=0
 for t in topics:
  try:
@@ -24,7 +37,7 @@ for t in topics:
    author=p.get("username") or ""
    if not author or author.lower() in ("system","discobot"):continue
    dt=datetime.fromisoformat((p.get("created_at") or "").replace("Z","+00:00"))
-   if now-dt>timedelta(days=14):continue
+   if now-dt>timedelta(days=30):continue
    body=re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",p.get("cooked","")))).strip()
    if len(body)<20:continue
    posts.append({"text":body[:2500],"author":author,"topic":t.get("title",""),"url":BASE+"/t/"+str(t["id"])+"/"+str(p.get("post_number",1))})
