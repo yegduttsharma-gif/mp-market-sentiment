@@ -1,5 +1,12 @@
 name: Update public sentiment
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'index_crowd.py'
+      - 'retail_stocks.py'
+      - 'collect.py'
+      - '.github/workflows/update.yml'
   schedule:
     # GitHub Actions minimum scheduled interval: every 5 minutes (UTC).
     # Starts may be delayed by GitHub; published data is not a live feed.
