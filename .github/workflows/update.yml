@@ -32,6 +32,10 @@ jobs:
         continue-on-error: true
         timeout-minutes: 3
         run: python btc_volatility.py
+      - name: Collect index investor crowd opinions
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python index_crowd.py
       - name: Collect public Indian stock discussion signals
         id: retail
         continue-on-error: true
@@ -97,6 +101,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add collector_health.json
+          if [ -f index_crowd.json ]; then git add index_crowd.json; fi
           if [ -f nse_fno_underlyings.json ]; then git add nse_fno_underlyings.json; fi
           if [ -f sentiment_history.json ]; then git add sentiment_history.json; fi
           if [ -f stock_sentiment_history.json ]; then git add stock_sentiment_history.json; fi
