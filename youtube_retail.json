@@ -1,17 +1,28 @@
 {
-  "collected_at": "2026-10-11T15:18:06.840374+00:00",
-  "method": "youtube_position_and_expectation_v1",
+  "collected_at": "2026-10-11T15:18:51.265269+00:00",
+  "method": "youtube_position_and_expectation_unique_author_v2",
   "platform": "YouTube",
-  "note": "Heuristic, nonrepresentative public-comment sample; a position is not a forecast",
+  "note": "Heuristic, nonrepresentative public-comment sample. Directional counts require an identifiable unique author; conflicting views and unverified authors excluded. A position is not a forecast.",
   "comment_count": 429,
-  "directional_count": 24,
+  "directional_count": 7,
   "assets": {
     "NIFTY 50": {
-      "bullish": 3,
+      "bullish": 2,
       "bearish": 2,
       "neutral": 21,
-      "directional": 5,
-      "bullish_pct": 60,
+      "directional": 4,
+      "bullish_pct": 50,
+      "independent_authors": 4,
+      "conflicting_authors_excluded": 0,
+      "unverified_author_comments_excluded": 0,
+      "positioning": {
+        "bullish": 2,
+        "bearish": 0
+      },
+      "expectation": {
+        "bullish": 0,
+        "bearish": 2
+      },
       "evidence": [
         {
           "platform": "YouTube",
@@ -40,23 +51,6 @@
           "video_url": "https://www.youtube.com/watch?v=8BmU8RXK5tE",
           "url": "https://www.youtube.com/watch?v=8BmU8RXK5tE&lc=Ugzb49lfePiu6H2j0Qx4AaABAg",
           "comment_id": "Ugzb49lfePiu6H2j0Qx4AaABAg",
-          "author_channel_id": "UCAGENLRXLhfCrBFv5kBADog",
-          "asset_tags": [
-            "NIFTY 50"
-          ],
-          "sentiment": "bullish",
-          "evidence_type": "positioning"
-        },
-        {
-          "platform": "YouTube",
-          "type": "viewer_comment",
-          "text": "Nifty ce hold hi",
-          "published": "2026-10-11T07:58:48Z",
-          "likes": 0,
-          "video_title": "Nifty Sensex prediction for Tomorrow | Nifty Sensex Weekly Analysis | Nifty Banknifty Tomorrow",
-          "video_url": "https://www.youtube.com/watch?v=8BmU8RXK5tE",
-          "url": "https://www.youtube.com/watch?v=8BmU8RXK5tE&lc=Ugx3lo5GMZOvwXDk29F4AaABAg",
-          "comment_id": "Ugx3lo5GMZOvwXDk29F4AaABAg",
           "author_channel_id": "UCAGENLRXLhfCrBFv5kBADog",
           "asset_tags": [
             "NIFTY 50"
@@ -106,6 +100,17 @@
       "neutral": 8,
       "directional": 1,
       "bullish_pct": 100,
+      "independent_authors": 1,
+      "conflicting_authors_excluded": 0,
+      "unverified_author_comments_excluded": 0,
+      "positioning": {
+        "bullish": 0,
+        "bearish": 0
+      },
+      "expectation": {
+        "bullish": 1,
+        "bearish": 0
+      },
       "evidence": [
         {
           "platform": "YouTube",
@@ -132,14 +137,36 @@
       "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
+      "independent_authors": 0,
+      "conflicting_authors_excluded": 0,
+      "unverified_author_comments_excluded": 0,
+      "positioning": {
+        "bullish": 0,
+        "bearish": 0
+      },
+      "expectation": {
+        "bullish": 0,
+        "bearish": 0
+      },
       "evidence": []
     },
     "KPIT": {
-      "bullish": 3,
+      "bullish": 2,
       "bearish": 0,
       "neutral": 17,
-      "directional": 3,
+      "directional": 2,
       "bullish_pct": 100,
+      "independent_authors": 2,
+      "conflicting_authors_excluded": 0,
+      "unverified_author_comments_excluded": 0,
+      "positioning": {
+        "bullish": 2,
+        "bearish": 0
+      },
+      "expectation": {
+        "bullish": 0,
+        "bearish": 0
+      },
       "evidence": [
         {
           "platform": "YouTube",
@@ -151,23 +178,6 @@
           "video_url": "https://www.youtube.com/watch?v=Vqd_Pq4w000",
           "url": "https://www.youtube.com/watch?v=Vqd_Pq4w000&lc=UgwoyFH77mPJsZIntG94AaABAg",
           "comment_id": "UgwoyFH77mPJsZIntG94AaABAg",
-          "author_channel_id": "UC18MJqJpIPcoHGPumw7R0Sw",
-          "asset_tags": [
-            "KPIT"
-          ],
-          "sentiment": "bullish",
-          "evidence_type": "positioning"
-        },
-        {
-          "platform": "YouTube",
-          "type": "viewer_comment",
-          "text": "I have already bought it at average price of 500 ......",
-          "published": "2026-10-11T11:11:43Z",
-          "likes": 0,
-          "video_title": "BSOFT & KPIT Tech Share Correction के बाद आगे क्या? Opportunity या Value Trap?",
-          "video_url": "https://www.youtube.com/watch?v=JrzQE4dXDQw",
-          "url": "https://www.youtube.com/watch?v=JrzQE4dXDQw&lc=UgwXJBHVjkdFnw0mjqB4AaABAg",
-          "comment_id": "UgwXJBHVjkdFnw0mjqB4AaABAg",
           "author_channel_id": "UC18MJqJpIPcoHGPumw7R0Sw",
           "asset_tags": [
             "KPIT"

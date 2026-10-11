@@ -33,11 +33,34 @@ comments=[classify(c) for c in data.get("comments",[])]
 assets={}
 for name in ASSETS:
  relevant=[c for c in comments if name in c["asset_tags"]]
- # Avoid treating a general NIFTY mention as NIFTY 50 when BANK NIFTY is the only subject.
- if name=="NIFTY 50":relevant=[c for c in relevant if "BANK NIFTY" not in c["asset_tags"] or re.search(r"\\b(?:nifty\\s*50|nifty50)\\b",c.get("text",""),re.I)]
- bull=sum(c["sentiment"]=="bullish" for c in relevant)
- bear=sum(c["sentiment"]=="bearish" for c in relevant)
- assets[name]={"bullish":bull,"bearish":bear,"neutral":len(relevant)-bull-bear,"directional":bull+bear,"bullish_pct":round(100*bull/(bull+bear)) if bull+bear else None,"evidence":[c for c in relevant if c["sentiment"]!="neutral"][:100]}
-out={"collected_at":data.get("collected_at"),"method":"youtube_position_and_expectation_v1","platform":"YouTube","note":"Heuristic, nonrepresentative public-comment sample; a position is not a forecast","comment_count":len(comments),"directional_count":sum(c["sentiment"]!="neutral" for c in comments),"assets":assets,"comments":comments}
+ if name=="NIFTY 50":
+  relevant=[c for c in relevant if "BANK NIFTY" not in c["asset_tags"] or re.search(r"\\b(?:nifty\\s*50|nifty50)\\b",c.get("text",""),re.I)]
+ # Count at most one directional stance per identifiable author per asset.
+ # If the same author expresses opposing views, exclude their conflicting votes.
+ by_author={}
+ unverified=[]
+ for c in relevant:
+  if c["sentiment"]=="neutral":continue
+  author=(c.get("author_channel_id") or "").strip()
+  if not author:
+   unverified.append(c)
+   continue
+  by_author.setdefault(author,[]).append(c)
+ independent=[]
+ conflict_count=0
+ for author,items in by_author.items():
+  directions={c["sentiment"] for c in items}
+  if len(directions)!=1:
+   conflict_count+=1
+   continue
+  independent.append(items[0])
+ bull=sum(c["sentiment"]=="bullish" for c in independent)
+ bear=sum(c["sentiment"]=="bearish" for c in independent)
+ pos_bull=sum(c["sentiment"]=="bullish" and c["evidence_type"] in ("positioning","options_positioning") for c in independent)
+ pos_bear=sum(c["sentiment"]=="bearish" and c["evidence_type"] in ("positioning","options_positioning") for c in independent)
+ exp_bull=sum(c["sentiment"]=="bullish" and c["evidence_type"]=="expectation" for c in independent)
+ exp_bear=sum(c["sentiment"]=="bearish" and c["evidence_type"]=="expectation" for c in independent)
+ assets[name]={"bullish":bull,"bearish":bear,"neutral":sum(c["sentiment"]=="neutral" for c in relevant),"directional":bull+bear,"bullish_pct":round(100*bull/(bull+bear)) if bull+bear else None,"independent_authors":len(independent),"conflicting_authors_excluded":conflict_count,"unverified_author_comments_excluded":len(unverified),"positioning":{"bullish":pos_bull,"bearish":pos_bear},"expectation":{"bullish":exp_bull,"bearish":exp_bear},"evidence":independent[:100]}
+out={"collected_at":data.get("collected_at"),"method":"youtube_position_and_expectation_unique_author_v2","platform":"YouTube","note":"Heuristic, nonrepresentative public-comment sample. Directional counts require an identifiable unique author; conflicting views and unverified authors excluded. A position is not a forecast.","comment_count":len(comments),"directional_count":sum(c["directional"] for c in assets.values()),"assets":assets,"comments":comments}
 Path("youtube_retail.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
 print("YouTube classified",out["directional_count"],"directional of",len(comments))
