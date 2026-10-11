@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-10-11T13:35:43.646585+00:00",
-  "method": "conservative_direct_investor_forum_titles_v1",
+  "collected_at": "2026-10-11T13:37:38.592748+00:00",
+  "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
     "IndianStockMarket": {
@@ -26,15 +26,31 @@
     "valuepickr": {
       "status": "ok",
       "recent": 8
+    },
+    "nifty_search": {
+      "status": "unavailable",
+      "error": "HTTPError"
+    },
+    "bank_nifty_search": {
+      "status": "unavailable",
+      "error": "HTTPError"
+    },
+    "sensex_search": {
+      "status": "unavailable",
+      "error": "HTTPError"
+    },
+    "nifty_bets_search": {
+      "status": "unavailable",
+      "error": "HTTPError"
     }
   },
   "unique_titles": 136,
   "indices": {
     "NIFTY 50": {
-      "bullish": 1,
-      "bearish": 1,
-      "neutral": 6,
-      "directional": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 8,
+      "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
@@ -78,7 +94,7 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1lqbw/day_48_nifty_option_buying_with_15k_capital/",
           "source": "IndianStockMarket",
           "published": "2026-10-09T13:43:40+00:00",
-          "sentiment": "bullish"
+          "sentiment": "neutral"
         },
         {
           "title": "Should I shift to a different Nifty Next 50 index fund from ICICI",
@@ -92,7 +108,7 @@
           "url": "https://tradingqna.com/t/systematic-nifty-option-selling-via-kite-connect-managing-decoupled-1-75x-stops-execution-latency-true-expiry-margin/198729",
           "source": "tradingqna",
           "published": "2026-10-10T18:55:20+00:00",
-          "sentiment": "bearish"
+          "sentiment": "neutral"
         }
       ]
     },
