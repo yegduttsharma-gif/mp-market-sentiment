@@ -37,6 +37,10 @@ jobs:
         continue-on-error: true
         timeout-minutes: 8
         run: python retail_stocks.py
+      - name: Verify NSE F&O underlying symbols
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python nse_fno_verify.py
       - name: Collect NSE client CE versus PE long positions
         id: options
         continue-on-error: true
@@ -93,6 +97,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add collector_health.json
+          if [ -f nse_fno_underlyings.json ]; then git add nse_fno_underlyings.json; fi
           if [ -f sentiment_history.json ]; then git add sentiment_history.json; fi
           if [ -f stock_sentiment_history.json ]; then git add stock_sentiment_history.json; fi
           for f in data.json market.json vix_history.json retail_stocks.json btc_volatility.json client_options.json; do
