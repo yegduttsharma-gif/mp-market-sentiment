@@ -10,12 +10,6 @@ SELL=r"\b(?:sold|selling|exited|exit\s+kar|shorted|shorting|booked\s+loss|bech\s
 UP=r"\b(?:bullish|will\s+(?:rise|go\s+up|rally)|going\s+(?:up|higher)|expect\s+(?:upside|rise|bounce)|breakout\s+(?:soon|ahead)|upar\s+(?:jayega|jaega)|badhega|rocket\s+banega)\b"
 DOWN=r"\b(?:bearish|will\s+(?:fall|crash|drop)|going\s+(?:down|lower)|expect\s+(?:fall|crash)|breakdown\s+(?:soon|ahead)|girega|girne\s+wala|neeche\s+jayega)\b"
 QUESTION=r"(?:\?|\b(?:should\s+i|can\s+i|what\s+if|kya\s+(?:karu|kare|hoga)|buy\s+karu|sell\s+karu|entry\s+lu|target\s+kya|please\s+(?:suggest|advise))\b)"
-# Explicit index option positioning: buying/holding CE is bullish; buying/holding PE is bearish.
-# Selling CE/PE is ambiguous (covered vs naked) and is not inferred.
-OPTION=re.compile(r"\\b(?:ce|call|calls|pe|put|puts)\\b",re.I)
-ENTRY=re.compile(r"\\b(?:bought|buy|buying|holding|hold|long|liya|liye|kharida|kharid|le\\s+liya|carry|carrying)\\b",re.I)
-EXIT=re.compile(r"\\b(?:sell|selling|sold|exit|exited|short|shorting|bech)\\b",re.I)
-INDEX_HINT=re.compile(r"\\b(?:nifty|bank\\s*nifty|banknifty|bnifty|sensex)\\b",re.I)
 def classify(c):
  text=html.unescape(c.get("text","")).strip()
  title=html.unescape(c.get("video_title",""))
@@ -34,13 +28,6 @@ def classify(c):
  elif u and not d:stance="bullish";kind="expectation"
  elif d and not u:stance="bearish";kind="expectation"
  else:stance="neutral";kind="discussion_or_noise"
- # Apply option semantics only with explicit index context, not arbitrary stock CE/PE mentions.
- if assets and any(a in ("NIFTY 50","BANK NIFTY","SENSEX") for a in assets) and OPTION.search(low) and ENTRY.search(low) and not EXIT.search(low) and not QUESTION.search(low):
-  has_ce=bool(re.search(r"\\b(?:ce|call|calls)\\b",low,re.I))
-  has_pe=bool(re.search(r"\\b(?:pe|put|puts)\\b",low,re.I))
-  if has_ce!=has_pe:
-   stance="bullish" if has_ce else "bearish";kind="options_positioning"
- if OPTION.search(low) and EXIT.search(low) and not (u or d):stance="neutral";kind="ambiguous_option_exit"
  return dict(c,asset_tags=assets,sentiment=stance,evidence_type=kind)
 comments=[classify(c) for c in data.get("comments",[])]
 assets={}
