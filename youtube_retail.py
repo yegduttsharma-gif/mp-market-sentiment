@@ -33,11 +33,21 @@ comments=[classify(c) for c in data.get("comments",[])]
 assets={}
 for name in ASSETS:
  relevant=[c for c in comments if name in c["asset_tags"]]
- # Avoid treating a general NIFTY mention as NIFTY 50 when BANK NIFTY is the only subject.
- if name=="NIFTY 50":relevant=[c for c in relevant if "BANK NIFTY" not in c["asset_tags"] or re.search(r"\\b(?:nifty\\s*50|nifty50)\\b",c.get("text",""),re.I)]
- bull=sum(c["sentiment"]=="bullish" for c in relevant)
- bear=sum(c["sentiment"]=="bearish" for c in relevant)
- assets[name]={"bullish":bull,"bearish":bear,"neutral":len(relevant)-bull-bear,"directional":bull+bear,"bullish_pct":round(100*bull/(bull+bear)) if bull+bear else None,"evidence":[c for c in relevant if c["sentiment"]!="neutral"][:100]}
-out={"collected_at":data.get("collected_at"),"method":"youtube_position_and_expectation_v1","platform":"YouTube","note":"Heuristic, nonrepresentative public-comment sample; a position is not a forecast","comment_count":len(comments),"directional_count":sum(c["sentiment"]!="neutral" for c in comments),"assets":assets,"comments":comments}
+ if name=="NIFTY 50":
+  relevant=[c for c in relevant if "BANK NIFTY" not in c["asset_tags"] or re.search(r"\\b(?:nifty\\s*50|nifty50)\\b",c.get("text",""),re.I)]
+ authors={};unverified=0
+ for c in relevant:
+  if c["sentiment"]=="neutral":continue
+  author=(c.get("author_channel_id") or "").strip()
+  if not author:unverified+=1;continue
+  authors.setdefault(author,[]).append(c)
+ independent=[];conflicts=0
+ for author,items in authors.items():
+  if len({c["sentiment"] for c in items})>1:conflicts+=1;continue
+  independent.append(items[0])
+ bull=sum(c["sentiment"]=="bullish" for c in independent)
+ bear=sum(c["sentiment"]=="bearish" for c in independent)
+ assets[name]={"bullish":bull,"bearish":bear,"neutral":sum(c["sentiment"]=="neutral" for c in relevant),"directional":bull+bear,"bullish_pct":round(100*bull/(bull+bear)) if bull+bear else None,"independent_authors":len(independent),"conflicting_authors_excluded":conflicts,"unverified_author_comments_excluded":unverified,"positioning":{"bullish":sum(c["sentiment"]=="bullish" and c["evidence_type"] in ("positioning","options_positioning") for c in independent),"bearish":sum(c["sentiment"]=="bearish" and c["evidence_type"] in ("positioning","options_positioning") for c in independent)},"expectation":{"bullish":sum(c["sentiment"]=="bullish" and c["evidence_type"]=="expectation" for c in independent),"bearish":sum(c["sentiment"]=="bearish" and c["evidence_type"]=="expectation" for c in independent)},"evidence":independent[:100]}
+out={"collected_at":data.get("collected_at"),"method":"youtube_position_and_expectation_unique_author_v2","platform":"YouTube","note":"Heuristic nonrepresentative sample. Unique identifiable authors only; conflicting views excluded. Positions are not forecasts.","comment_count":len(comments),"directional_count":sum(v["directional"] for v in assets.values()),"assets":assets,"comments":comments}
 Path("youtube_retail.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
 print("YouTube classified",out["directional_count"],"directional of",len(comments))
