@@ -55,6 +55,9 @@ jobs:
       - name: Record daily sentiment history
         continue-on-error: true
         run: python sentiment_history.py
+      - name: Record daily stock sentiment history
+        continue-on-error: true
+        run: python stock_sentiment_history.py
       - name: Record collector health
         if: always()
         env:
@@ -91,6 +94,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add collector_health.json
           if [ -f sentiment_history.json ]; then git add sentiment_history.json; fi
+          if [ -f stock_sentiment_history.json ]; then git add stock_sentiment_history.json; fi
           for f in data.json market.json vix_history.json retail_stocks.json btc_volatility.json client_options.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
