@@ -136,16 +136,17 @@ jobs:
             echo "No snapshot changes"
             exit 0
           fi
-          git commit -m "Update public sentiment snapshot"
-          # Another editor or Pages-triggering commit may have landed during collection.
-          # Rebase our data-only commit onto the latest main, then retry a bounded number of times.
+          # Generated JSON is a replaceable snapshot, not a source-code change.
+          # Re-stage it against the latest remote main instead of rebasing
+          # generated JSON files, which produces unavoidable content conflicts.
           for attempt in 1 2 3 4 5; do
             git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "Snapshot rebase conflict; will retry on next scheduled run."
-              exit 1
+            git reset --soft origin/main
+            if git diff --cached --quiet; then
+              echo "Snapshot already current"
+              exit 0
             fi
+            git commit -m "Update public sentiment snapshot"
             if git push origin HEAD:main; then
               echo "Snapshot saved successfully"
               exit 0
