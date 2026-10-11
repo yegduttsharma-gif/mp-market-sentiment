@@ -79,6 +79,10 @@ jobs:
         continue-on-error: true
         timeout-minutes: 4
         run: python valuepickr_sentiment.py
+      - name: Check official Hacker News public Indian-market discussions
+        continue-on-error: true
+        timeout-minutes: 4
+        run: python hackernews_discovery.py
       - name: Check Moneycontrol public investor message-board accessibility
         continue-on-error: true
         timeout-minutes: 2
@@ -159,6 +163,7 @@ jobs:
           if [ -f tradingview_discovery.json ]; then git add tradingview_discovery.json; fi
           if [ -f investing_forum_discovery.json ]; then git add investing_forum_discovery.json; fi
           if [ -f moneycontrol_discovery.json ]; then git add moneycontrol_discovery.json; fi
+          if [ -f hackernews_discovery.json ]; then git add hackernews_discovery.json; fi
           if [ -f valuepickr_sentiment.json ]; then git add valuepickr_sentiment.json; fi
           if [ -f tradingqna_sentiment.json ]; then git add tradingqna_sentiment.json; fi
           if [ -f social_comments.json ]; then git add social_comments.json; fi
