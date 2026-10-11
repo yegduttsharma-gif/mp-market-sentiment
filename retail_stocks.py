@@ -143,6 +143,22 @@ SEARCHES=[
  'site:x.com (suzlon OR irfc OR ireda OR rvnl OR tata motors OR reliance) when:7d',
  'site:youtube.com/watch (suzlon OR irfc OR ireda OR rvnl OR tata motors OR reliance) when:7d',
 ]
+# Sector-specific discovery improves coverage beyond broad market chatter.
+# These remain indexed public discussions, not verified individual investor votes.
+SECTOR_TERMS=[
+ 'hdfc bank OR icici bank OR sbi OR axis bank OR kotak bank',
+ 'infosys OR tcs stock OR persistent systems OR kpit stock',
+ 'maruti suzuki OR mahindra auto OR tata motors stock OR hyundai motor india',
+ 'reliance stock OR ongc OR coal india OR tata power OR jsw energy',
+ 'vedanta stock OR hindustan zinc OR tata steel OR hindalco',
+ 'hal stock OR bel stock OR bhel stock OR rvnl OR cg power',
+ 'itc stock OR bharti airtel OR trent stock OR indian hotels OR zomato stock',
+]
+for terms in SECTOR_TERMS:
+ SEARCHES.append('site:reddit.com/r/IndianStockMarket ('+terms+') when:7d')
+ SEARCHES.append('site:reddit.com/r/IndianStreetBets ('+terms+') when:7d')
+ SEARCHES.append('site:forum.valuepickr.com ('+terms+') when:7d')
+ SEARCHES.append('site:tradingqna.com ('+terms+') when:7d')
 # Search queries are independent; fetch concurrently to reduce workflow time.
 # Indexed search is discovery only, not a direct platform API.
 from concurrent.futures import ThreadPoolExecutor,as_completed
@@ -166,7 +182,7 @@ def fetch_indexed(query):
   if not any(marker in title.lower() for marker in markers):continue
   found.append({"title":title,"url":link,"published":published,"subreddit":source})
  return found
-with ThreadPoolExecutor(max_workers=6) as pool:
+with ThreadPoolExecutor(max_workers=8) as pool:
  futures={pool.submit(fetch_indexed,q):q for q in SEARCHES}
  for future in as_completed(futures):
   try: posts.extend(future.result())
@@ -191,6 +207,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_indexed_titles_v7","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_sector_indexed_titles_v8","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
