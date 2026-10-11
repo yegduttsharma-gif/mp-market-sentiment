@@ -224,10 +224,14 @@ for name,aliases in STOCKS.items():
  relevant=list({p["url"]:p for p in relevant}.values())
  for p in relevant:
   p["sentiment"]=direction(p["title"])
- counts=Counter(p["sentiment"] for p in relevant)
+  p["evidence_type"]="investor_discussion" if p["subreddit"] in ("IndianStockMarket","IndianStreetBets","indexed_reddit","tradingqna","valuepickr") else "market_commentary"
+ investor=[p for p in relevant if p["evidence_type"]=="investor_discussion"]
+ commentary=[p for p in relevant if p["evidence_type"]=="market_commentary"]
+ counts=Counter(p["sentiment"] for p in investor)
+ commentary_counts=Counter(p["sentiment"] for p in commentary)
  directional=counts["bullish"]+counts["bearish"]
- rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
+ rows.append({"name":name,"mentions":len(relevant),"investor_mentions":len(investor),"commentary_mentions":len(commentary),"commentary_bullish":commentary_counts["bullish"],"commentary_bearish":commentary_counts["bearish"],"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_sector_indexed_titles_v10","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v11","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
