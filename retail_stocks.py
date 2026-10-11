@@ -85,7 +85,7 @@ def direction(title):
  if UNCERTAIN.search(t) and not re.search(r"\\b(buy|sell|bullish|bearish|falling|fell|falls|rising|surge|surged|crash|crashed|plunge|plunged|dropped|declined)\\b",t):return 'neutral'
  return 'bullish' if up else 'bearish'
 
-FEEDS=["https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100","https://www.reddit.com/r/IndianStreetBets/new/.rss?limit=100"]
+FEEDS=["https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100","https://www.reddit.com/r/IndianStreetBets/new/.rss?limit=100","https://www.reddit.com/r/StockMarketIndia/new/.rss?limit=100","https://www.reddit.com/r/IndianStocks/new/.rss?limit=100"]
 ATOM="{http://www.w3.org/2005/Atom}"
 now=datetime.now(timezone.utc)
 posts=[];failures=[]
@@ -109,6 +109,8 @@ import email.utils
 DIRECT_FORUMS={
  "tradingqna":"https://www.tradingqna.com/latest.rss?order=created",
  "valuepickr":"https://forum.valuepickr.com/latest.rss?order=created",
+ "valuepickr_top":"https://forum.valuepickr.com/top/weekly.rss",
+ "tradingqna_active":"https://www.tradingqna.com/latest.rss",
 }
 feed_health={}
 for source,url in DIRECT_FORUMS.items():
@@ -197,7 +199,7 @@ with ThreadPoolExecutor(max_workers=8) as pool:
   try: posts.extend(future.result())
   except Exception as e: failures.append("Indexed search "+type(e).__name__)
 # Preserve the original source URL, prefer direct forum links to indexed duplicates.
-posts.sort(key=lambda p: (p["subreddit"] in ("tradingqna","valuepickr","IndianStockMarket","IndianStreetBets")),reverse=True)
+posts.sort(key=lambda p: (p["subreddit"] in ("tradingqna","tradingqna_active","valuepickr","valuepickr_top","IndianStockMarket","IndianStreetBets","StockMarketIndia","IndianStocks")),reverse=True)
 unique={}
 for p in posts:
  # Normalize publisher suffixes, punctuation, and whitespace for cross-feed deduplication.
@@ -215,7 +217,7 @@ def stock_market_relevant(post):
  title=re.sub(r" - (YouTube|Reddit|Trading Q&A|ValuePickr|Instagram|Facebook)$","",post["title"],flags=re.I)
  if OFF_TOPIC.search(title):return False
  # Direct investor-forum discussions can be meaningful without stock-market keywords.
- if post["subreddit"] in ("tradingqna","valuepickr","IndianStockMarket","IndianStreetBets","indexed_reddit"):return True
+ if post["subreddit"] in ("tradingqna","tradingqna_active","valuepickr","valuepickr_top","IndianStockMarket","IndianStreetBets","StockMarketIndia","IndianStocks","indexed_reddit"):return True
  return bool(MARKET_CONTEXT.search(title))
 
 rows=[]
@@ -224,7 +226,7 @@ for name,aliases in STOCKS.items():
  relevant=list({p["url"]:p for p in relevant}.values())
  for p in relevant:
   p["sentiment"]=direction(p["title"])
-  p["evidence_type"]="investor_discussion" if p["subreddit"] in ("IndianStockMarket","IndianStreetBets","indexed_reddit","tradingqna","valuepickr") else "market_commentary"
+  p["evidence_type"]="investor_discussion" if p["subreddit"] in ("IndianStockMarket","IndianStreetBets","StockMarketIndia","IndianStocks","indexed_reddit","tradingqna","tradingqna_active","valuepickr","valuepickr_top") else "market_commentary"
  investor=[p for p in relevant if p["evidence_type"]=="investor_discussion"]
  commentary=[p for p in relevant if p["evidence_type"]=="market_commentary"]
  counts=Counter(p["sentiment"] for p in investor)
@@ -232,6 +234,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"investor_mentions":len(investor),"commentary_mentions":len(commentary),"commentary_bullish":commentary_counts["bullish"],"commentary_bearish":commentary_counts["bearish"],"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v11","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v12","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
