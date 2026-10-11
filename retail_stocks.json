@@ -1,9 +1,11 @@
 {
-  "collected_at": "2026-10-11T12:40:18.414596+00:00",
-  "method": "three_way_investor_only_directional_and_commentary_separate_v11",
+  "collected_at": "2026-10-11T12:45:38.094264+00:00",
+  "method": "three_way_investor_only_directional_and_commentary_separate_v12",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
     "https://www.reddit.com/r/IndianStreetBets/new/.rss?limit=100",
+    "https://www.reddit.com/r/StockMarketIndia/new/.rss?limit=100",
+    "https://www.reddit.com/r/IndianStocks/new/.rss?limit=100",
     "TradingQnA indexed discussions",
     "ValuePickr indexed discussions",
     "X/Twitter indexed public posts",
@@ -12,19 +14,21 @@
     "Instagram indexed public posts"
   ],
   "source_errors": [
+    "HTTPError: HTTP Error 429: Too Many Requests",
+    "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
-  "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 736,
+  "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
+  "posts_collected": 734,
   "source_counts": {
     "IndianStockMarket": 98,
     "tradingqna": 34,
     "valuepickr": 10,
-    "indexed_reddit": 198,
-    "youtube": 198,
+    "indexed_reddit": 197,
+    "youtube": 197,
     "facebook": 99,
     "instagram": 99,
-    "total_unique": 736
+    "total_unique": 734
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -34,6 +38,14 @@
     "valuepickr": {
       "status": "ok",
       "recent_items": 8
+    },
+    "valuepickr_top": {
+      "status": "ok",
+      "recent_items": 7
+    },
+    "tradingqna_active": {
+      "status": "ok",
+      "recent_items": 30
     }
   },
   "status": "available",
