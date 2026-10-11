@@ -207,7 +207,10 @@ for p in posts:
  # Normalize publisher suffixes, punctuation, and whitespace for cross-feed deduplication.
  normalized=re.sub(r"\s+-\s+(Reddit|YouTube|Facebook|Instagram|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I)
  key=re.sub(r"[^a-z0-9]+"," ",normalized.lower()).strip()
- if key not in unique: unique[key]=p
+ # Search snippets may truncate the same headline; merge only substantial shared prefixes.
+ # Require at least 65 normalized characters to avoid merging short unrelated opinions.
+ duplicate=key in unique or any(len(key)>=65 and len(existing)>=65 and (key.startswith(existing[:65]) or existing.startswith(key[:65])) for existing in unique)
+ if not duplicate: unique[key]=p
 posts=list(unique.values())
 source_counts=dict(Counter(p["subreddit"] for p in posts))
 source_counts["total_unique"]=len(posts)
@@ -236,6 +239,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"investor_mentions":len(investor),"commentary_mentions":len(commentary),"commentary_bullish":commentary_counts["bullish"],"commentary_bearish":commentary_counts["bearish"],"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=10})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v14","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v15_dedup","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
