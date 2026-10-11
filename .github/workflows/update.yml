@@ -7,6 +7,8 @@ on:
       - 'social_comments.py'
       - 'youtube_comments.py'
       - 'youtube_retail.py'
+      - 'reddit_comments.py'
+      - 'reddit_retail.py'
       - 'retail_stocks.py'
       - 'collect.py'
       - '.github/workflows/update.yml'
@@ -57,6 +59,13 @@ jobs:
       - name: Classify YouTube retail positions and expectations
         continue-on-error: true
         run: python youtube_retail.py
+      - name: Collect actual public Reddit replies
+        continue-on-error: true
+        timeout-minutes: 4
+        run: python reddit_comments.py
+      - name: Classify Reddit investor replies
+        continue-on-error: true
+        run: python reddit_retail.py
       - name: Collect no-account public social comments
         continue-on-error: true
         timeout-minutes: 2
@@ -124,6 +133,8 @@ jobs:
           git add collector_health.json
           if [ -f youtube_comments.json ]; then git add youtube_comments.json; fi
           if [ -f youtube_retail.json ]; then git add youtube_retail.json; fi
+          if [ -f reddit_comments.json ]; then git add reddit_comments.json; fi
+          if [ -f reddit_retail.json ]; then git add reddit_retail.json; fi
           if [ -f social_comments.json ]; then git add social_comments.json; fi
           if [ -f index_crowd.json ]; then git add index_crowd.json; fi
           if [ -f nse_fno_underlyings.json ]; then git add nse_fno_underlyings.json; fi
