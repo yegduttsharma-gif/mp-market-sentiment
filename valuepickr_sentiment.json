@@ -1,14 +1,32 @@
 {
-  "collected_at": "2026-10-11T15:37:34.967200+00:00",
+  "collected_at": "2026-10-11T15:42:39.207771+00:00",
   "platform": "ValuePickr",
   "method": "public_forum_unique_author_explicit_direction_v1",
   "source_health": {
     "latest": {
       "status": "ok",
-      "topics": 15
+      "topics": 10
+    },
+    "targeted_search": {
+      "nifty": {
+        "status": "ok",
+        "topics": 50
+      },
+      "bank nifty": {
+        "status": "ok",
+        "topics": 50
+      },
+      "sensex": {
+        "status": "ok",
+        "topics": 50
+      },
+      "kpit": {
+        "status": "ok",
+        "topics": 50
+      }
     },
     "topics": {
-      "attempted": 15,
+      "attempted": 45,
       "errors": 0
     }
   },
@@ -16,7 +34,7 @@
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -50,6 +68,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 18,
+  "posts_checked": 15,
   "status": "collected"
 }
