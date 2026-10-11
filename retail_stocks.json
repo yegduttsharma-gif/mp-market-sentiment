@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T07:50:35.352038+00:00",
+  "collected_at": "2026-10-11T08:24:14.610653+00:00",
   "method": "three_way_direct_discourse_and_indexed_titles_v7",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 678,
+  "posts_collected": 681,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 34,
     "valuepickr": 9,
-    "indexed_reddit": 140,
+    "indexed_reddit": 143,
     "youtube": 198,
-    "facebook": 99,
     "instagram": 99,
-    "total_unique": 678
+    "facebook": 99,
+    "total_unique": 681
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -135,12 +135,19 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 7,
+      "mentions": 8,
       "bullish": 0,
       "bearish": 3,
-      "neutral": 4,
+      "neutral": 5,
       "bullish_pct": 0,
       "evidence": [
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall....",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x32ka2/nifty_is_down_almost_900_points_in_the_past_month/",
+          "published": "2026-10-11T08:09:24+00:00",
+          "subreddit": "IndianStockMarket",
+          "sentiment": "neutral"
+        },
         {
           "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
