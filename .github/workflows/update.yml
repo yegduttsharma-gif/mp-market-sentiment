@@ -9,6 +9,7 @@ on:
       - 'youtube_retail.py'
       - 'reddit_comments.py'
       - 'reddit_retail.py'
+      - 'tradingview_discovery.py'
       - 'retail_stocks.py'
       - 'collect.py'
       - '.github/workflows/update.yml'
@@ -70,6 +71,10 @@ jobs:
         continue-on-error: true
         timeout-minutes: 2
         run: python social_comments.py
+      - name: Check public TradingView index idea pages
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python tradingview_discovery.py
       - name: Verify NSE F&O underlying symbols
         continue-on-error: true
         timeout-minutes: 2
@@ -135,6 +140,7 @@ jobs:
           if [ -f youtube_retail.json ]; then git add youtube_retail.json; fi
           if [ -f reddit_comments.json ]; then git add reddit_comments.json; fi
           if [ -f reddit_retail.json ]; then git add reddit_retail.json; fi
+          if [ -f tradingview_discovery.json ]; then git add tradingview_discovery.json; fi
           if [ -f social_comments.json ]; then git add social_comments.json; fi
           if [ -f index_crowd.json ]; then git add index_crowd.json; fi
           if [ -f nse_fno_underlyings.json ]; then git add nse_fno_underlyings.json; fi
