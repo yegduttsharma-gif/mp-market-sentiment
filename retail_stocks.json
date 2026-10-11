@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T23:20:10.029407+00:00",
+  "collected_at": "2026-10-11T23:45:39.184993+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 619,
+  "posts_collected": 618,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 10,
     "indexed_reddit": 197,
-    "youtube": 198,
-    "facebook": 94,
-    "instagram": 87,
-    "total_unique": 619
+    "youtube": 197,
+    "instagram": 99,
+    "facebook": 82,
+    "total_unique": 618
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -396,37 +396,6 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IREDA Stock Crash: Share Falls 64% From All-Time High | What Went Wrong? | @SakshiTVBusiness1 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJRzVJMXhvRE5uMWRMVUZFU19DblFRZDdRSkRhWjRRM2xDNmtBQy1IeVRhYVpaQnM4TE9PYUJhaFE5bHVPdllDZjQ5c01iTV9wdUdmcXZR?oc=5",
-          "published": "Tue, 06 Oct 2026 12:00:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
-          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Jio Financial",
       "mentions": 2,
       "investor_mentions": 0,
@@ -582,6 +551,29 @@
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
           "published": "Fri, 09 Oct 2026 09:39:06 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
+          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
