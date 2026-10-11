@@ -4,7 +4,7 @@ from pathlib import Path
 src=Path("youtube_comments.json")
 if not src.exists():raise SystemExit("youtube_comments.json missing")
 data=json.loads(src.read_text())
-ASSETS={"NIFTY 50":r"\b(?:nifty\s*50|nifty50|nifty)\b","BANK NIFTY":r"\b(?:bank\s*nifty|banknifty)\b","SENSEX":r"\b(?:sensex)\b","KPIT":r"\b(?:kpit|kpittechnologies|kpittech)\b"}
+ASSETS={"NIFTY 50":r"\b(?:nifty\s*50|nifty50|nifty|nfifty)\b","BANK NIFTY":r"\b(?:bank\s*nifty|banknifty|nifty\s*bank|bnifty)\b","SENSEX":r"\b(?:sensex|bse\s*sensex)\b","KPIT":r"\b(?:kpit|kpittechnologies|kpittech)\b"}
 BUY=r"\b(?:bought|purchased|buying|accumulating|added|holding|hold|long|invested|buy\s+kar\s+liya|le\s+liya|liya\s+hai|kharid\s+liya|aur\s+lunga|buy\s+kiya|buy\s+hai|buying\s+hai)\b"
 SELL=r"\b(?:sold|selling|exited|exit\s+kar|shorted|shorting|booked\s+loss|bech\s+diya|bech\s+raha|nikal\s+gaya|sell\s+kar\s+diya)\b"
 UP=r"\b(?:bullish|will\s+(?:rise|go\s+up|rally)|going\s+(?:up|higher)|expect\s+(?:upside|rise|bounce)|breakout\s+(?:soon|ahead)|upar\s+(?:jayega|jaega)|badhega|rocket\s+banega)\b"
@@ -33,6 +33,8 @@ comments=[classify(c) for c in data.get("comments",[])]
 assets={}
 for name in ASSETS:
  relevant=[c for c in comments if name in c["asset_tags"]]
+ # Avoid treating a general NIFTY mention as NIFTY 50 when BANK NIFTY is the only subject.
+ if name=="NIFTY 50":relevant=[c for c in relevant if "BANK NIFTY" not in c["asset_tags"] or re.search(r"\\b(?:nifty\\s*50|nifty50)\\b",c.get("text",""),re.I)]
  bull=sum(c["sentiment"]=="bullish" for c in relevant)
  bear=sum(c["sentiment"]=="bearish" for c in relevant)
  assets[name]={"bullish":bull,"bearish":bear,"neutral":len(relevant)-bull-bear,"directional":bull+bear,"bullish_pct":round(100*bull/(bull+bear)) if bull+bear else None,"evidence":[c for c in relevant if c["sentiment"]!="neutral"][:100]}
