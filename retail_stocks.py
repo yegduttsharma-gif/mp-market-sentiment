@@ -197,9 +197,19 @@ posts=list(unique.values())
 source_counts=dict(Counter(p["subreddit"] for p in posts))
 source_counts["total_unique"]=len(posts)
 
+# Exclude common off-topic uses of company names before counting stock evidence.
+OFF_TOPIC=re.compile(r"\\b(job|jobs|hiring|recruitment|recruiting|interview|assessment|placement|career|careers|vacancy|vacancies|walk.in|internship|sustainability awards?|festival|durga puja|advertisement|commercial vehicles? launch event)\\b",re.I)
+MARKET_CONTEXT=re.compile(r"\\b(stock|stocks|share|shares|price|nse|bse|invest|investing|investor|trading|trade|bullish|bearish|buy|sell|hold|earnings|results|profit|loss|valuation|target|portfolio|dividend|market|breakout|rally|crash|quarter|revenue|guidance|fundamental|technical|ipo|multibagger|outlook|order book|contract win)\\b",re.I)
+def stock_market_relevant(post):
+ title=re.sub(r" - (YouTube|Reddit|Trading Q&A|ValuePickr|Instagram|Facebook)$","",post["title"],flags=re.I)
+ if OFF_TOPIC.search(title):return False
+ # Direct investor-forum discussions can be meaningful without stock-market keywords.
+ if post["subreddit"] in ("tradingqna","valuepickr","IndianStockMarket","IndianStreetBets","indexed_reddit"):return True
+ return bool(MARKET_CONTEXT.search(title))
+
 rows=[]
 for name,aliases in STOCKS.items():
- relevant=[p for p in posts if any(re.search(r"(?<![a-z0-9])"+re.escape(alias)+r"(?![a-z0-9])",p["title"].lower()) for alias in aliases)]
+ relevant=[p for p in posts if stock_market_relevant(p) and any(re.search(r"(?<![a-z0-9])"+re.escape(alias)+r"(?![a-z0-9])",p["title"].lower()) for alias in aliases)]
  relevant=list({p["url"]:p for p in relevant}.values())
  for p in relevant:
   p["sentiment"]=direction(p["title"])
@@ -207,6 +217,6 @@ for name,aliases in STOCKS.items():
  directional=counts["bullish"]+counts["bearish"]
  rows.append({"name":name,"mentions":len(relevant),"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_sector_indexed_titles_v8","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_direct_discourse_and_sector_indexed_titles_v9","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
