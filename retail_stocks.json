@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T12:56:02.793919+00:00",
+  "collected_at": "2026-10-11T13:25:15.753261+00:00",
   "method": "three_way_investor_only_directional_and_commentary_separate_v15_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -16,19 +16,19 @@
   "source_errors": [
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
+    "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 700,
+  "posts_collected": 620,
   "source_counts": {
-    "IndianStockMarket": 98,
     "tradingqna": 34,
     "valuepickr": 10,
-    "indexed_reddit": 182,
+    "indexed_reddit": 200,
     "youtube": 196,
     "facebook": 95,
     "instagram": 85,
-    "total_unique": 700
+    "total_unique": 620
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -62,14 +62,6 @@
       "neutral": 5,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall....",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x32ka2/nifty_is_down_almost_900_points_in_the_past_month/",
-          "published": "2026-10-11T08:09:24+00:00",
-          "subreddit": "IndianStockMarket",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
         {
           "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
@@ -119,14 +111,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "HDFC Bank said: let\u2019s test everyone\u2019s long-term investment strategy\u2026 personally. \ud83d\udcc9\ud83d\ude02 - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSWpnMHg0NnhZRF85Q1ZPQW11ak5RV0d2WnY1ejRTdThBMkFpYmgwYjQ3Y0VvTE95YU95S0pmb2M2dTRBSy1XdTliR2NzNkpXbHI4a0J6S2JBX0FzVGk5amY0Q0F3MWFiWWN5azh3bTQ4MmV0UUJVUHFzbGVQdERjODlhamFiMEQwNHdCczhmeXd6TmtENVN0Z0ZBU1BEM0R0bmc2UXRBSQ?oc=5",
-          "published": "Mon, 05 Oct 2026 10:13:34 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
           "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
           "published": "Mon, 05 Oct 2026 03:22:35 GMT",
@@ -141,6 +125,22 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFC Bank said: let\u2019s test everyone\u2019s long-term investment strategy\u2026 personally. \ud83d\udcc9\ud83d\ude02 - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSWpnMHg0NnhZRF85Q1ZPQW11ak5RV0d2WnY1ejRTdThBMkFpYmgwYjQ3Y0VvTE95YU95S0pmb2M2dTRBSy1XdTliR2NzNkpXbHI4a0J6S2JBX0FzVGk5amY0Q0F3MWFiWWN5azh3bTQ4MmV0UUJVUHFzbGVQdERjODlhamFiMEQwNHdCczhmeXd6TmtENVN0Z0ZBU1BEM0R0bmc2UXRBSQ?oc=5",
+          "published": "Mon, 05 Oct 2026 10:13:34 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
