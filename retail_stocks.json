@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T15:57:25.201193+00:00",
+  "collected_at": "2026-10-11T15:59:52.545644+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 618,
+  "posts_collected": 617,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 10,
     "indexed_reddit": 199,
     "youtube": 196,
-    "facebook": 94,
-    "instagram": 85,
-    "total_unique": 618
+    "instagram": 98,
+    "facebook": 80,
+    "total_unique": 617
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -155,9 +155,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 8,
+      "mentions": 7,
       "investor_mentions": 0,
-      "commentary_mentions": 8,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -209,14 +209,6 @@
           "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
           "published": "Wed, 07 Oct 2026 13:30:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TCS \u092a\u0930 \u0906\u0930\u094b\u092a?\ud83e\udd2f\ud83d\udd34 \u0932\u094b \u0906\u0917\u092f\u093e Jio IPO?\ud83d\udd34 DMART Q2\ud83d\udd34 Bajaj Finance Q2\ud83d\udd34 Tata Motors Q2\ud83d\udd34 Bajaj Housing Q2 SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NZjlDcVNhbHgtVFMwWmhRUjdTRl9sZUotejRwN25ZQmxma2ROVndEWlpTeWVqVFJWOE1oR1NCOFNUWnNuUUVhaUpEMVlyYVBEWkdVa3BR?oc=5",
-          "published": "Sun, 04 Oct 2026 15:59:26 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -744,6 +736,29 @@
       "sufficient": false
     },
     {
+      "name": "Maruti Suzuki",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
+          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "CG Power",
       "mentions": 1,
       "investor_mentions": 1,
@@ -1034,20 +1049,6 @@
     },
     {
       "name": "Bank of Baroda",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
