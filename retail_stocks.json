@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T21:47:06.840896+00:00",
+  "collected_at": "2026-10-11T22:00:37.287092+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 560,
+  "posts_collected": 616,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 10,
-    "indexed_reddit": 141,
+    "indexed_reddit": 197,
     "youtube": 197,
     "facebook": 94,
     "instagram": 85,
-    "total_unique": 560
+    "total_unique": 616
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -103,22 +103,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
-          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Eternal, Nykaa, Coforge, SBI, BoB, PNB, VedAlumium, HAL, TVS Motors Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSajJWelh3OHBUUkNwM1k3SEVJT25COFhkMVdfUFJBYk1OQ1NXZmFCTnhFN0hoMUsxRE9sRmtYYUE5cVUzR1AtYy1Dc29DUTZ0Tm1TUTFR?oc=5",
-          "published": "Sun, 11 Oct 2026 08:30:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
           "published": "Sun, 11 Oct 2026 08:09:24 GMT",
@@ -141,6 +125,22 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bank, Eternal, Nykaa, Coforge, SBI, BoB, PNB, VedAlumium, HAL, TVS Motors Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSajJWelh3OHBUUkNwM1k3SEVJT25COFhkMVdfUFJBYk1OQ1NXZmFCTnhFN0hoMUsxRE9sRmtYYUE5cVUzR1AtYy1Dc29DUTZ0Tm1TUTFR?oc=5",
+          "published": "Sun, 11 Oct 2026 08:30:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
