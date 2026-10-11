@@ -79,6 +79,10 @@ jobs:
         continue-on-error: true
         timeout-minutes: 4
         run: python valuepickr_sentiment.py
+      - name: Check Investing.com index forum accessibility
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python investing_forum_discovery.py
       - name: Check public TradingView index idea pages
         continue-on-error: true
         timeout-minutes: 2
@@ -149,6 +153,7 @@ jobs:
           if [ -f reddit_comments.json ]; then git add reddit_comments.json; fi
           if [ -f reddit_retail.json ]; then git add reddit_retail.json; fi
           if [ -f tradingview_discovery.json ]; then git add tradingview_discovery.json; fi
+          if [ -f investing_forum_discovery.json ]; then git add investing_forum_discovery.json; fi
           if [ -f valuepickr_sentiment.json ]; then git add valuepickr_sentiment.json; fi
           if [ -f tradingqna_sentiment.json ]; then git add tradingqna_sentiment.json; fi
           if [ -f social_comments.json ]; then git add social_comments.json; fi
