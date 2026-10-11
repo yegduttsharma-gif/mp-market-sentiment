@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-10-11T11:21:49.174838+00:00",
-  "method": "three_way_direct_discourse_and_indexed_titles_v7",
+  "collected_at": "2026-10-11T11:50:07.995950+00:00",
+  "method": "three_way_direct_discourse_and_sector_indexed_titles_v8",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
     "https://www.reddit.com/r/IndianStreetBets/new/.rss?limit=100",
@@ -15,16 +15,16 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Direct public RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 678,
+  "posts_collected": 722,
   "source_counts": {
     "IndianStockMarket": 99,
     "tradingqna": 34,
     "valuepickr": 10,
-    "indexed_reddit": 139,
+    "indexed_reddit": 183,
     "youtube": 198,
-    "instagram": 99,
     "facebook": 99,
-    "total_unique": 678
+    "instagram": 99,
+    "total_unique": 722
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -135,11 +135,11 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 9,
-      "bullish": 0,
+      "mentions": 10,
+      "bullish": 1,
       "bearish": 3,
       "neutral": 6,
-      "bullish_pct": 0,
+      "bullish_pct": 25,
       "evidence": [
         {
           "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall....",
@@ -203,6 +203,13 @@
           "published": "Sun, 11 Oct 2026 08:30:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral"
+        },
+        {
+          "title": "HDFC Bank said: let\u2019s test everyone\u2019s long-term investment strategy\u2026 personally. \ud83d\udcc9\ud83d\ude02 - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSWpnMHg0NnhZRF85Q1ZPQW11ak5RV0d2WnY1ejRTdThBMkFpYmgwYjQ3Y0VvTE95YU95S0pmb2M2dTRBSy1XdTliR2NzNkpXbHI4a0J6S2JBX0FzVGk5amY0Q0F3MWFiWWN5azh3bTQ4MmV0UUJVUHFzbGVQdERjODlhamFiMEQwNHdCczhmeXd6TmtENVN0Z0ZBU1BEM0R0bmc2UXRBSQ?oc=5",
+          "published": "Mon, 05 Oct 2026 10:13:34 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bullish"
         }
       ],
       "sufficient": true
