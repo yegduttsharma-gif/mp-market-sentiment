@@ -70,19 +70,21 @@ POS |= set("approval approved approves expansion expands expanded growth grows g
 NEG_PHRASES=("not a buy","do not buy","dont buy","avoid buying","not bullish","no upside","sell on rise","rest in peace","green card programme","green card program","immigration program","immigration programme","labor certification","labour certification","near 0% gain","near zero gain","regulatory action","regulatory crackdown","under investigation","h-1b abuse","h1b abuse")
 POS_PHRASES=("not bearish","do not sell","dont sell","buy on dips","beats estimates","record profit","strong earnings","raises guidance","new order win","wins contract","receives approval","all time high","all-time high")
 # Sentiment requires a clear directional claim, not generic analysis or headlines.
-DIRECTIONAL_POS=re.compile(r"\\b(buy|buying|bought|accumulate|bullish|upside|breakout|undervalued|rebound|rally|outperform|upgrade|upgraded|beats estimates|record profit|strong earnings|raises guidance|all.time high|rising|surge|surges|surged|gains|gained)\\b",re.I)
-DIRECTIONAL_NEG=re.compile(r"\\b(sell|selling|sold|bearish|overvalued|avoid|crash|crashed|falling|fell|falls|weak|plunge|plunges|plunged|collapse|collapsed|slump|slumped|downgrade|downgraded|downside|decline|declines|declined|drops|dropped|loses|lost)\\b",re.I)
-UNCERTAIN=re.compile(r"\\b(what|why|how|should i|should you|will it|could|might|predicts|prediction|forecast|analysis|technical analysis|expert view|short.term view|elliott wave|watchlist|stocks in focus)\\b",re.I)
+DIRECTIONAL_POS=re.compile(r"\b(buy|buying|bought|accumulate|bullish|upside|breakout|undervalued|rebound|rally|outperform|upgrade|upgraded|beats estimates|record profit|strong earnings|raises guidance|all.time high|rising|surge|surges|surged|gains|gained)\b",re.I)
+DIRECTIONAL_NEG=re.compile(r"\b(sell|selling|sold|bearish|overvalued|avoid|crash|crashed|falling|fell|falls|weak|plunge|plunges|plunged|collapse|collapsed|slump|slumped|downgrade|downgraded|downside|decline|declines|declined|drops|dropped|loses|lost)\b",re.I)
+UNCERTAIN=re.compile(r"\b(what|why|how|should i|should you|will it|could|might|predicts|prediction|forecast|analysis|technical analysis|expert view|short.term view|elliott wave|watchlist|stocks in focus)\b",re.I)
 def direction(title):
  t=title.lower()
- # Question and generic commentary titles cannot establish a directional opinion
- # unless they also explicitly describe a price move or investment stance.
+ # A question, policy story or analyst target is not an investor's directional stance.
+ if re.search(r"\b(permanent labor certification|federal investigations|immigration|h-1b|h1b|visa|department of labor)\b",t):return 'neutral'
+ if re.search(r"\b(target of|price target|as per|brokerage|analyst|motilal oswal|jefferies|nomura)\b",t):return 'neutral'
+ if '?' in t or re.search(r"\b(thoughts on|what do you think|should i|why is|why are|how is|will it|can it)\b",t):return 'neutral'
  up=bool(DIRECTIONAL_POS.search(t))
  down=bool(DIRECTIONAL_NEG.search(t))
  if 'not bullish' in t or 'not a buy' in t or 'do not buy' in t:up=False;down=True
  if 'not bearish' in t or 'do not sell' in t:down=False;up=True
  if up==down:return 'neutral'
- if UNCERTAIN.search(t) and not re.search(r"\\b(buy|sell|bullish|bearish|falling|fell|falls|rising|surge|surged|crash|crashed|plunge|plunged|dropped|declined)\\b",t):return 'neutral'
+ if UNCERTAIN.search(t) and not re.search(r"\b(buy|sell|bullish|bearish|falling|fell|falls|rising|surge|surged|crash|crashed|plunge|plunged|dropped|declined)\b",t):return 'neutral'
  return 'bullish' if up else 'bearish'
 
 FEEDS=["https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100","https://www.reddit.com/r/IndianStreetBets/new/.rss?limit=100","https://www.reddit.com/r/StockMarketIndia/new/.rss?limit=100","https://www.reddit.com/r/IndianStocks/new/.rss?limit=100"]
@@ -203,7 +205,7 @@ posts.sort(key=lambda p: (p["subreddit"] in ("tradingqna","tradingqna_active","v
 unique={}
 for p in posts:
  # Normalize publisher suffixes, punctuation, and whitespace for cross-feed deduplication.
- normalized=re.sub(r"\\s+-\\s+(Reddit|YouTube|Facebook|Instagram|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I)
+ normalized=re.sub(r"\s+-\s+(Reddit|YouTube|Facebook|Instagram|Trading Q&A|ValuePickr)$","",p["title"],flags=re.I)
  key=re.sub(r"[^a-z0-9]+"," ",normalized.lower()).strip()
  if key not in unique: unique[key]=p
 posts=list(unique.values())
@@ -211,8 +213,8 @@ source_counts=dict(Counter(p["subreddit"] for p in posts))
 source_counts["total_unique"]=len(posts)
 
 # Exclude common off-topic uses of company names before counting stock evidence.
-OFF_TOPIC=re.compile(r"\\b(job|jobs|hiring|recruitment|recruiting|interview|assessment|placement|career|careers|vacancy|vacancies|walk.in|internship|sustainability awards?|festival|durga puja|advertisement|commercial vehicles? launch event)\\b",re.I)
-MARKET_CONTEXT=re.compile(r"\\b(stock|stocks|share|shares|price|nse|bse|invest|investing|investor|trading|trade|bullish|bearish|buy|sell|hold|earnings|results|profit|loss|valuation|target|portfolio|dividend|market|breakout|rally|crash|quarter|revenue|guidance|fundamental|technical|ipo|multibagger|outlook|order book|contract win)\\b",re.I)
+OFF_TOPIC=re.compile(r"\b(job|jobs|hiring|recruitment|recruiting|interview|assessment|placement|career|careers|vacancy|vacancies|walk.in|internship|sustainability awards?|festival|durga puja|advertisement|commercial vehicles? launch event)\b",re.I)
+MARKET_CONTEXT=re.compile(r"\b(stock|stocks|share|shares|price|nse|bse|invest|investing|investor|trading|trade|bullish|bearish|buy|sell|hold|earnings|results|profit|loss|valuation|target|portfolio|dividend|market|breakout|rally|crash|quarter|revenue|guidance|fundamental|technical|ipo|multibagger|outlook|order book|contract win)\b",re.I)
 def stock_market_relevant(post):
  title=re.sub(r" - (YouTube|Reddit|Trading Q&A|ValuePickr|Instagram|Facebook)$","",post["title"],flags=re.I)
  if OFF_TOPIC.search(title):return False
@@ -232,8 +234,8 @@ for name,aliases in STOCKS.items():
  counts=Counter(p["sentiment"] for p in investor)
  commentary_counts=Counter(p["sentiment"] for p in commentary)
  directional=counts["bullish"]+counts["bearish"]
- rows.append({"name":name,"mentions":len(relevant),"investor_mentions":len(investor),"commentary_mentions":len(commentary),"commentary_bullish":commentary_counts["bullish"],"commentary_bearish":commentary_counts["bearish"],"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=3})
+ rows.append({"name":name,"mentions":len(relevant),"investor_mentions":len(investor),"commentary_mentions":len(commentary),"commentary_bullish":commentary_counts["bullish"],"commentary_bearish":commentary_counts["bearish"],"bullish":counts["bullish"],"bearish":counts["bearish"],"neutral":counts["neutral"],"bullish_pct":round(100*counts["bullish"]/directional) if directional else None,"evidence":relevant[:12],"sufficient":directional>=10})
 rows.sort(key=lambda r:(r["sufficient"],r["bullish_pct"] if r["sufficient"] else -1,r["mentions"]),reverse=True)
-out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v12","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
+out={"collected_at":now.isoformat(),"method":"three_way_investor_only_directional_and_commentary_separate_v14","sources":FEEDS+["TradingQnA indexed discussions","ValuePickr indexed discussions","X/Twitter indexed public posts","YouTube indexed public videos","Facebook indexed public posts","Instagram indexed public posts"],"source_errors":failures,"coverage":"Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.","posts_collected":len(posts),"source_counts":source_counts,"direct_feed_health":feed_health,"status":"available" if posts else "sources_unavailable","stocks":rows}
 Path("retail_stocks.json").write_text(json.dumps(out,indent=2),encoding="utf-8")
 print("Retail posts",len(posts),"stock matches",sum(x["mentions"] for x in rows),"errors",failures)
