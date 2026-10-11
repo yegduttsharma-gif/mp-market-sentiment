@@ -11,7 +11,7 @@ if OUT.exists():
  try:old=json.loads(OUT.read_text())
  except (ValueError,OSError):pass
 now=datetime.now(timezone.utc)
-queries=["nifty 50 stock market india","bank nifty market analysis hindi","sensex share market today","indian stock market stocks analysis hindi","kpit stock analysis"]
+queries=["nifty 50 tomorrow prediction hindi","bank nifty tomorrow CE PE analysis","sensex tomorrow market prediction","nifty option traders public opinion","indian stock market stocks analysis hindi","kpit stock analysis"]
 def call(endpoint,params):
  url=API+endpoint+"?"+urllib.parse.urlencode(dict(params,key=KEY))
  with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"PDMP-Public-Research/1.0"}),timeout=25) as response:return json.load(response)
@@ -25,7 +25,7 @@ discover=(now-last).total_seconds()>=6*3600 or not videos
 if discover:
  for query in queries:
   try:
-   result=call("search",{"part":"snippet","q":query,"type":"video","order":"date","maxResults":20,"regionCode":"IN","publishedAfter":(now-timedelta(days=5)).strftime("%Y-%m-%dT%H:%M:%SZ")})
+   result=call("search",{"part":"snippet","q":query,"type":"video","order":"date","maxResults":15,"regionCode":"IN","publishedAfter":(now-timedelta(days=5)).strftime("%Y-%m-%dT%H:%M:%SZ")})
    for v in result.get("items",[]):
     vid=v.get("id",{}).get("videoId")
     if not vid:continue
@@ -34,7 +34,7 @@ if discover:
   except Exception as e:errors.append({"query":query,"error":type(e).__name__})
 # Keep fresh video set; poll newest first, rotating through older videos as capacity allows.
 videos={k:v for k,v in videos.items() if not v.get("published") or date(v["published"])>=now-timedelta(days=8)}
-ordered=sorted(videos.values(),key=lambda v:v.get("published",""),reverse=True)[:90]
+ordered=sorted(videos.values(),key=lambda v:v.get("published",""),reverse=True)[:65]
 prior={c.get("comment_id"):c for c in old.get("comments",[]) if c.get("comment_id") and date(c.get("published"))>=now-timedelta(days=7)}
 fresh=0;checked=0
 for v in ordered:
