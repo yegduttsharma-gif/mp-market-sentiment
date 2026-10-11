@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-11T15:42:18.686541+00:00",
+  "collected_at": "2026-10-11T15:50:20.624416+00:00",
   "platform": "TradingQnA",
-  "method": "public_forum_unique_author_explicit_direction_v1",
+  "method": "public_forum_unique_author_hinglish_options_v2",
   "source_health": {
     "latest": {
       "status": "ok",
@@ -33,12 +33,17 @@
   "assets": {
     "NIFTY 50": {
       "bullish": 0,
-      "bearish": 0,
-      "neutral": 58,
-      "directional": 0,
-      "independent_authors": 0,
+      "bearish": 1,
+      "neutral": 57,
+      "directional": 1,
+      "independent_authors": 1,
       "conflicting_authors_excluded": 0,
-      "evidence": []
+      "evidence": [
+        {
+          "url": "https://www.tradingqna.com/t/197906/8",
+          "sentiment": "bearish"
+        }
+      ]
     },
     "BANK NIFTY": {
       "bullish": 0,
