@@ -1,5 +1,6 @@
 """Read limited public TradingQnA posts; publish directional author counts, not comments."""
 import json,re,html,urllib.request,urllib.parse
+from forum_direction import direction
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
 BASE="https://www.tradingqna.com";now=datetime.now(timezone.utc)
@@ -9,7 +10,7 @@ DOWN=re.compile(r"\b(?:i am bearish|i'm bearish|i expect (?:a )?(?:fall|crash|dr
 def get(url):
  req=urllib.request.Request(url,headers={"User-Agent":"PDMP-Research/1.0","Accept":"application/json"})
  with urllib.request.urlopen(req,timeout=18) as r:return json.load(r)
-out={"collected_at":now.isoformat(),"platform":"TradingQnA","method":"public_forum_unique_author_explicit_direction_v1","source_health":{},"assets":{},"posts_checked":0}
+out={"collected_at":now.isoformat(),"platform":"TradingQnA","method":"public_forum_unique_author_hinglish_options_v2","source_health":{},"assets":{},"posts_checked":0}
 posts=[]
 try:
  listing=get(BASE+"/latest.json");topics=listing.get("topic_list",{}).get("topics",[])[:10]
@@ -50,9 +51,8 @@ for asset,pattern in ASSETS.items():
   body=p["text"];title=p["topic"]
   if not re.search(pattern,body,re.I) and not re.search(pattern,title,re.I):continue
   if asset=="NIFTY 50" and re.search(ASSETS["BANK NIFTY"],title+" "+body,re.I) and not re.search(r"\bnifty\s*50\b",title+" "+body,re.I):continue
-  up=bool(UP.search(body));down=bool(DOWN.search(body))
-  if up==down:neutral+=1;continue
-  stance="bullish" if up else "bearish"
+  stance=direction(body)
+  if stance=="neutral":neutral+=1;continue
   votes.setdefault(p["author"],set()).add(stance)
   if len(sample)<8:sample.append({"url":p["url"],"sentiment":stance})
  bull=sum(v=={"bullish"} for v in votes.values());bear=sum(v=={"bearish"} for v in votes.values())
