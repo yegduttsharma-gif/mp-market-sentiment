@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T15:14:19.240403+00:00",
+  "collected_at": "2026-10-11T15:15:50.346004+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 618,
+  "posts_collected": 619,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 10,
-    "indexed_reddit": 198,
+    "indexed_reddit": 199,
+    "instagram": 98,
     "youtube": 197,
-    "facebook": 94,
-    "instagram": 85,
-    "total_unique": 618
+    "facebook": 81,
+    "total_unique": 619
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -245,6 +245,14 @@
       "bullish_pct": null,
       "evidence": [
         {
+          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
+          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
           "published": "Thu, 08 Oct 2026 09:01:12 GMT",
@@ -265,14 +273,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vajlNOWc5Um1kXzVnZWN6ZWktUDZ1bzR0eGhkazBYcUY2ZTVxX0dKMHZtVElZNzRMa3d0TUhmSFM2eXN4WkxfYW1MME9hODJyNVhzTC1n?oc=5",
           "published": "Thu, 08 Oct 2026 11:48:22 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
-          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -513,37 +513,6 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
-          "published": "Wed, 07 Oct 2026 11:26:41 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
-          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Vodafone Idea",
       "mentions": 2,
       "investor_mentions": 1,
@@ -568,37 +537,6 @@
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
           "published": "Tue, 06 Oct 2026 12:06:58 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IRFC",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
-          "published": "Wed, 07 Oct 2026 11:26:41 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
-          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -645,6 +583,52 @@
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
           "published": "Fri, 09 Oct 2026 09:39:06 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
+          "published": "Wed, 07 Oct 2026 11:26:41 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IRFC",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
+          "published": "Wed, 07 Oct 2026 11:26:41 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
