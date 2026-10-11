@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T22:00:37.287092+00:00",
+  "collected_at": "2026-10-11T22:21:09.751881+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 616,
+  "posts_collected": 615,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 10,
-    "indexed_reddit": 197,
+    "indexed_reddit": 196,
     "youtube": 197,
     "facebook": 94,
     "instagram": 85,
-    "total_unique": 616
+    "total_unique": 615
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 10,
+      "mentions": 9,
       "investor_mentions": 6,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -103,6 +103,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
           "published": "Sun, 11 Oct 2026 08:09:24 GMT",
@@ -125,31 +133,15 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
-          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Eternal, Nykaa, Coforge, SBI, BoB, PNB, VedAlumium, HAL, TVS Motors Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSajJWelh3OHBUUkNwM1k3SEVJT25COFhkMVdfUFJBYk1OQ1NXZmFCTnhFN0hoMUsxRE9sRmtYYUE5cVUzR1AtYy1Dc29DUTZ0Tm1TUTFR?oc=5",
-          "published": "Sun, 11 Oct 2026 08:30:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 7,
+      "mentions": 8,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -158,17 +150,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
-          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
-          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "title": "TMCV Share Price: Tata Motors CV \u092a\u0930 Gaurang Shah \u0915\u0940 \u0930\u093e\u092f | Tata Motors Share Price | Business News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mSHZVMURTMmI5dHVaQnhxeW1fa0sycldLcG5NNVI1VjVWcU5BdGNGUXBlTHZrdW45eG1WVEF0VEYydC1EWW5SdWEwSnlBUV81aFN5bXhn?oc=5",
+          "published": "Sat, 10 Oct 2026 08:15:04 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -190,14 +174,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Moneycontrol Ideas For Profit: Tata Motors | CNBC TV18 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RWVBOMDd3ajF3bkEyZ2VTSTRPMkY3VGxmeEgxb1FrLWVWRDJTeU9MUXc2RU05c1lncHRTLXlsZ2tVM2NYYjBLbzZYaFpoakdqS3ZBeURn?oc=5",
-          "published": "Thu, 08 Oct 2026 06:05:58 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
           "published": "Wed, 07 Oct 2026 13:30:25 GMT",
@@ -206,9 +182,33 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Key Stocks In Focus: HDFC Bank, Accenture, Bajaj Finance, Tata Motors PV, Avenue Supermarts, Nykaa - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZ1ZFTjZQT2NDNDRXVkI0X3kwOTRmWHY1U0YzbjI5ZWJybHJPRWVpQzR3SjRiQ2tUSTllODBIS25hX2RDY0tFY0dWOFpoMDJtZWtqOUhB?oc=5",
+          "published": "Mon, 05 Oct 2026 03:22:35 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Moneycontrol Ideas For Profit: Tata Motors | CNBC TV18 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RWVBOMDd3ajF3bkEyZ2VTSTRPMkY3VGxmeEgxb1FrLWVWRDJTeU9MUXc2RU05c1lncHRTLXlsZ2tVM2NYYjBLbzZYaFpoakdqS3ZBeURn?oc=5",
+          "published": "Thu, 08 Oct 2026 06:05:58 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Tata Motors Share Latest News Today | RBI Raised The Repo Rate | - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpT3kybGY0TTdhTW9aX0lvc0RPa0FNRHU3U0c4cFlHQWZnNjVCSU1XUmkyZWtmVHZOX1FQNjYxWXNPSXprZmtpYmVxLVV0b2RCWUdIU3Vn?oc=5",
           "published": "Wed, 07 Oct 2026 12:35:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Monday Target 12/10/2026 | TMPV and TMCV | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1taVU0VlFTUkVzdUpkWGtGeGlhNWVENlV4ajMxbG5jUloyQlJKTEtHVTVNb1k0TzVxbFYxdHdCb2o1eTZMTE5qOVI4eUJHT2Q5eUNQa1F3?oc=5",
+          "published": "Sun, 11 Oct 2026 09:39:59 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
