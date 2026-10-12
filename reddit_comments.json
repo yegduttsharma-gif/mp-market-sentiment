@@ -1,7 +1,8 @@
 {
-  "collected_at": "2026-10-12T18:04:19.235424+00:00",
+  "collected_at": "2026-10-12T18:06:49.066393+00:00",
   "platform": "Reddit",
   "collection_type": "actual_public_replies",
+  "access_method": "public_rss",
   "post_count": 0,
   "comment_count": 0,
   "comments": [],
@@ -21,7 +22,11 @@
     {
       "source": "IndianStocks",
       "error": "HTTPError"
+    },
+    {
+      "source": "DalalStreetTalks",
+      "error": "HTTPError"
     }
   ],
-  "status": "no_public_replies_retrieved"
-}
+  "status": "unavailable_or_no_public_replies"
+}\n
