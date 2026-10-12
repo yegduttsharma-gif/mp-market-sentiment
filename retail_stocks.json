@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T12:31:48.234234+00:00",
+  "collected_at": "2026-10-12T13:14:12.776246+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 622,
+  "posts_collected": 619,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 13,
     "indexed_reddit": 196,
-    "youtube": 197,
-    "instagram": 100,
+    "instagram": 99,
+    "youtube": 195,
     "facebook": 83,
-    "total_unique": 622
+    "total_unique": 619
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -169,53 +169,6 @@
       "sufficient": false
     },
     {
-      "name": "Suzlon Energy",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HAL BEL SHARE \ud83d\udca5 BSE | IRCON | WAARE ENERGIES | INFOSYS | SUZLON | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TNUpjMEM3dFRrLVpGUGlaWDlyUWVxLWoyRUxHdDRiLWtOUXNEUmRzOVY0OEZLeFZPT1N2cEdmS2Q4SDBHaVlLT2NMeE5ZbmczNUtRdDZ3?oc=5",
-          "published": "Sun, 11 Oct 2026 14:56:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
-          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "DMART, Poonawalla Fincorp, Anand Rathi Wealth, Canara HSBC, CORDELIA, Suzlon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95aEZiQnBEZGVYcHMwODVSRGM5QVJpb0tycktFTGk3SU1JMkptc2xkSkhVcmxvdlJYLURQNzFKRmkxV2hRdUNOMk1PUVRmZDRkZFJFSGVB?oc=5",
-          "published": "Mon, 12 Oct 2026 01:54:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Share Market LIVE : Gallantt Metal, Poonawalla Fincorp, IFCI, GRSE, Suzlon, Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rVjF0eDg1QzFrN0VwS241a1NMcW5Ja1JwWWJ1T2Mxdm0ydDAxaHYzN3ROWkJIeVVPS0RDUm9XRGtnLV9xSVlMOUFoY2tPNXZkb2RHaEdB?oc=5",
-          "published": "Mon, 12 Oct 2026 04:33:04 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Jio Financial",
       "mentions": 3,
       "investor_mentions": 1,
@@ -245,8 +198,47 @@
         },
         {
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
-          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
+          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "DMART, Poonawalla Fincorp, Anand Rathi Wealth, Canara HSBC, CORDELIA, Suzlon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95aEZiQnBEZGVYcHMwODVSRGM5QVJpb0tycktFTGk3SU1JMkptc2xkSkhVcmxvdlJYLURQNzFKRmkxV2hRdUNOMk1PUVRmZDRkZFJFSGVB?oc=5",
+          "published": "Mon, 12 Oct 2026 01:54:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Share Market LIVE : Gallantt Metal, Poonawalla Fincorp, IFCI, GRSE, Suzlon, Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rVjF0eDg1QzFrN0VwS241a1NMcW5Ja1JwWWJ1T2Mxdm0ydDAxaHYzN3ROWkJIeVVPS0RDUm9XRGtnLV9xSVlMOUFoY2tPNXZkb2RHaEdB?oc=5",
+          "published": "Mon, 12 Oct 2026 04:33:04 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -267,6 +259,14 @@
       "bullish_pct": null,
       "evidence": [
         {
+          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
+          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
           "published": "Thu, 08 Oct 2026 05:09:33 GMT",
@@ -276,16 +276,8 @@
         },
         {
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
-          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
-          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -395,10 +387,41 @@
       "sufficient": false
     },
     {
-      "name": "Infosys",
+      "name": "Adani Enterprises",
       "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "\ud83d\udea8 BREAKING: Adani Enterprises falls \u20b9187 so far today, down nearly 7% Adani Enterprises shares are witnessing a sharp decline in today\u2019s trading session. The stock is currently down \u20b9187.70, or 6.84%, trading around \u20b92,555.30, according to the market sn - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vRlNtdzVJNjFYY21DcWNEMUdkM09MWi0wTnNVUHFGd3ZqanVYQ0tkNTEweVVjSGhMaEc5d3k5ZEQ3RkdXZHlLd3A4NkxZY1VVeGc?oc=5",
+          "published": "Thu, 08 Oct 2026 07:31:21 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
+          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 1,
       "investor_mentions": 1,
-      "commentary_mentions": 1,
+      "commentary_mentions": 0,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -413,14 +436,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HAL BEL SHARE \ud83d\udca5 BSE | IRCON | WAARE ENERGIES | INFOSYS | SUZLON | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TNUpjMEM3dFRrLVpGUGlaWDlyUWVxLWoyRUxHdDRiLWtOUXNEUmRzOVY0OEZLeFZPT1N2cEdmS2Q4SDBHaVlLT2NMeE5ZbmczNUtRdDZ3?oc=5",
-          "published": "Sun, 11 Oct 2026 14:56:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -449,29 +464,6 @@
       "sufficient": false
     },
     {
-      "name": "Adani Enterprises",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
-          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "RVNL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -487,29 +479,6 @@
           "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
           "published": "Sat, 10 Oct 2026 11:07:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Paytm",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock In Action: Paytm \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u094d\u092f\u094b\u0902? Adani, TCS, ITC \u0914\u0930 Senco Gold \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PaG9NZXhnSnMxR0FMc1B6Skk3TWdlTWp1OWxCYnZjTHl5bXdxb3JERElDSVVsbjJNb08ySWJzMTcya2hOS0pDcWJQdGxFbVZwRnZFZ1FR?oc=5",
-          "published": "Thu, 08 Oct 2026 09:01:12 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -774,6 +743,20 @@
     },
     {
       "name": "Coal India",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
