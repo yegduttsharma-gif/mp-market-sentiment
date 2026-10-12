@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T18:01:26.718279+00:00",
+  "collected_at": "2026-10-12T18:04:02.951004+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -26,8 +26,8 @@
     "valuepickr": 13,
     "indexed_reddit": 188,
     "youtube": 196,
-    "facebook": 94,
-    "instagram": 88,
+    "instagram": 100,
+    "facebook": 82,
     "total_unique": 612
   },
   "direct_feed_health": {
@@ -158,22 +158,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
           "published": "Mon, 12 Oct 2026 13:00:16 GMT",
@@ -188,6 +172,22 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -381,37 +381,6 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
-          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
-          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Bharti Airtel",
       "mentions": 2,
       "investor_mentions": 0,
@@ -497,6 +466,29 @@
           "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
           "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "ICICI Bank",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -636,6 +628,29 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
           "published": "Sat, 10 Oct 2026 11:07:03 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
+          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -975,20 +990,6 @@
     },
     {
       "name": "Bank of Baroda",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
