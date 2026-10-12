@@ -62,6 +62,10 @@ jobs:
       - name: Collect actual public Reddit replies
         continue-on-error: true
         timeout-minutes: 4
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT }}
         run: python reddit_comments.py
       - name: Classify Reddit investor replies
         continue-on-error: true
