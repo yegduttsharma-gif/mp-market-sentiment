@@ -1,37 +1,102 @@
 {
   "platform": "FrontPage",
-  "collected_at": "2026-10-12T18:56:22.917478+00:00",
-  "method": "public_page_access_discovery_only",
+  "collected_at": "2026-10-12T19:09:22.384725+00:00",
+  "method": "linked_public_post_author_verification_v1",
   "sources": {
-    "comments": {
-      "url": "https://front.page/comments",
-      "status": "accessible",
-      "http_status": 200,
-      "visible_text_chars": 275,
-      "mentions_nifty": false
-    },
-    "nifty": {
-      "url": "https://front.page/nifty-50",
-      "status": "accessible",
-      "http_status": 200,
-      "visible_text_chars": 317,
-      "mentions_nifty": false
-    },
-    "indices_club": {
-      "url": "https://front.page/all-about-indices",
-      "status": "accessible",
-      "http_status": 200,
-      "visible_text_chars": 1035,
-      "mentions_nifty": false
-    },
     "stock_bets": {
       "url": "https://front.page/stock-bets",
       "status": "accessible",
       "http_status": 200,
-      "visible_text_chars": 932,
-      "mentions_nifty": false
+      "visible_text_chars": 908,
+      "candidate_post_links": 0
+    },
+    "indices": {
+      "url": "https://front.page/all-about-indices",
+      "status": "accessible",
+      "http_status": 200,
+      "visible_text_chars": 1009,
+      "candidate_post_links": 0
+    },
+    "comments": {
+      "url": "https://front.page/comments",
+      "status": "accessible",
+      "http_status": 200,
+      "visible_text_chars": 265,
+      "candidate_post_links": 0
+    },
+    "signals": {
+      "url": "https://front.page/trading-systems-and-signals",
+      "status": "accessible",
+      "http_status": 200,
+      "visible_text_chars": 950,
+      "candidate_post_links": 0
     }
   },
+  "assets": {
+    "NIFTY 50": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "BANK NIFTY": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "SENSEX": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "SBIN": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "RELIANCE": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "INFY": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "TCS": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "HDFCBANK": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "ICICIBANK": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    },
+    "KPIT": {
+      "bullish": 0,
+      "bearish": 0,
+      "directional": 0,
+      "evidence": []
+    }
+  },
+  "posts_checked": 0,
   "verified_directional_opinions": 0,
-  "included_in_retail_totals": false
+  "included_in_retail_totals": false,
+  "candidate_post_links": 0,
+  "extraction_status": "no_public_post_links_found"
 }
