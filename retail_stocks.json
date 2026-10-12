@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T20:17:14.001112+00:00",
+  "collected_at": "2026-10-12T20:39:45.969895+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 613,
+  "posts_collected": 612,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 13,
     "indexed_reddit": 187,
     "youtube": 197,
-    "facebook": 94,
-    "instagram": 89,
-    "total_unique": 613
+    "instagram": 100,
+    "facebook": 82,
+    "total_unique": 612
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -598,29 +598,6 @@
       "sufficient": false
     },
     {
-      "name": "Paytm",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
-          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Vodafone Idea",
       "mentions": 1,
       "investor_mentions": 0,
@@ -840,6 +817,20 @@
     },
     {
       "name": "Coal India",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
