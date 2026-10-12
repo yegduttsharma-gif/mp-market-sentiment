@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T22:37:29.090399+00:00",
+  "collected_at": "2026-10-12T22:56:04.170417+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -21,24 +21,24 @@
         "topics": 50
       },
       "kpit": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 31
       },
       "reliance": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "hdfc bank": {
         "status": "ok",
         "topics": 50
       },
       "icici bank": {
-        "status": "unavailable",
-        "error": "HTTPError"
-      },
-      "tcs": {
         "status": "ok",
         "topics": 50
+      },
+      "tcs": {
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 232,
+  "posts_checked": 213,
   "status": "collected"
 }
