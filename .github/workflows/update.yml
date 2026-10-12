@@ -183,6 +183,13 @@ jobs:
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             git reset --soft origin/main
+            # Only publish generated JSON; never include workflow or source changes.
+            git diff --cached --name-only -z | while IFS= read -r -d '' file; do
+              case "$file" in
+                *.json) ;;
+                *) git reset -q HEAD -- "$file" ;;
+              esac
+            done
             if git diff --cached --quiet; then
               echo "Snapshot already current"
               exit 0
