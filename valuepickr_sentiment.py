@@ -10,8 +10,8 @@ DOWN=re.compile(r"\b(?:i am bearish|i'm bearish|i expect (?:a )?(?:fall|crash|dr
 def get(url):
  req=urllib.request.Request(url,headers={"User-Agent":"PDMP-Research/1.0","Accept":"application/json"})
  with urllib.request.urlopen(req,timeout=18) as r:return json.load(r)
-out={"collected_at":now.isoformat(),"platform":"ValuePickr","method":"public_forum_unique_author_hinglish_options_v2","source_health":{},"assets":{},"posts_checked":0}
-posts=[]
+out={"collected_at":now.isoformat(),"platform":"ValuePickr","method":"public_forum_expanded_stock_search_unique_author_v3","source_health":{},"assets":{},"posts_checked":0}
+posts=[];seen_posts=set()
 try:
  listing=get(BASE+"/latest.json");topics=listing.get("topic_list",{}).get("topics",[])[:10]
  out["source_health"]["latest"]={"status":"ok","topics":len(topics)}
@@ -20,27 +20,30 @@ except Exception as e:
 # Search public posts for index-specific topics; gracefully retain latest fallback.
 search_health={}
 known={str(t["id"]):t for t in topics}
-for term in ("nifty","bank nifty","sensex","kpit"):
+for term in ("nifty","bank nifty","sensex","kpit","reliance","hdfc bank","icici bank","tcs","infosys","sbi"):
  try:
   result=get(BASE+"/search.json?"+urllib.parse.urlencode({"q":term+" order:latest"}))
   found=result.get("topics",[])
-  for topic in found[:12]:
+  for topic in found[:15]:
    if topic.get("id"):known[str(topic["id"])]=topic
   search_health[term]={"status":"ok","topics":len(found)}
  except Exception as e:search_health[term]={"status":"unavailable","error":type(e).__name__}
-topics=list(known.values())[:45]
+topics=sorted(known.values(),key=lambda t:t.get("last_posted_at") or t.get("bumped_at") or "",reverse=True)[:75]
 out["source_health"]["targeted_search"]=search_health
 errors=0
 for t in topics:
  try:
   d=get(BASE+"/t/"+str(t["id"])+".json")
-  for p in d.get("post_stream",{}).get("posts",[])[:35]:
+  for p in d.get("post_stream",{}).get("posts",[])[:50]:
    author=p.get("username") or ""
    if not author or author.lower() in ("system","discobot"):continue
    dt=datetime.fromisoformat((p.get("created_at") or "").replace("Z","+00:00"))
-   if now-dt>timedelta(days=30):continue
+   if now-dt>timedelta(days=21):continue
    body=re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",p.get("cooked","")))).strip()
    if len(body)<20:continue
+   key=(t["id"],p.get("id",p.get("post_number")))
+   if key in seen_posts:continue
+   seen_posts.add(key)
    posts.append({"text":body[:2500],"author":author,"topic":t.get("title",""),"url":BASE+"/t/"+str(t["id"])+"/"+str(p.get("post_number",1))})
  except Exception:errors+=1
 out["posts_checked"]=len(posts)
@@ -54,7 +57,7 @@ for asset,pattern in ASSETS.items():
   stance=direction(body)
   if stance=="neutral":neutral+=1;continue
   votes.setdefault(p["author"],set()).add(stance)
-  if len(sample)<8:sample.append({"url":p["url"],"sentiment":stance})
+  if len(sample)<12:sample.append({"url":p["url"],"sentiment":stance})
  bull=sum(v=={"bullish"} for v in votes.values());bear=sum(v=={"bearish"} for v in votes.values())
  out["assets"][asset]={"bullish":bull,"bearish":bear,"neutral":neutral,"directional":bull+bear,"independent_authors":bull+bear,"conflicting_authors_excluded":sum(len(v)>1 for v in votes.values()),"evidence":sample}
 out["status"]="collected" if posts else "no_public_posts_retrieved"
