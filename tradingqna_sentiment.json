@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T13:49:55.992533+00:00",
+  "collected_at": "2026-10-12T14:23:42.989853+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_unique_author_hinglish_options_v2",
   "source_health": {
@@ -21,12 +21,12 @@
         "topics": 50
       },
       "kpit": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 31
       }
     },
     "topics": {
-      "attempted": 35,
+      "attempted": 45,
       "errors": 0
     }
   },
@@ -34,7 +34,7 @@
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 1,
-      "neutral": 63,
+      "neutral": 64,
       "directional": 1,
       "independent_authors": 1,
       "conflicting_authors_excluded": 0,
@@ -73,6 +73,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 132,
+  "posts_checked": 150,
   "status": "collected"
 }
