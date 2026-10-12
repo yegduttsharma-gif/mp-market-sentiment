@@ -154,7 +154,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add collector_health.json
+          # Snapshot metadata is committed with the data; deployment may finish later.
+          python - <<'PY'
+          import json
+          from datetime import datetime,timezone
+          from pathlib import Path
+          health=json.loads(Path("collector_health.json").read_text()) if Path("collector_health.json").exists() else {}
+          Path("snapshot_meta.json").write_text(json.dumps({"collected_at":health.get("checked_at"),"published_at":datetime.now(timezone.utc).isoformat(),"timestamp_meaning":"snapshot commit prepared; GitHub Pages deployment may follow"},indent=2)+"\\n")
+          PY
+          git add collector_health.json snapshot_meta.json
           if [ -f youtube_comments.json ]; then git add youtube_comments.json; fi
           if [ -f youtube_retail.json ]; then git add youtube_retail.json; fi
           if [ -f reddit_comments.json ]; then git add reddit_comments.json; fi
