@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T00:32:37.064978+00:00",
+  "collected_at": "2026-10-12T01:07:57.316220+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 8
     },
     "nifty_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 137,
+  "unique_titles": 211,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 9,
+      "neutral": 39,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -116,6 +116,83 @@
           "source": "tradingqna",
           "published": "2026-10-10T18:55:20+00:00",
           "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty - you are done bro",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1evoc/nifty_you_are_done_bro/",
+          "source": "nifty_search",
+          "published": "2026-10-09T07:21:18+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty and Sensex are rising after yesterday\u2019s US IT suspension news. Did the market overreact or is there something we\u2019re missing?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1dqgu/nifty_and_sensex_are_rising_after_yesterdays_us/",
+          "source": "nifty_search",
+          "published": "2026-10-09T06:09:44+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty IT bloodbath when?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1db0a/nifty_it_bloodbath_when/",
+          "source": "nifty_search",
+          "published": "2026-10-09T05:44:17+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Why is Nifty not falling?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1btni/why_is_nifty_not_falling/",
+          "source": "nifty_search",
+          "published": "2026-10-09T04:18:11+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 69 behaviour, did i cook chat?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1bem7/nifty_69_behaviour_did_i_cook_chat/",
+          "source": "nifty_search",
+          "published": "2026-10-09T03:55:48+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty IT commitment Nifty 50 today\ud83d\ude05",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1b2c7/nifty_it_commitment_nifty_50_today/",
+          "source": "nifty_search",
+          "published": "2026-10-09T03:37:14+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Bleeding nifty today?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x14t2e/bleeding_nifty_today/",
+          "source": "nifty_search",
+          "published": "2026-10-08T22:30:09+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty longs, what are your views?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0xvsy/nifty_longs_what_are_your_views/",
+          "source": "nifty_search",
+          "published": "2026-10-08T17:58:49+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Time to start Nifty from 100 again \ud83d\ude25",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0w0d1/time_to_start_nifty_from_100_again/",
+          "source": "nifty_search",
+          "published": "2026-10-08T16:47:58+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "How many of you holding puts of IT Stocks and nifty 50\u2026",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0vvv1/how_many_of_you_holding_puts_of_it_stocks_and/",
+          "source": "nifty_search",
+          "published": "2026-10-08T16:43:03+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NIFTY",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0tohv/nifty/",
+          "source": "nifty_search",
+          "published": "2026-10-08T15:19:05+00:00",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -131,7 +208,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -148,6 +225,13 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1mm0y/my_first_proper_sensex_put_trade_yesterday/",
           "source": "IndianStockMarket",
           "published": "2026-10-09T14:18:54+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty and Sensex are rising after yesterday\u2019s US IT suspension news. Did the market overreact or is there something we\u2019re missing?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1dqgu/nifty_and_sensex_are_rising_after_yesterdays_us/",
+          "source": "nifty_search",
+          "published": "2026-10-09T06:09:44+00:00",
           "sentiment": "neutral"
         }
       ]
