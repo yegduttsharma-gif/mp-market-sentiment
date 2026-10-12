@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T19:20:40.970135+00:00",
+  "collected_at": "2026-10-12T19:26:24.948475+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -17,18 +17,19 @@
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
-    "HTTPError: HTTP Error 429: Too Many Requests"
+    "HTTPError: HTTP Error 429: Too Many Requests",
+    "Indexed search TimeoutError"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 613,
+  "posts_collected": 605,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 13,
-    "indexed_reddit": 188,
+    "indexed_reddit": 176,
     "youtube": 197,
     "instagram": 100,
-    "facebook": 82,
-    "total_unique": 613
+    "facebook": 86,
+    "total_unique": 605
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -201,73 +202,10 @@
       "sufficient": false
     },
     {
-      "name": "HDFC Bank",
-      "mentions": 6,
-      "investor_mentions": 4,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 4,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
-          "published": "Thu, 08 Oct 2026 05:47:08 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFC Bank Elliott Wave - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYV9idXdhNXdYTnJsR2I3Si1RLWUwcDMzZ21PaFYzNHdiUVpwRHNDWjNtVkdOOUVkaVRCUEZLUmxteTJ3RVZONDZUMnRjS2Vxa3Z2Y1h5VHpfcU02MWVEUW9XQWp2OVNrc1VjcWR6Ymxza2hQVlNRYWRscFlXMEhYUExMUEpIekVmMWc?oc=5",
-          "published": "Thu, 08 Oct 2026 07:13:03 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Reliance Industries",
-      "mentions": 5,
+      "mentions": 6,
       "investor_mentions": 0,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -298,6 +236,77 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries Share Latest News\ud83d\udca5 40 \u0936\u0947\u092f\u0930 \u0915\u0947 \u092c\u0926\u0932\u0947 40 \u0936\u0947\u092f\u0930 \u092e\u093f\u0932\u0947\u0917\u093e \ud83d\udca5 Tata Elxsi Share Latest News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSTExhMm5jdENpWE5uUnFXQmFhSXBnX1VKWGJkaXlmNVJ1NC16U2hnZ0E1V1A0U0xwbm5hMjhzUzF6RHhZbTdyMkFGTENibXFhX05EOTh3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:00:10 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "HDFC Bank",
+      "mentions": 6,
+      "investor_mentions": 4,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 4,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "HDFC Bank Elliott Wave - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYV9idXdhNXdYTnJsR2I3Si1RLWUwcDMzZ21PaFYzNHdiUVpwRHNDWjNtVkdOOUVkaVRCUEZLUmxteTJ3RVZONDZUMnRjS2Vxa3Z2Y1h5VHpfcU02MWVEUW9XQWp2OVNrc1VjcWR6Ymxza2hQVlNRYWRscFlXMEhYUExMUEpIekVmMWc?oc=5",
+          "published": "Thu, 08 Oct 2026 07:13:03 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFC Bank is now under 700. What is happening? Why is the stock falling so much? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFpfRW5OaWdic01PX1FOSmRYZmdhTGQzZE8wSHA4QVJHcG5MU2ZRTEpYTWExWHJyRW13MlN1U0lYd0IzMmZCLVJobktPMlZmbHFUZmpXN0xUQ0swd2QzUW5CbGpWSjJiaVNZcEhNc3R2LUYzWVhRS3FrS1JKeExxTWRWZmJyWWV5MUlGaG1VU2RKUEE1c3ZmLW93R0JRNzVfTnNqdUNhU0hFTDM3OHc?oc=5",
+          "published": "Thu, 08 Oct 2026 05:47:08 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         },
         {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
@@ -428,37 +437,6 @@
       "sufficient": false
     },
     {
-      "name": "Bharti Airtel",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
-          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Jio Financial",
       "mentions": 2,
       "investor_mentions": 1,
@@ -521,7 +499,7 @@
       "sufficient": false
     },
     {
-      "name": "Adani Enterprises",
+      "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -533,10 +511,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
-          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
-          "subreddit": "facebook",
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -636,29 +614,6 @@
       "sufficient": false
     },
     {
-      "name": "Vodafone Idea",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Strike. Slowboy \u00b7 Brazilian Phonk Mano. \ud83d\udcca Bharti Airtel and Vodafone Idea operate in India\u2019s telecom sector, but their stock-market metrics show a significant difference in scale, valuation and market presence. \ud83d\udcf1\ud83d\udcc8 Here\u2019s the comparison \ud83d\udc47 \ud83d\udccc CMP \u2022 Bharti Airtel: - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2Y0bm5lMzVkc1dDQUJ1eF9Ga3dXVG1TZHpXWGtXQ0JRUmRWUlVtX2sxQ292dTFVWExsWGUzd3Qwd0gyNzNNa3VpNTRCM0hHYkthQjlObWNWZHZCam1KWjNrUlBoSUdKSFBEa1BCMWpuQzF6ZWVEbEpraUNxZkd2cHEtTG5qeXd1LVRSVG1ERWt2QUxjcHJCUnh2VzlLdjUyTC0wQXNSMDZXMXVRbE9SUGZRVlFVcFJ5Z3hGTlFKbVo2ekpZWm5tUUZJVXZlczdJZWJQb1NwSmFZVU1NZFE?oc=5",
-          "published": "Tue, 06 Oct 2026 12:06:58 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Axis Bank",
       "mentions": 1,
       "investor_mentions": 0,
@@ -747,6 +702,20 @@
       "sufficient": false
     },
     {
+      "name": "Adani Enterprises",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "HAL",
       "mentions": 0,
       "investor_mentions": 0,
@@ -818,6 +787,20 @@
     },
     {
       "name": "Coal India",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Vodafone Idea",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
