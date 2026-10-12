@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T02:51:10.900688+00:00",
+  "collected_at": "2026-10-12T03:20:12.852764+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_unique_author_hinglish_options_v2",
   "source_health": {
@@ -17,8 +17,8 @@
         "topics": 50
       },
       "sensex": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "kpit": {
         "status": "ok",
@@ -26,7 +26,7 @@
       }
     },
     "topics": {
-      "attempted": 45,
+      "attempted": 38,
       "errors": 0
     }
   },
@@ -34,7 +34,7 @@
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 1,
-      "neutral": 58,
+      "neutral": 55,
       "directional": 1,
       "independent_authors": 1,
       "conflicting_authors_excluded": 0,
@@ -48,7 +48,7 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 3,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -57,7 +57,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 17,
+      "neutral": 7,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -73,6 +73,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 123,
+  "posts_checked": 109,
   "status": "collected"
 }
