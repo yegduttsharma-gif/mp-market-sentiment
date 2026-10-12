@@ -12,6 +12,7 @@ on:
       - 'tradingview_discovery.py'
       - 'frontpage_discovery.py'
       - 'render_client_options.py'
+      - 'client_options.py'
       - 'tradingview_minds_discovery.py'
       - 'retail_stocks.py'
       - 'collect.py'
@@ -182,6 +183,7 @@ jobs:
           PY
           git add collector_health.json snapshot_meta.json
           if [ -f client_options.html ]; then git add client_options.html; fi
+          if [ -f client_options_history.json ]; then git add client_options_history.json; fi
           if [ -f youtube_comments.json ]; then git add youtube_comments.json; fi
           if [ -f youtube_retail.json ]; then git add youtube_retail.json; fi
           if [ -f reddit_comments.json ]; then git add reddit_comments.json; fi
