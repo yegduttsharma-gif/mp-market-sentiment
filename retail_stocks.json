@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T05:50:26.919277+00:00",
+  "collected_at": "2026-10-12T06:26:51.030627+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 612,
+  "posts_collected": 610,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 10,
-    "indexed_reddit": 192,
+    "indexed_reddit": 190,
     "youtube": 197,
-    "instagram": 99,
-    "facebook": 81,
-    "total_unique": 612
+    "facebook": 93,
+    "instagram": 87,
+    "total_unique": 610
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -202,9 +202,9 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 4,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -237,56 +237,17 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "DMART, Poonawalla Fincorp, Anand Rathi Wealth, Canara HSBC, CORDELIA, Suzlon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95aEZiQnBEZGVYcHMwODVSRGM5QVJpb0tycktFTGk3SU1JMkptc2xkSkhVcmxvdlJYLURQNzFKRmkxV2hRdUNOMk1PUVRmZDRkZFJFSGVB?oc=5",
+          "published": "Mon, 12 Oct 2026 01:54:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Share Market LIVE : Gallantt Metal, Poonawalla Fincorp, IFCI, GRSE, Suzlon, Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rVjF0eDg1QzFrN0VwS241a1NMcW5Ja1JwWWJ1T2Mxdm0ydDAxaHYzN3ROWkJIeVVPS0RDUm9XRGtnLV9xSVlMOUFoY2tPNXZkb2RHaEdB?oc=5",
           "published": "Mon, 12 Oct 2026 04:33:04 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IRFC",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
-          "published": "Thu, 08 Oct 2026 05:09:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
-          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
-          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC Share Price: \u0928\u090f 52 Weeks Low \u092a\u0930 \u0906\u092f\u093e IRFC \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | Business News | ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14dFZzdkxWMGZmSGFFYTRVQmJHaC1JNEhzRW9RMFlOSGRKdWlfM1Z0VnU2eHU1MTIyXzhDSWxSVV9LMEdBRjhoVVdwY1NWbVNVMUx1ajBB?oc=5",
-          "published": "Fri, 09 Oct 2026 04:38:01 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -497,6 +458,37 @@
       "sufficient": false
     },
     {
+      "name": "IRFC",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
+          "published": "Thu, 08 Oct 2026 05:09:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
+          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
@@ -630,29 +622,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Power",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
-          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -924,6 +893,20 @@
     },
     {
       "name": "JSW Energy",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
