@@ -52,7 +52,7 @@ if snapshot:
     history.append({k:snapshot[k] for k in ("date","call_long","put_long")})
     by_date={x["date"]:x for x in history if isinstance(x,dict) and isinstance(x.get("date"),str) and type(x.get("call_long")) is int and type(x.get("put_long")) is int}
     history=[by_date[k] for k in sorted(by_date)][-120:]
-    history_path.write_text(json.dumps(history,indent=2)+"\\n")
+    history_path.write_text(json.dumps(history,indent=2)+"\n")
     out.write_text(json.dumps(snapshot,indent=2)+"\n")
     print("Saved NSE Client index option long OI",snapshot["date"])
 else:
