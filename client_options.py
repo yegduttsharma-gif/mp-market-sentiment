@@ -5,6 +5,7 @@ from pathlib import Path
 
 IST=timezone(timedelta(hours=5,minutes=30))
 out=Path("client_options.json")
+history_path=Path("client_options_history.json")
 def get_report(day):
     url="https://archives.nseindia.com/content/nsccl/fao_participant_oi_"+day.strftime("%d%m%Y")+".csv"
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; PDMP public-data dashboard)","Accept":"text/csv,*/*","Referer":"https://www.nseindia.com/"})
@@ -39,6 +40,19 @@ for n in range(8):
 if snapshot:
     total=snapshot["call_long"]+snapshot["put_long"]
     snapshot.update({"call_share_pct":round(100*snapshot["call_long"]/total,1) if total else None,"put_share_pct":round(100*snapshot["put_long"]/total,1) if total else None,"collected_at":now.isoformat(),"scope":"All NSE index options combined; Client category includes non-retail clients. End-of-day outstanding long OI, NOT today's option buys."})
+    try:
+        history=json.loads(history_path.read_text()) if history_path.exists() else []
+        if not isinstance(history,list):history=[]
+    except (ValueError,OSError):history=[]
+    if out.exists():
+        try:
+            prior=json.loads(out.read_text())
+            history.append({k:prior[k] for k in ("date","call_long","put_long")})
+        except (ValueError,OSError,KeyError,TypeError):pass
+    history.append({k:snapshot[k] for k in ("date","call_long","put_long")})
+    by_date={x["date"]:x for x in history if isinstance(x,dict) and isinstance(x.get("date"),str) and type(x.get("call_long")) is int and type(x.get("put_long")) is int}
+    history=[by_date[k] for k in sorted(by_date)][-120:]
+    history_path.write_text(json.dumps(history,indent=2)+"\\n")
     out.write_text(json.dumps(snapshot,indent=2)+"\n")
     print("Saved NSE Client index option long OI",snapshot["date"])
 else:
