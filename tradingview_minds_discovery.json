@@ -1,0 +1,30 @@
+{
+  "platform": "TradingView Minds",
+  "collected_at": "2026-10-12T18:27:45.891647+00:00",
+  "method": "public_minds_page_access_only",
+  "included_in_retail_totals": false,
+  "verified_directional_opinions": 0,
+  "sources": {
+    "NIFTY 50": {
+      "url": "https://in.tradingview.com/symbols/NSE-NIFTY/community-minds/",
+      "status": "accessible",
+      "http_status": 200,
+      "visible_text_chars": 5738,
+      "contains_minds": true
+    },
+    "BANK NIFTY": {
+      "url": "https://in.tradingview.com/symbols/NSE-BANKNIFTY/community-minds/",
+      "status": "accessible",
+      "http_status": 200,
+      "visible_text_chars": 7887,
+      "contains_minds": true
+    },
+    "SENSEX": {
+      "url": "https://in.tradingview.com/symbols/BSE-SENSEX/community-minds/",
+      "status": "accessible",
+      "http_status": 200,
+      "visible_text_chars": 5515,
+      "contains_minds": true
+    }
+  }
+}
