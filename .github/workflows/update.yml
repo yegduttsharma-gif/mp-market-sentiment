@@ -11,6 +11,7 @@ on:
       - 'reddit_retail.py'
       - 'tradingview_discovery.py'
       - 'frontpage_discovery.py'
+      - 'render_client_options.py'
       - 'tradingview_minds_discovery.py'
       - 'retail_stocks.py'
       - 'collect.py'
@@ -117,6 +118,9 @@ jobs:
         continue-on-error: true
         timeout-minutes: 3
         run: python client_options.py
+      - name: Render verified NSE options report into HTML
+        continue-on-error: true
+        run: python render_client_options.py
       - name: Fetch index and India VIX quotes
         id: market
         continue-on-error: true
@@ -177,6 +181,7 @@ jobs:
           Path("snapshot_meta.json").write_text(json.dumps({"collected_at":health.get("checked_at"),"published_at":datetime.now(timezone.utc).isoformat(),"timestamp_meaning":"snapshot commit prepared; GitHub Pages deployment may follow"},indent=2)+"\\n")
           PY
           git add collector_health.json snapshot_meta.json
+          if [ -f client_options.html ]; then git add client_options.html; fi
           if [ -f youtube_comments.json ]; then git add youtube_comments.json; fi
           if [ -f youtube_retail.json ]; then git add youtube_retail.json; fi
           if [ -f reddit_comments.json ]; then git add reddit_comments.json; fi
@@ -210,7 +215,7 @@ jobs:
             # Only publish generated JSON; never include workflow or source changes.
             git diff --cached --name-only -z | while IFS= read -r -d '' file; do
               case "$file" in
-                *.json) ;;
+                *.json|client_options.html) ;;
                 *) git reset -q HEAD -- "$file" ;;
               esac
             done
