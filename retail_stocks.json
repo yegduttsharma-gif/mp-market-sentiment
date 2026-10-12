@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T20:39:45.969895+00:00",
+  "collected_at": "2026-10-12T20:58:58.478304+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 612,
+  "posts_collected": 615,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 13,
-    "indexed_reddit": 187,
+    "indexed_reddit": 190,
     "youtube": 197,
     "instagram": 100,
     "facebook": 82,
-    "total_unique": 612
+    "total_unique": 615
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -498,6 +498,37 @@
       "sufficient": false
     },
     {
+      "name": "IREDA",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Your Stocks | IREDA, SBI \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0930\u0938\u0947\u0917\u093e \u091b\u092a\u094d\u092a\u0930\u092b\u093e\u0921\u093c \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa0J3dnRiLUkycjViZ25nMlNYcnU4bThRSDljMjF5SGI3WnV6RHZkdWp0WGRlNF8wSERUUjNQQUtzZURnV0JVbGVPWjk1Ul83VFBWelp3?oc=5",
+          "published": "Fri, 09 Oct 2026 08:59:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IREDA Share Price | IREDA Share \u092e\u0947\u0902 \u0905\u092d\u0940 Exit \u0915\u0930\u0928\u093e \u0938\u0939\u0940 \u092f\u093e Hold? \u091c\u093e\u0928\u0947\u0902 \u0906\u0917\u0947 \u0915\u093e Outlook | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92aG16ZWZLTElJbGdKQWU3aXJiaWpQQ2tHX3FfZllwV09lTjdNNHhQNll1MTRiNmlydzJlOF9HSjM0dk91VVEzN1lRcTJKSTM5cWpqXzRR?oc=5",
+          "published": "Mon, 12 Oct 2026 07:33:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Jio Financial",
       "mentions": 2,
       "investor_mentions": 1,
@@ -552,29 +583,6 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IREDA Share Price | IREDA Share \u092e\u0947\u0902 \u0905\u092d\u0940 Exit \u0915\u0930\u0928\u093e \u0938\u0939\u0940 \u092f\u093e Hold? \u091c\u093e\u0928\u0947\u0902 \u0906\u0917\u0947 \u0915\u093e Outlook | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92aG16ZWZLTElJbGdKQWU3aXJiaWpQQ2tHX3FfZllwV09lTjdNNHhQNll1MTRiNmlydzJlOF9HSjM0dk91VVEzN1lRcTJKSTM5cWpqXzRR?oc=5",
-          "published": "Mon, 12 Oct 2026 07:33:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "RVNL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -591,6 +599,29 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
           "published": "Sat, 10 Oct 2026 11:07:03 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
+          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -817,20 +848,6 @@
     },
     {
       "name": "Coal India",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Paytm",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
