@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-12T18:07:08.158366+00:00",
+  "collected_at": "2026-10-12T18:19:03.030584+00:00",
   "platform": "ValuePickr",
-  "method": "public_forum_unique_author_hinglish_options_v2",
+  "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
     "latest": {
       "status": "ok",
@@ -23,11 +23,35 @@
       "kpit": {
         "status": "ok",
         "topics": 50
+      },
+      "reliance": {
+        "status": "ok",
+        "topics": 50
+      },
+      "hdfc bank": {
+        "status": "ok",
+        "topics": 50
+      },
+      "icici bank": {
+        "status": "ok",
+        "topics": 50
+      },
+      "tcs": {
+        "status": "ok",
+        "topics": 50
+      },
+      "infosys": {
+        "status": "ok",
+        "topics": 50
+      },
+      "sbi": {
+        "status": "ok",
+        "topics": 50
       }
     },
     "topics": {
-      "attempted": 45,
-      "errors": 0
+      "attempted": 75,
+      "errors": 1
     }
   },
   "assets": {
@@ -68,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 23,
+  "posts_checked": 41,
   "status": "collected"
 }

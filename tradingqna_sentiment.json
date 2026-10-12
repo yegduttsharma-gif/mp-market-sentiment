@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-10-12T18:06:49.352675+00:00",
+  "collected_at": "2026-10-12T18:18:33.433561+00:00",
   "platform": "TradingQnA",
-  "method": "public_forum_unique_author_hinglish_options_v2",
+  "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
     "latest": {
       "status": "ok",
@@ -23,32 +23,60 @@
       "kpit": {
         "status": "ok",
         "topics": 31
+      },
+      "reliance": {
+        "status": "ok",
+        "topics": 50
+      },
+      "hdfc bank": {
+        "status": "unavailable",
+        "error": "HTTPError"
+      },
+      "icici bank": {
+        "status": "ok",
+        "topics": 50
+      },
+      "tcs": {
+        "status": "ok",
+        "topics": 50
+      },
+      "infosys": {
+        "status": "ok",
+        "topics": 50
+      },
+      "sbi": {
+        "status": "ok",
+        "topics": 50
       }
     },
     "topics": {
-      "attempted": 45,
+      "attempted": 75,
       "errors": 0
     }
   },
   "assets": {
     "NIFTY 50": {
-      "bullish": 0,
+      "bullish": 1,
       "bearish": 1,
-      "neutral": 63,
-      "directional": 1,
-      "independent_authors": 1,
+      "neutral": 85,
+      "directional": 2,
+      "independent_authors": 2,
       "conflicting_authors_excluded": 0,
       "evidence": [
         {
-          "url": "https://www.tradingqna.com/t/197906/8",
+          "url": "https://www.tradingqna.com/t/198401/4",
           "sentiment": "bearish"
+        },
+        {
+          "url": "https://www.tradingqna.com/t/198401/13",
+          "sentiment": "bullish"
         }
       ]
     },
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 6,
+      "neutral": 7,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -57,7 +85,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 14,
+      "neutral": 10,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -73,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 158,
+  "posts_checked": 228,
   "status": "collected"
 }
