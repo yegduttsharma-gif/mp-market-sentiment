@@ -14,9 +14,8 @@ on:
       - 'collect.py'
       - '.github/workflows/update.yml'
   schedule:
-    # YouTube comments refresh every 15 minutes; new-video search every 6 hours.
-    # Starts may be delayed by GitHub; published data is not a live feed.
-    - cron: '2,17,32,47 * * * *'
+    # Request a snapshot every 10 minutes (GitHub scheduling can be delayed).
+    - cron: '3,13,23,33,43,53 * * * *'
   workflow_dispatch:
 concurrency:
   group: pdmp-snapshot-main
