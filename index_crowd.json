@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T09:21:21.742702+00:00",
+  "collected_at": "2026-10-12T09:52:57.674064+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,11 +25,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 8
+      "recent": 9
     },
     "nifty_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,23 +44,16 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 136,
+  "unique_titles": 215,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 7,
+      "neutral": 39,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
-        {
-          "title": "Congrats, Nifty has give 10% returns this year alone.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x3x0kg/congrats_nifty_has_give_10_returns_this_year_alone/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-12T09:07:37+00:00",
-          "sentiment": "neutral"
-        },
         {
           "title": "Expecting nifty to touch around 22200 by tomorrow. Any expert opinions?",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x3w2w7/expecting_nifty_to_touch_around_22200_by_tomorrow/",
@@ -90,17 +83,115 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty 50 Near COVID TrendLine Support",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x28x64/nifty_50_near_covid_trendline_support/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-10T07:18:09+00:00",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Systematic Nifty Option Selling via Kite Connect: Managing Decoupled 1.75x Stops, Execution Latency & True Expiry Margin",
           "url": "https://tradingqna.com/t/systematic-nifty-option-selling-via-kite-connect-managing-decoupled-1-75x-stops-execution-latency-true-expiry-margin/198729",
           "source": "tradingqna",
           "published": "2026-10-10T18:55:20+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 Near COVID TrendLine Support",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x28x64/nifty_50_near_covid_trendline_support/",
+          "source": "nifty_search",
+          "published": "2026-10-10T07:18:09+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1vril/nifty_50/",
+          "source": "nifty_search",
+          "published": "2026-10-09T20:15:02+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Market 2 steps up and 20 steps down. Deception. Keep loading puts of IT and nifty 50",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1tnsg/market_2_steps_up_and_20_steps_down_deception/",
+          "source": "nifty_search",
+          "published": "2026-10-09T18:53:15+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Day 48 nifty option buying with 15k capital",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1lqbw/day_48_nifty_option_buying_with_15k_capital/",
+          "source": "nifty_search",
+          "published": "2026-10-09T13:43:40+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Should I shift to a different Nifty Next 50 index fund from ICICI",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1l0of/should_i_shift_to_a_different_nifty_next_50_index/",
+          "source": "nifty_search",
+          "published": "2026-10-09T13:12:46+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty - you are done bro",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1evoc/nifty_you_are_done_bro/",
+          "source": "nifty_search",
+          "published": "2026-10-09T07:21:18+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty and Sensex are rising after yesterday\u2019s US IT suspension news. Did the market overreact or is there something we\u2019re missing?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1dqgu/nifty_and_sensex_are_rising_after_yesterdays_us/",
+          "source": "nifty_search",
+          "published": "2026-10-09T06:09:44+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty IT bloodbath when?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1db0a/nifty_it_bloodbath_when/",
+          "source": "nifty_search",
+          "published": "2026-10-09T05:44:17+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Why is Nifty not falling?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1btni/why_is_nifty_not_falling/",
+          "source": "nifty_search",
+          "published": "2026-10-09T04:18:11+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 69 behaviour, did i cook chat?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1bem7/nifty_69_behaviour_did_i_cook_chat/",
+          "source": "nifty_search",
+          "published": "2026-10-09T03:55:48+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty IT commitment Nifty 50 today\ud83d\ude05",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1b2c7/nifty_it_commitment_nifty_50_today/",
+          "source": "nifty_search",
+          "published": "2026-10-09T03:37:14+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Bleeding nifty today?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x14t2e/bleeding_nifty_today/",
+          "source": "nifty_search",
+          "published": "2026-10-08T22:30:09+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty longs, what are your views?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0xvsy/nifty_longs_what_are_your_views/",
+          "source": "nifty_search",
+          "published": "2026-10-08T17:58:49+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Time to start Nifty from 100 again \ud83d\ude25",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0w0d1/time_to_start_nifty_from_100_again/",
+          "source": "nifty_search",
+          "published": "2026-10-08T16:47:58+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "How many of you holding puts of IT Stocks and nifty 50\u2026",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x0vvv1/how_many_of_you_holding_puts_of_it_stocks_and/",
+          "source": "nifty_search",
+          "published": "2026-10-08T16:43:03+00:00",
           "sentiment": "neutral"
         }
       ]
@@ -117,7 +208,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -127,6 +218,13 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x34tgu/nifty_50_sensex_analysis_for_monday_12_october/",
           "source": "IndianStockMarket",
           "published": "2026-10-11T10:28:07+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty and Sensex are rising after yesterday\u2019s US IT suspension news. Did the market overreact or is there something we\u2019re missing?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1dqgu/nifty_and_sensex_are_rising_after_yesterdays_us/",
+          "source": "nifty_search",
+          "published": "2026-10-09T06:09:44+00:00",
           "sentiment": "neutral"
         }
       ]
