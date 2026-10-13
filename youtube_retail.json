@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-10-13T17:58:11.155952+00:00",
+  "collected_at": "2026-10-13T18:23:19.159762+00:00",
   "method": "youtube_position_and_expectation_unique_author_v2",
   "platform": "YouTube",
   "note": "Heuristic nonrepresentative sample. Unique identifiable authors only; conflicting views excluded. Positions are not forecasts.",
-  "comment_count": 1925,
-  "directional_count": 30,
+  "comment_count": 1928,
+  "directional_count": 31,
   "assets": {
     "NIFTY 50": {
       "bullish": 17,
@@ -385,11 +385,11 @@
     },
     "BANK NIFTY": {
       "bullish": 5,
-      "bearish": 0,
+      "bearish": 1,
       "neutral": 36,
-      "directional": 5,
-      "bullish_pct": 100,
-      "independent_authors": 5,
+      "directional": 6,
+      "bullish_pct": 83,
+      "independent_authors": 6,
       "conflicting_authors_excluded": 0,
       "unverified_author_comments_excluded": 0,
       "positioning": {
@@ -398,9 +398,26 @@
       },
       "expectation": {
         "bullish": 1,
-        "bearish": 0
+        "bearish": 1
       },
       "evidence": [
+        {
+          "platform": "YouTube",
+          "type": "viewer_comment",
+          "text": "Cal market girega",
+          "published": "2026-10-13T18:20:20Z",
+          "likes": 0,
+          "video_title": "kal market kaisa rahega | banknifty gap up or gap down wednesday | kal ka market kaisa rahega ||",
+          "video_url": "https://www.youtube.com/watch?v=H2se0CqFYfU",
+          "url": "https://www.youtube.com/watch?v=H2se0CqFYfU&lc=Ugy8JqtsnOkFrnTKiBJ4AaABAg",
+          "comment_id": "Ugy8JqtsnOkFrnTKiBJ4AaABAg",
+          "author_channel_id": "UCsGMVC_x45zupDxXClFX7Wg",
+          "asset_tags": [
+            "BANK NIFTY"
+          ],
+          "sentiment": "bearish",
+          "evidence_type": "expectation"
+        },
         {
           "platform": "YouTube",
           "type": "viewer_comment",
@@ -598,6 +615,53 @@
     }
   },
   "comments": [
+    {
+      "platform": "YouTube",
+      "type": "viewer_comment",
+      "text": "Midcap levels?",
+      "published": "2026-10-13T18:22:51Z",
+      "likes": 0,
+      "video_title": "SENSEX TOMORROW NIFTY BANKNIFTY PREDICTION ANALYSIS FINNIFTY MIDCAP WED 14 OCT GAP UPGAP DOWN",
+      "video_url": "https://www.youtube.com/watch?v=VKxT6wS2ZUM",
+      "url": "https://www.youtube.com/watch?v=VKxT6wS2ZUM&lc=UgznToSozZLrlK78qGZ4AaABAg",
+      "comment_id": "UgznToSozZLrlK78qGZ4AaABAg",
+      "author_channel_id": "UCTRAJ5MVAVs5RYRgvv1M4EA",
+      "asset_tags": [],
+      "sentiment": "neutral",
+      "evidence_type": "question_or_mixed"
+    },
+    {
+      "platform": "YouTube",
+      "type": "viewer_comment",
+      "text": "Cal market girega",
+      "published": "2026-10-13T18:20:20Z",
+      "likes": 0,
+      "video_title": "kal market kaisa rahega | banknifty gap up or gap down wednesday | kal ka market kaisa rahega ||",
+      "video_url": "https://www.youtube.com/watch?v=H2se0CqFYfU",
+      "url": "https://www.youtube.com/watch?v=H2se0CqFYfU&lc=Ugy8JqtsnOkFrnTKiBJ4AaABAg",
+      "comment_id": "Ugy8JqtsnOkFrnTKiBJ4AaABAg",
+      "author_channel_id": "UCsGMVC_x45zupDxXClFX7Wg",
+      "asset_tags": [
+        "BANK NIFTY"
+      ],
+      "sentiment": "bearish",
+      "evidence_type": "expectation"
+    },
+    {
+      "platform": "YouTube",
+      "type": "viewer_comment",
+      "text": "Sir DMart dekho na",
+      "published": "2026-10-13T18:10:42Z",
+      "likes": 0,
+      "video_title": "RELIANCE SHARE CRASH 😱 ₹1150 के पास क्या करें? | Reliance Share Analysis 2026 | Buy or Sell?",
+      "video_url": "https://www.youtube.com/watch?v=sdCCnWXdMNw",
+      "url": "https://www.youtube.com/watch?v=sdCCnWXdMNw&lc=UgyQFa4uCeECHO_incp4AaABAg",
+      "comment_id": "UgyQFa4uCeECHO_incp4AaABAg",
+      "author_channel_id": "UCf1ZkMv6JJuWA3oHB6SEEEA",
+      "asset_tags": [],
+      "sentiment": "neutral",
+      "evidence_type": "discussion_or_noise"
+    },
     {
       "platform": "YouTube",
       "type": "viewer_comment",
