@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T17:21:07.240425+00:00",
+  "collected_at": "2026-10-13T17:40:34.217361+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 635,
+  "posts_collected": 638,
   "source_counts": {
     "tradingqna": 33,
-    "valuepickr": 16,
-    "indexed_reddit": 205,
-    "youtube": 195,
+    "valuepickr": 17,
+    "indexed_reddit": 206,
     "instagram": 100,
-    "facebook": 86,
-    "total_unique": 635
+    "youtube": 195,
+    "facebook": 87,
+    "total_unique": 638
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,7 +37,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 10
+      "recent_items": 11
     },
     "valuepickr_top": {
       "status": "ok",
