@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T17:00:45.710371+00:00",
+  "collected_at": "2026-10-13T17:20:59.129247+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 138,
+  "unique_titles": 237,
   "indices": {
     "NIFTY 50": {
       "bullish": 2,
       "bearish": 0,
-      "neutral": 8,
+      "neutral": 12,
       "directional": 2,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -101,6 +101,34 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x46hyl/nifty_500_down_3_in_a_month_but_55_of_stocks/",
           "source": "IndianStockMarket",
           "published": "2026-10-12T16:28:20+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Bought nifty call option today before, jio ipo",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x4n02r/bought_nifty_call_option_today_before_jio_ipo/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-13T04:13:04+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Finally the Sweet Candle is forming on Nifty. The whole last week was Fugazi",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x1fmha/finally_the_sweet_candle_is_forming_on_nifty_the/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-09T08:10:08+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty IT commitment Nifty 50 today\ud83d\ude05",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x1bzon/nifty_it_commitment_nifty_50_today/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-09T04:27:37+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 is 52 week low. RBI increased repo rate by 25 bps. INR USD at 97+. Is this a good time to invest in Nifty 50 Index funds? Or shall I park it in Gold ETFs? Help me gain some sanity.",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x0pyhz/nifty_50_is_52_week_low_rbi_increased_repo_rate/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-08T12:44:44+00:00",
           "sentiment": "neutral"
         },
         {
