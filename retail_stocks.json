@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T01:20:44.918036+00:00",
+  "collected_at": "2026-10-13T01:42:06.357485+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 612,
+  "posts_collected": 614,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 14,
-    "indexed_reddit": 190,
-    "youtube": 193,
+    "indexed_reddit": 189,
+    "youtube": 194,
     "instagram": 100,
-    "facebook": 82,
-    "total_unique": 612
+    "facebook": 84,
+    "total_unique": 614
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -150,22 +150,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
           "published": "Sun, 11 Oct 2026 08:09:24 GMT",
@@ -180,6 +164,22 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -401,17 +401,17 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "#OpeningBell: Sensex gains over 150 pts, Nifty tops 22,600; Kotak Bank, BSE rise up to 3% #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-vedant-kotak-bank-share-pric - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcE0wNE56VC1JLW1jeEZaMTZUM0Zjc3hsZmtDWnNzbjQwdkxuUEt4ZHlFODkwelBCWkpRWWJQVXZsWklNd1FwRjdOQkp1OUVFbFpBUDB2UXdtV2tRV0hDZVZISF83NVVycmt3ZEZmd0RBS1QzdmIxZ2YzTmpsZzdENkFRTjJZeGlVWGlqT1JUczJrNWU4M2NuQzJOazV3Y3duRFBQZVlZRThyUHFMRFVGWjhxT3J0dVIzZXdia29qcEU2OXhkMy0zUFhTaUdOR25EcG5GS1hn?oc=5",
-          "published": "Tue, 06 Oct 2026 03:47:24 GMT",
+          "title": "Strike. Himanshu Sharma \u00b7 News Headlines. Kotak Mahindra Bank shares rose 4% to \u20b9431 on Tuesday. The move followed the bank\u2019s Q2 FY27 provisional business update. \ud83d\udccc Net advances: \u20b95.77 lakh crore, up 25% YoY \ud83d\udccc Total deposits: \u20b96.51 lakh crore, u - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2MzWWFfZlIwYkFNSzVIS0t5SnhoRzE1WTJrak05anpDREhIR2VKNjZWRnVWWGRDYmZWMEhaQmI5N29DZEhOSWVXcjhmX3dmT3JPUVgyQ05Id2F0UEE5c044N0lRMUZBZHVSRGJDNHkwbjJKWTczZlFqZ0d5ZmlESlNMU3FKR09QMkNOWVdZVFV6SWFraUFhNjdPUnVlTVR2UzB5aXM4Y3YwVko1WWozaHM0QzNJc1ZsZmpyWG5idnJfaTdwUS03WEpqeExVbG5SNVV2cUIycThOQ01EZ0E?oc=5",
+          "published": "Tue, 06 Oct 2026 04:44:48 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Strike. Himanshu Sharma \u00b7 News Headlines. Kotak Mahindra Bank shares rose 4% to \u20b9431 on Tuesday. The move followed the bank\u2019s Q2 FY27 provisional business update. \ud83d\udccc Net advances: \u20b95.77 lakh crore, up 25% YoY \ud83d\udccc Total deposits: \u20b96.51 lakh crore, u - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2MzWWFfZlIwYkFNSzVIS0t5SnhoRzE1WTJrak05anpDREhIR2VKNjZWRnVWWGRDYmZWMEhaQmI5N29DZEhOSWVXcjhmX3dmT3JPUVgyQ05Id2F0UEE5c044N0lRMUZBZHVSRGJDNHkwbjJKWTczZlFqZ0d5ZmlESlNMU3FKR09QMkNOWVdZVFV6SWFraUFhNjdPUnVlTVR2UzB5aXM4Y3YwVko1WWozaHM0QzNJc1ZsZmpyWG5idnJfaTdwUS03WEpqeExVbG5SNVV2cUIycThOQ01EZ0E?oc=5",
-          "published": "Tue, 06 Oct 2026 04:44:48 GMT",
+          "title": "#OpeningBell: Sensex gains over 150 pts, Nifty tops 22,600; Kotak Bank, BSE rise up to 3% #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-vedant-kotak-bank-share-pric - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcE0wNE56VC1JLW1jeEZaMTZUM0Zjc3hsZmtDWnNzbjQwdkxuUEt4ZHlFODkwelBCWkpRWWJQVXZsWklNd1FwRjdOQkp1OUVFbFpBUDB2UXdtV2tRV0hDZVZISF83NVVycmt3ZEZmd0RBS1QzdmIxZ2YzTmpsZzdENkFRTjJZeGlVWGlqT1JUczJrNWU4M2NuQzJOazV3Y3duRFBQZVlZRThyUHFMRFVGWjhxT3J0dVIzZXdia29qcEU2OXhkMy0zUFhTaUdOR25EcG5GS1hn?oc=5",
+          "published": "Tue, 06 Oct 2026 03:47:24 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -482,6 +482,37 @@
       "sufficient": false
     },
     {
+      "name": "Adani Enterprises",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "The ceasefire happened. Some stocks clearly got the memo before everyone else. From 27 February to 8 April, the market saw some interesting moves across Nifty 50, Midcap 150 and Smallcap 250 names. Adani Enterprises, Eternal and Adani Ports & SEZ h - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tem4yQ1R2bWFKcU5MbHlBdzlWdlJPMVUzMDNvTjdVN2QtWldNaEJqZ3d1bmpmcWUyakdUQTBwZWg4MjVScFNRMUVvR0tObEJ3dGc?oc=5",
+          "published": "Tue, 06 Oct 2026 09:08:57 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
+          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IREDA",
       "mentions": 2,
       "investor_mentions": 0,
@@ -544,10 +575,10 @@
       "sufficient": false
     },
     {
-      "name": "Adani Enterprises",
-      "mentions": 1,
+      "name": "Adani Ports",
+      "mentions": 2,
       "investor_mentions": 0,
-      "commentary_mentions": 1,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -556,9 +587,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
-          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
+          "title": "The ceasefire happened. Some stocks clearly got the memo before everyone else. From 27 February to 8 April, the market saw some interesting moves across Nifty 50, Midcap 150 and Smallcap 250 names. Adani Enterprises, Eternal and Adani Ports & SEZ h - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tem4yQ1R2bWFKcU5MbHlBdzlWdlJPMVUzMDNvTjdVN2QtWldNaEJqZ3d1bmpmcWUyakdUQTBwZWg4MjVScFNRMUVvR0tObEJ3dGc?oc=5",
+          "published": "Tue, 06 Oct 2026 09:08:57 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | HCL tech Share, Asian Paints, JSW cement, Titan, adani ports share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 | Watch Live Now : https://www.youtube.com/live/CNRwoU5xdr8 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUVFXRjlWcEZOWHl2QTFJRzQ0cjNtbW50TW1tOTRmZXFSZ0tmS3oxNm1YVUd4aWptelJxWVVqWkFKdXc3RV9rX3VPYmM5cFhRNTFkLXd2UHNwZjE0aWRoWV9LWE4yZGZyWHU4RkdkdFp1N3czc0o1SG1EcHh2RGVfUGowNXRrR3JRbFFZZmlHaDdQVUVoVWg0VVloZ1NHTE5yRk01dDkwSkJmVUI2MmFFQjRlWi1rcFBtdXZ5WVZJTEYtVHVla05iaEhDRXh2WjhoaUs2RVdteTZnQXNBZlBJ?oc=5",
+          "published": "Wed, 07 Oct 2026 03:07:53 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -583,29 +622,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
           "published": "Sun, 11 Oct 2026 14:30:10 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "BEL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
-          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -840,6 +856,20 @@
       "sufficient": false
     },
     {
+      "name": "BEL",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Coal India",
       "mentions": 0,
       "investor_mentions": 0,
@@ -939,20 +969,6 @@
     },
     {
       "name": "Adani Green",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Ports",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
