@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T13:25:29.198642+00:00",
+  "collected_at": "2026-10-13T13:54:46.534970+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -17,8 +17,8 @@
         "topics": 50
       },
       "sensex": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "kpit": {
         "status": "ok",
@@ -33,8 +33,8 @@
         "topics": 50
       },
       "icici bank": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "tcs": {
         "status": "ok",
@@ -45,8 +45,8 @@
         "topics": 50
       },
       "sbi": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       }
     },
     "topics": {
@@ -58,7 +58,7 @@
     "NIFTY 50": {
       "bullish": 1,
       "bearish": 1,
-      "neutral": 80,
+      "neutral": 77,
       "directional": 2,
       "independent_authors": 2,
       "conflicting_authors_excluded": 0,
@@ -76,7 +76,7 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 9,
+      "neutral": 8,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -85,7 +85,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 10,
+      "neutral": 4,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 179,
+  "posts_checked": 167,
   "status": "collected"
 }
