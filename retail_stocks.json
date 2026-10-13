@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T19:19:46.333253+00:00",
+  "collected_at": "2026-10-13T19:53:11.568663+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 638,
+  "posts_collected": 639,
   "source_counts": {
     "tradingqna": 31,
     "valuepickr": 17,
     "indexed_reddit": 208,
     "youtube": 195,
-    "facebook": 94,
-    "instagram": 93,
-    "total_unique": 638
+    "instagram": 100,
+    "facebook": 88,
+    "total_unique": 639
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -79,18 +79,18 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
           "published": "Tue, 13 Oct 2026 13:54:12 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -472,18 +472,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
-          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
           "published": "Tue, 13 Oct 2026 15:24:42 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
+          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -534,18 +534,49 @@
       "bullish_pct": null,
       "evidence": [
         {
+          "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
+          "published": "Tue, 13 Oct 2026 15:24:42 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
           "published": "Mon, 12 Oct 2026 11:12:23 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "\ud83d\udcc8 NIFTY 50 TOP GAINERS & LOSERS | 13 OCT 2026 IT stocks dominated the Nifty 50 gainers list on Tuesday, while Kotak Mahindra Bank, Eternal, Maruti Suzuki and Max Healthcare featured among the session\u2019s losers. \ud83d\udfe2 TOP 5 GAINERS \ud83d\udd39 HCL Technolog - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3RUQ0lyd0M0dkpKYTNISE9tOVdNbGZSTDRYQUtwek5IZmZzMDN4SEUtZW1QSGVTTUVJb0dVOVdtc0JZTVhuQ0Q3R2hHWi1XbEVCN2FDaEdsX3hTR1ZfRkkzcURDSVdYeHJqcWhDbkw4UDM3dERGM1FlYlQya0VSYjBnWk5pLVRFb3p3YlUzbEM3aF9rR0ZSSWdZQV80ckJnSTR5Y20tMW9OamxQZXl0VEl1TWVvbTkwZFk1bVNpYnVmaWdkWUdXX09UdFk5UHhxU183WHVSbmlxeGVp?oc=5",
+          "published": "Tue, 13 Oct 2026 10:46:31 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         },
         {
-          "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
-          "published": "Tue, 13 Oct 2026 15:24:42 GMT",
-          "subreddit": "instagram",
+          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
+          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -737,7 +768,7 @@
       "sufficient": false
     },
     {
-      "name": "Maruti Suzuki",
+      "name": "Kotak Bank",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -749,9 +780,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
-          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
+          "title": "\ud83d\udcc8 NIFTY 50 TOP GAINERS & LOSERS | 13 OCT 2026 IT stocks dominated the Nifty 50 gainers list on Tuesday, while Kotak Mahindra Bank, Eternal, Maruti Suzuki and Max Healthcare featured among the session\u2019s losers. \ud83d\udfe2 TOP 5 GAINERS \ud83d\udd39 HCL Technolog - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3RUQ0lyd0M0dkpKYTNISE9tOVdNbGZSTDRYQUtwek5IZmZzMDN4SEUtZW1QSGVTTUVJb0dVOVdtc0JZTVhuQ0Q3R2hHWi1XbEVCN2FDaEdsX3hTR1ZfRkkzcURDSVdYeHJqcWhDbkw4UDM3dERGM1FlYlQya0VSYjBnWk5pLVRFb3p3YlUzbEM3aF9rR0ZSSWdZQV80ckJnSTR5Y20tMW9OamxQZXl0VEl1TWVvbTkwZFk1bVNpYnVmaWdkWUdXX09UdFk5UHhxU183WHVSbmlxeGVp?oc=5",
+          "published": "Tue, 13 Oct 2026 10:46:31 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -1050,20 +1081,6 @@
     },
     {
       "name": "Bank of Baroda",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Kotak Bank",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
