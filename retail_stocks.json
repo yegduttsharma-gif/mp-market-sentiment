@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T20:18:13.070120+00:00",
+  "collected_at": "2026-10-13T20:55:12.436968+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 640,
+  "posts_collected": 581,
   "source_counts": {
     "tradingqna": 31,
-    "valuepickr": 17,
-    "indexed_reddit": 210,
-    "youtube": 194,
+    "valuepickr": 18,
+    "indexed_reddit": 149,
+    "youtube": 195,
     "instagram": 100,
     "facebook": 88,
-    "total_unique": 640
+    "total_unique": 581
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -460,6 +460,37 @@
       "sufficient": false
     },
     {
+      "name": "Adani Enterprises",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
+          "published": "Tue, 13 Oct 2026 15:24:42 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Strike. Violinhop \u00b7 Level Up Kings (Intrumental). \ud83d\udea8 ADANI ENTERPRISES SHARES IN FOCUS! \ud83d\udcc8 Adani Enterprises (NSE: ADANIENT) is trading at \u20b92,639.60. \ud83d\udc40 Here\u2019s the stock snapshot \ud83d\udc47 \ud83d\udcca ADANIENT | NSE \ud83d\udcb0 Current price: \u20b92,639.60 \ud83d\udd13 Open: \u20b92,605.10 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVm5ndy1FS2FNNFRfcmtib0lHMlBZMno2T2xEOWdvNUM4ZGVXUElmaEYxOTNzZHBUaERCdU5YMjNnYzRZb3hLUU9KWnE4a0lVbGZ4QjVwYUc2WnYzQWQ3Nno0cjNocXpnOXhaT3FUbDhEZ2oyT3kyUlRpblVGRjZqUmg3RUNIQVVDa25sUUg0c2d3NG1Md3ZPSjB0UU5PSlJtLUhOTGJ1b1l1dl9CdFNxWWZoeUV6bmlLX3BOT0Rrd2V4OVEzS0R5SjJQLTJWNWJhN1U3aFJPakVVTFJYdEE?oc=5",
+          "published": "Fri, 09 Oct 2026 09:39:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "BEL",
       "mentions": 2,
       "investor_mentions": 0,
@@ -530,29 +561,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
           "published": "Mon, 12 Oct 2026 11:45:24 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Enterprises",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
-          "published": "Tue, 13 Oct 2026 15:24:42 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
