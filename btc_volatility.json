@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-13T09:31:57.083131+00:00",
+  "updated_at": "2026-10-13T09:52:44.184823+00:00",
   "source": "Deribit public API",
   "btc_usd": {
-    "value": 83390.0,
-    "as_of": "2026-10-13T09:31:57.083131+00:00",
-    "source": "CoinGecko"
+    "value": 83543.81,
+    "as_of": "2026-10-13T09:52:44.184823+00:00"
   },
-  "dvol": null,
-  "errors": [
-    "Deribit BTC index unavailable: HTTP Error 503: Service Unavailable",
-    "DVOL unavailable: HTTP Error 503: Service Unavailable"
-  ]
+  "dvol": {
+    "value": 36.84,
+    "as_of": "2026-10-13T09:00:00+00:00",
+    "description": "Deribit BTC 30-day implied volatility"
+  },
+  "errors": []
 }
