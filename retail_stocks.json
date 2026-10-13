@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T00:58:49.617749+00:00",
+  "collected_at": "2026-10-13T01:20:44.918036+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 610,
+  "posts_collected": 612,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 14,
-    "indexed_reddit": 187,
-    "youtube": 194,
+    "indexed_reddit": 190,
+    "youtube": 193,
     "instagram": 100,
     "facebook": 82,
-    "total_unique": 610
+    "total_unique": 612
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -150,22 +150,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
           "published": "Mon, 12 Oct 2026 13:00:16 GMT",
@@ -180,6 +164,22 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -342,6 +342,45 @@
       "sufficient": false
     },
     {
+      "name": "IRFC",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
+          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
+          "published": "Thu, 08 Oct 2026 05:09:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Kotak Bank",
       "mentions": 3,
       "investor_mentions": 0,
@@ -474,29 +513,29 @@
       "sufficient": false
     },
     {
-      "name": "IRFC",
+      "name": "Jio Financial",
       "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
-          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
-          "subreddit": "youtube",
+          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
+          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
-          "evidence_type": "market_commentary"
+          "evidence_type": "investor_discussion"
         },
         {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
+          "published": "Thu, 08 Oct 2026 05:09:33 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -551,24 +590,24 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
+      "name": "BEL",
       "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
-          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
-          "subreddit": "indexed_reddit",
+          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
+          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -788,20 +827,6 @@
     },
     {
       "name": "Trent",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "BEL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
