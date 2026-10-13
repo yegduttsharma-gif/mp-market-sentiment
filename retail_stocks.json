@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13T07:59:27.841713+00:00",
+  "collected_at": "2026-10-13T08:23:27.705433+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 628,
+  "posts_collected": 622,
   "source_counts": {
-    "tradingqna": 34,
+    "tradingqna": 33,
     "valuepickr": 13,
-    "indexed_reddit": 196,
-    "youtube": 197,
+    "indexed_reddit": 195,
+    "youtube": 196,
     "instagram": 100,
-    "facebook": 88,
-    "total_unique": 628
+    "facebook": 85,
+    "total_unique": 622
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -50,6 +50,85 @@
   },
   "status": "available",
   "stocks": [
+    {
+      "name": "Tata Motors",
+      "mentions": 8,
+      "investor_mentions": 0,
+      "commentary_mentions": 8,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Strike. Naell \u00b7 Car music. \ud83d\udcc9 Tata Motors PV Shares Fall 1.22% Tata Motors Passenger Vehicles shares are trading lower on Wednesday, with the stock at \u20b9282.30, down \u20b93.50 or 1.22% in the session. \ud83d\ude97\ud83d\udcca Here\u2019s a snapshot of the stock \ud83d\udc47 \ud83d\udcc9 Share Price: \u20b9282. - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNR2ttallFVnVUNlVEMWVhSGY5UkJncGdrbjVqb2xqdUpnZHdZUnMwYUROQ3loSkxycWRRUmdraEZCTWw0emF0RHIxeVphRl9ib1RhVUtWZ3cxZndoWW54R0NqQ2RUN2NtZEh0RnZyTXZSN20tSXVSLUh6aGdWdndBYjlzdDJiMVdlWnNoRHBGQnZPbXRSTDVjank1YXlrY21yaFE5VU9waFFoWmM2ZHNUdXRjQXBCMGl3N3BkMVVrNHpqTFd0Mlg0ekVHT2RFVDlTWVFnamZubHR4VlpHX2c?oc=5",
+          "published": "Wed, 07 Oct 2026 07:44:55 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
+          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TMCV Share Price: Week \u0939\u0948 Tata Motors CV \u0915\u093e \u091a\u093e\u0930\u094d\u091f, \u0905\u092c \u0910\u0938\u0947 \u092e\u0947\u0902 \u0906\u092a\u0915\u094b \u0915\u094d\u092f\u093e \u0930\u093e\u092f \u0930\u0916\u0928\u0940 \u0939\u0948? | Business News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kc3diSll1RDAzX2xBMkN3aUtmNmM3dzRCcmFBN1pUZUFKMnVySFo3ZU9PbXFHYzJEUzd6QkI1MG9STHFtcGlGNEhRVnNjUnU5blNsOUx3?oc=5",
+          "published": "Mon, 12 Oct 2026 10:20:32 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
+          "published": "Mon, 12 Oct 2026 03:24:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
+          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Moneycontrol Ideas For Profit: Tata Motors | CNBC TV18 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RWVBOMDd3ajF3bkEyZ2VTSTRPMkY3VGxmeEgxb1FrLWVWRDJTeU9MUXc2RU05c1lncHRTLXlsZ2tVM2NYYjBLbzZYaFpoakdqS3ZBeURn?oc=5",
+          "published": "Thu, 08 Oct 2026 06:05:58 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
+          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Why Tata motors is falling? Should you buy Tata motors passenger vehicle or commercial vehicle? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
+          "published": "Mon, 12 Oct 2026 12:28:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
     {
       "name": "HDFC Bank",
       "mentions": 7,
@@ -122,77 +201,6 @@
       "sufficient": false
     },
     {
-      "name": "Tata Motors",
-      "mentions": 7,
-      "investor_mentions": 0,
-      "commentary_mentions": 7,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
-          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TMCV Share Price: Week \u0939\u0948 Tata Motors CV \u0915\u093e \u091a\u093e\u0930\u094d\u091f, \u0905\u092c \u0910\u0938\u0947 \u092e\u0947\u0902 \u0906\u092a\u0915\u094b \u0915\u094d\u092f\u093e \u0930\u093e\u092f \u0930\u0916\u0928\u0940 \u0939\u0948? | Business News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kc3diSll1RDAzX2xBMkN3aUtmNmM3dzRCcmFBN1pUZUFKMnVySFo3ZU9PbXFHYzJEUzd6QkI1MG9STHFtcGlGNEhRVnNjUnU5blNsOUx3?oc=5",
-          "published": "Mon, 12 Oct 2026 10:20:32 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
-          "published": "Mon, 12 Oct 2026 03:24:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Analysis: Tata Motors PV \u0a85\u0aa8\u0ac7 Suzlon Energy: Experts\u0aa8\u0ac1\u0a82 \u0ab6\u0ac1\u0a82 \u0a95\u0ab9\u0ac7\u0ab5\u0ac1\u0a82 \u0a9b\u0ac7? | CNBC Bajar - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UTmVkYl9vVUcwTmU0ZkNHdVRSRUM4VV9ERFNKUHFDbGtsay1yc1RycDE1R2lFdXphWndKVU50Q0hBY3lNazJaNloxc1ZaN1pvY2N2NTl3?oc=5",
-          "published": "Fri, 09 Oct 2026 07:36:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Moneycontrol Ideas For Profit: Tata Motors | CNBC TV18 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RWVBOMDd3ajF3bkEyZ2VTSTRPMkY3VGxmeEgxb1FrLWVWRDJTeU9MUXc2RU05c1lncHRTLXlsZ2tVM2NYYjBLbzZYaFpoakdqS3ZBeURn?oc=5",
-          "published": "Thu, 08 Oct 2026 06:05:58 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TATA MOTORS \u0bb5\u0bb3\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 STOCK-\u0bae\u0bcd \u0bb5\u0bb3\u0bb0\u0bc1\u0bae\u0bbe? | ACGL Fundamental Analysis| RJ VEERA |NEWS CAFE TAMIL - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlJBY1dfZkFGbXhHRzdGX2hteTZwVGtjTks1M01penRVUlNRN0RWS2tZWkd3Umt6YTlBV0xBRkFleGZRT3hTZ19ab3Z4SENnMnhNVlVB?oc=5",
-          "published": "Wed, 07 Oct 2026 13:30:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Why Tata motors is falling? Should you buy Tata motors passenger vehicle or commercial vehicle? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
-          "published": "Mon, 12 Oct 2026 12:28:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Reliance Industries",
       "mentions": 4,
       "investor_mentions": 0,
@@ -241,9 +249,9 @@
     },
     {
       "name": "Infosys",
-      "mentions": 4,
+      "mentions": 3,
       "investor_mentions": 1,
-      "commentary_mentions": 3,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -274,23 +282,15 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HAL BEL SHARE \ud83d\udca5 BSE | IRCON | WAARE ENERGIES | INFOSYS | SUZLON | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TNUpjMEM3dFRrLVpGUGlaWDlyUWVxLWoyRUxHdDRiLWtOUXNEUmRzOVY0OEZLeFZPT1N2cEdmS2Q4SDBHaVlLT2NMeE5ZbmczNUtRdDZ3?oc=5",
-          "published": "Sun, 11 Oct 2026 14:56:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 4,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -318,14 +318,6 @@
           "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
           "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HAL BEL SHARE \ud83d\udca5 BSE | IRCON | WAARE ENERGIES | INFOSYS | SUZLON | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TNUpjMEM3dFRrLVpGUGlaWDlyUWVxLWoyRUxHdDRiLWtOUXNEUmRzOVY0OEZLeFZPT1N2cEdmS2Q4SDBHaVlLT2NMeE5ZbmczNUtRdDZ3?oc=5",
-          "published": "Sun, 11 Oct 2026 14:56:11 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -366,37 +358,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
           "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
-          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "ICICI Bank share \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u0940 \u0930\u0948\u0932\u0940? #reels #reel #reelsviral #icicibanksharelatestnews icici bank share latest news, icici bank share news today, icici bank share price target, icici bank share news, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOZEMyNnVhYUxJZkJqRG5fUENtdUdCZnExOVpTek93WWxrVXRfVlBVazdIUGhvRjMwOGlUa1VqdUEwd2FwaG1wcGhPN01CTkVEbUFPMDRURjNtZEFPeTdfandrYTlYcGtYVzZzWEVnTGRqZnJwSVFQUkMyc1hMQ1hPMzRwNXo3NVY3RTRqd0EzREdjamlLSlFDRElsVC0yMFNqUGl2RmhSOUdZZm1zb2dGOGlvMEE4ajlPQ0pBRFZyY1I0M3V6Wk9lc1U5ZUVPS2tDSHJDREhNQ2VQbnhlMTFRUlhGWnhEMFlfQkstVlVpdHVQaXhrek1wSWVfTGIwVjlzV051Qm1vaEk0bXFlTTVpczdxTnZORUJlMjZieXBUNDFqUXJZb0xvTnpfLXhLbVQ3TDRQSnRxdzNGYXlnRzJSZnFsaVlUcUZxZ3RoN0hweXJzbjcyQ3ZmMWJ6NU9oTUxm?oc=5",
-          "published": "Tue, 06 Oct 2026 14:00:10 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -458,6 +419,29 @@
           "title": "IREDA Share Price | IREDA Share \u092e\u0947\u0902 \u0905\u092d\u0940 Exit \u0915\u0930\u0928\u093e \u0938\u0939\u0940 \u092f\u093e Hold? \u091c\u093e\u0928\u0947\u0902 \u0906\u0917\u0947 \u0915\u093e Outlook | - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92aG16ZWZLTElJbGdKQWU3aXJiaWpQQ2tHX3FfZllwV09lTjdNNHhQNll1MTRiNmlydzJlOF9HSjM0dk91VVEzN1lRcTJKSTM5cWpqXzRR?oc=5",
           "published": "Mon, 12 Oct 2026 07:33:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "ICICI Bank",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 \u0915\u092e\u091c\u094b\u0930\u0940, \u0905\u0917\u0932\u093e Support \u0915\u094d\u092f\u093e? ICICI Bank \u092e\u0947\u0902 Recovery, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGaTZaaHR5RGY5UEhid3JZVlJjVThkQ2JFVmJEZmNUTjJ2MTd6b2RuSllJa0lmZ1UySWJESW1LUVlaVWhaUVBudVEwMUF2V3FDQ0h5OUp3?oc=5",
+          "published": "Thu, 08 Oct 2026 03:10:53 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -528,29 +512,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
           "published": "Thu, 08 Oct 2026 05:09:33 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "BEL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
-          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -719,6 +680,29 @@
       "sufficient": false
     },
     {
+      "name": "Maruti Suzuki",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Strike. Ogryzek \u00b7 EMPIRE (Sped Up). \ud83d\udcc9 Maruti Suzuki shares fall 1.15% Maruti Suzuki India Ltd. shares traded lower today, with the stock at around \u20b911,491, down \u20b9134 or 1.15% in the session. \ud83d\ude97\ud83d\udcca Here are the key factors in focus \ud83d\udc47 \ud83d\udcc9 Stock Price: \u20b911,491 \ud83d\udd3b - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjMxcl94VEV1RV9SSm4ya1pyUFM0RVpjQ3Zza3JHTEZUN2s1aFNBRV9TbVJ0Z01fMTFndElBSUFqOUNTbXpYbmctajd0X3VrZEhXal9ydkpVSDlzN0xUMmZHQU8tNFJXNUQxRlpTam5kdkQ4U3E1SFlZcVRpVWZEMVR6dXM2YkxYTklWUFp6cmp5ajBkUDRTdFdkV3JNODJkd09QNkRfTEwtYWgzSTZ0YXp3RlNqTk96czY1eV90WldWNjNkZk9VODNudjRKLVF1a0U1SEUtT1djQU11LUE?oc=5",
+          "published": "Wed, 07 Oct 2026 05:40:12 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Polycab",
       "mentions": 1,
       "investor_mentions": 1,
@@ -841,6 +825,20 @@
     },
     {
       "name": "Trent",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "BEL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -995,20 +993,6 @@
     },
     {
       "name": "Bank of Baroda",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
