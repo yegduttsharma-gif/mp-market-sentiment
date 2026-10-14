@@ -179,7 +179,7 @@ jobs:
           from datetime import datetime,timezone
           from pathlib import Path
           health=json.loads(Path("collector_health.json").read_text()) if Path("collector_health.json").exists() else {}
-          Path("snapshot_meta.json").write_text(json.dumps({"collected_at":health.get("checked_at"),"published_at":datetime.now(timezone.utc).isoformat(),"timestamp_meaning":"snapshot commit prepared; GitHub Pages deployment may follow"},indent=2)+"\\n")
+          Path("snapshot_meta.json").write_text(json.dumps({"collected_at":health.get("checked_at"),"published_at":datetime.now(timezone.utc).isoformat(),"timestamp_meaning":"snapshot commit prepared; GitHub Pages deployment may follow"},indent=2)+chr(10))
           PY
           git add collector_health.json snapshot_meta.json
           if [ -f client_options.html ]; then git add client_options.html; fi
