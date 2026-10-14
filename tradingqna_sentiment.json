@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-14T12:40:16.448555+00:00",
+  "collected_at": "2026-10-14T13:17:43.324951+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -41,8 +41,8 @@
         "topics": 50
       },
       "infosys": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "sbi": {
         "status": "ok",
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 212,
+  "posts_checked": 209,
   "status": "collected"
 }
