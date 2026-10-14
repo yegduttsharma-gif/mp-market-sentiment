@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-14T02:51:27.846373+00:00",
+  "collected_at": "2026-10-14T03:15:33.826754+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 579,
+  "posts_collected": 642,
   "source_counts": {
     "tradingqna": 31,
     "valuepickr": 18,
-    "indexed_reddit": 145,
-    "youtube": 196,
+    "indexed_reddit": 209,
+    "youtube": 195,
     "instagram": 99,
     "facebook": 90,
-    "total_unique": 579
+    "total_unique": 642
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,14 +52,14 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 7,
-      "investor_mentions": 2,
+      "mentions": 9,
+      "investor_mentions": 4,
       "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 4,
       "bullish_pct": null,
       "evidence": [
         {
@@ -117,6 +117,22 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -256,6 +272,61 @@
       "sufficient": false
     },
     {
+      "name": "Paytm",
+      "mentions": 5,
+      "investor_mentions": 0,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market LIVE : Adani Enterprises, BEL, Paytm, Hyundai Motor, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIRVJ5dW9jd1lEVm94WDBmdWZXaXBneEg3Z0ZpVXNsYnBlSGItb3JyeEM0SGZEVDRYaUJzaGZ3ZFc4SERXMXdjVVRrcVZ2MHZ6b2ZqczFB?oc=5",
+          "published": "Wed, 14 Oct 2026 01:58:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aQTRrb0tZMGpUdXA0Y3RxWXRZOTVsTk1GWlQ5WTQySU5sUE9ad1lyTzVscG4tYlFnczNKLXpHRnNSbWs4SjRCWVhfbG0xbVRaT29nb253?oc=5",
+          "published": "Mon, 12 Oct 2026 12:30:56 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
+          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
+          "published": "Tue, 13 Oct 2026 14:30:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, Paytm, Federal Bank, Moneyview, L&T Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zdXhQTmczcWVHS2ZYV1NEM3JaWnpyN3hjcFNMYURhUlBCb1pTU1NPd1Z0RDdYVnJ3bzl3bTJkcmdicEYxODhrU1hWX283SEc3ZEoySWJ3?oc=5",
+          "published": "Fri, 09 Oct 2026 12:00:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IRFC",
       "mentions": 5,
       "investor_mentions": 0,
@@ -268,6 +339,14 @@
       "bullish_pct": null,
       "evidence": [
         {
+          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
+          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
           "published": "Thu, 08 Oct 2026 05:09:33 GMT",
@@ -277,16 +356,8 @@
         },
         {
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
-          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
-          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
+          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -323,17 +394,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -405,57 +476,10 @@
       "sufficient": false
     },
     {
-      "name": "Paytm",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | PCJ, TCS, Paytm, LIC Housing, Ola, Suzlon - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aQTRrb0tZMGpUdXA0Y3RxWXRZOTVsTk1GWlQ5WTQySU5sUE9ad1lyTzVscG4tYlFnczNKLXpHRnNSbWs4SjRCWVhfbG0xbVRaT29nb253?oc=5",
-          "published": "Mon, 12 Oct 2026 12:30:56 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "cooked fr? {Nifty, Nifty50, Sensex, Market Crash, Stock Market, Buy the dip, trading memes, trader community, Paytm, Mobikwik, UPI} - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10TXVELWF2U210MnFDQTZSZVhEQ0R1ajZyN09BWjlnUUlTeWlTRUJubmNhS3IwQXhaOFFPRDFIX0h4UjVrSmJoTGN2WmRrUE8teHc?oc=5",
-          "published": "Thu, 08 Oct 2026 08:48:32 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
-          "published": "Tue, 13 Oct 2026 14:30:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, Paytm, Federal Bank, Moneyview, L&T Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zdXhQTmczcWVHS2ZYV1NEM3JaWnpyN3hjcFNMYURhUlBCb1pTU1NPd1Z0RDdYVnJ3bzl3bTJkcmdicEYxODhrU1hWX283SEc3ZEoySWJ3?oc=5",
-          "published": "Fri, 09 Oct 2026 12:00:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Adani Enterprises",
-      "mentions": 2,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 2,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -463,6 +487,14 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "Stock Market LIVE : Adani Enterprises, BEL, Paytm, Hyundai Motor, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIRVJ5dW9jd1lEVm94WDBmdWZXaXBneEg3Z0ZpVXNsYnBlSGItb3JyeEM0SGZEVDRYaUJzaGZ3ZFc4SERXMXdjVVRrcVZ2MHZ6b2ZqczFB?oc=5",
+          "published": "Wed, 14 Oct 2026 01:58:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
@@ -504,8 +536,8 @@
         },
         {
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
-          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
+          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -699,29 +731,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
           "published": "Mon, 12 Oct 2026 04:45:42 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Ports",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market Live | HCL tech Share, Asian Paints, JSW cement, Titan, adani ports share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 | Watch Live Now : https://www.youtube.com/live/CNRwoU5xdr8 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUVFXRjlWcEZOWHl2QTFJRzQ0cjNtbW50TW1tOTRmZXFSZ0tmS3oxNm1YVUd4aWptelJxWVVqWkFKdXc3RV9rX3VPYmM5cFhRNTFkLXd2UHNwZjE0aWRoWV9LWE4yZGZyWHU4RkdkdFp1N3czc0o1SG1EcHh2RGVfUGowNXRrR3JRbFFZZmlHaDdQVUVoVWg0VVloZ1NHTE5yRk01dDkwSkJmVUI2MmFFQjRlWi1rcFBtdXZ5WVZJTEYtVHVla05iaEhDRXh2WjhoaUs2RVdteTZnQXNBZlBJ?oc=5",
-          "published": "Wed, 07 Oct 2026 03:07:53 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -986,6 +995,20 @@
     },
     {
       "name": "Adani Green",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Ports",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
