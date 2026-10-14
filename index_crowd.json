@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-14T17:28:57.158594+00:00",
+  "collected_at": "2026-10-14T18:03:03.453271+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 12
     },
     "nifty_search": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,13 +44,13 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 220,
+  "unique_titles": 140,
   "indices": {
     "NIFTY 50": {
-      "bullish": 2,
+      "bullish": 1,
       "bearish": 0,
-      "neutral": 32,
-      "directional": 2,
+      "neutral": 7,
+      "directional": 1,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
@@ -109,90 +109,6 @@
           "source": "tradingqna",
           "published": "2026-10-10T18:55:20+00:00",
           "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY HUGE UPSIDE",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x4rvbx/nifty_huge_upside/",
-          "source": "nifty_search",
-          "published": "2026-10-13T09:15:22+00:00",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "NIFTY 50 Support and Resistance for Oct 13: Highest Volume Levels and Pivots for Day Traders",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x4me8a/nifty_50_support_and_resistance_for_oct_13/",
-          "source": "nifty_search",
-          "published": "2026-10-13T03:40:50+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "The only macro chart that matters for Nifty right now (Forget the technical lines)",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x4lg97/the_only_macro_chart_that_matters_for_nifty_right/",
-          "source": "nifty_search",
-          "published": "2026-10-13T02:52:17+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "With nifty50, you are buying yesterday's winners",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x48k28/with_nifty50_you_are_buying_yesterdays_winners/",
-          "source": "nifty_search",
-          "published": "2026-10-12T17:44:20+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 500 down -3% in a month, but 55% of stocks closed green today. Are we seeing divergence or a dead-cat bounce?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x46hyl/nifty_500_down_3_in_a_month_but_55_of_stocks/",
-          "source": "nifty_search",
-          "published": "2026-10-12T16:28:20+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Expecting nifty to touch around 22200 by tomorrow. Any expert opinions?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x3w2w7/expecting_nifty_to_touch_around_22200_by_tomorrow/",
-          "source": "nifty_search",
-          "published": "2026-10-12T08:06:28+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty gap up 5%?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x3dgnu/nifty_gap_up_5/",
-          "source": "nifty_search",
-          "published": "2026-10-11T17:04:27+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY 50 & SENSEX Analysis for Monday, 12 October | Key Levels and Scenarios",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x34tgu/nifty_50_sensex_analysis_for_monday_12_october/",
-          "source": "nifty_search",
-          "published": "2026-10-11T10:28:07+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall....",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x32ka2/nifty_is_down_almost_900_points_in_the_past_month/",
-          "source": "nifty_search",
-          "published": "2026-10-11T08:09:24+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 50 Near COVID TrendLine Support",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x28x64/nifty_50_near_covid_trendline_support/",
-          "source": "nifty_search",
-          "published": "2026-10-10T07:18:09+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 50",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1vril/nifty_50/",
-          "source": "nifty_search",
-          "published": "2026-10-09T20:15:02+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Market 2 steps up and 20 steps down. Deception. Keep loading puts of IT and nifty 50",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1tnsg/market_2_steps_up_and_20_steps_down_deception/",
-          "source": "nifty_search",
-          "published": "2026-10-09T18:53:15+00:00",
-          "sentiment": "neutral"
         }
       ]
     },
@@ -208,26 +124,11 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "NIFTY 50 & SENSEX Analysis for Monday, 12 October | Key Levels and Scenarios",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x34tgu/nifty_50_sensex_analysis_for_monday_12_october/",
-          "source": "nifty_search",
-          "published": "2026-10-11T10:28:07+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty and Sensex are rising after yesterday\u2019s US IT suspension news. Did the market overreact or is there something we\u2019re missing?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1dqgu/nifty_and_sensex_are_rising_after_yesterdays_us/",
-          "source": "nifty_search",
-          "published": "2026-10-09T06:09:44+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     }
   }
 }
