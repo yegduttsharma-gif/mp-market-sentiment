@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-14T02:14:28.312818+00:00",
+  "collected_at": "2026-10-14T02:51:27.846373+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 645,
+  "posts_collected": 579,
   "source_counts": {
     "tradingqna": 31,
     "valuepickr": 18,
-    "indexed_reddit": 211,
+    "indexed_reddit": 145,
     "youtube": 196,
     "instagram": 99,
     "facebook": 90,
-    "total_unique": 645
+    "total_unique": 579
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,14 +52,14 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 9,
-      "investor_mentions": 4,
+      "mentions": 7,
+      "investor_mentions": 2,
       "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 2,
       "bullish_pct": null,
       "evidence": [
         {
@@ -117,22 +117,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -284,14 +268,6 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
-          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock Market LIVE | \u0915\u0932 \u092e\u093e\u0930\u094d\u0915\u093f\u091f \u0916\u0941\u0932\u0924\u0947 \u0936\u0947\u092f\u0930 \u092e\u091a\u093e\u092f\u0947\u0902\u0917\u0947 \u092c\u0935\u093e\u0932? | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXS1Bub2Q5Z1VCNUxubzJoYUYweGI5ZWF4Qk9NTG1rdDBuTzI4QUt5OVVLR2dLZ2pjYWFmckxteWhsWmtZVXpZcm92WlQycVVSOU5CU1pn?oc=5",
           "published": "Thu, 08 Oct 2026 05:09:33 GMT",
@@ -301,8 +277,16 @@
         },
         {
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
-          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
+          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -520,8 +504,8 @@
         },
         {
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
-          "published": "Fri, 09 Oct 2026 06:26:53 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POVJzbkluVENfU3hJb0d6bGJDY2d4N2JzUEhWR0lGZ2MxbjNrQUFmT1ZXYzZlVFhwQXk1eF9NekVnRGJhZGlwMERQSjhRUFJjOUN5bUhn?oc=5",
+          "published": "Wed, 07 Oct 2026 22:09:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
