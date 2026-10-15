@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-15T08:00:04.101886+00:00",
+  "collected_at": "2026-10-15T08:34:03.844000+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 620,
+  "posts_collected": 615,
   "source_counts": {
     "tradingqna": 33,
-    "valuepickr": 22,
-    "indexed_reddit": 185,
-    "instagram": 99,
-    "youtube": 197,
-    "facebook": 84,
-    "total_unique": 620
+    "valuepickr": 21,
+    "indexed_reddit": 183,
+    "youtube": 195,
+    "facebook": 92,
+    "instagram": 91,
+    "total_unique": 615
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -63,18 +63,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
-          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
           "published": "Tue, 13 Oct 2026 07:06:06 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
+          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -334,6 +334,53 @@
       "sufficient": false
     },
     {
+      "name": "BHEL",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Result Review : BHEL, Canara Bank \u0914\u0930 Groww Results: \u0915\u094c\u0928 HIT, \u0915\u094c\u0928 FLAT? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVU41c3FlTkIxUFNzMm15cDgxeGxZMGlOaHdhai1BbnZpT1NtTDk2X2ZVQ3duX0NLbjdBZFIyTmtSMG16NTBKUFRqS2I4Znh6RTY2emN3?oc=5",
+          "published": "Wed, 14 Oct 2026 08:58:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian Stock Market Today | NIFTY Falls 99 Points | BHEL Profit More Than Doubles | 14 Oct 2026 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FYmE0UDVhMEczSmhERk1GRkFZamktelpOTmt0dW5sV2FnTGF5OVhKdlNRVWlVVkJacHRXemJnWEV2bndZME9yMnM1dzdHdzFaR29FdERB?oc=5",
+          "published": "Wed, 14 Oct 2026 11:14:19 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
+          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty LIVE : Tata Tech, BHEL, HDB Fin Serv, Groww, MRPL, IDBI Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bjZ6OUVWQktEbnJRdVFvZGZjUFJsSzdlTGF2OVFUOURfbE1XMWpuejEtR05SaXBRQnNsc3pHeHhueUdOTUF5QkgxNWtLaDNfTWtzMFBn?oc=5",
+          "published": "Thu, 15 Oct 2026 02:30:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Infosys",
       "mentions": 3,
       "investor_mentions": 1,
@@ -373,7 +420,7 @@
       "sufficient": false
     },
     {
-      "name": "BHEL",
+      "name": "Canara Bank",
       "mentions": 3,
       "investor_mentions": 0,
       "commentary_mentions": 3,
@@ -385,25 +432,25 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Indian Stock Market Today | NIFTY Falls 99 Points | BHEL Profit More Than Doubles | 14 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FYmE0UDVhMEczSmhERk1GRkFZamktelpOTmt0dW5sV2FnTGF5OVhKdlNRVWlVVkJacHRXemJnWEV2bndZME9yMnM1dzdHdzFaR29FdERB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:14:19 GMT",
+          "title": "Result Review : BHEL, Canara Bank \u0914\u0930 Groww Results: \u0915\u094c\u0928 HIT, \u0915\u094c\u0928 FLAT? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVU41c3FlTkIxUFNzMm15cDgxeGxZMGlOaHdhai1BbnZpT1NtTDk2X2ZVQ3duX0NLbjdBZFIyTmtSMG16NTBKUFRqS2I4Znh6RTY2emN3?oc=5",
+          "published": "Wed, 14 Oct 2026 08:58:03 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
-          "subreddit": "youtube",
+          "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
+          "published": "Wed, 14 Oct 2026 10:08:05 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Nifty LIVE : Tata Tech, BHEL, HDB Fin Serv, Groww, MRPL, IDBI Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bjZ6OUVWQktEbnJRdVFvZGZjUFJsSzdlTGF2OVFUOURfbE1XMWpuejEtR05SaXBRQnNsc3pHeHhueUdOTUF5QkgxNWtLaDNfTWtzMFBn?oc=5",
-          "published": "Thu, 15 Oct 2026 02:30:22 GMT",
+          "title": "NSE, Suzlon, BSE, Hero Motors, Hyundai, BEL, Tata Elxsi, TARIL, Canara Bank Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Nc0tVM1Z0N1JlVFVQV2k4VTM1S1JydWRnYXI0MnQtZjM2NnlHRW9xbzdlSkhIZVVBXzN5aTUyLVVVbTJrZXdfWTdDZWVDb3pPbVpWeVVn?oc=5",
+          "published": "Wed, 14 Oct 2026 11:30:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -435,37 +482,6 @@
           "title": "Stock Market LIVE | Share Market LIVE Update | JioFin, TechM, Bajaj Auto, IRFC |Top News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44RnJJRm93SDlvTW1NZ0lFQzdOaDNpb0l2NnFfN2t3WDhmV1NiX1JFT2JUcjdYRUNLdnpUY1pDR3MybUt3QXJLenc4aDFuQnpEOW5MRnp3?oc=5",
           "published": "Fri, 09 Oct 2026 13:00:41 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Canara Bank",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
-          "published": "Wed, 14 Oct 2026 10:08:05 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "NSE, Suzlon, BSE, Hero Motors, Hyundai, BEL, Tata Elxsi, TARIL, Canara Bank Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Nc0tVM1Z0N1JlVFVQV2k4VTM1S1JydWRnYXI0MnQtZjM2NnlHRW9xbzdlSkhIZVVBXzN5aTUyLVVVbTJrZXdfWTdDZWVDb3pPbVpWeVVn?oc=5",
-          "published": "Wed, 14 Oct 2026 11:30:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
