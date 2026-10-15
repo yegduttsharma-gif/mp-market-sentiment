@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-15T10:15:45.582596+00:00",
+  "collected_at": "2026-10-15T10:55:10.789293+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -49,11 +49,18 @@
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 10,
+      "neutral": 11,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Deceptive Green: Nifty pumps 1.66% while retail portfolios bleed out",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6i6u5/deceptive_green_nifty_pumps_166_while_retail/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-15T10:33:41+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Nifty 50 touched 23K! Vishwaguru is back! /s",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6grgq/nifty_50_touched_23k_vishwaguru_is_back_s/",
@@ -138,11 +145,19 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Sensex CAS Jump fucked me today",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6idg3/sensex_cas_jump_fucked_me_today/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-15T10:44:50+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     }
   }
 }
