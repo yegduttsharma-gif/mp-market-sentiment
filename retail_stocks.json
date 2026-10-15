@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-15T18:07:53.341770+00:00",
+  "collected_at": "2026-10-15T18:45:01.737507+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 597,
+  "posts_collected": 599,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
     "indexed_reddit": 165,
+    "facebook": 92,
+    "instagram": 95,
     "youtube": 194,
-    "facebook": 91,
-    "instagram": 94,
-    "total_unique": 597
+    "total_unique": 599
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -315,10 +315,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | Reliance Industries, Angel One, IDBI Bank, HDB Financial Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55NHFVVURaM19aUTNMbFkzWXNjRk5SSWhrTzMxaU9Zb0duNVVkWld1UzgwRExwclBJRTAxQV8zdmxvT0lHa2VTSm9PeHN2Vm1udmYwMVRB?oc=5",
-          "published": "Thu, 15 Oct 2026 04:46:41 GMT",
-          "subreddit": "youtube",
+          "title": "Stock Market Live | Reliance Industries, Angel One, IDBI Bank, HDB Financial, Infibeam, SJVN Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/eesRDylwaio #StockMarketLive #sharemarketlive #livemarket #financegya - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
+          "published": "Thu, 15 Oct 2026 05:08:49 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -409,17 +409,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
+          "published": "Wed, 14 Oct 2026 14:51:15 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IRFC SHARE \ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
-          "published": "Wed, 14 Oct 2026 14:51:15 GMT",
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -448,18 +448,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Result Review : BHEL, Canara Bank \u0914\u0930 Groww Results: \u0915\u094c\u0928 HIT, \u0915\u094c\u0928 FLAT? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVU41c3FlTkIxUFNzMm15cDgxeGxZMGlOaHdhai1BbnZpT1NtTDk2X2ZVQ3duX0NLbjdBZFIyTmtSMG16NTBKUFRqS2I4Znh6RTY2emN3?oc=5",
-          "published": "Wed, 14 Oct 2026 08:58:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
           "published": "Wed, 14 Oct 2026 10:08:05 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Result Review : BHEL, Canara Bank \u0914\u0930 Groww Results: \u0915\u094c\u0928 HIT, \u0915\u094c\u0928 FLAT? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVU41c3FlTkIxUFNzMm15cDgxeGxZMGlOaHdhai1BbnZpT1NtTDk2X2ZVQ3duX0NLbjdBZFIyTmtSMG16NTBKUFRqS2I4Znh6RTY2emN3?oc=5",
+          "published": "Wed, 14 Oct 2026 08:58:03 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -619,7 +619,7 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "IRFC SHARE \ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 | STOCK MARKET INDIA - YouTube",
+          "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
           "published": "Wed, 14 Oct 2026 14:51:15 GMT",
           "subreddit": "youtube",
