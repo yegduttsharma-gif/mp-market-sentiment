@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-15T19:20:48.475944+00:00",
+  "collected_at": "2026-10-15T19:51:07.111558+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 599,
+  "posts_collected": 677,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
-    "indexed_reddit": 166,
-    "youtube": 194,
+    "indexed_reddit": 241,
+    "youtube": 197,
     "instagram": 100,
     "facebook": 86,
-    "total_unique": 599
+    "total_unique": 677
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -177,69 +177,6 @@
       "sufficient": false
     },
     {
-      "name": "BHEL",
-      "mentions": 6,
-      "investor_mentions": 0,
-      "commentary_mentions": 6,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Result Review : BHEL, Canara Bank \u0914\u0930 Groww Results: \u0915\u094c\u0928 HIT, \u0915\u094c\u0928 FLAT? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVU41c3FlTkIxUFNzMm15cDgxeGxZMGlOaHdhai1BbnZpT1NtTDk2X2ZVQ3duX0NLbjdBZFIyTmtSMG16NTBKUFRqS2I4Znh6RTY2emN3?oc=5",
-          "published": "Wed, 14 Oct 2026 08:58:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian Stock Market Today | NIFTY Falls 99 Points | BHEL Profit More Than Doubles | 14 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FYmE0UDVhMEczSmhERk1GRkFZamktelpOTmt0dW5sV2FnTGF5OVhKdlNRVWlVVkJacHRXemJnWEV2bndZME9yMnM1dzdHdzFaR29FdERB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:14:19 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "BSE, GROWW, Paytm, Suzlon, MRPL, Ashok Ley., Hyundai, Birla Soft, HDB Fin.,BHEL Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VV2ZUcUJkYjIwb0xLZ3VBUFd2d3JIM3F0eWJ5YVFnaDY4SDBXU2hUT2RqQnlZSUs2QWxXLTBmMkhNN1RsUFRiaW9uYUtQd1BHZkw2TG13?oc=5",
-          "published": "Thu, 15 Oct 2026 11:30:32 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
-          "published": "Thu, 15 Oct 2026 11:59:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty LIVE : Tata Tech, BHEL, HDB Fin Serv, Groww, MRPL, IDBI Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bjZ6OUVWQktEbnJRdVFvZGZjUFJsSzdlTGF2OVFUOURfbE1XMWpuejEtR05SaXBRQnNsc3pHeHhueUdOTUF5QkgxNWtLaDNfTWtzMFBn?oc=5",
-          "published": "Thu, 15 Oct 2026 02:30:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Reliance Industries",
       "mentions": 5,
       "investor_mentions": 0,
@@ -287,6 +224,61 @@
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
           "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "BHEL",
+      "mentions": 5,
+      "investor_mentions": 0,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Result Review : BHEL, Canara Bank \u0914\u0930 Groww Results: \u0915\u094c\u0928 HIT, \u0915\u094c\u0928 FLAT? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVU41c3FlTkIxUFNzMm15cDgxeGxZMGlOaHdhai1BbnZpT1NtTDk2X2ZVQ3duX0NLbjdBZFIyTmtSMG16NTBKUFRqS2I4Znh6RTY2emN3?oc=5",
+          "published": "Wed, 14 Oct 2026 08:58:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "BSE, GROWW, Paytm, Suzlon, MRPL, Ashok Ley., Hyundai, Birla Soft, HDB Fin.,BHEL Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VV2ZUcUJkYjIwb0xLZ3VBUFd2d3JIM3F0eWJ5YVFnaDY4SDBXU2hUT2RqQnlZSUs2QWxXLTBmMkhNN1RsUFRiaW9uYUtQd1BHZkw2TG13?oc=5",
+          "published": "Thu, 15 Oct 2026 11:30:32 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
+          "published": "Thu, 15 Oct 2026 11:59:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
+          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty LIVE : Tata Tech, BHEL, HDB Fin Serv, Groww, MRPL, IDBI Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bjZ6OUVWQktEbnJRdVFvZGZjUFJsSzdlTGF2OVFUOURfbE1XMWpuejEtR05SaXBRQnNsc3pHeHhueUdOTUF5QkgxNWtLaDNfTWtzMFBn?oc=5",
+          "published": "Thu, 15 Oct 2026 02:30:22 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -350,6 +342,53 @@
       "sufficient": false
     },
     {
+      "name": "IRFC",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
+          "published": "Wed, 14 Oct 2026 14:51:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
+          "published": "Tue, 13 Oct 2026 14:30:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
+          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Infosys",
       "mentions": 3,
       "investor_mentions": 0,
@@ -389,37 +428,37 @@
       "sufficient": false
     },
     {
-      "name": "IRFC",
+      "name": "Polycab",
       "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
+      "investor_mentions": 1,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "Discontinuation of F&O contracts in POLYCAB",
+          "url": "https://tradingqna.com/t/discontinuation-of-f-o-contracts-in-polycab/198792",
+          "published": "Tue, 13 Oct 2026 05:21:14 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock In News: HCL Tech, Polycab, Indian Hotels \u092e\u0947\u0902 \u0906\u091c \u092c\u0921\u093c\u093e Action? | Stocks To Watch - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ITi1XcVpxRGh3S0JVT1BpVnNKNGt4SG16ekpadTdpRU9yN3k3RU5kN1ZHVGNCNGZGcXVhOUN0RVFlZjVfYkFjNEh6bnVraDloWDgydGd3?oc=5",
+          "published": "Tue, 13 Oct 2026 02:00:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
           "published": "Wed, 14 Oct 2026 14:51:15 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
-          "published": "Tue, 13 Oct 2026 14:30:34 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -441,7 +480,7 @@
       "evidence": [
         {
           "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MQVdzb2JrX2FzS0NqcTg1OWRQTE52R2FGN3d2X0hiS2R3aHIxMGphVDMxUG9kSFJfekZPMnZQaVhOOWVUU0pNWWxYRmM1WldOSVE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
           "published": "Tue, 13 Oct 2026 15:24:42 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
@@ -583,37 +622,6 @@
       "sufficient": false
     },
     {
-      "name": "Polycab",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Discontinuation of F&O contracts in POLYCAB",
-          "url": "https://tradingqna.com/t/discontinuation-of-f-o-contracts-in-polycab/198792",
-          "published": "Tue, 13 Oct 2026 05:21:14 +0000",
-          "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
-          "published": "Wed, 14 Oct 2026 14:51:15 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
@@ -650,7 +658,7 @@
       "evidence": [
         {
           "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MQVdzb2JrX2FzS0NqcTg1OWRQTE52R2FGN3d2X0hiS2R3aHIxMGphVDMxUG9kSFJfekZPMnZQaVhOOWVUU0pNWWxYRmM1WldOSVE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
           "published": "Tue, 13 Oct 2026 15:24:42 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
@@ -683,6 +691,29 @@
       "sufficient": false
     },
     {
+      "name": "Waaree Energies",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Waaree Energies Stock Analysis | Expert Advises Hold, Highlights Key Support Levels: Here's Why - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAya3d5bTlFSXRBWU14STJ0Tk5PT0xwZFdYeExyd1FXenI3cTNfTzAzUk9MQ0h4b3FDZnE3ZmwzMzFKU0lWUG1qRE9TeTdZbFJSMHFvbEh3?oc=5",
+          "published": "Mon, 12 Oct 2026 07:44:17 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Jio Financial",
       "mentions": 1,
       "investor_mentions": 1,
@@ -706,6 +737,29 @@
       "sufficient": false
     },
     {
+      "name": "Vodafone Idea",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Are you bullish or bearish on Vodafone Idea? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVjBtZ011OUpMOUVGWWxaNnhpOUhGdUk3Qk1LVDRfNHg5bk9YUlJfSUNnM3hRT2RRLUQ4NGJfa2VKVXU4b0lOUFRqb0tDakhrT2NOTUJ1R3hGcXlkaVNUMnJRUGh5RFVTVXRoaFM3MVNpM1Axb1RwMHU4TGlEc1dHUUpya2N0TnlQQjhVbTRCLV8tV0RfanUtYXBxRl9kZ3NFWVZWSjl0Yw?oc=5",
+          "published": "Fri, 09 Oct 2026 05:35:47 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Tata Power",
       "mentions": 1,
       "investor_mentions": 0,
@@ -721,6 +775,29 @@
           "title": "Stock Market Live | Jio, Fusion CX, HD Fire Protect IPO | Tata Power, Wipro Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RMXp2Z3BKaWNWRkp2NmlPSXBNaVp4ZVhEUlVkUFVYTy1WT0VyN0ZqNnk3a2tnZEEwSjN1Ym43bFczSHRzaTJUTDl1STBpdXhISGM2Qm93?oc=5",
           "published": "Tue, 13 Oct 2026 04:44:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Live | DMart, Wipro, IRFC, Adani Power, Ola Electric, HCLTech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcEo4aWpsd0ZDcWsxTm4waUx2cXF1Ym1ITlN6U3FXcW96OU5CUlRXZmgwdmZ4Yll1REdHd19Ia0pRUXRpLWdvd3VNcjRsY0EyM0Z4TElR?oc=5",
+          "published": "Mon, 12 Oct 2026 04:45:42 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -790,6 +867,29 @@
           "title": "Stock Market Live | Hero Motors, Tata Elxsi, BEL, Railtel, Hyundai motors share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BX0pZTnVUNEMtYWlUdUpGbGNLVlktT29yU05xelphWFNENU9ycmJtTENvYzAwdGVqT0xMVlF1bVFVSUpBdUdnczhuNWh2QmxrN0dGRzVR?oc=5",
           "published": "Wed, 14 Oct 2026 04:32:07 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Indian Hotels",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock In News: HCL Tech, Polycab, Indian Hotels \u092e\u0947\u0902 \u0906\u091c \u092c\u0921\u093c\u093e Action? | Stocks To Watch - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ITi1XcVpxRGh3S0JVT1BpVnNKNGt4SG16ekpadTdpRU9yN3k3RU5kN1ZHVGNCNGZGcXVhOUN0RVFlZjVfYkFjNEh6bnVraDloWDgydGd3?oc=5",
+          "published": "Tue, 13 Oct 2026 02:00:34 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -896,20 +996,6 @@
       "sufficient": false
     },
     {
-      "name": "Waaree Energies",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "Trent",
       "mentions": 0,
       "investor_mentions": 0,
@@ -925,20 +1011,6 @@
     },
     {
       "name": "Coal India",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Vodafone Idea",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -995,20 +1067,6 @@
     },
     {
       "name": "JSW Energy",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1289,20 +1347,6 @@
     },
     {
       "name": "CG Power",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Indian Hotels",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
