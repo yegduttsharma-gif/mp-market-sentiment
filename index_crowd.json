@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-15T20:46:36.815646+00:00",
+  "collected_at": "2026-10-15T21:15:56.362125+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 13
     },
     "nifty_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,13 +44,13 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 142,
+  "unique_titles": 220,
   "indices": {
     "NIFTY 50": {
-      "bullish": 0,
+      "bullish": 2,
       "bearish": 0,
-      "neutral": 17,
-      "directional": 0,
+      "neutral": 36,
+      "directional": 2,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
@@ -172,6 +172,27 @@
           "source": "tradingqna",
           "published": "2026-10-12T12:08:39+00:00",
           "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty down but we up",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x5larh/nifty_down_but_we_up/",
+          "source": "nifty_search",
+          "published": "2026-10-14T07:53:45+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NIFTY 50 Support and Resistance for Oct 14: Highest Volume Levels and Pivots for Day Traders",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x5h559/nifty_50_support_and_resistance_for_oct_14/",
+          "source": "nifty_search",
+          "published": "2026-10-14T03:41:01+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Today Nifty Fifty Nifty 50",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x5eoav/today_nifty_fifty_nifty_50/",
+          "source": "nifty_search",
+          "published": "2026-10-14T01:34:03+00:00",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -187,7 +208,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -197,6 +218,20 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6idg3/sensex_cas_jump_fucked_me_today/",
           "source": "IndianStockMarket",
           "published": "2026-10-15T10:44:50+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NIFTY 50 & SENSEX Analysis for Monday, 12 October | Key Levels and Scenarios",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x34tgu/nifty_50_sensex_analysis_for_monday_12_october/",
+          "source": "nifty_search",
+          "published": "2026-10-11T10:28:07+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty and Sensex are rising after yesterday\u2019s US IT suspension news. Did the market overreact or is there something we\u2019re missing?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x1dqgu/nifty_and_sensex_are_rising_after_yesterdays_us/",
+          "source": "nifty_search",
+          "published": "2026-10-09T06:09:44+00:00",
           "sentiment": "neutral"
         }
       ]
