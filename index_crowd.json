@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-16T07:07:55.893434+00:00",
+  "collected_at": "2026-10-16T07:43:22.990347+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 13
     },
     "nifty_search": {
-      "status": "ok",
-      "recent": 99
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,13 +44,13 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 221,
+  "unique_titles": 143,
   "indices": {
     "NIFTY 50": {
-      "bullish": 2,
+      "bullish": 0,
       "bearish": 0,
-      "neutral": 34,
-      "directional": 2,
+      "neutral": 15,
+      "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
@@ -139,13 +139,6 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty up \ud83d\udcc8. Portfolio Down \ud83d\udcc9",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6d8yc/nifty_up_portfolio_down/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T05:23:36+00:00",
-          "sentiment": "neutral"
-        },
-        {
           "title": "NIFTY Looks Bullish on the Surface, But Is a Bearish Reversal Brewing?",
           "url": "https://tradingqna.com/t/nifty-looks-bullish-on-the-surface-but-is-a-bearish-reversal-brewing/198849",
           "source": "tradingqna",
@@ -165,34 +158,6 @@
           "source": "tradingqna",
           "published": "2026-10-12T12:08:39+00:00",
           "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 50 preparation for JIO ipo",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6cun7/nifty_50_preparation_for_jio_ipo/",
-          "source": "nifty_search",
-          "published": "2026-10-15T05:00:48+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty down but we up",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x5larh/nifty_down_but_we_up/",
-          "source": "nifty_search",
-          "published": "2026-10-14T07:53:45+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY 50 Support and Resistance for Oct 14: Highest Volume Levels and Pivots for Day Traders",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x5h559/nifty_50_support_and_resistance_for_oct_14/",
-          "source": "nifty_search",
-          "published": "2026-10-14T03:41:01+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Today Nifty Fifty Nifty 50",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x5eoav/today_nifty_fifty_nifty_50/",
-          "source": "nifty_search",
-          "published": "2026-10-14T01:34:03+00:00",
-          "sentiment": "neutral"
         }
       ]
     },
@@ -208,7 +173,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -218,13 +183,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6idg3/sensex_cas_jump_fucked_me_today/",
           "source": "IndianStockMarket",
           "published": "2026-10-15T10:44:50+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY 50 & SENSEX Analysis for Monday, 12 October | Key Levels and Scenarios",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x34tgu/nifty_50_sensex_analysis_for_monday_12_october/",
-          "source": "nifty_search",
-          "published": "2026-10-11T10:28:07+00:00",
           "sentiment": "neutral"
         }
       ]
