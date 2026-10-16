@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-16T09:29:06.392306+00:00",
+  "collected_at": "2026-10-16T10:03:38.452519+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 587,
+  "posts_collected": 588,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
-    "indexed_reddit": 158,
-    "youtube": 195,
+    "indexed_reddit": 157,
+    "youtube": 196,
     "facebook": 90,
-    "instagram": 91,
-    "total_unique": 587
+    "instagram": 92,
+    "total_unique": 588
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -51,10 +51,73 @@
   "status": "available",
   "stocks": [
     {
-      "name": "Reliance Industries",
+      "name": "HDFC Bank",
       "mentions": 6,
+      "investor_mentions": 2,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
+          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Reliance Industries",
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -98,140 +161,6 @@
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
           "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries Share Latest News\ud83d\udca5 40 \u0936\u0947\u092f\u0930 \u0915\u0947 \u092c\u0926\u0932\u0947 40 \u0936\u0947\u092f\u0930 \u092e\u093f\u0932\u0947\u0917\u093e \ud83d\udca5 Tata Elxsi Share Latest News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSTExhMm5jdENpWE5uUnFXQmFhSXBnX1VKWGJkaXlmNVJ1NC16U2hnZ0E1V1A0U0xwbm5hMjhzUzF6RHhZbTdyMkFGTENibXFhX05EOTh3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:00:10 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "HDFC Bank",
-      "mentions": 6,
-      "investor_mentions": 2,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
-          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Motors",
-      "mentions": 6,
-      "investor_mentions": 0,
-      "commentary_mentions": 6,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Why Tata motors is falling? Should you buy Tata motors passenger vehicle or commercial vehicle? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
-          "published": "Mon, 12 Oct 2026 12:28:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
-          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
-          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
-          "published": "Mon, 12 Oct 2026 03:24:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share What\u2019s New Today | Tata Motors Share Latest News Today | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yTHVrbi1CR1VVZEg4UWVsY081NV9USGhOU0d5aUZQdDBNUEg5NnBibGcwZjVGaThka09DdG14S0NjbDJBclFrZDhiN3ZsLXFCOFlzOTln?oc=5",
-          "published": "Wed, 14 Oct 2026 11:28:06 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TATA Motors share news today,Buy ?,TMCV or TMPV kya karen ?,tata motor CV Share Analysis,Target 2030 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhTkF0TnJpbHh2TlNlc1d4Vzk1dVZvY1oxNUZYZzZDZ0VramlWbWU1V3MyYXUyMWh6ZTREbFA4NVJ0OUpyemE5UnRFZm1IT1VHMlk0S2tn?oc=5",
-          "published": "Tue, 13 Oct 2026 17:40:06 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -295,6 +224,53 @@
       "sufficient": false
     },
     {
+      "name": "Tata Motors",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Why Tata motors is falling? Should you buy Tata motors passenger vehicle or commercial vehicle? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
+          "published": "Mon, 12 Oct 2026 12:28:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
+          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
+          "published": "Mon, 12 Oct 2026 03:24:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
+          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Suzlon Energy",
       "mentions": 4,
       "investor_mentions": 0,
@@ -315,17 +291,17 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
+          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
-          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -354,17 +330,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
+          "published": "Wed, 14 Oct 2026 14:51:15 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IRFC\ud83d\udca5 HAL BDL | JIO PLATFORM IPO | POLYCAB | GROWW Q2 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55U2JGZDVNREp0Umw3X0ZfSEV6N0RNUjRKTlhjdEpPQUdwbVUxbzZEOG92OHBlTFF6QXZ4cVFxS2lZbE8wZURMWUFvQ1RrbWJneUlySEV3?oc=5",
-          "published": "Wed, 14 Oct 2026 14:51:15 GMT",
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
