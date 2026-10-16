@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-16T19:04:47.469312+00:00",
+  "collected_at": "2026-10-16T19:36:50.140499+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 603,
+  "posts_collected": 605,
   "source_counts": {
-    "tradingqna": 32,
+    "tradingqna": 33,
     "valuepickr": 19,
-    "indexed_reddit": 167,
-    "youtube": 200,
+    "indexed_reddit": 165,
     "facebook": 93,
-    "instagram": 92,
-    "total_unique": 603
+    "instagram": 95,
+    "youtube": 200,
+    "total_unique": 605
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -177,6 +177,61 @@
       "sufficient": false
     },
     {
+      "name": "Yes Bank",
+      "mentions": 5,
+      "investor_mentions": 2,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
+          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Yes bank At1 bond liability Rs 15600 cr .. after apex court order ..this reason India fdi low ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0RHRUQ3bEtBdTlDX1BoSE5VMWU0X0VXLTZ1bG5yTWNXVHh1SlJKSGpKWWVCbHJvWFNHU3pnV0c3Y2RFbHNRSkdxOWlLRlNLcU1XWE5wMi13WHRNU3ptYzBqdHcxaVBSUzIxQjNBOUV4U2pCVzRyX0YwbVBWVlhUTlFPazlLYlVLeXdYQkloTi1POVlXcGNhSDhTWTdKd1R6d0FybndwMlA?oc=5",
+          "published": "Thu, 15 Oct 2026 13:07:22 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "YES BANK \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! 20% \u0924\u0915 \u091f\u0942\u091f\u093e \u0936\u0947\u092f\u0930 | Yes Bank latest News #reels #reel #yesbanklatestnews #yesbanksharenewstoday #financegyani yes bank latest news,yes bank share latest news, yes bank share news today, yes bank share, yes ban - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQNkUxaERjeGhhMjJoVEJFcXBOX0ZsMFNsbjdjcXkzejBMaUIzVk9sWUQzaEhqcXROXzdvNlJOSEtuRVl6akJyWlBEZUZNVzZoVlhVMUNJOE5NUERsd0xPSFd3TXFHYkFBcDhlLXAtX0pVLXZ6bzlXdUJoN2Z3RW9RbnJrdDliREdlTnFDRE5UN1Ewci0wa1RWZXE1bEZTSkl1MHhQdXlKb1ljZEhqbVlUOG9aN1hkTVFWcEh5NzJlNVZlM0VIMmRmVnRkbHhuTjlBT003R1VBTXB1MXZxTUVLcUFvRE04Z3JvTGtRZkVjUjQ3NXV4dTM1RXJpUzRQVUMzbXBLQllSaERRSWxvT2FRV3RHQzhjNEZSclZCdjhwZTVLbHdkMjg5ZHRpelNMZ2sxaG5WRnQtMThlMHJ3UDB4dGFqOUwyOE85YldJZkJudXFxUlZUR05xZEpfQVV6RmZickd3S0lub3BlZGpMdl9udlViMk1sSEx0d21yc3hqNFhubHNlN0JKQTR2WE9xeW5Pd1BTUVdYYlJRTFN2bGtmOFNENk0xcy1QOW9veEJsYlF3NUpGNUJUcU05aUVydWYyc2k4eEFpMW9qYW9ROHZoQ1N1dHJ0dw?oc=5",
+          "published": "Fri, 16 Oct 2026 09:30:09 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "50,000 Yes Bank shares\u2026 Should I make it 75,000? \ud83e\udd14 Before putting another \u20b95.25 lakh into the stock, there\u2019s one question every investor should ask themselves. And no, it\u2019s not about how much the stock could rise in the next 10 years! Watch till the end to fi - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uU0hNTzNCdllGVWU0cDEwcEZNUE1uLW8yOS1uSHFsWmgyaWJEUHZWS3JwUTBHYUp4Mkxsak11U083MUtXbmJlZTIxUWZIck5UOFI1SEFB?oc=5",
+          "published": "Wed, 14 Oct 2026 13:30:01 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Market Outlook| Stocks To Buy| Jio IPO| Crude| Sarda Energy| IDBI Bank| YES Bank| \u0915\u0948\u0938\u0947 \u0939\u094b\u0917\u0940 \u0915\u092e\u093e\u0908? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KTkNRRjJoYVduOWxic2MtU3F6ZjdCWWxVSUhRaFFsbUFLdFNQTkdqeWVlMVBsbkpCNzZNUy1aNDNaWmt0WmJ3YkdCaktHRWRMbXM3UW1R?oc=5",
+          "published": "Fri, 16 Oct 2026 12:43:44 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Tata Motors",
       "mentions": 4,
       "investor_mentions": 0,
@@ -216,53 +271,6 @@
           "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
           "published": "Thu, 15 Oct 2026 09:53:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Yes Bank",
-      "mentions": 4,
-      "investor_mentions": 2,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
-          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Yes bank At1 bond liability Rs 15600 cr .. after apex court order ..this reason India fdi low ? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0RHRUQ3bEtBdTlDX1BoSE5VMWU0X0VXLTZ1bG5yTWNXVHh1SlJKSGpKWWVCbHJvWFNHU3pnV0c3Y2RFbHNRSkdxOWlLRlNLcU1XWE5wMi13WHRNU3ptYzBqdHcxaVBSUzIxQjNBOUV4U2pCVzRyX0YwbVBWVlhUTlFPazlLYlVLeXdYQkloTi1POVlXcGNhSDhTWTdKd1R6d0FybndwMlA?oc=5",
-          "published": "Thu, 15 Oct 2026 13:07:22 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "YES BANK \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! 20% \u0924\u0915 \u091f\u0942\u091f\u093e \u0936\u0947\u092f\u0930 | Yes Bank latest News #reels #reel #yesbanklatestnews #yesbanksharenewstoday #financegyani yes bank latest news,yes bank share latest news, yes bank share news today, yes bank share, yes ban - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQNkUxaERjeGhhMjJoVEJFcXBOX0ZsMFNsbjdjcXkzejBMaUIzVk9sWUQzaEhqcXROXzdvNlJOSEtuRVl6akJyWlBEZUZNVzZoVlhVMUNJOE5NUERsd0xPSFd3TXFHYkFBcDhlLXAtX0pVLXZ6bzlXdUJoN2Z3RW9RbnJrdDliREdlTnFDRE5UN1Ewci0wa1RWZXE1bEZTSkl1MHhQdXlKb1ljZEhqbVlUOG9aN1hkTVFWcEh5NzJlNVZlM0VIMmRmVnRkbHhuTjlBT003R1VBTXB1MXZxTUVLcUFvRE04Z3JvTGtRZkVjUjQ3NXV4dTM1RXJpUzRQVUMzbXBLQllSaERRSWxvT2FRV3RHQzhjNEZSclZCdjhwZTVLbHdkMjg5ZHRpelNMZ2sxaG5WRnQtMThlMHJ3UDB4dGFqOUwyOE85YldJZkJudXFxUlZUR05xZEpfQVV6RmZickd3S0lub3BlZGpMdl9udlViMk1sSEx0d21yc3hqNFhubHNlN0JKQTR2WE9xeW5Pd1BTUVdYYlJRTFN2bGtmOFNENk0xcy1QOW9veEJsYlF3NUpGNUJUcU05aUVydWYyc2k4eEFpMW9qYW9ROHZoQ1N1dHJ0dw?oc=5",
-          "published": "Fri, 16 Oct 2026 09:30:09 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Market Outlook| Stocks To Buy| Jio IPO| Crude| Sarda Energy| IDBI Bank| YES Bank| \u0915\u0948\u0938\u0947 \u0939\u094b\u0917\u0940 \u0915\u092e\u093e\u0908? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KTkNRRjJoYVduOWxic2MtU3F6ZjdCWWxVSUhRaFFsbUFLdFNQTkdqeWVlMVBsbkpCNzZNUy1aNDNaWmt0WmJ3YkdCaktHRWRMbXM3UW1R?oc=5",
-          "published": "Fri, 16 Oct 2026 12:43:44 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -349,45 +357,6 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
-      "mentions": 3,
-      "investor_mentions": 1,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
-          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "\ud83d\udcc9 Jio Financial Services Q2 Profit Halves 51% YoY To \u20b9340 Cr As Revenue Jumps 73%. \ud83d\udc47 The company\u2019s consolidated net profit fell to \u20b9340.4 Cr in Q2 FY27, while operating revenue rose to \u20b91,699.3 Cr. Sequentially, profit declined 59% as revenue droppe - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9STXJkeXk1SDJRUlZkcWZxRVE1VktDRGNNTmNSOU96YVdNWkZPVllNN3c1aVZ5ZVNBX0o5TWlITk93U3dKU25NTHJ5dHBNQms5cFE?oc=5",
-          "published": "Fri, 16 Oct 2026 04:24:16 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
-          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Suzlon Energy",
       "mentions": 3,
       "investor_mentions": 0,
@@ -400,17 +369,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
-          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
+          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -458,6 +427,37 @@
           "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
           "published": "Tue, 13 Oct 2026 14:30:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
+          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
+          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -521,37 +521,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
           "published": "Thu, 15 Oct 2026 11:59:39 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Persistent Systems",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IT Stocks \u092e\u0947\u0902 Tech Mahindra \u0938\u092c\u0938\u0947 \u0926\u092e\u0926\u093e\u0930? Wipro \u0914\u0930 Persistent Systems \u0915\u093e Result Review - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRaUsweV8tYWRwVGxKQXVKWndlWlJuUUNCU0xGUWpVdFdHbkdfUmdBSmxwMDkxUFJ3OWM1R1BVYjVfWW1sazlQMlJleDFzUGIzMVMwRk93?oc=5",
-          "published": "Fri, 16 Oct 2026 03:22:14 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TCS, HCL Tech, Coforge share 3 \u0938\u093e\u0932 \u0915\u0947 \u0932\u093f\u090f \u0915\u093e\u092b\u0940? #reels #reel #reelsviral #reelsvideo #itstocks tcs share latest news, hcl tech share latest news, coforge share latest news, persistent systems share latest news, tcs share price analysis, hcl tech share an - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNLXczWmFrYWlkcU5SZEpkT3RRZW1lRm9mOUpqQlNrbUJoR3NUWVZvdkJSakxFZzV1X2hPSWg4cGZKVkFRT0RzX0RjYU5iTjhjWllfSlhRLWlKVWRZYzZXbU1HOUY3M2RHSTZTTG95S3hjSmZmT3JnR3hPaVpOWmd6ZUhGZHVlbGlLcnBkT3RIUkJHR0xfSExCaHlkN0ttLU1OQzV6QzUzSFE2Mlp4QmhrdkFIbThRcm1ZTU9NaG56aEdJcEE3cVRmZ1B4RnZVSmlQY0Z1eWVFRHpWVEtmOXF3UmpuMVdseFJqbVJuUnplWmtpNFdmUDF5anE1NWVUd2VqWXU5ZzhyblR0WWRLa0V1YmlyT0Y5aG5YQkJoRGF3YWQyRy1CWHJFWll5X0NObHNacWFVS3cyZl8yZUlFdkt3VDJJeVpYSUxYSWoxbkxPZXlsX0t0aDByNndLWlh4c0pf?oc=5",
-          "published": "Thu, 15 Oct 2026 07:00:08 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -790,6 +759,29 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BX0pZTnVUNEMtYWlUdUpGbGNLVlktT29yU05xelphWFNENU9ycmJtTENvYzAwdGVqT0xMVlF1bVFVSUpBdUdnczhuNWh2QmxrN0dGRzVR?oc=5",
           "published": "Wed, 14 Oct 2026 04:32:07 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Persistent Systems",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "TCS, HCL Tech, Coforge share 3 \u0938\u093e\u0932 \u0915\u0947 \u0932\u093f\u090f \u0915\u093e\u092b\u0940? #reels #reel #reelsviral #reelsvideo #itstocks tcs share latest news, hcl tech share latest news, coforge share latest news, persistent systems share latest news, tcs share price analysis, hcl tech share an - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNLXczWmFrYWlkcU5SZEpkT3RRZW1lRm9mOUpqQlNrbUJoR3NUWVZvdkJSakxFZzV1X2hPSWg4cGZKVkFRT0RzX0RjYU5iTjhjWllfSlhRLWlKVWRZYzZXbU1HOUY3M2RHSTZTTG95S3hjSmZmT3JnR3hPaVpOWmd6ZUhGZHVlbGlLcnBkT3RIUkJHR0xfSExCaHlkN0ttLU1OQzV6QzUzSFE2Mlp4QmhrdkFIbThRcm1ZTU9NaG56aEdJcEE3cVRmZ1B4RnZVSmlQY0Z1eWVFRHpWVEtmOXF3UmpuMVdseFJqbVJuUnplWmtpNFdmUDF5anE1NWVUd2VqWXU5ZzhyblR0WWRLa0V1YmlyT0Y5aG5YQkJoRGF3YWQyRy1CWHJFWll5X0NObHNacWFVS3cyZl8yZUlFdkt3VDJJeVpYSUxYSWoxbkxPZXlsX0t0aDByNndLWlh4c0pf?oc=5",
+          "published": "Thu, 15 Oct 2026 07:00:08 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
