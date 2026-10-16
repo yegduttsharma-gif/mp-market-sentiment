@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-16T21:27:44.518594+00:00",
+  "collected_at": "2026-10-16T21:57:35.828007+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
     "IndianStockMarket": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "IndianStreetBets": {
       "status": "unavailable",
@@ -44,79 +44,16 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 143,
+  "unique_titles": 43,
   "indices": {
     "NIFTY 50": {
-      "bullish": 1,
+      "bullish": 0,
       "bearish": 0,
-      "neutral": 11,
-      "directional": 1,
+      "neutral": 3,
+      "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
-        {
-          "title": "Is putting 50% of my investments into a Nifty 50 index fund a good idea?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x7od1a/is_putting_50_of_my_investments_into_a_nifty_50/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-16T18:41:34+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "nifty bullish enfulfing on wtf but good and sharp dip can come we are heading towards 23650",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x7ef0a/nifty_bullish_enfulfing_on_wtf_but_good_and_sharp/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-16T12:05:50+00:00",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "NIFTY 50 Support and Resistance for Oct 16: Highest Volume Levels and Pivots for Day Traders",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x75x9c/nifty_50_support_and_resistance_for_oct_16/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-16T03:41:17+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Crude futures in discount and nifty in steroids",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6p8vu/crude_futures_in_discount_and_nifty_in_steroids/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T15:47:47+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Bears trapped on daily timeframe nifty ready for 24500",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6o6ef/bears_trapped_on_daily_timeframe_nifty_ready_for/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T15:07:44+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty up but portfolio is still negative",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6mpgw/nifty_up_but_portfolio_is_still_negative/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T14:11:15+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty when all the global markets are down lol",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6iy40/nifty_when_all_the_global_markets_are_down_lol/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T11:17:28+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "\u20b950k in Nifty 50 for 5 years: what the past data suggests",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6iru1/50k_in_nifty_50_for_5_years_what_the_past_data/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T11:07:40+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Deceptive Green: Nifty pumps 1.66% while retail portfolios bleed out",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6i6u5/deceptive_green_nifty_pumps_166_while_retail/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T10:33:41+00:00",
-          "sentiment": "neutral"
-        },
         {
           "title": "NIFTY Looks Bullish on the Surface, But Is a Bearish Reversal Brewing?",
           "url": "https://tradingqna.com/t/nifty-looks-bullish-on-the-surface-but-is-a-bearish-reversal-brewing/198849",
@@ -152,19 +89,11 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "Sensex CAS Jump fucked me today",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6idg3/sensex_cas_jump_fucked_me_today/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-15T10:44:50+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     }
   }
 }
