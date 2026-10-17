@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T13:35:32.354674+00:00",
+  "collected_at": "2026-10-17T14:02:19.423533+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 608,
+  "posts_collected": 611,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
-    "indexed_reddit": 176,
-    "youtube": 195,
-    "facebook": 92,
-    "instagram": 92,
-    "total_unique": 608
+    "indexed_reddit": 177,
+    "youtube": 196,
+    "instagram": 100,
+    "facebook": 85,
+    "total_unique": 611
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 10,
+      "mentions": 9,
       "investor_mentions": 4,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -71,26 +71,10 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "HDFC Bank Q2 Results 2026: Capital Adequacy \u0914\u0930 Provision \u0915\u0940 \u092a\u0942\u0930\u0940 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81YzBON2duS0NSYk5tMGRKNkpSeUdaX0JpQmJvaGxEY0lQTVZrLXlYUWJMMnFjUnRWOHBlVnVkSWctLXBhM0Z6WEdsSGFLQTZVUmRtNzB3?oc=5",
-          "published": "Sat, 17 Oct 2026 11:38:50 GMT",
+          "title": "HDFC Bank Stock: Hold, Sell Or Wait For A Recovery? Expert Decodes - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0d1J6Qk9GQ3VSdUs0cFhMNU5BeUdMSS0tbkZGQkd3RER1bXZLakNOMGtiZnFQNGZjc3pIQTkyeGhmUzFVeTJsa0xwV0VTN2ROQWdPTnNB?oc=5",
+          "published": "Mon, 12 Oct 2026 07:27:31 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "LIVE: Q2 Banking Results Live Updates | Q2FY26 Bank Result Analysis Live | HDFC Bank Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQNW92SFI2SHhkeDVFUURhcXJuSVh6N0tUSWFFUV91d0drSnIyR2pUNXZSTnlESWJSOEVWZlBPeGVEMGxqSkJ4akdkaUo4dURycE0xTXZB?oc=5",
-          "published": "Sat, 17 Oct 2026 05:50:59 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -99,6 +83,14 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
           "published": "Tue, 13 Oct 2026 13:54:12 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -147,9 +139,9 @@
     },
     {
       "name": "Reliance Industries",
-      "mentions": 8,
+      "mentions": 7,
       "investor_mentions": 0,
-      "commentary_mentions": 8,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -158,10 +150,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, PC Jeweller, Jio Financial Services, Yes Bank, IndiGo Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU2NpTEZoamZzbzhkWkFJcDVBSldKVE9KOFdJNnEzRWtZaGdMOW5LSlRmX01OYms3dXFhYXVJMlZfeVVhWDZJS0NSRk1ybVQyN0h0cUdR?oc=5",
-          "published": "Sat, 17 Oct 2026 10:07:17 GMT",
-          "subreddit": "youtube",
+          "title": "[#LinkInBio] Jio wants $3.2 billion from the stock market, but young investors want their profits yesterday | Reliance Industries is gearing up to introduce Jio Platforms in what is anticipated to be the largest IPO in India, slated for October 21, 2023, aiming to attra - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4OXduVEtPMGNIVnpRNUdZdWV3ZGNPZW5EUWxYQ3VjSUJmMVUzeUFRLUlhSEZ4bzBEOU1WVnIwc1NtQ0VSNnk2dlZyVVAzdXB4VHc?oc=5",
+          "published": "Sat, 17 Oct 2026 12:37:43 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -170,14 +162,6 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
           "published": "Thu, 15 Oct 2026 05:08:49 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "[#LinkInBio] Jio wants $3.2 billion from the stock market, but young investors want their profits yesterday | Reliance Industries is gearing up to introduce Jio Platforms in what is anticipated to be the largest IPO in India, slated for October 21, 2023, aiming to attra - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4OXduVEtPMGNIVnpRNUdZdWV3ZGNPZW5EUWxYQ3VjSUJmMVUzeUFRLUlhSEZ4bzBEOU1WVnIwc1NtQ0VSNnk2dlZyVVAzdXB4VHc?oc=5",
-          "published": "Sat, 17 Oct 2026 12:37:43 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -226,9 +210,9 @@
     },
     {
       "name": "Yes Bank",
-      "mentions": 8,
+      "mentions": 7,
       "investor_mentions": 2,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -261,18 +245,10 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Anil Singhvi \u0915\u093e Stock Analysis! Tech Mahindra, Wipro, Yes Bank \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ka0xqanF2bGRJdlNwaTR2ckVsbGdkZHNOS250eWQyT09QT2w1Nm5qMk1YX2VrWEJNZHBYOGlhRU5WRVZBOVcwVlRQODhZVXdHVlJhNDZn?oc=5",
-          "published": "Fri, 16 Oct 2026 09:18:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, Jio Financial Services, Yes Bank, IndiGo Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU2NpTEZoamZzbzhkWkFJcDVBSldKVE9KOFdJNnEzRWtZaGdMOW5LSlRmX01OYms3dXFhYXVJMlZfeVVhWDZJS0NSRk1ybVQyN0h0cUdR?oc=5",
-          "published": "Sat, 17 Oct 2026 10:07:17 GMT",
-          "subreddit": "youtube",
+          "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! GIFT Nifty futures on the NSE International Exchange were 87.70 points, or 0.38 per cent, up at 23,072.50, hinting at a weak start for the domestic market. Stocks like HCL Technologies, YES Bank, - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00YXoxTmlEMGE2ZVBQbDJ3VDV2X08wMWFKSjh1dHJVU3pOY1ViSkhaUWdaaDFhT01Xa3V3bDRaMXZ5b0JFMFJQUWk3c2JXdkdydEE?oc=5",
+          "published": "Fri, 16 Oct 2026 03:27:22 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -426,14 +402,6 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
           "published": "Thu, 15 Oct 2026 10:37:07 GMT",
@@ -450,9 +418,56 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
           "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "BHEL",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Indian Stock Market Today | NIFTY Falls 99 Points | BHEL Profit More Than Doubles | 14 Oct 2026 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FYmE0UDVhMEczSmhERk1GRkFZamktelpOTmt0dW5sV2FnTGF5OVhKdlNRVWlVVkJacHRXemJnWEV2bndZME9yMnM1dzdHdzFaR29FdERB?oc=5",
+          "published": "Wed, 14 Oct 2026 11:14:19 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
+          "published": "Thu, 15 Oct 2026 11:59:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
+          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -500,45 +515,6 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
-      "mentions": 3,
-      "investor_mentions": 1,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
-          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, Jio Financial Services, Yes Bank, IndiGo Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU2NpTEZoamZzbzhkWkFJcDVBSldKVE9KOFdJNnEzRWtZaGdMOW5LSlRmX01OYms3dXFhYXVJMlZfeVVhWDZJS0NSRk1ybVQyN0h0cUdR?oc=5",
-          "published": "Sat, 17 Oct 2026 10:07:17 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
-          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IRFC",
       "mentions": 3,
       "investor_mentions": 0,
@@ -578,29 +554,29 @@
       "sufficient": false
     },
     {
-      "name": "BHEL",
+      "name": "Jio Financial",
       "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
-          "published": "Thu, 15 Oct 2026 11:59:39 GMT",
-          "subreddit": "youtube",
+          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
+          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
-          "evidence_type": "market_commentary"
+          "evidence_type": "investor_discussion"
         },
         {
-          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
+          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
+          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -621,18 +597,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
-          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
           "published": "Tue, 13 Oct 2026 15:24:42 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
+          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -764,29 +740,6 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "ICICI Bank Results LIVE: Provision \u092e\u0947\u0902 \u0915\u092e\u0940, CAR 16.68% \u092a\u0930 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yYmZkVDVleFJpVnc5T0hQV0pTNTJrMDNVam53TEZCSHBTWWdUNURYc1QwNlNjR3J1ekNUUUVDNS1NWHZSUllTbzRHR3FBVHlwaEZNMTRn?oc=5",
-          "published": "Sat, 17 Oct 2026 11:48:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
@@ -848,6 +801,29 @@
           "title": "Stock Market Live | Jio, Fusion CX, HD Fire Protect IPO | Tata Power, Wipro Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RMXp2Z3BKaWNWRkp2NmlPSXBNaVp4ZVhEUlVkUFVYTy1WT0VyN0ZqNnk3a2tnZEEwSjN1Ym43bFczSHRzaTJUTDl1STBpdXhISGM2Qm93?oc=5",
           "published": "Tue, 13 Oct 2026 04:44:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Punjab National Bank",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Q2 Results LIVE: Urban Company, Punjab National Bank, DLF Live |Q2 Earnings Reaction & Analysis LIVE - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83cjVQM2NFeXJDcUIyeWlrc3N0RzF0NU1nVTVuVVVMRFhCZnJUYWJsR204Y2tWUzlYMERRdS1OSG0wSUNnVkJaWjA0VHpSeFV6c2RRQlNB?oc=5",
+          "published": "Fri, 16 Oct 2026 04:30:33 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -945,6 +921,43 @@
           "evidence_type": "market_commentary"
         }
       ],
+      "sufficient": false
+    },
+    {
+      "name": "CG Power",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "CG power whats your view for next week - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQWFYNDhTZjFUVGkyc0o2OGpoMXhjT0FRa05zNVpHYWJmbjNnb01QVnRubTBtS0xRQkw5ZkNXRFZraENBa3NwWUpLMDV5eXJtSTZGczNEckNQNVE0LVk4SHpfWlhnUVYtbURaSFB4RHJWamNRTEJVcThIc1gtU3hvNXE2QWl2VEI0c3BBY3RzcVcwcV9YMXlMUWw4Qkc0WHFv?oc=5",
+          "published": "Fri, 16 Oct 2026 14:19:31 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "ICICI Bank",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
       "sufficient": false
     },
     {
@@ -1200,20 +1213,6 @@
       "sufficient": false
     },
     {
-      "name": "Punjab National Bank",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "IDFC First Bank",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1397,20 +1396,6 @@
     },
     {
       "name": "KPIT Technologies",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "CG Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
