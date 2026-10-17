@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T17:26:54.526379+00:00",
+  "collected_at": "2026-10-17T17:52:19.633803+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 606,
+  "posts_collected": 611,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 20,
-    "indexed_reddit": 174,
+    "indexed_reddit": 175,
     "youtube": 195,
-    "facebook": 92,
-    "instagram": 91,
-    "total_unique": 606
+    "facebook": 93,
+    "instagram": 94,
+    "total_unique": 611
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 9,
+      "mentions": 10,
       "investor_mentions": 4,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -77,6 +77,14 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "NIFTY 22500 AGAIN? \ud83d\udca5 CRUDE OIL $110? | JIO IPO | HDFC BANK & AXIS RESULTS | IRAN WAR | GOLD SILVER - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jOTFPTXdTN2lXbWVRSW9tbUZXNU5XMF9nZjdRWC1qQm1Fd2pvLUc1RXk0UWxfZkt2MXNWZENyZ0V4cmdDU2NLWFJxcWJraEFCczh1bERB?oc=5",
+          "published": "Sat, 17 Oct 2026 13:30:14 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         },
         {
           "title": "HDFC Bank Stock: Hold, Sell Or Wait For A Recovery? Expert Decodes - YouTube",
@@ -138,10 +146,73 @@
       "sufficient": false
     },
     {
+      "name": "Yes Bank",
+      "mentions": 6,
+      "investor_mentions": 2,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
+          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Yes bank At1 bond liability Rs 15600 cr .. after apex court order ..this reason India fdi low ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0RHRUQ3bEtBdTlDX1BoSE5VMWU0X0VXLTZ1bG5yTWNXVHh1SlJKSGpKWWVCbHJvWFNHU3pnV0c3Y2RFbHNRSkdxOWlLRlNLcU1XWE5wMi13WHRNU3ptYzBqdHcxaVBSUzIxQjNBOUV4U2pCVzRyX0YwbVBWVlhUTlFPazlLYlVLeXdYQkloTi1POVlXcGNhSDhTWTdKd1R6d0FybndwMlA?oc=5",
+          "published": "Thu, 15 Oct 2026 13:07:22 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
+          "published": "Fri, 16 Oct 2026 08:15:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
+          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "YES BANK \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! 20% \u0924\u0915 \u091f\u0942\u091f\u093e \u0936\u0947\u092f\u0930 | Yes Bank latest News #reels #reel #yesbanklatestnews #yesbanksharenewstoday #financegyani yes bank latest news,yes bank share latest news, yes bank share news today, yes bank share, yes ban - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQNkUxaERjeGhhMjJoVEJFcXBOX0ZsMFNsbjdjcXkzejBMaUIzVk9sWUQzaEhqcXROXzdvNlJOSEtuRVl6akJyWlBEZUZNVzZoVlhVMUNJOE5NUERsd0xPSFd3TXFHYkFBcDhlLXAtX0pVLXZ6bzlXdUJoN2Z3RW9RbnJrdDliREdlTnFDRE5UN1Ewci0wa1RWZXE1bEZTSkl1MHhQdXlKb1ljZEhqbVlUOG9aN1hkTVFWcEh5NzJlNVZlM0VIMmRmVnRkbHhuTjlBT003R1VBTXB1MXZxTUVLcUFvRE04Z3JvTGtRZkVjUjQ3NXV4dTM1RXJpUzRQVUMzbXBLQllSaERRSWxvT2FRV3RHQzhjNEZSclZCdjhwZTVLbHdkMjg5ZHRpelNMZ2sxaG5WRnQtMThlMHJ3UDB4dGFqOUwyOE85YldJZkJudXFxUlZUR05xZEpfQVV6RmZickd3S0lub3BlZGpMdl9udlViMk1sSEx0d21yc3hqNFhubHNlN0JKQTR2WE9xeW5Pd1BTUVdYYlJRTFN2bGtmOFNENk0xcy1QOW9veEJsYlF3NUpGNUJUcU05aUVydWYyc2k4eEFpMW9qYW9ROHZoQ1N1dHJ0dw?oc=5",
+          "published": "Fri, 16 Oct 2026 09:30:09 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udea8 YES BANK SHARES CRASH UP TO 20% AFTER SUPREME COURT RULING The Supreme Court upheld the Bombay High Court\u2019s decision declaring YES BANK\u2019s \u20b98,415 crore AT-1 bond write-off illegal. Key Highlights: \ud83d\udd39 \u20b98,415 crore worth of AT-1 bond - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zVW5XUlkxMXFvLXFFc2c5bHBJQjJ0UF9vMk1WMDc4QlRBNExweEVXUEtFc2p3a3JfdWU1M1BmVjFyWTRoelZ5ekFfLVVFWERvUmc?oc=5",
+          "published": "Thu, 15 Oct 2026 13:00:40 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Reliance Industries",
-      "mentions": 7,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -154,22 +225,6 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
           "published": "Thu, 15 Oct 2026 05:08:49 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
-          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "[#LinkInBio] Jio wants $3.2 billion from the stock market, but young investors want their profits yesterday | Reliance Industries is gearing up to introduce Jio Platforms in what is anticipated to be the largest IPO in India, slated for October 21, 2023, aiming to attra - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4OXduVEtPMGNIVnpRNUdZdWV3ZGNPZW5EUWxYQ3VjSUJmMVUzeUFRLUlhSEZ4bzBEOU1WVnIwc1NtQ0VSNnk2dlZyVVAzdXB4VHc?oc=5",
-          "published": "Sat, 17 Oct 2026 12:37:43 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -264,108 +319,6 @@
       "sufficient": false
     },
     {
-      "name": "Yes Bank",
-      "mentions": 5,
-      "investor_mentions": 2,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
-          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Yes bank At1 bond liability Rs 15600 cr .. after apex court order ..this reason India fdi low ? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0RHRUQ3bEtBdTlDX1BoSE5VMWU0X0VXLTZ1bG5yTWNXVHh1SlJKSGpKWWVCbHJvWFNHU3pnV0c3Y2RFbHNRSkdxOWlLRlNLcU1XWE5wMi13WHRNU3ptYzBqdHcxaVBSUzIxQjNBOUV4U2pCVzRyX0YwbVBWVlhUTlFPazlLYlVLeXdYQkloTi1POVlXcGNhSDhTWTdKd1R6d0FybndwMlA?oc=5",
-          "published": "Thu, 15 Oct 2026 13:07:22 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
-          "published": "Fri, 16 Oct 2026 08:15:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
-          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "YES BANK \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! 20% \u0924\u0915 \u091f\u0942\u091f\u093e \u0936\u0947\u092f\u0930 | Yes Bank latest News #reels #reel #yesbanklatestnews #yesbanksharenewstoday #financegyani yes bank latest news,yes bank share latest news, yes bank share news today, yes bank share, yes ban - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQNkUxaERjeGhhMjJoVEJFcXBOX0ZsMFNsbjdjcXkzejBMaUIzVk9sWUQzaEhqcXROXzdvNlJOSEtuRVl6akJyWlBEZUZNVzZoVlhVMUNJOE5NUERsd0xPSFd3TXFHYkFBcDhlLXAtX0pVLXZ6bzlXdUJoN2Z3RW9RbnJrdDliREdlTnFDRE5UN1Ewci0wa1RWZXE1bEZTSkl1MHhQdXlKb1ljZEhqbVlUOG9aN1hkTVFWcEh5NzJlNVZlM0VIMmRmVnRkbHhuTjlBT003R1VBTXB1MXZxTUVLcUFvRE04Z3JvTGtRZkVjUjQ3NXV4dTM1RXJpUzRQVUMzbXBLQllSaERRSWxvT2FRV3RHQzhjNEZSclZCdjhwZTVLbHdkMjg5ZHRpelNMZ2sxaG5WRnQtMThlMHJ3UDB4dGFqOUwyOE85YldJZkJudXFxUlZUR05xZEpfQVV6RmZickd3S0lub3BlZGpMdl9udlViMk1sSEx0d21yc3hqNFhubHNlN0JKQTR2WE9xeW5Pd1BTUVdYYlJRTFN2bGtmOFNENk0xcy1QOW9veEJsYlF3NUpGNUJUcU05aUVydWYyc2k4eEFpMW9qYW9ROHZoQ1N1dHJ0dw?oc=5",
-          "published": "Fri, 16 Oct 2026 09:30:09 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
-          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
-          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Suzlon Energy",
       "mentions": 4,
       "investor_mentions": 0,
@@ -405,6 +358,45 @@
           "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
           "published": "Sat, 17 Oct 2026 08:30:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
+          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
