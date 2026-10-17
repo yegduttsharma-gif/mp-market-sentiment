@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T02:14:57.596416+00:00",
+  "collected_at": "2026-10-17T02:51:34.659730+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 605,
+  "posts_collected": 604,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 19,
     "indexed_reddit": 167,
     "youtube": 199,
-    "instagram": 100,
+    "instagram": 99,
     "facebook": 87,
-    "total_unique": 605
+    "total_unique": 604
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -674,29 +674,6 @@
       "sufficient": false
     },
     {
-      "name": "Punjab National Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Q2 Results LIVE: Urban Company, Punjab National Bank, DLF Live |Q2 Earnings Reaction & Analysis LIVE - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83cjVQM2NFeXJDcUIyeWlrc3N0RzF0NU1nVTVuVVVMRFhCZnJUYWJsR204Y2tWUzlYMERRdS1OSG0wSUNnVkJaWjA0VHpSeFV6c2RRQlNB?oc=5",
-          "published": "Fri, 16 Oct 2026 04:30:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Canara Bank",
       "mentions": 1,
       "investor_mentions": 0,
@@ -1065,6 +1042,20 @@
     },
     {
       "name": "Adani Ports",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Punjab National Bank",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
