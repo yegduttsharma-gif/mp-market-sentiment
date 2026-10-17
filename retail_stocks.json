@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T08:08:59.012998+00:00",
+  "collected_at": "2026-10-17T08:38:11.879438+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 599,
+  "posts_collected": 603,
   "source_counts": {
     "tradingqna": 33,
-    "valuepickr": 18,
-    "indexed_reddit": 166,
+    "valuepickr": 19,
+    "indexed_reddit": 168,
     "youtube": 197,
-    "facebook": 93,
-    "instagram": 92,
-    "total_unique": 599
+    "instagram": 99,
+    "facebook": 87,
+    "total_unique": 603
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,7 +37,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 12
+      "recent_items": 13
     },
     "valuepickr_top": {
       "status": "ok",
@@ -51,81 +51,10 @@
   "status": "available",
   "stocks": [
     {
-      "name": "HDFC Bank",
-      "mentions": 7,
-      "investor_mentions": 2,
-      "commentary_mentions": 5,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HDFC Bank Stock: Hold, Sell Or Wait For A Recovery? Expert Decodes - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0d1J6Qk9GQ3VSdUs0cFhMNU5BeUdMSS0tbkZGQkd3RER1bXZLakNOMGtiZnFQNGZjc3pIQTkyeGhmUzFVeTJsa0xwV0VTN2ROQWdPTnNB?oc=5",
-          "published": "Mon, 12 Oct 2026 07:27:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
-          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Reliance Industries",
-      "mentions": 6,
+      "mentions": 7,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -133,6 +62,14 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "\ud83d\udea8 JIO IPO: \u20b92,500 CRORE RESERVED FOR RELIANCE SHAREHOLDERS! \ud83d\udce2 Reliance Industries shareholders could get a dedicated reservation in the upcoming Jio Platforms IPO. \ud83d\udc40 \ud83d\udcc5 IPO bidding opens on October 21, 2026. \ud83d\udccc Existing RIL shareholders, th - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2U3hnWTNIV2ctR2hMRkd4UmFOWF9qbTNUNlp6RXlEa1FSYWxsTlNRZHhubHM4QkNqRHhwZE51Zy1tLUlMMnBuSDFnWFlzMHZibkE?oc=5",
+          "published": "Fri, 16 Oct 2026 13:07:56 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "Stock Market Live | Reliance Industries, Angel One, IDBI Bank, HDB Financial, Infibeam, SJVN Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/eesRDylwaio #StockMarketLive #sharemarketlive #livemarket #financegya - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
@@ -185,10 +122,81 @@
       "sufficient": false
     },
     {
-      "name": "Yes Bank",
-      "mentions": 6,
+      "name": "HDFC Bank",
+      "mentions": 7,
       "investor_mentions": 2,
-      "commentary_mentions": 4,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "HDFC Bank Stock: Hold, Sell Or Wait For A Recovery? Expert Decodes - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0d1J6Qk9GQ3VSdUs0cFhMNU5BeUdMSS0tbkZGQkd3RER1bXZLakNOMGtiZnFQNGZjc3pIQTkyeGhmUzFVeTJsa0xwV0VTN2ROQWdPTnNB?oc=5",
+          "published": "Mon, 12 Oct 2026 07:27:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
+          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Yes Bank",
+      "mentions": 7,
+      "investor_mentions": 2,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -217,6 +225,14 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
           "published": "Fri, 16 Oct 2026 08:15:18 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! GIFT Nifty futures on the NSE International Exchange were 87.70 points, or 0.38 per cent, up at 23,072.50, hinting at a weak start for the domestic market. Stocks like HCL Technologies, YES Bank, - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00YXoxTmlEMGE2ZVBQbDJ3VDV2X08wMWFKSjh1dHJVU3pOY1ViSkhaUWdaaDFhT01Xa3V3bDRaMXZ5b0JFMFJQUWk3c2JXdkdydEE?oc=5",
+          "published": "Fri, 16 Oct 2026 03:27:22 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -304,9 +320,9 @@
     },
     {
       "name": "Infosys",
-      "mentions": 4,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -315,26 +331,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
-          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Nifty Reclaims 23,000 as I.T. Stocks Rally; Tech Mahindra Jumps 7%, I.T. Index Gains Nearly 3% #Nifty #Sensex #ITStocks #TechMahindra #Infosys #TCS #HCLTech #NiftyIT #StockMarket #MarketRally #IndianStockMarket #DalalStreet #PSUBanks #MetalSt - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52b29yWGkxeld0ZmNRTkJKUFFXUXpETXlldUphdmtkMDRVdTNXbFE1enJTeWFBUTFLaG1xaXpCcGFQbDBGMFo1aE9JRmVraU9RWG1BaHNn?oc=5",
           "published": "Fri, 16 Oct 2026 06:18:40 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -502,18 +510,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
-          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
           "published": "Tue, 13 Oct 2026 15:24:42 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
+          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -544,6 +552,37 @@
           "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
           "published": "Thu, 15 Oct 2026 17:29:52 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Axis Bank",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Private lender Axis Bank on Saturday reported a net profit of Rs 7,003 crore for the second quarter of FY27, marking a jump of 38% year-on-year from Rs 5,089 crore posted in the corresponding quarter of the previous financial year. The bank's net interest inco - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVVWJPdHFnckhCSW1wY0czOE9Bd0N3QjRJa0pQeVZMcU5oazE3OXVkSC1jMmEzUTRseWtPZmxmcG9WWTBNSUhwSXVkQnJ5M0x2b3c?oc=5",
+          "published": "Sat, 17 Oct 2026 07:58:37 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -714,6 +753,29 @@
       "sufficient": false
     },
     {
+      "name": "Punjab National Bank",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Q2 Results LIVE: Urban Company, Punjab National Bank, DLF Live |Q2 Earnings Reaction & Analysis LIVE - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83cjVQM2NFeXJDcUIyeWlrc3N0RzF0NU1nVTVuVVVMRFhCZnJUYWJsR204Y2tWUzlYMERRdS1OSG0wSUNnVkJaWjA0VHpSeFV6c2RRQlNB?oc=5",
+          "published": "Fri, 16 Oct 2026 04:30:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Canara Bank",
       "mentions": 1,
       "investor_mentions": 0,
@@ -737,29 +799,6 @@
       "sufficient": false
     },
     {
-      "name": "Axis Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Maruti Suzuki",
       "mentions": 1,
       "investor_mentions": 0,
@@ -776,6 +815,29 @@
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3RUQ0lyd0M0dkpKYTNISE9tOVdNbGZSTDRYQUtwek5IZmZzMDN4SEUtZW1QSGVTTUVJb0dVOVdtc0JZTVhuQ0Q3R2hHWi1XbEVCN2FDaEdsX3hTR1ZfRkkzcURDSVdYeHJqcWhDbkw4UDM3dERGM1FlYlQya0VSYjBnWk5pLVRFb3p3YlUzbEM3aF9rR0ZSSWdZQV80ckJnSTR5Y20tMW9OamxQZXl0VEl1TWVvbTkwZFk1bVNpYnVmaWdkWUdXX09UdFk5UHhxU183WHVSbmlxeGVp?oc=5",
           "published": "Tue, 13 Oct 2026 10:46:31 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Hyundai Motor India",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "#ICHExplores: The company that changed how India uses the internet could now make stock market history. Jio Platforms is reportedly preparing for what could be India\u2019s biggest-ever IPO, potentially surpassing Hyundai Motor India\u2019s \u20b927,859 crore public offe - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yQkEyRkNsTEN5TElRUEM1enNCUlE5V3QzQlZwY1hmaGp3dk5BWldZbk56Rm0tT1hmOFN4SkY5R2xRTHlTblQyYXE0UkVSQzRENmc?oc=5",
+          "published": "Tue, 13 Oct 2026 16:14:40 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -1072,20 +1134,6 @@
       "sufficient": false
     },
     {
-      "name": "Punjab National Bank",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "IDFC First Bank",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1115,20 +1163,6 @@
     },
     {
       "name": "Mahindra & Mahindra",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Hyundai Motor India",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
