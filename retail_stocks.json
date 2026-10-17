@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T20:48:10.919912+00:00",
+  "collected_at": "2026-10-17T21:08:35.000271+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 602,
+  "posts_collected": 601,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
     "indexed_reddit": 171,
     "youtube": 194,
-    "facebook": 93,
+    "facebook": 92,
     "instagram": 91,
-    "total_unique": 602
+    "total_unique": 601
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -111,22 +111,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
-          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
           "published": "Mon, 12 Oct 2026 13:00:16 GMT",
@@ -141,15 +125,31 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty is down almost 900 points in the past month, and ironically, HDFC Bank was one of the stocks that helped limit the fall.... - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDYyU0hfM3Rib0FKMy1mTXpDYU0wcUdPTVAwVmM0Y2tsZ3NobGQtUXpEX3BoSmdEZ2dLamxQSFZwMWtjTW83RHFYQnFlM2NtOXp3OWprYmMtOHNxak9DenFWR2lTQ0lsdGNZQnhsOXhnWmZ0VzdsZGZ1Q2lraWRJSHF4YkhVVkxWdjh0N2Zzemw1RXlYZXBRLW9EeHhodWJnUmZjOGRNUXJtR0I4TWJr?oc=5",
+          "published": "Sun, 11 Oct 2026 08:09:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Reliance Industries",
-      "mentions": 6,
+      "mentions": 7,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -162,6 +162,14 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
           "published": "Thu, 15 Oct 2026 05:08:49 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
+          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -264,6 +272,108 @@
       "sufficient": false
     },
     {
+      "name": "Suzlon Energy",
+      "mentions": 5,
+      "investor_mentions": 0,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, RVNL, IRFC, VedAluminium, GROWW, GMDC, Cupid, Tech Mahindra, HFCL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qNjhfTmM2MHZGODdFcjZKdVZvTVdhMldSSHVoLXVYdkRvT2thU3dCYlJla0VseXZWWGctalFSbjFiajRmUFA3eVRManlKSXNKNFUtRnVR?oc=5",
+          "published": "Fri, 16 Oct 2026 07:31:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
+          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, Canara Bank, CP Plus, Adani Energy, ABDL, Adani Power, SJVN, MRPL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wTThma3paVTVmOTdWRllUWl9JTExNNUJyd2JZblUwY1VIYTVDQjcxZUlLVEI1RFRUV1ZyT1VtNjdKSnFrT3dnREY5YmNIcWtNWFpWNkxB?oc=5",
+          "published": "Wed, 14 Oct 2026 06:59:47 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
+          "published": "Sat, 17 Oct 2026 08:30:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
+          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
+          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Yes Bank",
       "mentions": 4,
       "investor_mentions": 1,
@@ -304,92 +414,6 @@
           "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQNkUxaERjeGhhMjJoVEJFcXBOX0ZsMFNsbjdjcXkzejBMaUIzVk9sWUQzaEhqcXROXzdvNlJOSEtuRVl6akJyWlBEZUZNVzZoVlhVMUNJOE5NUERsd0xPSFd3TXFHYkFBcDhlLXAtX0pVLXZ6bzlXdUJoN2Z3RW9RbnJrdDliREdlTnFDRE5UN1Ewci0wa1RWZXE1bEZTSkl1MHhQdXlKb1ljZEhqbVlUOG9aN1hkTVFWcEh5NzJlNVZlM0VIMmRmVnRkbHhuTjlBT003R1VBTXB1MXZxTUVLcUFvRE04Z3JvTGtRZkVjUjQ3NXV4dTM1RXJpUzRQVUMzbXBLQllSaERRSWxvT2FRV3RHQzhjNEZSclZCdjhwZTVLbHdkMjg5ZHRpelNMZ2sxaG5WRnQtMThlMHJ3UDB4dGFqOUwyOE85YldJZkJudXFxUlZUR05xZEpfQVV6RmZickd3S0lub3BlZGpMdl9udlViMk1sSEx0d21yc3hqNFhubHNlN0JKQTR2WE9xeW5Pd1BTUVdYYlJRTFN2bGtmOFNENk0xcy1QOW9veEJsYlF3NUpGNUJUcU05aUVydWYyc2k4eEFpMW9qYW9ROHZoQ1N1dHJ0dw?oc=5",
           "published": "Fri, 16 Oct 2026 09:30:09 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, RVNL, IRFC, VedAluminium, GROWW, GMDC, Cupid, Tech Mahindra, HFCL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qNjhfTmM2MHZGODdFcjZKdVZvTVdhMldSSHVoLXVYdkRvT2thU3dCYlJla0VseXZWWGctalFSbjFiajRmUFA3eVRManlKSXNKNFUtRnVR?oc=5",
-          "published": "Fri, 16 Oct 2026 07:31:30 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
-          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
-          "published": "Sat, 17 Oct 2026 08:30:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
-          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -475,76 +499,6 @@
       "sufficient": false
     },
     {
-      "name": "IRFC",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, RVNL, IRFC, VedAluminium, GROWW, GMDC, Cupid, Tech Mahindra, HFCL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qNjhfTmM2MHZGODdFcjZKdVZvTVdhMldSSHVoLXVYdkRvT2thU3dCYlJla0VseXZWWGctalFSbjFiajRmUFA3eVRManlKSXNKNFUtRnVR?oc=5",
-          "published": "Fri, 16 Oct 2026 07:31:30 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
-          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Jio Financial",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
-          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
-          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "BEL",
       "mentions": 2,
       "investor_mentions": 0,
@@ -576,6 +530,68 @@
       "sufficient": false
     },
     {
+      "name": "IRFC",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, RVNL, IRFC, VedAluminium, GROWW, GMDC, Cupid, Tech Mahindra, HFCL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qNjhfTmM2MHZGODdFcjZKdVZvTVdhMldSSHVoLXVYdkRvT2thU3dCYlJla0VseXZWWGctalFSbjFiajRmUFA3eVRManlKSXNKNFUtRnVR?oc=5",
+          "published": "Fri, 16 Oct 2026 07:31:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Canara Bank",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
+          "published": "Wed, 14 Oct 2026 10:08:05 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, Canara Bank, CP Plus, Adani Energy, ABDL, Adani Power, SJVN, MRPL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wTThma3paVTVmOTdWRllUWl9JTExNNUJyd2JZblUwY1VIYTVDQjcxZUlLVEI1RFRUV1ZyT1VtNjdKSnFrT3dnREY5YmNIcWtNWFpWNkxB?oc=5",
+          "published": "Wed, 14 Oct 2026 06:59:47 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Kotak Bank",
       "mentions": 2,
       "investor_mentions": 0,
@@ -599,37 +615,6 @@
           "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
           "published": "Thu, 15 Oct 2026 11:59:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Polycab",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Discontinuation of F&O contracts in POLYCAB",
-          "url": "https://tradingqna.com/t/discontinuation-of-f-o-contracts-in-polycab/198792",
-          "published": "Tue, 13 Oct 2026 05:21:14 +0000",
-          "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
-          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -679,6 +664,29 @@
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
+          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -753,6 +761,29 @@
       "sufficient": false
     },
     {
+      "name": "Adani Power",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, Canara Bank, CP Plus, Adani Energy, ABDL, Adani Power, SJVN, MRPL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wTThma3paVTVmOTdWRllUWl9JTExNNUJyd2JZblUwY1VIYTVDQjcxZUlLVEI1RFRUV1ZyT1VtNjdKSnFrT3dnREY5YmNIcWtNWFpWNkxB?oc=5",
+          "published": "Wed, 14 Oct 2026 06:59:47 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Punjab National Bank",
       "mentions": 1,
       "investor_mentions": 0,
@@ -769,29 +800,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83cjVQM2NFeXJDcUIyeWlrc3N0RzF0NU1nVTVuVVVMRFhCZnJUYWJsR204Y2tWUzlYMERRdS1OSG0wSUNnVkJaWjA0VHpSeFV6c2RRQlNB?oc=5",
           "published": "Fri, 16 Oct 2026 04:30:33 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Canara Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
-          "published": "Wed, 14 Oct 2026 10:08:05 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -909,6 +917,29 @@
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Polycab",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Discontinuation of F&O contracts in POLYCAB",
+          "url": "https://tradingqna.com/t/discontinuation-of-f-o-contracts-in-polycab/198792",
+          "published": "Tue, 13 Oct 2026 05:21:14 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -1120,20 +1151,6 @@
     },
     {
       "name": "JSW Energy",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
