@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T19:54:41.591717+00:00",
+  "collected_at": "2026-10-17T20:21:30.367773+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 604,
+  "posts_collected": 603,
   "source_counts": {
-    "tradingqna": 34,
+    "tradingqna": 33,
     "valuepickr": 20,
     "indexed_reddit": 172,
     "youtube": 194,
     "facebook": 93,
     "instagram": 91,
-    "total_unique": 604
+    "total_unique": 603
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 9,
+      "mentions": 10,
       "investor_mentions": 4,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -77,6 +77,14 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "HDFC Bank Delivers In-Line Q2FY27 Results; Margins Contract | HDFC Bank Q2 Results - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwWWVPQ0dpZWJZc1ZXTk1VbGtNeENmWkg5M1J6S2Q4MzRzeVh3b2tsZDF2OWN3MERvY2U2YWJtckFPWUlWdThkeE1iQWRNVnBGR1Z1WGJR?oc=5",
+          "published": "Sat, 17 Oct 2026 14:03:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         },
         {
           "title": "NIFTY 22500 AGAIN? \ud83d\udca5 CRUDE OIL $110? | JIO IPO | HDFC BANK & AXIS RESULTS | IRAN WAR | GOLD SILVER - YouTube",
@@ -676,6 +684,29 @@
       "sufficient": false
     },
     {
+      "name": "Coal India",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Coal India\u0d2f\u0d41\u0d1f\u0d46 Bottom \u0d06\u0d2f\u0d4b..\u0d36\u0d4d\u0d30\u0d26\u0d4d\u0d27\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d02 \u0d08 \u0d32\u0d46\u0d35\u0d32\u0d41\u0d15\u0d7e ! | Nifty 50 | BSE | NSE | Stock Market | MyFin TV - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05czVubmNaNDBvOHdhcDZFNW5JaHpIQ1luLUJzUW5JekhTZjFST0FycnB2bUx1ZmR5N2Z0NjRwazk3QnJId1VyRkdqUDhRWW0ySGhQb253?oc=5",
+          "published": "Fri, 16 Oct 2026 04:37:47 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Paytm",
       "mentions": 1,
       "investor_mentions": 0,
@@ -1019,20 +1050,6 @@
     },
     {
       "name": "Trent",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Coal India",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
