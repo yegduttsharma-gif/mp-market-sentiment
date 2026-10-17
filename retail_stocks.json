@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T13:03:36.975217+00:00",
+  "collected_at": "2026-10-17T13:35:32.354674+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 611,
+  "posts_collected": 608,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
     "indexed_reddit": 176,
-    "youtube": 197,
+    "youtube": 195,
     "facebook": 92,
-    "instagram": 93,
-    "total_unique": 611
+    "instagram": 92,
+    "total_unique": 608
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 9,
+      "mentions": 10,
       "investor_mentions": 4,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -71,9 +71,17 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "HDFC Bank Stock: Hold, Sell Or Wait For A Recovery? Expert Decodes - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0d1J6Qk9GQ3VSdUs0cFhMNU5BeUdMSS0tbkZGQkd3RER1bXZLakNOMGtiZnFQNGZjc3pIQTkyeGhmUzFVeTJsa0xwV0VTN2ROQWdPTnNB?oc=5",
-          "published": "Mon, 12 Oct 2026 07:27:31 GMT",
+          "title": "HDFC Bank Q2 Results 2026: Capital Adequacy \u0914\u0930 Provision \u0915\u0940 \u092a\u0942\u0930\u0940 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81YzBON2duS0NSYk5tMGRKNkpSeUdaX0JpQmJvaGxEY0lQTVZrLXlYUWJMMnFjUnRWOHBlVnVkSWctLXBhM0Z6WEdsSGFLQTZVUmRtNzB3?oc=5",
+          "published": "Sat, 17 Oct 2026 11:38:50 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "LIVE: Q2 Banking Results Live Updates | Q2FY26 Bank Result Analysis Live | HDFC Bank Q2 Result - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQNW92SFI2SHhkeDVFUURhcXJuSVh6N0tUSWFFUV91d0drSnIyR2pUNXZSTnlESWJSOEVWZlBPeGVEMGxqSkJ4akdkaUo4dURycE0xTXZB?oc=5",
+          "published": "Sat, 17 Oct 2026 05:50:59 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -91,6 +99,22 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
           "published": "Tue, 13 Oct 2026 13:54:12 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -117,31 +141,15 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Reliance Industries",
-      "mentions": 7,
+      "mentions": 8,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -149,6 +157,14 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "Reliance Industries, PC Jeweller, Jio Financial Services, Yes Bank, IndiGo Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU2NpTEZoamZzbzhkWkFJcDVBSldKVE9KOFdJNnEzRWtZaGdMOW5LSlRmX01OYms3dXFhYXVJMlZfeVVhWDZJS0NSRk1ybVQyN0h0cUdR?oc=5",
+          "published": "Sat, 17 Oct 2026 10:07:17 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "Stock Market Live | Reliance Industries, Angel One, IDBI Bank, HDB Financial, Infibeam, SJVN Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/eesRDylwaio #StockMarketLive #sharemarketlive #livemarket #financegya - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
@@ -210,9 +226,9 @@
     },
     {
       "name": "Yes Bank",
-      "mentions": 6,
+      "mentions": 8,
       "investor_mentions": 2,
-      "commentary_mentions": 4,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -237,14 +253,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NNllfc1hlQjRKR3E3UWdTUWFVSjFNSWRwZGhNZ3pIZEk5TVVjTzFycmJKbjloRmR1LXpUR3pNY3VQZHhmTjFheTdSbGZmY1FlSmhrQ3JR?oc=5",
-          "published": "Fri, 16 Oct 2026 05:08:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
           "published": "Fri, 16 Oct 2026 08:15:18 GMT",
@@ -253,9 +261,33 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Anil Singhvi \u0915\u093e Stock Analysis! Tech Mahindra, Wipro, Yes Bank \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ka0xqanF2bGRJdlNwaTR2ckVsbGdkZHNOS250eWQyT09QT2w1Nm5qMk1YX2VrWEJNZHBYOGlhRU5WRVZBOVcwVlRQODhZVXdHVlJhNDZn?oc=5",
+          "published": "Fri, 16 Oct 2026 09:18:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, Jio Financial Services, Yes Bank, IndiGo Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU2NpTEZoamZzbzhkWkFJcDVBSldKVE9KOFdJNnEzRWtZaGdMOW5LSlRmX01OYms3dXFhYXVJMlZfeVVhWDZJS0NSRk1ybVQyN0h0cUdR?oc=5",
+          "published": "Sat, 17 Oct 2026 10:07:17 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "YES BANK \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! 20% \u0924\u0915 \u091f\u0942\u091f\u093e \u0936\u0947\u092f\u0930 | Yes Bank latest News #reels #reel #yesbanklatestnews #yesbanksharenewstoday #financegyani yes bank latest news,yes bank share latest news, yes bank share news today, yes bank share, yes ban - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQNkUxaERjeGhhMjJoVEJFcXBOX0ZsMFNsbjdjcXkzejBMaUIzVk9sWUQzaEhqcXROXzdvNlJOSEtuRVl6akJyWlBEZUZNVzZoVlhVMUNJOE5NUERsd0xPSFd3TXFHYkFBcDhlLXAtX0pVLXZ6bzlXdUJoN2Z3RW9RbnJrdDliREdlTnFDRE5UN1Ewci0wa1RWZXE1bEZTSkl1MHhQdXlKb1ljZEhqbVlUOG9aN1hkTVFWcEh5NzJlNVZlM0VIMmRmVnRkbHhuTjlBT003R1VBTXB1MXZxTUVLcUFvRE04Z3JvTGtRZkVjUjQ3NXV4dTM1RXJpUzRQVUMzbXBLQllSaERRSWxvT2FRV3RHQzhjNEZSclZCdjhwZTVLbHdkMjg5ZHRpelNMZ2sxaG5WRnQtMThlMHJ3UDB4dGFqOUwyOE85YldJZkJudXFxUlZUR05xZEpfQVV6RmZickd3S0lub3BlZGpMdl9udlViMk1sSEx0d21yc3hqNFhubHNlN0JKQTR2WE9xeW5Pd1BTUVdYYlJRTFN2bGtmOFNENk0xcy1QOW9veEJsYlF3NUpGNUJUcU05aUVydWYyc2k4eEFpMW9qYW9ROHZoQ1N1dHJ0dw?oc=5",
           "published": "Fri, 16 Oct 2026 09:30:09 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
+          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -429,45 +461,6 @@
       "sufficient": false
     },
     {
-      "name": "BHEL",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Indian Stock Market Today | NIFTY Falls 99 Points | BHEL Profit More Than Doubles | 14 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FYmE0UDVhMEczSmhERk1GRkFZamktelpOTmt0dW5sV2FnTGF5OVhKdlNRVWlVVkJacHRXemJnWEV2bndZME9yMnM1dzdHdzFaR29FdERB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:14:19 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
-          "published": "Thu, 15 Oct 2026 11:59:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
-          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "RVNL",
       "mentions": 3,
       "investor_mentions": 0,
@@ -499,6 +492,45 @@
           "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
           "published": "Sat, 17 Oct 2026 08:30:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
+      "mentions": 3,
+      "investor_mentions": 1,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
+          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, Jio Financial Services, Yes Bank, IndiGo Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU2NpTEZoamZzbzhkWkFJcDVBSldKVE9KOFdJNnEzRWtZaGdMOW5LSlRmX01OYms3dXFhYXVJMlZfeVVhWDZJS0NSRk1ybVQyN0h0cUdR?oc=5",
+          "published": "Sat, 17 Oct 2026 10:07:17 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
+          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -546,29 +578,29 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
+      "name": "BHEL",
       "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Jio Financial is sitting near its 52-week low and everyone's suddenly talking about insurance. Is the Allianz JV a big deal or just a nice headline? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFIwSUNXRmVlNjY4ZHVOdjdOZDNpaVJkYlhXNGxVMGJ6ZjVmOTVMNTBhZGUwNndmUWtlZ0Q0a0RjcTlJaEZxdUJvbVVidG85UkozLUczcGdLLTIwOHNVc1ZJVEdfOUF6TzU5VWcxM0E4SHlYRFo4QUJwMFh0VTVhalh1MURTeHhjZTJQbnJVUG9ITnNvTXhPN0Q1NGRvQk1KRjNqdEx3LU9ydzRy?oc=5",
-          "published": "Mon, 12 Oct 2026 09:15:32 GMT",
-          "subreddit": "indexed_reddit",
+          "title": "Reliance Industries, TCS, Tata Technologies, Kotak Mahindra Bank, BHEL, HAL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
+          "published": "Thu, 15 Oct 2026 11:59:39 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
+          "evidence_type": "market_commentary"
         },
         {
-          "title": "IRFC Q2 Results\ud83d\udd34 Jio Financial Q2 Results\ud83d\udd34 Angel One Q2 Results\ud83d\udd34 Wipro Q2 Results\ud83d\udd34 Polycab Q2 Result - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
-          "published": "Thu, 15 Oct 2026 17:29:52 GMT",
+          "title": "Stock Alert \ud83d\ude31 Q2 Results Out \ud83d\udd25Groww \u2022 Bhel \u2022 HDB Fin \u2022 Tata Tech \u2022 Elecon \ud83e\udd14 Breaking News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QcDNXQXJFam1LdGpWSDM2SzVRRTZOVGRxR1FRc1VLcGlEcGpiR0wyLXVra0pxakh4UkE0U01HSmpJT1dxSGdWMmdsNHd0cFlEbElQU3FB?oc=5",
+          "published": "Wed, 14 Oct 2026 11:44:03 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -601,6 +633,37 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
           "published": "Tue, 13 Oct 2026 15:24:42 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Axis Bank",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Axis Bank Q2 Results: Net Profit Rises 37%, Provisions Fall By Over 50% To Rs 1,694 Crore - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rdHNuZGpJekhqazd4S1JyT2o0alllMERZdUpjQ3BnMlNkY1k2aFlWTXZ6b1BPazdlazloRmV2NWtLamhCMTFrclhoTDZmOVF2M1FycFF3?oc=5",
+          "published": "Sat, 17 Oct 2026 08:58:28 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -701,6 +764,29 @@
       "sufficient": false
     },
     {
+      "name": "ICICI Bank",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "ICICI Bank Results LIVE: Provision \u092e\u0947\u0902 \u0915\u092e\u0940, CAR 16.68% \u092a\u0930 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yYmZkVDVleFJpVnc5T0hQV0pTNTJrMDNVam53TEZCSHBTWWdUNURYc1QwNlNjR3J1ekNUUUVDNS1NWHZSUllTbzRHR3FBVHlwaEZNMTRn?oc=5",
+          "published": "Sat, 17 Oct 2026 11:48:08 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
@@ -770,29 +856,6 @@
       "sufficient": false
     },
     {
-      "name": "Punjab National Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Q2 Results LIVE: Urban Company, Punjab National Bank, DLF Live |Q2 Earnings Reaction & Analysis LIVE - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83cjVQM2NFeXJDcUIyeWlrc3N0RzF0NU1nVTVuVVVMRFhCZnJUYWJsR204Y2tWUzlYMERRdS1OSG0wSUNnVkJaWjA0VHpSeFV6c2RRQlNB?oc=5",
-          "published": "Fri, 16 Oct 2026 04:30:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Canara Bank",
       "mentions": 1,
       "investor_mentions": 0,
@@ -809,29 +872,6 @@
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
           "published": "Wed, 14 Oct 2026 10:08:05 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Axis Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -905,20 +945,6 @@
           "evidence_type": "market_commentary"
         }
       ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
       "sufficient": false
     },
     {
@@ -1161,6 +1187,20 @@
     },
     {
       "name": "Adani Ports",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Punjab National Bank",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
