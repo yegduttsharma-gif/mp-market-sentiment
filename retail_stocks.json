@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T22:20:38.687448+00:00",
+  "collected_at": "2026-10-18T22:45:13.655873+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -17,18 +17,19 @@
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
-    "HTTPError: HTTP Error 429: Too Many Requests"
+    "HTTPError: HTTP Error 429: Too Many Requests",
+    "Indexed search URLError"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 602,
+  "posts_collected": 599,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 17,
-    "indexed_reddit": 170,
+    "indexed_reddit": 169,
     "youtube": 196,
-    "facebook": 94,
-    "instagram": 92,
-    "total_unique": 602
+    "facebook": 93,
+    "instagram": 91,
+    "total_unique": 599
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,7 +38,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 13
+      "recent_items": 12
     },
     "valuepickr_top": {
       "status": "ok",
@@ -103,6 +104,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
+          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
           "published": "Mon, 12 Oct 2026 13:00:16 GMT",
@@ -115,14 +124,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
           "published": "Mon, 12 Oct 2026 15:00:08 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
-          "published": "Tue, 13 Oct 2026 13:54:12 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -146,6 +147,14 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
           "published": "Thu, 15 Oct 2026 05:08:49 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
+          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -178,14 +187,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mZUp0dGhZdXc4LU9reHpmUU9FdXNDTGM0MUk2c1pjaHNDcHF1MXNERU9sU25VTWEyQkZvekc3Mm5uc2dOdDl4MVFfaVBwUGl3SUJ1UDNB?oc=5",
           "published": "Sun, 18 Oct 2026 12:30:19 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
-          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -256,61 +257,6 @@
       "sufficient": false
     },
     {
-      "name": "Infosys",
-      "mentions": 5,
-      "investor_mentions": 0,
-      "commentary_mentions": 5,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udcc8 NIFTY 50 TODAY: BIGGEST GAINER \ud83d\udd25 Indian stock markets closed higher on October 16, 2026! Nifty 50 gained 0.65% to close at 23,146.15. \ud83d\ude80 Top Nifty 50 Gainers: - \ud83e\udd47 Tech Mahindra: +8.48% - \ud83e\udd48 TCS: +4.89% - \ud83e\udd49 Infosys: +4.61% IT stocks led the rally! \ud83d\udcca - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNalpwSTBRNW1NNVNJaEhIQWc3djl3bV9NMVNFQWZuallDcDRwVS01V0pNYnlGdzBnT0t2aWpVNXlTcXpLbGQxQWlUQkRkUE81ODhsR0hIRVVQdG00Q3UtenU2Q29FTDJrVUFXTFctNGZxSHBEaE5URER2UmxwNEVCU19HWVNTNHVBcFZQNl8xYWtkNDhKZUhsdThIdGpKWllTUUJObUZldHhmYnoxd2M1MXFPMXFISWlMeHVfZTUwWDdielRTdVFpdVRIWno2SW1pZDBEVl9ZaVBvUks2bk1icw?oc=5",
-          "published": "Fri, 16 Oct 2026 12:04:42 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
-          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
-          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
-          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Tata Motors",
       "mentions": 4,
       "investor_mentions": 0,
@@ -339,17 +285,64 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
+          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
           "published": "Mon, 12 Oct 2026 03:24:18 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
+          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         },
         {
-          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
-          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
+          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
+          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
+          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -409,18 +402,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
-          "published": "Mon, 12 Oct 2026 15:00:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
           "published": "Sun, 18 Oct 2026 11:59:00 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
+          "published": "Mon, 12 Oct 2026 15:00:08 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -545,6 +538,37 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoc1ZQTU5DSFRCZ1FpdVVPMXpvazdoRGQwbUhtSkp2clhfanEwX3pHWkVyd19lVWV3eEMzVXRudHRTMmt1eFdDNlpyVFl3VDNYMXl2LWh3?oc=5",
           "published": "Thu, 15 Oct 2026 11:59:39 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Persistent Systems",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IT Stocks \u092e\u0947\u0902 Tech Mahindra \u0938\u092c\u0938\u0947 \u0926\u092e\u0926\u093e\u0930? Wipro \u0914\u0930 Persistent Systems \u0915\u093e Result Review - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRaUsweV8tYWRwVGxKQXVKWndlWlJuUUNCU0xGUWpVdFdHbkdfUmdBSmxwMDkxUFJ3OWM1R1BVYjVfWW1sazlQMlJleDFzUGIzMVMwRk93?oc=5",
+          "published": "Fri, 16 Oct 2026 03:22:14 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TCS, HCL Tech, Coforge share 3 \u0938\u093e\u0932 \u0915\u0947 \u0932\u093f\u090f \u0915\u093e\u092b\u0940? #reels #reel #reelsviral #reelsvideo #itstocks tcs share latest news, hcl tech share latest news, coforge share latest news, persistent systems share latest news, tcs share price analysis, hcl tech share an - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNLXczWmFrYWlkcU5SZEpkT3RRZW1lRm9mOUpqQlNrbUJoR3NUWVZvdkJSakxFZzV1X2hPSWg4cGZKVkFRT0RzX0RjYU5iTjhjWllfSlhRLWlKVWRZYzZXbU1HOUY3M2RHSTZTTG95S3hjSmZmT3JnR3hPaVpOWmd6ZUhGZHVlbGlLcnBkT3RIUkJHR0xfSExCaHlkN0ttLU1OQzV6QzUzSFE2Mlp4QmhrdkFIbThRcm1ZTU9NaG56aEdJcEE3cVRmZ1B4RnZVSmlQY0Z1eWVFRHpWVEtmOXF3UmpuMVdseFJqbVJuUnplWmtpNFdmUDF5anE1NWVUd2VqWXU5ZzhyblR0WWRLa0V1YmlyT0Y5aG5YQkJoRGF3YWQyRy1CWHJFWll5X0NObHNacWFVS3cyZl8yZUlFdkt3VDJJeVpYSUxYSWoxbkxPZXlsX0t0aDByNndLWlh4c0pf?oc=5",
+          "published": "Thu, 15 Oct 2026 07:00:08 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -805,29 +829,6 @@
           "title": "Stock Market Live | Hero Motors, Tata Elxsi, BEL, Railtel, Hyundai motors share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BX0pZTnVUNEMtYWlUdUpGbGNLVlktT29yU05xelphWFNENU9ycmJtTENvYzAwdGVqT0xMVlF1bVFVSUpBdUdnczhuNWh2QmxrN0dGRzVR?oc=5",
           "published": "Wed, 14 Oct 2026 19:28:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Persistent Systems",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IT Stocks \u092e\u0947\u0902 Tech Mahindra \u0938\u092c\u0938\u0947 \u0926\u092e\u0926\u093e\u0930? Wipro \u0914\u0930 Persistent Systems \u0915\u093e Result Review - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRaUsweV8tYWRwVGxKQXVKWndlWlJuUUNCU0xGUWpVdFdHbkdfUmdBSmxwMDkxUFJ3OWM1R1BVYjVfWW1sazlQMlJleDFzUGIzMVMwRk93?oc=5",
-          "published": "Fri, 16 Oct 2026 03:22:14 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
