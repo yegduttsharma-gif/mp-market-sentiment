@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T21:02:17.077398+00:00",
+  "collected_at": "2026-10-18T21:27:43.300041+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 598,
+  "posts_collected": 587,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 17,
-    "indexed_reddit": 167,
-    "youtube": 195,
+    "indexed_reddit": 155,
+    "youtube": 196,
     "instagram": 99,
     "facebook": 87,
-    "total_unique": 598
+    "total_unique": 587
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -257,9 +257,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 4,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -295,6 +295,14 @@
           "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
           "published": "Thu, 15 Oct 2026 09:53:29 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TATA Motors share news today,Buy ?,TMCV or TMPV kya karen ?,tata motor CV Share Analysis,Target 2030 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhTkF0TnJpbHh2TlNlc1d4Vzk1dVZvY1oxNUZYZzZDZ0VramlWbWU1V3MyYXUyMWh6ZTREbFA4NVJ0OUpyemE5UnRFZm1IT1VHMlk0S2tn?oc=5",
+          "published": "Tue, 13 Oct 2026 17:40:06 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
