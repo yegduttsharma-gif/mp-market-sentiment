@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T02:50:38.932068+00:00",
+  "collected_at": "2026-10-18T03:12:42.329328+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 600,
+  "posts_collected": 601,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 20,
-    "indexed_reddit": 170,
+    "indexed_reddit": 171,
     "youtube": 194,
     "facebook": 92,
     "instagram": 91,
-    "total_unique": 600
+    "total_unique": 601
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -50,6 +50,109 @@
   },
   "status": "available",
   "stocks": [
+    {
+      "name": "Tata Motors",
+      "mentions": 11,
+      "investor_mentions": 0,
+      "commentary_mentions": 11,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Why Tata motors is falling? Should you buy Tata motors passenger vehicle or commercial vehicle? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
+          "published": "Mon, 12 Oct 2026 12:28:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Price: Tata Motors \u0915\u0947 \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, \u0936\u0949\u0930\u094d\u091f \u0914\u0930 \u0932\u0949\u0928\u094d\u0917 \u091f\u0930\u094d\u092e \u0928\u093f\u0935\u0947\u0936\u0915 \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TNE5WY1g5dExQN2VqbFpFRDhGa1B2UzB5cTllN1NoYWFqdEZOaW5fSnZkbUF4MGs0cnJVOFZ5RWpXemZhbXRhWXVLdGVwdzFSVlhsckJB?oc=5",
+          "published": "Sat, 17 Oct 2026 12:30:38 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TMCV Share Price: \u0906\u092a\u0928\u0947 \u092d\u0940 \u0916\u0930\u0940\u0926\u093e \u0939\u0948 Tata Motors CV, \u0924\u094b \u091a\u092e\u0915 \u091c\u093e\u090f\u0917\u0940 \u0915\u093f\u0938\u094d\u092e\u0924 | Tata Motors PV Share Price - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MNGZkZDlJZ05OWmJQT1MydGxQSG9pdjFxQ0RtcVlhcnBpZEZraWVnYlVUUXVxalNseFpIS091VHlOeW5BRGtTN2hOd285UWpVU2d4M01B?oc=5",
+          "published": "Sun, 11 Oct 2026 05:55:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
+          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
+          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TMCV Share Price: Week \u0939\u0948 Tata Motors CV \u0915\u093e \u091a\u093e\u0930\u094d\u091f, \u0905\u092c \u0910\u0938\u0947 \u092e\u0947\u0902 \u0906\u092a\u0915\u094b \u0915\u094d\u092f\u093e \u0930\u093e\u092f \u0930\u0916\u0928\u0940 \u0939\u0948? | Business News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kc3diSll1RDAzX2xBMkN3aUtmNmM3dzRCcmFBN1pUZUFKMnVySFo3ZU9PbXFHYzJEUzd6QkI1MG9STHFtcGlGNEhRVnNjUnU5blNsOUx3?oc=5",
+          "published": "Mon, 12 Oct 2026 10:20:32 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
+          "published": "Mon, 12 Oct 2026 03:24:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TATA Motors share news today,Buy ?,TMCV or TMPV kya karen ?,tata motor CV Share Analysis,Target 2030 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhTkF0TnJpbHh2TlNlc1d4Vzk1dVZvY1oxNUZYZzZDZ0VramlWbWU1V3MyYXUyMWh6ZTREbFA4NVJ0OUpyemE5UnRFZm1IT1VHMlk0S2tn?oc=5",
+          "published": "Tue, 13 Oct 2026 17:40:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share What\u2019s New Today | Tata Motors Share Latest News Today | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yTHVrbi1CR1VVZEg4UWVsY081NV9USGhOU0d5aUZQdDBNUEg5NnBibGcwZjVGaThka09DdG14S0NjbDJBclFrZDhiN3ZsLXFCOFlzOTln?oc=5",
+          "published": "Wed, 14 Oct 2026 11:28:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Latest News Today | Tata Motors September Month Selling Report | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54b3FkeHE1U21wOWZ1YmhOaGxReFcxaXRRVTkyMkljQVhZT05rZm81MzduNlBBZUZlLXhuRFV6WGpHZ1h1XzJmTFRyeTYxWFI1VkhkLUJB?oc=5",
+          "published": "Fri, 16 Oct 2026 11:34:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Monday Target 12/10/2026 | TMPV and TMCV | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1taVU0VlFTUkVzdUpkWGtGeGlhNWVENlV4ajMxbG5jUloyQlJKTEtHVTVNb1k0TzVxbFYxdHdCb2o1eTZMTE5qOVI4eUJHT2Q5eUNQa1F3?oc=5",
+          "published": "Sun, 11 Oct 2026 09:39:59 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
     {
       "name": "HDFC Bank",
       "mentions": 9,
@@ -182,17 +285,17 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
+          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
+          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
-          "published": "Mon, 12 Oct 2026 13:00:16 GMT",
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -210,9 +313,9 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 6,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -256,69 +359,6 @@
           "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
           "published": "Tue, 13 Oct 2026 14:30:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
-          "published": "Sat, 17 Oct 2026 08:30:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Motors",
-      "mentions": 5,
-      "investor_mentions": 0,
-      "commentary_mentions": 5,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Why Tata motors is falling? Should you buy Tata motors passenger vehicle or commercial vehicle? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
-          "published": "Mon, 12 Oct 2026 12:28:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors CV Share Price: \u0906\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092e\u092f \u092e\u0947\u0902 \u0915\u0948\u0938\u093e \u0932\u0917 \u0930\u0939\u093e \u0939\u0948 TMCV \u0915\u093e \u0936\u0947\u092f\u0930, Hold \u0915\u0930\u0947\u0902 \u092f\u093e Exit? | ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWE9wZGpQZGc0eXdFTnNqY0dvamxLeTNwaG9veUpRNUpFUThmWkw2QUotRGphVk1pclZYVGlscG9OTlRyWGhhZUZlQW1IOWlNc0YtbUd3?oc=5",
-          "published": "Sun, 11 Oct 2026 10:15:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TMCV Share Price: Week \u0939\u0948 Tata Motors CV \u0915\u093e \u091a\u093e\u0930\u094d\u091f, \u0905\u092c \u0910\u0938\u0947 \u092e\u0947\u0902 \u0906\u092a\u0915\u094b \u0915\u094d\u092f\u093e \u0930\u093e\u092f \u0930\u0916\u0928\u0940 \u0939\u0948? | Business News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kc3diSll1RDAzX2xBMkN3aUtmNmM3dzRCcmFBN1pUZUFKMnVySFo3ZU9PbXFHYzJEUzd6QkI1MG9STHFtcGlGNEhRVnNjUnU5blNsOUx3?oc=5",
-          "published": "Mon, 12 Oct 2026 10:20:32 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Key Stocks In Focus: Avenue Supermarts, Tata Motors CV, Poonawalla Fincorp, Canara HSBC Life - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oY2dvZ2pBY1lSa2VVNjVHZmVPSGw2dVh5ajZxV3VkOWNPdnlGenJ1aWVLZnVxNEppc3ktZlRCbUFrbHRDNG0yNHo1VzM1clJKVkR6MGxn?oc=5",
-          "published": "Mon, 12 Oct 2026 03:24:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
-          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -460,45 +500,6 @@
       "sufficient": false
     },
     {
-      "name": "RVNL",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, RVNL, IRFC, VedAluminium, GROWW, GMDC, Cupid, Tech Mahindra, HFCL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qNjhfTmM2MHZGODdFcjZKdVZvTVdhMldSSHVoLXVYdkRvT2thU3dCYlJla0VseXZWWGctalFSbjFiajRmUFA3eVRManlKSXNKNFUtRnVR?oc=5",
-          "published": "Fri, 16 Oct 2026 07:31:30 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
-          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
-          "published": "Sat, 17 Oct 2026 08:30:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IRFC",
       "mentions": 3,
       "investor_mentions": 0,
@@ -530,6 +531,37 @@
           "title": "HDFC Bk, Vedanta, Suzlon, Aequs, Cupid, GROWW, Paytm, IRFC, JWL,Swiggy \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR25RX1NHbVdkZGdTMUliNVpRNVktbzMzTEpsRUNCRTU5U00tNl9uYnpLekREenBvOWdGWW9hRHY0Qkh6cWxFOHhkdmFxZ0xQX2tLalB3?oc=5",
           "published": "Tue, 13 Oct 2026 14:30:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "RVNL",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, RVNL, IRFC, VedAluminium, GROWW, GMDC, Cupid, Tech Mahindra, HFCL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qNjhfTmM2MHZGODdFcjZKdVZvTVdhMldSSHVoLXVYdkRvT2thU3dCYlJla0VseXZWWGctalFSbjFiajRmUFA3eVRManlKSXNKNFUtRnVR?oc=5",
+          "published": "Fri, 16 Oct 2026 07:31:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, TCS, RVNL, Bandhan Bank, Axis Bank, South Indian Bank, PNB Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gc0Z6c0RwX1hGdkZXbXZDMzd4SUwyVXR1QlFqa2hiNXdpUGJTMjBJSzJoelRQMHNfS2FJaUxFbkJyT3h1alJXRWNiUEhsZ0pxQXhOS0RB?oc=5",
+          "published": "Sun, 11 Oct 2026 14:30:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
