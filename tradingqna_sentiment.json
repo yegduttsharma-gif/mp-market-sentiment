@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T00:07:08.505562+00:00",
+  "collected_at": "2026-10-18T00:49:17.603651+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -25,8 +25,8 @@
         "topics": 31
       },
       "reliance": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "hdfc bank": {
         "status": "ok",
@@ -37,8 +37,8 @@
         "topics": 50
       },
       "tcs": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -56,27 +56,18 @@
   },
   "assets": {
     "NIFTY 50": {
-      "bullish": 1,
-      "bearish": 1,
-      "neutral": 80,
-      "directional": 2,
-      "independent_authors": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 66,
+      "directional": 0,
+      "independent_authors": 0,
       "conflicting_authors_excluded": 0,
-      "evidence": [
-        {
-          "url": "https://www.tradingqna.com/t/198401/4",
-          "sentiment": "bearish"
-        },
-        {
-          "url": "https://www.tradingqna.com/t/198401/13",
-          "sentiment": "bullish"
-        }
-      ]
+      "evidence": []
     },
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 7,
+      "neutral": 6,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -101,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 184,
+  "posts_checked": 167,
   "status": "collected"
 }
