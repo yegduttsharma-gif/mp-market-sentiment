@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-18T04:13:09.476720+00:00",
+  "collected_at": "2026-10-18T04:46:17.869772+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
     "IndianStockMarket": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "IndianStreetBets": {
       "status": "unavailable",
@@ -25,7 +25,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 13
+      "recent": 14
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,37 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 43,
+  "unique_titles": 143,
   "indices": {
     "NIFTY 50": {
-      "bullish": 0,
+      "bullish": 1,
       "bearish": 0,
-      "neutral": 3,
-      "directional": 0,
+      "neutral": 5,
+      "directional": 1,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Week ahead (19\u201323 Oct): Jio Platforms \u20b930,213 cr IPO, 7 Nifty 50 results, key levels",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x8u4qq/week_ahead_1923_oct_jio_platforms_30213_cr_ipo_7/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-18T04:34:20+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Is putting 50% of my investments into a Nifty 50 index fund a good idea?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x7od1a/is_putting_50_of_my_investments_into_a_nifty_50/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-16T18:41:34+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "nifty bullish enfulfing on wtf but good and sharp dip can come we are heading towards 23650",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x7ef0a/nifty_bullish_enfulfing_on_wtf_but_good_and_sharp/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-16T12:05:50+00:00",
+          "sentiment": "bullish"
+        },
         {
           "title": "NIFTY Looks Bullish on the Surface, But Is a Bearish Reversal Brewing?",
           "url": "https://tradingqna.com/t/nifty-looks-bullish-on-the-surface-but-is-a-bearish-reversal-brewing/198849",
@@ -89,11 +110,19 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Was the last week bad for most SENSEX technical traders?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x816o0/was_the_last_week_bad_for_most_sensex_technical/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-17T04:38:09+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     }
   }
 }
