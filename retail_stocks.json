@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T10:35:18.606503+00:00",
+  "collected_at": "2026-10-18T11:02:29.085561+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 605,
+  "posts_collected": 602,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 19,
-    "indexed_reddit": 171,
+    "indexed_reddit": 170,
     "youtube": 195,
     "facebook": 92,
-    "instagram": 95,
-    "total_unique": 605
+    "instagram": 93,
+    "total_unique": 602
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -111,6 +111,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
+          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QNmNjdTQyMXhueFctNFUyVWYxY1BGOE9VNWUyckV1UnZPSER5LUV2THZETnB1cTRYRjVaRnRiS1pXU0NfcTNrTE5ZSTFCcXRHNVhMTU9B?oc=5",
           "published": "Mon, 12 Oct 2026 13:00:16 GMT",
@@ -125,23 +133,15 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFCBANK invested amount showing N/A in Zerodha - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazcyTkpUbTV0QnhlSS1wSjJFS082X0JBSlVET3hRVzgzZUxDVjdUbXhTTEU0UVJmdERIZktYM1FFTFQzWTNlenp1dVhtbmdaaVFCNnZQMEgzLWE4ZllVSXpVc2Nyc2NIUjNwOUEtWFZlajViYnNOS2pvSWl0SHQ1Qk5CWERNMmJrMEFDaXF4ckQ0NkZYOENzQnhoU0xKVkgzWWxHV1hoajFSQlk?oc=5",
-          "published": "Sun, 11 Oct 2026 13:38:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Reliance Industries",
-      "mentions": 5,
+      "mentions": 6,
       "investor_mentions": 0,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -154,6 +154,14 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV09tUEZ6T21DMS1BYTQ0LUR3bE5YTGVVQktJNDhQS3FKVzN0eDFEa0tvV21DLWNFMk1rOE12ejlGc3p1a3RnSG03ZzJpemdXUjExY0xscWx3eHF4NTFrdk52RXNjUTgtZFRVYmk5UmlWdEwyeWl2QXppZ0h4LTZlclBpejF5TkkteEdFRXV2UGVNSW9Pcl9IRFhYMDdTLUlHNTJfNnVQQ3lRMnBTcVF6a3phdXctN0I3djg2Z2phSVhfNlpYaXAwZEdMWTBOSVhqSmZQLTFLdTNUR1JubTFN?oc=5",
           "published": "Thu, 15 Oct 2026 05:08:49 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
+          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -185,61 +193,6 @@
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, Hero MotoCorp, Bharti Airtel, MCX Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTmprYlhSaF9DUHYxQzFPNnVqNUt1QmN1ck9qSl80dU9WSHpGUjNadldrdG1SZnQyeXJJY0F0R2pIVmhfSHliS00tNG9WY08ydllBV1hB?oc=5",
           "published": "Mon, 12 Oct 2026 11:45:24 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Yes Bank",
-      "mentions": 5,
-      "investor_mentions": 1,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
-          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
-          "published": "Fri, 16 Oct 2026 08:15:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
-          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udea8 YES BANK SHARES CRASH UP TO 20% AFTER SUPREME COURT RULING The Supreme Court upheld the Bombay High Court\u2019s decision declaring YES BANK\u2019s \u20b98,415 crore AT-1 bond write-off illegal. Key Highlights: \ud83d\udd39 \u20b98,415 crore worth of AT-1 bond - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zVW5XUlkxMXFvLXFFc2c5bHBJQjJ0UF9vMk1WMDc4QlRBNExweEVXUEtFc2p3a3JfdWU1M1BmVjFyWTRoelZ5ekFfLVVFWERvUmc?oc=5",
-          "published": "Thu, 15 Oct 2026 13:00:40 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IREDA SHARE \ud83d\udca5 BEL | IRCON | TATA STEEL | YES BANK Q2 | DIXON | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rX1FGVE1CdGRiSEZHNERJeFJGWnpJU1VxZTg1OGZ2Nnd3eEpHV21EVkxhWEJsZklySnR0UDlGeXI0RkRMQURrUFBuc09vMEJ0TEEwaHBB?oc=5",
-          "published": "Sat, 17 Oct 2026 14:51:34 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -351,9 +304,9 @@
     },
     {
       "name": "Infosys",
-      "mentions": 3,
+      "mentions": 4,
       "investor_mentions": 0,
-      "commentary_mentions": 3,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -378,9 +331,64 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "\ud83d\udcca India\u2019s Corporate Giants: Who Rules the Market? \ud83c\uddee\ud83c\uddf3 From Reliance Industries to Infosys, discover India\u2019s Top 10 Most Valuable Listed Companies by Market Capitalisation! \ud83d\udcc8 These industry leaders represent the scale, strength, and diversity of India\u2019s corpo - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56bzdpdzdBd3dOTW94dGZ0NDN5SzY0R2swVWVWVXJCMU1oV3hJUW1NaG8tUGc1TjFVTXpCNGlLc3NwdUFULTdkcHM1TUp0d1dONVE?oc=5",
+          "published": "Sat, 17 Oct 2026 06:44:29 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
           "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Yes Bank",
+      "mentions": 4,
+      "investor_mentions": 1,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
+          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
+          "published": "Fri, 16 Oct 2026 08:15:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
+          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IREDA SHARE \ud83d\udca5 BEL | IRCON | TATA STEEL | YES BANK Q2 | DIXON | STOCK MARKET INDIA - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rX1FGVE1CdGRiSEZHNERJeFJGWnpJU1VxZTg1OGZ2Nnd3eEpHV21EVkxhWEJsZklySnR0UDlGeXI0RkRMQURrUFBuc09vMEJ0TEEwaHBB?oc=5",
+          "published": "Sat, 17 Oct 2026 14:51:34 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -660,6 +668,29 @@
           "title": "IREDA SHARE \ud83d\udca5 BEL | IRCON | TATA STEEL | YES BANK Q2 | DIXON | STOCK MARKET INDIA - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rX1FGVE1CdGRiSEZHNERJeFJGWnpJU1VxZTg1OGZ2Nnd3eEpHV21EVkxhWEJsZklySnR0UDlGeXI0RkRMQURrUFBuc09vMEJ0TEEwaHBB?oc=5",
           "published": "Sat, 17 Oct 2026 14:51:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Waaree Energies",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Waaree Energies Stock Analysis | Expert Advises Hold, Highlights Key Support Levels: Here's Why - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAya3d5bTlFSXRBWU14STJ0Tk5PT0xwZFdYeExyd1FXenI3cTNfTzAzUk9MQ0h4b3FDZnE3ZmwzMzFKU0lWUG1qRE9TeTdZbFJSMHFvbEh3?oc=5",
+          "published": "Mon, 12 Oct 2026 07:44:17 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -1006,20 +1037,6 @@
     },
     {
       "name": "Zomato / Eternal",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Waaree Energies",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
