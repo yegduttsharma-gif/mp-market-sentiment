@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-19T00:13:29.857145+00:00",
+  "collected_at": "2026-10-19T01:04:49.178016+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 598,
+  "posts_collected": 600,
   "source_counts": {
     "tradingqna": 33,
     "valuepickr": 17,
-    "indexed_reddit": 168,
+    "indexed_reddit": 170,
     "youtube": 196,
     "facebook": 93,
     "instagram": 91,
-    "total_unique": 598
+    "total_unique": 600
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -351,9 +351,9 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 3,
+      "mentions": 4,
       "investor_mentions": 0,
-      "commentary_mentions": 3,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -361,6 +361,14 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "\u20b952 \u0930\u0942\u092a\u090f \u091c\u093e\u092f\u0947\u0917\u093e Suzlon Share? #reels #reel #reelsviral #reelsvideo #suzlonenergylatestnews suzlon share latest news, suzlon share news today, suzlon share analysis, suzlon share price targe, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOLU5pOE9rT1F4VWE0NkhNSFhSZE5oWE5pT0VXLVdweFZnTm1KeFRUYi1DVkJvLTgwZXRnNUZUNWVZdFltS21xZUlJVVhXYzhYeWd4Wlo5bnZHRTE4bWdKVUpQVkVTVjdCY0lhajJHd3dVaGVneGhRQWROQno3T2ZpTkpNc0NVX3RHMlJ3bW5ScVIydG90REVNT0xMOVg2TUZJcTFEcnhpMXpwZ0lSMFB3cU1pMUk2ZDJxa3dNS0Z3WmZBWW5CNl85NXdtNmViTFpvT0JfZk5WaVNzNHV5a2ZZX3JGTjBRbEE3LWdKem1vUVpfemZ6WlYwdWQyV0ZTMlVDangyS05Td0NlUUR1U1VrLWlKUXloUy1id24yWVRjekRtUlNvOUI1UmN3WGJFeHFlQnNqczRMNVBYT0VlQURka1RvSkx4bzRjenZr?oc=5",
+          "published": "Sun, 18 Oct 2026 15:30:15 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
