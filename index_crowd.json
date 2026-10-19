@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-19T06:03:28.105826+00:00",
+  "collected_at": "2026-10-19T06:50:59.379662+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 140,
+  "unique_titles": 227,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 7,
+      "neutral": 9,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -90,6 +90,20 @@
           "sentiment": "neutral"
         },
         {
+          "title": "Nifty 19th Oct",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x91y1e/nifty_19th_oct/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-18T12:24:37+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Jitna goro ka AI pitega utna Nifty Daudega",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x6fxi3/jitna_goro_ka_ai_pitega_utna_nifty_daudega/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-15T08:13:18+00:00",
+          "sentiment": "neutral"
+        },
+        {
           "title": "NIFTY Looks Bullish on the Surface, But Is a Bearish Reversal Brewing?",
           "url": "https://tradingqna.com/t/nifty-looks-bullish-on-the-surface-but-is-a-bearish-reversal-brewing/198849",
           "source": "tradingqna",
@@ -117,11 +131,33 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Sensex jumped 1,500 points on Thursday but more stocks fell than rose. How does that even happen?",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x86297/sensex_jumped_1500_points_on_thursday_but_more/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-17T09:35:56+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Was the last week bad for most SENSEX technical traders?",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x815ee/was_the_last_week_bad_for_most_sensex_technical/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-17T04:36:02+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Ye candle kya kehlati hai?(SENSEX 5 min candle)",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x6i7z5/ye_candle_kya_kehlati_haisensex_5_min_candle/",
+          "source": "IndianStreetBets",
+          "published": "2026-10-15T10:35:34+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     }
   }
 }
