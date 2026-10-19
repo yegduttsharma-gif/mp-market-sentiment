@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-19T10:53:25.772201+00:00",
+  "collected_at": "2026-10-19T11:29:37.731233+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 595,
+  "posts_collected": 591,
   "source_counts": {
-    "tradingqna": 35,
-    "valuepickr": 16,
-    "indexed_reddit": 160,
+    "tradingqna": 36,
+    "valuepickr": 17,
+    "indexed_reddit": 156,
     "youtube": 197,
-    "instagram": 100,
-    "facebook": 87,
-    "total_unique": 595
+    "facebook": 94,
+    "instagram": 91,
+    "total_unique": 591
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,7 +37,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 12
+      "recent_items": 13
     },
     "valuepickr_top": {
       "status": "ok",
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 9,
+      "mentions": 10,
       "investor_mentions": 2,
-      "commentary_mentions": 7,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -79,6 +79,22 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83c\uddee\ud83c\uddf3\ud83d\udcc8 TOP 10 SHARES IN THE INDIAN STOCK MARKET! \ud83d\udcb0 Want to learn about India's leading companies? \ud83d\ude80 From Reliance and HDFC Bank to TCS, Infosys and SBI, these companies represent some of the biggest names across different sectors of the India - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMjlEbWNfbjRXOGlCci12NWFOZWhlLUpEek9SMk5PNjFwcnJYeEczYlFYeWJiR2hSZXBRTHNsUXNmbG0yOXowR0JPT0EycDduZGlvWkZKNFppQ29xRnIzdXlFeTg4OGNSamNfenZPazdJTm5Wa3NxX05FMTREV1VXVnhuZEgyaGRjSEtrZ0V0YkVJT011UFRxeXZxNG1tU3F6aVpCVURvTDd2MmJHMzJ2RkFrVUxhYkhQVTF3Z21ieWREVHdYUnpwNld6RHNSaVA1c09RMXBtZGRtQQ?oc=5",
+          "published": "Mon, 19 Oct 2026 11:07:07 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Stock market rally: BSE Sensex and NSE Nifty surged sharply driven by heavy buying in IT firms, HDFC Bank, and financial shares, alongside a notable recovery in the Indian rupee and positive remarks on tax debates by Finance Minister Nirmala Sitharaman. - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOG1VNUp5T3FlX1VGb2JvT2M2MWhOUlRHUGQtQVJSZV9xd09BQkZwLUFraG8yTjBWU2R1eWV3MjloNmc2QzVmbG5oSEcta3psRlE?oc=5",
           "published": "Tue, 13 Oct 2026 13:54:12 GMT",
@@ -95,20 +111,12 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
+          "title": "HDFC Bank Q2 FY27 Results Out - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOem1OSVJVbWZERWJ6b01RWlVCRnVXbXlOd3hwclg0T0pDYjc4amp1QVlabjlDdWpacVJDYXMyNHRxeDBla1VJem16SEVIZHJlZi1JdndKS2syeFZnWVp2eDMweDFiUk51UnFDSW5MRFhjWVdRZTZyMDIyTHUzY21qaHpXcWVoaHZiTEZxUVRla3lJRTR2?oc=5",
+          "published": "Sat, 17 Oct 2026 09:24:40 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\u0938\u094b\u092e\u0935\u093e\u0930 \u0915\u094b HDFC Bank Share \u092e\u0947\u0902 \u0906 \u0938\u0915\u0924\u093e \u0939\u0948 \u092c\u0921\u093c\u093e \u090f\u0915\u094d\u0936\u0928\ud83d\udd25\u0921\u093f\u091f\u0947\u0932 \u0915\u092e\u0947\u0902\u091f \u092c\u0949\u0915\u094d\u0938 \u092e\u0947\u0902\ud83d\udc47 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxNYVJOMlBXWVZYWXNvTWZlelNLY0h0YWtSNHdqUDhZVV96RXI3S1o1SDRGNmZrTjNFNmcxYkZMNjVDYTZrU3NOQkJCNG53dl8ybnhWblh6Wi1KNW5zWjFXUUl4OG5MSG95Z3M2MTM3YzhjRWRWTU9jTWpCYzEwOGpGQjdFSUNjSGluN052VkQ1X3o4ZGFhb2Nvd19TanpUbGg1MkpLS1R0YWNTTW9zdl9zU3dhdmRpcUQ5LWo4LVdRR25WMGVwRXBHeWRFdV85cFRMV2VtRlNBbVJ5WmFqOWhvSHM3RWVhb0pQRncydVF0clpCTGdfQWl5RUdKU2ZOOGNhOGZUUVo2ZTYzLTdHN29zTTZxUlBGUUVlZGtHdHc1LWhHZEdFVERRNzJ2Zmd3Q0oybEhja042U2hyZU5zaE93TE5TR3RoZlFQUDlvdXpsSS1ORFZiMzdNMEVBYVQyV1FPMzhtYWo3dWU3d0pqQVpCam5XTjdwcThqM1lzc3cxQlZsLWVZcllVOHR2ZDRrSTVyM21lU2NpdWt5MjZzWmpBeG9FaHRuZ1hTUEhSbXNsS24tTUN0ZnU5R2JvWjB2VzVNQVpwX0syZUFKU2pXMmFScXlxeXhNN25nYktjeElVd2prc1RUdzdVVlZmaERjaUI2QTNlSnNUei1RUi12eXJ3U2Y3TDk3c1hSRWxlcmkwQ2RRSmVVZnhIQ2FPX053MTlZbThPTGZaVTVEMUVEb1NqeTRyVFR6Ylp5QW9HZktMMGNhN1pQaF94c1FONkotWVotcVpKU0RGYndJRzRQN00zcExnbWZqNXpPNjVpaWo4UEdkNWxsaUNyRWlSNUNwTlY2bTVxWnRVb3ZrX3hPNXdjb2NiSk9CQjVIaXNQZ0JQR0FYWHV4S1c4LU9n?oc=5",
-          "published": "Sat, 17 Oct 2026 15:06:01 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
+          "evidence_type": "investor_discussion"
         },
         {
           "title": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Technologie Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
@@ -127,64 +135,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "HDFC Bank Q2 FY27 Results Out - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOem1OSVJVbWZERWJ6b01RWlVCRnVXbXlOd3hwclg0T0pDYjc4amp1QVlabjlDdWpacVJDYXMyNHRxeDBla1VJem16SEVIZHJlZi1JdndKS2syeFZnWVp2eDMweDFiUk51UnFDSW5MRFhjWVdRZTZyMDIyTHUzY21qaHpXcWVoaHZiTEZxUVRla3lJRTR2?oc=5",
-          "published": "Sat, 17 Oct 2026 09:24:40 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 5,
-      "investor_mentions": 0,
-      "commentary_mentions": 5,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
-          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
-          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
-          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcc8 NIFTY 50 TODAY: BIGGEST GAINER \ud83d\udd25 Indian stock markets closed higher on October 16, 2026! Nifty 50 gained 0.65% to close at 23,146.15. \ud83d\ude80 Top Nifty 50 Gainers: - \ud83e\udd47 Tech Mahindra: +8.48% - \ud83e\udd48 TCS: +4.89% - \ud83e\udd49 Infosys: +4.61% IT stocks led the rally! \ud83d\udcca - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNalpwSTBRNW1NNVNJaEhIQWc3djl3bV9NMVNFQWZuallDcDRwVS01V0pNYnlGdzBnT0t2aWpVNXlTcXpLbGQxQWlUQkRkUE81ODhsR0hIRVVQdG00Q3UtenU2Q29FTDJrVUFXTFctNGZxSHBEaE5URER2UmxwNEVCU19HWVNTNHVBcFZQNl8xYWtkNDhKZUhsdThIdGpKWllTUUJObUZldHhmYnoxd2M1MXFPMXFISWlMeHVfZTUwWDdielRTdVFpdVRIWno2SW1pZDBEVl9ZaVBvUks2bk1icw?oc=5",
-          "published": "Fri, 16 Oct 2026 12:04:42 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -194,9 +147,9 @@
     },
     {
       "name": "Yes Bank",
-      "mentions": 5,
+      "mentions": 6,
       "investor_mentions": 2,
-      "commentary_mentions": 3,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -241,6 +194,69 @@
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
           "published": "Fri, 16 Oct 2026 18:55:28 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 5,
+      "investor_mentions": 0,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock market today: BSE Sensex climbs 305 points and NSE Nifty gains 93 points in early trade on Tuesday, driven by strong buying in HCL Tech, Infosys, and HDFC Bank shares after recent losses. https://ebx.sh/nguLU5 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXEwSWNBUEt1MFY0T0pfVDRnaWh0MmF3dTlhamd0RnY4QzM5QWJVZnQ1WmlNOTc1UktyeThPeDNaZzJvM09BUkU2dVo2bm1JaE9nUFZCRllHczltbEk0U1c4V2FNMzlqbnIwOWZrNy04VXpvd25Rc0RwMy04N3l2T3hYNFpzUE9xTWdpLUpqUjg0RGRkdlp4bFl1UWdWVllvTEFXTGxfWXE0WGFIYWdNSzNsc01Ga2k5QTVQQWdVQmpYcWhIbElPX2w2TGw3RjBraXNTTmQweTZ0QQ?oc=5",
+          "published": "Tue, 13 Oct 2026 07:06:06 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83c\uddee\ud83c\uddf3\ud83d\udcc8 TOP 10 SHARES IN THE INDIAN STOCK MARKET! \ud83d\udcb0 Want to learn about India's leading companies? \ud83d\ude80 From Reliance and HDFC Bank to TCS, Infosys and SBI, these companies represent some of the biggest names across different sectors of the India - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMjlEbWNfbjRXOGlCci12NWFOZWhlLUpEek9SMk5PNjFwcnJYeEczYlFYeWJiR2hSZXBRTHNsUXNmbG0yOXowR0JPT0EycDduZGlvWkZKNFppQ29xRnIzdXlFeTg4OGNSamNfenZPazdJTm5Wa3NxX05FMTREV1VXVnhuZEgyaGRjSEtrZ0V0YkVJT011UFRxeXZxNG1tU3F6aVpCVURvTDd2MmJHMzJ2RkFrVUxhYkhQVTF3Z21ieWREVHdYUnpwNld6RHNSaVA1c09RMXBtZGRtQQ?oc=5",
+          "published": "Mon, 19 Oct 2026 11:07:07 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Sensex Jumps 1,400, Nifty Crosses 23,000 The Sensex surged more than 1,400 points to cross 74,000, while the Nifty climbed over 380 points to reclaim the 23,000 mark. IT, banking and consumer stocks led the rally, with TCS, Infosys, Tech Mahindra, ICICI B - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcHJpRVJPSVIyRHRXUFNNaVFOWDB4NTQ0YTJTS1hDNTdGSElSc3BVSjR1VUZIOUw5aGQzWkVNSmdoQXB1aE92SUN1NUxCQk9KUnphVmZn?oc=5",
+          "published": "Thu, 15 Oct 2026 10:37:07 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
+          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -295,6 +311,147 @@
       "sufficient": false
     },
     {
+      "name": "Suzlon Energy",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "\u20b952 \u0930\u0942\u092a\u090f \u091c\u093e\u092f\u0947\u0917\u093e Suzlon Share? #reels #reel #reelsviral #reelsvideo #suzlonenergylatestnews suzlon share latest news, suzlon share news today, suzlon share analysis, suzlon share price targe, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOLU5pOE9rT1F4VWE0NkhNSFhSZE5oWE5pT0VXLVdweFZnTm1KeFRUYi1DVkJvLTgwZXRnNUZUNWVZdFltS21xZUlJVVhXYzhYeWd4Wlo5bnZHRTE4bWdKVUpQVkVTVjdCY0lhajJHd3dVaGVneGhRQWROQno3T2ZpTkpNc0NVX3RHMlJ3bW5ScVIydG90REVNT0xMOVg2TUZJcTFEcnhpMXpwZ0lSMFB3cU1pMUk2ZDJxa3dNS0Z3WmZBWW5CNl85NXdtNmViTFpvT0JfZk5WaVNzNHV5a2ZZX3JGTjBRbEE3LWdKem1vUVpfemZ6WlYwdWQyV0ZTMlVDangyS05Td0NlUUR1U1VrLWlKUXloUy1id24yWVRjekRtUlNvOUI1UmN3WGJFeHFlQnNqczRMNVBYT0VlQURka1RvSkx4bzRjenZr?oc=5",
+          "published": "Sun, 18 Oct 2026 15:30:15 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
+          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
+          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
+          "published": "Sat, 17 Oct 2026 08:30:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Canara Bank",
+      "mentions": 4,
+      "investor_mentions": 1,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Canara bank - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LWTRsTFE2eGVYVnhjbC1hUEx4d2hmYUFfeU9tcjhjUnlhN0ZCNnhlR3JZZXhIYVBvOTU2LUFDMDBlT2t4OWJwVktUbmdJZFJJdi1EYWJJMjVHMlhMa1JQMURnRi05aU44c1RScm9nemRUVzk2ZjlJemFlMXI?oc=5",
+          "published": "Sun, 18 Oct 2026 06:30:39 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Canara Bank Share Price: Why Analysts Are Eyeing \u20b9135 Target Price - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMbXFuM1lMYXhEOWhCLTlkNUctanJwbVZBeGxXek91aHllUE9MS1AxdkNfV2lJeTl1NHVGY2NxQzMyTHNHY0ktT2l1YUlZRzM0SjlZeUJn?oc=5",
+          "published": "Mon, 19 Oct 2026 10:25:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
+          "published": "Wed, 14 Oct 2026 10:08:05 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Axis Bank",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "HDFC, ICICI and AXIS Bank Results vs $110 Oil! Will Nifty Rally? | Pre Market report & 19 Oct 2026 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53M2hTOXVkS3NhdUFtMEhheDR0X2pBNjUxejZWQmNIVVdmcjkxSFUwYTlGVFhDWUxzRlhyMldzVC1pcG41NWJ3VlFXaFoxeFpXcTRKTHlB?oc=5",
+          "published": "Mon, 19 Oct 2026 00:42:19 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40NjFYRVNuamZESVduMTAxXzRtZXloc2VOcUdjVE1wYWJNVndoTTJPWVpMaHpJTVNONUt0UGdUVUdHaUdQS0hESUNwYVRqRWRvNlh0T1pB?oc=5",
+          "published": "Mon, 19 Oct 2026 04:39:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian Stock Markets Ended Sharply Lower, With The Sensex Falling 876 Points And The Nifty 50 Closing Below 22,900. Investors\u2019 Wealth Declined Amid Broad Market Weakness, While Axis Bank Shares Fell Around 4%, Adding To The Pressure On Banking - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9odmR4R2I0ZE1XVEVWTUZFVFNKOWRrcXlmYUY4ajc5Mk9KZkNrTTZkRkw2RmhGelYtWHZrVjFWczNGSzRoNDNhdHFxaXJfd3Z1SVE?oc=5",
+          "published": "Mon, 19 Oct 2026 10:17:15 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Tata Motors",
       "mentions": 3,
       "investor_mentions": 0,
@@ -327,84 +484,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84ajFOUm0yWTNzdnRfbGo4STdEVVB6VTAxM2doMHBTZXlRbWRjeWhXM3ZGc2VXUkQxNm5kZ2ZER3N3ZmU4TkM4SXo0dWFhbVB6NHR0VGJn?oc=5",
           "published": "Mon, 12 Oct 2026 12:28:39 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IRFC\u26ab HCL Tech Q2 Results\u26ab Suzlon Energy Ai\u26ab DMART CRASH\u26ab Tata Sons IPO\u26ab infosys wipro\u26abReliance SMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83Qks1UEFmZkpLcGY4NTlYbWlIQmJVU3hjX2J5VW5EZGdIRjYyc0dLeGVWVGNwQWpzZjUwSTN4ODdYRjFfQlJ0azBxYURhZkZ2YzlGb2t3?oc=5",
-          "published": "Mon, 12 Oct 2026 12:48:20 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, MEESHO, FirstCry, Renuka Sugar, Mawana Sugar, HCL Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUjZFcTNTNlFSdzZKVHVkdDlOS2k3ZmE5dXdfMXhMYk0xemFsbGJTVEZfM0RaUFFJajc0Q28yT1B5bUYwOF9wT21UTUdIYjVLOW1fMFhn?oc=5",
-          "published": "Tue, 13 Oct 2026 06:03:26 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, PC Jewellers, RVNL, Cupid, GROWW, Kwality Walls, Vodafone, Nelcast \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMXc4VlI5bUFjcGt1dksxcmNndjlOQ3FINXFWQ2RPbVhlaU9sbFVfdEJRLUV0YmJ2Z3BjLUdRVHBpUTg4QUlObVZmTlM5eG5vdjRnTjN3?oc=5",
-          "published": "Sat, 17 Oct 2026 08:30:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Axis Bank",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HDFC, ICICI and AXIS Bank Results vs $110 Oil! Will Nifty Rally? | Pre Market report & 19 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53M2hTOXVkS3NhdUFtMEhheDR0X2pBNjUxejZWQmNIVVdmcjkxSFUwYTlGVFhDWUxzRlhyMldzVC1pcG41NWJ3VlFXaFoxeFpXcTRKTHlB?oc=5",
-          "published": "Mon, 19 Oct 2026 00:42:19 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40NjFYRVNuamZESVduMTAxXzRtZXloc2VOcUdjVE1wYWJNVndoTTJPWVpMaHpJTVNONUt0UGdUVUdHaUdQS0hESUNwYVRqRWRvNlh0T1pB?oc=5",
-          "published": "Mon, 19 Oct 2026 04:39:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian Stock Markets Ended Sharply Lower, With The Sensex Falling 876 Points And The Nifty 50 Closing Below 22,900. Investors\u2019 Wealth Declined Amid Broad Market Weakness, While Axis Bank Shares Fell Around 4%, Adding To The Pressure On Banking - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9odmR4R2I0ZE1XVEVWTUZFVFNKOWRrcXlmYUY4ajc5Mk9KZkNrTTZkRkw2RmhGelYtWHZrVjFWczNGSzRoNDNhdHFxaXJfd3Z1SVE?oc=5",
-          "published": "Mon, 19 Oct 2026 10:17:15 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -505,37 +584,6 @@
       "sufficient": false
     },
     {
-      "name": "BEL",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
-          "published": "Tue, 13 Oct 2026 15:24:42 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcca NIFTY 50 TOP GAINERS & LOSERS | 9 OCTOBER 2026 \ud83d\udcc8 TOP GAINERS \ud83d\udfe2 Dr. Reddy\u2019s Laboratories: +2.71% \ud83d\udfe2 Bajaj Auto: +2.62% \ud83d\udfe2 TVS Motor: +1.63% \ud83d\udfe2 Bharat Electronics (BEL): +1.56% \ud83d\udfe2 BSE: +1.31% \ud83d\udcc9 TOP LOSERS \ud83d\udd34 Apollo Hospitals: -3.15% \ud83d\udd34 I - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGpkanhPeVFjQ09ZTEs0akJTbzlrTmRCMjRMWU1yWWNyTnR3eV9lNVJjeXdVS0pxek9kQnhFb09rbkxGQi02ZHB0OFBSMndrZnhOOGJMZU9BcHFBbXYyVUR2bUhVeDBkbnZNdE9XWllOUHBhOXJ2aC1HOW5Zbmt3dTJJUlhYRnByVkx6ZEc0Nkp6ZzBUYzA5LW5tVm13WUNBdnZKYnUxUERNOVVsNGw0ZEo3QlFVZF83NUNPUkljY3E4dkx5LTB6NU1OS2F6c3lNb2N6RGNuSDlvMFFi?oc=5",
-          "published": "Mon, 12 Oct 2026 11:12:23 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IRFC",
       "mentions": 2,
       "investor_mentions": 0,
@@ -560,37 +608,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2Y0RiYTgyd1ZDMXFmandXX0dkY09fN2JiSVUzajJBTkFGaXRNNUJYUnlZb1YyN0JIeUd5cUQ0dTVlUHJtZkFPbFVtUjV2RVlUSTBoZ2VR?oc=5",
           "published": "Thu, 15 Oct 2026 17:29:52 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Canara Bank",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Canara bank - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LWTRsTFE2eGVYVnhjbC1hUEx4d2hmYUFfeU9tcjhjUnlhN0ZCNnhlR3JZZXhIYVBvOTU2LUFDMDBlT2t4OWJwVktUbmdJZFJJdi1EYWJJMjVHMlhMa1JQMURnRi05aU44c1RScm9nemRUVzk2ZjlJemFlMXI?oc=5",
-          "published": "Sun, 18 Oct 2026 06:30:39 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "\ud83d\udcc8 CANARA BANK SHARES RISE 3.33% AFTER Q2 RESULTS Canara Bank shares rose to \u20b9124.45 on October 14, 2026, following the announcement of its Q2 FY27 financial results. \ud83d\udcca Key Updates: \ud83d\udd39 Share Price: \u20b9124.45 \ud83d\udd39 Price Change: +\u20b94.01 (+3.33%) - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0pJYkdrbnZRN2NldXQ3VnZsUzQxV3l1bmNRQ081VHlUTDJ0ak0tOWUzRVpoQjM4dElOMjlYY1FYYmF4SVlKRW02RzlueVk0MnFDemhyZ1EzZ20zYmdwc0NQb2VFSHdiSTNKMUhyTlllVHhQZV9qM19mbHd0TEFXbGNfdjhZLTV0eHR5dVlJTDFFUjlmX01QMlowZ1BWZWZVZm1DTU5EbXNxQzlKODZJX3NrU3hyV1NJVEtVQWZkMnpWR21WZmp1MWVYQzQyU2oyMldxNFQ5VTdJWEpj?oc=5",
-          "published": "Wed, 14 Oct 2026 10:08:05 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -729,6 +746,29 @@
       "sufficient": false
     },
     {
+      "name": "BEL",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "STOCKS IN NEWS | STOCKS TO WATCH | Wednesday 14 October corrected Market Headlines \u2014 Brief Pointers Adani Enterprises: Signs MoU With Jabil for 50:50 AI Hardware JV Bharat Electronics: Bags Additional Orders Worth \u20b9533 Cr Transformers & Rec - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tM1FWNTB4NEZuU0E3eU9vbmozUUgzdXRKUjB5MmpXbTk5RG5iZmFoc1B0NnkzdkhWUmJkaGNzU196Rm5FWmlyLUhTZVpsOUJGaHhjV093?oc=5",
+          "published": "Tue, 13 Oct 2026 15:24:42 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Tata Power",
       "mentions": 1,
       "investor_mentions": 0,
@@ -768,6 +808,29 @@
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3RUQ0lyd0M0dkpKYTNISE9tOVdNbGZSTDRYQUtwek5IZmZzMDN4SEUtZW1QSGVTTUVJb0dVOVdtc0JZTVhuQ0Q3R2hHWi1XbEVCN2FDaEdsX3hTR1ZfRkkzcURDSVdYeHJqcWhDbkw4UDM3dERGM1FlYlQya0VSYjBnWk5pLVRFb3p3YlUzbEM3aF9rR0ZSSWdZQV80ckJnSTR5Y20tMW9OamxQZXl0VEl1TWVvbTkwZFk1bVNpYnVmaWdkWUdXX09UdFk5UHhxU183WHVSbmlxeGVp?oc=5",
           "published": "Tue, 13 Oct 2026 10:46:31 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "HFCL",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -1172,20 +1235,6 @@
     },
     {
       "name": "Hindustan Zinc",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "HFCL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
