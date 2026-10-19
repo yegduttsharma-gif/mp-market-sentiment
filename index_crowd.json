@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-19T17:44:30.190860+00:00",
+  "collected_at": "2026-10-19T18:13:10.046765+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
     "IndianStockMarket": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "IndianStreetBets": {
       "status": "unavailable",
@@ -44,65 +44,16 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 143,
+  "unique_titles": 43,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 9,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
-        {
-          "title": "Stock Market Today: Why Nifty Fell? HDFC Bank and Axis Bank Dragged All 4 Indices #Shorts",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9vsd4/stock_market_today_why_nifty_fell_hdfc_bank_and/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-19T12:39:02+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty Expiry Day: Fake Breakout at 23,171, Down 1.1%. Wednesday: Hold or Fold 22,735?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9vc58/nifty_expiry_day_fake_breakout_at_23171_down_11/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-19T12:17:45+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "19th Oct Nifty",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9qt4y/19th_oct_nifty/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-19T07:57:00+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty today hit 23175 today and immediate sell off which dragged 200 points down from high",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9njuk/nifty_today_hit_23175_today_and_immediate_sell/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-19T04:37:35+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY Volatility",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9n0sm/nifty_volatility/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-19T04:07:46+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty IT surged 11.72% in a week, its best weekly gain in 18 years (last time in Oct 2008)",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x99xca/nifty_it_surged_1172_in_a_week_its_best_weekly/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-18T18:06:08+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty CAGR for last 20 years INR vs USD terms",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x93449/nifty_cagr_for_last_20_years_inr_vs_usd_terms/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-18T13:22:31+00:00",
-          "sentiment": "neutral"
-        },
         {
           "title": "NIFTY Looks Bullish on the Surface, But Is a Bearish Reversal Brewing?",
           "url": "https://tradingqna.com/t/nifty-looks-bullish-on-the-surface-but-is-a-bearish-reversal-brewing/198849",
