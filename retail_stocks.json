@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-19T22:37:10.151133+00:00",
+  "collected_at": "2026-10-19T23:05:49.153834+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 598,
+  "posts_collected": 599,
   "source_counts": {
     "tradingqna": 35,
     "valuepickr": 16,
-    "indexed_reddit": 161,
-    "youtube": 196,
+    "indexed_reddit": 160,
+    "youtube": 198,
     "facebook": 96,
     "instagram": 94,
-    "total_unique": 598
+    "total_unique": 599
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -103,14 +103,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
-          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock Market Today: Why Nifty Fell? HDFC Bank and Axis Bank Dragged All 4 Indices #Shorts - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdDRGNWxRQjNMaml3Vk9QSEhfVV93UGotZHFDcVNucHRMSzhWT3JPdnQxeElUU0ZPQWYzckhLV3A3dk5nUEJfNTA1ZjhsR0p4NHQ1aE9JNmg4RmlWSTlSZUN6bkRhQUdOemhZa0JiRFZlNWJ2SzZjWVI5VVh5c2hmSVJpbjlHRnhCbWZ0QnFwOXdqNzRFXzNWUXRpUnBWU2F3QzVXVjJDWmxKWWxJ?oc=5",
           "published": "Mon, 19 Oct 2026 12:39:02 GMT",
@@ -125,15 +117,23 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Yes Bank",
-      "mentions": 8,
+      "mentions": 7,
       "investor_mentions": 2,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -196,14 +196,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Yes Bank, RIL, Paytm, Adani Ports, GMR Air, Welspun Corp., HAL, BEL, Apollo Mic Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vbGY3T3ROVmpReFYyQkMxSFlFbkQyYU5yNWxrQjNkRnUyVnNmZlRETVNFbGtBXzdKZnZfX3AzajFhaldFUmRrbTRDSmVwaV9TX1QzNVBR?oc=5",
-          "published": "Mon, 19 Oct 2026 09:00:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -245,64 +237,17 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
-          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock Market Today: Why Nifty Fell? HDFC Bank and Axis Bank Dragged All 4 Indices #Shorts - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdDRGNWxRQjNMaml3Vk9QSEhfVV93UGotZHFDcVNucHRMSzhWT3JPdnQxeElUU0ZPQWYzckhLV3A3dk5nUEJfNTA1ZjhsR0p4NHQ1aE9JNmg4RmlWSTlSZUN6bkRhQUdOemhZa0JiRFZlNWJ2SzZjWVI5VVh5c2hmSVJpbjlHRnhCbWZ0QnFwOXdqNzRFXzNWUXRpUnBWU2F3QzVXVjJDWmxKWWxJ?oc=5",
           "published": "Mon, 19 Oct 2026 12:39:02 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Motors",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
-          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         },
         {
-          "title": "Tata Motors Share Price: Tata Motors \u0915\u0947 \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, \u0936\u0949\u0930\u094d\u091f \u0914\u0930 \u0932\u0949\u0928\u094d\u0917 \u091f\u0930\u094d\u092e \u0928\u093f\u0935\u0947\u0936\u0915 \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TNE5WY1g5dExQN2VqbFpFRDhGa1B2UzB5cTllN1NoYWFqdEZOaW5fSnZkbUF4MGs0cnJVOFZ5RWpXemZhbXRhWXVLdGVwdzFSVlhsckJB?oc=5",
-          "published": "Sat, 17 Oct 2026 12:30:38 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TATA Motors share news today,Buy ?,TMCV or TMPV kya karen ?,tata motor CV Share Analysis,Target 2030 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhTkF0TnJpbHh2TlNlc1d4Vzk1dVZvY1oxNUZYZzZDZ0VramlWbWU1V3MyYXUyMWh6ZTREbFA4NVJ0OUpyemE5UnRFZm1IT1VHMlk0S2tn?oc=5",
-          "published": "Tue, 13 Oct 2026 17:40:06 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Monday Target 19/10/2026 | TMPV and TMCV | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80Y1NNUlRSY0NqejQ2VWlELU9GcUN4U1VSdTEzRlBNaEl1a1hVd2EwUGR2Q1JHVWxuMGNVNVZqWkZtWWRuenlPQTdqLVpMZVRUS283WUlB?oc=5",
-          "published": "Sun, 18 Oct 2026 11:18:53 GMT",
+          "title": "PNB, Canara Bank, HFCL, AXIS Bank, HDFC Bank, KARURVYSYA, YES BANK Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xdlQwNHFXWm0zMEd0Q1ZOYWl5aklLUHlCbXpjRk53bEJaREdWbUtTanlfMkN0Y083Z3hQdzR6eHF5OHJiMHMtNjRfY0tmZWNYVlN4TzZ3?oc=5",
+          "published": "Mon, 19 Oct 2026 04:17:11 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -553,6 +498,37 @@
       "sufficient": false
     },
     {
+      "name": "Tata Motors",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Tata Motors CV \u0914\u0930 DLF Share \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0915\u0940 \u0909\u092e\u094d\u092e\u0940\u0926! Expert \u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0906\u0917\u0947 \u0915\u093e Potential |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZbHhYZ25aQUtUM3lsZWZxR1BQbTdQZ28ydzFSX2RoVjRZSkdZLUU4SnlXdEFlY3VWUEVtSlNiYUxoeW14UWtCQzEyRUhKa1pMWGxfR3VR?oc=5",
+          "published": "Thu, 15 Oct 2026 09:53:29 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Price: Tata Motors \u0915\u0947 \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, \u0936\u0949\u0930\u094d\u091f \u0914\u0930 \u0932\u0949\u0928\u094d\u0917 \u091f\u0930\u094d\u092e \u0928\u093f\u0935\u0947\u0936\u0915 \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TNE5WY1g5dExQN2VqbFpFRDhGa1B2UzB5cTllN1NoYWFqdEZOaW5fSnZkbUF4MGs0cnJVOFZ5RWpXemZhbXRhWXVLdGVwdzFSVlhsckJB?oc=5",
+          "published": "Sat, 17 Oct 2026 12:30:38 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Bharti Airtel",
       "mentions": 2,
       "investor_mentions": 0,
@@ -777,29 +753,6 @@
       "sufficient": false
     },
     {
-      "name": "Paytm",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Yes Bank, RIL, Paytm, Adani Ports, GMR Air, Welspun Corp., HAL, BEL, Apollo Mic Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vbGY3T3ROVmpReFYyQkMxSFlFbkQyYU5yNWxrQjNkRnUyVnNmZlRETVNFbGtBXzdKZnZfX3AzajFhaldFUmRrbTRDSmVwaV9TX1QzNVBR?oc=5",
-          "published": "Mon, 19 Oct 2026 09:00:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IRFC",
       "mentions": 1,
       "investor_mentions": 0,
@@ -823,7 +776,7 @@
       "sufficient": false
     },
     {
-      "name": "Adani Ports",
+      "name": "Tata Power",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -835,9 +788,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Yes Bank, RIL, Paytm, Adani Ports, GMR Air, Welspun Corp., HAL, BEL, Apollo Mic Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vbGY3T3ROVmpReFYyQkMxSFlFbkQyYU5yNWxrQjNkRnUyVnNmZlRETVNFbGtBXzdKZnZfX3AzajFhaldFUmRrbTRDSmVwaV9TX1QzNVBR?oc=5",
-          "published": "Mon, 19 Oct 2026 09:00:29 GMT",
+          "title": "Stock Market Live | Jio, Fusion CX, HD Fire Protect IPO | Tata Power, Wipro Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RMXp2Z3BKaWNWRkp2NmlPSXBNaVp4ZVhEUlVkUFVYTy1WT0VyN0ZqNnk3a2tnZEEwSjN1Ym43bFczSHRzaTJUTDl1STBpdXhISGM2Qm93?oc=5",
+          "published": "Tue, 13 Oct 2026 22:18:24 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -1096,6 +1049,20 @@
       "sufficient": false
     },
     {
+      "name": "Paytm",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Vodafone Idea",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1152,20 +1119,6 @@
       "sufficient": false
     },
     {
-      "name": "Tata Power",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "JSW Energy",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1195,6 +1148,20 @@
     },
     {
       "name": "Adani Green",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Ports",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
