@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-20T17:50:29.348144+00:00",
+  "collected_at": "2026-10-20T18:16:09.191288+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -29,8 +29,8 @@
         "topics": 50
       },
       "hdfc bank": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "icici bank": {
         "status": "ok",
@@ -92,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 183,
+  "posts_checked": 182,
   "status": "collected"
 }
