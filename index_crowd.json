@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-20T14:56:19.119970+00:00",
+  "collected_at": "2026-10-20T15:30:14.504453+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -21,11 +21,11 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 29
+      "recent": 30
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 8
+      "recent": 9
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,7 +44,7 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 137,
+  "unique_titles": 139,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
@@ -94,11 +94,19 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Why paper backtests on 5-minute Nifty/BankNifty strategies fail live (and how we modeled real STT, GST, and slippage)",
+          "url": "https://tradingqna.com/t/why-paper-backtests-on-5-minute-nifty-banknifty-strategies-fail-live-and-how-we-modeled-real-stt-gst-and-slippage/198950",
+          "source": "tradingqna",
+          "published": "2026-10-20T15:12:19+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     },
     "SENSEX": {
       "bullish": 0,
