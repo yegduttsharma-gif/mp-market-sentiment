@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T21:10:57.459205+00:00",
+  "collected_at": "2026-10-21T21:44:53.734391+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 6
     },
     "nifty_search": {
-      "status": "ok",
-      "recent": 78
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -40,17 +40,17 @@
       "error": "HTTPError"
     },
     "nifty_bets_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 27
     }
   },
-  "unique_titles": 199,
+  "unique_titles": 161,
   "indices": {
     "NIFTY 50": {
-      "bullish": 1,
+      "bullish": 0,
       "bearish": 0,
-      "neutral": 30,
-      "directional": 1,
+      "neutral": 14,
+      "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
@@ -97,101 +97,59 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Why is GIFT Nifty up near 23k? Are there any positive developments about the US-India trade deal or something else?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xal499/why_is_gift_nifty_up_near_23k_are_there_any/",
-          "source": "nifty_search",
-          "published": "2026-10-20T06:54:01+00:00",
+          "title": "When Nifty called Sitharaman ji for help",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbiib3/when_nifty_called_sitharaman_ji_for_help/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-21T09:28:43+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "Stock Market Today: Why Nifty Fell? HDFC Bank and Axis Bank Dragged All 4 Indices #Shorts",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9vsd4/stock_market_today_why_nifty_fell_hdfc_bank_and/",
-          "source": "nifty_search",
-          "published": "2026-10-19T12:39:02+00:00",
+          "title": "Day 2 of trading nifty",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbg3p1/day_2_of_trading_nifty/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-21T06:56:42+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty Expiry Day: Fake Breakout at 23,171, Down 1.1%. Wednesday: Hold or Fold 22,735?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9vc58/nifty_expiry_day_fake_breakout_at_23171_down_11/",
-          "source": "nifty_search",
-          "published": "2026-10-19T12:17:45+00:00",
+          "title": "DAFAQ is going on with Nifty?",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbg0t9/dafaq_is_going_on_with_nifty/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-21T06:51:36+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "19th Oct Nifty",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9qt4y/19th_oct_nifty/",
-          "source": "nifty_search",
-          "published": "2026-10-19T07:57:00+00:00",
+          "title": "Nifty New Day Low 22750 Jio Mere Laal \u2764\ufe0f\ud83d\udcc9",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbfwp6/nifty_new_day_low_22750_jio_mere_laal/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-21T06:44:41+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty today hit 23175 today and immediate sell off which dragged 200 points down from high",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9njuk/nifty_today_hit_23175_today_and_immediate_sell/",
-          "source": "nifty_search",
-          "published": "2026-10-19T04:37:35+00:00",
+          "title": "Tomorrow Gap up? What happen to Gift nifty in the last hour.",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xau5mx/tomorrow_gap_up_what_happen_to_gift_nifty_in_the/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-20T14:49:33+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "NIFTY Volatility",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x9n0sm/nifty_volatility/",
-          "source": "nifty_search",
-          "published": "2026-10-19T04:07:46+00:00",
+          "title": "19th Oct NIFTY",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x9qwxa/19th_oct_nifty/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-19T08:03:20+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty IT surged 11.72% in a week, its best weekly gain in 18 years (last time in Oct 2008)",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x99xca/nifty_it_surged_1172_in_a_week_its_best_weekly/",
-          "source": "nifty_search",
-          "published": "2026-10-18T18:06:08+00:00",
+          "title": "Nifty 19th Oct",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x91y1e/nifty_19th_oct/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-18T12:24:37+00:00",
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty CAGR for last 20 years INR vs USD terms",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x93449/nifty_cagr_for_last_20_years_inr_vs_usd_terms/",
-          "source": "nifty_search",
-          "published": "2026-10-18T13:22:31+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Week ahead (19\u201323 Oct): Jio Platforms \u20b930,213 cr IPO, 7 Nifty 50 results, key levels",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x8u4qq/week_ahead_1923_oct_jio_platforms_30213_cr_ipo_7/",
-          "source": "nifty_search",
-          "published": "2026-10-18T04:34:20+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Is putting 50% of my investments into a Nifty 50 index fund a good idea?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x7od1a/is_putting_50_of_my_investments_into_a_nifty_50/",
-          "source": "nifty_search",
-          "published": "2026-10-16T18:41:34+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "nifty bullish enfulfing on wtf but good and sharp dip can come we are heading towards 23650",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x7ef0a/nifty_bullish_enfulfing_on_wtf_but_good_and_sharp/",
-          "source": "nifty_search",
-          "published": "2026-10-16T12:05:50+00:00",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "NIFTY 50 Support and Resistance for Oct 16: Highest Volume Levels and Pivots for Day Traders",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x75x9c/nifty_50_support_and_resistance_for_oct_16/",
-          "source": "nifty_search",
-          "published": "2026-10-16T03:41:17+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Crude futures in discount and nifty in steroids",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6p8vu/crude_futures_in_discount_and_nifty_in_steroids/",
-          "source": "nifty_search",
-          "published": "2026-10-15T15:47:47+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Bears trapped on daily timeframe nifty ready for 24500",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1x6o6ef/bears_trapped_on_daily_timeframe_nifty_ready_for/",
-          "source": "nifty_search",
-          "published": "2026-10-15T15:07:44+00:00",
+          "title": "Jitna goro ka AI pitega utna Nifty Daudega",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x6fxi3/jitna_goro_ka_ai_pitega_utna_nifty_daudega/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-15T08:13:18+00:00",
           "sentiment": "neutral"
         }
       ]
@@ -216,7 +174,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -233,6 +191,13 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbja0p/nifty_sensex_gapup_tomorrow/",
           "source": "IndianStockMarket",
           "published": "2026-10-21T10:15:24+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Sensex jumped 1,500 points on Thursday but more stocks fell than rose. How does that even happen?",
+          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x86297/sensex_jumped_1500_points_on_thursday_but_more/",
+          "source": "nifty_bets_search",
+          "published": "2026-10-17T09:35:56+00:00",
           "sentiment": "neutral"
         }
       ]
