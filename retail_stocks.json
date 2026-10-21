@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T18:17:08.788288+00:00",
+  "collected_at": "2026-10-21T19:03:35.294111+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 575,
+  "posts_collected": 562,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 8,
-    "indexed_reddit": 153,
+    "indexed_reddit": 138,
     "youtube": 195,
     "instagram": 99,
-    "facebook": 84,
-    "total_unique": 575
+    "facebook": 86,
+    "total_unique": 562
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -103,9 +103,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40NjFYRVNuamZESVduMTAxXzRtZXloc2VOcUdjVE1wYWJNVndoTTJPWVpMaHpJTVNONUt0UGdUVUdHaUdQS0hESUNwYVRqRWRvNlh0T1pB?oc=5",
-          "published": "Mon, 19 Oct 2026 08:29:26 GMT",
+          "title": "Yes Bank AT-1 Bond Case: Why This Stock Is In Focus After Supreme Court Ruling - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rT0JaTWNKbzQ5QzdjcTB1Tk5sX0htYlZrdjJxb3ZKc3poVGVVUElVc01OVTE3S1BqZThsYXEwQWUzd1Zwdi1aQmxGbHZ6cjdMcDNFd1N3?oc=5",
+          "published": "Thu, 15 Oct 2026 10:40:11 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -209,10 +209,65 @@
       "sufficient": false
     },
     {
-      "name": "Axis Bank",
-      "mentions": 6,
+      "name": "IREDA",
+      "mentions": 5,
       "investor_mentions": 1,
-      "commentary_mentions": 5,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Any one following IREDA? What is the future outlook? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRExOLVZoN2JoZThiMWxyZkQ0b01GUnk3c245V1ZpTm5zZ2JCYUJmSm9fMm16d3FyUkZfTWpIRlFZcjI0eWNNU09mNGNybnRvZ0RMZ0tVbEVhWHFQNjR6LVkycVpocHZkZ3p3Umc3NWRwWWFOUlo5UjQxdjk4emgwV3pMOXRvWllmZFNYZElRU1pBMGdFYjVpOHlRWWhZS2h3bmpTbHdvUkdpeFBneldvNg?oc=5",
+          "published": "Wed, 21 Oct 2026 07:52:18 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
+          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
+          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP | STOCK MARKET INDIA - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
+          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, VI, RIL, IREDA, BEML, SCI, GMDC, Tejas Network, Inox Wind, RVNL, JWL Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VTWRjM1ZCS04tUXdYdFNyZHN4ZmVaTTN1Q1hWMHBJbG1Hb0ItSUFiejNVc0pJNHowbmtBX0ZLS2xTS1NOODlZMzctRzktcmNfT2VRMmlR?oc=5",
+          "published": "Wed, 21 Oct 2026 14:30:13 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Axis Bank",
+      "mentions": 5,
+      "investor_mentions": 1,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -224,14 +279,6 @@
           "title": "LIVE: HDFC, ICICI, Axis Bank Q2 Results LIVE | HDFC, ICICI, Axis Earnings Analysis LIVE - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hWGhXbVlfci1xNWlUYzIzT3d4bXZHN1dvRjQ5bEpDZ05yQXFtbjN1T0RsUWljek4zXzNRZmFUWTEybmVQd21vWlpSYVo4ZUtBbW9wSUF3?oc=5",
           "published": "Sat, 17 Oct 2026 13:51:43 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40NjFYRVNuamZESVduMTAxXzRtZXloc2VOcUdjVE1wYWJNVndoTTJPWVpMaHpJTVNONUt0UGdUVUdHaUdQS0hESUNwYVRqRWRvNlh0T1pB?oc=5",
-          "published": "Mon, 19 Oct 2026 08:29:26 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -267,61 +314,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IREDA",
-      "mentions": 5,
-      "investor_mentions": 1,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Any one following IREDA? What is the future outlook? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRExOLVZoN2JoZThiMWxyZkQ0b01GUnk3c245V1ZpTm5zZ2JCYUJmSm9fMm16d3FyUkZfTWpIRlFZcjI0eWNNU09mNGNybnRvZ0RMZ0tVbEVhWHFQNjR6LVkycVpocHZkZ3p3Umc3NWRwWWFOUlo5UjQxdjk4emgwV3pMOXRvWllmZFNYZElRU1pBMGdFYjVpOHlRWWhZS2h3bmpTbHdvUkdpeFBneldvNg?oc=5",
-          "published": "Wed, 21 Oct 2026 07:52:18 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
-          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Hind Zinc, IREDA, Bajaj Fin, HFCL, Simplex Infra, Tips Music, GALLANTT Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94aXVFeGhwZWhKMktpYlZuUnAzaFZEM19ST21yZE52TjlVYzlLV21Ba0VYbDFqOHdLZy1pczA3MVFUWEllcDYyUXRqb3lNY0w3QVVIZU53?oc=5",
-          "published": "Wed, 21 Oct 2026 03:54:13 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
-          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
-          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -410,9 +402,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock Market LIVE|Jio IPO, RIL, YES Bk, Suzlon, Ola, Meesho, LTTS, Bajaj Fin, HDFC Bk \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YZDNwX3lPOFYzbXNDSWM0ZW1relgwdExoQUdBeXlqVk1vWVVqeEUzd0tKdEVPdHdwWkNGTGkxY2hLUWVJV2Z6WFJ1WUljOENkQVlpbXVR?oc=5",
-          "published": "Wed, 21 Oct 2026 07:06:46 GMT",
+          "title": "Suzlon, VI, RIL, IREDA, BEML, SCI, GMDC, Tejas Network, Inox Wind, RVNL, JWL Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VTWRjM1ZCS04tUXdYdFNyZHN4ZmVaTTN1Q1hWMHBJbG1Hb0ItSUFiejNVc0pJNHowbmtBX0ZLS2xTS1NOODlZMzctRzktcmNfT2VRMmlR?oc=5",
+          "published": "Wed, 21 Oct 2026 14:30:13 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -452,45 +444,6 @@
           "title": "Jio Platforms IPO | Reliance Industries, PC Jeweller, TCS, JSW Infrastructure Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92YnJiQ1haNDAwVUNEYjlHZGdZZVFlMnVCY1M2SG9EbWRkRGV1aDlxcDRKS2R0a21qekFHUE40SGhkbzY4SzB3QzJJcHE5RHR5a3FGZktB?oc=5",
           "published": "Wed, 21 Oct 2026 14:30:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "HFCL",
-      "mentions": 3,
-      "investor_mentions": 1,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HFCL Q2 FY27: best quarter ever, PAT up 448%, FY27 growth guidance raised to 80%+.... What!!!!!! - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0d0Qkg3dkMzQl9yMnRzTXlSbUR6eVlJTWlUZmdVWGdPUjZFaDlTaDl2LXNMU09pckRYOGpwV1ZEd1Y5N3dDTEFpeHVrZDBvOTlLVHRMYVZ5b0hOOXo3NkJ4bk5aQVVPSTQ1bGZwUDd0U0c1SmhQNXFsa3g2ZTFfT1ozSnlpTmd6bnlpRzVHdTZhTFZhVnBobC1Xb1g1ZUstdW9hNm5WR1RJUQ?oc=5",
-          "published": "Mon, 19 Oct 2026 16:38:51 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
-          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Hind Zinc, IREDA, Bajaj Fin, HFCL, Simplex Infra, Tips Music, GALLANTT Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94aXVFeGhwZWhKMktpYlZuUnAzaFZEM19ST21yZE52TjlVYzlLV21Ba0VYbDFqOHdLZy1pczA3MVFUWEllcDYyUXRqb3lNY0w3QVVIZU53?oc=5",
-          "published": "Wed, 21 Oct 2026 03:54:13 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -592,7 +545,7 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
+      "name": "RVNL",
       "mentions": 2,
       "investor_mentions": 0,
       "commentary_mentions": 2,
@@ -604,18 +557,49 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40NjFYRVNuamZESVduMTAxXzRtZXloc2VOcUdjVE1wYWJNVndoTTJPWVpMaHpJTVNONUt0UGdUVUdHaUdQS0hESUNwYVRqRWRvNlh0T1pB?oc=5",
-          "published": "Mon, 19 Oct 2026 08:29:26 GMT",
+          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
+          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
-          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
-          "subreddit": "facebook",
+          "title": "Suzlon, VI, RIL, IREDA, BEML, SCI, GMDC, Tejas Network, Inox Wind, RVNL, JWL Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VTWRjM1ZCS04tUXdYdFNyZHN4ZmVaTTN1Q1hWMHBJbG1Hb0ItSUFiejNVc0pJNHowbmtBX0ZLS2xTS1NOODlZMzctRzktcmNfT2VRMmlR?oc=5",
+          "published": "Wed, 21 Oct 2026 14:30:13 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "HFCL",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "HFCL Q2 FY27: best quarter ever, PAT up 448%, FY27 growth guidance raised to 80%+.... What!!!!!! - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0d0Qkg3dkMzQl9yMnRzTXlSbUR6eVlJTWlUZmdVWGdPUjZFaDlTaDl2LXNMU09pckRYOGpwV1ZEd1Y5N3dDTEFpeHVrZDBvOTlLVHRMYVZ5b0hOOXo3NkJ4bk5aQVVPSTQ1bGZwUDd0U0c1SmhQNXFsa3g2ZTFfT1ozSnlpTmd6bnlpRzVHdTZhTFZhVnBobC1Xb1g1ZUstdW9hNm5WR1RJUQ?oc=5",
+          "published": "Mon, 19 Oct 2026 16:38:51 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
+          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -669,29 +653,6 @@
       "sufficient": false
     },
     {
-      "name": "RVNL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
-          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Zomato / Eternal",
       "mentions": 1,
       "investor_mentions": 1,
@@ -710,6 +671,29 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
+          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
