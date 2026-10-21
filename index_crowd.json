@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T09:57:03.540877+00:00",
+  "collected_at": "2026-10-21T10:30:30.831646+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -49,11 +49,18 @@
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Nifty sensex gapup tomorrow?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbja0p/nifty_sensex_gapup_tomorrow/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-21T10:15:24+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Nifty and sectoral valuations",
           "url": "https://tradingqna.com/t/nifty-and-sectoral-valuations/198971",
@@ -90,11 +97,19 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Nifty sensex gapup tomorrow?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbja0p/nifty_sensex_gapup_tomorrow/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-21T10:15:24+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     }
   }
 }
