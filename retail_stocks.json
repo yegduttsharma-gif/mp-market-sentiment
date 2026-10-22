@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-22T00:08:40.652464+00:00",
+  "collected_at": "2026-10-22T00:50:18.646655+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 564,
+  "posts_collected": 578,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 8,
-    "indexed_reddit": 139,
+    "indexed_reddit": 153,
     "youtube": 195,
     "instagram": 99,
     "facebook": 87,
-    "total_unique": 564
+    "total_unique": 578
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -41,7 +41,7 @@
     },
     "valuepickr_top": {
       "status": "ok",
-      "recent_items": 5
+      "recent_items": 6
     },
     "tradingqna_active": {
       "status": "ok",
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 7,
+      "mentions": 8,
       "investor_mentions": 3,
-      "commentary_mentions": 4,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -87,6 +87,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Huge Indian Market Crash Today HDFC Bank Again Reach \u20b9700 level - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQejhVWGE1bW1Fd2FLbEpJLTRnXzE5RXpub1ZpYzdPTV9rNmltUERUb0hsSXFScUhmVzVYZ01ua0laVFlYM3NnOUVVTEp6MHU0M2lScHVndVdwbUlQUGhQazVYa0Uwa1pOYnpPZjFhSl9OU0UxYmZ1d1N5VGQtSkpfN0VlNmJ2ZFFvNGlveDVSc0FWeGlLQkpJYmRlWWhxT1ZEMTN4TllVNGpKaURrWG1NVjF0NGVIZC1RNVpqZg?oc=5",
+          "published": "Wed, 21 Oct 2026 07:57:14 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "\ud83c\uddee\ud83c\uddf3\ud83d\udcc8 TOP 10 SHARES IN THE INDIAN STOCK MARKET! \ud83d\udcb0 Want to learn about India's leading companies? \ud83d\ude80 From Reliance and HDFC Bank to TCS, Infosys and SBI, these companies represent some of the biggest names across different sectors of the India - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMjlEbWNfbjRXOGlCci12NWFOZWhlLUpEek9SMk5PNjFwcnJYeEczYlFYeWJiR2hSZXBRTHNsUXNmbG0yOXowR0JPT0EycDduZGlvWkZKNFppQ29xRnIzdXlFeTg4OGNSamNfenZPazdJTm5Wa3NxX05FMTREV1VXVnhuZEgyaGRjSEtrZ0V0YkVJT011UFRxeXZxNG1tU3F6aVpCVURvTDd2MmJHMzJ2RkFrVUxhYkhQVTF3Z21ieWREVHdYUnpwNld6RHNSaVA1c09RMXBtZGRtQQ?oc=5",
           "published": "Mon, 19 Oct 2026 11:07:07 GMT",
@@ -115,77 +123,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
           "published": "Tue, 20 Oct 2026 14:30:07 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Yes Bank",
-      "mentions": 7,
-      "investor_mentions": 2,
-      "commentary_mentions": 5,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
-          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Yes bank At1 bond liability Rs 15600 cr .. after apex court order ..this reason India fdi low ? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0RHRUQ3bEtBdTlDX1BoSE5VMWU0X0VXLTZ1bG5yTWNXVHh1SlJKSGpKWWVCbHJvWFNHU3pnV0c3Y2RFbHNRSkdxOWlLRlNLcU1XWE5wMi13WHRNU3ptYzBqdHcxaVBSUzIxQjNBOUV4U2pCVzRyX0YwbVBWVlhUTlFPazlLYlVLeXdYQkloTi1POVlXcGNhSDhTWTdKd1R6d0FybndwMlA?oc=5",
-          "published": "Thu, 15 Oct 2026 13:07:22 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
-          "published": "Fri, 16 Oct 2026 08:15:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Supreme Court Quashes Yes Bank\u2019s \u20b98,415 Cr AT-1 Bond Write-Offs | YES BANK Share Crash Explained - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aMTNhQzI0N2dhREZiSWhBaUpFbEtzdG1lODk0M2hZXzlyV2J6UklNQzVCbUszVzhSOHBzRUJJUWMyWnZlSnJFNnk1cDBFa05KcTNsbTl3?oc=5",
-          "published": "Fri, 16 Oct 2026 15:30:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
-          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
-          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#MarketToday | YES Bank shares: 57 lakh investors hit as AT-1 verdict raises RoA doubts; target prices http://ow.ly/5zBG106GYjC - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTm5TZ3JJQXhITGRyanEzcEtmWTFiQllfWnlRNTlkMjAxYjIzU0x2Tkx5XzBwclhacUpMWS16N2RBcXhob2ZTYzlJODFpLUN1TGprM1RVTU4zblMxbjBRRHhtM3l3QjN6Z2xuemQ3cHJvc183aElVZkQwSFNtZlFBb0h6WUVEWllwZXBqcFVxWFNhY2ZfdWw0dTAxa05IQmxVbGNpVFJvX0RaR29MNGg0V3RXSlJHMWxuVGx0dGp0NFQzMjR5Q2s2WEdXN0pjVkVMRTBzWUxIWXBfb2M?oc=5",
-          "published": "Wed, 21 Oct 2026 10:03:21 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -249,6 +186,69 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96aUJ5RF96TlV3djB5UFdtS1kyclVIQnh3bERJWmNtR3laMkpMaG44c0I3T19INEFOWlZCWnB6aHJmdExUM3NnWmhhcWJtU1B4RXlqZXVn?oc=5",
           "published": "Wed, 21 Oct 2026 15:13:01 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Yes Bank",
+      "mentions": 6,
+      "investor_mentions": 2,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Supreme court hammered \ud83d\udd28 yes bank in case of 8450 crore bond write off . - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzJkQ0ljd21FeFE1NDFBN3JZQmlGVTVTcHJJbGFfak1jLUs1SjZyVi1QZTN3ZUxwSnNnQXA1WDFGQTVnZlBxOFVDeGM4a0Zxc2NfRExRV0owSUQwYnplVXM5SDZZa2NfU0VuT0ppWDhtZGw2NDNiN0Z1Z2NUeVVoeWhLTU1Cc1lDeVlXZmNnajZ2dlhReGpycHZaR19xazQ3elAwQWxQbFI5U3E5?oc=5",
+          "published": "Thu, 15 Oct 2026 09:19:07 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Yes bank At1 bond liability Rs 15600 cr .. after apex court order ..this reason India fdi low ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0RHRUQ3bEtBdTlDX1BoSE5VMWU0X0VXLTZ1bG5yTWNXVHh1SlJKSGpKWWVCbHJvWFNHU3pnV0c3Y2RFbHNRSkdxOWlLRlNLcU1XWE5wMi13WHRNU3ptYzBqdHcxaVBSUzIxQjNBOUV4U2pCVzRyX0YwbVBWVlhUTlFPazlLYlVLeXdYQkloTi1POVlXcGNhSDhTWTdKd1R6d0FybndwMlA?oc=5",
+          "published": "Thu, 15 Oct 2026 13:07:22 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Yes Bank Stock Analysis, Impact Of AT-1 Ruling & What Lies Ahead For The Banking Sector - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdmxPbkpEUFhXQWdBSU9JTHI4ME4tQ25PUWJpRW9pSXZlOUpDenkwNGZ5ei14RkN6MTV3OE8wMmZwRFR2c2d6dENhRVdQVGVkY0pBeW5R?oc=5",
+          "published": "Fri, 16 Oct 2026 08:15:18 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Reliance, PCJ, Yes Bank, Indigo, Urban Company, Crompton share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Watch Full Discussion : https://www.youtube.com/watch?v=OZbRbvVJKyQ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTEJmODRIaTBXc2tKeEk2Q09FUU9pUXRJZHpFZnpYOUhpTXZRT0tkeU5Rdlc4UFRjS1RoYWJjTUtGcnloS2dkTVAtMDlMRl9BWUxGT1JBM3hyV1lTSkstY3JoMFZncF9mb1Z6cEJIcTU2eERlMVA0VTMyNUVDcy12UFptbGZ0WWRWR2x2UmJhbTI3YmVhVkNqMUliQ18tNXJPdEpqdjZ6QlhjY1FYaGNhUkkzWmJkUnctRS0tZFBnV24zdjRFcExmTW5JTzE3OUJ2dFZGQ2xvTmZhazc4SUU2UHQyTlJnWEV3dFlTNENtOFU5YWZHZWg5VVNUYlFfdTA?oc=5",
+          "published": "Fri, 16 Oct 2026 18:55:28 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
+          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "#MarketToday | YES Bank shares: 57 lakh investors hit as AT-1 verdict raises RoA doubts; target prices http://ow.ly/5zBG106GYjC - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTm5TZ3JJQXhITGRyanEzcEtmWTFiQllfWnlRNTlkMjAxYjIzU0x2Tkx5XzBwclhacUpMWS16N2RBcXhob2ZTYzlJODFpLUN1TGprM1RVTU4zblMxbjBRRHhtM3l3QjN6Z2xuemQ3cHJvc183aElVZkQwSFNtZlFBb0h6WUVEWllwZXBqcFVxWFNhY2ZfdWw0dTAxa05IQmxVbGNpVFJvX0RaR29MNGg0V3RXSlJHMWxuVGx0dGp0NFQzMjR5Q2s2WEdXN0pjVkVMRTBzWUxIWXBfb2M?oc=5",
+          "published": "Wed, 21 Oct 2026 10:03:21 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
