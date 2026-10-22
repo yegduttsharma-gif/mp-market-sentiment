@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-22T02:38:44.760526+00:00",
+  "collected_at": "2026-10-22T03:11:10.701103+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -17,16 +17,16 @@
         "topics": 50
       },
       "sensex": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 50
       },
       "kpit": {
         "status": "ok",
         "topics": 31
       },
       "reliance": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "hdfc bank": {
         "status": "ok",
@@ -45,8 +45,8 @@
         "topics": 50
       },
       "sbi": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       }
     },
     "topics": {
@@ -58,7 +58,7 @@
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 26,
+      "neutral": 28,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -76,7 +76,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 5,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -92,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 175,
+  "posts_checked": 176,
   "status": "collected"
 }
