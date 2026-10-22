@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-22T03:43:58.991123+00:00",
+  "collected_at": "2026-10-22T04:19:21.876494+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 231,
+  "unique_titles": 136,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 12,
+      "neutral": 5,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -73,55 +73,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbja0p/nifty_sensex_gapup_tomorrow/",
           "source": "IndianStockMarket",
           "published": "2026-10-21T10:15:24+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "When Nifty called Sitharaman ji for help",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbiib3/when_nifty_called_sitharaman_ji_for_help/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T09:28:43+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 2 of trading nifty",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbg3p1/day_2_of_trading_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T06:56:42+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "DAFAQ is going on with Nifty?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbg0t9/dafaq_is_going_on_with_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T06:51:36+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty New Day Low 22750 Jio Mere Laal \u2764\ufe0f\ud83d\udcc9",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbfwp6/nifty_new_day_low_22750_jio_mere_laal/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T06:44:41+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Tomorrow Gap up? What happen to Gift nifty in the last hour.",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xau5mx/tomorrow_gap_up_what_happen_to_gift_nifty_in_the/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-20T14:49:33+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "19th Oct NIFTY",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x9qwxa/19th_oct_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-19T08:03:20+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 19th Oct",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x91y1e/nifty_19th_oct/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-18T12:24:37+00:00",
           "sentiment": "neutral"
         },
         {
@@ -160,7 +111,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -177,20 +128,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbja0p/nifty_sensex_gapup_tomorrow/",
           "source": "IndianStockMarket",
           "published": "2026-10-21T10:15:24+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Sensex jumped 1,500 points on Thursday but more stocks fell than rose. How does that even happen?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x86297/sensex_jumped_1500_points_on_thursday_but_more/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-17T09:35:56+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Was the last week bad for most SENSEX technical traders?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1x815ee/was_the_last_week_bad_for_most_sensex_technical/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-17T04:36:02+00:00",
           "sentiment": "neutral"
         }
       ]
