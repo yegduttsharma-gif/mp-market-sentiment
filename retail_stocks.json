@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-23T05:27:27.932632+00:00",
+  "collected_at": "2026-10-23T06:01:42.538440+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 595,
+  "posts_collected": 593,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 6,
-    "indexed_reddit": 175,
+    "indexed_reddit": 172,
     "youtube": 193,
     "instagram": 100,
-    "facebook": 87,
-    "total_unique": 595
+    "facebook": 88,
+    "total_unique": 593
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 10,
+      "mentions": 11,
       "investor_mentions": 4,
-      "commentary_mentions": 6,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -90,6 +90,14 @@
           "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! Indian equity market indices set kick-off the truncated week on a cautious note amid elevated crude oil price and geopolitical uncertainty. Stocks like ICICI Bank, Vedanta, HDFC Bank, Power Grid, Y - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nVVlxM25EVFdBN3d0X0czS2dkRTd5YnN4SzNvaTJWODZ6TEFKcGE1clp5NmpXcXY3elo2OWk1ZGptbHl4U3VzRllwWVY4Q0V0bHc?oc=5",
           "published": "Mon, 19 Oct 2026 03:24:48 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market plunges as private bank shares drag Sensex down by over eight hundred points Sensex crashed 876.37 points and Nifty fell to 22,888.95 on Monday as private bank stocks faced heavy selling. Major firms like Axis Bank, HDFC Bank, and Infosys l - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wY1k0M0oyVFd2SHEyaGRDZTdjQjVucTVtd0xLZGVPQkg3aVBJeU1iWldYTjMtNnpwM2hWYnhJMG54ZXc1VjB2MXdGcjFxNmRobU9UTGV5T3l3dw?oc=5",
+          "published": "Mon, 19 Oct 2026 12:12:38 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -146,10 +154,136 @@
       "sufficient": false
     },
     {
-      "name": "Yes Bank",
-      "mentions": 7,
+      "name": "Infosys",
+      "mentions": 6,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 6,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
+          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market plunges as private bank shares drag Sensex down by over eight hundred points Sensex crashed 876.37 points and Nifty fell to 22,888.95 on Monday as private bank stocks faced heavy selling. Major firms like Axis Bank, HDFC Bank, and Infosys l - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wY1k0M0oyVFd2SHEyaGRDZTdjQjVucTVtd0xLZGVPQkg3aVBJeU1iWldYTjMtNnpwM2hWYnhJMG54ZXc1VjB2MXdGcjFxNmRobU9UTGV5T3l3dw?oc=5",
+          "published": "Mon, 19 Oct 2026 12:12:38 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83c\uddee\ud83c\uddf3\ud83d\udcc8 TOP 10 SHARES IN THE INDIAN STOCK MARKET! \ud83d\udcb0 Want to learn about India's leading companies? \ud83d\ude80 From Reliance and HDFC Bank to TCS, Infosys and SBI, these companies represent some of the biggest names across different sectors of the India - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMjlEbWNfbjRXOGlCci12NWFOZWhlLUpEek9SMk5PNjFwcnJYeEczYlFYeWJiR2hSZXBRTHNsUXNmbG0yOXowR0JPT0EycDduZGlvWkZKNFppQ29xRnIzdXlFeTg4OGNSamNfenZPazdJTm5Wa3NxX05FMTREV1VXVnhuZEgyaGRjSEtrZ0V0YkVJT011UFRxeXZxNG1tU3F6aVpCVURvTDd2MmJHMzJ2RkFrVUxhYkhQVTF3Z21ieWREVHdYUnpwNld6RHNSaVA1c09RMXBtZGRtQQ?oc=5",
+          "published": "Mon, 19 Oct 2026 11:07:07 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcc8 NIFTY 50 TODAY: BIGGEST GAINER \ud83d\udd25 Indian stock markets closed higher on October 16, 2026! Nifty 50 gained 0.65% to close at 23,146.15. \ud83d\ude80 Top Nifty 50 Gainers: - \ud83e\udd47 Tech Mahindra: +8.48% - \ud83e\udd48 TCS: +4.89% - \ud83e\udd49 Infosys: +4.61% IT stocks led the rally! \ud83d\udcca - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNalpwSTBRNW1NNVNJaEhIQWc3djl3bV9NMVNFQWZuallDcDRwVS01V0pNYnlGdzBnT0t2aWpVNXlTcXpLbGQxQWlUQkRkUE81ODhsR0hIRVVQdG00Q3UtenU2Q29FTDJrVUFXTFctNGZxSHBEaE5URER2UmxwNEVCU19HWVNTNHVBcFZQNl8xYWtkNDhKZUhsdThIdGpKWllTUUJObUZldHhmYnoxd2M1MXFPMXFISWlMeHVfZTUwWDdielRTdVFpdVRIWno2SW1pZDBEVl9ZaVBvUks2bk1icw?oc=5",
+          "published": "Fri, 16 Oct 2026 12:04:42 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
+          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
+          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 6,
+      "investor_mentions": 1,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Any one following IREDA? What is the future outlook? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRExOLVZoN2JoZThiMWxyZkQ0b01GUnk3c245V1ZpTm5zZ2JCYUJmSm9fMm16d3FyUkZfTWpIRlFZcjI0eWNNU09mNGNybnRvZ0RMZ0tVbEVhWHFQNjR6LVkycVpocHZkZ3p3Umc3NWRwWWFOUlo5UjQxdjk4emgwV3pMOXRvWllmZFNYZElRU1pBMGdFYjVpOHlRWWhZS2h3bmpTbHdvUkdpeFBneldvNg?oc=5",
+          "published": "Wed, 21 Oct 2026 07:52:18 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "IREDA & Waaree Renewable Q2 FY27 Results LIVE | Earnings, Margins & Stock Outlook - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03cEFwRi04VnZOOEoyOGgyblZnNHZqT0UzTlpBWnI1enhKM2dmYW5KSUJMaDFzdWxrb1RyTU9pZUZQaVhYeURmM0ktMzluV2lMZWZuQXVR?oc=5",
+          "published": "Tue, 20 Oct 2026 04:07:41 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
+          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
+          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP | STOCK MARKET INDIA - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
+          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Ireda Share News,Why Fall ?Hold Or Sell ?Analysis | Ireda Q2 Results/ Target Tomarrow - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OUXpzc0JZTU4wYm5SMklhcEJOVUlST3hESVJmZmxuaERseGFZTHFWMmY1N3pEVndJUmp6Y0xYMUhLRUo5UmNFaVVkRU1lNVk5UmJ5alZ3?oc=5",
+          "published": "Wed, 21 Oct 2026 17:10:01 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Yes Bank",
+      "mentions": 6,
+      "investor_mentions": 0,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -204,78 +338,15 @@
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "moneycontrol.com. . #MarketsWithMC | Ayuresh Joshi, Director, Research at Marketsmith India, discusses the sharp fall in Yes Bank shares after the Supreme Court upheld the Bombay High Court ruling that quashed the bank\u2019s Rs 8,415 crore AT1 bond write- - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONGk1eTZXMzFCZy0yV0JEd1QzRWhvd0NWMUlTU1lrcnNVSWcxa0pKTDJYYU9GVE9LcnFDeEZiandfb0VQOUx0T3V4WXgzOGNRX3RhaEp6T2xKTG9sZzhhTlFZQW1uNGxBUGJ2LW9uMXpxWm15TmVCMVdMMHg2QkdmUFNYUy1VQUxRWF8xZDV6X2ktX3daVlJFR19Hd3Y1b3E0cDFjUDVteWxud1JhVVRwVzBCT0ZCV2drS3ViM3pzWFBJbWVqYVFoNmctZXBuTWdFQjdiVUdXeWhjQ1U?oc=5",
-          "published": "Fri, 16 Oct 2026 09:03:45 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IREDA",
-      "mentions": 5,
-      "investor_mentions": 1,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Any one following IREDA? What is the future outlook? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRExOLVZoN2JoZThiMWxyZkQ0b01GUnk3c245V1ZpTm5zZ2JCYUJmSm9fMm16d3FyUkZfTWpIRlFZcjI0eWNNU09mNGNybnRvZ0RMZ0tVbEVhWHFQNjR6LVkycVpocHZkZ3p3Umc3NWRwWWFOUlo5UjQxdjk4emgwV3pMOXRvWllmZFNYZElRU1pBMGdFYjVpOHlRWWhZS2h3bmpTbHdvUkdpeFBneldvNg?oc=5",
-          "published": "Wed, 21 Oct 2026 07:52:18 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "IREDA & Waaree Renewable Q2 FY27 Results LIVE | Earnings, Margins & Stock Outlook - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03cEFwRi04VnZOOEoyOGgyblZnNHZqT0UzTlpBWnI1enhKM2dmYW5KSUJMaDFzdWxrb1RyTU9pZUZQaVhYeURmM0ktMzluV2lMZWZuQXVR?oc=5",
-          "published": "Tue, 20 Oct 2026 04:07:41 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
-          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
-          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
-          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Axis Bank",
-      "mentions": 5,
+      "mentions": 6,
       "investor_mentions": 1,
-      "commentary_mentions": 4,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -308,6 +379,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Stock market plunges as private bank shares drag Sensex down by over eight hundred points Sensex crashed 876.37 points and Nifty fell to 22,888.95 on Monday as private bank stocks faced heavy selling. Major firms like Axis Bank, HDFC Bank, and Infosys l - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wY1k0M0oyVFd2SHEyaGRDZTdjQjVucTVtd0xLZGVPQkg3aVBJeU1iWldYTjMtNnpwM2hWYnhJMG54ZXc1VjB2MXdGcjFxNmRobU9UTGV5T3l3dw?oc=5",
+          "published": "Mon, 19 Oct 2026 12:12:38 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
           "published": "Mon, 19 Oct 2026 05:06:27 GMT",
@@ -322,53 +401,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
-          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83c\uddee\ud83c\uddf3\ud83d\udcc8 TOP 10 SHARES IN THE INDIAN STOCK MARKET! \ud83d\udcb0 Want to learn about India's leading companies? \ud83d\ude80 From Reliance and HDFC Bank to TCS, Infosys and SBI, these companies represent some of the biggest names across different sectors of the India - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMjlEbWNfbjRXOGlCci12NWFOZWhlLUpEek9SMk5PNjFwcnJYeEczYlFYeWJiR2hSZXBRTHNsUXNmbG0yOXowR0JPT0EycDduZGlvWkZKNFppQ29xRnIzdXlFeTg4OGNSamNfenZPazdJTm5Wa3NxX05FMTREV1VXVnhuZEgyaGRjSEtrZ0V0YkVJT011UFRxeXZxNG1tU3F6aVpCVURvTDd2MmJHMzJ2RkFrVUxhYkhQVTF3Z21ieWREVHdYUnpwNld6RHNSaVA1c09RMXBtZGRtQQ?oc=5",
-          "published": "Mon, 19 Oct 2026 11:07:07 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
-          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
-          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -472,9 +504,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Share Market LIVE : Eternal, Tata tech, wipro, Netweb Tech, Indian Hotels Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBua2xHNVVyVmZqU0xyNlRxbVhqaWFIMm5rUTJ5TmhGRGRwNGVtVjJFR2tKQTVsaHJuOGFpaFgweS1PdFRvdjUxT3JGRk5BZFVQbkFlOF9B?oc=5",
-          "published": "Thu, 22 Oct 2026 04:31:40 GMT",
+          "title": "IRFC, SCI, Paras Def., Apollo Mic., Indian Hotels, Jio, Fin., Mankind, Wipro \u0915\u0947 Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRb2EyZ3g3Tkh2TVlOZjROT0JBR1RDTDVqVWRlVGlhOHMtSmZucGN2WDJ1WFBsVnJoQ1Y4c2VFS0Z1N041VFNMcUNRM1g2NFRlVzBueXVn?oc=5",
+          "published": "Fri, 16 Oct 2026 11:30:12 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -573,20 +605,20 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
-          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "HFCL Q2 FY27: best quarter ever, PAT up 448%, FY27 growth guidance raised to 80%+.... What!!!!!! - Reddit",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0d0Qkg3dkMzQl9yMnRzTXlSbUR6eVlJTWlUZmdVWGdPUjZFaDlTaDl2LXNMU09pckRYOGpwV1ZEd1Y5N3dDTEFpeHVrZDBvOTlLVHRMYVZ5b0hOOXo3NkJ4bk5aQVVPSTQ1bGZwUDd0U0c1SmhQNXFsa3g2ZTFfT1ozSnlpTmd6bnlpRzVHdTZhTFZhVnBobC1Xb1g1ZUstdW9hNm5WR1RJUQ?oc=5",
           "published": "Mon, 19 Oct 2026 16:38:51 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
+          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -654,6 +686,29 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
           "published": "Mon, 19 Oct 2026 05:06:27 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IRFC",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IRFC, SCI, Paras Def., Apollo Mic., Indian Hotels, Jio, Fin., Mankind, Wipro \u0915\u0947 Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRb2EyZ3g3Tkh2TVlOZjROT0JBR1RDTDVqVWRlVGlhOHMtSmZucGN2WDJ1WFBsVnJoQ1Y4c2VFS0Z1N041VFNMcUNRM1g2NFRlVzBueXVn?oc=5",
+          "published": "Fri, 16 Oct 2026 11:30:12 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -936,20 +991,6 @@
     },
     {
       "name": "JP Power",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "IRFC",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
