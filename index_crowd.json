@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-23T21:41:59.221284+00:00",
+  "collected_at": "2026-10-23T22:12:28.941958+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,72 +44,16 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 231,
+  "unique_titles": 133,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 10,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
-        {
-          "title": "Day 4 of trading nifty",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xd7z9d/day_4_of_trading_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-23T08:03:40+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Hot Take : Nifty should go down to 15k",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xd5jee/hot_take_nifty_should_go_down_to_15k/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-23T05:37:43+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty IT \ud83d\uddff",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xd5cjv/nifty_it/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-23T05:26:49+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Anyone else think Nifty bottomed at 22,180",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xcobm8/anyone_else_think_nifty_bottomed_at_22180/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-22T17:04:28+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 3 of trading nifty",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xcdtpw/day_3_of_trading_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-22T09:24:50+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "When Nifty called Sitharaman ji for help",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbiib3/when_nifty_called_sitharaman_ji_for_help/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T09:28:43+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 2 of trading nifty",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbg3p1/day_2_of_trading_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T06:56:42+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "DAFAQ is going on with Nifty?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xbg0t9/dafaq_is_going_on_with_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-21T06:51:36+00:00",
-          "sentiment": "neutral"
-        },
         {
           "title": "Nifty and sectoral valuations",
           "url": "https://tradingqna.com/t/nifty-and-sectoral-valuations/198971",
