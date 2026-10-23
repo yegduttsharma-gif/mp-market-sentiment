@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-22T23:36:39.368990+00:00",
+  "collected_at": "2026-10-23T00:02:28.273671+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -21,8 +21,8 @@
         "topics": 50
       },
       "kpit": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 31
       },
       "reliance": {
         "status": "ok",
@@ -41,12 +41,12 @@
         "topics": 50
       },
       "infosys": {
-        "status": "ok",
-        "topics": 50
-      },
-      "sbi": {
         "status": "unavailable",
         "error": "HTTPError"
+      },
+      "sbi": {
+        "status": "ok",
+        "topics": 50
       }
     },
     "topics": {
@@ -92,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 184,
+  "posts_checked": 187,
   "status": "collected"
 }
