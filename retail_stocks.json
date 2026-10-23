@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-23T12:46:14.110038+00:00",
+  "collected_at": "2026-10-23T13:26:56.012412+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 596,
+  "posts_collected": 593,
   "source_counts": {
     "tradingqna": 35,
     "valuepickr": 6,
-    "indexed_reddit": 172,
+    "indexed_reddit": 170,
     "youtube": 197,
     "instagram": 100,
-    "facebook": 86,
-    "total_unique": 596
+    "facebook": 85,
+    "total_unique": 593
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -312,6 +312,61 @@
       "sufficient": false
     },
     {
+      "name": "Tata Motors",
+      "mentions": 5,
+      "investor_mentions": 0,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock To Buy: Tata Motors \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u0915\u093e Outlook \u0915\u0948\u0938\u093e? \u0924\u0947\u091c\u0940 \u0915\u0947 \u0938\u0902\u0915\u0947\u0924\u094b\u0902 \u0915\u0947 \u092c\u0940\u091a \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vN0NyTy1ZRnJNSV96Wi1kaFI4U0U2LUl1V0dUbVN0bEFGOHpVRUdlYkxxZmk2a3Q4bks1NWdpS1hDVXcyM3Z4ME5ieUFWazJDTWFvNlVn?oc=5",
+          "published": "Fri, 23 Oct 2026 09:12:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV Business Swings To Profit From \u20b9561 Cr Loss! Can The Rally Continue? | ET Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSlZvUFdNRkt2NzZ1Q3JGTnlGazNtOS1ORUVKZy12cG43Vk1IcmtMTFVmdUUtaTkzVy1BaU5tVDAtMllNQVMtcG5aNUR1cGV3QThLZGd3?oc=5",
+          "published": "Fri, 23 Oct 2026 12:04:49 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Price: Tata Motors \u0915\u0947 \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, \u0936\u0949\u0930\u094d\u091f \u0914\u0930 \u0932\u0949\u0928\u094d\u0917 \u091f\u0930\u094d\u092e \u0928\u093f\u0935\u0947\u0936\u0915 \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TNE5WY1g5dExQN2VqbFpFRDhGa1B2UzB5cTllN1NoYWFqdEZOaW5fSnZkbUF4MGs0cnJVOFZ5RWpXemZhbXRhWXVLdGVwdzFSVlhsckJB?oc=5",
+          "published": "Sat, 17 Oct 2026 12:30:38 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Q2 Results 2027 | Tata Motors Results Today | Tata Motors Share News Today | TMCV - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kU0s1eS1SeXlsOEgtQTFGZTBJQzBmWnJzUlRIUnRkYThIdzJBYXhDYWQ5Ql9JUWh5X1VrcWxwRm9rUlZxMk9GYnZ4VnhSOXFDaEZ4YW5YUjNENXN5UXZ6SHE1a000Y3o0WkRjYTBR?oc=5",
+          "published": "Fri, 23 Oct 2026 10:30:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors (CV) Q2 Results: Net Profit At \u20b92,138 CR; EBITDA Margin At 11.4% - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96ZzNWblhZTU43OF9CR21kaTVSVFJTVUgyaVR4bVh2NWJFaWhzeVNjQ3ZfSGl1YUJ5ZnRkR1dEYzgwQzlUQ3JkQ2NSOVNrak5Sb29fV1RR?oc=5",
+          "published": "Fri, 23 Oct 2026 10:36:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IREDA",
       "mentions": 5,
       "investor_mentions": 1,
@@ -359,53 +414,6 @@
           "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP | STOCK MARKET INDIA - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
           "published": "Mon, 19 Oct 2026 14:51:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Motors",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock To Buy: Tata Motors \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u0915\u093e Outlook \u0915\u0948\u0938\u093e? \u0924\u0947\u091c\u0940 \u0915\u0947 \u0938\u0902\u0915\u0947\u0924\u094b\u0902 \u0915\u0947 \u092c\u0940\u091a \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vN0NyTy1ZRnJNSV96Wi1kaFI4U0U2LUl1V0dUbVN0bEFGOHpVRUdlYkxxZmk2a3Q4bks1NWdpS1hDVXcyM3Z4ME5ieUFWazJDTWFvNlVn?oc=5",
-          "published": "Fri, 23 Oct 2026 09:12:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors CV Business Swings To Profit From \u20b9561 Cr Loss! Can The Rally Continue? | ET Now - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSlZvUFdNRkt2NzZ1Q3JGTnlGazNtOS1ORUVKZy12cG43Vk1IcmtMTFVmdUUtaTkzVy1BaU5tVDAtMllNQVMtcG5aNUR1cGV3QThLZGd3?oc=5",
-          "published": "Fri, 23 Oct 2026 12:04:49 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Price: Tata Motors \u0915\u0947 \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, \u0936\u0949\u0930\u094d\u091f \u0914\u0930 \u0932\u0949\u0928\u094d\u0917 \u091f\u0930\u094d\u092e \u0928\u093f\u0935\u0947\u0936\u0915 \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TNE5WY1g5dExQN2VqbFpFRDhGa1B2UzB5cTllN1NoYWFqdEZOaW5fSnZkbUF4MGs0cnJVOFZ5RWpXemZhbXRhWXVLdGVwdzFSVlhsckJB?oc=5",
-          "published": "Sat, 17 Oct 2026 12:30:38 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors (CV) Q2 Results: Net Profit At \u20b92,138 CR; EBITDA Margin At 11.4% - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96ZzNWblhZTU43OF9CR21kaTVSVFJTVUgyaVR4bVh2NWJFaWhzeVNjQ3ZfSGl1YUJ5ZnRkR1dEYzgwQzlUQ3JkQ2NSOVNrak5Sb29fV1RR?oc=5",
-          "published": "Fri, 23 Oct 2026 10:36:15 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -493,9 +501,9 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 3,
+      "mentions": 2,
       "investor_mentions": 0,
-      "commentary_mentions": 3,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -518,23 +526,15 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, India Cements, RIL, JSW Infra, RVNL, Indian Hotels, BEML, Kalyan \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSVdpZzhhRjJGQjRPUUlsalQ5SktiSFhldDhSbDJLWEdqMHlxNGQycWpHb2VFcm9Ld0JHcXZkbDdoUWh2Ul9QeWNUSF9ENzNVSGx5MFVR?oc=5",
-          "published": "Thu, 22 Oct 2026 07:11:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Indian Hotels",
-      "mentions": 3,
+      "mentions": 2,
       "investor_mentions": 0,
-      "commentary_mentions": 3,
+      "commentary_mentions": 2,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -556,76 +556,6 @@
           "published": "Mon, 19 Oct 2026 04:18:20 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, India Cements, RIL, JSW Infra, RVNL, Indian Hotels, BEML, Kalyan \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSVdpZzhhRjJGQjRPUUlsalQ5SktiSFhldDhSbDJLWEdqMHlxNGQycWpHb2VFcm9Ld0JHcXZkbDdoUWh2Ul9QeWNUSF9ENzNVSGx5MFVR?oc=5",
-          "published": "Thu, 22 Oct 2026 07:11:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "RVNL",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
-          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, India Cements, RIL, JSW Infra, RVNL, Indian Hotels, BEML, Kalyan \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSVdpZzhhRjJGQjRPUUlsalQ5SktiSFhldDhSbDJLWEdqMHlxNGQycWpHb2VFcm9Ld0JHcXZkbDdoUWh2Ul9QeWNUSF9ENzNVSGx5MFVR?oc=5",
-          "published": "Thu, 22 Oct 2026 07:11:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "HFCL",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HFCL Q2 FY27: best quarter ever, PAT up 448%, FY27 growth guidance raised to 80%+.... What!!!!!! - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0d0Qkg3dkMzQl9yMnRzTXlSbUR6eVlJTWlUZmdVWGdPUjZFaDlTaDl2LXNMU09pckRYOGpwV1ZEd1Y5N3dDTEFpeHVrZDBvOTlLVHRMYVZ5b0hOOXo3NkJ4bk5aQVVPSTQ1bGZwUDd0U0c1SmhQNXFsa3g2ZTFfT1ozSnlpTmd6bnlpRzVHdTZhTFZhVnBobC1Xb1g1ZUstdW9hNm5WR1RJUQ?oc=5",
-          "published": "Mon, 19 Oct 2026 16:38:51 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
-          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
       ],
@@ -671,6 +601,29 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
           "published": "Sun, 18 Oct 2026 11:59:00 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "RVNL",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
+          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -724,6 +677,29 @@
       "sufficient": false
     },
     {
+      "name": "HFCL",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
+          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "MCX",
       "mentions": 1,
       "investor_mentions": 0,
@@ -740,29 +716,6 @@
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQWNxMWp3ZVRlcnlNNmVMU28wZ3ZtQ3RqUlR4VzlJM2NzblpJaldoelRWbHphdjV5TWtiWUNoaG1yQ214OUd1b0JybTc0M2VsUmNjcS02ektza0NqdlVzVjB2dDFneTlQVzE4Zm1OMDNzSEltNmsyeEpLUWhYOEJHRXlIZlhmeU12U1FiTjVUcm5ZSmdFcjVaUG52bHZkdzhLMDBXNm9uazBuSEItRURsdWtpNWJabDJ4WHVxQmpZblZiMHVkUnJnTWxKaVVia195OHVjTUMzNGo?oc=5",
           "published": "Tue, 20 Oct 2026 02:43:26 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Polycab",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Polycab Stock Under Pressure! What's the Real Reason? | \u092a\u0949\u0932\u0940\u0915\u0948\u092c \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f |Anuj Singhal On Polycab - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iQWpxbXEwRk1oOVZJUnNLcnhUSk50eGtnWGdDVTQtU3Fja184cl90SWF4VU9KaURWWjFKOG9VSW5XZWhFRzZlbktBQ0JycUR2VFRTUnR3?oc=5",
-          "published": "Wed, 21 Oct 2026 10:23:29 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -1317,6 +1270,20 @@
     },
     {
       "name": "Persistent Systems",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Polycab",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
