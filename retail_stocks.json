@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-24T11:43:44.452410+00:00",
+  "collected_at": "2026-10-24T12:11:14.111301+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 596,
+  "posts_collected": 597,
   "source_counts": {
     "tradingqna": 35,
     "valuepickr": 8,
-    "indexed_reddit": 171,
+    "indexed_reddit": 172,
     "youtube": 194,
     "facebook": 95,
     "instagram": 93,
-    "total_unique": 596
+    "total_unique": 597
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -757,29 +757,6 @@
       "sufficient": false
     },
     {
-      "name": "Zomato / Eternal",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock In Action: TCS \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, Swiggy \u092c\u0947\u091a\u0915\u0930 Zomato \u0916\u0930\u0940\u0926\u0947\u0902? | Anil Singhvi \u0915\u0940 \u0930\u093e\u092f - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FZHN3Y24wWmtCWmE0aXJfbDFyNVdoZUJ4a1FwQ3NNZ1FaTEotbXk1MjBIRVhreVZNYXhXcEIyZEx5ZGxTWFRtOFZMakdJYnR0ODNxbkd3?oc=5",
-          "published": "Fri, 23 Oct 2026 09:06:07 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Jio Financial",
       "mentions": 1,
       "investor_mentions": 0,
@@ -908,8 +885,8 @@
       "evidence": [
         {
           "title": "Domestic equity markets including NSE and BSE will remain closed on October 20 for Dussehra. This holiday follows a significant market drop due to weak private banking and disappointing earnings. The Multi Commodity Exchange will operate in the evenin - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFMtYy1kYjVjeEhLdVFRQWJLRjZrSUF2d090OV8zdWYyZG9KZHg2bDdhRXR4WWVSYXRkUEV2RTNDTGVmbGdMR011cXh3amFRQ2dFWVFuSmFFU2x4LVpVYURrTE54X0wzcnpTc2tVT2tRX21heVB4YnJLQWxBbGpMZktfNFZiakdaMTB6TjZwR3NURk5NNkJ6VmlibmRyVlVOeFRZRGtCZEFQaUNxQTd3amJCQk56UWdHb2lsSkVYN3hNVFZtSTdkSDVTN3BDM1FrTHNsZjhZV3o?oc=5",
-          "published": "Tue, 20 Oct 2026 02:43:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQWNxMWp3ZVRlcnlNNmVMU28wZ3ZtQ3RqUlR4VzlJM2NzblpJaldoelRWbHphdjV5TWtiWUNoaG1yQ214OUd1b0JybTc0M2VsUmNjcS02ektza0NqdlVzVjB2dDFneTlQVzE4Zm1OMDNzSEltNmsyeEpLUWhYOEJHRXlIZlhmeU12U1FiTjVUcm5ZSmdFcjVaUG52bHZkdzhLMDBXNm9uazBuSEItRURsdWtpNWJabDJ4WHVxQmpZblZiMHVkUnJnTWxKaVVia195OHVjTUMzNGo?oc=5",
+          "published": "Tue, 20 Oct 2026 02:43:26 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -989,6 +966,20 @@
     },
     {
       "name": "BHEL",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Zomato / Eternal",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
