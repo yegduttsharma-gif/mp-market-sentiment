@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-24T04:25:44.726068+00:00",
+  "collected_at": "2026-10-24T04:59:59.840627+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 595,
+  "posts_collected": 600,
   "source_counts": {
-    "tradingqna": 35,
+    "tradingqna": 36,
     "valuepickr": 6,
-    "indexed_reddit": 172,
-    "youtube": 195,
+    "indexed_reddit": 174,
     "facebook": 95,
-    "instagram": 92,
-    "total_unique": 595
+    "instagram": 93,
+    "youtube": 196,
+    "total_unique": 600
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -345,9 +345,9 @@
     },
     {
       "name": "IREDA",
-      "mentions": 6,
+      "mentions": 7,
       "investor_mentions": 1,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -368,6 +368,14 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
           "published": "Mon, 19 Oct 2026 05:06:27 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IREDA & Waaree Renewable Q2 FY27 Results LIVE | Earnings, Margins & Stock Outlook - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03cEFwRi04VnZOOEoyOGgyblZnNHZqT0UzTlpBWnI1enhKM2dmYW5KSUJMaDFzdWxrb1RyTU9pZUZQaVhYeURmM0ktMzluV2lMZWZuQXVR?oc=5",
+          "published": "Tue, 20 Oct 2026 04:07:41 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -749,6 +757,29 @@
       "sufficient": false
     },
     {
+      "name": "Zomato / Eternal",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock In Action: TCS \u092e\u0947\u0902 \u0924\u0947\u091c\u0940, Swiggy \u092c\u0947\u091a\u0915\u0930 Zomato \u0916\u0930\u0940\u0926\u0947\u0902? | Anil Singhvi \u0915\u0940 \u0930\u093e\u092f - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FZHN3Y24wWmtCWmE0aXJfbDFyNVdoZUJ4a1FwQ3NNZ1FaTEotbXk1MjBIRVhreVZNYXhXcEIyZEx5ZGxTWFRtOFZMakdJYnR0ODNxbkd3?oc=5",
+          "published": "Fri, 23 Oct 2026 09:06:07 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Jio Financial",
       "mentions": 1,
       "investor_mentions": 0,
@@ -958,20 +989,6 @@
     },
     {
       "name": "BHEL",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Zomato / Eternal",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
