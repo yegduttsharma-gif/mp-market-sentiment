@@ -1,21 +1,17 @@
 {
   "platform": "FrontPage",
-  "collected_at": "2026-10-24T16:39:59.393317+00:00",
+  "collected_at": "2026-10-24T17:09:41.333400+00:00",
   "method": "linked_public_post_author_verification_v1",
   "sources": {
     "stock_bets": {
       "url": "https://front.page/stock-bets",
-      "status": "accessible",
-      "http_status": 200,
-      "visible_text_chars": 908,
-      "candidate_post_links": 0
+      "status": "unavailable",
+      "error": "TimeoutError"
     },
     "indices": {
       "url": "https://front.page/all-about-indices",
-      "status": "accessible",
-      "http_status": 200,
-      "visible_text_chars": 1011,
-      "candidate_post_links": 0
+      "status": "unavailable",
+      "error": "TimeoutError"
     },
     "comments": {
       "url": "https://front.page/comments",
@@ -26,10 +22,8 @@
     },
     "signals": {
       "url": "https://front.page/trading-systems-and-signals",
-      "status": "accessible",
-      "http_status": 200,
-      "visible_text_chars": 950,
-      "candidate_post_links": 0
+      "status": "unavailable",
+      "error": "TimeoutError"
     }
   },
   "assets": {
