@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-25T07:53:25.347631+00:00",
+  "collected_at": "2026-10-25T08:24:45.495506+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 667,
+  "posts_collected": 588,
   "source_counts": {
-    "tradingqna": 35,
+    "tradingqna": 36,
     "valuepickr": 6,
-    "indexed_reddit": 243,
+    "indexed_reddit": 164,
     "youtube": 195,
     "facebook": 96,
-    "instagram": 92,
-    "total_unique": 667
+    "instagram": 91,
+    "total_unique": 588
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -154,93 +154,6 @@
       "sufficient": false
     },
     {
-      "name": "Tata Motors",
-      "mentions": 9,
-      "investor_mentions": 1,
-      "commentary_mentions": 8,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stuck with these stocks bought with MTF since 3-4 months. What to do? Invested and kept averaging . What is wrong with ONGC even with such high crude prices? IRFC is dead ??? Tata Motors Passenger Vehicle another Dead story.. - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3V3YVhrRjFLV2xGOHQ3dHNfM2dTWFFYSEdxTlBNdU9taFhPcnppLTJZZkc0RXdrMVVCUlFiaHhpS2d5Q21uRldRelRYQUVJQkFHYUN0VlFiekkxeXBvT2NrZ2M4UEhBcTM4SlR2cjQ4NFpyblhpTks5N1FfbUFqVTdPNzdiZFJ5TWlxMzR0REdNSl9kZVdtd18wbFJxUXhxSUo5M0U5eEdHb2RxaGc?oc=5",
-          "published": "Fri, 23 Oct 2026 17:42:13 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock To Buy: Tata Motors \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u0915\u093e Outlook \u0915\u0948\u0938\u093e? \u0924\u0947\u091c\u0940 \u0915\u0947 \u0938\u0902\u0915\u0947\u0924\u094b\u0902 \u0915\u0947 \u092c\u0940\u091a \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vN0NyTy1ZRnJNSV96Wi1kaFI4U0U2LUl1V0dUbVN0bEFGOHpVRUdlYkxxZmk2a3Q4bks1NWdpS1hDVXcyM3Z4ME5ieUFWazJDTWFvNlVn?oc=5",
-          "published": "Fri, 23 Oct 2026 09:12:03 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors CV Business Swings To Profit From \u20b9561 Cr Loss! Can The Rally Continue? | ET Now - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSlZvUFdNRkt2NzZ1Q3JGTnlGazNtOS1ORUVKZy12cG43Vk1IcmtMTFVmdUUtaTkzVy1BaU5tVDAtMllNQVMtcG5aNUR1cGV3QThLZGd3?oc=5",
-          "published": "Fri, 23 Oct 2026 12:04:49 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Q2 results 2027 | TMCV q2 results today | Tata Motors Share News | TMCV Share news today - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTHdaUmFmVDk4dmloUHIxWlVqMW5ha0lDTEJPamlDekNMZzNuclZESUptYWRzZkN2ZkpOTzRua3ptMHI3ZTJ0Wk9kQk5tQm0tTEZXU01FNHNpZl9mVTRiaTRXUno0NVMtcEh1RUdR?oc=5",
-          "published": "Fri, 23 Oct 2026 10:35:46 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Q2 Results 2027 | Tata Motors Results Today | Tata Motors Share News Today | TMCV - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kU0s1eS1SeXlsOEgtQTFGZTBJQzBmWnJzUlRIUnRkYThIdzJBYXhDYWQ5Ql9JUWh5X1VrcWxwRm9rUlZxMk9GYnZ4VnhSOXFDaEZ4YW5YUjNENXN5UXZ6SHE1a000Y3o0WkRjYTBR?oc=5",
-          "published": "Fri, 23 Oct 2026 10:30:30 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "MARKET CRASH? \ud83d\udca5 JIO IPO 18X SUBSCRIBED | INFOSYS RESULTS & ADR | TATA MOTORS | GOLD SILVER Midcap - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43R241QUUtblVoMzFhTk41MkJOVU1pRzFXTEZTbzdSQVRwTGF1LXhpWVFkVFp4RnliUHAzdlBjSGdNcVA0UjlWUXIwaWxJTHJLcDBKSHF3?oc=5",
-          "published": "Fri, 23 Oct 2026 13:49:55 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors (CV) Q2 Results: Net Profit At \u20b92,138 CR; EBITDA Margin At 11.4% - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96ZzNWblhZTU43OF9CR21kaTVSVFJTVUgyaVR4bVh2NWJFaWhzeVNjQ3ZfSGl1YUJ5ZnRkR1dEYzgwQzlUQ3JkQ2NSOVNrak5Sb29fV1RR?oc=5",
-          "published": "Fri, 23 Oct 2026 10:36:15 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "DOW JONES -650 CRASH\ud83e\udee8\ud83d\udd34INFOSYS Q2 ADR CRASH\ud83d\udd34TATA MOTORS Q2\ud83d\udd34ADANI POWER Q2\ud83d\udd34SBI\ud83d\udd34JIO IPO GMP\ud83d\udd34GOLD SILVER - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UTY2VVBnWXdyN2loYXd6T0tNVGxfdHprRlNtT01MaG5aaHFvTGxQWHA2anZjUnpKd1dXSzljVW9Zc2FDSnZyS2FMb1YxanRBakEtUTJB?oc=5",
-          "published": "Fri, 23 Oct 2026 18:02:46 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Big Breaking News Today | Tata Motors Share Why Down Today | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMT1pzRVdJWVNpTldzTV9peTZjUkFqSTlwRmZqN0pWaFFLUFI4OGFndHRVYTV2MjlucFVJeU9lZ2FpdEZNZXNUS3U2ZnAtSEctcWhKV1VR?oc=5",
-          "published": "Fri, 23 Oct 2026 06:39:47 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "HDFC Bank",
       "mentions": 8,
       "investor_mentions": 2,
@@ -320,10 +233,10 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 4,
+      "name": "Tata Motors",
+      "mentions": 8,
       "investor_mentions": 1,
-      "commentary_mentions": 3,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -332,33 +245,65 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Any one following IREDA? What is the future outlook? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRExOLVZoN2JoZThiMWxyZkQ0b01GUnk3c245V1ZpTm5zZ2JCYUJmSm9fMm16d3FyUkZfTWpIRlFZcjI0eWNNU09mNGNybnRvZ0RMZ0tVbEVhWHFQNjR6LVkycVpocHZkZ3p3Umc3NWRwWWFOUlo5UjQxdjk4emgwV3pMOXRvWllmZFNYZElRU1pBMGdFYjVpOHlRWWhZS2h3bmpTbHdvUkdpeFBneldvNg?oc=5",
-          "published": "Wed, 21 Oct 2026 07:52:18 GMT",
+          "title": "Stuck with these stocks bought with MTF since 3-4 months. What to do? Invested and kept averaging . What is wrong with ONGC even with such high crude prices? IRFC is dead ??? Tata Motors Passenger Vehicle another Dead story.. - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3V3YVhrRjFLV2xGOHQ3dHNfM2dTWFFYSEdxTlBNdU9taFhPcnppLTJZZkc0RXdrMVVCUlFiaHhpS2d5Q21uRldRelRYQUVJQkFHYUN0VlFiekkxeXBvT2NrZ2M4UEhBcTM4SlR2cjQ4NFpyblhpTks5N1FfbUFqVTdPNzdiZFJ5TWlxMzR0REdNSl9kZVdtd18wbFJxUXhxSUo5M0U5eEdHb2RxaGc?oc=5",
+          "published": "Fri, 23 Oct 2026 17:42:13 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "IREDA & Waaree Renewable Q2 FY27 Results LIVE | Earnings, Margins & Stock Outlook - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03cEFwRi04VnZOOEoyOGgyblZnNHZqT0UzTlpBWnI1enhKM2dmYW5KSUJMaDFzdWxrb1RyTU9pZUZQaVhYeURmM0ktMzluV2lMZWZuQXVR?oc=5",
-          "published": "Tue, 20 Oct 2026 10:25:15 GMT",
+          "title": "Stock To Buy: Tata Motors \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u0915\u093e Outlook \u0915\u0948\u0938\u093e? \u0924\u0947\u091c\u0940 \u0915\u0947 \u0938\u0902\u0915\u0947\u0924\u094b\u0902 \u0915\u0947 \u092c\u0940\u091a \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vN0NyTy1ZRnJNSV96Wi1kaFI4U0U2LUl1V0dUbVN0bEFGOHpVRUdlYkxxZmk2a3Q4bks1NWdpS1hDVXcyM3Z4ME5ieUFWazJDTWFvNlVn?oc=5",
+          "published": "Fri, 23 Oct 2026 09:12:03 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
-          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "title": "Tata Motors CV Business Swings To Profit From \u20b9561 Cr Loss! Can The Rally Continue? | ET Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSlZvUFdNRkt2NzZ1Q3JGTnlGazNtOS1ORUVKZy12cG43Vk1IcmtMTFVmdUUtaTkzVy1BaU5tVDAtMllNQVMtcG5aNUR1cGV3QThLZGd3?oc=5",
+          "published": "Fri, 23 Oct 2026 12:04:49 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
-          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
+          "title": "Tata Motors Q2 results 2027 | TMCV q2 results today | Tata Motors Share News | TMCV Share news today - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTHdaUmFmVDk4dmloUHIxWlVqMW5ha0lDTEJPamlDekNMZzNuclZESUptYWRzZkN2ZkpOTzRua3ptMHI3ZTJ0Wk9kQk5tQm0tTEZXU01FNHNpZl9mVTRiaTRXUno0NVMtcEh1RUdR?oc=5",
+          "published": "Fri, 23 Oct 2026 10:35:46 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Q2 Results 2027 | Tata Motors Results Today | Tata Motors Share News Today | TMCV - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kU0s1eS1SeXlsOEgtQTFGZTBJQzBmWnJzUlRIUnRkYThIdzJBYXhDYWQ5Ql9JUWh5X1VrcWxwRm9rUlZxMk9GYnZ4VnhSOXFDaEZ4YW5YUjNENXN5UXZ6SHE1a000Y3o0WkRjYTBR?oc=5",
+          "published": "Fri, 23 Oct 2026 10:30:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "MARKET CRASH? \ud83d\udca5 JIO IPO 18X SUBSCRIBED | INFOSYS RESULTS & ADR | TATA MOTORS | GOLD SILVER Midcap - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43R241QUUtblVoMzFhTk41MkJOVU1pRzFXTEZTbzdSQVRwTGF1LXhpWVFkVFp4RnliUHAzdlBjSGdNcVA0UjlWUXIwaWxJTHJLcDBKSHF3?oc=5",
+          "published": "Fri, 23 Oct 2026 13:49:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors (CV) Q2 Results: Net Profit At \u20b92,138 CR; EBITDA Margin At 11.4% - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96ZzNWblhZTU43OF9CR21kaTVSVFJTVUgyaVR4bVh2NWJFaWhzeVNjQ3ZfSGl1YUJ5ZnRkR1dEYzgwQzlUQ3JkQ2NSOVNrak5Sb29fV1RR?oc=5",
+          "published": "Fri, 23 Oct 2026 10:36:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "DOW JONES -650 CRASH\ud83e\udee8\ud83d\udd34INFOSYS Q2 ADR CRASH\ud83d\udd34TATA MOTORS Q2\ud83d\udd34ADANI POWER Q2\ud83d\udd34SBI\ud83d\udd34JIO IPO GMP\ud83d\udd34GOLD SILVER - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UTY2VVBnWXdyN2loYXd6T0tNVGxfdHprRlNtT01MaG5aaHFvTGxQWHA2anZjUnpKd1dXSzljVW9Zc2FDSnZyS2FMb1YxanRBakEtUTJB?oc=5",
+          "published": "Fri, 23 Oct 2026 18:02:46 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -445,6 +390,45 @@
           "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
           "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 3,
+      "investor_mentions": 1,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Any one following IREDA? What is the future outlook? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRExOLVZoN2JoZThiMWxyZkQ0b01GUnk3c245V1ZpTm5zZ2JCYUJmSm9fMm16d3FyUkZfTWpIRlFZcjI0eWNNU09mNGNybnRvZ0RMZ0tVbEVhWHFQNjR6LVkycVpocHZkZ3p3Umc3NWRwWWFOUlo5UjQxdjk4emgwV3pMOXRvWllmZFNYZElRU1pBMGdFYjVpOHlRWWhZS2h3bmpTbHdvUkdpeFBneldvNg?oc=5",
+          "published": "Wed, 21 Oct 2026 07:52:18 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
+          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
+          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
