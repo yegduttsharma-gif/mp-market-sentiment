@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-25T11:22:50.573641+00:00",
+  "collected_at": "2026-10-25T11:52:04.985645+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 594,
+  "posts_collected": 596,
   "source_counts": {
-    "tradingqna": 37,
+    "tradingqna": 36,
     "valuepickr": 6,
-    "indexed_reddit": 171,
+    "indexed_reddit": 173,
     "youtube": 198,
-    "facebook": 92,
+    "facebook": 93,
     "instagram": 90,
-    "total_unique": 594
+    "total_unique": 596
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -163,9 +163,9 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 10,
+      "mentions": 9,
       "investor_mentions": 2,
-      "commentary_mentions": 8,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -222,22 +222,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
-          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, TCS, Infosys, BSE, Sagility, Hindustan Zinc, Bajaj Finance Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qNnlTRjBLeFdReldnVTQ1Q28wNm5wclAtZVplLTZXTXZZbWdabVU3OFVqYWlQcTZuNUlOdld5czFNWWZLQ0NpZ2NDV25XQTFVOGI1VW5B?oc=5",
-          "published": "Thu, 22 Oct 2026 13:30:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock Market Today: Why Nifty Fell? HDFC Bank and Axis Bank Dragged All 4 Indices #Shorts - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdDRGNWxRQjNMaml3Vk9QSEhfVV93UGotZHFDcVNucHRMSzhWT3JPdnQxeElUU0ZPQWYzckhLV3A3dk5nUEJfNTA1ZjhsR0p4NHQ1aE9JNmg4RmlWSTlSZUN6bkRhQUdOemhZa0JiRFZlNWJ2SzZjWVI5VVh5c2hmSVJpbjlHRnhCbWZ0QnFwOXdqNzRFXzNWUXRpUnBWU2F3QzVXVjJDWmxKWWxJ?oc=5",
           "published": "Mon, 19 Oct 2026 12:39:02 GMT",
@@ -252,15 +236,23 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Suzlon, RVNL, SCI, PNB, RIL, HDFC Bank, Apollo Micro Sys, TCS, Infosys \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVC1oVy1hM3p4UnJuaWdMaWY0ZEtod1hrd3kzMGxkUUNvTnJQVkdnU1FVTVJMZjgtOU5DMWZjZkRsZlphSjJ6aGZxVk1YdFl5Q2xLdEpn?oc=5",
+          "published": "Tue, 20 Oct 2026 14:30:07 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 10,
+      "mentions": 9,
       "investor_mentions": 1,
-      "commentary_mentions": 9,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -339,23 +331,15 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Latest News Today | Big Breaking News | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HYVRteVdrUFdndlo2ZC10LUVIY3dYM3hSNVliX3Vfc21hMUJNN0hoVGFWc19VQWFvbmFrdTV4UFlFcGduU0dGd1BxLXJYNzFlbUlqNUFn?oc=5",
-          "published": "Thu, 22 Oct 2026 11:14:18 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "IREDA",
-      "mentions": 6,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -399,14 +383,6 @@
           "title": "Ireda Share News,Why Fall ?Hold Or Sell ?Analysis | Ireda Q2 Results/ Target Tomarrow - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OUXpzc0JZTU4wYm5SMklhcEJOVUlST3hESVJmZmxuaERseGFZTHFWMmY1N3pEVndJUmp6Y0xYMUhLRUo5UmNFaVVkRU1lNVk5UmJ5alZ3?oc=5",
           "published": "Wed, 21 Oct 2026 17:10:01 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Ireda share is opportunity or exit ? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50ckNJam9NTTNtazdLU3A4NXF6YVF0Y08ybHhSTEo0VEcyR0UwWlB1QThJeVZweV9HZ3VQeHJzUkl3Yk9pczJnbGF0elkyeHFPcjQyTkVn?oc=5",
-          "published": "Tue, 20 Oct 2026 14:58:01 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -490,20 +466,20 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
-          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
           "published": "Thu, 22 Oct 2026 11:44:15 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
+          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -537,9 +513,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "suzlon energy. Q2 \u092c\u094d\u0930\u094b\u0915\u0930\u0947\u091c \u0905\u0928\u0941\u092e\u093e\u0928? suzlon energy latest news? suzlon share latest news - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LSDlGVWZOWlh5RllKaDUwc1NDUGV4N1dQTHl2ZFg5SkxkbE9wMmJDZEZEcDV3OEp3ZnZ4NGlVOENXX1RVMEZyMWtDQXZSdU55N3NEeEFR?oc=5",
-          "published": "Sat, 24 Oct 2026 08:40:21 GMT",
+          "title": "Suzlon Energy Latest News/Buy Or Sell ? Expert Analysis | Suzlon Energy Share Future/Target 2030 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zVjVTa2JHT25oeGd1eEZ2dkJvelpUSk1BdW9KakR2M1ByRllFRjg3Y00wTUdWV1d0bDBxcXV5ZjVoVEpMZW1oVkZlTURlWmZLLTEyQnlB?oc=5",
+          "published": "Tue, 20 Oct 2026 15:46:47 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -587,11 +563,11 @@
       "sufficient": false
     },
     {
-      "name": "Yes Bank",
+      "name": "Bharti Airtel",
       "mentions": 2,
       "investor_mentions": 0,
       "commentary_mentions": 2,
-      "commentary_bullish": 0,
+      "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -599,51 +575,20 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
-          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "title": "Stock market recommendations: Indian Hotels Company, and Bharti Airtel - these are top stocks to buy that have been recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities for the October 19, 2026 week #stocks #Nifty #I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeXNmUkJ2RnRvOEJDM0hoXy1maTRscmpQalV1VW9RcThMVldScnU1SzdFVXhQY250b3RocDN0WU4xREg2cm1fbURHNTQyRU9sSno0VEIyY2lDUGk0bWg4OUVNSGNTWlZ2WkFiNzRiRnpBUFFhU2tmSlNTMUlydlRoSGYyaEl5T05RRFFaWmZieFJobXNFbnBDbFRDeUxTdWpKZzIwd2FnUldpNlFyT0p4MjV3ZlBiRDlYa0M0VW1Pc2dkaFdFVnBjRHNWNXBfX3p3X29aTFpQbXc?oc=5",
+          "published": "Mon, 19 Oct 2026 07:21:52 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Your Stocks | BDL, Yes Bank \u0938\u092e\u0947\u0924 \u0907\u0928 Stocks \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u093e \u092e\u094b\u091f\u093e \u092a\u0948\u0938\u093e? \u091c\u093e\u0928\u093f\u090f \u0915\u0939\u093e\u0902 \u0939\u0948 \u092e\u094c\u0915\u093e |ETNS - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xbTRHbmxvVHFsREtZWXBWUUozVG5vdVppMUNRaWIxYktaUHI5MXk5ejBLRzBNWkRtelUzdDZEZDVJSV8tRjl3bmM4dFlSeXJ6Wkc3S0J3?oc=5",
-          "published": "Thu, 22 Oct 2026 08:37:34 GMT",
-          "subreddit": "youtube",
+          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
+          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Hindustan Zinc",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HDFC Bank, TCS, Infosys, BSE, Sagility, Hindustan Zinc, Bajaj Finance Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qNnlTRjBLeFdReldnVTQ1Q28wNm5wclAtZVplLTZXTXZZbWdabVU3OFVqYWlQcTZuNUlOdld5czFNWWZLQ0NpZ2NDV25XQTFVOGI1VW5B?oc=5",
-          "published": "Thu, 22 Oct 2026 13:30:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Hindustan Zinc Q2 Profit Surges 142% to \u20b96,412 Crore, Revenue Up 77% - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXQ1TjdwS1d4eUcyaW8tcnNnT3hUekZaeXBmXzhMZVJIMHFveXlzNV9pZ3U2X0luYXFGMFI0STlDcEl5cW1WWjlIWGNLT1B1OC1Zd2VyU01JRnZTSUstOEtkeFJmb3pfOXE5N3VmQjBTR0UxS2ZVejVTNW9JZDRZT255UlZzbC1mRXNaY2VuM2JGazhzMUxkcWUweUZJY29LVnFSaUZqX1Z1RXhxY0NJ?oc=5",
-          "published": "Mon, 19 Oct 2026 14:21:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -669,9 +614,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Indian Hotels stock has given a breakout from an Inverse Head and Shoulders pattern with strong volume support. The setup is based on a 3-month duration with a potential target zone of \u20b9930 to \u20b91,000. Want the complete trade setup including entry, stop los - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWkdMTl8wbHl0MFNlejlpcWxiclllNHphVzVzSlFaSVNoNUdhVEUyQmNFT2VTWi03M0NNYzViSVlFUUYyLThjVTNzcVEyYUswMGpvX2ZQX0w5am0tVFU4TWs5cUlTNWFtNWJkR2N6OFFlU25YU29MYXJLVEUzYkNjeEdFcV8yVTRNb3l6VVFhMjNGTFk1WmloZl9iOXAwdGVEclZlRFVvaGc3ak5EcWJrQ1lQTVp5bWtXQnI5enVzLXBhMzFBY254czBtQnpGZ253eHVtdW5BVQ?oc=5",
-          "published": "Mon, 19 Oct 2026 04:18:20 GMT",
+          "title": "Stock market recommendations: Indian Hotels Company, and Bharti Airtel - these are top stocks to buy that have been recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities for the October 19, 2026 week #stocks #Nifty #I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeXNmUkJ2RnRvOEJDM0hoXy1maTRscmpQalV1VW9RcThMVldScnU1SzdFVXhQY250b3RocDN0WU4xREg2cm1fbURHNTQyRU9sSno0VEIyY2lDUGk0bWg4OUVNSGNTWlZ2WkFiNzRiRnpBUFFhU2tmSlNTMUlydlRoSGYyaEl5T05RRFFaWmZieFJobXNFbnBDbFRDeUxTdWpKZzIwd2FnUldpNlFyT0p4MjV3ZlBiRDlYa0M0VW1Pc2dkaFdFVnBjRHNWNXBfX3p3X29aTFpQbXc?oc=5",
+          "published": "Mon, 19 Oct 2026 07:21:52 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish",
           "evidence_type": "market_commentary"
@@ -703,29 +648,6 @@
       "sufficient": false
     },
     {
-      "name": "Bharti Airtel",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Market Cap of nine of India\u2019s top 10 most valued companies increased by \u20b93.65 lakh crore last week, supported by a strong rally in the stock market. TCS, Bharti Airtel and Infosys were among the biggest gainers. TCS recorded the highest increase, adding ov - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwVWYzbElhSkxlNWQzYTZQaUtzOTlKMVVGZG9FQ3NZWk52aFl4LVREYnVOMmhEcVhZYTRhOWZRMnFvTjlMTnc2MUx6S1JXRXEtUUE?oc=5",
-          "published": "Sun, 18 Oct 2026 11:59:00 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "RVNL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -750,6 +672,29 @@
     },
     {
       "name": "Jio Financial",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
+          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Yes Bank",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -856,6 +801,29 @@
           "title": "Stuck with these stocks bought with MTF since 3-4 months. What to do? Invested and kept averaging . What is wrong with ONGC even with such high crude prices? IRFC is dead ??? Tata Motors Passenger Vehicle another Dead story.. - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3V3YVhrRjFLV2xGOHQ3dHNfM2dTWFFYSEdxTlBNdU9taFhPcnppLTJZZkc0RXdrMVVCUlFiaHhpS2d5Q21uRldRelRYQUVJQkFHYUN0VlFiekkxeXBvT2NrZ2M4UEhBcTM4SlR2cjQ4NFpyblhpTks5N1FfbUFqVTdPNzdiZFJ5TWlxMzR0REdNSl9kZVdtd18wbFJxUXhxSUo5M0U5eEdHb2RxaGc?oc=5",
           "published": "Fri, 23 Oct 2026 17:42:13 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Hindustan Zinc",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Hindustan Zinc Q2 Profit Surges 142% to \u20b96,412 Crore, Revenue Up 77% - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXQ1TjdwS1d4eUcyaW8tcnNnT3hUekZaeXBmXzhMZVJIMHFveXlzNV9pZ3U2X0luYXFGMFI0STlDcEl5cW1WWjlIWGNLT1B1OC1Zd2VyU01JRnZTSUstOEtkeFJmb3pfOXE5N3VmQjBTR0UxS2ZVejVTNW9JZDRZT255UlZzbC1mRXNaY2VuM2JGazhzMUxkcWUweUZJY29LVnFSaUZqX1Z1RXhxY0NJ?oc=5",
+          "published": "Mon, 19 Oct 2026 14:21:24 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
