@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-25T19:13:02.008031+00:00",
+  "collected_at": "2026-10-25T19:39:53.253283+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 597,
+  "posts_collected": 668,
   "source_counts": {
     "tradingqna": 35,
     "valuepickr": 8,
-    "indexed_reddit": 172,
-    "youtube": 196,
+    "indexed_reddit": 244,
+    "youtube": 195,
     "instagram": 98,
     "facebook": 88,
-    "total_unique": 597
+    "total_unique": 668
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,14 +52,14 @@
   "stocks": [
     {
       "name": "Infosys",
-      "mentions": 11,
-      "investor_mentions": 2,
+      "mentions": 10,
+      "investor_mentions": 1,
       "commentary_mentions": 9,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
         {
@@ -67,14 +67,6 @@
           "url": "https://tradingqna.com/t/infosys-hits-lower-circuit-at-1038-freak-trade/199004",
           "published": "Fri, 23 Oct 2026 07:37:50 +0000",
           "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "INFOSYS WTF is this - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdkZCMFlLSldKbXIzZnZOZHZ0dy1wRWpFSWJFZkdYS0p5bnlUY0k0OXVrMGNIa3U3S0lZMU0xUzlXalpIalBqazlnRUxNNEozZlRDQUVCXzhPaFY2ekFSbW1sZmVIMzc4aXlPQlpQYk1TQnNhYlVVMEdZUlA2VjNicHJlRml6Zw?oc=5",
-          "published": "Fri, 23 Oct 2026 05:28:02 GMT",
-          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
@@ -367,53 +359,6 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
-          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
-          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
-          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Ireda Share News,Why Fall ?Hold Or Sell ?Analysis | Ireda Q2 Results/ Target Tomarrow - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OUXpzc0JZTU4wYm5SMklhcEJOVUlST3hESVJmZmxuaERseGFZTHFWMmY1N3pEVndJUmp6Y0xYMUhLRUo5UmNFaVVkRU1lNVk5UmJ5alZ3?oc=5",
-          "published": "Wed, 21 Oct 2026 17:10:01 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "ICICI Bank",
       "mentions": 3,
       "investor_mentions": 1,
@@ -445,6 +390,45 @@
           "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
           "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Live | PNB, Axis Bank, Jio Financial, IREDA, Ola Electric, Yes Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News Today | Finance Gyani | https://youtube.com/live/-d8MWnw8M6k - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmU3ZG1ueVNxTzRzYXR0OUN2Vmd5cDgzbU5uRkRlbkV4N2lPZWdtdExncXdjbW8wZjQ0NzdUcWZCUzdYUjZGNDV6ZmNBanVoTUpHVHJGZUJzV0k3ZXlreS1OZEdFX3kzWlNnRzRYNGoxSWFlOW8tU1NRODZHN2V5NzJxTjZaaml0X2h0MTRObkFaMnFZdGJzR3pXVGp4N3BReFUxSzlCS3RjVXVSUWhQSXBhdnZXOW9KdHRNazNRUVRqRkFRMXhneHNaOU15UEVIZUxHWlEwZjdBbE82TnZR?oc=5",
+          "published": "Mon, 19 Oct 2026 05:06:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "IREDA Q2 RESULTS \ud83d\udca5 HAL | ICICI BANK | JSW STEEL | RELIANCE JIO IPO GMP - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuZS1wS2xWenByYzgtSmhWbDlZa3pMdURmeEs2aFluc1RYd0FjSlR5eUJCTHpaWExaTlBfR1ZRMGRjVGkzUzUwcl9URTRmNEpZY2J6MllB?oc=5",
+          "published": "Mon, 19 Oct 2026 14:51:33 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
+          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -492,6 +476,45 @@
       "sufficient": false
     },
     {
+      "name": "Indian Hotels",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, India Cements, RIL, JSW Infra, RVNL, Indian Hotels, BEML, Kalyan \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSVdpZzhhRjJGQjRPUUlsalQ5SktiSFhldDhSbDJLWEdqMHlxNGQycWpHb2VFcm9Ld0JHcXZkbDdoUWh2Ul9QeWNUSF9ENzNVSGx5MFVR?oc=5",
+          "published": "Thu, 22 Oct 2026 09:02:36 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
+          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market recommendations: Indian Hotels Company, and Bharti Airtel - these are top stocks to buy that have been recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities for the October 19, 2026 week #stocks #Nifty #I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeXNmUkJ2RnRvOEJDM0hoXy1maTRscmpQalV1VW9RcThMVldScnU1SzdFVXhQY250b3RocDN0WU4xREg2cm1fbURHNTQyRU9sSno0VEIyY2lDUGk0bWg4OUVNSGNTWlZ2WkFiNzRiRnpBUFFhU2tmSlNTMUlydlRoSGYyaEl5T05RRFFaWmZieFJobXNFbnBDbFRDeUxTdWpKZzIwd2FnUldpNlFyT0p4MjV3ZlBiRDlYa0M0VW1Pc2dkaFdFVnBjRHNWNXBfX3p3X29aTFpQbXc?oc=5",
+          "published": "Mon, 19 Oct 2026 07:21:52 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Suzlon Energy",
       "mentions": 2,
       "investor_mentions": 0,
@@ -523,37 +546,6 @@
       "sufficient": false
     },
     {
-      "name": "Indian Hotels",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, India Cements, RIL, JSW Infra, RVNL, Indian Hotels, BEML, Kalyan \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSVdpZzhhRjJGQjRPUUlsalQ5SktiSFhldDhSbDJLWEdqMHlxNGQycWpHb2VFcm9Ld0JHcXZkbDdoUWh2Ul9QeWNUSF9ENzNVSGx5MFVR?oc=5",
-          "published": "Thu, 22 Oct 2026 09:02:36 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
-          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Reliance Industries",
       "mentions": 1,
       "investor_mentions": 0,
@@ -571,6 +563,29 @@
           "published": "Wed, 21 Oct 2026 12:49:04 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock market recommendations: Indian Hotels Company, and Bharti Airtel - these are top stocks to buy that have been recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities for the October 19, 2026 week #stocks #Nifty #I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeXNmUkJ2RnRvOEJDM0hoXy1maTRscmpQalV1VW9RcThMVldScnU1SzdFVXhQY250b3RocDN0WU4xREg2cm1fbURHNTQyRU9sSno0VEIyY2lDUGk0bWg4OUVNSGNTWlZ2WkFiNzRiRnpBUFFhU2tmSlNTMUlydlRoSGYyaEl5T05RRFFaWmZieFJobXNFbnBDbFRDeUxTdWpKZzIwd2FnUldpNlFyT0p4MjV3ZlBiRDlYa0M0VW1Pc2dkaFdFVnBjRHNWNXBfX3p3X29aTFpQbXc?oc=5",
+          "published": "Mon, 19 Oct 2026 07:21:52 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -761,29 +776,6 @@
       "sufficient": false
     },
     {
-      "name": "HFCL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Indian Stock Market Today | NIFTY Falls 257 Points | Union Bank, UltraTech, HFCL | 19 Oct 2026 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZTkwQkdVeG00aER5OXBETDBUQ1cweU9ZZ2U0NzRKTDJmYUdQVVJvb2lENjJDemxRTEhTa3E0OXdxVWlrQVBFNWNqZXlZMnNlZWVwZVhn?oc=5",
-          "published": "Mon, 19 Oct 2026 11:10:55 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "CDSL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -859,20 +851,6 @@
     },
     {
       "name": "ITC",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Bharti Airtel",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1209,6 +1187,20 @@
     },
     {
       "name": "Vedanta",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "HFCL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
