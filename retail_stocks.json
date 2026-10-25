@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-25T13:28:12.031444+00:00",
+  "collected_at": "2026-10-25T13:58:07.735750+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 595,
+  "posts_collected": 589,
   "source_counts": {
-    "tradingqna": 37,
+    "tradingqna": 36,
     "valuepickr": 6,
-    "indexed_reddit": 172,
+    "indexed_reddit": 166,
     "youtube": 196,
     "instagram": 98,
-    "facebook": 86,
-    "total_unique": 595
+    "facebook": 87,
+    "total_unique": 589
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,14 +52,14 @@
   "stocks": [
     {
       "name": "Infosys",
-      "mentions": 11,
-      "investor_mentions": 1,
+      "mentions": 12,
+      "investor_mentions": 2,
       "commentary_mentions": 10,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 2,
       "bullish_pct": null,
       "evidence": [
         {
@@ -67,6 +67,14 @@
           "url": "https://tradingqna.com/t/infosys-hits-lower-circuit-at-1038-freak-trade/199004",
           "published": "Fri, 23 Oct 2026 07:37:50 +0000",
           "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "INFOSYS WTF is this - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdkZCMFlLSldKbXIzZnZOZHZ0dy1wRWpFSWJFZkdYS0p5bnlUY0k0OXVrMGNIa3U3S0lZMU0xUzlXalpIalBqazlnRUxNNEozZlRDQUVCXzhPaFY2ekFSbW1sZmVIMzc4aXlPQlpQYk1TQnNhYlVVMEdZUlA2VjNicHJlRml6Zw?oc=5",
+          "published": "Fri, 23 Oct 2026 05:28:02 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
@@ -555,6 +563,37 @@
       "sufficient": false
     },
     {
+      "name": "Indian Hotels",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
+          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock market recommendations: Indian Hotels Company, and Bharti Airtel - these are top stocks to buy that have been recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities for the October 19, 2026 week #stocks #Nifty #I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeXNmUkJ2RnRvOEJDM0hoXy1maTRscmpQalV1VW9RcThMVldScnU1SzdFVXhQY250b3RocDN0WU4xREg2cm1fbURHNTQyRU9sSno0VEIyY2lDUGk0bWg4OUVNSGNTWlZ2WkFiNzRiRnpBUFFhU2tmSlNTMUlydlRoSGYyaEl5T05RRFFaWmZieFJobXNFbnBDbFRDeUxTdWpKZzIwd2FnUldpNlFyT0p4MjV3ZlBiRDlYa0M0VW1Pc2dkaFdFVnBjRHNWNXBfX3p3X29aTFpQbXc?oc=5",
+          "published": "Mon, 19 Oct 2026 07:21:52 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Reliance Industries",
       "mentions": 1,
       "investor_mentions": 0,
@@ -572,6 +611,29 @@
           "published": "Wed, 21 Oct 2026 12:49:04 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock market recommendations: Indian Hotels Company, and Bharti Airtel - these are top stocks to buy that have been recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities for the October 19, 2026 week #stocks #Nifty #I - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeXNmUkJ2RnRvOEJDM0hoXy1maTRscmpQalV1VW9RcThMVldScnU1SzdFVXhQY250b3RocDN0WU4xREg2cm1fbURHNTQyRU9sSno0VEIyY2lDUGk0bWg4OUVNSGNTWlZ2WkFiNzRiRnpBUFFhU2tmSlNTMUlydlRoSGYyaEl5T05RRFFaWmZieFJobXNFbnBDbFRDeUxTdWpKZzIwd2FnUldpNlFyT0p4MjV3ZlBiRDlYa0M0VW1Pc2dkaFdFVnBjRHNWNXBfX3p3X29aTFpQbXc?oc=5",
+          "published": "Mon, 19 Oct 2026 07:21:52 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -831,29 +893,6 @@
       "sufficient": false
     },
     {
-      "name": "Indian Hotels",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
-          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "SBI",
       "mentions": 0,
       "investor_mentions": 0,
@@ -883,20 +922,6 @@
     },
     {
       "name": "ITC",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Bharti Airtel",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
