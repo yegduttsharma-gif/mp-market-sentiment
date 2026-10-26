@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-26T11:24:54.944096+00:00",
+  "collected_at": "2026-10-26T13:54:39.204293+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 5
     },
     "nifty_search": {
-      "status": "ok",
-      "recent": 97
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 211,
+  "unique_titles": 133,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 24,
+      "neutral": 5,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Stock Market Today: Why Nifty Rose? 4-Day Fall Ends. Nifty Tomorrow 27 Oct, Gap Up or Down? #Shorts",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfuurs/stock_market_today_why_nifty_rose_4day_fall_ends/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-26T12:01:38+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Reason for today's rise in Nifty",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfnn6k/reason_for_todays_rise_in_nifty/",
@@ -69,13 +76,6 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Nifty 50",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xeh138/nifty_50/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-24T19:07:57+00:00",
-          "sentiment": "neutral"
-        },
-        {
           "title": "Nifty and sectoral valuations",
           "url": "https://tradingqna.com/t/nifty-and-sectoral-valuations/198971",
           "source": "tradingqna",
@@ -88,154 +88,34 @@
           "source": "tradingqna",
           "published": "2026-10-21T04:38:28+00:00",
           "sentiment": "neutral"
-        },
-        {
-          "title": "2 Years of Zero Nifty Returns: What\u2019s your actual play right now?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xe9wbl/2_years_of_zero_nifty_returns_whats_your_actual/",
-          "source": "nifty_search",
-          "published": "2026-10-24T14:20:07+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "I am lowkey cooked \ud83e\udd2d\u270c\ud83c\udffb!! Just beat Nifty \ud83e\udd73",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xe9nev/i_am_lowkey_cooked_just_beat_nifty/",
-          "source": "nifty_search",
-          "published": "2026-10-24T14:09:53+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "What is your Nifty 50 range prediction for the next 6 months? (Around 22.6k currently)",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xe6hgh/what_is_your_nifty_50_range_prediction_for_the/",
-          "source": "nifty_search",
-          "published": "2026-10-24T11:42:25+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty on Monday \u2014 could Middle East tensions trigger another sell-off?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xe4ju3/nifty_on_monday_could_middle_east_tensions/",
-          "source": "nifty_search",
-          "published": "2026-10-24T09:48:48+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market Friday summary: Why Nifty Fell 4 Days? Week -2.4%. Nifty Monday 26 Oct, Gap Up or Down?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xe3o4u/stock_market_friday_summary_why_nifty_fell_4_days/",
-          "source": "nifty_search",
-          "published": "2026-10-24T08:53:48+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY it's done bro \ud83e\udd40\ud83d\udd4a",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xd6wj2/nifty_its_done_bro/",
-          "source": "nifty_search",
-          "published": "2026-10-23T06:59:02+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Gift nifty UP 170 points!",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcrw0o/gift_nifty_up_170_points/",
-          "source": "nifty_search",
-          "published": "2026-10-22T19:15:17+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "US-10Y-Bond below 5% , but crude near 114$ and Gifty Nifty +150 pts",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcr6sy/us10ybond_below_5_but_crude_near_114_and_gifty/",
-          "source": "nifty_search",
-          "published": "2026-10-22T18:49:22+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "When would Nifty get back 26k ? Drop your views in the comments",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcnbbo/when_would_nifty_get_back_26k_drop_your_views_in/",
-          "source": "nifty_search",
-          "published": "2026-10-22T16:27:30+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty over the past month from today",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcnb7m/nifty_over_the_past_month_from_today/",
-          "source": "nifty_search",
-          "published": "2026-10-22T16:27:24+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Fell 124? 22,735 Lost. Nifty Tomorrow 23 Oct, Gap Up or Down? comment",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcgbgh/stock_market_today_why_nifty_fell_124_22735_lost/",
-          "source": "nifty_search",
-          "published": "2026-10-22T11:45:47+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcgacg/stock_market_today_why_nifty_fell_124_hdfc_bank/",
-          "source": "nifty_search",
-          "published": "2026-10-22T11:44:15+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty hai ya textbook",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xcbm5v/nifty_hai_ya_textbook/",
-          "source": "nifty_search",
-          "published": "2026-10-22T07:03:02+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "S&P 500 vs Nifty 50",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbm0b9/sp_500_vs_nifty_50/",
-          "source": "nifty_search",
-          "published": "2026-10-21T12:37:44+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "At what levels do you see nifty 50 , after 10 years from now ie on 2036 ?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbltqc/at_what_levels_do_you_see_nifty_50_after_10_years/",
-          "source": "nifty_search",
-          "published": "2026-10-21T12:29:24+00:00",
-          "sentiment": "neutral"
         }
       ]
     },
     "BANK NIFTY": {
-      "bullish": 1,
+      "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
-      "directional": 1,
+      "neutral": 1,
+      "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
         {
-          "title": "CNX IT/Bank Nifty has formed a bullish harmonic ABCD pattern on the monthly timeframe, suggesting potential outperformance of the IT index relative to Bank Nifty in the coming months. Wait for a pullback for fresh entries or add in parts.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xct1a0/cnx_itbank_nifty_has_formed_a_bullish_harmonic/",
-          "source": "nifty_search",
-          "published": "2026-10-22T19:57:58+00:00",
-          "sentiment": "bullish"
+          "title": "Stock Market Today: Why Bank Nifty Lagged? Kotak +2.4%, AU Bank -6.9%, Shriram Finance Down",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfuwx7/stock_market_today_why_bank_nifty_lagged_kotak_24/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-26T12:04:18+00:00",
+          "sentiment": "neutral"
         }
       ]
     },
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "Sensex gap up or gap down tomorrow 22nd October?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbqg25/sensex_gap_up_or_gap_down_tomorrow_22nd_october/",
-          "source": "nifty_search",
-          "published": "2026-10-21T15:35:22+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty sensex gapup tomorrow?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xbja0p/nifty_sensex_gapup_tomorrow/",
-          "source": "nifty_search",
-          "published": "2026-10-21T10:15:24+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     }
   }
 }
