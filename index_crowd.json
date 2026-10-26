@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-26T04:16:28.296031+00:00",
+  "collected_at": "2026-10-26T04:57:26.832319+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 136,
+  "unique_titles": 135,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 9,
+      "neutral": 10,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Reason for today's rise in Nifty",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfnn6k/reason_for_todays_rise_in_nifty/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-26T04:50:53+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Nifty destroyed by Nirmala Aunty",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xexakz/nifty_destroyed_by_nirmala_aunty/",
