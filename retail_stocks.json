@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-26T20:04:05.088638+00:00",
+  "collected_at": "2026-10-26T20:41:08.001033+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 680,
+  "posts_collected": 620,
   "source_counts": {
     "tradingqna": 37,
     "valuepickr": 8,
-    "indexed_reddit": 262,
+    "indexed_reddit": 202,
     "youtube": 195,
     "instagram": 98,
     "facebook": 80,
-    "total_unique": 680
+    "total_unique": 620
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Infosys",
-      "mentions": 14,
+      "mentions": 13,
       "investor_mentions": 2,
-      "commentary_mentions": 12,
+      "commentary_mentions": 11,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -77,14 +77,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "\ud83d\udea8Infosys Results Impact: Will Nifty Fall Towards 22,200 Support??Traders Breakfast LIVE - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TVWZVTGMxR1pFSGM0QWFIN2pybWU2TlB2cTVELU1RU3gtdGZnUklObTBqT182emNiYVZ0M3JEZk5vVGhUNl9CY2xVRk02a1JYRjBmQUVn?oc=5",
-          "published": "Mon, 26 Oct 2026 03:14:00 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         },
         {
           "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
@@ -154,6 +146,14 @@
           "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
           "published": "Tue, 20 Oct 2026 17:29:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty\u2019s Worst Year Since 2008, Jio IPO Bids Cross \u20b97 Lk Crore, Infosys Q2 Disappoints | Top Stories - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yYUFUT05jQjhKWk9LeU8yNFAwSS0ydEFuRGtfUVVVZjJCSlRSNVhPcGJzRW1DZE9IN3NJUVpfTkxZaE52QmNzVnpYR0dkWWNXTkx5Wkd3?oc=5",
+          "published": "Fri, 23 Oct 2026 14:56:12 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -299,6 +299,68 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
+          "published": "Sat, 24 Oct 2026 04:00:11 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Hero MotoCorp, SUZLON, KROSS, PC Jewel., Indian Hotels, Wipro Sammaan Capital Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZRVRWMWk3Ni13ZzlQcjBCbWVvWl9yTlNpWmxRdnpWd3NVT3lDZERjbW0yUWFnV2Nsbzd3WlQ2X2Q2VWFqRjhLTkNndGE5c1Q3d0JQVWVB?oc=5",
+          "published": "Thu, 22 Oct 2026 06:06:30 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IRFC",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IRFC return in two years ! -56% what is in next year ! Tear ! - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX0ljWTNtNGdrdDRYZ2QtYzY3NWlnTTNrQVRNdFkzaXF0TXVHb1owc2tvZHdrSnZwamdpVmhCMXJyV2dYSkFhYURROS1iREcwVzVZMk1USzJpUWxYNF8xZzFTMWhfNmNfTGVZYUo1bklKTGx2czBGdk9CMTRYb3hiUUxEVmdzbG1mYVdQYmJIdC1EY1lMVm9WdzJWVXdlM1NQVUpmYXQ0bDNFTk8xVlE?oc=5",
+          "published": "Fri, 23 Oct 2026 14:45:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
+          "published": "Sat, 24 Oct 2026 04:00:11 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -566,52 +628,6 @@
       "sufficient": false
     },
     {
-      "name": "Suzlon Energy",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Hero MotoCorp, SUZLON, KROSS, PC Jewel., Indian Hotels, Wipro Sammaan Capital Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZRVRWMWk3Ni13ZzlQcjBCbWVvWl9yTlNpWmxRdnpWd3NVT3lDZERjbW0yUWFnV2Nsbzd3WlQ2X2Q2VWFqRjhLTkNndGE5c1Q3d0JQVWVB?oc=5",
-          "published": "Thu, 22 Oct 2026 06:06:30 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IRFC",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IRFC return in two years ! -56% what is in next year ! Tear ! - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX0ljWTNtNGdrdDRYZ2QtYzY3NWlnTTNrQVRNdFkzaXF0TXVHb1owc2tvZHdrSnZwamdpVmhCMXJyV2dYSkFhYURROS1iREcwVzVZMk1USzJpUWxYNF8xZzFTMWhfNmNfTGVZYUo1bklKTGx2czBGdk9CMTRYb3hiUUxEVmdzbG1mYVdQYmJIdC1EY1lMVm9WdzJWVXdlM1NQVUpmYXQ0bDNFTk8xVlE?oc=5",
-          "published": "Fri, 23 Oct 2026 14:45:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "NBCC",
       "mentions": 1,
       "investor_mentions": 1,
@@ -674,6 +690,29 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQaWVHMlVSMDRiUEZDNFBPZDU4azYydGZlb0NQMERyTEtlRUFVSDdTdlY1RVpPVnZHaU45SV9jbjZJT1I4N1IycTNXYnFKZUZiWGRJQmRB?oc=5",
           "published": "Wed, 21 Oct 2026 08:45:37 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "CDSL",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
+          "published": "Sat, 24 Oct 2026 04:00:11 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -1171,20 +1210,6 @@
     },
     {
       "name": "Titagarh Rail",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "CDSL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
