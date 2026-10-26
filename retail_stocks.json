@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-26T20:41:08.001033+00:00",
+  "collected_at": "2026-10-26T21:13:52.877327+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 620,
+  "posts_collected": 544,
   "source_counts": {
     "tradingqna": 37,
     "valuepickr": 8,
-    "indexed_reddit": 202,
-    "youtube": 195,
+    "indexed_reddit": 127,
+    "youtube": 194,
     "instagram": 98,
     "facebook": 80,
-    "total_unique": 620
+    "total_unique": 544
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -163,9 +163,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 11,
+      "mentions": 12,
       "investor_mentions": 0,
-      "commentary_mentions": 11,
+      "commentary_mentions": 12,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -260,15 +260,23 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Q2 FY27 Results \ud83d\udd25 Tata Motors, Coforge, JSW Steel, SBI Card & 9 Stocks | Hindi Analysis - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GTUZYTFZqamJwc0lmYU1jeVFQcHpVNVFFN1ROd1ZqSW5EWkJPVXQ1TTZOa0hpTDdRM1RYUVJJVXdWTWNPdFdpS3lxZ20xcEZZNjRfU0NR?oc=5",
+          "published": "Mon, 26 Oct 2026 09:17:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "HDFC Bank",
-      "mentions": 3,
+      "mentions": 4,
       "investor_mentions": 1,
-      "commentary_mentions": 2,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -289,6 +297,14 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Mi1NLW5hZDBHVlF5azNlNE5aT1BaaWhpMXpValJVdVNnVm5PQ0F2YThkU19QTVFUSGl4T2Zub19XblVXaEpleGEtblJpZWtOWXc?oc=5",
           "published": "Tue, 20 Oct 2026 08:11:19 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Huge Indian Market Crash Today HDFC Bank Again Reach \u20b9700 level - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQejhVWGE1bW1Fd2FLbEpJLTRnXzE5RXpub1ZpYzdPTV9rNmltUERUb0hsSXFScUhmVzVYZ01ua0laVFlYM3NnOUVVTEp6MHU0M2lScHVndVdwbUlQUGhQazVYa0Uwa1pOYnpPZjFhSl9OU0UxYmZ1d1N5VGQtSkpfN0VlNmJ2ZFFvNGlveDVSc0FWeGlLQkpJYmRlWWhxT1ZEMTN4TllVNGpKaURrWG1NVjF0NGVIZC1RNVpqZg?oc=5",
+          "published": "Wed, 21 Oct 2026 07:57:14 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
