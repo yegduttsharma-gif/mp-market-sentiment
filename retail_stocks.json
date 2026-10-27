@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-27T14:22:22.072762+00:00",
+  "collected_at": "2026-10-27T15:11:21.142112+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 593,
+  "posts_collected": 689,
   "source_counts": {
     "tradingqna": 38,
     "valuepickr": 6,
-    "indexed_reddit": 167,
+    "indexed_reddit": 263,
     "youtube": 196,
     "facebook": 95,
     "instagram": 91,
-    "total_unique": 593
+    "total_unique": 689
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 17,
+      "mentions": 13,
       "investor_mentions": 0,
-      "commentary_mentions": 17,
+      "commentary_mentions": 13,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -66,6 +66,14 @@
           "title": "Stock To Buy: Tata Motors \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u0915\u093e Outlook \u0915\u0948\u0938\u093e? \u0924\u0947\u091c\u0940 \u0915\u0947 \u0938\u0902\u0915\u0947\u0924\u094b\u0902 \u0915\u0947 \u092c\u0940\u091a \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vN0NyTy1ZRnJNSV96Wi1kaFI4U0U2LUl1V0dUbVN0bEFGOHpVRUdlYkxxZmk2a3Q4bks1NWdpS1hDVXcyM3Z4ME5ieUFWazJDTWFvNlVn?oc=5",
           "published": "Fri, 23 Oct 2026 09:12:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Auto Stocks: Why Tata Motors CV, M&M And Hero MotoCorp Are Top Picks Amid Sector Consolidation - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFcFJqaDBMUEFxNkxsa29jT3Jza3IwRWhhSG56WDNzRUFWb0xKRnBnQTRWN0VuT1JZNWtMSk54aFRDalZuX0VDVGUtbFlUZlZjTHU2bGRn?oc=5",
+          "published": "Tue, 27 Oct 2026 05:30:28 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -90,14 +98,6 @@
           "title": "TMPV Share Price: Tata Motors PV \u092e\u0947\u0902 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u0940 \u0916\u0930\u0940\u0926\u093e\u0930\u0940, \u0917\u093f\u0930\u093e\u0935\u091f \u092e\u0947\u0902 Exit \u0915\u0930\u0947\u0902 \u092f\u093e Hold \u0939\u0940 \u0938\u0939\u0940 \u0939\u094b\u0917\u093e? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DOXMzQWVwV2JmRmZYY2JYMFpTbVRUZHluN0luWDNUTWNPc182TEVMZjcwQnZkS0w3ZV9uNDRyMlBhdUNVWk1VNW9LR0U4TTdiYmZHR1lB?oc=5",
           "published": "Mon, 26 Oct 2026 08:15:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Auto Stocks: Why Tata Motors CV, M&M And Hero MotoCorp Are Top Picks Amid Sector Consolidation - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFcFJqaDBMUEFxNkxsa29jT3Jza3IwRWhhSG56WDNzRUFWb0xKRnBnQTRWN0VuT1JZNWtMSk54aFRDalZuX0VDVGUtbFlUZlZjTHU2bGRn?oc=5",
-          "published": "Tue, 27 Oct 2026 05:30:28 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -135,6 +135,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "DOW JONES -650 CRASH\ud83e\udee8\ud83d\udd34INFOSYS Q2 ADR CRASH\ud83d\udd34TATA MOTORS Q2\ud83d\udd34ADANI POWER Q2\ud83d\udd34SBI\ud83d\udd34JIO IPO GMP\ud83d\udd34GOLD SILVER - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UTY2VVBnWXdyN2loYXd6T0tNVGxfdHprRlNtT01MaG5aaHFvTGxQWHA2anZjUnpKd1dXSzljVW9Zc2FDSnZyS2FMb1YxanRBakEtUTJB?oc=5",
+          "published": "Fri, 23 Oct 2026 18:02:46 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "MARKET CRASH? \ud83d\udca5 JIO IPO 18X SUBSCRIBED | INFOSYS RESULTS & ADR | TATA MOTORS | GOLD SILVER Midcap - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43R241QUUtblVoMzFhTk41MkJOVU1pRzFXTEZTbzdSQVRwTGF1LXhpWVFkVFp4RnliUHAzdlBjSGdNcVA0UjlWUXIwaWxJTHJLcDBKSHF3?oc=5",
           "published": "Fri, 23 Oct 2026 13:49:55 GMT",
@@ -149,23 +157,15 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Big Breaking News Today | Tata Motors Share Why Down Today | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMT1pzRVdJWVNpTldzTV9peTZjUkFqSTlwRmZqN0pWaFFLUFI4OGFndHRVYTV2MjlucFVJeU9lZ2FpdEZNZXNUS3U2ZnAtSEctcWhKV1VR?oc=5",
-          "published": "Fri, 23 Oct 2026 06:39:47 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Infosys",
-      "mentions": 13,
+      "mentions": 12,
       "investor_mentions": 4,
-      "commentary_mentions": 9,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -206,14 +206,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZ3J1eFUyRnpMUmRtOVBSM3JSYzRJVDZhWUVueFd3OS1ObmYyYlZaRmNDcjhxS1pzcld3ZnR4X2V1NTUtNklJTGdaclltOHY3bzRnNVZn?oc=5",
-          "published": "Sun, 25 Oct 2026 06:35:22 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Reliance Ind, Infosys, Tata Motors, BPCL, JK Tyre, Netweb Tech, Oracle Fin Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HUVFDTEpkYThYZDlwUkFNLUU3ZGtwVU01a0o4dm9WdWpHbkVtd3hVVUVlTzNoN0x5UGZjTkN2bFZPbDhDNEt2c0JJYnBmSS15RHptblV3?oc=5",
           "published": "Mon, 26 Oct 2026 02:29:18 GMT",
@@ -225,6 +217,14 @@
           "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
           "published": "Mon, 26 Oct 2026 06:30:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "DOW JONES -650 CRASH\ud83e\udee8\ud83d\udd34INFOSYS Q2 ADR CRASH\ud83d\udd34TATA MOTORS Q2\ud83d\udd34ADANI POWER Q2\ud83d\udd34SBI\ud83d\udd34JIO IPO GMP\ud83d\udd34GOLD SILVER - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UTY2VVBnWXdyN2loYXd6T0tNVGxfdHprRlNtT01MaG5aaHFvTGxQWHA2anZjUnpKd1dXSzljVW9Zc2FDSnZyS2FMb1YxanRBakEtUTJB?oc=5",
+          "published": "Fri, 23 Oct 2026 18:02:46 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -254,18 +254,18 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock Market LIVE | Jio Platforms, Reliance, Infosys, Kotak bank, BPCL, Coforge share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMNzhWUDFNTkhfUXFZLVR3bTZiWGZuZUl6Q2kwVWwySDJtN0s1bUZmalpybEpZYTh6NDZ6QU05SWVfbUJUaVdNS1pEclA2ZS0xZWZiR29B?oc=5",
-          "published": "Mon, 26 Oct 2026 04:33:25 GMT",
+          "title": "\u0906 \u0917\u090f Q2 Results \ud83d\ude31 Infosys Share Results Today \ud83e\udd14 Dividend \u092d\u0940 \u0906\u092f\u093e \ud83d\udd25Infosys Share \u26a0\ufe0f Breaking News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02cjhLRE5vTUR0Mm0wVlh4RzlwZUh3ZURRRlJDbHFyRXpXNGRKRUlXckVOU21YZFFheWtFWG10bmtMRThVU0gtVFNTcmVuYlBBT0I2THRR?oc=5",
+          "published": "Fri, 23 Oct 2026 11:35:34 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "US & Asian market in red | Crude prices, US yields inch up | Infosys cuts FY27 guidance - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCVzdqcmRpMG52cU1VdEV5eWl3YmhxRUkxdVZJeTRLWXNCdE53cUhMTWMzeFI2d1pncS1vbVBnZnItUXBJNFVxUFBIcnBFX2dDb2FrYzJR?oc=5",
-          "published": "Mon, 26 Oct 2026 03:06:40 GMT",
-          "subreddit": "youtube",
+          "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZ3J1eFUyRnpMUmRtOVBSM3JSYzRJVDZhWUVueFd3OS1ObmYyYlZaRmNDcjhxS1pzcld3ZnR4X2V1NTUtNklJTGdaclltOHY3bzRnNVZn?oc=5",
+          "published": "Sun, 25 Oct 2026 06:35:22 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -274,10 +274,10 @@
     },
     {
       "name": "Paytm",
-      "mentions": 6,
+      "mentions": 5,
       "investor_mentions": 3,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -309,14 +309,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Apollo Micro System, Tata Power, Milky Mist, PC Jeweler, Paytm & MPRL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LNEdxbHNjd09FQTh3OWMwYkNjSE9UaTNxMExZYnl4N1JNdm80RW16WlRsWDFydTkxOVdXc3kwLTdROENHUGFiNmNGUlZsM2N3RmQ5V2lB?oc=5",
-          "published": "Tue, 27 Oct 2026 03:50:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "#ClosingBell: Sensex, Nifty end flat after choppy session; Airtel, Power Grid rise 3% each #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-tata-consumer-share-pric - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN1FBTWVLUlNTdEtoMjAxdE8wa2ZEUmtEOVMwM05BVXloZGpZRGZxS3l4cWpWNlQtMEU4UVEtbmxVSDJsUDRUSGkwV25hQ01UMXRPc1FXX0pfM1k4bUZBY0g0S29TSUY3Z3BGLVY4SnIwYlk1QW14dkFCZ2U1UTBkb0VzUVc3UDJES014VnRjRFRrZ3hHS2w0WlhWVi1HMzJ2eHpxa1RQb05XYUEyaHd4LWxFTDdGU2E0cmozaE9ibEdIZDNSMGlIV0ZEY2M0Q2d6eGpkRE9R?oc=5",
           "published": "Tue, 27 Oct 2026 10:07:16 GMT",
@@ -325,11 +317,11 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Reliance Industries, Mankind Pharma, Paytm, Ather Energy, KFin Technologies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFUHMxbWhCNDNaeVQ0US1YRmNTVXl3Y0dtUlI2bFd4LTNDZF9RcUdFZkVqX2ZyMjcxRXUyaC1kaUU2NkpKcl9Fd2QwSjF1UWxxTG1xRFpB?oc=5",
-          "published": "Tue, 27 Oct 2026 11:25:31 GMT",
+          "title": "Stock in news: Tata Consumer \u0aa8\u0abe \u0aa8\u0aab\u0abe \u0a85\u0aa8\u0ac7 \u0a86\u0ab5\u0a95\u0aae\u0abe\u0a82 \u0a89\u0a9b\u0abe\u0ab3\u0acb | Paytm Q2 | Stock in News | Stock to buy - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Qekt6emJram5XV2hFRWFpWHZnWTBSSjU0LTVUQVFhRHVNcVdwamhxeFB5ODNwRU5vTXBfVXIwUmgyNUdxOVB3NEFTbnhwQ0ZXbFVaVzdR?oc=5",
+          "published": "Tue, 27 Oct 2026 03:13:39 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -375,45 +367,6 @@
       "sufficient": false
     },
     {
-      "name": "Kotak Bank",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
-          "published": "Mon, 26 Oct 2026 06:30:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Share Market Live: \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f! Nifty 22,400 \u0915\u0947 \u0928\u0940\u091a\u0947, Infosys-Kotak Bank \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092a\u0930 \u0928\u091c\u0930 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EaVlVdWhoRU1yZnpqSnI4bjh4UVZnVm5fajVxckdadVk5dGxsaE9IVFA1czdjTzNNaGdROVVRN2d1VXVKNk1yZEdDUk9HN3pQVFczNE1R?oc=5",
-          "published": "Mon, 26 Oct 2026 04:21:49 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market LIVE | Jio Platforms, Reliance, Infosys, Kotak bank, BPCL, Coforge share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMNzhWUDFNTkhfUXFZLVR3bTZiWGZuZUl6Q2kwVWwySDJtN0s1bUZmalpybEpZYTh6NDZ6QU05SWVfbUJUaVdNS1pEclA2ZS0xZWZiR29B?oc=5",
-          "published": "Mon, 26 Oct 2026 04:33:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IDFC First Bank",
       "mentions": 2,
       "investor_mentions": 1,
@@ -445,10 +398,10 @@
       "sufficient": false
     },
     {
-      "name": "Reliance Industries",
-      "mentions": 1,
+      "name": "Kotak Bank",
+      "mentions": 2,
       "investor_mentions": 0,
-      "commentary_mentions": 1,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -457,9 +410,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, Mankind Pharma, Paytm, Ather Energy, KFin Technologies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFUHMxbWhCNDNaeVQ0US1YRmNTVXl3Y0dtUlI2bFd4LTNDZF9RcUdFZkVqX2ZyMjcxRXUyaC1kaUU2NkpKcl9Fd2QwSjF1UWxxTG1xRFpB?oc=5",
-          "published": "Tue, 27 Oct 2026 11:25:31 GMT",
+          "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
+          "published": "Mon, 26 Oct 2026 06:30:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Share Market Live: \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f! Nifty 22,400 \u0915\u0947 \u0928\u0940\u091a\u0947, Infosys-Kotak Bank \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092a\u0930 \u0928\u091c\u0930 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EaVlVdWhoRU1yZnpqSnI4bjh4UVZnVm5fajVxckdadVk5dGxsaE9IVFA1czdjTzNNaGdROVVRN2d1VXVKNk1yZEdDUk9HN3pQVFczNE1R?oc=5",
+          "published": "Mon, 26 Oct 2026 04:21:49 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -486,29 +447,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Consultancy Services",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83d\udea8 TCS Stock \u2705 Magical Calculator Full Analysis \ud83d\ude80 Time To Add IT Sector - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdV9LSVpHcG9UOHdqT3VES0RsQjlzMDRIYjdBd2ZnMzlXNmc5QW9pS0ZlOE0wVW40bElPOEZrX3VxbkRzbEJxR0Zyckx4emRuMmN6Y2x2NWpqYzJQdkNiYnIydFlZZ2ZORUpDNlNRNTRSdzJFNlF6RmtCc2ZDclpYV1dzY1JWeVBMWG43czBkX0ZXbk5HTnZuVHdCYWZzQnVoVTZnWEFHdjBqbmlFY2NWUVRKOUQzX1NCTnBHaTRUZmFJdEdzN0VrcWU0bw?oc=5",
-          "published": "Sun, 25 Oct 2026 04:43:00 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -560,29 +498,6 @@
       "sufficient": false
     },
     {
-      "name": "Vodafone Idea",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "TATA Stock Ai Investment\u26ab BSE\u26ab Jio IPO Allotment, GMP\u26ab Vodafone idea\u26ab Ather Energy Q2 Results\u26abAirtel - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UQXE4MUp3Zlp2eHdKUjRRYVhMQ0MtMFlRZXg2Tl9VLXN0ZzZ4eEdYWkxDaFhwVXlpQnFRQkhvTy01bzBsbmwwM01YWXJnODVLVUtIdmRn?oc=5",
-          "published": "Mon, 26 Oct 2026 14:31:43 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IRFC",
       "mentions": 1,
       "investor_mentions": 0,
@@ -606,7 +521,30 @@
       "sufficient": false
     },
     {
-      "name": "Tata Power",
+      "name": "NBCC",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "What is wrong with NBCC - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY0tNYnlibmZJUzJaLUpxak52MktXVFhPVkJPR3J5ZjVsNUh6Q2I0NkdJd1o4a2JMTDliUVNOV0toS25GNlRybHBqZTE1bUIxMXRDcVBSNTNQZHpmRXR0cVN2d0JZSDd5a1BRRDNsQUtJNjlrbmZJYWhDV1hLRDNod05tWmVOT18xbTBNZg?oc=5",
+          "published": "Mon, 26 Oct 2026 04:18:44 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Adani Power",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -618,9 +556,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Apollo Micro System, Tata Power, Milky Mist, PC Jeweler, Paytm & MPRL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LNEdxbHNjd09FQTh3OWMwYkNjSE9UaTNxMExZYnl4N1JNdm80RW16WlRsWDFydTkxOVdXc3kwLTdROENHUGFiNmNGUlZsM2N3RmQ5V2lB?oc=5",
-          "published": "Tue, 27 Oct 2026 03:50:09 GMT",
+          "title": "DOW JONES -650 CRASH\ud83e\udee8\ud83d\udd34INFOSYS Q2 ADR CRASH\ud83d\udd34TATA MOTORS Q2\ud83d\udd34ADANI POWER Q2\ud83d\udd34SBI\ud83d\udd34JIO IPO GMP\ud83d\udd34GOLD SILVER - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UTY2VVBnWXdyN2loYXd6T0tNVGxfdHprRlNtT01MaG5aaHFvTGxQWHA2anZjUnpKd1dXSzljVW9Zc2FDSnZyS2FMb1YxanRBakEtUTJB?oc=5",
+          "published": "Fri, 23 Oct 2026 18:02:46 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -652,6 +590,29 @@
       "sufficient": false
     },
     {
+      "name": "HFCL",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Jio Fin, TRIAL, ACME Solar Holding, Reliance Ind, ITDC, LT Foods, Groww, HFCL Shares \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KeXB6c0ZvSmREbWQ3OUdqVF96aEJUbFRrNG9USFZHZmhOSVlPOE8weWx2cGtuWk5PNnVONDNwRkFSUjBoWkt2SzhPcmI3alJMX3F6emh3?oc=5",
+          "published": "Fri, 23 Oct 2026 14:30:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "CG Power",
       "mentions": 1,
       "investor_mentions": 0,
@@ -675,7 +636,35 @@
       "sufficient": false
     },
     {
+      "name": "Reliance Industries",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "SBI",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Tata Consultancy Services",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -843,6 +832,20 @@
       "sufficient": false
     },
     {
+      "name": "Vodafone Idea",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Yes Bank",
       "mentions": 0,
       "investor_mentions": 0,
@@ -899,7 +902,7 @@
       "sufficient": false
     },
     {
-      "name": "NBCC",
+      "name": "Tata Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -914,20 +917,6 @@
     },
     {
       "name": "JSW Energy",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1082,20 +1071,6 @@
     },
     {
       "name": "Hindustan Zinc",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "HFCL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
