@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-27T02:41:39.465621+00:00",
+  "collected_at": "2026-10-27T03:15:59.946383+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -16,19 +16,19 @@
   "source_errors": [
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
-    "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 663,
+  "posts_collected": 736,
   "source_counts": {
+    "IndianStockMarket": 99,
     "tradingqna": 36,
     "valuepickr": 7,
-    "indexed_reddit": 247,
+    "indexed_reddit": 221,
     "youtube": 196,
     "facebook": 87,
     "instagram": 90,
-    "total_unique": 663
+    "total_unique": 736
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,10 +52,10 @@
   "stocks": [
     {
       "name": "Infosys",
-      "mentions": 17,
+      "mentions": 16,
       "investor_mentions": 3,
-      "commentary_mentions": 14,
-      "commentary_bullish": 1,
+      "commentary_mentions": 13,
+      "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -85,14 +85,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock to Buy: Infosys Q2\u0aae\u0abe\u0a82 1.2 \u0a9f\u0a95\u0abe \u0ab0\u0ab9\u0ac0 CC \u0a86\u0ab5\u0a95 \u0a97\u0acd\u0ab0\u0acb\u0aa5 | DR Reddys \u0aa8\u0acb \u0aa8\u0aab\u0acb 36 \u0a9f\u0a95\u0abe \u0a98\u0a9f\u0acd\u0aaf\u0acb | BPCL Q2 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5abkJjbW1YZXl3RGdiSzdYaDZXS3czYVRGOERUMUZhQ3ZETHZoWTBUdmtRNVloajZEbk5YNzhtQk5rVUJSZDlFUHhUZ0V2am1KMXl5M3Bn?oc=5",
-          "published": "Mon, 26 Oct 2026 03:28:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
         },
         {
           "title": "US & Asian market in red | Crude prices, US yields inch up | Infosys cuts FY27 guidance - YouTube",
@@ -157,15 +149,23 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "MARKET CRASH? \ud83d\udca5 JIO IPO 18X SUBSCRIBED | INFOSYS RESULTS & ADR | TATA MOTORS | GOLD SILVER Midcap - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43R241QUUtblVoMzFhTk41MkJOVU1pRzFXTEZTbzdSQVRwTGF1LXhpWVFkVFp4RnliUHAzdlBjSGdNcVA0UjlWUXIwaWxJTHJLcDBKSHF3?oc=5",
+          "published": "Fri, 23 Oct 2026 13:49:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 11,
+      "mentions": 12,
       "investor_mentions": 0,
-      "commentary_mentions": 11,
+      "commentary_mentions": 12,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -260,6 +260,14 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Q2 FY27 Results \ud83d\udd25 Tata Motors, Coforge, JSW Steel, SBI Card & 9 Stocks | Hindi Analysis - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GTUZYTFZqamJwc0lmYU1jeVFQcHpVNVFFN1ROd1ZqSW5EWkJPVXQ1TTZOa0hpTDdRM1RYUVJJVXdWTWNPdFdpS3lxZ20xcEZZNjRfU0NR?oc=5",
+          "published": "Mon, 26 Oct 2026 09:17:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -305,6 +313,68 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
           "published": "Thu, 22 Oct 2026 11:44:15 GMT",
           "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "ICICI Bank",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Insights: Biocon \u0928\u0947 \u0924\u094b\u0921\u093c\u093e BIG SUPPORT? ICICI Bank \u092e\u0947\u0902 BUY \u092f\u093e SELL? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rcVBlOEZpbjNsRUl4SXVGbGRPNlN4X1V3YXVKVDJSWFM4ME16MFVvYy1ERFhsdGQ4MEQxQ3FIRlhLN0w3WkhrOVBDQkNQM0VCYVljLVdB?oc=5",
+          "published": "Mon, 26 Oct 2026 03:22:28 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
+          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Paytm",
+      "mentions": 2,
+      "investor_mentions": 2,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Positive sentiments for Paytm today?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xgholx/positive_sentiments_for_paytm_today/",
+          "published": "2026-10-27T03:15:29+00:00",
+          "subreddit": "IndianStockMarket",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "PAYTM - Will it finally reach IPO levels?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xggmdr/paytm_will_it_finally_reach_ipo_levels/",
+          "published": "2026-10-27T02:24:37+00:00",
+          "subreddit": "IndianStockMarket",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         }
@@ -521,29 +591,6 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
-          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "ITC",
       "mentions": 1,
       "investor_mentions": 0,
@@ -613,29 +660,6 @@
       "sufficient": false
     },
     {
-      "name": "Paytm",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "PAYTM - Will it finally reach IPO levels? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQejBCMGtOMmlEeGdRanVSNzhoeVhISkRhczZlZ3IwbExrcW1raER4c3FRM3I1R1hweTNnaUc4dW5CV0ZWOXBab0FQT2hnaHZLSXBpZEMxemo1NTA3OFJlVm91dXB6X2ExUjRXdW01enJDWlFZa0xUV19lRDM4dVlMMHNJWGRDT040MHVnelZDUmdRdjFoLUVsWnBuNGpfMVJV?oc=5",
-          "published": "Tue, 27 Oct 2026 02:24:37 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "NBCC",
       "mentions": 1,
       "investor_mentions": 1,
@@ -648,10 +672,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "What is wrong with NBCC - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY0tNYnlibmZJUzJaLUpxak52MktXVFhPVkJPR3J5ZjVsNUh6Q2I0NkdJd1o4a2JMTDliUVNOV0toS25GNlRybHBqZTE1bUIxMXRDcVBSNTNQZHpmRXR0cVN2d0JZSDd5a1BRRDNsQUtJNjlrbmZJYWhDV1hLRDNod05tWmVOT18xbTBNZg?oc=5",
-          "published": "Mon, 26 Oct 2026 04:18:44 GMT",
-          "subreddit": "indexed_reddit",
+          "title": "What is wrong with NBCC",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfn33j/what_is_wrong_with_nbcc/",
+          "published": "2026-10-26T04:18:44+00:00",
+          "subreddit": "IndianStockMarket",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         }
@@ -720,29 +744,6 @@
           "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
           "published": "Sat, 24 Oct 2026 04:00:11 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "MCX",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Domestic equity markets including NSE and BSE will remain closed on October 20 for Dussehra. This holiday follows a significant market drop due to weak private banking and disappointing earnings. The Multi Commodity Exchange will operate in the evenin - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFMtYy1kYjVjeEhLdVFRQWJLRjZrSUF2d090OV8zdWYyZG9KZHg2bDdhRXR4WWVSYXRkUEV2RTNDTGVmbGdMR011cXh3amFRQ2dFWVFuSmFFU2x4LVpVYURrTE54X0wzcnpTc2tVT2tRX21heVB4YnJLQWxBbGpMZktfNFZiakdaMTB6TjZwR3NURk5NNkJ6VmlibmRyVlVOeFRZRGtCZEFQaUNxQTd3amJCQk56UWdHb2lsSkVYN3hNVFZtSTdkSDVTN3BDM1FrTHNsZjhZV3o?oc=5",
-          "published": "Tue, 20 Oct 2026 02:43:29 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -1232,6 +1233,20 @@
     },
     {
       "name": "BSE Ltd",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "MCX",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
