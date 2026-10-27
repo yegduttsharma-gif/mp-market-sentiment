@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-27T03:15:59.946383+00:00",
+  "collected_at": "2026-10-27T03:56:09.811399+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -16,19 +16,19 @@
   "source_errors": [
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
+    "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 736,
+  "posts_collected": 681,
   "source_counts": {
-    "IndianStockMarket": 99,
-    "tradingqna": 36,
+    "tradingqna": 37,
     "valuepickr": 7,
-    "indexed_reddit": 221,
-    "youtube": 196,
+    "indexed_reddit": 265,
+    "youtube": 195,
     "facebook": 87,
     "instagram": 90,
-    "total_unique": 736
+    "total_unique": 681
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Infosys",
-      "mentions": 16,
+      "mentions": 17,
       "investor_mentions": 3,
-      "commentary_mentions": 13,
+      "commentary_mentions": 14,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -87,54 +87,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "US & Asian market in red | Crude prices, US yields inch up | Infosys cuts FY27 guidance - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCVzdqcmRpMG52cU1VdEV5eWl3YmhxRUkxdVZJeTRLWXNCdE53cUhMTWMzeFI2d1pncS1vbVBnZnItUXBJNFVxUFBIcnBFX2dDb2FrYzJR?oc=5",
-          "published": "Mon, 26 Oct 2026 03:06:40 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "TCS Vs Infosys Q2 Results: \u0915\u093f\u0938\u0928\u0947 \u092e\u093e\u0930\u0940 \u092c\u093e\u091c\u0940? \u0915\u093f\u0938\u0915\u093e \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0930\u0939\u093e \u092c\u0947\u0939\u0924\u0930? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TUTFCdFZ3TlJDeXdMUzlVb0hvVW1VQThUczFUbUVCUjdSeWtmSURIUmluZ3JrLU14ZzN2bllqOWlMd2xULTlpWEF6R2VyRXR2bEhxdHpR?oc=5",
-          "published": "Mon, 26 Oct 2026 07:07:13 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udea8 NIFTY\u2019S BIG BATTLE: BREAKOUT OR BREAKDOWN? \u2694\ufe0f One level acted like a wall on Friday. Now, Nifty is caught between strong support and stubborn resistance. \ud83d\udc40 \ud83d\udcc9 FIIs are buying. Crude has cooled slightly. But the real twist? Infosys and Netweb are - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQS3BHcHVZM2k4SEpyWF84YXpuNG9DcExKOWpuOVVkSzY0Nzl6V3FSdEtuTy1jVThHMzN2UndtY1ZtOThmRUFTNGRUMWFzaVRFRU1pVERHekNybzZkdzFHM191VjFTZTFvZmxVNEpLOFFjdW01YVl6TUhGa1J3TERlckVKcXN0MG9OeW9hS3R4OTJrUWJlR3V2VDNhTWE5QnNfMDZfQkZ1Vm5JTFVmZjVDMXlzT0RqeXU3MHBDTUM0eDBKMzNUQS1PRS13RmxxOHM5VFItSDVsalVuVVplYXVMTDhB?oc=5",
-          "published": "Mon, 26 Oct 2026 02:43:05 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#ClosingBell: Sensex ends 126 pts lower after volatile trade, Nifty at 22,600; Jio Fin, Tata Steel drop 3% each https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-swiggy-infosys-share-pric - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaEVfb1VrcnlXRFBxZXMyMzQ5UjNRdzdhSEVLbFB1UFhJajV5SG8xeUpFbUlyV1hNelEwUk1wVF9BV0xESlRMTmprVURyTC15TzYtUTZyZk9MQUEwcEtNZXM2UVhna2Y0ZzNBWnhhQ1FfbGduLVJzT0NNTFFWMVl5UEZiOWlueUlaaXlWTjlBMDc3WlpZWFZZSlI3SjRPN29vaDlKdnhrY1gwRGtpRXBBbDduTUpoMV9xUDVldXcyeEJTcVJtY2F2ZnBNNkpJSWZ3cGJUYkFB?oc=5",
-          "published": "Fri, 23 Oct 2026 10:03:34 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZ3J1eFUyRnpMUmRtOVBSM3JSYzRJVDZhWUVueFd3OS1ObmYyYlZaRmNDcjhxS1pzcld3ZnR4X2V1NTUtNklJTGdaclltOHY3bzRnNVZn?oc=5",
-          "published": "Sun, 25 Oct 2026 06:35:22 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! Indian equity markets are set for a positive but cautious start to the new week on Friday amid mixed global sentiments and elevated crude oil prices. Stocks like Infosys, Kotak Mahindra Bank, Tata M - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zTXRPRlRHN245VVd6OHZJYlRvXzNmdlRKM2RibEt1LTVzWGNkYUk0czJ6czY5V2ljR1VWUFpKNGFaTFkzSlhBLVpneElQN1lWVGc?oc=5",
-          "published": "Mon, 26 Oct 2026 03:27:42 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
           "published": "Mon, 26 Oct 2026 06:30:31 GMT",
@@ -157,15 +109,63 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "DOW JONES -650 CRASH\ud83e\udee8\ud83d\udd34INFOSYS Q2 ADR CRASH\ud83d\udd34TATA MOTORS Q2\ud83d\udd34ADANI POWER Q2\ud83d\udd34SBI\ud83d\udd34JIO IPO GMP\ud83d\udd34GOLD SILVER - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UTY2VVBnWXdyN2loYXd6T0tNVGxfdHprRlNtT01MaG5aaHFvTGxQWHA2anZjUnpKd1dXSzljVW9Zc2FDSnZyS2FMb1YxanRBakEtUTJB?oc=5",
+          "published": "Fri, 23 Oct 2026 18:02:46 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "INDIA US TRADE DEAL\u26abTRUMP U TURN\u26abIREDA\u26abINFOSYS Q2\u26abBAJAJ FINANCE\u26abOYO IPO\u26abWAAREE\u26abRELIANCE JIO IPO\u26abSMKC - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdjFDRFliaTVxT3RNdFAtYkFLMmtpWFdQekptblFNdlpFZzdDYmMxb05WU3U2S2JmSUhyYnRTZ0RGbWF5Y0ZRelVtaGJWS25nZG15RmNR?oc=5",
+          "published": "Tue, 20 Oct 2026 17:29:39 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty\u2019s Worst Year Since 2008, Jio IPO Bids Cross \u20b97 Lk Crore, Infosys Q2 Disappoints | Top Stories - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yYUFUT05jQjhKWk9LeU8yNFAwSS0ydEFuRGtfUVVVZjJCSlRSNVhPcGJzRW1DZE9IN3NJUVpfTkxZaE52QmNzVnpYR0dkWWNXTkx5Wkd3?oc=5",
+          "published": "Fri, 23 Oct 2026 14:56:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Share Market Live: \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f! Nifty 22,400 \u0915\u0947 \u0928\u0940\u091a\u0947, Infosys-Kotak Bank \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092a\u0930 \u0928\u091c\u0930 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EaVlVdWhoRU1yZnpqSnI4bjh4UVZnVm5fajVxckdadVk5dGxsaE9IVFA1czdjTzNNaGdROVVRN2d1VXVKNk1yZEdDUk9HN3pQVFczNE1R?oc=5",
+          "published": "Mon, 26 Oct 2026 04:21:49 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\u0906 \u0917\u090f Q2 Results \ud83d\ude31 Infosys Share Results Today \ud83e\udd14 Dividend \u092d\u0940 \u0906\u092f\u093e \ud83d\udd25Infosys Share \u26a0\ufe0f Breaking News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02cjhLRE5vTUR0Mm0wVlh4RzlwZUh3ZURRRlJDbHFyRXpXNGRKRUlXckVOU21YZFFheWtFWG10bmtMRThVU0gtVFNTcmVuYlBBT0I2THRR?oc=5",
+          "published": "Fri, 23 Oct 2026 11:35:34 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "US & Asian market in red | Crude prices, US yields inch up | Infosys cuts FY27 guidance - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCVzdqcmRpMG52cU1VdEV5eWl3YmhxRUkxdVZJeTRLWXNCdE53cUhMTWMzeFI2d1pncS1vbVBnZnItUXBJNFVxUFBIcnBFX2dDb2FrYzJR?oc=5",
+          "published": "Mon, 26 Oct 2026 03:06:40 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 12,
+      "mentions": 11,
       "investor_mentions": 0,
-      "commentary_mentions": 12,
+      "commentary_mentions": 11,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -260,14 +260,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Q2 FY27 Results \ud83d\udd25 Tata Motors, Coforge, JSW Steel, SBI Card & 9 Stocks | Hindi Analysis - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GTUZYTFZqamJwc0lmYU1jeVFQcHpVNVFFN1ROd1ZqSW5EWkJPVXQ1TTZOa0hpTDdRM1RYUVJJVXdWTWNPdFdpS3lxZ20xcEZZNjRfU0NR?oc=5",
-          "published": "Mon, 26 Oct 2026 09:17:06 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -320,41 +312,10 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
-      "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock Insights: Biocon \u0928\u0947 \u0924\u094b\u0921\u093c\u093e BIG SUPPORT? ICICI Bank \u092e\u0947\u0902 BUY \u092f\u093e SELL? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rcVBlOEZpbjNsRUl4SXVGbGRPNlN4X1V3YXVKVDJSWFM4ME16MFVvYy1ERFhsdGQ4MEQxQ3FIRlhLN0w3WkhrOVBDQkNQM0VCYVljLVdB?oc=5",
-          "published": "Mon, 26 Oct 2026 03:22:28 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
-          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Paytm",
-      "mentions": 2,
+      "mentions": 3,
       "investor_mentions": 2,
-      "commentary_mentions": 0,
+      "commentary_mentions": 1,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -363,20 +324,67 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Positive sentiments for Paytm today?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xgholx/positive_sentiments_for_paytm_today/",
-          "published": "2026-10-27T03:15:29+00:00",
-          "subreddit": "IndianStockMarket",
+          "title": "Positive sentiments for Paytm today? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUDBqbWdXN0xJclRWM3NkRkl0YnV5MzdacTFiR1ZQM0NHLUZEM1VKRjRTbGVQUnd5emM2eTdSZ0F3RVVtSjQzemdQWWo3NFI3blFZWTA2VVdpOFhscjFpNVNKb0RUNlB6OGtLeGQ4dWNESTdFMlNCdVhuR0pQOEwzU2JMMGU0SzI5OXRVYWQ1UkVIUW9uNDRSaWFOU2s?oc=5",
+          "published": "Tue, 27 Oct 2026 03:15:29 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "PAYTM - Will it finally reach IPO levels?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xggmdr/paytm_will_it_finally_reach_ipo_levels/",
-          "published": "2026-10-27T02:24:37+00:00",
-          "subreddit": "IndianStockMarket",
+          "title": "PAYTM - Will it finally reach IPO levels? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQejBCMGtOMmlEeGdRanVSNzhoeVhISkRhczZlZ3IwbExrcW1raER4c3FRM3I1R1hweTNnaUc4dW5CV0ZWOXBab0FQT2hnaHZLSXBpZEMxemo1NTA3OFJlVm91dXB6X2ExUjRXdW01enJDWlFZa0xUV19lRDM4dVlMMHNJWGRDT040MHVnelZDUmdRdjFoLUVsWnBuNGpfMVJV?oc=5",
+          "published": "Tue, 27 Oct 2026 02:24:37 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Result Review: Tata Consumer Futures \u092e\u0947\u0902 BUY! Paytm, Sona BLW, REC \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40bV81eGo2WGNfeWdlN1NETmdQU05NU0R2THZXMFI0RmF0RWJTZ0hDV2cyaEtGLVF4TktPdXlXMjdTcDhNZmtWZnlJTVF3ODhBUm54Q2lB?oc=5",
+          "published": "Tue, 27 Oct 2026 03:14:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Kotak Bank",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
+          "published": "Mon, 26 Oct 2026 06:30:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Share Market Live: \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f! Nifty 22,400 \u0915\u0947 \u0928\u0940\u091a\u0947, Infosys-Kotak Bank \u0938\u092e\u0947\u0924 \u0907\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092a\u0930 \u0928\u091c\u0930 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EaVlVdWhoRU1yZnpqSnI4bjh4UVZnVm5fajVxckdadVk5dGxsaE9IVFA1czdjTzNNaGdROVVRN2d1VXVKNk1yZEdDUk9HN3pQVFczNE1R?oc=5",
+          "published": "Mon, 26 Oct 2026 04:21:49 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! Indian equity markets are set for a positive but cautious start to the new week on Friday amid mixed global sentiments and elevated crude oil prices. Stocks like Infosys, Kotak Mahindra Bank, Tata M - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zTXRPRlRHN245VVd6OHZJYlRvXzNmdlRKM2RibEt1LTVzWGNkYUk0czJ6czY5V2ljR1VWUFpKNGFaTFkzSlhBLVpneElQN1lWVGc?oc=5",
+          "published": "Mon, 26 Oct 2026 03:27:42 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -394,18 +402,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
-          "published": "Sat, 24 Oct 2026 04:00:11 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Hero MotoCorp, SUZLON, KROSS, PC Jewel., Indian Hotels, Wipro Sammaan Capital Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZRVRWMWk3Ni13ZzlQcjBCbWVvWl9yTlNpWmxRdnpWd3NVT3lDZERjbW0yUWFnV2Nsbzd3WlQ2X2Q2VWFqRjhLTkNndGE5c1Q3d0JQVWVB?oc=5",
           "published": "Thu, 22 Oct 2026 06:06:30 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
+          "published": "Sat, 24 Oct 2026 04:00:11 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -506,37 +514,6 @@
       "sufficient": false
     },
     {
-      "name": "Kotak Bank",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! Indian equity markets are set for a positive but cautious start to the new week on Friday amid mixed global sentiments and elevated crude oil prices. Stocks like Infosys, Kotak Mahindra Bank, Tata M - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zTXRPRlRHN245VVd6OHZJYlRvXzNmdlRKM2RibEt1LTVzWGNkYUk0czJ6czY5V2ljR1VWUFpKNGFaTFkzSlhBLVpneElQN1lWVGc?oc=5",
-          "published": "Mon, 26 Oct 2026 03:27:42 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
-          "published": "Mon, 26 Oct 2026 06:30:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Indian Hotels",
       "mentions": 2,
       "investor_mentions": 0,
@@ -549,18 +526,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
-          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Hero MotoCorp, SUZLON, KROSS, PC Jewel., Indian Hotels, Wipro Sammaan Capital Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZRVRWMWk3Ni13ZzlQcjBCbWVvWl9yTlNpWmxRdnpWd3NVT3lDZERjbW0yUWFnV2Nsbzd3WlQ2X2Q2VWFqRjhLTkNndGE5c1Q3d0JQVWVB?oc=5",
           "published": "Thu, 22 Oct 2026 06:06:30 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
+          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -586,6 +563,29 @@
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "ICICI Bank",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
+          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -672,10 +672,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "What is wrong with NBCC",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfn33j/what_is_wrong_with_nbcc/",
-          "published": "2026-10-26T04:18:44+00:00",
-          "subreddit": "IndianStockMarket",
+          "title": "What is wrong with NBCC - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY0tNYnlibmZJUzJaLUpxak52MktXVFhPVkJPR3J5ZjVsNUh6Q2I0NkdJd1o4a2JMTDliUVNOV0toS25GNlRybHBqZTE1bUIxMXRDcVBSNTNQZHpmRXR0cVN2d0JZSDd5a1BRRDNsQUtJNjlrbmZJYWhDV1hLRDNod05tWmVOT18xbTBNZg?oc=5",
+          "published": "Mon, 26 Oct 2026 04:18:44 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         }
