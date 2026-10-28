@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T10:41:13.812375+00:00",
+  "collected_at": "2026-10-28T11:22:18.312436+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,7 +25,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 5
+      "recent": 7
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 133,
+  "unique_titles": 134,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 5,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Stock Market Today: Why Nifty Fell? Reliance -3.2%, HDFC Bank Bounce. Nifty Tomorrow 29 Oct",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhlc9j/stock_market_today_why_nifty_fell_reliance_32/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-28T11:21:06+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Jio ke piche NIFTY ko chadha diya",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhi49r/jio_ke_piche_nifty_ko_chadha_diya/",
