@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T17:22:04.784968+00:00",
+  "collected_at": "2026-10-28T18:05:30.068452+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 584,
+  "posts_collected": 689,
   "source_counts": {
     "tradingqna": 35,
-    "valuepickr": 11,
-    "indexed_reddit": 156,
-    "instagram": 98,
-    "facebook": 86,
-    "youtube": 198,
-    "total_unique": 584
+    "valuepickr": 12,
+    "indexed_reddit": 269,
+    "youtube": 197,
+    "instagram": 96,
+    "facebook": 80,
+    "total_unique": 689
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -162,15 +162,189 @@
       "sufficient": false
     },
     {
-      "name": "Infosys",
-      "mentions": 9,
-      "investor_mentions": 2,
-      "commentary_mentions": 7,
+      "name": "Reliance Industries",
+      "mentions": 10,
+      "investor_mentions": 0,
+      "commentary_mentions": 10,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "The Ambani family celebrates Jio Platforms Ltd\u2019s stock market debut at the National Stock Exchange of India with a ceremonial gong strike. The company\u2019s shares list at \u20b91,358 apiece, marking a major milestone for the Reliance Industries-backed digital servic - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YdEtVbkFCNlpLT2s4dlNFTVdseHQ5Nk5rV0pBNGhUenZ3WHNSOWtLN1NoYzRJV2xZMW1zd1ZZWktuYzdWck00azhNa3J4ZTRJWDVwT3ZB?oc=5",
+          "published": "Wed, 28 Oct 2026 06:19:08 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio Platforms made a strong debut on the stock market, opening at \u20b91,358 per share on the NSE\u201421.36% above its issue price. The listing marks a major milestone for Reliance Industries\u2019 digital and telecom business, reflecting investor interest in its growth p - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WMGRROE8wOGltZzRrc3NfaWFZbHdLZFJaOTQzbkh3Z05LVDZDd2Q4Z1h3bExGN2JteFZXZl9tdVJmRUthYWh5N1FlNllvd2dhYmc?oc=5",
+          "published": "Wed, 28 Oct 2026 06:35:31 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio Platforms makes its much-awaited stock market debut, marking a significant milestone for Reliance Industries. Mukesh Ambani seeks Bappa\u2019s blessings on this special occasion, combining a major business moment with faith and tradition. #JioPlatforms # - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PWmtqQlFrU2xlYjhDaC1raklKOU1ZcDVVZTU2Q0R4OW1udDZ2NU5vZFUxM1FHbTVPUGNjaVJjUnRJUVBaUEdLQzFCb2RXcVQzQlMyTVVB?oc=5",
+          "published": "Wed, 28 Oct 2026 15:51:20 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "The Ambani family gathered at the National Stock Exchange (NSE) to ring the ceremonial listing bell, marking the public debut of Jio Platforms Ltd. The event celebrates a major corporate milestone for Reliance Industries' digital arm following one of the most hi - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yQU5jRGFLZXNjdHozX09FQ21UM0RiOG9oamhqdEZIWXdWSWtPbWExQk5kVDBtOS1pU2d4VURsTzF2R0JJN0lIdGRyTmJnWWxsV3VoMGZR?oc=5",
+          "published": "Wed, 28 Oct 2026 06:38:01 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio Platforms made a powerful debut on the stock market, with its shares listing at \u20b91,358, around 21.36% above the issue price. The listing marked a major milestone for Reliance Industries\u2019 digital and telecom business. With a valuation of around \u20b912.5 lakh c - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pU3k1TmtYajJsSDNUTDRPcmVyZFcwdlp5M1g1TFp1aEVIQ3VSU1k3aTIyaGk3RXVEbEs1QmdaRHVNXzJsUDBhTVVGdUJackttTkhRclJn?oc=5",
+          "published": "Wed, 28 Oct 2026 08:51:29 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "An emotional moment unfolded at Jio Platforms\u2019 stock market listing ceremony on Wednesday as Reliance Industries Chairman Mukesh Ambani was seen wiping away tears while his son Anant Ambani paid tribute to his grandfather, Dhirubhai Ambani, and hi - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FU0xmZ28yN0dwRmFXamNYMUpDbUsxeWR6SmJqY3JiNUY5aGpONS0ybXk0aXdkQmhldFhrODBGNzRuZFRTWV9BODF3WWtEeDlRWmU3QlZn?oc=5",
+          "published": "Wed, 28 Oct 2026 10:01:42 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\ude80 JIO PLATFORMS MAKES A BLOCKBUSTER STOCK MARKET DEBUT! \ud83d\udcc8 Reliance Industries\u2019 digital and telecom arm, Jio Platforms, made a powerful entry into the Indian stock market, listing on the NSE and BSE at \u20b91,358 per share \u2014 a remarkable 21.36 - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84a19wNjAwZ01fNHktQVdrUUgwREd3N3VySFZCcTB1X1Z3VDlIYUk2YUpnNnhudUNQdzJnUnBhLW83c1NlZkV3eU9yQTVWcEM0b3c?oc=5",
+          "published": "Wed, 28 Oct 2026 07:48:35 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "The stock market just met Jio. \ud83e\udd1d After transforming India's digital connectivity, Jio has reached another major milestone. The Jio IPO opened at \u20b91,358 per share, a 21.36% premium over its issue price of \u20b91,119. A landmark listing for Reliance Industries as Jio - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvcTVJeVRNaW9MT1huTlItVmVLT3dnd3N4Z3dEVk5RWnNraThWTWhwazRfMjZROEg5TFZCZkRBSGpfUDJHLWdtZUkyb0hwT2UtNEt5eGRHUFFhdw?oc=5",
+          "published": "Wed, 28 Oct 2026 11:07:05 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\u20b91,358 per share. That's where Jio Platforms opened on its stock market debut \u2014 21.36% above the IPO price of \u20b91,119. An important milestone for Reliance Industries and another memorable chapter in Jio's remarkable journey. #jioipo #deshkajio #jioipoup - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbFJLd2hfY0ZOSUdNNUtRSHh2YTJhTC1zMGpHOHowQkk2cWUyWVRYQy1uU05EZUZoY3lYVTVRMnZBeG84aHdtYllZRXlraDJZc2E1NjZqNHp4bkhtQkdiVGM2aWtrUEZFOG8xNXh6YmE0anhlZXFNdnhyRWVCU0ozdk1xQkZNamNWUVVJTVBFa2FvV0FJR0pJUXE5R2x2eWpRemdTT2F1V0o1czNoZW1uLUtEckY2OFBEeFZyLTJnajQydm1fancyYzRSY2VKbXA2blpzVmJBcF9HREVEYmZQYS1VQ2ZDdw?oc=5",
+          "published": "Wed, 28 Oct 2026 13:30:07 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\u0906\u0930\u0939\u093e \u0939\u0947 Reliance Retail IPO?\ud83d\udd25\u26ab Jio IPO \u0938\u0947 Reliance Industries \u0915\u093e Downfall \u0936\u0941\u0930\u0942?\u26ab Reliance Beat TATA - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jUFdZaDA2cDVmd0xCTTZHa0o3N2llcHI0NDNzOHpxRHlOTk5VdmIwMUtTcC1SWnItQ2FUalB0S241cTczNmVNUW1vbC15RFdKT24tVVh3?oc=5",
+          "published": "Wed, 28 Oct 2026 15:09:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "HDFC Bank",
+      "mentions": 8,
+      "investor_mentions": 6,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 6,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "HDFCBANK hit 52 week low and bounced today with strong close near its high. Will this signal tomorrow a gap up? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGwzUXJpbks0VkVBVGZfNzloTXZkUUwyTkFhVUkyMGlXYUYxdkVjZzFmQnZFMDcxV2ZoMXJOa2h1X1FiNml3ZmtCck5sN0M1VFdMUGRUZW4zYVJHRmZHeThRM3paY3dZUDhsXzNDUjN3REY1blNMYkFVMDlWQlFtV0UwZ25DUFJ6ek9pSmxkejNnR2RFZm1yblVkYnAxMUJHRE1GR1NmNFdIcTV3?oc=5",
+          "published": "Wed, 28 Oct 2026 12:00:09 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 BIG BREAKOUT? Biocon, ICICI Bank, HDFC Bank \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6dHFzVTkzVEtpOW9JbkVCaVVDaGdkZW9nV1cwOGl5Y2NOdXM1dHdwam9xNWg5TFgtZWFHRU41YlEtMkI3X2JMbG9FVFZxTGdhRXJoRFJR?oc=5",
+          "published": "Wed, 28 Oct 2026 03:30:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian stock markets remained under pressure, with the Sensex recovering from its day\u2019s low while the Nifty moved above the 22,700 mark. KEI Industries, Eternal and HDFC Bank were among the most actively traded stocks. Investors continued to track market - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CcGtPSEhMNDdiZ2tqS0xwZkszWm00SHpxTmh3U1RJRlR1bHF0QWU0bHoxY3Myb0JLd2F5Z2FhX0FFaUtSelFQc0Q3cVZSNDNuZ2c?oc=5",
+          "published": "Thu, 22 Oct 2026 05:05:56 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "What Are the Odds of Randomly Investing in HDFC Bank and Ending Up With a Red Annual Candle? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVuMWNsemNjQmNXWmFCVmo0UHE3Sy03MzU0X2VuSFE1dVhyUnNOQTlIMEJLakFlYXhMck5zdFpSMVNrWmVUTUwzMXhJV19wak9OVmRPa28yemt6VWFTNWRWdjFQQ3FxSmdKU05QLTlkTUhfc2NYNlkteE13SHF0TjlEVVN2RTRpbktjbnV3bE1Oa2dza1RObk1JUF9mNDBjUlRXd0Q3alAySHo3?oc=5",
+          "published": "Tue, 27 Oct 2026 09:04:54 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Fell? Reliance -3.2%, HDFC Bank Bounce. Nifty Tomorrow 29 Oct - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMVdSMW9pV3Y1b0hxdk83Yk83T0RlWVI5ZldwMEVOOUVJRUdiUHVpeXZ2TTlVejZULWJ2UG1VWkdnVHhBUEcxYXJNN2UycUVyUjhweDFmOHZETFQ0YmNLSktQRWhiTi1qV2lRcWhsZDVvUXBKQ2xMT0xjNTRwQ1BHNXZyV3IwdWFNYW9vZkZwUV9NejhJMkRzZTBfTV9LNy12Q3NZQW9sRW1wUQ?oc=5",
+          "published": "Wed, 28 Oct 2026 11:21:06 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market Today: HDFC Bank, ICICI Bank (19% of Nifty) Fell; Smallcaps +2.7%, Airtel Up - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1ZIc1lSVnFVem9paWwtWFZlRDEyUjVseGowaVZSaFNtTW9Jc1VUSGN2SnFjVjZ0S1BQX1dOY0dKenZMdVRXWFIyUWtpbFY4NjVnRXlFYnVnNU1mSVRaUVdfQXdSRXR2OTRzR3dMeDRyR2VzSlNwUnRjdUR6Q09NT3F5Y011RnU4WmR0U2hySzdvNGJhXzduNVFDZTQzeGhicHZOSzluWXU4Zw?oc=5",
+          "published": "Tue, 27 Oct 2026 12:24:40 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market Today: HDFC Bank 52-Week Low, Then Bounce; Reliance -3.2% Sank Nifty #Shorts - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNktUNkR2cGRfREtNSm9oOWJCRkYyaFk5bk5YSkdpNkw5MXJUQzFiamI4WHZVWnBJclFkMGkyY0xfcWpyZGZ4YXpiRkhBcVNMRlV1bnpBa3pPTTVCWGpIMmhQTEhWMm1zWlVPNFM2MjBBN3Y2ZGdfSHpvcUJtdS1lRUFiV3UtMFZHbjJ6LWsyVmxkUW1TcUk3Y3ZqdnFYaW5pN01TRjJ4Ukg?oc=5",
+          "published": "Wed, 28 Oct 2026 11:22:11 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
+          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 7,
+      "investor_mentions": 1,
+      "commentary_mentions": 6,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
         {
@@ -180,22 +354,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Infosys profit up 6.2%, stock down 4%. Fair reaction? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDlyTzhSeHpyVjhiWDJvN1JtMVhXd184YnFXWW5RakgtTy1PTXRYdmdOQng1UUE3M3ZWMll6T0hpTzc5OUwwQlU0aVB3ZmtSblhmVDlmRkdWNS1YQzl5R2hGSzQ4NVNlOHRub1NqWjdkY3RaNE92WGZFdUtCREZEcy1WRHlnaTRlcTFVR2lKaUVjRFMtT0NkQ3RZRWhSOGR0WUNGNDNtam5fcVk?oc=5",
-          "published": "Mon, 26 Oct 2026 10:42:27 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZ3J1eFUyRnpMUmRtOVBSM3JSYzRJVDZhWUVueFd3OS1ObmYyYlZaRmNDcjhxS1pzcld3ZnR4X2V1NTUtNklJTGdaclltOHY3bzRnNVZn?oc=5",
-          "published": "Sun, 25 Oct 2026 06:35:22 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         },
         {
           "title": "\ud83d\udea8 NIFTY\u2019S BIG BATTLE: BREAKOUT OR BREAKDOWN? \u2694\ufe0f One level acted like a wall on Friday. Now, Nifty is caught between strong support and stubborn resistance. \ud83d\udc40 \ud83d\udcc9 FIIs are buying. Crude has cooled slightly. But the real twist? Infosys and Netweb are - Facebook",
@@ -244,77 +402,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "HDFC Bank",
-      "mentions": 7,
-      "investor_mentions": 6,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 6,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Indian stock markets remained under pressure, with the Sensex recovering from its day\u2019s low while the Nifty moved above the 22,700 mark. KEI Industries, Eternal and HDFC Bank were among the most actively traded stocks. Investors continued to track market - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CcGtPSEhMNDdiZ2tqS0xwZkszWm00SHpxTmh3U1RJRlR1bHF0QWU0bHoxY3Myb0JLd2F5Z2FhX0FFaUtSelFQc0Q3cVZSNDNuZ2c?oc=5",
-          "published": "Thu, 22 Oct 2026 05:05:56 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFCBANK hit 52 week low and bounced today with strong close near its high. Will this signal tomorrow a gap up? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGwzUXJpbks0VkVBVGZfNzloTXZkUUwyTkFhVUkyMGlXYUYxdkVjZzFmQnZFMDcxV2ZoMXJOa2h1X1FiNml3ZmtCck5sN0M1VFdMUGRUZW4zYVJHRmZHeThRM3paY3dZUDhsXzNDUjN3REY1blNMYkFVMDlWQlFtV0UwZ25DUFJ6ek9pSmxkejNnR2RFZm1yblVkYnAxMUJHRE1GR1NmNFdIcTV3?oc=5",
-          "published": "Wed, 28 Oct 2026 12:00:09 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "What Are the Odds of Randomly Investing in HDFC Bank and Ending Up With a Red Annual Candle? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVuMWNsemNjQmNXWmFCVmo0UHE3Sy03MzU0X2VuSFE1dVhyUnNOQTlIMEJLakFlYXhMck5zdFpSMVNrWmVUTUwzMXhJV19wak9OVmRPa28yemt6VWFTNWRWdjFQQ3FxSmdKU05QLTlkTUhfc2NYNlkteE13SHF0TjlEVVN2RTRpbktjbnV3bE1Oa2dza1RObk1JUF9mNDBjUlRXd0Q3alAySHo3?oc=5",
-          "published": "Tue, 27 Oct 2026 09:04:54 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Fell? Reliance -3.2%, HDFC Bank Bounce. Nifty Tomorrow 29 Oct - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMVdSMW9pV3Y1b0hxdk83Yk83T0RlWVI5ZldwMEVOOUVJRUdiUHVpeXZ2TTlVejZULWJ2UG1VWkdnVHhBUEcxYXJNN2UycUVyUjhweDFmOHZETFQ0YmNLSktQRWhiTi1qV2lRcWhsZDVvUXBKQ2xMT0xjNTRwQ1BHNXZyV3IwdWFNYW9vZkZwUV9NejhJMkRzZTBfTV9LNy12Q3NZQW9sRW1wUQ?oc=5",
-          "published": "Wed, 28 Oct 2026 11:21:06 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market Today: HDFC Bank, ICICI Bank (19% of Nifty) Fell; Smallcaps +2.7%, Airtel Up - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1ZIc1lSVnFVem9paWwtWFZlRDEyUjVseGowaVZSaFNtTW9Jc1VUSGN2SnFjVjZ0S1BQX1dOY0dKenZMdVRXWFIyUWtpbFY4NjVnRXlFYnVnNU1mSVRaUVdfQXdSRXR2OTRzR3dMeDRyR2VzSlNwUnRjdUR6Q09NT3F5Y011RnU4WmR0U2hySzdvNGJhXzduNVFDZTQzeGhicHZOSzluWXU4Zw?oc=5",
-          "published": "Tue, 27 Oct 2026 12:24:40 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market Today: HDFC Bank 52-Week Low, Then Bounce; Reliance -3.2% Sank Nifty #Shorts - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNktUNkR2cGRfREtNSm9oOWJCRkYyaFk5bk5YSkdpNkw5MXJUQzFiamI4WHZVWnBJclFkMGkyY0xfcWpyZGZ4YXpiRkhBcVNMRlV1bnpBa3pPTTVCWGpIMmhQTEhWMm1zWlVPNFM2MjBBN3Y2ZGdfSHpvcUJtdS1lRUFiV3UtMFZHbjJ6LWsyVmxkUW1TcUk3Y3ZqdnFYaW5pN01TRjJ4Ukg?oc=5",
-          "published": "Wed, 28 Oct 2026 11:22:11 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
-          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -375,10 +462,49 @@
       "sufficient": false
     },
     {
-      "name": "Reliance Industries",
-      "mentions": 4,
+      "name": "ICICI Bank",
+      "mentions": 3,
+      "investor_mentions": 2,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Insights: IT Index \u092e\u0947\u0902 BIG BREAKOUT? Biocon, ICICI Bank, HDFC Bank \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6dHFzVTkzVEtpOW9JbkVCaVVDaGdkZW9nV1cwOGl5Y2NOdXM1dHdwam9xNWg5TFgtZWFHRU41YlEtMkI3X2JMbG9FVFZxTGdhRXJoRFJR?oc=5",
+          "published": "Wed, 28 Oct 2026 03:30:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Today: HDFC Bank, ICICI Bank (19% of Nifty) Fell; Smallcaps +2.7%, Airtel Up - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1ZIc1lSVnFVem9paWwtWFZlRDEyUjVseGowaVZSaFNtTW9Jc1VUSGN2SnFjVjZ0S1BQX1dOY0dKenZMdVRXWFIyUWtpbFY4NjVnRXlFYnVnNU1mSVRaUVdfQXdSRXR2OTRzR3dMeDRyR2VzSlNwUnRjdUR6Q09NT3F5Y011RnU4WmR0U2hySzdvNGJhXzduNVFDZTQzeGhicHZOSzluWXU4Zw?oc=5",
+          "published": "Tue, 27 Oct 2026 12:24:40 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
+          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -386,61 +512,6 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "The Ambani family celebrates Jio Platforms Ltd\u2019s stock market debut at the National Stock Exchange of India with a ceremonial gong strike. The company\u2019s shares list at \u20b91,358 apiece, marking a major milestone for the Reliance Industries-backed digital servic - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YdEtVbkFCNlpLT2s4dlNFTVdseHQ5Nk5rV0pBNGhUenZ3WHNSOWtLN1NoYzRJV2xZMW1zd1ZZWktuYzdWck00azhNa3J4ZTRJWDVwT3ZB?oc=5",
-          "published": "Wed, 28 Oct 2026 06:19:08 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "All eyes on the Jio IPO. Jio Platforms opened at \u20b91,358 per share \u2014 21.36% above its IPO price of \u20b91,119. A strong stock market debut, an important milestone for Reliance Industries, and another memorable chapter in Jio's remarkable journey. #jioipo #desh - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPY3ZGM0ZmLWxFYWpJbE1vaHBGLWQ3dUpBa3pYbnREcEFHSUFKYTdkUkl4eVF3MnJrOXFOcEljV3ZXRS1EMXFyOUFKOFRYdlNNQnRDc1l6WFNhRVVXSGVhQmV1M1ZrSXltU3A2TzRER2d6Y2FpNUl2YmJnNU9MaFRiZERTbTFPV2owdFZrbHVxWENKQTE4RWRzMDZ5UHkwR3hVN3BWVk1OVDZLdHFMenhPUnJtU3RCZFpUQVJzUnBoWmFrSjUyczVfSnZ0Y2xlUngzbzYzeGJHR3c5d19RVzVn?oc=5",
-          "published": "Wed, 28 Oct 2026 12:08:26 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\u20b91,358 per share. That's where Jio Platforms opened on its stock market debut \u2014 21.36% above the IPO price of \u20b91,119. An important milestone for Reliance Industries and another memorable chapter in Jio's remarkable journey. #jioipo #deshkajio #jioipoup - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbFJLd2hfY0ZOSUdNNUtRSHh2YTJhTC1zMGpHOHowQkk2cWUyWVRYQy1uU05EZUZoY3lYVTVRMnZBeG84aHdtYllZRXlraDJZc2E1NjZqNHp4bkhtQkdiVGM2aWtrUEZFOG8xNXh6YmE0anhlZXFNdnhyRWVCU0ozdk1xQkZNamNWUVVJTVBFa2FvV0FJR0pJUXE5R2x2eWpRemdTT2F1V0o1czNoZW1uLUtEckY2OFBEeFZyLTJnajQydm1fancyYzRSY2VKbXA2blpzVmJBcF9HREVEYmZQYS1VQ2ZDdw?oc=5",
-          "published": "Wed, 28 Oct 2026 13:30:07 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\u0906\u0930\u0939\u093e \u0939\u0947 Reliance Retail IPO?\ud83d\udd25\u26ab Jio IPO \u0938\u0947 Reliance Industries \u0915\u093e Downfall \u0936\u0941\u0930\u0942?\u26ab Reliance Beat TATA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jUFdZaDA2cDVmd0xCTTZHa0o3N2llcHI0NDNzOHpxRHlOTk5VdmIwMUtTcC1SWnItQ2FUalB0S241cTczNmVNUW1vbC15RFdKT24tVVh3?oc=5",
-          "published": "Wed, 28 Oct 2026 15:09:06 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 4,
-      "investor_mentions": 1,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Waiting for Q2 results - Suzlon - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDd2Y3RCMEt1WXQwU1ZtVURKU2JtRk5LNW8tNlRlSnJkN2lqcWpKQkVYcHI5OUZ5TzNIX2lteTlZNlQ5dXRwVHlNbGNJeDlzbTFRWjhrMmpoekV4QmlPSUpreFBtVll2cHNZaGt4WjFhRi1ieGVNTkNreGpmU3lsUmRRRUNRUTJkQXlFOGRnRXpkQTg?oc=5",
-          "published": "Wed, 28 Oct 2026 14:09:10 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
         {
           "title": "Finance With Mohan . Lonely Lies \u00b7 Interlinked (Slowed). \ud83d\udcc9 Once market favourites, now deep corrections! NSDL \u221251% | WIPRO \u221248.48% | TCS \u221245% | SUZLON \u221291% | IRFC \u221268% | TEJASNET \u221273% | CDSL \u221240% Opportunity or Value Trap? \ud83d\udc40 \ud83d\udc47 Which stock - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0E3NGsxWi1SaHZZbXdNcW5kSnF1U0lwS2psaHVveWtiMDhHcXF1enZlWkxwSGlrVkxmNW9KTTJCVUVrN1JnRDVhbTFURHQxSlZBSExVVU45djFKM2lFUlJwVzZrM2pNM19HOEVsMGxwWEt5cEU4eV9BUllYWDJ5bGlmNGJQWG94M1UxVXk5dlcxcDFyQWsteEI5V0JRR1pHRmgwWE5WSHRXUm9ycXlabVk3YkE1U3l1SHJ1MmE0cHZVcXM5bXF3X2FVdGQyVWVHcDdBTmZhVzItWmR0QkE?oc=5",
@@ -508,32 +579,32 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
+      "name": "Waaree Energies",
       "mentions": 2,
-      "investor_mentions": 2,
-      "commentary_mentions": 0,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Today: HDFC Bank, ICICI Bank (19% of Nifty) Fell; Smallcaps +2.7%, Airtel Up - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1ZIc1lSVnFVem9paWwtWFZlRDEyUjVseGowaVZSaFNtTW9Jc1VUSGN2SnFjVjZ0S1BQX1dOY0dKenZMdVRXWFIyUWtpbFY4NjVnRXlFYnVnNU1mSVRaUVdfQXdSRXR2OTRzR3dMeDRyR2VzSlNwUnRjdUR6Q09NT3F5Y011RnU4WmR0U2hySzdvNGJhXzduNVFDZTQzeGhicHZOSzluWXU4Zw?oc=5",
-          "published": "Tue, 27 Oct 2026 12:24:40 GMT",
+          "title": "Thoughts on Waaree Energies - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRkVEd3VhTWtBc2dFWDhTT3haQ21lYUwyNUhONF9EbE9nSjhOTVFqQ2lYUUpIUDdrVEVMYTlkQTBFN2NhNU5sQlZjblFNUVhBeDl4MEs0NnBhcWJvUHhmVGRZczk1bUQtLXk2LWd4WU9tclVWemx4ZnZ3R0lxUWJ0QlJkOXRvT05nMFVCOW5FbWRWUQ?oc=5",
+          "published": "Wed, 28 Oct 2026 04:56:48 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Stock Market Today: Why Nifty Fell 124? HDFC Bank, Reliance Down, ICICI Bank Up #Shorts - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBoM0NMWllqbmx3VHJIRFJrR08yYlE0RDBZLXJNSERWT2Mtd0ZBVzFxd0kwN1RFR05tUDd4T2FXcFQzN01JVkpyeGhRRl9qRExMNkJRY01vdnd1Vzg5OVRKSjM0QTZ4X2Y5Tm9kV0U3RGJzTG1WZ2pDRTd1NDN4TU1WcFdsem85SEQwaGV2ZmZvTzBOVkdHcmFGTzNHeW1aTmVSS09Cc3dZU2FC?oc=5",
-          "published": "Thu, 22 Oct 2026 11:44:15 GMT",
-          "subreddit": "indexed_reddit",
+          "title": "TCS, Coforge, Tata Motors, Vedanta Aluminium, Federal Bank, Waaree Energies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaVhWclV0VThwNmRxT0V6UFA0Z3pVWC1qU2dhTUhicXhLRldwWnBiX0FndElkSFhPMkVERFcydFBSbmZPZE9ON1FuT0JXN0VwTDBiaTBB?oc=5",
+          "published": "Mon, 26 Oct 2026 12:45:27 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -570,7 +641,38 @@
       "sufficient": false
     },
     {
-      "name": "Bharti Airtel",
+      "name": "Indian Hotels",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IHCL Stock Analysis 2026 \ud83d\udd25 | Tata Group Hotel Stock | Buy or Avoid? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HajlFeEItUEtkOG1Yb0x4NEZxLWVrT1NjeHl4X1VhQjVkSjR3V0RuN29oOGlhcl9VTFZ4XzQ5cU9od0swQjl0ZHNBeTNYcGVWLUJUNkN3?oc=5",
+          "published": "Tue, 27 Oct 2026 02:54:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
+          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
       "mentions": 1,
       "investor_mentions": 1,
       "commentary_mentions": 0,
@@ -582,35 +684,12 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "So a marketing hyped IPO had a bumper opening | JIO market cap exceeds Bharti Airtel - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnFvZk9JVTJDY2pkdzlRaFpYQ3dYYm5uM0U1a1VOU3hrYnJOdkF0RWtqeXVlMWJGbnNHSm80WkNaRmQ3cFNnV1kzaFRzOGswbmhYR1RGNXZKTW5NQmp0MERkVXcxckdmVXFKMk9DVlh2b2hhdmJuQlV3OC1QTnVNdGdZX3B1c0lKUWlOMXZuNnpha2FDekU1VWo1M0ZqWDFfbVU3R054NWt4ZUNyaGc?oc=5",
-          "published": "Wed, 28 Oct 2026 10:04:33 GMT",
+          "title": "Jio Financial (JIOFIN): Is \u20b9200 Support Zone Worth Watching? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOG9ESXhRUFJnZTJNMWYzcVlBMW5fQjN2dTNxeDRMMEFsTlM1MzlWdXpHNmR4S2Y5ZGM2eTdLVG56NTlldF9GZTQzUzYxc3MyZDlYWVRvMEdWV2xmT2s2QlZhbjZlSzZudE1EemZvdHl5Wm55Q3MwNlJ4RlJ4YUl5VVVGVlZQZDRJWmNSakdQZVBSbnJFRkdsczd6cWk1eGVhQ3FMZkplbWgzQQ?oc=5",
+          "published": "Wed, 28 Oct 2026 14:19:10 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Waaree Energies",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "TCS, Coforge, Tata Motors, Vedanta Aluminium, Federal Bank, Waaree Energies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaVhWclV0VThwNmRxT0V6UFA0Z3pVWC1qU2dhTUhicXhLRldwWnBiX0FndElkSFhPMkVERFcydFBSbmZPZE9ON1FuT0JXN0VwTDBiaTBB?oc=5",
-          "published": "Mon, 26 Oct 2026 12:45:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -754,29 +833,6 @@
       "sufficient": false
     },
     {
-      "name": "Indian Hotels",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Indian Hotels Share \u092a\u0930 \u20b91000 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f? #reels #reel #reelsviral #reelsvideo indianhotels indian hotels share latest news, indian hotels share price target, indian hotels share news today, indian hotels share price, share market news, finance gyani - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGZrVEp4bi1HUWM0eEtGekQ1VVNTUVVVRFFJOXFNSnhGb2doMDQ1NjItY1NVMTVHanVxSXVnWUtOTkowZjZRdVZxQjY4cnFjajRaMDkwQmdBZ0ozejI2bmVQdnlQT2lwTG5lM3ZmalZnSE9Wel9nandZTVVwa0hOb2dDRzZUQ01uVXhDTlpmVHJneUxCY0hGdURfdEZMYV9ZZVpEM05XbzR4WkJ1T3ZSWFo3S1ZheVRzeWhTUF9QLUJJck80aEkxQ0ZjeFNlMHBEMWtpVW9sdzE1UXdDNWE5bmZJV1NPZFY4UHdtWE9GSGZBRTY5U0NEMVBsMFhoYWhvNmtIWURMdlA5NU9vNDVmU25rRmNFMDFiLUlNa1QwZlFWeF9HTGs5WTFoZjU5Mk1lS3hHejdIMUEtREVOYmNkaFpCSjdnZGJwSjAw?oc=5",
-          "published": "Thu, 22 Oct 2026 16:30:11 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "SBI",
       "mentions": 0,
       "investor_mentions": 0,
@@ -806,6 +862,20 @@
     },
     {
       "name": "ITC",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -890,20 +960,6 @@
     },
     {
       "name": "Zomato / Eternal",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Jio Financial",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
