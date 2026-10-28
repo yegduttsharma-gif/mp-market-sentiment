@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T11:22:25.784366+00:00",
+  "collected_at": "2026-10-28T12:05:40.246544+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 675,
+  "posts_collected": 678,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 9,
-    "indexed_reddit": 258,
-    "youtube": 197,
-    "instagram": 96,
-    "facebook": 79,
-    "total_unique": 675
+    "indexed_reddit": 259,
+    "youtube": 198,
+    "facebook": 91,
+    "instagram": 85,
+    "total_unique": 678
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 16,
+      "mentions": 17,
       "investor_mentions": 0,
-      "commentary_mentions": 16,
+      "commentary_mentions": 17,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -163,9 +163,9 @@
     },
     {
       "name": "Reliance Industries",
-      "mentions": 11,
+      "mentions": 14,
       "investor_mentions": 0,
-      "commentary_mentions": 11,
+      "commentary_mentions": 14,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -174,10 +174,58 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "The Ambani family celebrates Jio Platforms Ltd\u2019s stock market debut at the National Stock Exchange of India with a ceremonial gong strike. The company\u2019s shares list at \u20b91,358 apiece, marking a major milestone for the Reliance Industries-backed digital servic - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YdEtVbkFCNlpLT2s4dlNFTVdseHQ5Nk5rV0pBNGhUenZ3WHNSOWtLN1NoYzRJV2xZMW1zd1ZZWktuYzdWck00azhNa3J4ZTRJWDVwT3ZB?oc=5",
-          "published": "Wed, 28 Oct 2026 06:19:08 GMT",
-          "subreddit": "instagram",
+          "title": "Jio's journey just added a new milestone: entering the stock market. The Jio IPO opened at \u20b91,358 per share, a 21.36% premium over its issue price of \u20b91,119. A landmark listing for Reliance Industries as Jio steps into a new phase of its corporate journey. \u2728 # - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUHdqNkhYa29XODRYcXZ2T2ZJbm5JT2ZRaGtsTms5eGNYemNUSG0yb1dZZ0otQzJjM3NhcHc2SWZBUXhKOEhWcWdBcmxIQ0lQclRaejREZmg3TVNwZmozeEJFcWp6dWZJN21faGhRUE1vZVJxT0hhTkJwbjA2R0p1aHNaenlZYXBuRUxYeFExY1lVVU5XSk1USGc0dFVvd2FBR0YwazdzeFljTGw1WjJwQWgxTnVGclc5eks2WnJFeThwOV9ubzZ1UWtZRnFtLVZ2THF4QlBDTk1LSk9FdUF2V3pzQk0?oc=5",
+          "published": "Wed, 28 Oct 2026 11:29:55 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "The Ambani family celebrates Jio Platforms Ltd\u2019s stock market debut at the National Stock Exchange of India with a ceremonial gong strike. The company\u2019s shares list at \u20b91,358 apiece, marking a major milestone for the Reliance Industries-backed digital servic - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNd2VTRVg1RmZZZGFIb3hSX3d6VnY5MGdTbWU4SGMxenJyODRDM19qRm44NXdhanllbEtVenN5RWhIQXFuYzV4UXFDTElnZEZSeS1QUC1NRUg5RTBRa09xaGVQcUFXR1RuU1ZUWkczelZETHRLbFdLR2xHZlhyX2J3YnljTUxJeHZUQUVOT0duUWxZMHR6V2pFS3BBcFVMeWdRaEtvOUxVTTN4OURZbUJPUXNMNzFuVGRZUURVVU4zS3l5VXFjNG5HOXp2cE9jQ3BVeWNSTUFDaVJBQXVBam93RA?oc=5",
+          "published": "Wed, 28 Oct 2026 06:17:46 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "From transforming India's digital connectivity to entering the stock market \u2014 Jio has reached another major milestone. The Jio IPO opened at \u20b91,358 per share, a 21.36% premium over its issue price of \u20b91,119. A landmark listing for Reliance Industries. \u2728 #jioi - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMUJFNFlnMW93R2hkcVhiMGtBVnotNElwUjRuMXFYVFZaTURGRzZ6MGJKSGVoOF8yTFlpcHd3MWRGZUxnb3RYYjZhcHZMWkx3QWZxSmdNSFpNOFlteXA0SlhFaWtHLW02LXZ5ZVlPV2RpeDFvMVZCdmJVdnh3d2pBVkFubTNaSEJsS2lETmtKRkZsZzFGaGxxZ2REWVdkT3BfSW1PYkhpNElLc2NENGpYT2hoYlBmM1o1NjR1YWNMTndGUHEtWHRaU3llc3ZpbmhhSXk3ZmNlSENGbWtjM0VBVXc5U0R4Zw?oc=5",
+          "published": "Wed, 28 Oct 2026 11:21:25 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio Platforms made a strong stock market debut, with its shares listing at Rs 1,358 on the NSE and BSE \u2014 a premium of 21.3% over its IPO price of Rs 1,119. The listing placed Reliance Industries\u2019 telecom arm among India\u2019s most valuable companies, with an - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeGtuMmo2ckNGRWx2cDI2WFFvUzBHY2RtcFJ0ZmpJVXoxdnBvRFVRdDRCNThQbDdzYnFKYllZUWpsNWcwdDZFRWpuWkRZUEQybGdJcHhIYkpHZXJ0aXlhZDBLUnpKRFRhT0wxRHhiZXY1eW1KQlZsRzhlNkxFdjQxaE5HVV9jTjVGREVWT3Zlb1BuNU1BdXotaU9IQlNMYjd1dmxlT0VLN1BOd0FjQzF4ZnF1NVBuejQ4ZGU3T2xsclR0MzVQb1UwekNqMmdKdTViVnVZaTBJTEU3TElm?oc=5",
+          "published": "Wed, 28 Oct 2026 05:13:37 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio steps into the stock market! The IPO opened at \u20b91,358 per share, a 21.36% premium over its issue price of \u20b91,119. From transforming India's digital connectivity to this major milestone, it's a landmark listing for Reliance Industries as Jio steps into a new ph - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMnY0a0EtQlhVSVpfVXBNclNOMi1xOTNMc1h4ekVzY2ktTjBDcEc1d3ZveXB6V1AyWXd4MTVWNTJveFhWQVhyMmpSbXNBZHIxNzNuZlI0MHFwcHZHYlBCR2pnb1NGVTQ3N2NxcWFmaEVmVGZuZ3duVXZnYTRSMEQ2R1AzbXB2bDg1WEhFeGFBc2lTbW9oN2xkSU9JMTR5OW5aeG9Lenk0aC1saFRvUnMzRjlnNXhIYTBsamM3cTRYeFI1YlAzSjVKNmRzSmNKekJCRVlWRnE0c2ZFVFRDdjVkNkU0aw?oc=5",
+          "published": "Wed, 28 Oct 2026 11:17:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "#Watch | Jio Platforms makes its Dalal Street debut with the iconic stock market bell-ringing ceremony. Following a strong response to its record \u20b930,213-crore IPO, Reliance Industries\u2019 digital and telecom arm made a strong debut on the BSE and NSE on Wed - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZWJPakI1c1Q3WGhpeTdZbXVrNWNtR1d1SC1LMzd2WlpiSEVnUUhpcjlqdEF1S1ZUTUZtQjNFeUExd0d3eGRtREtxcnpQZjJOa1l4dlR4dnBPLXA0M0NNUmxYV3pzdnV4OHBBY0I4cUhnV1JVYkt1bjZ0THIzekNNOGhNMGpDdlNyQWIwTjlZNkJSWEhRbXBfVUpPZUpyNnJJM0owTXlTbnotaXY0Mm5MUGZ1NGdrdmVUUkhUc0dsaFIwVUhpdVpSTHhQbmxqbUZKTUhKV0QyWQ?oc=5",
+          "published": "Wed, 28 Oct 2026 05:23:51 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio's journey from transforming India's digital connectivity to entering the stock market just hit another major milestone. The Jio IPO opened at \u20b91,358 per share \u2014 a 21.36% premium over its issue price of \u20b91,119. A landmark listing for Reliance Industries as Ji - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYnZWelA1bndTOXJ4WEIyTk12ZXJSaW10MTN1MlFuN3ItNEMxYkJnUkpTY29YdHVhcVpSNzJVU05PUHpzMTVIX29CeW13MElmcmx1c2thNmpPTl9TZE5pY1RXQjU0bnl5Zy1BUXlaYURsUWxGZ0FuSUI0YzRvZmhiUU03cDlTd1lzWGY4clRhaGJYVE01cXN3ZFhvNHRWVFJFdlNKTUxhVXJPNHhoQlVuamVWekhOQXlOWWwyaTh2NUZWOVVId3NyMnZsNGtyTVJMY3dCcFo0Y2ZSUmQxbk5B?oc=5",
+          "published": "Wed, 28 Oct 2026 11:12:46 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -218,46 +266,6 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvcTVJeVRNaW9MT1huTlItVmVLT3dnd3N4Z3dEVk5RWnNraThWTWhwazRfMjZROEg5TFZCZkRBSGpfUDJHLWdtZUkyb0hwT2UtNEt5eGRHUFFhdw?oc=5",
           "published": "Wed, 28 Oct 2026 11:07:05 GMT",
           "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Jio Platforms made a strong stock market debut, with its shares listing at Rs 1,358 on the NSE and BSE \u2014 a premium of 21.3% over its IPO price of Rs 1,119. The listing placed Reliance Industries\u2019 telecom arm among India\u2019s most valuable companies, with an - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeGtuMmo2ckNGRWx2cDI2WFFvUzBHY2RtcFJ0ZmpJVXoxdnBvRFVRdDRCNThQbDdzYnFKYllZUWpsNWcwdDZFRWpuWkRZUEQybGdJcHhIYkpHZXJ0aXlhZDBLUnpKRFRhT0wxRHhiZXY1eW1KQlZsRzhlNkxFdjQxaE5HVV9jTjVGREVWT3Zlb1BuNU1BdXotaU9IQlNMYjd1dmxlT0VLN1BOd0FjQzF4ZnF1NVBuejQ4ZGU3T2xsclR0MzVQb1UwekNqMmdKdTViVnVZaTBJTEU3TElm?oc=5",
-          "published": "Wed, 28 Oct 2026 05:13:37 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Jio steps into the stock market! The IPO opened at \u20b91,358 per share, a 21.36% premium over its issue price of \u20b91,119. From transforming India's digital connectivity to this major milestone, it's a landmark listing for Reliance Industries as Jio steps into a new ph - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMnY0a0EtQlhVSVpfVXBNclNOMi1xOTNMc1h4ekVzY2ktTjBDcEc1d3ZveXB6V1AyWXd4MTVWNTJveFhWQVhyMmpSbXNBZHIxNzNuZlI0MHFwcHZHYlBCR2pnb1NGVTQ3N2NxcWFmaEVmVGZuZ3duVXZnYTRSMEQ2R1AzbXB2bDg1WEhFeGFBc2lTbW9oN2xkSU9JMTR5OW5aeG9Lenk0aC1saFRvUnMzRjlnNXhIYTBsamM3cTRYeFI1YlAzSjVKNmRzSmNKekJCRVlWRnE0c2ZFVFRDdjVkNkU0aw?oc=5",
-          "published": "Wed, 28 Oct 2026 11:17:27 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#Watch | Jio Platforms makes its Dalal Street debut with the iconic stock market bell-ringing ceremony. Following a strong response to its record \u20b930,213-crore IPO, Reliance Industries\u2019 digital and telecom arm made a strong debut on the BSE and NSE on Wed - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZWJPakI1c1Q3WGhpeTdZbXVrNWNtR1d1SC1LMzd2WlpiSEVnUUhpcjlqdEF1S1ZUTUZtQjNFeUExd0d3eGRtREtxcnpQZjJOa1l4dlR4dnBPLXA0M0NNUmxYV3pzdnV4OHBBY0I4cUhnV1JVYkt1bjZ0THIzekNNOGhNMGpDdlNyQWIwTjlZNkJSWEhRbXBfVUpPZUpyNnJJM0owTXlTbnotaXY0Mm5MUGZ1NGdrdmVUUkhUc0dsaFIwVUhpdVpSTHhQbmxqbUZKTUhKV0QyWQ?oc=5",
-          "published": "Wed, 28 Oct 2026 05:23:51 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, PNB, Bank of India, NMDC, Ashok Leyland Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTE9JM3NaanJsRFJ0d3NPcXlibmpfMXNRYThKV05TSlJ0N1FtbFJQdjlyZl9YV01rTG42ZHA1T05XbWVQTkUyZWRLSjcyWDluaUNzRlJ3?oc=5",
-          "published": "Sun, 25 Oct 2026 12:30:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, Mankind Pharma, Paytm, Ather Energy, KFin Technologies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFUHMxbWhCNDNaeVQ0US1YRmNTVXl3Y0dtUlI2bFd4LTNDZF9RcUdFZkVqX2ZyMjcxRXUyaC1kaUU2NkpKcl9Fd2QwSjF1UWxxTG1xRFpB?oc=5",
-          "published": "Tue, 27 Oct 2026 14:30:08 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -353,9 +361,9 @@
     },
     {
       "name": "Paytm",
-      "mentions": 7,
+      "mentions": 6,
       "investor_mentions": 3,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -388,14 +396,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Stock In News: Tata Consumer, KFin Tech, Paytm \u092e\u0947\u0902 BIG ACTION? \u0906\u091c \u0915\u093f\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092a\u0930 \u0928\u091c\u0930? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tcXJSOFdYNHZsMHA4ck0yTUt2WTlIdXY0cUd2TjZoRE1aUldBWWFqUmo5d1lDVUVjWmFNaVRtSWVvcnV0QlFPWXBRelliblNMZlduQlZn?oc=5",
-          "published": "Tue, 27 Oct 2026 02:01:48 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Stock in news: Tata Consumer \u0aa8\u0abe \u0aa8\u0aab\u0abe \u0a85\u0aa8\u0ac7 \u0a86\u0ab5\u0a95\u0aae\u0abe\u0a82 \u0a89\u0a9b\u0abe\u0ab3\u0acb | Paytm Q2 | Stock in News | Stock to buy - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Qekt6emJram5XV2hFRWFpWHZnWTBSSjU0LTVUQVFhRHVNcVdwamhxeFB5ODNwRU5vTXBfVXIwUmgyNUdxOVB3NEFTbnhwQ0ZXbFVaVzdR?oc=5",
           "published": "Tue, 27 Oct 2026 03:13:39 GMT",
@@ -424,9 +424,9 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 6,
+      "mentions": 5,
       "investor_mentions": 3,
-      "commentary_mentions": 3,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -447,14 +447,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CcGtPSEhMNDdiZ2tqS0xwZkszWm00SHpxTmh3U1RJRlR1bHF0QWU0bHoxY3Myb0JLd2F5Z2FhX0FFaUtSelFQc0Q3cVZSNDNuZ2c?oc=5",
           "published": "Thu, 22 Oct 2026 05:05:56 GMT",
           "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, PNB, Bank of India, NMDC, Ashok Leyland Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTE9JM3NaanJsRFJ0d3NPcXlibmpfMXNRYThKV05TSlJ0N1FtbFJQdjlyZl9YV01rTG42ZHA1T05XbWVQTkUyZWRLSjcyWDluaUNzRlJ3?oc=5",
-          "published": "Sun, 25 Oct 2026 12:30:31 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -564,6 +556,37 @@
       "sufficient": false
     },
     {
+      "name": "Waaree Energies",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Jio Platforms has created a new record in India\u2019s stock market history! \ud83c\uddee\ud83c\uddf3 Its landmark IPO received nearly 1.38 crore applications, surpassing the previous record of around 97 lakh applications held by Waaree Energies. The huge response marks another mil - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WbkdBLTg1R01WX0t0TG8xUkdVVHozajRLY1lsQmEwOTJNV0FDcUJGakpkRnU2NzFyYjl0bW5xamdIT1dmdUE5VzdjcTluTmRETkE?oc=5",
+          "published": "Wed, 28 Oct 2026 05:43:13 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "TCS, Coforge, Tata Motors, Vedanta Aluminium, Federal Bank, Waaree Energies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaVhWclV0VThwNmRxT0V6UFA0Z3pVWC1qU2dhTUhicXhLRldwWnBiX0FndElkSFhPMkVERFcydFBSbmZPZE9ON1FuT0JXN0VwTDBiaTBB?oc=5",
+          "published": "Mon, 26 Oct 2026 12:45:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IDFC First Bank",
       "mentions": 2,
       "investor_mentions": 2,
@@ -613,29 +636,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Waaree Energies",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "TCS, Coforge, Tata Motors, Vedanta Aluminium, Federal Bank, Waaree Energies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaVhWclV0VThwNmRxT0V6UFA0Z3pVWC1qU2dhTUhicXhLRldwWnBiX0FndElkSFhPMkVERFcydFBSbmZPZE9ON1FuT0JXN0VwTDBiaTBB?oc=5",
-          "published": "Mon, 26 Oct 2026 12:45:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
