@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T09:11:39.994452+00:00",
+  "collected_at": "2026-10-28T09:58:04.787897+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -21,8 +21,8 @@
         "topics": 50
       },
       "kpit": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 31
       },
       "reliance": {
         "status": "ok",
@@ -37,8 +37,8 @@
         "error": "HTTPError"
       },
       "tcs": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -58,7 +58,7 @@
     "NIFTY 50": {
       "bullish": 1,
       "bearish": 0,
-      "neutral": 55,
+      "neutral": 58,
       "directional": 1,
       "independent_authors": 1,
       "conflicting_authors_excluded": 0,
