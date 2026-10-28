@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T01:03:51.458925+00:00",
+  "collected_at": "2026-10-28T01:59:40.589669+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -37,8 +37,8 @@
         "topics": 50
       },
       "tcs": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -58,7 +58,7 @@
     "NIFTY 50": {
       "bullish": 1,
       "bearish": 0,
-      "neutral": 52,
+      "neutral": 57,
       "directional": 1,
       "independent_authors": 1,
       "conflicting_authors_excluded": 0,
@@ -97,6 +97,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 188,
+  "posts_checked": 233,
   "status": "collected"
 }
