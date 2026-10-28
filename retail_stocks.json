@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T18:05:30.068452+00:00",
+  "collected_at": "2026-10-28T18:52:55.780033+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 689,
+  "posts_collected": 690,
   "source_counts": {
-    "tradingqna": 35,
-    "valuepickr": 12,
-    "indexed_reddit": 269,
-    "youtube": 197,
+    "tradingqna": 36,
+    "valuepickr": 10,
+    "indexed_reddit": 270,
+    "youtube": 198,
     "instagram": 96,
     "facebook": 80,
-    "total_unique": 689
+    "total_unique": 690
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,7 +37,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 9
+      "recent_items": 7
     },
     "valuepickr_top": {
       "status": "ok",
@@ -163,9 +163,9 @@
     },
     {
       "name": "Reliance Industries",
-      "mentions": 10,
+      "mentions": 11,
       "investor_mentions": 0,
-      "commentary_mentions": 10,
+      "commentary_mentions": 11,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -185,6 +185,14 @@
           "title": "Jio Platforms made a strong debut on the stock market, opening at \u20b91,358 per share on the NSE\u201421.36% above its issue price. The listing marks a major milestone for Reliance Industries\u2019 digital and telecom business, reflecting investor interest in its growth p - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WMGRROE8wOGltZzRrc3NfaWFZbHdLZFJaOTQzbkh3Z05LVDZDd2Q4Z1h3bExGN2JteFZXZl9tdVJmRUthYWh5N1FlNllvd2dhYmc?oc=5",
           "published": "Wed, 28 Oct 2026 06:35:31 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries-backed Jio Platforms made a strong stock market debut on October 28, listing at \u20b91,358 per share on both the BSE and NSE\u2014a 21.36% premium over its issue price of \u20b91,119. The opening price put the company\u2019s market capitalisation at a - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXM0ZqM2JJUGVIVS1IVFRuN1htMUFXT2JEd25FY0tycDlKTlUyR0kydWJYY05zcG5xaTVCNW9JdnVQRERSZktRYXM5RGZLcWJHcmtvN2ZB?oc=5",
+          "published": "Wed, 28 Oct 2026 18:49:54 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -258,14 +266,14 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 8,
-      "investor_mentions": 6,
+      "mentions": 9,
+      "investor_mentions": 7,
       "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 6,
+      "neutral": 7,
       "bullish_pct": null,
       "evidence": [
         {
@@ -296,6 +304,14 @@
           "title": "What Are the Odds of Randomly Investing in HDFC Bank and Ending Up With a Red Annual Candle? - Reddit",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVuMWNsemNjQmNXWmFCVmo0UHE3Sy03MzU0X2VuSFE1dVhyUnNOQTlIMEJLakFlYXhMck5zdFpSMVNrWmVUTUwzMXhJV19wak9OVmRPa28yemt6VWFTNWRWdjFQQ3FxSmdKU05QLTlkTUhfc2NYNlkteE13SHF0TjlEVVN2RTRpbktjbnV3bE1Oa2dza1RObk1JUF9mNDBjUlRXd0Q3alAySHo3?oc=5",
           "published": "Tue, 27 Oct 2026 09:04:54 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Any tips for hdfc bank?.. Holding it frm past a year - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVRFVUdtREJ5Z2lKUVBTclBEOVI3N25NOVFVeHBXSTVhbDdwZEZsdWtEYlhRQUxEZWlpNUcyVHdaU1JqQ2ZjWWtLUlpXbTVjdzlBaXEzaUdqMWlhdm5qdGVBcmQzZDlKaGpzbVE4SktvVjBBcDQ4NXM1SVk1djcteGFtdFg2bklGdkdhbUI4cEhWUFhUd1B6U3h0QjZKN3dBZGJ6VVNjNFNjVElsOTM0?oc=5",
+          "published": "Wed, 28 Oct 2026 17:35:08 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
@@ -672,29 +688,6 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Financial (JIOFIN): Is \u20b9200 Support Zone Worth Watching? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOG9ESXhRUFJnZTJNMWYzcVlBMW5fQjN2dTNxeDRMMEFsTlM1MzlWdXpHNmR4S2Y5ZGM2eTdLVG56NTlldF9GZTQzUzYxc3MyZDlYWVRvMEdWV2xmT2s2QlZhbjZlSzZudE1EemZvdHl5Wm55Q3MwNlJ4RlJ4YUl5VVVGVlZQZDRJWmNSakdQZVBSbnJFRkdsczd6cWk1eGVhQ3FMZkplbWgzQQ?oc=5",
-          "published": "Wed, 28 Oct 2026 14:19:10 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Adani Power",
       "mentions": 1,
       "investor_mentions": 0,
@@ -960,6 +953,20 @@
     },
     {
       "name": "Zomato / Eternal",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
