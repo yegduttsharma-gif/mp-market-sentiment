@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-29T12:18:54.168391+00:00",
+  "collected_at": "2026-10-29T13:25:02.425702+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -36,24 +36,31 @@
       "error": "HTTPError"
     },
     "sensex_search": {
-      "status": "ok",
-      "recent": 37
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "nifty_bets_search": {
       "status": "unavailable",
       "error": "HTTPError"
     }
   },
-  "unique_titles": 162,
+  "unique_titles": 136,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 6,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Nifty Fibonacci Analysis by TradexCodez. 23170 next stop?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xiijn6/nifty_fibonacci_analysis_by_tradexcodez_23170/",
+          "source": "IndianStockMarket",
+          "published": "2026-10-29T12:25:25+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Stock Market Today: Why Nifty Rose 238? Kotak 52-Week High; ICICI, Reliance, SBI Up",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihqol/stock_market_today_why_nifty_rose_238_kotak/",
@@ -103,7 +110,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -113,13 +120,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihnil/stock_market_today_why_nifty_is_going_up_sensex/",
           "source": "IndianStockMarket",
           "published": "2026-10-29T11:42:58+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Sensex Is Down Again Today. What Is Driving This Volatility?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xciu2a/sensex_is_down_again_today_what_is_driving_this/",
-          "source": "sensex_search",
-          "published": "2026-10-22T13:38:41+00:00",
           "sentiment": "neutral"
         }
       ]
