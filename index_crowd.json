@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-29T07:35:59.467045+00:00",
+  "collected_at": "2026-10-29T08:27:10.048919+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 228,
+  "unique_titles": 133,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 8,
+      "neutral": 6,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -73,20 +73,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhlc9j/stock_market_today_why_nifty_fell_reliance_32/",
           "source": "IndianStockMarket",
           "published": "2026-10-28T11:21:06+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Jio ke piche Nifty ko chadha diya",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xhi3ws/jio_ke_piche_nifty_ko_chadha_diya/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-28T08:06:14+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Reason for today's rise in Nifty",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xfo6fp/reason_for_todays_rise_in_nifty/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-26T05:22:08+00:00",
           "sentiment": "neutral"
         },
         {
@@ -124,7 +110,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -134,13 +120,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xid83q/bse_sensex_pce_is_155_puts_could_explode/",
           "source": "IndianStockMarket",
           "published": "2026-10-29T07:19:46+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Sensex is going to take my soul",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xicfzy/sensex_is_going_to_take_my_soul/",
-          "source": "IndianStockMarket",
-          "published": "2026-10-29T06:30:50+00:00",
           "sentiment": "neutral"
         }
       ]
