@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-30T04:30:50.021799+00:00",
+  "collected_at": "2026-10-30T05:18:13.152969+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 677,
+  "posts_collected": 591,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 7,
-    "indexed_reddit": 258,
-    "youtube": 198,
-    "facebook": 90,
-    "instagram": 90,
-    "total_unique": 677
+    "indexed_reddit": 174,
+    "youtube": 197,
+    "instagram": 99,
+    "facebook": 80,
+    "total_unique": 591
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Tata Motors",
-      "mentions": 16,
+      "mentions": 15,
       "investor_mentions": 1,
-      "commentary_mentions": 15,
+      "commentary_mentions": 14,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -127,6 +127,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Tata Motors Q2 results 2027 | TMCV q2 results today | Tata Motors Share News | TMCV Share news today - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTHdaUmFmVDk4dmloUHIxWlVqMW5ha0lDTEJPamlDekNMZzNuclZESUptYWRzZkN2ZkpOTzRua3ptMHI3ZTJ0Wk9kQk5tQm0tTEZXU01FNHNpZl9mVTRiaTRXUno0NVMtcEh1RUdR?oc=5",
+          "published": "Fri, 23 Oct 2026 10:35:46 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
           "published": "Mon, 26 Oct 2026 06:30:31 GMT",
@@ -138,14 +146,6 @@
           "title": "TCS, Coforge, Tata Motors, Vedanta Aluminium, Federal Bank, Waaree Energies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaVhWclV0VThwNmRxT0V6UFA0Z3pVWC1qU2dhTUhicXhLRldwWnBiX0FndElkSFhPMkVERFcydFBSbmZPZE9ON1FuT0JXN0VwTDBiaTBB?oc=5",
           "published": "Mon, 26 Oct 2026 12:45:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Q2 results 2027 | TMCV q2 results today | Tata Motors Share News | TMCV Share news today - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTHdaUmFmVDk4dmloUHIxWlVqMW5ha0lDTEJPamlDekNMZzNuclZESUptYWRzZkN2ZkpOTzRua3ptMHI3ZTJ0Wk9kQk5tQm0tTEZXU01FNHNpZl9mVTRiaTRXUno0NVMtcEh1RUdR?oc=5",
-          "published": "Fri, 23 Oct 2026 10:35:46 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -163,9 +163,9 @@
     },
     {
       "name": "Reliance Industries",
-      "mentions": 9,
+      "mentions": 10,
       "investor_mentions": 0,
-      "commentary_mentions": 9,
+      "commentary_mentions": 10,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -174,18 +174,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Share market news: Benchmark equity indices Sensex and Nifty climb in morning trade, powered by gains in Reliance Industries and foreign fund inflows, while the rupee moves up against the US dollar. https://ebx.sh/lsDx9c - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaGJROTJGY1F1eEFJVjRQWGs0aHBYSXNqaGJoaE9nZHBZTkM1WTN1cS1KdzhCck5lMkdZdGJnOXR0TEJOUEtnanQyVTJBYmFXZmcyUFB1Z0dzU3I2eVZnUmNNdURXZ0dPeFpxYVY4UVl0SU9iZ2FPVTB5cnZCc2tMSmtBdTdfVldzOFc2V08yeUF0c0Z3Vnotc2FuZGdkanJtNVVRVGFyZlR1YXJsb2l1ZHY5TlNWekZlUThZMzcwZ1daVk1qSUZIa2h4SDlGZnJaNnNjaFl1VDZhUQ?oc=5",
-          "published": "Thu, 29 Oct 2026 08:45:27 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Bollywood Unfiltered. . What a moment for Jio! The IPO opened at \u20b91,358 per share \u2014 21.36% above the issue price of \u20b91,119. From transforming India's digital connectivity to entering the stock market, this is a landmark listing for Reliance Industries as Jio be - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObV9GdVNkOW1aRzFUSW5KYjVaWmdmaEFYNFRQMXlyNkxDQm0wNF9tWHFsMlc2STVFVHZyZ0tOX1o3UkFYQnVwcE9QV2xicFNMNE9oUnZBUXJXWU43TUsyOWMtczNnWkVUTnZ4WkhSeTZhRjdadFA4S0tnMTRFRW5RNFBMek5OTWVhQ0tYbnprTHhmQ1Z6NzdBNGQxTkNxS0NDR1RQd2t5MTlVeWxMb2t5Z3ZRX1VKdmZsTm5fdzdnd0FTMDgwdXdOeUhFdS16TUdRR0t5QW9YT05CNXBPZHVWZ2VR?oc=5",
-          "published": "Wed, 28 Oct 2026 11:07:30 GMT",
-          "subreddit": "facebook",
+          "title": "\ud83d\udea8 JIO PLATFORMS LISTS ON THE STOCK MARKET TODAY! \ud83c\uddee\ud83c\uddf3 One of India's biggest IPOs is making its stock market debut today. Jio Platforms, the telecom-to-tech business backed by Reliance Industries, is set to begin trading on the NSE and BSE followin - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBreVJwQjY3OUZoc1NrUWhDRHlxc0ppZEY3VTBiWnBUdm5rTnRuc1BuaF9NX19GSGJoZ3NweWdTZ0JtcjFlNmNRVUVGckNhZDFuLWc?oc=5",
+          "published": "Wed, 28 Oct 2026 02:29:55 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -238,6 +230,22 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Share market news: Benchmark equity indices Sensex and Nifty climb in morning trade, powered by gains in Reliance Industries and foreign fund inflows, while the rupee moves up against the US dollar. https://ebx.sh/lsDx9c - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaGJROTJGY1F1eEFJVjRQWGs0aHBYSXNqaGJoaE9nZHBZTkM1WTN1cS1KdzhCck5lMkdZdGJnOXR0TEJOUEtnanQyVTJBYmFXZmcyUFB1Z0dzU3I2eVZnUmNNdURXZ0dPeFpxYVY4UVl0SU9iZ2FPVTB5cnZCc2tMSmtBdTdfVldzOFc2V08yeUF0c0Z3Vnotc2FuZGdkanJtNVVRVGFyZlR1YXJsb2l1ZHY5TlNWekZlUThZMzcwZ1daVk1qSUZIa2h4SDlGZnJaNnNjaFl1VDZhUQ?oc=5",
+          "published": "Thu, 29 Oct 2026 08:45:27 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Bollywood Unfiltered. . What a moment for Jio! The IPO opened at \u20b91,358 per share \u2014 21.36% above the issue price of \u20b91,119. From transforming India's digital connectivity to entering the stock market, this is a landmark listing for Reliance Industries as Jio be - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObV9GdVNkOW1aRzFUSW5KYjVaWmdmaEFYNFRQMXlyNkxDQm0wNF9tWHFsMlc2STVFVHZyZ0tOX1o3UkFYQnVwcE9QV2xicFNMNE9oUnZBUXJXWU43TUsyOWMtczNnWkVUTnZ4WkhSeTZhRjdadFA4S0tnMTRFRW5RNFBMek5OTWVhQ0tYbnprTHhmQ1Z6NzdBNGQxTkNxS0NDR1RQd2t5MTlVeWxMb2t5Z3ZRX1VKdmZsTm5fdzdnd0FTMDgwdXdOeUhFdS16TUdRR0t5QW9YT05CNXBPZHVWZ2VR?oc=5",
+          "published": "Wed, 28 Oct 2026 11:07:30 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Reliance Industries, Mankind Pharma, Paytm, Ather Energy, KFin Technologies Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFUHMxbWhCNDNaeVQ0US1YRmNTVXl3Y0dtUlI2bFd4LTNDZF9RcUdFZkVqX2ZyMjcxRXUyaC1kaUU2NkpKcl9Fd2QwSjF1UWxxTG1xRFpB?oc=5",
           "published": "Tue, 27 Oct 2026 14:30:08 GMT",
@@ -250,9 +258,9 @@
     },
     {
       "name": "Infosys",
-      "mentions": 9,
+      "mentions": 10,
       "investor_mentions": 4,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -291,6 +299,14 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Share Market News: Sensex and Nifty climbed in early trade driven by IT stocks and robust earnings from Trent. Banking, FMCG shares, Infosys, and TCS registered gains while foreign institutional investors offloaded equities. Link in bio - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04aGpFZXlPcGtnMndqWF9zVWxHRUsyOS1IQ3NLTDU1U0NNaGE3M1VpY0VxQVJFM1Jzc3BrR1dJX244UHFuNkx2Y0JMN2xwZ3ZLMUE?oc=5",
+          "published": "Fri, 30 Oct 2026 05:11:02 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         },
         {
           "title": "\ud83d\udea8 NIFTY\u2019S BIG BATTLE: BREAKOUT OR BREAKDOWN? \u2694\ufe0f One level acted like a wall on Friday. Now, Nifty is caught between strong support and stubborn resistance. \ud83d\udc40 \ud83d\udcc9 FIIs are buying. Crude has cooled slightly. But the real twist? Infosys and Netweb are - Facebook",
@@ -688,29 +704,6 @@
       "sufficient": false
     },
     {
-      "name": "Zomato / Eternal",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "New product by Eternal Ltd. It's an AI chatbot, what do you think about it? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSXkzRVZSelFCUzFjOFN2X29fNFRKdXF2R1lXQjBRaFVtNlU5bUpHVUpSS1VIbFFra3Z4ZkFNNXhWQ2dzenBiX0pJX3NXSjJnTFVicWhSTk5hNUx3aXhRV0l1ajA3R2w1VGItMC1POEN5dXZhNjdEdzZvU0NVbGxfdVN0a2pxcUxkTUlrOG5JY2NMTVRCS2xGQmZEOTRseVFmNU1IMDdYWDc1YXV5a0hF?oc=5",
-          "published": "Thu, 29 Oct 2026 12:17:34 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Waaree Energies",
       "mentions": 1,
       "investor_mentions": 0,
@@ -994,6 +987,20 @@
     },
     {
       "name": "RVNL",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Zomato / Eternal",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
