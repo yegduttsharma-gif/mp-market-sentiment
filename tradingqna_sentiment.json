@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-30T02:18:53.203232+00:00",
+  "collected_at": "2026-10-30T03:07:30.570777+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -22,11 +22,11 @@
       },
       "kpit": {
         "status": "ok",
-        "topics": 31
+        "topics": 32
       },
       "reliance": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "hdfc bank": {
         "status": "ok",
@@ -94,13 +94,13 @@
     "KPIT": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
       "evidence": []
     }
   },
-  "posts_checked": 252,
+  "posts_checked": 220,
   "status": "collected"
 }
