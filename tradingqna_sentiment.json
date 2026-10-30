@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-30T17:03:44.053785+00:00",
+  "collected_at": "2026-10-30T17:47:58.538822+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -17,12 +17,12 @@
         "topics": 50
       },
       "sensex": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 50
       },
       "kpit": {
-        "status": "ok",
-        "topics": 32
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "reliance": {
         "status": "ok",
@@ -41,16 +41,16 @@
         "topics": 50
       },
       "infosys": {
-        "status": "ok",
-        "topics": 50
-      },
-      "sbi": {
         "status": "unavailable",
         "error": "HTTPError"
+      },
+      "sbi": {
+        "status": "ok",
+        "topics": 50
       }
     },
     "topics": {
-      "attempted": 75,
+      "attempted": 74,
       "errors": 0
     }
   },
@@ -58,7 +58,7 @@
     "NIFTY 50": {
       "bullish": 2,
       "bearish": 0,
-      "neutral": 57,
+      "neutral": 58,
       "directional": 2,
       "independent_authors": 2,
       "conflicting_authors_excluded": 0,
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 236,
+  "posts_checked": 243,
   "status": "collected"
 }
