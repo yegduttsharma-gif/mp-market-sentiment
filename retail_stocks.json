@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-30T23:13:23.026788+00:00",
+  "collected_at": "2026-10-30T23:53:39.145929+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 675,
+  "posts_collected": 700,
   "source_counts": {
     "tradingqna": 40,
     "valuepickr": 9,
-    "indexed_reddit": 245,
-    "youtube": 197,
+    "indexed_reddit": 269,
+    "youtube": 198,
     "facebook": 94,
     "instagram": 90,
-    "total_unique": 675
+    "total_unique": 700
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -285,41 +285,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Reliance Industries, HDFC Bank, PNB, Bank of India, NMDC, Ashok Leyland Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTE9JM3NaanJsRFJ0d3NPcXlibmpfMXNRYThKV05TSlJ0N1FtbFJQdjlyZl9YV01rTG42ZHA1T05XbWVQTkUyZWRLSjcyWDluaUNzRlJ3?oc=5",
-          "published": "Sun, 25 Oct 2026 12:30:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, Swiggy, E2E Networks, Paytm, Indo-MIM, FSL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpSXZWWU94T2dJU2FfSGdzVlpFeVIycjRLYnJEMmRLZXJGS1loNHVHSGhOcVd0emFYcUxjbkVwbWYzaUJiajFvTjhxLVBUalZVUWQzN0F3?oc=5",
-          "published": "Tue, 27 Oct 2026 06:30:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Jio IPO Hold or Sell | Reliance Industries, HDFC Bank, Vedanta Aluminium Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNZEdqTEJrdVNPU2dJUWlyVUVpQTdKcHVuOXc2a2FYN0R5ZWxUMDF4TmRlWXBQcUMwcjlVWTBHLVhObzVtS0VCX0RHYjNURzdqNnhOdjVB?oc=5",
-          "published": "Wed, 28 Oct 2026 08:30:17 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "What Are the Odds of Randomly Investing in HDFC Bank and Ending Up With a Red Annual Candle? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVuMWNsemNjQmNXWmFCVmo0UHE3Sy03MzU0X2VuSFE1dVhyUnNOQTlIMEJLakFlYXhMck5zdFpSMVNrWmVUTUwzMXhJV19wak9OVmRPa28yemt6VWFTNWRWdjFQQ3FxSmdKU05QLTlkTUhfc2NYNlkteE13SHF0TjlEVVN2RTRpbktjbnV3bE1Oa2dza1RObk1JUF9mNDBjUlRXd0Q3alAySHo3?oc=5",
-          "published": "Tue, 27 Oct 2026 09:04:54 GMT",
+          "title": "Any tips for hdfc bank?.. Holding it frm past a year - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVRFVUdtREJ5Z2lKUVBTclBEOVI3N25NOVFVeHBXSTVhbDdwZEZsdWtEYlhRQUxEZWlpNUcyVHdaU1JqQ2ZjWWtLUlpXbTVjdzlBaXEzaUdqMWlhdm5qdGVBcmQzZDlKaGpzbVE4SktvVjBBcDQ4NXM1SVk1djcteGFtdFg2bklGdkdhbUI4cEhWUFhUd1B6U3h0QjZKN3dBZGJ6VVNjNFNjVElsOTM0?oc=5",
+          "published": "Wed, 28 Oct 2026 17:35:08 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Any tips for hdfc bank?.. Holding it frm past a year - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVRFVUdtREJ5Z2lKUVBTclBEOVI3N25NOVFVeHBXSTVhbDdwZEZsdWtEYlhRQUxEZWlpNUcyVHdaU1JqQ2ZjWWtLUlpXbTVjdzlBaXEzaUdqMWlhdm5qdGVBcmQzZDlKaGpzbVE4SktvVjBBcDQ4NXM1SVk1djcteGFtdFg2bklGdkdhbUI4cEhWUFhUd1B6U3h0QjZKN3dBZGJ6VVNjNFNjVElsOTM0?oc=5",
-          "published": "Wed, 28 Oct 2026 17:35:08 GMT",
+          "title": "What Are the Odds of Randomly Investing in HDFC Bank and Ending Up With a Red Annual Candle? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVuMWNsemNjQmNXWmFCVmo0UHE3Sy03MzU0X2VuSFE1dVhyUnNOQTlIMEJLakFlYXhMck5zdFpSMVNrWmVUTUwzMXhJV19wak9OVmRPa28yemt6VWFTNWRWdjFQQ3FxSmdKU05QLTlkTUhfc2NYNlkteE13SHF0TjlEVVN2RTRpbktjbnV3bE1Oa2dza1RObk1JUF9mNDBjUlRXd0Q3alAySHo3?oc=5",
+          "published": "Tue, 27 Oct 2026 09:04:54 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
@@ -347,6 +323,109 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, PNB, Bank of India, NMDC, Ashok Leyland Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sTE9JM3NaanJsRFJ0d3NPcXlibmpfMXNRYThKV05TSlJ0N1FtbFJQdjlyZl9YV01rTG42ZHA1T05XbWVQTkUyZWRLSjcyWDluaUNzRlJ3?oc=5",
+          "published": "Sun, 25 Oct 2026 12:30:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, Swiggy, E2E Networks, Paytm, Indo-MIM, FSL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpSXZWWU94T2dJU2FfSGdzVlpFeVIycjRLYnJEMmRLZXJGS1loNHVHSGhOcVd0emFYcUxjbkVwbWYzaUJiajFvTjhxLVBUalZVUWQzN0F3?oc=5",
+          "published": "Tue, 27 Oct 2026 06:30:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio IPO Hold or Sell | Reliance Industries, HDFC Bank, Vedanta Aluminium Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNZEdqTEJrdVNPU2dJUWlyVUVpQTdKcHVuOXc2a2FYN0R5ZWxUMDF4TmRlWXBQcUMwcjlVWTBHLVhObzVtS0VCX0RHYjNURzdqNnhOdjVB?oc=5",
+          "published": "Wed, 28 Oct 2026 08:30:17 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 8,
+      "investor_mentions": 4,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 4,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Infosys ADR is down 6.6%, while Wipro ADR is down 3.7%. Infosys has missed expectations on both revenue and margins, and management has cut its FY27 revenue growth guidance to 1\u20132%, from 1.5\u20133% previously. - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX0dBYXVpWFRDNThvQmRGVjFzVmhGS3BKTGZHOWJIN2VaSUhZYWVZM1ZJVkZBMjFxR0RVWFVzTmpMSjZyR1BocXV4WWFZbTBJeEdrYXprenNTUnpOX1lLMy1fTHp0RWZGRmZyQWdEcnVTdE43dFItZVo0NVJhejFlLWxVM0pyQlk0RnJfVGpTZHJaOHVxOE9GdXRIbUYxMkh1ajcydDZGUnRYWmZWN3Rn?oc=5",
+          "published": "Sat, 24 Oct 2026 05:28:25 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "What is happening to Infosys? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeEFKWVFxSGlkMFZGc1c4MG1wSFlNR0x0WG1jOFpGc3h6V1V3UVMxelE2OVdLQlpsd1JVTnpYMzIwbnZ0SWs1aDNLYUdlNFFIekJYMEFZVnJfQjE4UHZaOUYwR0FmaE42aS11Q3pXRV80RlQwZXFFLXBCTTlDZHB3bG9BdEF6b2hJeTJmVDl2blRwQQ?oc=5",
+          "published": "Thu, 29 Oct 2026 06:09:58 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Anthropic filed for a US IPO and Indian IT stocks fell up to 3% in the opening. How does a Nasdaq listing hurt TCS and Infosys? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSUdhMzUtYjBnSl9HNGlXcmx6cG1Tb01EY0UyUS05UVhxcFR5VU1pSDhHYWdidXJMN0JrUWswVUp0YXhTa2xJMzMyMThzNjgtRWR0U2Uzei1MTFVkeGpiSzRWd3ZpUDFPWGlkYkVnU09ObGhXT1ZxYkg5dTVaY2xPeTBibFZ1aEdmakhsUTJVRDRKX1hrZ2FzTlJCVjFpNTQxSVI0RjJ1OHg3eXBva1E?oc=5",
+          "published": "Tue, 27 Oct 2026 09:06:26 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Infosys profit up 6.2%, stock down 4%. Fair reaction? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDlyTzhSeHpyVjhiWDJvN1JtMVhXd184YnFXWW5RakgtTy1PTXRYdmdOQng1UUE3M3ZWMll6T0hpTzc5OUwwQlU0aVB3ZmtSblhmVDlmRkdWNS1YQzl5R2hGSzQ4NVNlOHRub1NqWjdkY3RaNE92WGZFdUtCREZEcy1WRHlnaTRlcTFVR2lKaUVjRFMtT0NkQ3RZRWhSOGR0WUNGNDNtam5fcVk?oc=5",
+          "published": "Mon, 26 Oct 2026 10:42:27 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Share Market News: Sensex and Nifty climbed in early trade driven by IT stocks and robust earnings from Trent. Banking, FMCG shares, Infosys, and TCS registered gains while foreign institutional investors offloaded equities. https://ebx.sh/MKs08M - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNHYzX2YxamlYdW02cDY3MXBlbVNUMFZvTFJfRllOZWJrc1RkaEhTeFpuRlBhR2hmTTVqMGdpM1FFaU1HMHlJTk92UGk3NldSbksxVmxqVFVYbEFXOE9ZZHZzMF9HYXRuSVdQLWJkVXc2RXlIOUdRdDExSEI2cVEtTERudk9jRXdkbGZWYUtsTG8zT2t6Q3VuWXF0VXhKemRfdVVpZUFZMXhsSlhDT3Rwd0x3MjJ0bEtOWnhYZlkzbWh3ZGRHSC1HN0FBMXdZd3llWGxQY1E3SUxZQQ?oc=5",
+          "published": "Fri, 30 Oct 2026 05:10:44 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "#OpeningBell: Sensex rises over 50 pts, Nifty above 22,950; Infosys, Sun Pharma jump 2% each #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-hcl-tech-adani-green-sha - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTc5V2NJd1ZFaWxNeDJRNF9fOTZfY3lKVlFSYk90bW5iQ2I0LURlUHFWT1FIcmJSdmxqSFRGWVZ5d1czaWFXLWgwdGlmY0tnbUFDa2FMVnktNTZocTBKYWRDaWJIcEZ3dXBFV0RzR2U0Z2dzdGdVazNySkZvc1lkUk0yeE9GT2lzbmVVVEtuRVBVT1Z2M09kaktzbFQ1Rm1ITDFxQ2pBeDV4TjRSdHR2VVFWYVNsejR2bEQxbDBCSHMzLUJhQmswbkMyWWNDVFFNcXY0SjB3?oc=5",
+          "published": "Fri, 30 Oct 2026 04:28:14 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZ3J1eFUyRnpMUmRtOVBSM3JSYzRJVDZhWUVueFd3OS1ObmYyYlZaRmNDcjhxS1pzcld3ZnR4X2V1NTUtNklJTGdaclltOHY3bzRnNVZn?oc=5",
+          "published": "Sun, 25 Oct 2026 06:35:22 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
+          "published": "Mon, 26 Oct 2026 06:30:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -423,77 +502,6 @@
           "title": "Suzlon Energy Latest news,Q2 Results/buy or sell?Suzlon,R Power share news,stock advice,Target 2027 - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pTC1LekFpSC1ua2staGdCQXdEVkYzenZIWHVZYmxtckw4SkZKaUhfM1J3a3owQjdaamNqaEx1NzFYejhzMWlYbWZLNG9paGhMSVh2YldR?oc=5",
           "published": "Thu, 29 Oct 2026 15:11:43 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 7,
-      "investor_mentions": 3,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 3,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "What is happening to Infosys? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeEFKWVFxSGlkMFZGc1c4MG1wSFlNR0x0WG1jOFpGc3h6V1V3UVMxelE2OVdLQlpsd1JVTnpYMzIwbnZ0SWs1aDNLYUdlNFFIekJYMEFZVnJfQjE4UHZaOUYwR0FmaE42aS11Q3pXRV80RlQwZXFFLXBCTTlDZHB3bG9BdEF6b2hJeTJmVDl2blRwQQ?oc=5",
-          "published": "Thu, 29 Oct 2026 06:09:58 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Anthropic filed for a US IPO and Indian IT stocks fell up to 3% in the opening. How does a Nasdaq listing hurt TCS and Infosys? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSUdhMzUtYjBnSl9HNGlXcmx6cG1Tb01EY0UyUS05UVhxcFR5VU1pSDhHYWdidXJMN0JrUWswVUp0YXhTa2xJMzMyMThzNjgtRWR0U2Uzei1MTFVkeGpiSzRWd3ZpUDFPWGlkYkVnU09ObGhXT1ZxYkg5dTVaY2xPeTBibFZ1aEdmakhsUTJVRDRKX1hrZ2FzTlJCVjFpNTQxSVI0RjJ1OHg3eXBva1E?oc=5",
-          "published": "Tue, 27 Oct 2026 09:06:26 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Infosys profit up 6.2%, stock down 4%. Fair reaction? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDlyTzhSeHpyVjhiWDJvN1JtMVhXd184YnFXWW5RakgtTy1PTXRYdmdOQng1UUE3M3ZWMll6T0hpTzc5OUwwQlU0aVB3ZmtSblhmVDlmRkdWNS1YQzl5R2hGSzQ4NVNlOHRub1NqWjdkY3RaNE92WGZFdUtCREZEcy1WRHlnaTRlcTFVR2lKaUVjRFMtT0NkQ3RZRWhSOGR0WUNGNDNtam5fcVk?oc=5",
-          "published": "Mon, 26 Oct 2026 10:42:27 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Share Market News: Sensex and Nifty climbed in early trade driven by IT stocks and robust earnings from Trent. Banking, FMCG shares, Infosys, and TCS registered gains while foreign institutional investors offloaded equities. https://ebx.sh/MKs08M - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNHYzX2YxamlYdW02cDY3MXBlbVNUMFZvTFJfRllOZWJrc1RkaEhTeFpuRlBhR2hmTTVqMGdpM1FFaU1HMHlJTk92UGk3NldSbksxVmxqVFVYbEFXOE9ZZHZzMF9HYXRuSVdQLWJkVXc2RXlIOUdRdDExSEI2cVEtTERudk9jRXdkbGZWYUtsTG8zT2t6Q3VuWXF0VXhKemRfdVVpZUFZMXhsSlhDT3Rwd0x3MjJ0bEtOWnhYZlkzbWh3ZGRHSC1HN0FBMXdZd3llWGxQY1E3SUxZQQ?oc=5",
-          "published": "Fri, 30 Oct 2026 05:10:44 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#OpeningBell: Sensex rises over 50 pts, Nifty above 22,950; Infosys, Sun Pharma jump 2% each #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-hcl-tech-adani-green-sha - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTc5V2NJd1ZFaWxNeDJRNF9fOTZfY3lKVlFSYk90bW5iQ2I0LURlUHFWT1FIcmJSdmxqSFRGWVZ5d1czaWFXLWgwdGlmY0tnbUFDa2FMVnktNTZocTBKYWRDaWJIcEZ3dXBFV0RzR2U0Z2dzdGdVazNySkZvc1lkUk0yeE9GT2lzbmVVVEtuRVBVT1Z2M09kaktzbFQ1Rm1ITDFxQ2pBeDV4TjRSdHR2VVFWYVNsejR2bEQxbDBCSHMzLUJhQmswbkMyWWNDVFFNcXY0SjB3?oc=5",
-          "published": "Fri, 30 Oct 2026 04:28:14 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "MONDAY, 26th October, 2026 MARKET SETIP NIFTY/NIFTY BANK/IT FIIs /DIIs STATS MTS SELLING HANDOVER US/CRUDE/BOND YIELD INFOSYS NUMBERS NIFTY 22763-830 ABOVE THIS 23000-23050 BELOW 22763-830 PRESSURE TO REMAIN IN - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwZ3J1eFUyRnpMUmRtOVBSM3JSYzRJVDZhWUVueFd3OS1ObmYyYlZaRmNDcjhxS1pzcld3ZnR4X2V1NTUtNklJTGdaclltOHY3bzRnNVZn?oc=5",
-          "published": "Sun, 25 Oct 2026 06:35:22 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "SBI, Kotak Mahindra Bank, Swiggy, Netweb, Infosys, Tata Motors, Dr Reddy's Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JX005MjlIUWN2RHVpY0lFQ1JLdnY0VjJ6M2doUW9QSUlnaUdrQlV6ZXgwVXE5RXV3d3NkbEx2ZGl5TXhQa3gyNm56cjF6RzJKcXpPT0l3?oc=5",
-          "published": "Mon, 26 Oct 2026 06:30:31 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -710,6 +718,29 @@
           "title": "Stock Market Live | Jio Platforms, Adani Ports, Adani Power, Yes Bank, IOC, Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYRF9YN1dIWGZ3WFdPWGZxRy03V2tYd19qd001LW1XdHN4TklQOGwtMFBnWDZoejByMFY0c3owMzdzenRoNXFfSTlBZE1ja1Q3eUJlOU9n?oc=5",
           "published": "Fri, 30 Oct 2026 08:31:05 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "JSW Energy",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Recovery \u092e\u0947\u0902 \u0915\u094c\u0928\u0938\u0947 Stocks \u092c\u0928\u0947 Rocket? Birlasoft, JSW Energy, Syrma SGS \u092a\u0930 Anil Singhvi \u0915\u0940 \u0930\u093e\u092f - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kalFtVWJQMzNsNDdGOGxPRUtfUFRLNk9WUUFESnRGWW9zS21CN3ZaQVRBekJoZW9DV2tXclJlUFdWRjlxSTJSSzFyRWxjX1M0QkZPRUtR?oc=5",
+          "published": "Thu, 29 Oct 2026 09:04:10 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -1049,20 +1080,6 @@
     },
     {
       "name": "Tata Power",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "JSW Energy",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
