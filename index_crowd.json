@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-31T06:09:49.716850+00:00",
+  "collected_at": "2026-10-31T06:57:54.665500+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,11 +25,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 10
+      "recent": 9
     },
     "nifty_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 86
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 138,
+  "unique_titles": 202,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 9,
+      "neutral": 27,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -116,22 +116,107 @@
           "source": "tradingqna",
           "published": "2026-10-27T08:46:45+00:00",
           "sentiment": "neutral"
+        },
+        {
+          "title": "INDA - Nifty etf in dollar terms cagr 5.8 since inception",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj2xyk/inda_nifty_etf_in_dollar_terms_cagr_58_since/",
+          "source": "nifty_search",
+          "published": "2026-10-30T01:57:16+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty Fibonacci Analysis by TradexCodez. 23170 next stop?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xiijn6/nifty_fibonacci_analysis_by_tradexcodez_23170/",
+          "source": "nifty_search",
+          "published": "2026-10-29T12:25:25+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Rose 238? Kotak 52-Week High; ICICI, Reliance, SBI Up",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihqol/stock_market_today_why_nifty_rose_238_kotak/",
+          "source": "nifty_search",
+          "published": "2026-10-29T11:47:34+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Is Going Up? Sensex +905, Fed Holds. Nifty Tomorrow 30 Oct",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihnil/stock_market_today_why_nifty_is_going_up_sensex/",
+          "source": "nifty_search",
+          "published": "2026-10-29T11:42:58+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Checked every Nifty death cross since 2013. A year later, Nifty was higher all 9 times.",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhlm16/checked_every_nifty_death_cross_since_2013_a_year/",
+          "source": "nifty_search",
+          "published": "2026-10-28T11:34:56+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Today: HDFC Bank 52-Week Low, Then Bounce; Reliance -3.2% Sank Nifty #Shorts",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhld0t/stock_market_today_hdfc_bank_52week_low_then/",
+          "source": "nifty_search",
+          "published": "2026-10-28T11:22:11+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Fell? Reliance -3.2%, HDFC Bank Bounce. Nifty Tomorrow 29 Oct",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhlc9j/stock_market_today_why_nifty_fell_reliance_32/",
+          "source": "nifty_search",
+          "published": "2026-10-28T11:21:06+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Jio ke piche NIFTY ko chadha diya",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhi49r/jio_ke_piche_nifty_ko_chadha_diya/",
+          "source": "nifty_search",
+          "published": "2026-10-28T08:06:55+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty50 index by 2027",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xgeonj/nifty50_index_by_2027/",
+          "source": "nifty_search",
+          "published": "2026-10-27T00:55:40+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Rose? 4-Day Fall Ends. Nifty Tomorrow 27 Oct, Gap Up or Down? #Shorts",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfuurs/stock_market_today_why_nifty_rose_4day_fall_ends/",
+          "source": "nifty_search",
+          "published": "2026-10-26T12:01:38+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Reason for today's rise in Nifty",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfnn6k/reason_for_todays_rise_in_nifty/",
+          "source": "nifty_search",
+          "published": "2026-10-26T04:50:53+00:00",
+          "sentiment": "neutral"
         }
       ]
     },
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Stock Market Today: Why Bank Nifty Lagged? Kotak +2.4%, AU Bank -6.9%, Shriram Finance Down",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xfuwx7/stock_market_today_why_bank_nifty_lagged_kotak_24/",
+          "source": "nifty_search",
+          "published": "2026-10-26T12:04:18+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     },
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -141,6 +226,13 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj97zo/passive_funds_could_buy_up_to_rs_36500_crore_upon/",
           "source": "IndianStockMarket",
           "published": "2026-10-30T07:51:38+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Stock Market Today: Why Nifty Is Going Up? Sensex +905, Fed Holds. Nifty Tomorrow 30 Oct",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihnil/stock_market_today_why_nifty_is_going_up_sensex/",
+          "source": "nifty_search",
+          "published": "2026-10-29T11:42:58+00:00",
           "sentiment": "neutral"
         }
       ]
