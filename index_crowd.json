@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-31T07:47:59.489945+00:00",
+  "collected_at": "2026-10-31T08:28:43.840519+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 235,
+  "unique_titles": 138,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 11,
+      "neutral": 8,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -87,27 +87,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj97zo/passive_funds_could_buy_up_to_rs_36500_crore_upon/",
           "source": "IndianStockMarket",
           "published": "2026-10-30T07:51:38+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 62 nifty option buying with 15k capital",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xjcf0j/day_62_nifty_option_buying_with_15k_capital/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-30T11:08:34+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Checked every Nifty death cross since 2013. A year later, Nifty was higher all 9 times.",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xhlld9/checked_every_nifty_death_cross_since_2013_a_year/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-28T11:33:58+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Jio ke piche Nifty ko chadha diya",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xhi3ws/jio_ke_piche_nifty_ko_chadha_diya/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-28T08:06:14+00:00",
           "sentiment": "neutral"
         },
         {
