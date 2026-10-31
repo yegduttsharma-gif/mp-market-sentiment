@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-31T05:25:26.306576+00:00",
+  "collected_at": "2026-10-31T06:10:12.870148+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -21,8 +21,8 @@
         "topics": 50
       },
       "kpit": {
-        "status": "ok",
-        "topics": 32
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "reliance": {
         "status": "ok",
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 231,
+  "posts_checked": 232,
   "status": "collected"
 }
