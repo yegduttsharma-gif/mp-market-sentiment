@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-02T15:41:22.727207+00:00",
+  "collected_at": "2026-11-02T16:42:09.886191+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 672,
+  "posts_collected": 701,
   "source_counts": {
     "tradingqna": 39,
     "valuepickr": 18,
-    "indexed_reddit": 245,
-    "youtube": 196,
+    "indexed_reddit": 273,
+    "youtube": 195,
     "facebook": 90,
-    "instagram": 84,
-    "total_unique": 672
+    "instagram": 86,
+    "total_unique": 701
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Reliance Industries",
-      "mentions": 20,
+      "mentions": 27,
       "investor_mentions": 1,
-      "commentary_mentions": 19,
+      "commentary_mentions": 26,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -76,14 +76,6 @@
           "published": "Mon, 02 Nov 2026 11:23:02 GMT",
           "subreddit": "youtube",
           "sentiment": "bullish",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Why Is RIL Stock Rising Today? | Rahul Sharma Explains the Big Rally! | RIL \u0928\u0947 \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u092d\u0930\u093e \u091c\u094b\u0936 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GTzZ1UUxLTVY0X0UxQTFXZkpmMkZRSjJ2SU9uT0NoQUQ5YlR5aGpBc2FJdnFOdUM0cG9Lb3NraUtFVmlaTUxfdGVkR3g3Z25WdWdjNkVn?oc=5",
-          "published": "Mon, 02 Nov 2026 10:54:40 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
@@ -151,9 +143,17 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Jio Platforms made a strong debut on the stock market, opening at \u20b91,358 per share on the NSE\u201421.36% above its issue price. The listing marks a major milestone for Reliance Industries\u2019 digital and telecom business, reflecting investor interest in its growth p - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WMGRROE8wOGltZzRrc3NfaWFZbHdLZFJaOTQzbkh3Z05LVDZDd2Q4Z1h3bExGN2JteFZXZl9tdVJmRUthYWh5N1FlNllvd2dhYmc?oc=5",
-          "published": "Wed, 28 Oct 2026 06:35:31 GMT",
+          "title": "Indian markets are watching major corporate developments on November 2. Reliance Industries reported a 41% jump in Q2 profit, while Jio Platforms' profit rose nearly 14%. Tata Motors' commercial vehicle sales increased 27%, Coal India's production climbe - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00Z3AtcHQ4ODIyMTY5eHUxcjVRRzItUjY3X3VabkJTcGZfcjlISnBvc0oyQlk0LTR3Rk5CUHRXTllQc21XTVFFVEZGSTd0cmJBRFE?oc=5",
+          "published": "Mon, 02 Nov 2026 05:31:30 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\u20b91 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani\u2019s Reliance Just Shook the Stock Market! \ud83d\udcc8\ud83d\udd25 Reliance Industries shares surged 11.6% on November 2, 2026, marking their strongest single-day rally in over six years! Following its record Q2 FY27 results, the - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1c2syWHRUQmJIQXFOYXA4UTV0RmdmS0ZXVTZnNHNTLVdBT19XdUk5Rk5LeFptaDJwWDRmMTdYQmdRWmpVZFliQ2RfMGc5LVBLNEE?oc=5",
+          "published": "Mon, 02 Nov 2026 12:08:54 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -163,9 +163,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 9,
+      "mentions": 8,
       "investor_mentions": 0,
-      "commentary_mentions": 9,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -236,14 +236,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "BEL SHARE \ud83d\udca5 NHPC | CDSL Q2 RESULTS | TATA MOTORS | ADANI ENERGY | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTT3dORFl6ZVRsNkpza3BCbG5scjQ3LTRISlVKTkJyQ0RUVkhHT2lYYWxRbnFKV2dUWUxQTnoybHllRVAwWmcyS09xNUN0U1dkQnJSaXd3?oc=5",
-          "published": "Sat, 31 Oct 2026 14:59:36 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -301,14 +293,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Jio Platform, Suzlon, RIL, NSE, BSE, Inox Wind, SJVN, Titagarh, Vishal Mega \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNVhGcjA1Y3VpUDViUmJMdGtWakFGOTNnZ2lIcnBJeXQ1Y1paY25mU0N0UGFmTXAyOWFYYUtTZTUxU2hsX3NMZXBvWFZiTWVXUjZSMUV3?oc=5",
-          "published": "Mon, 02 Nov 2026 07:30:37 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "WATCH LIVE ON INDIA TODAY TV FROM 9 AM ONWARDS! Benchmark indices are likely to open lower today as Gift Nifty is down 38 pts to 23,000. Stocks like Vedanta Power, InterGlobe Aviation, RIL, Suzlon Energy, Trent, Deepak Nitrite and more among to - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNc0xuVXhQOXBIQzFkemJQdXNQUGQtdDc5d0hRRy1sRGtzX3VFLTVHekZFNVkwVlBmQ1dvZVpzWGxmdHY0WllXWS1Tck1jeUt1aC1MSEs1NkJjbjdUdXNIaE96VmJDZExMa1h5bnZtM05qeHQ5MVJuUlFjUGFUMTYzZzI3VFQ0MDJCR29rWkFLR2R1UW5UeFNydmZUVDJmdFV1QnYyOElWOTlmUzhsd1FzMGNnU21rclVhTHh2bmY2WWY4X1Z0MnhHNm5pXzM5Smw0VjdoQ3BTc21ZbE0?oc=5",
           "published": "Fri, 30 Oct 2026 03:41:08 GMT",
@@ -323,58 +307,11 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "CDSL",
-      "mentions": 5,
-      "investor_mentions": 2,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Hacking - What If CDSL, NSDL or Our Stock Broker Gets Hacked? Are Our Shares Really Safe?",
-          "url": "https://tradingqna.com/t/hacking-what-if-cdsl-nsdl-or-our-stock-broker-gets-hacked-are-our-shares-really-safe/199215",
-          "published": "Sun, 01 Nov 2026 12:40:50 +0000",
-          "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         },
         {
-          "title": "Transfer of shares vis CDSL",
-          "url": "https://tradingqna.com/t/transfer-of-shares-vis-cdsl/199203",
-          "published": "Sat, 31 Oct 2026 09:16:16 +0000",
-          "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market LIVE|RIL, Jio Platforms, BEL, CDSL, IOC, Tata Motors, Maruti, M&M, ITC \u092e\u0947\u0902 \u0915\u094d\u200d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtT3lpaFRFZ3FLRXdCSzFWQm5zNjFSUVR2YVJpNXlZeGpHRjZXcmZ0V1IxYW9ZZTBLcC11Nm50Rjd3VXBVc29peUszd2h0LUF2Ul9xSUln?oc=5",
-          "published": "Mon, 02 Nov 2026 05:02:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Jio Platforms, Suzlon, OLA, CDSL, Vodafone, NTPC Green, BEL, Engineers India \u0915\u0947 Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpWm9kWFluSWlyb2t2ZER3UEw0TFZlZlgtYTZqLVNudVlhemhlNjJLVDg2UVI0bEpNR1lxSzJMT1VvRGFkbE1DSzY3Z25yUFFsUlFIWmRR?oc=5",
-          "published": "Mon, 02 Nov 2026 11:30:36 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "BEL SHARE \ud83d\udca5 NHPC | CDSL Q2 RESULTS | TATA MOTORS | ADANI ENERGY | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTT3dORFl6ZVRsNkpza3BCbG5scjQ3LTRISlVKTkJyQ0RUVkhHT2lYYWxRbnFKV2dUWUxQTnoybHllRVAwWmcyS09xNUN0U1dkQnJSaXd3?oc=5",
-          "published": "Sat, 31 Oct 2026 14:59:36 GMT",
+          "title": "Stock Market LIVE|Jio IPO, RIL, YES Bk, Suzlon, Ola, PPL Ph, VISL, Syrma, BDL, ITC \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GZTBUWUd6UC1hNnVfOUpXN000RFNWUkNEU2g4MkxFWnA4UFRzUkU5YldiV1M2czN2S1IzUnliV0N2SWlJeXI2U0IwMlNkRjJrekhieTJn?oc=5",
+          "published": "Wed, 28 Oct 2026 22:55:37 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -384,9 +321,9 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 4,
+      "mentions": 5,
       "investor_mentions": 4,
-      "commentary_mentions": 0,
+      "commentary_mentions": 1,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -425,6 +362,14 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "The stock opened at \u20b91,358 against its \u20b91,119 IPO price, valuing Jio at roughly \u20b912.5 lakh crore and pushing it past Bharti Airtel and HDFC Bank by market capitalisation. The India-specific edition comes with local content, parental consent for minors, playtim - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Z0loaUxkYWI2cjU1Zy10REVhTFphUDByTTdiTU9pQ2JoR3F6dFVUdGFMeTVnaW1kQzRNWmxuMl9RdDIzLU1ORmlva1BZWmdmT2c?oc=5",
+          "published": "Wed, 28 Oct 2026 13:53:22 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -477,6 +422,53 @@
       "sufficient": false
     },
     {
+      "name": "CDSL",
+      "mentions": 4,
+      "investor_mentions": 2,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Hacking - What If CDSL, NSDL or Our Stock Broker Gets Hacked? Are Our Shares Really Safe?",
+          "url": "https://tradingqna.com/t/hacking-what-if-cdsl-nsdl-or-our-stock-broker-gets-hacked-are-our-shares-really-safe/199215",
+          "published": "Sun, 01 Nov 2026 12:40:50 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Transfer of shares vis CDSL",
+          "url": "https://tradingqna.com/t/transfer-of-shares-vis-cdsl/199203",
+          "published": "Sat, 31 Oct 2026 09:16:16 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market LIVE|RIL, Jio Platforms, BEL, CDSL, IOC, Tata Motors, Maruti, M&M, ITC \u092e\u0947\u0902 \u0915\u094d\u200d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtT3lpaFRFZ3FLRXdCSzFWQm5zNjFSUVR2YVJpNXlZeGpHRjZXcmZ0V1IxYW9ZZTBLcC11Nm50Rjd3VXBVc29peUszd2h0LUF2Ul9xSUln?oc=5",
+          "published": "Mon, 02 Nov 2026 05:02:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio Platforms, Suzlon, OLA, CDSL, Vodafone, NTPC Green, BEL, Engineers India \u0915\u0947 Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpWm9kWFluSWlyb2t2ZER3UEw0TFZlZlgtYTZqLVNudVlhemhlNjJLVDg2UVI0bEpNR1lxSzJMT1VvRGFkbE1DSzY3Z25yUFFsUlFIWmRR?oc=5",
+          "published": "Mon, 02 Nov 2026 11:30:36 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Infosys",
       "mentions": 2,
       "investor_mentions": 1,
@@ -497,9 +489,40 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Share Market News: Sensex and Nifty climbed in early trade driven by IT stocks and robust earnings from Trent. Banking, FMCG shares, Infosys, and TCS registered gains while foreign institutional investors offloaded equities. Link in bio - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04aGpFZXlPcGtnMndqWF9zVWxHRUsyOS1IQ3NLTDU1U0NNaGE3M1VpY0VxQVJFM1Jzc3BrR1dJX244UHFuNkx2Y0JMN2xwZ3ZLMUE?oc=5",
-          "published": "Fri, 30 Oct 2026 05:11:02 GMT",
+          "title": "Stock Market LIVE| Jio IPO, RIL, L&T, Bajaj Auto, Infosys, Ola, VISL, MRPL, LTFoods \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZNXZna2pDSmdLV0JNTWpOMmo0VnpPbDg4eXBMMzVUS0ZJa2NmRzdUaEh6S3ZCVnFlX00zdWNrdk1QLXpLYU9oUFByT3RqMDBzaWVsb0lB?oc=5",
+          "published": "Wed, 28 Oct 2026 21:36:49 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "So a marketing hyped IPO had a bumper opening | JIO market cap exceeds Bharti Airtel - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnFvZk9JVTJDY2pkdzlRaFpYQ3dYYm5uM0U1a1VOU3hrYnJOdkF0RWtqeXVlMWJGbnNHSm80WkNaRmQ3cFNnV1kzaFRzOGswbmhYR1RGNXZKTW5NQmp0MERkVXcxckdmVXFKMk9DVlh2b2hhdmJuQlV3OC1QTnVNdGdZX3B1c0lKUWlOMXZuNnpha2FDekU1VWo1M0ZqWDFfbVU3R054NWt4ZUNyaGc?oc=5",
+          "published": "Wed, 28 Oct 2026 10:04:33 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "The stock opened at \u20b91,358 against its \u20b91,119 IPO price, valuing Jio at roughly \u20b912.5 lakh crore and pushing it past Bharti Airtel and HDFC Bank by market capitalisation. The India-specific edition comes with local content, parental consent for minors, playtim - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Z0loaUxkYWI2cjU1Zy10REVhTFphUDByTTdiTU9pQ2JoR3F6dFVUdGFMeTVnaW1kQzRNWmxuMl9RdDIzLU1ORmlva1BZWmdmT2c?oc=5",
+          "published": "Wed, 28 Oct 2026 13:53:22 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -562,29 +585,6 @@
       "sufficient": false
     },
     {
-      "name": "Bharti Airtel",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "So a marketing hyped IPO had a bumper opening | JIO market cap exceeds Bharti Airtel - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnFvZk9JVTJDY2pkdzlRaFpYQ3dYYm5uM0U1a1VOU3hrYnJOdkF0RWtqeXVlMWJGbnNHSm80WkNaRmQ3cFNnV1kzaFRzOGswbmhYR1RGNXZKTW5NQmp0MERkVXcxckdmVXFKMk9DVlh2b2hhdmJuQlV3OC1QTnVNdGdZX3B1c0lKUWlOMXZuNnpha2FDekU1VWo1M0ZqWDFfbVU3R054NWt4ZUNyaGc?oc=5",
-          "published": "Wed, 28 Oct 2026 10:04:33 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Jio Financial",
       "mentions": 1,
       "investor_mentions": 1,
@@ -608,7 +608,7 @@
       "sufficient": false
     },
     {
-      "name": "NHPC",
+      "name": "Adani Ports",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -620,9 +620,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "BEL SHARE \ud83d\udca5 NHPC | CDSL Q2 RESULTS | TATA MOTORS | ADANI ENERGY | STOCK MARKET INDIA - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTT3dORFl6ZVRsNkpza3BCbG5scjQ3LTRISlVKTkJyQ0RUVkhHT2lYYWxRbnFKV2dUWUxQTnoybHllRVAwWmcyS09xNUN0U1dkQnJSaXd3?oc=5",
-          "published": "Sat, 31 Oct 2026 14:59:36 GMT",
+          "title": "Daily Stock Market News (29 Oct 2026): Jio Tops Tata Group, Adani Ports Q2, IIP Drops & TVS Demerger - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMc29LVEZxUnFyeVVNWE51ZGdQa2FFMmZHRTRQUGM2aVlWaVdPcjcwX0ZMQ0NEeXNaWWF1UFdxRXpNMHNEQXpjV3poMUVLMkZVaWtMMnVn?oc=5",
+          "published": "Thu, 29 Oct 2026 01:30:30 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -654,29 +654,6 @@
       "sufficient": false
     },
     {
-      "name": "Maruti Suzuki",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IT Shares Weigh On D-Street; Indices Pare Gains; Reliance, Tata Steel, Maruti Suzuki Rally - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLTWRTVTVhbll3QTlSTF80OVc4emxWbkZWSzhiNUJhQnBwNWJXNHpPLXplWlFLT3VxTTdVdXA1N292OGZwNGxEbnBCb2k2TkltR2RGajVn?oc=5",
-          "published": "Mon, 02 Nov 2026 09:37:04 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "HFCL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -692,29 +669,6 @@
           "title": "Share Market LIVE : RIL, MSUMI, Engineers India, IGL, HFCL, Dixon Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FZzJyV0tYQXNwa1dkMjlnS0dEX0V5czRfbGRvZmJRSFdPWHU4V3NfTTM2V0tURnBSaHlkRk5Wc3NfZ29wT0F1UzdDYTNTSVFBOWRpWTdB?oc=5",
           "published": "Mon, 02 Nov 2026 04:33:21 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Titagarh Rail",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Platform, Suzlon, RIL, NSE, BSE, Inox Wind, SJVN, Titagarh, Vishal Mega \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNVhGcjA1Y3VpUDViUmJMdGtWakFGOTNnZ2lIcnBJeXQ1Y1paY25mU0N0UGFmTXAyOWFYYUtTZTUxU2hsX3NMZXBvWFZiTWVXUjZSMUV3?oc=5",
-          "published": "Mon, 02 Nov 2026 07:30:37 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -947,6 +901,20 @@
       "sufficient": false
     },
     {
+      "name": "NHPC",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "NBCC",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1017,20 +985,6 @@
       "sufficient": false
     },
     {
-      "name": "Adani Ports",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "Punjab National Bank",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1088,6 +1042,20 @@
     },
     {
       "name": "Kotak Bank",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1172,6 +1140,20 @@
     },
     {
       "name": "RailTel",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Titagarh Rail",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
