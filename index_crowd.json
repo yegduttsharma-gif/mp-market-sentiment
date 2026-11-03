@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T07:36:53.939739+00:00",
+  "collected_at": "2026-11-03T08:36:14.043321+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -36,20 +36,20 @@
       "error": "HTTPError"
     },
     "sensex_search": {
-      "status": "ok",
-      "recent": 35
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "nifty_bets_search": {
       "status": "unavailable",
       "error": "HTTPError"
     }
   },
-  "unique_titles": 164,
+  "unique_titles": 141,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -74,20 +74,6 @@
           "source": "tradingqna",
           "published": "2026-10-30T12:46:47+00:00",
           "sentiment": "neutral"
-        },
-        {
-          "title": "Passive funds could buy up to Rs 36,500 crore upon Jio Platforms' entry into Nifty, Sensex- Moneycontrol.com",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj97zo/passive_funds_could_buy_up_to_rs_36500_crore_upon/",
-          "source": "sensex_search",
-          "published": "2026-10-30T07:51:38+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Is Going Up? Sensex +905, Fed Holds. Nifty Tomorrow 30 Oct",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihnil/stock_market_today_why_nifty_is_going_up_sensex/",
-          "source": "sensex_search",
-          "published": "2026-10-29T11:42:58+00:00",
-          "sentiment": "neutral"
         }
       ]
     },
@@ -103,33 +89,11 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "My SENSEX options backtest showed 170% in 3 months. Then I priced it on real option fills.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xkaw2w/my_sensex_options_backtest_showed_170_in_3_months/",
-          "source": "sensex_search",
-          "published": "2026-10-31T13:56:46+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Passive funds could buy up to Rs 36,500 crore upon Jio Platforms' entry into Nifty, Sensex- Moneycontrol.com",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj97zo/passive_funds_could_buy_up_to_rs_36500_crore_upon/",
-          "source": "sensex_search",
-          "published": "2026-10-30T07:51:38+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Stock Market Today: Why Nifty Is Going Up? Sensex +905, Fed Holds. Nifty Tomorrow 30 Oct",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xihnil/stock_market_today_why_nifty_is_going_up_sensex/",
-          "source": "sensex_search",
-          "published": "2026-10-29T11:42:58+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     }
   }
 }
