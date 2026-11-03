@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T21:49:59.176887+00:00",
+  "collected_at": "2026-11-03T22:25:47.220691+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 236,
+  "unique_titles": 139,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 9,
+      "neutral": 4,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -73,41 +73,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmk4y1/nifty/",
           "source": "IndianStockMarket",
           "published": "2026-11-03T05:03:32+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty November",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xmzrdv/nifty_november/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-03T17:47:59+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 64 nifty option buying with 15k capital",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xmpkhs/day_64_nifty_option_buying_with_15k_capital/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-03T10:33:50+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty vs Portfolio",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xmp8kr/nifty_vs_portfolio/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-03T10:13:36+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 63 nifty option buying with 15k capital",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xltqmb/day_63_nifty_option_buying_with_15k_capital/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-02T10:32:22+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 62 nifty option buying with 15k capital",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xjcf0j/day_62_nifty_option_buying_with_15k_capital/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-30T11:08:34+00:00",
           "sentiment": "neutral"
         },
         {
