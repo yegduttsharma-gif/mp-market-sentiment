@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T09:29:56.821239+00:00",
+  "collected_at": "2026-11-03T10:26:55.813649+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,7 +25,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 11
+      "recent": 12
     },
     "nifty_search": {
       "status": "ok",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 205,
+  "unique_titles": 207,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 20,
+      "neutral": 21,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Nifty view for the remaining last 2 months of the year",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmpfsb/nifty_view_for_the_remaining_last_2_months_of_the/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-03T10:25:52+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Is it advisable to carry Nifty positions overnight? Or is it better to square off now and take fresh entry tomorrow?",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmnqmk/is_it_advisable_to_carry_nifty_positions/",
@@ -185,13 +192,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhlc9j/stock_market_today_why_nifty_fell_reliance_32/",
           "source": "nifty_search",
           "published": "2026-10-28T11:21:06+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Jio ke piche NIFTY ko chadha diya",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xhi49r/jio_ke_piche_nifty_ko_chadha_diya/",
-          "source": "nifty_search",
-          "published": "2026-10-28T08:06:55+00:00",
           "sentiment": "neutral"
         }
       ]
