@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T02:22:59.893274+00:00",
+  "collected_at": "2026-11-03T03:14:45.750153+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -44,12 +44,12 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 237,
+  "unique_titles": 141,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 6,
+      "neutral": 4,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -66,20 +66,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xlnnn1/nses_flipflop_on_nifty_quantity_freeze_limits_is/",
           "source": "IndianStockMarket",
           "published": "2026-11-02T04:20:36+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 63 nifty option buying with 15k capital",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xltqmb/day_63_nifty_option_buying_with_15k_capital/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-02T10:32:22+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Day 62 nifty option buying with 15k capital",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xjcf0j/day_62_nifty_option_buying_with_15k_capital/",
-          "source": "IndianStreetBets",
-          "published": "2026-10-30T11:08:34+00:00",
           "sentiment": "neutral"
         },
         {
