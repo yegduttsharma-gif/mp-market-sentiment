@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T17:24:05.924441+00:00",
+  "collected_at": "2026-11-04T18:20:35.059775+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 653,
+  "posts_collected": 660,
   "source_counts": {
     "tradingqna": 37,
     "valuepickr": 11,
-    "indexed_reddit": 231,
-    "youtube": 192,
-    "facebook": 92,
-    "instagram": 90,
-    "total_unique": 653
+    "indexed_reddit": 232,
+    "youtube": 196,
+    "facebook": 93,
+    "instagram": 91,
+    "total_unique": 660
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Reliance Industries",
-      "mentions": 24,
+      "mentions": 23,
       "investor_mentions": 1,
-      "commentary_mentions": 23,
+      "commentary_mentions": 22,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -71,14 +71,6 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
-          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
           "published": "Mon, 02 Nov 2026 10:29:22 GMT",
@@ -90,14 +82,6 @@
           "title": "Reliance Industries, SBI, BEL, HAL, Infosys, Zensar Tech, GMR Power Share | Stock Market News | Finance Gyani | https://youtu.be/jfIhLgH3gF8 - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT3N2MEtqTmg4UmlJdUNMalBxMnRZbDBsX2VRUC15Wlk4OTRfTmcydV9laWdtTWRjTVNvajE3N3dPQk4tY1dpQlBDWTlZSkRIaWZESEpySWRxNGEwSFlLMkdYbUZ2SWMyLW8tVmdMLVIyRHVncFd4d2Q2R0JuTzg4YVZ4Ykk5WXRkUWhocVV0ZzdUQzZBZ3Ixc2E5UlF1WVZzemU3Z3BaT1pSZ1didXdVdWJBenpZWnRLOUN4QzFhbUEzSFJ0OE15STV5YjVoNzJ1SmFmMzBJRmtObG1XY29R?oc=5",
           "published": "Wed, 04 Nov 2026 08:30:00 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSWJvRlU0THBJWGNCQmRrR2EyamNkVHN4cG42TXNENjM1bXNvY1JtWG96dy1hRHBZMld6azBPQjV2Qk00cjlXb1MtWjR4ZjFVanN1QkJ1eVFNOUpOWWl4VHJqeWFxNlYzVnFmUTd3UFJYNW96VTlHQjlQa1c2ci1nalFHMi1jOHIzeG5wTFMxQ0tNMUpXZDl0M3Jmcld0OEIyTklvMU55TDZjX0lmZ0FURUlzY0cySTE0d0FJWFBZMzBWM0R4bGR5UERsSjNScnRmSkdTdnNwM3dkeXR2WDF4bmlR?oc=5",
-          "published": "Wed, 04 Nov 2026 13:14:45 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -154,6 +138,22 @@
           "title": "\u20b92 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani Breaks a 6-Year Record! \ud83d\udd25 Reliance Industries just made its biggest single-day stock market jump since April 2020! \ud83d\udcc8 On November 2, Reliance shares surged nearly 12%, adding around \u20b91.84 lakh crore to t - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rcXlZZmN4TGpBd2lzOWpZbXZJX2pPTDI5QmZPV3RRU0V4SGFHaDJHbHdteUljSWpneE9MNnV5d3Z4MlN1SldUSHZ2V1VzSE5XY1E?oc=5",
           "published": "Wed, 04 Nov 2026 14:11:50 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries has delivered a powerful Q2 FY27 performance, sending its shares soaring nearly 8% in a single trading session and adding close to \u20b91 lakh crore to its market capitalisation. Led by Mukesh Ambani, the conglomerate continues to demonst - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkV2dpMExpNU5ac1F2MDN0NEVvcGd0THpQMnJCMUV5U0Q1Sk1CWm9BTkRaSTNQOUhJUUpfdzJVdEpKZHpnbEFGZWN5REQyZGo3bUE?oc=5",
+          "published": "Mon, 02 Nov 2026 10:25:09 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -337,14 +337,14 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 4,
-      "investor_mentions": 1,
+      "mentions": 3,
+      "investor_mentions": 0,
       "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "bullish_pct": null,
       "evidence": [
         {
@@ -362,14 +362,6 @@
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Any tips for hdfc bank?.. Holding it frm past a year - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVRFVUdtREJ5Z2lKUVBTclBEOVI3N25NOVFVeHBXSTVhbDdwZEZsdWtEYlhRQUxEZWlpNUcyVHdaU1JqQ2ZjWWtLUlpXbTVjdzlBaXEzaUdqMWlhdm5qdGVBcmQzZDlKaGpzbVE4SktvVjBBcDQ4NXM1SVk1djcteGFtdFg2bklGdkdhbUI4cEhWUFhUd1B6U3h0QjZKN3dBZGJ6VVNjNFNjVElsOTM0?oc=5",
-          "published": "Wed, 28 Oct 2026 17:35:08 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         },
         {
           "title": "HDFC Bank Share Price: 1000 \u0936\u0947\u092f\u0930 \u0939\u0948 HDFC Bank \u0915\u0947, \u0906\u0917\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u0940 \u0938\u0939\u0940 \u0930\u0923\u0928\u0940\u0924\u093f? | Business News - YouTube",
@@ -434,20 +426,20 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "If I Buy Coal India Shares Today, Will I Be Eligible for Tomorrow's Dividend? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTE1fRkt4V0UydndPLXNHMjN0cDJfQVByaG1rbVI1T0tvM1RCalVfaGdlT0xVWVYxUWw0dzF0al9sLTV2SklRRklNX2lveThHYjNJXzQ2VXNvT3FSYVVwR3l3U1A2YVBJUDFKcnJwenpYVk5mUTJaT3FiSEVXa3FmempJQnU5SzZQWW9FOHAwMDdJbHpOb0w5b2F0UWtVWTItQTRmUW9n?oc=5",
-          "published": "Tue, 03 Nov 2026 05:27:15 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
           "title": "Stock In News: Trent, Coal India, Sagility \u0938\u092e\u0947\u0924 \u0906\u091c \u0915\u093f\u0928 Stocks \u092e\u0947\u0902 \u0926\u093f\u0916\u0947\u0917\u093e \u092c\u0921\u093c\u093e Action? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93V3ZnYkNGNXlQUTUxb0ZSMGJkUUU5Z2lvQ3R3T2tobmt0WEtvV0ZtZlZwT0hmMUZudVhZMmViUTB2QWd2RjNIVlJHbVlPbm82dzZpZkxB?oc=5",
           "published": "Fri, 30 Oct 2026 02:00:26 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "If I Buy Coal India Shares Today, Will I Be Eligible for Tomorrow's Dividend? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTE1fRkt4V0UydndPLXNHMjN0cDJfQVByaG1rbVI1T0tvM1RCalVfaGdlT0xVWVYxUWw0dzF0al9sLTV2SklRRklNX2lveThHYjNJXzQ2VXNvT3FSYVVwR3l3U1A2YVBJUDFKcnJwenpYVk5mUTJaT3FiSEVXa3FmempJQnU5SzZQWW9FOHAwMDdJbHpOb0w5b2F0UWtVWTItQTRmUW9n?oc=5",
+          "published": "Tue, 03 Nov 2026 05:27:15 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         },
         {
           "title": "HDFC Securities names 10 stocks for Samvat 2083, including Ambuja Cements, Adani Power and Coal India, with potential upside of up to 29%. - Facebook",
@@ -543,20 +535,20 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "If anyone has followed Akshat Shrivastava, they would know he used to say \"Aisa to hai nahi ke sirf Zomato grow karega or Swiggy nahi\". - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzRqaWEyaW5JRm40Zjk4cDI2Y0hsUHJqS29ESHpOTlo5cWxjcTZ5YnpKc0hWcGlYdE4xQ0dmUEdqX0tjOXIwRnZBQjNUbTlhQ3R5dlpQbUZnWDRwMlVyV2sxWC1NVjNROEZDUzl0bWw1bXBTU2FfVkxwZzM0a1pPUXh6dkpsa1F0ekEzUkdnTHdrTm1YNVc5WEQtNUtsS21QUUY2dFZObWdBTEU?oc=5",
-          "published": "Fri, 30 Oct 2026 06:46:39 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
           "title": "Paytm, Zomato, LIC: What India's IPO Boom Is Really Telling Investors | Indian Express Special - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QVG82MFVobE9ySGJrT1FweS15WVFvNzdEaEZjNjhoQ1hVem1zRFhKX2JjUmVkY0trWjBDeHFPOXp6d2RUOGtkbW5GS3FRXzRnT0tVMzNB?oc=5",
           "published": "Mon, 02 Nov 2026 01:30:21 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "If anyone has followed Akshat Shrivastava, they would know he used to say \"Aisa to hai nahi ke sirf Zomato grow karega or Swiggy nahi\". - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzRqaWEyaW5JRm40Zjk4cDI2Y0hsUHJqS29ESHpOTlo5cWxjcTZ5YnpKc0hWcGlYdE4xQ0dmUEdqX0tjOXIwRnZBQjNUbTlhQ3R5dlpQbUZnWDRwMlVyV2sxWC1NVjNROEZDUzl0bWw1bXBTU2FfVkxwZzM0a1pPUXh6dkpsa1F0ekEzUkdnTHdrTm1YNVc5WEQtNUtsS21QUUY2dFZObWdBTEU?oc=5",
+          "published": "Fri, 30 Oct 2026 06:46:39 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -593,6 +585,37 @@
       "sufficient": false
     },
     {
+      "name": "Axis Bank",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Five Stocks To Buy Today, November 4: Axis Bank, Mahindra And Mahindra, Coromandel, And More - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQckJMbXdmbmlKRUNTX082WHhYTmh2cnRMM0ZHaTA1WXk5UzNKaWxWRVBwUTBleG1DSVNFLWQ2Z2V5Um16cU5acHZQcWx0MnVNMXE3RXpCZktPZURSaTZiY3o4WDEwbmhvcWxmTS16Y05iSWtvb3htMDVXMk1WRmIzcFViLV9kdF8wT0p2b1c4dkFJR1NmTHluNWRWSUg4bWFjaExYaDdXdEJvX0JrYzRtbTBSc1hVUndkUHlGSHRSUkhkZ3lqd0hHVlpRQUNrZ0Izbk1PYlctaw?oc=5",
+          "published": "Wed, 04 Nov 2026 01:48:08 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83c\udfe6 India\u2019s Banking Sector Has a Clear FII Favourite! \ud83c\uddee\ud83c\uddf3\ud83d\udcc8 Axis Bank leads with 39.91% FII holding, followed by HDFC Bank at 39.39% and ICICI Bank at 33.79%. Which banking stock is on your watchlist? \ud83d\udc40 . Follow for More . #FIIHolding #IndianBankingSector - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwNGdEemtBVjZ6cVlTZENUV3pfcVdSN3hDQmNmN2lLYklqdENvckVHaVNuVi0tX3Z5Nl9KOFpWZGlNR1pjX2dSYjJhdm9VdHU5anc?oc=5",
+          "published": "Mon, 02 Nov 2026 11:44:47 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
@@ -605,10 +628,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSWJvRlU0THBJWGNCQmRrR2EyamNkVHN4cG42TXNENjM1bXNvY1JtWG96dy1hRHBZMld6azBPQjV2Qk00cjlXb1MtWjR4ZjFVanN1QkJ1eVFNOUpOWWl4VHJqeWFxNlYzVnFmUTd3UFJYNW96VTlHQjlQa1c2ci1nalFHMi1jOHIzeG5wTFMxQ0tNMUpXZDl0M3Jmcld0OEIyTklvMU55TDZjX0lmZ0FURUlzY0cySTE0d0FJWFBZMzBWM0R4bGR5UERsSjNScnRmSkdTdnNwM3dkeXR2WDF4bmlR?oc=5",
-          "published": "Wed, 04 Nov 2026 13:14:45 GMT",
-          "subreddit": "facebook",
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -823,29 +846,6 @@
       "sufficient": false
     },
     {
-      "name": "Axis Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83c\udfe6 India\u2019s Banking Sector Has a Clear FII Favourite! \ud83c\uddee\ud83c\uddf3\ud83d\udcc8 Axis Bank leads with 39.91% FII holding, followed by HDFC Bank at 39.39% and ICICI Bank at 33.79%. Which banking stock is on your watchlist? \ud83d\udc40 . Follow for More . #FIIHolding #IndianBankingSector - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwNGdEemtBVjZ6cVlTZENUV3pfcVdSN3hDQmNmN2lLYklqdENvckVHaVNuVi0tX3Z5Nl9KOFpWZGlNR1pjX2dSYjJhdm9VdHU5anc?oc=5",
-          "published": "Mon, 02 Nov 2026 11:44:47 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Maruti Suzuki",
       "mentions": 1,
       "investor_mentions": 0,
@@ -863,6 +863,29 @@
           "published": "Mon, 02 Nov 2026 09:37:04 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Mahindra & Mahindra",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Five Stocks To Buy Today, November 4: Axis Bank, Mahindra And Mahindra, Coromandel, And More - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQckJMbXdmbmlKRUNTX082WHhYTmh2cnRMM0ZHaTA1WXk5UzNKaWxWRVBwUTBleG1DSVNFLWQ2Z2V5Um16cU5acHZQcWx0MnVNMXE3RXpCZktPZURSaTZiY3o4WDEwbmhvcWxmTS16Y05iSWtvb3htMDVXMk1WRmIzcFViLV9kdF8wT0p2b1c4dkFJR1NmTHluNWRWSUg4bWFjaExYaDdXdEJvX0JrYzRtbTBSc1hVUndkUHlGSHRSUkhkZ3lqd0hHVlpRQUNrZ0Izbk1PYlctaw?oc=5",
+          "published": "Wed, 04 Nov 2026 01:48:08 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -1168,20 +1191,6 @@
     },
     {
       "name": "Kotak Bank",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Mahindra & Mahindra",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
