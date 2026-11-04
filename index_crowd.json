@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T10:47:22.064683+00:00",
+  "collected_at": "2026-11-04T11:40:10.317043+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,7 +25,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 9
+      "recent": 8
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 139,
+  "unique_titles": 138,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 4,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Nifty 50 rally",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnljlr/nifty_50_rally/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-04T11:10:57+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Nifty 50 going Roller Coaster \ud83d\ude2d",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnkhpi/nifty_50_going_roller_coaster/",
@@ -89,7 +96,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -99,13 +106,6 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xncu15/sensex_put_btst_my_analysis/",
           "source": "IndianStockMarket",
           "published": "2026-11-04T02:42:33+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Sensex Is Up Over 4% This Week. Is the Market Finally Recovering?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmo8v3/sensex_is_up_over_4_this_week_is_the_market/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-03T09:11:54+00:00",
           "sentiment": "neutral"
         }
       ]
