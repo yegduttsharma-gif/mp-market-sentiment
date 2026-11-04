@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T01:48:18.445135+00:00",
+  "collected_at": "2026-11-04T02:32:35.895491+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -29,16 +29,16 @@
         "topics": 50
       },
       "hdfc bank": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 50
       },
       "icici bank": {
         "status": "ok",
         "topics": 50
       },
       "tcs": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -51,7 +51,7 @@
     },
     "topics": {
       "attempted": 75,
-      "errors": 1
+      "errors": 0
     }
   },
   "assets": {
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 242,
+  "posts_checked": 241,
   "status": "collected"
 }
