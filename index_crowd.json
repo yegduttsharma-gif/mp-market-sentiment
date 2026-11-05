@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-05T07:12:44.481081+00:00",
+  "collected_at": "2026-11-05T08:26:56.118916+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,11 +25,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 8
+      "recent": 9
     },
     "nifty_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 137,
+  "unique_titles": 208,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 20,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Is it better to exit positions and book profits now? What's the probability of Nifty falling tomorrow?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xode2w/is_it_better_to_exit_positions_and_book_profits/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-05T08:22:10+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Nifty @ 24420 +470 points. Happy Dhanteras\u2728\u2728\u2728 & Diwali\u2728\u2728\u2728",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xoc8fd/nifty_24420_470_points_happy_dhanteras_diwali/",
@@ -85,8 +92,106 @@
         {
           "title": "Gap Ups via Gift Nifty! Is this Sustainable or Manipulated?",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnoyrn/gap_ups_via_gift_nifty_is_this_sustainable_or/",
-          "source": "IndianStockMarket",
+          "source": "nifty_search",
           "published": "2026-11-04T14:02:04+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 rally",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnljlr/nifty_50_rally/",
+          "source": "nifty_search",
+          "published": "2026-11-04T11:10:57+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 going Roller Coaster \ud83d\ude2d",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnkhpi/nifty_50_going_roller_coaster/",
+          "source": "nifty_search",
+          "published": "2026-11-04T10:06:43+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty view for the remaining last 2 months of the year",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmpfsb/nifty_view_for_the_remaining_last_2_months_of_the/",
+          "source": "nifty_search",
+          "published": "2026-11-03T10:25:52+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Is it advisable to carry Nifty positions overnight? Or is it better to square off now and take fresh entry tomorrow?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmnqmk/is_it_advisable_to_carry_nifty_positions/",
+          "source": "nifty_search",
+          "published": "2026-11-03T08:40:20+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "*NIFTY",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xmk4y1/nifty/",
+          "source": "nifty_search",
+          "published": "2026-11-03T05:03:32+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Looking for an Intraday Nifty Options Buyer for Live Market Idea Bouncing & Data Reading (3 Years Exp)",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xm2omc/looking_for_an_intraday_nifty_options_buyer_for/",
+          "source": "nifty_search",
+          "published": "2026-11-02T16:59:10+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NSE's flip-flop on Nifty quantity freeze limits is getting ridiculous",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xlnnn1/nses_flipflop_on_nifty_quantity_freeze_limits_is/",
+          "source": "nifty_search",
+          "published": "2026-11-02T04:20:36+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty and Me",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xku0pu/nifty_and_me/",
+          "source": "nifty_search",
+          "published": "2026-11-01T04:27:05+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "GIFT Nifty +156pts while US tech dumps: Are we watching a real \"Anti-AI\" rotation or a classic Monday gap-fade?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xkf8m2/gift_nifty_156pts_while_us_tech_dumps_are_we/",
+          "source": "nifty_search",
+          "published": "2026-10-31T16:54:20+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Trend following system Nifty and Gold",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xjzkbu/trend_following_system_nifty_and_gold/",
+          "source": "nifty_search",
+          "published": "2026-10-31T03:16:32+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Sukhar maano ye friday night ko hua agar weekday hota toh agle din nifty marr he jata",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xjx7jd/sukhar_maano_ye_friday_night_ko_hua_agar_weekday/",
+          "source": "nifty_search",
+          "published": "2026-10-31T01:18:01+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 to Nifty 100 as the primary index.",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xjdsxa/nifty_50_to_nifty_100_as_the_primary_index/",
+          "source": "nifty_search",
+          "published": "2026-10-30T12:17:51+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Lost 75K in nifty options trading",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xjbuh2/lost_75k_in_nifty_options_trading/",
+          "source": "nifty_search",
+          "published": "2026-10-30T10:36:26+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Passive funds could buy up to Rs 36,500 crore upon Jio Platforms' entry into Nifty, Sensex- Moneycontrol.com",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj97zo/passive_funds_could_buy_up_to_rs_36500_crore_upon/",
+          "source": "nifty_search",
+          "published": "2026-10-30T07:51:38+00:00",
           "sentiment": "neutral"
         }
       ]
@@ -103,7 +208,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 4,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -120,6 +225,20 @@
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnshm4/can_nifty_50_open_around_24200_and_sensex_around/",
           "source": "IndianStockMarket",
           "published": "2026-11-04T16:22:44+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Sensex Put BTST- My analysis",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xncu15/sensex_put_btst_my_analysis/",
+          "source": "nifty_search",
+          "published": "2026-11-04T02:42:33+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Passive funds could buy up to Rs 36,500 crore upon Jio Platforms' entry into Nifty, Sensex- Moneycontrol.com",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xj97zo/passive_funds_could_buy_up_to_rs_36500_crore_upon/",
+          "source": "nifty_search",
+          "published": "2026-10-30T07:51:38+00:00",
           "sentiment": "neutral"
         }
       ]
