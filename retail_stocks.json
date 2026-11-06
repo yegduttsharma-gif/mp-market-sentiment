@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T11:20:12.563965+00:00",
+  "collected_at": "2026-11-06T12:08:55.222185+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 648,
+  "posts_collected": 646,
   "source_counts": {
     "tradingqna": 34,
     "valuepickr": 15,
-    "indexed_reddit": 221,
-    "youtube": 196,
-    "facebook": 97,
-    "instagram": 85,
-    "total_unique": 648
+    "indexed_reddit": 220,
+    "youtube": 195,
+    "facebook": 96,
+    "instagram": 86,
+    "total_unique": 646
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Reliance Industries",
-      "mentions": 7,
+      "mentions": 8,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 8,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -62,6 +62,22 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
+          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries Q2 Results: RIL \u0915\u0947 \u0936\u093e\u0928\u0926\u093e\u0930 Q2 \u0928\u0924\u0940\u091c\u0947! \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0942\u092b\u093e\u0928\u0940 \u0924\u0947\u091c\u0940, \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u094b\u0902 \u0939\u0941\u090f \u0916\u0941\u0936? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GcHBMRUhRTDNEY1RfS1c5dFNQWk9ja0hxNEJkM0NFeWJwQ1ZDcVVDRDNRNmR5SVdqQW9Xdk0yeTI4aTNJSzI1QTlQNGduNVVPRVlxZkFB?oc=5",
+          "published": "Mon, 02 Nov 2026 05:54:23 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
@@ -103,18 +119,10 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
-          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries Q2 Results: RIL \u0915\u0947 \u0936\u093e\u0928\u0926\u093e\u0930 Q2 \u0928\u0924\u0940\u091c\u0947! \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0942\u092b\u093e\u0928\u0940 \u0924\u0947\u091c\u0940, \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u094b\u0902 \u0939\u0941\u090f \u0916\u0941\u0936? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GcHBMRUhRTDNEY1RfS1c5dFNQWk9ja0hxNEJkM0NFeWJwQ1ZDcVVDRDNRNmR5SVdqQW9Xdk0yeTI4aTNJSzI1QTlQNGduNVVPRVlxZkFB?oc=5",
-          "published": "Mon, 02 Nov 2026 05:54:23 GMT",
-          "subreddit": "youtube",
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -123,9 +131,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 6,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -150,14 +158,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Tata Motors Share Big Breaking News Today - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KSWJrTVlWeTFvOXA4RlNvSmdaZ0xDVkNHQjVoUnVvbjhYeG14LTBJZGM3eWFKYmtFWC1lLXV4T3N6dzNFcmdYNTItYmh1RlFtZmVoUVpR?oc=5",
-          "published": "Fri, 30 Oct 2026 12:08:06 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Tata Motors Share News,Kyu Gir Raha Hai,Buy Or Sell ? Analysis |TMCV Share Target 2027 - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CM2xPTU85M0V6X1Q1b2dzaWl5WGFoQ3NsQUNtb3hKVERuMmFXSG1PdU90MDZ0MlRFeDhDYlgwZUoyaGczcHJYX0o1RXNXY3FUOGZLVHVB?oc=5",
           "published": "Sat, 31 Oct 2026 15:58:15 GMT",
@@ -177,61 +177,6 @@
           "title": "Tata Motors Share Monday Target 2/11/2026 | TMPV and TMCV | - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wWURRZzlRM29XY0dPU3phRG04ckxxQ2E4eXdRTlJ5aVU5aVdHaVlFYXRlUkVhTVFCNW4tT2VvN1JnZG9JellSSGZadGhCa05FbVVnUXhB?oc=5",
           "published": "Sun, 01 Nov 2026 07:00:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 5,
-      "investor_mentions": 1,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "I have suzlon @50.6 ruppes 2500 shares what should I do with it ? I can hold it for long term but what do you all think will go up or not ? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2xxRVBvWkJVTmNhakVkbEFpaVJsaUJiejdYUlN2TC1mdlVkTUZQcmtrUXh2eE4ydUNXZXlTYmljUHB3VEQ4R3hKMUdNQWF1MzI3WXNUOXdXeFNKNlJ2UlRRNU9Id2R1MmJXUVRVTUdzcDlSRHB2Y01HdHVHWklaTXdlYmQwYllrNVNNeDB5S3hQdk12RUdBSjJ6MnZreHZkMzd3S09nN2oteUNCT2c?oc=5",
-          "published": "Fri, 30 Oct 2026 15:43:19 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Inox Wind, RPower, JP Power, Suzlon, SJVN, IREDA \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902?|Renewable Energy Stocks To Invest - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DOFg4QXQ5TUNQSlBSUmxBMThRRGl6MFZsT0RMbHMxNWN0akZIVUxVYnNqNk91UjZ3TjdWU0FpSmdoaUFWQnY1eVh2TW1mUUlkWElnaHR3?oc=5",
-          "published": "Tue, 03 Nov 2026 15:30:26 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
-          "published": "Thu, 05 Nov 2026 06:05:56 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Jio Platform, Suzlon, RIL, NSE, BSE, Inox Wind, SJVN, Titagarh, Vishal Mega \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNVhGcjA1Y3VpUDViUmJMdGtWakFGOTNnZ2lIcnBJeXQ1Y1paY25mU0N0UGFmTXAyOWFYYUtTZTUxU2hsX3NMZXBvWFZiTWVXUjZSMUV3?oc=5",
-          "published": "Mon, 02 Nov 2026 09:10:43 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
-          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -287,6 +232,53 @@
       "sufficient": false
     },
     {
+      "name": "Suzlon Energy",
+      "mentions": 4,
+      "investor_mentions": 1,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "I have suzlon @50.6 ruppes 2500 shares what should I do with it ? I can hold it for long term but what do you all think will go up or not ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2xxRVBvWkJVTmNhakVkbEFpaVJsaUJiejdYUlN2TC1mdlVkTUZQcmtrUXh2eE4ydUNXZXlTYmljUHB3VEQ4R3hKMUdNQWF1MzI3WXNUOXdXeFNKNlJ2UlRRNU9Id2R1MmJXUVRVTUdzcDlSRHB2Y01HdHVHWklaTXdlYmQwYllrNVNNeDB5S3hQdk12RUdBSjJ6MnZreHZkMzd3S09nN2oteUNCT2c?oc=5",
+          "published": "Fri, 30 Oct 2026 15:43:19 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Inox Wind, RPower, JP Power, Suzlon, SJVN, IREDA \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902?|Renewable Energy Stocks To Invest - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DOFg4QXQ5TUNQSlBSUmxBMThRRGl6MFZsT0RMbHMxNWN0akZIVUxVYnNqNk91UjZ3TjdWU0FpSmdoaUFWQnY1eVh2TW1mUUlkWElnaHR3?oc=5",
+          "published": "Tue, 03 Nov 2026 15:30:26 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Jio Platform, Suzlon, RIL, NSE, BSE, Inox Wind, SJVN, Titagarh, Vishal Mega \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNVhGcjA1Y3VpUDViUmJMdGtWakFGOTNnZ2lIcnBJeXQ1Y1paY25mU0N0UGFmTXAyOWFYYUtTZTUxU2hsX3NMZXBvWFZiTWVXUjZSMUV3?oc=5",
+          "published": "Mon, 02 Nov 2026 09:10:43 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
+          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "HDFC Bank",
       "mentions": 3,
       "investor_mentions": 0,
@@ -327,9 +319,9 @@
     },
     {
       "name": "Bharti Airtel",
-      "mentions": 2,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 2,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -352,35 +344,12 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IREDA",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Inox Wind, RPower, JP Power, Suzlon, SJVN, IREDA \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902?|Renewable Energy Stocks To Invest - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DOFg4QXQ5TUNQSlBSUmxBMThRRGl6MFZsT0RMbHMxNWN0akZIVUxVYnNqNk91UjZ3TjdWU0FpSmdoaUFWQnY1eVh2TW1mUUlkWElnaHR3?oc=5",
-          "published": "Tue, 03 Nov 2026 15:30:26 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         },
         {
-          "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
-          "published": "Thu, 05 Nov 2026 06:05:56 GMT",
-          "subreddit": "youtube",
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -496,6 +465,29 @@
           "title": "Indian Stock Market Today | NIFTY Nears 24,000 | BHEL, Fractal Analytics in Focus | 4 Nov 2026 - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyTXlGT3ZWR3pZS3ZXcWVWOFIxWEtuY1k3MUl3Wk9nY3MySEVVeUx6RlQ1bVNXUU1mQ0VJemdwVmNrdF9rOUk5LTlNRWtsSUNGaUtRUTh3?oc=5",
           "published": "Wed, 04 Nov 2026 12:14:28 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Inox Wind, RPower, JP Power, Suzlon, SJVN, IREDA \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902?|Renewable Energy Stocks To Invest - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DOFg4QXQ5TUNQSlBSUmxBMThRRGl6MFZsT0RMbHMxNWN0akZIVUxVYnNqNk91UjZ3TjdWU0FpSmdoaUFWQnY1eVh2TW1mUUlkWElnaHR3?oc=5",
+          "published": "Tue, 03 Nov 2026 15:30:26 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
