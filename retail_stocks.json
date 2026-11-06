@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T13:10:04.925752+00:00",
+  "collected_at": "2026-11-06T14:23:34.032773+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 650,
+  "posts_collected": 648,
   "source_counts": {
     "tradingqna": 36,
-    "valuepickr": 15,
-    "indexed_reddit": 221,
+    "valuepickr": 14,
+    "indexed_reddit": 222,
     "youtube": 197,
-    "facebook": 95,
+    "facebook": 93,
     "instagram": 86,
-    "total_unique": 650
+    "total_unique": 648
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,11 +37,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 10
+      "recent_items": 9
     },
     "valuepickr_top": {
       "status": "ok",
-      "recent_items": 10
+      "recent_items": 9
     },
     "tradingqna_active": {
       "status": "ok",
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "Reliance Industries",
-      "mentions": 7,
+      "mentions": 6,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -62,14 +62,6 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
-          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
         {
           "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
@@ -83,6 +75,14 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GcHBMRUhRTDNEY1RfS1c5dFNQWk9ja0hxNEJkM0NFeWJwQ1ZDcVVDRDNRNmR5SVdqQW9Xdk0yeTI4aTNJSzI1QTlQNGduNVVPRVlxZkFB?oc=5",
           "published": "Mon, 02 Nov 2026 05:54:23 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
+          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -109,14 +109,6 @@
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\u20b92 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani Breaks a 6-Year Record! \ud83d\udd25 Reliance Industries just made its biggest single-day stock market jump since April 2020! \ud83d\udcc8 On November 2, Reliance shares surged nearly 12%, adding around \u20b91.84 lakh crore to t - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rcXlZZmN4TGpBd2lzOWpZbXZJX2pPTDI5QmZPV3RRU0V4SGFHaDJHbHdteUljSWpneE9MNnV5d3Z4MlN1SldUSHZ2V1VzSE5XY1E?oc=5",
-          "published": "Wed, 04 Nov 2026 14:11:50 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -134,17 +126,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Scan : Tata Motors \u0915\u093e \u0936\u0947\u092f\u0930 \u0926\u094c\u0921\u093c\u093e, \u0905\u0917\u0932\u093e \u0932\u0915\u094d\u0937\u094d\u092f? | Share Bazaar | BIZ Tak - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83YnNOanYxQ3ZpUEtzUjhjTzhWYXpnang4OWlXcHpVTVo5VEl2RFh5MjBjdXRHWkRGNEZ2RjhuLWl0ZHJZNzI0cGxYQ0xjMHlCOW9xN2huR29zbnlVT2dhY1BVWkVjUWNUWk9IMzd3?oc=5",
-          "published": "Thu, 05 Nov 2026 11:13:04 GMT",
+          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
+          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
-          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
+          "title": "Tata Motors PV Share Price | Tata Motors PV \u092e\u0947\u0902 Hold \u0915\u0930\u0947\u0902 \u092f\u093e Sell? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u093e \u0905\u0917\u0932\u093e Outlook | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hUnYwcklyOWFpOEdMN1h0R1RoaXBpVkZZUDlPdGZlNjBJVllxTkZvV19veFFMSXpUX3h2ZXhvczFHMmdBRjVnckRQd29vX0NCdVJRd2Z3?oc=5",
+          "published": "Thu, 05 Nov 2026 09:33:37 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -186,9 +178,9 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 4,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 5,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -205,9 +197,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock In Action: M&M \u092e\u0947\u0902 \u0932\u0917\u093e\u0924\u093e\u0930 \u0924\u0947\u091c\u0940! HDFC Bank, Hyundai \u092e\u0947\u0902 \u0915\u092c \u0916\u0930\u0940\u0926\u0947\u0902? Anil Singhvi \u0915\u0940 Strategy - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90TndQTFBSdkxRVnVBMHptN01ZM0ljNzJKbmljV1psTTc2c2hyaGZjMTNrNjVmU0hwckR1VWFFcWJWaG5PeVFiSm5IbGJMVVVtOGJnQV9n?oc=5",
-          "published": "Fri, 06 Nov 2026 08:58:21 GMT",
+          "title": "GRSE, BEL, HAL, RVNL, JWL, IRFC, Apollo Micro, HDFC Bank, Prime Focus, Mazagon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfY0VfNmQ4U2hkQjZ4azhrS2s4ZnE2R3dJVWJDWjh3b1hjTDdNZHpXR1dPbEZuc3p3THpZTWFiZTI1bFNNVF9rRXpjbW82VjMxQ0pTWHZR?oc=5",
+          "published": "Tue, 03 Nov 2026 09:00:38 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -216,6 +208,14 @@
           "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
           "published": "Tue, 03 Nov 2026 11:24:39 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Muhurat Trading is my favourite stock market tradition. And this year, I've picked 5 businesses that are on my radar for the long term. TCS, Nuvama Wealth, Asian Paints, HDFC Bank and Trent. From AI's impact on IT companies and India's wealth management - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObVE2c3E1b2ZMTS1CdjJLalBXZERGZ2pwWVZuMmRSTHlEODdtTE42ZzRDT3ZhT3BtazZMNVFuQ2phWEIyYl81TV92ekE3LXdnT2stNllESUw0Z1lzZEhSeWNMbF9naXlUWGNZR3FNSEd1bGVYbUllNWcxbkFmdlJNLW5LOXh5WUlkNVVQVU8zOWxScDRhTTNaa1l0UHdLQURDdlNVT3A5VU8tNmhoSDZ3UXdqYUpBRThrQ0Zna19OU18tdjVMRGFxUHVGTmVaOFpkQ2VjRXZhb0sxR0VsVTZ6dmhRem1Bdw?oc=5",
+          "published": "Fri, 06 Nov 2026 13:27:10 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -280,9 +280,9 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 4,
+      "mentions": 3,
       "investor_mentions": 1,
-      "commentary_mentions": 3,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -307,9 +307,32 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Jio Platform, Suzlon, RIL, NSE, BSE, Inox Wind, SJVN, Titagarh, Vishal Mega \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNVhGcjA1Y3VpUDViUmJMdGtWakFGOTNnZ2lIcnBJeXQ1Y1paY25mU0N0UGFmTXAyOWFYYUtTZTUxU2hsX3NMZXBvWFZiTWVXUjZSMUV3?oc=5",
-          "published": "Mon, 02 Nov 2026 09:10:43 GMT",
+          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
+          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IRFC",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IRFC share & MSUMI Share : \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u0947 \u092c\u093e\u0926 Opportunity? | Long-Term Analysis - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XTnR6WEV4TXBjVXhoemlTT0hIYXotS3QzaFJKMS1PbWtveVZReVV5Vlp3VTZlMFg3eHZzX2RkSVl4QWtKZTJKUVhCMFlwUGdoZU0xNHNn?oc=5",
+          "published": "Mon, 02 Nov 2026 12:30:30 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -318,6 +341,14 @@
           "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
           "published": "Mon, 02 Nov 2026 09:00:00 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "GRSE, BEL, HAL, RVNL, JWL, IRFC, Apollo Micro, HDFC Bank, Prime Focus, Mazagon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfY0VfNmQ4U2hkQjZ4azhrS2s4ZnE2R3dJVWJDWjh3b1hjTDdNZHpXR1dPbEZuc3p3THpZTWFiZTI1bFNNVF9rRXpjbW82VjMxQ0pTWHZR?oc=5",
+          "published": "Tue, 03 Nov 2026 09:00:38 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -357,7 +388,7 @@
       "sufficient": false
     },
     {
-      "name": "IRFC",
+      "name": "RVNL",
       "mentions": 2,
       "investor_mentions": 0,
       "commentary_mentions": 2,
@@ -369,17 +400,17 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "IRFC share & MSUMI Share : \u0917\u093f\u0930\u093e\u0935\u091f \u0915\u0947 \u092c\u093e\u0926 Opportunity? | Long-Term Analysis - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XTnR6WEV4TXBjVXhoemlTT0hIYXotS3QzaFJKMS1PbWtveVZReVV5Vlp3VTZlMFg3eHZzX2RkSVl4QWtKZTJKUVhCMFlwUGdoZU0xNHNn?oc=5",
-          "published": "Mon, 02 Nov 2026 12:30:30 GMT",
+          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
+          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
-          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
+          "title": "GRSE, BEL, HAL, RVNL, JWL, IRFC, Apollo Micro, HDFC Bank, Prime Focus, Mazagon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfY0VfNmQ4U2hkQjZ4azhrS2s4ZnE2R3dJVWJDWjh3b1hjTDdNZHpXR1dPbEZuc3p3THpZTWFiZTI1bFNNVF9rRXpjbW82VjMxQ0pTWHZR?oc=5",
+          "published": "Tue, 03 Nov 2026 09:00:38 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -412,37 +443,6 @@
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZFc5VHFLR1h1YW9qd1A0MFMzVXpacFRyWGlvekpYQXBZdG5pNllrRzdETnpQNUJTMzRTNkNwZDd0Nm5wV2xoRW9OQS00V3ZTVGhIT3lNVGo2akRTZm15c0kxa1BlNHNHLV9fUTNWWWdDY2hkczktNlZnMUJqVnJIUWl5cGxpNDJDU2Q1OUlEZFJUMmFaMjN6TXB3eEZxbWFpSC1vM0RZZ1lqcG8yeXhWZzBNeHZCZTFiWVlNVy1Md2JWM0R4SzdaYzFhOUVkSExZ?oc=5",
           "published": "Fri, 06 Nov 2026 04:03:21 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Titagarh Rail",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Platform, Suzlon, RIL, NSE, BSE, Inox Wind, SJVN, Titagarh, Vishal Mega \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNVhGcjA1Y3VpUDViUmJMdGtWakFGOTNnZ2lIcnBJeXQ1Y1paY25mU0N0UGFmTXAyOWFYYUtTZTUxU2hsX3NMZXBvWFZiTWVXUjZSMUV3?oc=5",
-          "published": "Mon, 02 Nov 2026 09:10:43 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
-          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -488,29 +488,6 @@
           "title": "Inox Wind, RPower, JP Power, Suzlon, SJVN, IREDA \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902?|Renewable Energy Stocks To Invest - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DOFg4QXQ5TUNQSlBSUmxBMThRRGl6MFZsT0RMbHMxNWN0akZIVUxVYnNqNk91UjZ3TjdWU0FpSmdoaUFWQnY1eVh2TW1mUUlkWElnaHR3?oc=5",
           "published": "Tue, 03 Nov 2026 15:30:26 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "RVNL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
-          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -695,6 +672,29 @@
           "title": "Stock Market LIVE : Bharti Airtel, Titan, Glenmark Pharma, ONGC, Britannia Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yZDY0UzZuUVlZVFpkQUcxRUNZRmlVQ0IzZzk2UHdpaUFNcHpydlFyWlYxRTRwNEI1Z1FXb09mLVRnSlVHTVUyNXdaR3FsN2VLVWxkdlBR?oc=5",
           "published": "Fri, 06 Nov 2026 02:30:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Titagarh Rail",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "SJVN, RVNL, IRFC, SCI, Cupid, Suzlon, Welspun Liv., Zin Tech., Titagarh Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
+          "published": "Mon, 02 Nov 2026 09:00:00 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
