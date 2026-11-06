@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T12:08:48.800108+00:00",
+  "collected_at": "2026-11-06T13:09:58.051785+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -28,8 +28,8 @@
       "recent": 10
     },
     "nifty_search": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "bank_nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 140,
+  "unique_titles": 207,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 8,
+      "neutral": 20,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Lesson 1 of my free Fibonacci retracement course for MT5: the 5 levels, and why a level is not a signal (NIFTY example)",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xpc59v/lesson_1_of_my_free_fibonacci_retracement_course/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-06T12:57:19+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "INDIA IS THE ONLY MAJOR MARKET IN ASIA THAT'S GREEN TODAY. Japan crashed as much as 7% Korea 8.8% Taiwan 9% . And India's Nifty just hit a 3-month high and is on track for its best week since 2021.In the last 2 weeks: India: +10% Taiwan: -13.8% Korea: -8.8% Japan: -8.4%",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xpadxd/india_is_the_only_major_market_in_asia_thats/",
@@ -109,6 +116,83 @@
           "source": "IndianStockMarket",
           "published": "2026-11-05T19:59:59+00:00",
           "sentiment": "neutral"
+        },
+        {
+          "title": "Does anyone holding Nifty call?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xofwx9/does_anyone_holding_nifty_call/",
+          "source": "nifty_search",
+          "published": "2026-11-05T11:05:25+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Saw the sudden spike which brought nifty to 24684.25 is it true or some glitch?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xoerti/saw_the_sudden_spike_which_brought_nifty_to/",
+          "source": "nifty_search",
+          "published": "2026-11-05T09:55:32+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty has zoomed above 24500 . Temp stop to fall \u2728",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xodsz0/nifty_has_zoomed_above_24500_temp_stop_to_fall/",
+          "source": "nifty_search",
+          "published": "2026-11-05T08:50:41+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Is it better to exit positions and book profits now? What's the probability of Nifty falling tomorrow?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xode2w/is_it_better_to_exit_positions_and_book_profits/",
+          "source": "nifty_search",
+          "published": "2026-11-05T08:22:10+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty @ 24420 +470 points. Happy Dhanteras\u2728\u2728\u2728 & Diwali\u2728\u2728\u2728",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xoc8fd/nifty_24420_470_points_happy_dhanteras_diwali/",
+          "source": "nifty_search",
+          "published": "2026-11-05T07:05:59+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Brent Crude at 94, and Gift NIFTY +400 pts, Happy Diwali !!!!",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnt7pg/brent_crude_at_94_and_gift_nifty_400_pts_happy/",
+          "source": "nifty_search",
+          "published": "2026-11-04T16:50:29+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Can Nifty 50 Open Around 24,200 and Sensex Around 79,500 Tomorrow? \u2013 Let's Discuss!",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnshm4/can_nifty_50_open_around_24200_and_sensex_around/",
+          "source": "nifty_search",
+          "published": "2026-11-04T16:22:44+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty tomorrow",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnrzbr/nifty_tomorrow/",
+          "source": "nifty_search",
+          "published": "2026-11-04T16:02:58+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Gap Ups via Gift Nifty! Is this Sustainable or Manipulated?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnoyrn/gap_ups_via_gift_nifty_is_this_sustainable_or/",
+          "source": "nifty_search",
+          "published": "2026-11-04T14:02:04+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 rally",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnljlr/nifty_50_rally/",
+          "source": "nifty_search",
+          "published": "2026-11-04T11:10:57+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty 50 going Roller Coaster \ud83d\ude2d",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnkhpi/nifty_50_going_roller_coaster/",
+          "source": "nifty_search",
+          "published": "2026-11-04T10:06:43+00:00",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -124,11 +208,26 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Can Nifty 50 Open Around 24,200 and Sensex Around 79,500 Tomorrow? \u2013 Let's Discuss!",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xnshm4/can_nifty_50_open_around_24200_and_sensex_around/",
+          "source": "nifty_search",
+          "published": "2026-11-04T16:22:44+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Sensex Put BTST- My analysis",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xncu15/sensex_put_btst_my_analysis/",
+          "source": "nifty_search",
+          "published": "2026-11-04T02:42:33+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     }
   }
 }
