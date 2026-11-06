@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T16:56:33.747748+00:00",
+  "collected_at": "2026-11-06T17:44:49.425689+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 648,
+  "posts_collected": 658,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 14,
-    "indexed_reddit": 220,
-    "youtube": 196,
+    "indexed_reddit": 229,
+    "youtube": 197,
     "facebook": 95,
     "instagram": 87,
-    "total_unique": 648
+    "total_unique": 658
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -62,6 +62,14 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
+          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
@@ -103,80 +111,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
-          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Reliance Industries Q2 Results: RIL \u0915\u0947 \u0936\u093e\u0928\u0926\u093e\u0930 Q2 \u0928\u0924\u0940\u091c\u0947! \u0936\u0947\u092f\u0930 \u092e\u0947\u0902 \u0924\u0942\u092b\u093e\u0928\u0940 \u0924\u0947\u091c\u0940, \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u094b\u0902 \u0939\u0941\u090f \u0916\u0941\u0936? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GcHBMRUhRTDNEY1RfS1c5dFNQWk9ja0hxNEJkM0NFeWJwQ1ZDcVVDRDNRNmR5SVdqQW9Xdk0yeTI4aTNJSzI1QTlQNGduNVVPRVlxZkFB?oc=5",
           "published": "Mon, 02 Nov 2026 05:54:23 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Motors",
-      "mentions": 6,
-      "investor_mentions": 0,
-      "commentary_mentions": 6,
-      "commentary_bullish": 1,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
-          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors PV Share Price | Tata Motors PV \u092e\u0947\u0902 Hold \u0915\u0930\u0947\u0902 \u092f\u093e Sell? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u093e \u0905\u0917\u0932\u093e Outlook | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hUnYwcklyOWFpOEdMN1h0R1RoaXBpVkZZUDlPdGZlNjBJVllxTkZvV19veFFMSXpUX3h2ZXhvczFHMmdBRjVnckRQd29vX0NCdVJRd2Z3?oc=5",
-          "published": "Thu, 05 Nov 2026 09:33:37 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Big Breaking News Today - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90Zzk2WmhITmhiNThMQ2VvMGlVTHBfWWhBTGVLWHZiZ2xvNUhqTDlzbnlhRVVNaDV3U01CMTJUeDF6RnVncXRSX3ZNa0FHVVNvQ01jNVV3?oc=5",
-          "published": "Tue, 03 Nov 2026 11:13:14 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share News,Kyu Gir Raha Hai,Buy Or Sell ? Analysis |TMCV Share Target 2027 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CM2xPTU85M0V6X1Q1b2dzaWl5WGFoQ3NsQUNtb3hKVERuMmFXSG1PdU90MDZ0MlRFeDhDYlgwZUoyaGczcHJYX0o1RXNXY3FUOGZLVHVB?oc=5",
-          "published": "Sat, 31 Oct 2026 15:58:15 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Strongly Bullish Now - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04TDBYVFc2QUlvaHREX3ZpV3NKMjlqZEcxZVNPTHpNdWs1NHA3V0tObjk0OEVEYk5Rc3prUkFaWFJHVkEzbkxkSUo0UDZXTTF5WFpUOC1R?oc=5",
-          "published": "Wed, 04 Nov 2026 11:13:54 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Monday Target 2/11/2026 | TMPV and TMCV | - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wWURRZzlRM29XY0dPU3phRG04ckxxQ2E4eXdRTlJ5aVU5aVdHaVlFYXRlUkVhTVFCNW4tT2VvN1JnZG9JellSSGZadGhCa05FbVVnUXhB?oc=5",
-          "published": "Sun, 01 Nov 2026 07:00:11 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -232,6 +169,61 @@
           "title": "GRSE, BEL, HAL, RVNL, JWL, IRFC, Apollo Micro, HDFC Bank, Prime Focus, Mazagon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfY0VfNmQ4U2hkQjZ4azhrS2s4ZnE2R3dJVWJDWjh3b1hjTDdNZHpXR1dPbEZuc3p3THpZTWFiZTI1bFNNVF9rRXpjbW82VjMxQ0pTWHZR?oc=5",
           "published": "Tue, 03 Nov 2026 09:00:38 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Tata Motors",
+      "mentions": 5,
+      "investor_mentions": 0,
+      "commentary_mentions": 5,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
+          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Big Breaking News Today - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90Zzk2WmhITmhiNThMQ2VvMGlVTHBfWWhBTGVLWHZiZ2xvNUhqTDlzbnlhRVVNaDV3U01CMTJUeDF6RnVncXRSX3ZNa0FHVVNvQ01jNVV3?oc=5",
+          "published": "Tue, 03 Nov 2026 11:13:14 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share News,Kyu Gir Raha Hai,Buy Or Sell ? Analysis |TMCV Share Target 2027 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CM2xPTU85M0V6X1Q1b2dzaWl5WGFoQ3NsQUNtb3hKVERuMmFXSG1PdU90MDZ0MlRFeDhDYlgwZUoyaGczcHJYX0o1RXNXY3FUOGZLVHVB?oc=5",
+          "published": "Sat, 31 Oct 2026 15:58:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Strongly Bullish Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04TDBYVFc2QUlvaHREX3ZpV3NKMjlqZEcxZVNPTHpNdWs1NHA3V0tObjk0OEVEYk5Rc3prUkFaWFJHVkEzbkxkSUo0UDZXTTF5WFpUOC1R?oc=5",
+          "published": "Wed, 04 Nov 2026 11:13:54 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Monday Target 2/11/2026 | TMPV and TMCV | - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wWURRZzlRM29XY0dPU3phRG04ckxxQ2E4eXdRTlJ5aVU5aVdHaVlFYXRlUkVhTVFCNW4tT2VvN1JnZG9JellSSGZadGhCa05FbVVnUXhB?oc=5",
+          "published": "Sun, 01 Nov 2026 07:00:11 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
