@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T00:07:44.015156+00:00",
+  "collected_at": "2026-11-06T01:11:07.180381+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 649,
+  "posts_collected": 648,
   "source_counts": {
-    "tradingqna": 32,
+    "tradingqna": 31,
     "valuepickr": 17,
-    "indexed_reddit": 231,
+    "indexed_reddit": 229,
     "youtube": 196,
-    "facebook": 92,
-    "instagram": 81,
-    "total_unique": 649
+    "facebook": 93,
+    "instagram": 82,
+    "total_unique": 648
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -139,14 +139,14 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 8,
-      "investor_mentions": 4,
+      "mentions": 7,
+      "investor_mentions": 3,
       "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 3,
       "bullish_pct": null,
       "evidence": [
         {
@@ -169,14 +169,6 @@
           "title": "suzlon investors right now - Reddit",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbzRvdmV0WGNTOGV3N0t0Zzh2MmU1dU5MaWVhZUNkV181YTNjVnA0dVBIVG9Jam1zMjhHQTB3WjBRSVhiSU1vZnlMTzdZTklnOXcyOEZQV0tYTW92cGpodm9QaTd5Tkx5amx0alFuSzBwNUxXem5JdTZrb3RuY3BVNnBrREVFeExiVllWdlRqSQ?oc=5",
           "published": "Fri, 30 Oct 2026 05:56:24 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Bought 10 Suzlon shares... What do yall think of this? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVA4UGdUNHoxdW1FTlJQb1ZzZ1NTNmstM3QwSUNXbGQ1MUxoQkUtMVBJSk9lTkhBYWpkQXRNaDZBbTdVMjBROTgxTEVXaVBtWVU5M0U3bXJxTkFPQ3FCQlRDWnY4SkVma0tFdk1wdUJjR0VEUUN4elozNFQ1MUF2S2p6ekZoRUdSMUVLdXg4UUFibmRZSEk3U1FfV0Vkam1yMUVtZHVJcmhqYWRJUERR?oc=5",
-          "published": "Tue, 03 Nov 2026 08:33:21 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
@@ -211,6 +203,69 @@
           "published": "Mon, 02 Nov 2026 09:10:43 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Tata Motors",
+      "mentions": 6,
+      "investor_mentions": 0,
+      "commentary_mentions": 6,
+      "commentary_bullish": 1,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Scan : Tata Motors \u0915\u093e \u0936\u0947\u092f\u0930 \u0926\u094c\u0921\u093c\u093e, \u0905\u0917\u0932\u093e \u0932\u0915\u094d\u0937\u094d\u092f? | Share Bazaar | BIZ Tak - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83YnNOanYxQ3ZpUEtzUjhjTzhWYXpnang4OWlXcHpVTVo5VEl2RFh5MjBjdXRHWkRGNEZ2RjhuLWl0ZHJZNzI0cGxYQ0xjMHlCOW9xN2huR29zbnlVT2dhY1BVWkVjUWNUWk9IMzd3?oc=5",
+          "published": "Thu, 05 Nov 2026 11:13:04 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
+          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Big Breaking News Today - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KSWJrTVlWeTFvOXA4RlNvSmdaZ0xDVkNHQjVoUnVvbjhYeG14LTBJZGM3eWFKYmtFWC1lLXV4T3N6dzNFcmdYNTItYmh1RlFtZmVoUVpR?oc=5",
+          "published": "Fri, 30 Oct 2026 12:08:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Latest News Today - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vMDl5cjFPUThTclZ3Zm1URTZUM216dXBQRG5Jbm5uV2ljN1RxZGdURVRMR194eFZMRGJZNkw5cVRoX194RkdvRmRydUI2eTVpSDU5U3RB?oc=5",
+          "published": "Mon, 02 Nov 2026 11:35:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share News,Kyu Gir Raha Hai,Buy Or Sell ? Analysis |TMCV Share Target 2027 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CM2xPTU85M0V6X1Q1b2dzaWl5WGFoQ3NsQUNtb3hKVERuMmFXSG1PdU90MDZ0MlRFeDhDYlgwZUoyaGczcHJYX0o1RXNXY3FUOGZLVHVB?oc=5",
+          "published": "Sat, 31 Oct 2026 15:58:15 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Strongly Bullish Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04TDBYVFc2QUlvaHREX3ZpV3NKMjlqZEcxZVNPTHpNdWs1NHA3V0tObjk0OEVEYk5Rc3prUkFaWFJHVkEzbkxkSUo0UDZXTTF5WFpUOC1R?oc=5",
+          "published": "Wed, 04 Nov 2026 11:13:54 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -258,53 +313,6 @@
           "published": "Thu, 05 Nov 2026 06:59:27 GMT",
           "subreddit": "instagram",
           "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Motors",
-      "mentions": 4,
-      "investor_mentions": 0,
-      "commentary_mentions": 4,
-      "commentary_bullish": 1,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
-          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Big Breaking News Today - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KSWJrTVlWeTFvOXA4RlNvSmdaZ0xDVkNHQjVoUnVvbjhYeG14LTBJZGM3eWFKYmtFWC1lLXV4T3N6dzNFcmdYNTItYmh1RlFtZmVoUVpR?oc=5",
-          "published": "Fri, 30 Oct 2026 12:08:06 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share News,Kyu Gir Raha Hai,Buy Or Sell ? Analysis |TMCV Share Target 2027 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CM2xPTU85M0V6X1Q1b2dzaWl5WGFoQ3NsQUNtb3hKVERuMmFXSG1PdU90MDZ0MlRFeDhDYlgwZUoyaGczcHJYX0o1RXNXY3FUOGZLVHVB?oc=5",
-          "published": "Sat, 31 Oct 2026 15:58:15 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Strongly Bullish Now - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04TDBYVFc2QUlvaHREX3ZpV3NKMjlqZEcxZVNPTHpNdWs1NHA3V0tObjk0OEVEYk5Rc3prUkFaWFJHVkEzbkxkSUo0UDZXTTF5WFpUOC1R?oc=5",
-          "published": "Wed, 04 Nov 2026 11:13:54 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -435,29 +443,6 @@
       "sufficient": false
     },
     {
-      "name": "SBI",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "SBIN chart in daily time frame. - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd3AtWUtGdVExQ3VPVy1uNmhSVU52bzJZMS1lbVpzLUlQSE1qWDlHZFk2MS1wVUlsTk9oZkRaX0dEV2JBVWtIdWhJZW1wNDdLdHZTbVpZNkpqSFF3VTdtYTFkd3pkanRMeEtsMFhySHFYeVRlNmZ4ekZGTDV6ZVE3Rjh3dFFtU3hPYXV4Wk1TdXhHTFZiTlE?oc=5",
-          "published": "Thu, 05 Nov 2026 07:44:23 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "BHEL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -499,29 +484,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Zomato / Eternal",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "If anyone has followed Akshat Shrivastava, they would know he used to say \"Aisa to hai nahi ke sirf Zomato grow karega or Swiggy nahi\". - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzRqaWEyaW5JRm40Zjk4cDI2Y0hsUHJqS29ESHpOTlo5cWxjcTZ5YnpKc0hWcGlYdE4xQ0dmUEdqX0tjOXIwRnZBQjNUbTlhQ3R5dlpQbUZnWDRwMlVyV2sxWC1NVjNROEZDUzl0bWw1bXBTU2FfVkxwZzM0a1pPUXh6dkpsa1F0ekEzUkdnTHdrTm1YNVc5WEQtNUtsS21QUUY2dFZObWdBTEU?oc=5",
-          "published": "Fri, 30 Oct 2026 06:46:39 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -711,29 +673,6 @@
       "sufficient": false
     },
     {
-      "name": "HFCL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Share Market LIVE : RIL, MSUMI, Engineers India, IGL, HFCL, Dixon Tech Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FZzJyV0tYQXNwa1dkMjlnS0dEX0V5czRfbGRvZmJRSFdPWHU4V3NfTTM2V0tURnBSaHlkRk5Wc3NfZ29wT0F1UzdDYTNTSVFBOWRpWTdB?oc=5",
-          "published": "Mon, 02 Nov 2026 06:20:37 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Titagarh Rail",
       "mentions": 1,
       "investor_mentions": 0,
@@ -757,26 +696,17 @@
       "sufficient": false
     },
     {
-      "name": "BSE Ltd",
-      "mentions": 1,
+      "name": "SBI",
+      "mentions": 0,
       "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
       "neutral": 0,
       "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Top Stocks Of The Day: BSE Stock Result | Apollo Hospital Q2 | urobindo Pharma Result | Stock to Buy #stockmarketindia #stocksinnews - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTnZzNnFlQXJ1enRCajFfaGpfdmZTNVBFQmZYM2xEd2NzRWVFNHlHODdNWnpMdW9Qc2F1ckMyWWdZRkZoakZ2WUR4dzktbVE4SWt1RVdfaWEtRmxPY1dtdjl0V1RRcUR0d2ozaXpYN3VNZ1Nkdm9hdHVaTXJoV1NGTjFYc2RMOEZWU0d2V2lCc2ZwWlRBb3NMcHY0WlliQzd5ZEN5cVcyZTJzc1hhUDJaclEyV3haZVhFampSSloycl9DcGVndEVRbjVmWUUxektiLTZiRFVn?oc=5",
-          "published": "Thu, 05 Nov 2026 07:23:50 GMT",
-          "subreddit": "facebook",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
-        }
-      ],
+      "evidence": [],
       "sufficient": false
     },
     {
@@ -851,6 +781,20 @@
     },
     {
       "name": "RVNL",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Zomato / Eternal",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1144,7 +1088,35 @@
       "sufficient": false
     },
     {
+      "name": "HFCL",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "RailTel",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "BSE Ltd",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
