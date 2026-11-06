@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T05:56:51.713716+00:00",
+  "collected_at": "2026-11-06T07:04:13.920823+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 650,
+  "posts_collected": 645,
   "source_counts": {
     "tradingqna": 31,
-    "valuepickr": 16,
+    "valuepickr": 15,
     "indexed_reddit": 224,
-    "youtube": 198,
-    "facebook": 96,
-    "instagram": 85,
-    "total_unique": 650
+    "youtube": 195,
+    "facebook": 93,
+    "instagram": 87,
+    "total_unique": 645
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -123,9 +123,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 6,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
+      "commentary_mentions": 5,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -133,14 +133,6 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "Stock Scan : Tata Motors \u0915\u093e \u0936\u0947\u092f\u0930 \u0926\u094c\u0921\u093c\u093e, \u0905\u0917\u0932\u093e \u0932\u0915\u094d\u0937\u094d\u092f? | Share Bazaar | BIZ Tak - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83YnNOanYxQ3ZpUEtzUjhjTzhWYXpnang4OWlXcHpVTVo5VEl2RFh5MjBjdXRHWkRGNEZ2RjhuLWl0ZHJZNzI0cGxYQ0xjMHlCOW9xN2huR29zbnlVT2dhY1BVWkVjUWNUWk9IMzd3?oc=5",
-          "published": "Thu, 05 Nov 2026 11:13:04 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
         {
           "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
@@ -185,10 +177,65 @@
       "sufficient": false
     },
     {
-      "name": "Suzlon Energy",
-      "mentions": 6,
+      "name": "Bharti Airtel",
+      "mentions": 5,
       "investor_mentions": 1,
-      "commentary_mentions": 5,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
+          "published": "Fri, 06 Nov 2026 01:30:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Opinion on Bharti Airtel Q2 Result? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYk9KMlFqRnZjOXhYeW1CX0FYbV8tVHNSTUVRUVdaX2ZJdlBfSk5CdmpwYWdweUthbTVSd0FnQzZDelhfQ25wY0dYSS1zQXNWUG5CVUYxUzQ3QmwyaktUMGhSRXBLc21qTzVDdUpVMGV3MmNDME9HRUZTQlFmLUEzUDZyWHZfY0Q1cVlueU1hRHp0NDNIODRyNThqUQ?oc=5",
+          "published": "Thu, 05 Nov 2026 13:17:46 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Several stocks, including Bharti Airtel, Life Insurance Corporation of India (LIC), Titan Company, ONGC, Bharti Hexacom, Glenmark Pharmaceuticals and Astral, are likely to remain in focus on Friday, November 6, as investors track September-quarter earnings - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUktBTmEzaS1uXzRaVVl0WThxeTJNWE1Va183S3VTVlpPbElyTGltRTlFNU83X0ZJODAyTXhVQm1CMDhsaVJmMHp3OTNLVjdEczNOMWNWU2QwTnpNekg1M2ZBUkZNMXJtWEFKTlNfdllPRHpJal9mLVBLdVFNbkVuMVIzSGRtelluY21QRkpIdmZWRUlxbFpHOTM5YzZ6ZHQtLTVFVFpHbVlLZlU5blV0THBlbVIyQVRoTjVWMXMxckhPNHJ4YThuVVBzc2xjY3FibS1fWEF3?oc=5",
+          "published": "Fri, 06 Nov 2026 02:42:43 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market LIVE : Bharti Airtel, Titan, Glenmark Pharma, ONGC, Britannia Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yZDY0UzZuUVlZVFpkQUcxRUNZRmlVQ0IzZzk2UHdpaUFNcHpydlFyWlYxRTRwNEI1Z1FXb09mLVRnSlVHTVUyNXdaR3FsN2VLVWxkdlBR?oc=5",
+          "published": "Fri, 06 Nov 2026 02:30:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 5,
+      "investor_mentions": 1,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -208,14 +255,6 @@
           "title": "Inox Wind, RPower, JP Power, Suzlon, SJVN, IREDA \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902?|Renewable Energy Stocks To Invest - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DOFg4QXQ5TUNQSlBSUmxBMThRRGl6MFZsT0RMbHMxNWN0akZIVUxVYnNqNk91UjZ3TjdWU0FpSmdoaUFWQnY1eVh2TW1mUUlkWElnaHR3?oc=5",
           "published": "Tue, 03 Nov 2026 15:30:26 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
-          "published": "Tue, 03 Nov 2026 02:30:45 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -241,61 +280,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZFI0QWc5S3I5RVhZcDFzTlBrNk5mdld1R01wYjRBZkFRLXhidE1LTTBnZ3RsRG1IbW1WQUlEQmltbXBTbXhReUI4bDNXN01fSldJSjRR?oc=5",
           "published": "Mon, 02 Nov 2026 09:00:00 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Bharti Airtel",
-      "mentions": 5,
-      "investor_mentions": 1,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Opinion on Bharti Airtel Q2 Result? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYk9KMlFqRnZjOXhYeW1CX0FYbV8tVHNSTUVRUVdaX2ZJdlBfSk5CdmpwYWdweUthbTVSd0FnQzZDelhfQ25wY0dYSS1zQXNWUG5CVUYxUzQ3QmwyaktUMGhSRXBLc21qTzVDdUpVMGV3MmNDME9HRUZTQlFmLUEzUDZyWHZfY0Q1cVlueU1hRHp0NDNIODRyNThqUQ?oc=5",
-          "published": "Thu, 05 Nov 2026 13:17:46 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
-          "published": "Fri, 06 Nov 2026 01:30:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Several stocks, including Bharti Airtel, Life Insurance Corporation of India (LIC), Titan Company, ONGC, Bharti Hexacom, Glenmark Pharmaceuticals and Astral, are likely to remain in focus on Friday, November 6, as investors track September-quarter earnings - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUktBTmEzaS1uXzRaVVl0WThxeTJNWE1Va183S3VTVlpPbElyTGltRTlFNU83X0ZJODAyTXhVQm1CMDhsaVJmMHp3OTNLVjdEczNOMWNWU2QwTnpNekg1M2ZBUkZNMXJtWEFKTlNfdllPRHpJal9mLVBLdVFNbkVuMVIzSGRtelluY21QRkpIdmZWRUlxbFpHOTM5YzZ6ZHQtLTVFVFpHbVlLZlU5blV0THBlbVIyQVRoTjVWMXMxckhPNHJ4YThuVVBzc2xjY3FibS1fWEF3?oc=5",
-          "published": "Fri, 06 Nov 2026 02:42:43 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Bharti Airtel Q2 Results Analysis | Bharti Airtel Q2 Update Today | Bharti Airtel Q2 Results Today | Airtel Share Latest News | Stock Market Only bharti airtel q2 results, bharti airtel q2 results analysis, bharti airtel q2 update today, bharti airtel q2 results today, airt - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdHhEM3dzQ0p5c2Z3SW4tX2NORUJGOWYwaVBvUG5SZ1pTWWlHcUR3MVBValZLM19Pa0F1TTI3QmI2STVaOTA5MGhWZUpMUlB2dHNEYTRaNTlselJHUzVfTVZrUU1jOXdidTJLZ1hMOTI4Zjc1LVJickN2dDZLaFpqenZLaGIxMGZkSEVaWEsyMVFRUFMzM2VzQlhYcjMwOHdxZTJJNldMOHplazktUnA3X285NFpqWkc3cU1aeWlsdXVuQ09VUWpwRG5uY0xQR3hJWU9SX1FrQ3dqdnQ0RnlJ?oc=5",
-          "published": "Thu, 05 Nov 2026 13:05:28 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
-          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -389,6 +373,45 @@
       "sufficient": false
     },
     {
+      "name": "ONGC",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Several stocks, including Bharti Airtel, Life Insurance Corporation of India (LIC), Titan Company, ONGC, Bharti Hexacom, Glenmark Pharmaceuticals and Astral, are likely to remain in focus on Friday, November 6, as investors track September-quarter earnings - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUktBTmEzaS1uXzRaVVl0WThxeTJNWE1Va183S3VTVlpPbElyTGltRTlFNU83X0ZJODAyTXhVQm1CMDhsaVJmMHp3OTNLVjdEczNOMWNWU2QwTnpNekg1M2ZBUkZNMXJtWEFKTlNfdllPRHpJal9mLVBLdVFNbkVuMVIzSGRtelluY21QRkpIdmZWRUlxbFpHOTM5YzZ6ZHQtLTVFVFpHbVlLZlU5blV0THBlbVIyQVRoTjVWMXMxckhPNHJ4YThuVVBzc2xjY3FibS1fWEF3?oc=5",
+          "published": "Fri, 06 Nov 2026 02:42:43 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udcb0 10 Dividend-Paying Stocks Worth Studying! \ud83d\udcc8 Looking for companies that reward shareholders through dividends? \ud83d\udc40 Here are 10 Indian stocks worth adding to your research watchlist: 1\ufe0f\u20e3 ONGC 2\ufe0f\u20e3 Oracle Financial Services 3\ufe0f\u20e3 Vedanta 4\ufe0f\u20e3 Ksolves I - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BTlMwR2NIZEtJamZYdzlXOVktZU0xUkNmY3hrcDJfQkdkSU9vZUV2ZXdtUG15WC16Mm9aOG5mWkV3Q29KRUNDdzJvWmJ5NjNMOEE?oc=5",
+          "published": "Wed, 04 Nov 2026 03:48:12 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market LIVE : Bharti Airtel, Titan, Glenmark Pharma, ONGC, Britannia Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yZDY0UzZuUVlZVFpkQUcxRUNZRmlVQ0IzZzk2UHdpaUFNcHpydlFyWlYxRTRwNEI1Z1FXb09mLVRnSlVHTVUyNXdaR3FsN2VLVWxkdlBR?oc=5",
+          "published": "Fri, 06 Nov 2026 02:30:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IREDA",
       "mentions": 2,
       "investor_mentions": 0,
@@ -475,37 +498,6 @@
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZFc5VHFLR1h1YW9qd1A0MFMzVXpacFRyWGlvekpYQXBZdG5pNllrRzdETnpQNUJTMzRTNkNwZDd0Nm5wV2xoRW9OQS00V3ZTVGhIT3lNVGo2akRTZm15c0kxa1BlNHNHLV9fUTNWWWdDY2hkczktNlZnMUJqVnJIUWl5cGxpNDJDU2Q1OUlEZFJUMmFaMjN6TXB3eEZxbWFpSC1vM0RZZ1lqcG8yeXhWZzBNeHZCZTFiWVlNVy1Md2JWM0R4SzdaYzFhOUVkSExZ?oc=5",
           "published": "Fri, 06 Nov 2026 04:03:21 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ONGC",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Several stocks, including Bharti Airtel, Life Insurance Corporation of India (LIC), Titan Company, ONGC, Bharti Hexacom, Glenmark Pharmaceuticals and Astral, are likely to remain in focus on Friday, November 6, as investors track September-quarter earnings - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUktBTmEzaS1uXzRaVVl0WThxeTJNWE1Va183S3VTVlpPbElyTGltRTlFNU83X0ZJODAyTXhVQm1CMDhsaVJmMHp3OTNLVjdEczNOMWNWU2QwTnpNekg1M2ZBUkZNMXJtWEFKTlNfdllPRHpJal9mLVBLdVFNbkVuMVIzSGRtelluY21QRkpIdmZWRUlxbFpHOTM5YzZ6ZHQtLTVFVFpHbVlLZlU5blV0THBlbVIyQVRoTjVWMXMxckhPNHJ4YThuVVBzc2xjY3FibS1fWEF3?oc=5",
-          "published": "Fri, 06 Nov 2026 02:42:43 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\udcb0 10 Dividend-Paying Stocks Worth Studying! \ud83d\udcc8 Looking for companies that reward shareholders through dividends? \ud83d\udc40 Here are 10 Indian stocks worth adding to your research watchlist: 1\ufe0f\u20e3 ONGC 2\ufe0f\u20e3 Oracle Financial Services 3\ufe0f\u20e3 Vedanta 4\ufe0f\u20e3 Ksolves I - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BTlMwR2NIZEtJamZYdzlXOVktZU0xUkNmY3hrcDJfQkdkSU9vZUV2ZXdtUG15WC16Mm9aOG5mWkV3Q29KRUNDdzJvWmJ5NjNMOEE?oc=5",
-          "published": "Wed, 04 Nov 2026 03:48:12 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -662,29 +654,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Vodafone Idea",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
-          "published": "Tue, 03 Nov 2026 02:30:45 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -1015,6 +984,20 @@
     },
     {
       "name": "Paytm",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Vodafone Idea",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
