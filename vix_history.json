@@ -2054,9 +2054,22 @@
           "sensex": 80504.7,
           "nifty_as_of": "2026-11-06T09:20:55+00:00",
           "sensex_as_of": "2026-11-06T09:05:55+00:00"
+        },
+        {
+          "collected_at": "2026-11-06T15:56:14.490478+05:30",
+          "vix": 17.46,
+          "vix_as_of": "2026-11-06T10:13:34+00:00",
+          "nifty": 25030.35,
+          "sensex": 81028.02,
+          "nifty_as_of": "2026-11-06T10:01:22+00:00",
+          "sensex_as_of": "2026-11-06T10:02:33+00:00"
         }
       ],
-      "previous_vix_close_reported": 15.19
+      "previous_vix_close_reported": 15.19,
+      "closing_session_vix_observed": {
+        "value": 17.46,
+        "as_of": "2026-11-06T10:13:34+00:00"
+      }
     }
   }
 }
