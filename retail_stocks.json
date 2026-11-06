@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T22:36:59.899142+00:00",
+  "collected_at": "2026-11-06T23:18:54.779355+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -16,19 +16,19 @@
   "source_errors": [
     "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests",
+    "HTTPError: HTTP Error 429: Too Many Requests",
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 686,
+  "posts_collected": 666,
   "source_counts": {
-    "IndianStreetBets": 100,
     "tradingqna": 36,
-    "valuepickr": 13,
-    "indexed_reddit": 165,
-    "youtube": 193,
+    "valuepickr": 12,
+    "indexed_reddit": 245,
+    "youtube": 194,
     "instagram": 98,
     "facebook": 81,
-    "total_unique": 686
+    "total_unique": 666
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -272,6 +272,53 @@
       "sufficient": false
     },
     {
+      "name": "Suzlon Energy",
+      "mentions": 4,
+      "investor_mentions": 0,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
+          "published": "Thu, 05 Nov 2026 06:05:56 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon Share Price Target: \u0930\u0947\u0935\u0947\u0928\u094d\u092f\u0942 \u092e\u0947\u0902 26% \u0915\u0940 \u092c\u0922\u093c\u094b\u0924\u0930\u0940, \u092c\u094d\u0930\u094b\u0915\u0930\u0947\u091c \u0928\u0947 \u0926\u093f\u092f\u093e \u20b968 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f|Stocks To Buy - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kT3dJYS1FQmNsZHR2QjlGdy1xaW5na1JYdElrQjdkRnA1Vl9mdHBNYm1Bb3NLSHJHUVlXMkhlVURrRHZtV2tlSWtQMkdSWEotYmQyWllR?oc=5",
+          "published": "Tue, 03 Nov 2026 09:20:29 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "NSE, Suzlon, GROWW, BSE, CDSL, JSW Infra, Cupid, MCX, Ashok Ley., SCI, GMR Air Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtLW5tbXpja1lsQ0dWdDAtcjJhbER4NTBheTBvS2JzQU9MbGpKR2NpMkNPeWNaaGlRZmw2ZF80OW9DUE1GME1ZTFZBOTliMkJXMU13YlNn?oc=5",
+          "published": "Tue, 03 Nov 2026 06:21:45 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
+          "published": "Fri, 06 Nov 2026 14:30:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "ICICI Bank",
       "mentions": 3,
       "investor_mentions": 1,
@@ -284,10 +331,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Does ICICI Bank has the most potential for growth among all Banking shares as of now?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xl5us5/does_icici_bank_has_the_most_potential_for_growth/",
-          "published": "2026-11-01T15:27:13+00:00",
-          "subreddit": "IndianStreetBets",
+          "title": "Does ICICI Bank has the most potential for growth among all Banking shares as of now? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjlnandyeVVkZW4tOUhtS0NjYnNTdDBrY1pqam9zekF6UWF6VnAydEl0ZkZPOXJScnhuSDZpRkl5N2ZTVlNxTkJqeWxHaTZ3VGotM0tBV2pza1dJd0g4ZUhpeGgzSHVuWjY5ZndaY2VOb1l5NXhzQmZnNVBUU0hFZzJhTk5zVEs0c3RCVWtqZ0ZMaWpXcW1seUtRSUwzZ00wREJ0TUZjYUdpbUMxdnc?oc=5",
+          "published": "Sun, 01 Nov 2026 15:27:13 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         },
@@ -350,45 +397,6 @@
       "sufficient": false
     },
     {
-      "name": "Suzlon Energy",
-      "mentions": 3,
-      "investor_mentions": 0,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
-          "published": "Thu, 05 Nov 2026 06:05:56 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon Share Price Target: \u0930\u0947\u0935\u0947\u0928\u094d\u092f\u0942 \u092e\u0947\u0902 26% \u0915\u0940 \u092c\u0922\u093c\u094b\u0924\u0930\u0940, \u092c\u094d\u0930\u094b\u0915\u0930\u0947\u091c \u0928\u0947 \u0926\u093f\u092f\u093e \u20b968 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f|Stocks To Buy - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kT3dJYS1FQmNsZHR2QjlGdy1xaW5na1JYdElrQjdkRnA1Vl9mdHBNYm1Bb3NLSHJHUVlXMkhlVURrRHZtV2tlSWtQMkdSWEotYmQyWllR?oc=5",
-          "published": "Tue, 03 Nov 2026 09:20:29 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
-          "published": "Fri, 06 Nov 2026 14:30:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "IREDA",
       "mentions": 2,
       "investor_mentions": 0,
@@ -412,6 +420,68 @@
           "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
           "published": "Fri, 06 Nov 2026 14:30:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Waaree Energies",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Indosolar is being merged with Waaree Energies - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT09CQ21paU1KT0VkREFGU3NQTUJsVkw0T2RpZEdfRWxmX19TVURtUFkyZk82c0poY01OOFF4TXNIU1BHVEJ4bll4RWhabk9WZjNNdjdJS0locTlqOVNfNzJHUEh3WVVMeklJWXl0bFVsNzQwNWdFQlBDV1pGMVFxMF9FNERlc1VGeWFxT3g1QTR4Vkt3cnlvVzBnQXhjelh6Z3V2YzlXUGtjcDg?oc=5",
+          "published": "Fri, 06 Nov 2026 06:46:24 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Tata Power, Adani Energy \u0914\u0930 Waaree Energies \u0915\u0947 \u0932\u093f\u090f \u092c\u0921\u093c\u093e Trigger! Solar Stocks \u092e\u0947\u0902 \u0906\u090f\u0917\u0940 \u0924\u0947\u091c\u0940? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40bXpUUFNoM1lXc09CcVZkNDFNWWNDSEhrd0ZieXVKNU4yYklySXdjWldBeWUzZWZOSGdRVGo0azk5azgyZllydVZ1MTFIY2ZYeHhzWm53?oc=5",
+          "published": "Mon, 02 Nov 2026 09:18:46 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Kotak Bank",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "NSE, BSE, Bosch, Ceigall, Kotak Bank, Reliance Ind, ITC, MCX, JSW Steel Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qNi1ZbGxzRnlMbDMwRXJaTXFZZWo2RjBlYTVDNEtMTEZhWTlUVkNqRjh0NVdJc0R4Tm5WVVlnYmxuRGM1TXdKOXpTSWpEcXBvUlBNUHFn?oc=5",
+          "published": "Wed, 04 Nov 2026 03:53:11 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, SBI, Kotak Bank, BEL, FCL, HAL, Infosys Share | Stock Market News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XRTdpbkM2Y3JXcC1tNk9ZOENmUExqLUhLcmRWWXF3YlJNcWxSQmlZNS05V1pHc0czcnpnNUVlWnNKb1k5bGJPNklyRjVxSmFGc1MxQ0dn?oc=5",
+          "published": "Wed, 04 Nov 2026 14:00:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -445,6 +515,37 @@
           "published": "Thu, 05 Nov 2026 03:00:31 GMT",
           "subreddit": "youtube",
           "sentiment": "bearish",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "CDSL",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Hacking - What If CDSL, NSDL or Our Stock Broker Gets Hacked? Are Our Shares Really Safe?",
+          "url": "https://tradingqna.com/t/hacking-what-if-cdsl-nsdl-or-our-stock-broker-gets-hacked-are-our-shares-really-safe/199215",
+          "published": "Sun, 01 Nov 2026 12:40:50 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "NSE, Suzlon, GROWW, BSE, CDSL, JSW Infra, Cupid, MCX, Ashok Ley., SCI, GMR Air Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtLW5tbXpja1lsQ0dWdDAtcjJhbER4NTBheTBvS2JzQU9MbGpKR2NpMkNPeWNaaGlRZmw2ZF80OW9DUE1GME1ZTFZBOTliMkJXMU13YlNn?oc=5",
+          "published": "Tue, 03 Nov 2026 06:21:45 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
       ],
@@ -512,52 +613,6 @@
           "title": "GRSE, BEL, HAL, RVNL, JWL, IRFC, Apollo Micro, HDFC Bank, Prime Focus, Mazagon Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfY0VfNmQ4U2hkQjZ4azhrS2s4ZnE2R3dJVWJDWjh3b1hjTDdNZHpXR1dPbEZuc3p3THpZTWFiZTI1bFNNVF9rRXpjbW82VjMxQ0pTWHZR?oc=5",
           "published": "Tue, 03 Nov 2026 09:00:38 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Waaree Energies",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Tata Power, Adani Energy \u0914\u0930 Waaree Energies \u0915\u0947 \u0932\u093f\u090f \u092c\u0921\u093c\u093e Trigger! Solar Stocks \u092e\u0947\u0902 \u0906\u090f\u0917\u0940 \u0924\u0947\u091c\u0940? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40bXpUUFNoM1lXc09CcVZkNDFNWWNDSEhrd0ZieXVKNU4yYklySXdjWldBeWUzZWZOSGdRVGo0azk5azgyZllydVZ1MTFIY2ZYeHhzWm53?oc=5",
-          "published": "Mon, 02 Nov 2026 09:18:46 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Jio Financial",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Financial Services Share News,Buy Or Not? Future Analysis | Jio Finance Share Target 2030 - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BXzVBVUUwcThheURKV1pYNE9abVRnZmNWRXFGaHZoTW8wdGhGMzczTzdsQWRocm9RdnlEME1lMHhxaUxpVjhobmV5Rkowa1EzNU8xMldB?oc=5",
-          "published": "Tue, 03 Nov 2026 15:38:35 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -693,35 +748,12 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Adani Ports and Special Economic Zone Limited agrees to acquire 100% of Evos B.V., Europe\u2019s 2nd largest independent liquid storage operator, at an enterprise value of \u20ac2.56 bn",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xof8rx/adani_ports_and_special_economic_zone_limited/",
-          "published": "2026-11-05T10:24:34+00:00",
-          "subreddit": "IndianStreetBets",
+          "title": "Adani Ports and Special Economic Zone Limited agrees to acquire 100% of Evos B.V., Europe\u2019s 2nd largest independent liquid storage operator, at an enterprise value of \u20ac2.56 bn - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTUJkbmlwSmpmeTBrdmFxWFZDWEFLcnlzQW5rUFdhUXRXdXZ5emFjQS1YTE8yU0kxeUpjTk5peng3S3pwRGVPVVRCOUNBaGhKN3prdk0wQ2kzeGpMNlFwbUZteUZCQThIZk45d0lfTHZ5ZjEtcGtXRV93cUh4U2twcERkMnZ5cVp6UXVVRnh0akNVZThaUFptWHBoZFFzTTlrZ2RZTEZXYmg?oc=5",
+          "published": "Thu, 05 Nov 2026 10:24:34 GMT",
+          "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Kotak Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Reliance Industries, HDFC Bank, SBI, Kotak Bank, BEL, FCL, HAL, Infosys Share | Stock Market News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XRTdpbkM2Y3JXcC1tNk9ZOENmUExqLUhLcmRWWXF3YlJNcWxSQmlZNS05V1pHc0czcnpnNUVlWnNKb1k5bGJPNklyRjVxSmFGc1MxQ0dn?oc=5",
-          "published": "Wed, 04 Nov 2026 14:00:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -745,29 +777,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "CDSL",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Hacking - What If CDSL, NSDL or Our Stock Broker Gets Hacked? Are Our Shares Really Safe?",
-          "url": "https://tradingqna.com/t/hacking-what-if-cdsl-nsdl-or-our-stock-broker-gets-hacked-are-our-shares-really-safe/199215",
-          "published": "Sun, 01 Nov 2026 12:40:50 +0000",
-          "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -890,6 +899,20 @@
     },
     {
       "name": "Zomato / Eternal",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Jio Financial",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
