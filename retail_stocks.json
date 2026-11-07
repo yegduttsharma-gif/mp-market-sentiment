@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T02:31:48.487643+00:00",
+  "collected_at": "2026-11-07T03:23:11.378253+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 667,
+  "posts_collected": 665,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 12,
-    "indexed_reddit": 241,
+    "indexed_reddit": 240,
     "youtube": 195,
-    "instagram": 99,
-    "facebook": 84,
-    "total_unique": 667
+    "facebook": 93,
+    "instagram": 89,
+    "total_unique": 665
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,11 +37,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 9
+      "recent_items": 8
     },
     "valuepickr_top": {
       "status": "ok",
-      "recent_items": 9
+      "recent_items": 8
     },
     "tradingqna_active": {
       "status": "ok",
@@ -68,6 +68,22 @@
           "published": "Tue, 03 Nov 2026 09:58:25 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
+          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Picks: Brokerages see up to 80% upside in 10 stocks, including Fusion Finance, Brigade Enterprises, Dalmia Bharat and Reliance Industries. Check target prices and key risks. - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONTdBZE1EVE9GWjZxdDl3S3ZaZTdwSDc3alBjYi1RX3l3bEYxZGlOLTRRdHktTkhaRFZxcUM1Z0I0OG5tc2RjRkxkM21nUDZnbjBPTzc5Y2VUNk9nanBxN0drNFM4dURNUDJOTXlvR3lTZ21HbXhSUFBXSjZzOVhSX2pweXNvQ3I1LUpQRmZuWlkxWnMwZ3N0ZVlnNTNKV253SGdsTndLcU5WY05tbTB2d0dlN2p4ekFySEcwdU1tVnU4aHVUQzBIbUppWmxLTTNjOFRKZDZvTlZpWUJPQWJibmU5OA?oc=5",
+          "published": "Sat, 07 Nov 2026 01:50:36 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         },
         {
@@ -117,22 +133,6 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
-          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Picks: Brokerages see up to 80% upside in 10 stocks, including Fusion Finance, Brigade Enterprises, Dalmia Bharat and Reliance Industries. Check target prices and key risks. - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONTdBZE1EVE9GWjZxdDl3S3ZaZTdwSDc3alBjYi1RX3l3bEYxZGlOLTRRdHktTkhaRFZxcUM1Z0I0OG5tc2RjRkxkM21nUDZnbjBPTzc5Y2VUNk9nanBxN0drNFM4dURNUDJOTXlvR3lTZ21HbXhSUFBXSjZzOVhSX2pweXNvQ3I1LUpQRmZuWlkxWnMwZ3N0ZVlnNTNKV253SGdsTndLcU5WY05tbTB2d0dlN2p4ekFySEcwdU1tVnU4aHVUQzBIbUppWmxLTTNjOFRKZDZvTlZpWUJPQWJibmU5OA?oc=5",
-          "published": "Sat, 07 Nov 2026 01:50:36 GMT",
-          "subreddit": "facebook",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -166,30 +166,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
-          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, SBI, Kotak Bank, BEL, FCL, HAL, Infosys Share | Stock Market News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XRTdpbkM2Y3JXcC1tNk9ZOENmUExqLUhLcmRWWXF3YlJNcWxSQmlZNS05V1pHc0czcnpnNUVlWnNKb1k5bGJPNklyRjVxSmFGc1MxQ0dn?oc=5",
-          "published": "Wed, 04 Nov 2026 14:00:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
-          "published": "Fri, 06 Nov 2026 14:30:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
           "published": "Tue, 03 Nov 2026 11:24:39 GMT",
@@ -212,16 +188,40 @@
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
+          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, SBI, Kotak Bank, BEL, FCL, HAL, Infosys Share | Stock Market News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XRTdpbkM2Y3JXcC1tNk9ZOENmUExqLUhLcmRWWXF3YlJNcWxSQmlZNS05V1pHc0czcnpnNUVlWnNKb1k5bGJPNklyRjVxSmFGc1MxQ0dn?oc=5",
+          "published": "Wed, 04 Nov 2026 14:00:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
+          "published": "Fri, 06 Nov 2026 14:30:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 6,
+      "mentions": 7,
       "investor_mentions": 0,
-      "commentary_mentions": 6,
-      "commentary_bullish": 0,
+      "commentary_mentions": 7,
+      "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -229,9 +229,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
-          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
+          "title": "Brokerage Report:Tata Motors Lenskart \u0aaa\u0ab0 \u0ab6\u0ac1\u0a82 \u0a9b\u0ac7 Brokerage View?| Brokerage Report on indian stocks - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rbHdZeTEtUXBiR2J1UUJ1Ny1YazRiNWc3RnhRLVQwWWg2UlBWQWY1M0RyZ1lscWdMM25XT3ZoUGV1cjQ1cjZYcHg5MUZEcDFJWXI5Wm93?oc=5",
+          "published": "Thu, 05 Nov 2026 03:52:06 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -245,11 +245,19 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Brokerage Report:Tata Motors Lenskart \u0aaa\u0ab0 \u0ab6\u0ac1\u0a82 \u0a9b\u0ac7 Brokerage View?| Brokerage Report on indian stocks - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rbHdZeTEtUXBiR2J1UUJ1Ny1YazRiNWc3RnhRLVQwWWg2UlBWQWY1M0RyZ1lscWdMM25XT3ZoUGV1cjQ1cjZYcHg5MUZEcDFJWXI5Wm93?oc=5",
-          "published": "Thu, 05 Nov 2026 03:52:06 GMT",
+          "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
+          "published": "Tue, 03 Nov 2026 07:47:27 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors Share Strongly Bullish Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04TDBYVFc2QUlvaHREX3ZpV3NKMjlqZEcxZVNPTHpNdWs1NHA3V0tObjk0OEVEYk5Rc3prUkFaWFJHVkEzbkxkSUo0UDZXTTF5WFpUOC1R?oc=5",
+          "published": "Wed, 04 Nov 2026 11:13:54 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bullish",
           "evidence_type": "market_commentary"
         },
         {
@@ -292,20 +300,20 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
-          "published": "Fri, 06 Nov 2026 01:30:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Bharti airtel - Reddit",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BYW5rYlpuUjZ0QnRwUE1iZm1WR0w3emhrb3gyUzJ1ZmU1SmlKb29VWUZqeU44SXVKZ01yTkV5bGEySVk2bkdPMng0VWtrR1FzZDdxbkhoS2dYcm44aGlTSnVmVjVsSG5pN0tPdE1EeEthOHFZNk8tZUtzWkVtaFU?oc=5",
           "published": "Fri, 06 Nov 2026 07:39:52 GMT",
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
+          "published": "Fri, 06 Nov 2026 01:30:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         },
         {
           "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
@@ -371,9 +379,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "#ClosingBell: Bulls ring in festive cheer as #Sensex zooms 1,718 pts, #Nifty reclaims 25K; ICICI Bank jumps 5%, Titan 3% https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-hcl-tech-ada - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc19wRGppNDNzeERDM0xEX0lXMXV2RTRzMWMxNjA1OE1RclltOWdxZWdiZFlYY1JSazRMbFJmeERiNkpIWXdLZHEybFpubEFkc2hnVnJqYV9nVDNhajNDVUdyZ1NPNVdnTzR0ZS1aRU9ObHJWYU9XZlhsVjFtQVp4T2lZSk1SYzBqa20yX2R1OFIxTXhKTlNSamhWeXFsaHVfakQ3SkZwd3AzMDhINW91Y1RvT1JpOEVEcnR0YWczeS1tWEtFOUFaaDJmbHhKVkY4ZlBSM1FB?oc=5",
-          "published": "Fri, 06 Nov 2026 10:05:48 GMT",
+          "title": "360Connect Finance. Jubin Nautiyal, Payal Dev, Manoj Muntashir \u00b7 Mere Ghar Ram Aaye Hain. \ud83d\udd25MUHURAT TRADING 2026: 30 STOCKS TO WATCH! \ud83e\ude94\ud83d\udcc8 Which stocks are on Kotak Neo\u2019s BUY list this Diwali? \ud83d\udd25 Bajaj Finance \ud83d\udd25 ICICI Bank \ud83d\udd25 JSW Steel \ud83d\udd25 Bh - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd2l3N0NSdWtTUmU1d3U4dnJEbTEzWnRHVEFraUpGLWR2OXhsRTJPbDIzZ0pkNHVjVi1PRVJhU25lNEt6MDlkaUEwdDhVVHo2RlA0dWpPcUpWZVByWlhSanliMUhYeW1FekN2UWxHX0Rod0tRMVRISlc5SlhXaU1MZWpoUXVuWmhJQlhUa0pjOFl5SzgtNHl1VEhOQS1EeWhERmdxRHJWWGZDUGlZTFhjSXlmbjdtbDExbmhCLUkwc1ZsMTFMbkZqQlZHNW1ZV0NBQVpjTXBxVC1lS1dlQThrVTVB?oc=5",
+          "published": "Thu, 05 Nov 2026 09:25:23 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -383,9 +391,9 @@
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 4,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -397,14 +405,6 @@
           "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
           "published": "Thu, 05 Nov 2026 06:05:56 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Suzlon Share Price Target: \u0930\u0947\u0935\u0947\u0928\u094d\u092f\u0942 \u092e\u0947\u0902 26% \u0915\u0940 \u092c\u0922\u093c\u094b\u0924\u0930\u0940, \u092c\u094d\u0930\u094b\u0915\u0930\u0947\u091c \u0928\u0947 \u0926\u093f\u092f\u093e \u20b968 \u0915\u093e \u091f\u093e\u0930\u0917\u0947\u091f|Stocks To Buy - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kT3dJYS1FQmNsZHR2QjlGdy1xaW5na1JYdElrQjdkRnA1Vl9mdHBNYm1Bb3NLSHJHUVlXMkhlVURrRHZtV2tlSWtQMkdSWEotYmQyWllR?oc=5",
-          "published": "Tue, 03 Nov 2026 09:20:29 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -485,6 +485,37 @@
           "published": "Wed, 04 Nov 2026 14:00:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 1,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IT Shares Weigh On D-Street; Indices Pare Gains; Reliance, Tata Steel, Maruti Suzuki Rally - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLTWRTVTVhbll3QTlSTF80OVc4emxWbkZWSzhiNUJhQnBwNWJXNHpPLXplWlFLT3VxTTdVdXA1N292OGZwNGxEbnBCb2k2TkltR2RGajVn?oc=5",
+          "published": "Mon, 02 Nov 2026 09:37:04 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "All Fourwheeler Sell Guys_Maruti suzuki_mahindra_skoda_hyundai_kia_tata_ Volkswagen_ #virelvideo - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UdndfczA2X0VjaGNxTm1ybEI2aElYVV9JSGxXdHdBOWNfRi1WbTNqM0hnNzFFSXhYTmVjUGFjbGNQeWcxMmdjWnhtXzg3cklxdlMtM3hB?oc=5",
+          "published": "Thu, 05 Nov 2026 03:00:31 GMT",
+          "subreddit": "youtube",
+          "sentiment": "bearish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -724,29 +755,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IT Shares Weigh On D-Street; Indices Pare Gains; Reliance, Tata Steel, Maruti Suzuki Rally - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLTWRTVTVhbll3QTlSTF80OVc4emxWbkZWSzhiNUJhQnBwNWJXNHpPLXplWlFLT3VxTTdVdXA1N292OGZwNGxEbnBCb2k2TkltR2RGajVn?oc=5",
-          "published": "Mon, 02 Nov 2026 09:37:04 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
