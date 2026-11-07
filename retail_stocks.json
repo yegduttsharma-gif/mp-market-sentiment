@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T08:33:48.349261+00:00",
+  "collected_at": "2026-11-07T09:26:20.651620+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 674,
+  "posts_collected": 671,
   "source_counts": {
     "tradingqna": 36,
-    "valuepickr": 9,
+    "valuepickr": 8,
     "indexed_reddit": 250,
-    "youtube": 195,
-    "instagram": 98,
-    "facebook": 86,
-    "total_unique": 674
+    "youtube": 194,
+    "facebook": 93,
+    "instagram": 90,
+    "total_unique": 671
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,11 +37,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 6
+      "recent_items": 5
     },
     "valuepickr_top": {
       "status": "ok",
-      "recent_items": 6
+      "recent_items": 5
     },
     "tradingqna_active": {
       "status": "ok",
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 11,
+      "mentions": 10,
       "investor_mentions": 1,
-      "commentary_mentions": 10,
+      "commentary_mentions": 9,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -74,14 +74,6 @@
           "title": "Stock Insights: IT Index \u092e\u0947\u0902 Breakout \u092c\u0930\u0915\u0930\u093e\u0930, RIL \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0914\u0930 HDFC Bank \u092e\u0947\u0902 \u092c\u0921\u093c\u0947 Breakout \u0915\u0940 \u0924\u0948\u092f\u093e\u0930\u0940? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wR2VnbzlRZzdjMnlpbDJfTnVqbUhtWUFmNFFON19BbmtLc01CaTB0N0ZlSlFqalRzSmI4X05wbWpTVC1peHd1cXpFNGhsYTNzY0VhdTVR?oc=5",
           "published": "Thu, 05 Nov 2026 03:24:14 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Coforge, Kalyan Jewellers, Bandhan Bank, Data Patterns, Tata Motors Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOVhycFM1cGZVXzVyVXQ2cUVid0hiWV9ycjI4ai1qZXYzNHFqWWxVTE03VFA5czZ2Zm12U0FmbG5kN201eEhJNGt5RG8xLUJnUXhvY0dR?oc=5",
-          "published": "Fri, 06 Nov 2026 12:45:18 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -111,14 +103,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
-          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
           "published": "Tue, 03 Nov 2026 11:24:39 GMT",
@@ -140,6 +124,14 @@
           "published": "Sat, 07 Nov 2026 07:30:01 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
+          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
@@ -198,6 +190,22 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
+          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Picks: Brokerages see up to 80% upside in 10 stocks, including Fusion Finance, Brigade Enterprises, Dalmia Bharat and Reliance Industries. Check target prices and key risks. - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONTdBZE1EVE9GWjZxdDl3S3ZaZTdwSDc3alBjYi1RX3l3bEYxZGlOLTRRdHktTkhaRFZxcUM1Z0I0OG5tc2RjRkxkM21nUDZnbjBPTzc5Y2VUNk9nanBxN0drNFM4dURNUDJOTXlvR3lTZ21HbXhSUFBXSjZzOVhSX2pweXNvQ3I1LUpQRmZuWlkxWnMwZ3N0ZVlnNTNKV253SGdsTndLcU5WY05tbTB2d0dlN2p4ekFySEcwdU1tVnU4aHVUQzBIbUppWmxLTTNjOFRKZDZvTlZpWUJPQWJibmU5OA?oc=5",
+          "published": "Sat, 07 Nov 2026 01:50:36 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "\u20b91 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani\u2019s Reliance Just Shook the Stock Market! \ud83d\udcc8\ud83d\udd25 Reliance Industries shares surged 11.6% on November 2, 2026, marking their strongest single-day rally in over six years! Following its record Q2 FY27 results, the - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1c2syWHRUQmJIQXFOYXA4UTV0RmdmS0ZXVTZnNHNTLVdBT19XdUk5Rk5LeFptaDJwWDRmMTdYQmdRWmpVZFliQ2RfMGc5LVBLNEE?oc=5",
           "published": "Mon, 02 Nov 2026 12:08:54 GMT",
@@ -220,31 +228,15 @@
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
-          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Picks: Brokerages see up to 80% upside in 10 stocks, including Fusion Finance, Brigade Enterprises, Dalmia Bharat and Reliance Industries. Check target prices and key risks. - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONTdBZE1EVE9GWjZxdDl3S3ZaZTdwSDc3alBjYi1RX3l3bEYxZGlOLTRRdHktTkhaRFZxcUM1Z0I0OG5tc2RjRkxkM21nUDZnbjBPTzc5Y2VUNk9nanBxN0drNFM4dURNUDJOTXlvR3lTZ21HbXhSUFBXSjZzOVhSX2pweXNvQ3I1LUpQRmZuWlkxWnMwZ3N0ZVlnNTNKV253SGdsTndLcU5WY05tbTB2d0dlN2p4ekFySEcwdU1tVnU4aHVUQzBIbUppWmxLTTNjOFRKZDZvTlZpWUJPQWJibmU5OA?oc=5",
-          "published": "Sat, 07 Nov 2026 01:50:36 GMT",
-          "subreddit": "facebook",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 9,
+      "mentions": 8,
       "investor_mentions": 0,
-      "commentary_mentions": 9,
+      "commentary_mentions": 8,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -272,14 +264,6 @@
           "title": "Tata Motors CV Share Price | Tata Motors CV \u092e\u0947\u0902 \u0932\u0902\u092c\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0928\u093f\u0935\u0947\u0936\u0915 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u0940 \u0930\u093e\u092f - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wN1RNZERrT3R5V2dsaVZjTUVTWWhyNjBwSXlrd0VjWEJSUDZSZ01jUHhKWmVoYzBFelNndFpUZlU4c2IzaTVfZ2JKSkZGcXZ0ZjJlNFB3?oc=5",
           "published": "Tue, 03 Nov 2026 07:47:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Coforge, Kalyan Jewellers, Bandhan Bank, Data Patterns, Tata Motors Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOVhycFM1cGZVXzVyVXQ2cUVid0hiWV9ycjI4ai1qZXYzNHFqWWxVTE03VFA5czZ2Zm12U0FmbG5kN201eEhJNGt5RG8xLUJnUXhvY0dR?oc=5",
-          "published": "Fri, 06 Nov 2026 12:45:18 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -328,10 +312,57 @@
       "sufficient": false
     },
     {
+      "name": "ICICI Bank",
+      "mentions": 4,
+      "investor_mentions": 2,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Does ICICI Bank has the most potential for growth among all Banking shares as of now? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjlnandyeVVkZW4tOUhtS0NjYnNTdDBrY1pqam9zekF6UWF6VnAydEl0ZkZPOXJScnhuSDZpRkl5N2ZTVlNxTkJqeWxHaTZ3VGotM0tBV2pza1dJd0g4ZUhpeGgzSHVuWjY5ZndaY2VOb1l5NXhzQmZnNVBUU0hFZzJhTk5zVEs0c3RCVWtqZ0ZMaWpXcW1seUtRSUwzZ00wREJ0TUZjYUdpbUMxdnc?oc=5",
+          "published": "Sun, 01 Nov 2026 15:27:13 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
+          "published": "Tue, 03 Nov 2026 11:24:39 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\udd25MUHURAT TRADING 2026: 30 STOCKS TO WATCH! \ud83e\ude94\ud83d\udcc8 Which stocks are on Kotak Neo\u2019s BUY list this Diwali? \ud83d\udd25 Bajaj Finance \ud83d\udd25 ICICI Bank \ud83d\udd25 JSW Steel \ud83d\udd25 Bharat Electronics (BEL) and many more .... \ud83c\udfaf Target Prices + Stop Loss Levels Revealed! Will thes - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52Z2xYVF9iWHpTX1RoWVZ6UkdJeTZKLUphTFk5NTJwS29Ta2tWajJvUWxUN2ZyVWR1MXZwckpNOW5UcHJtRWZfcU1KR0E2ZVZsbXVMWTB3?oc=5",
+          "published": "Thu, 05 Nov 2026 09:25:19 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII. - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUd2bEJEUzAtbEIyY2N4WlZ1enhLN3d3UHprUU10d1ZyTkx2Z1JxMW9oVXI5VlJENnQzN2g5YVRETm5ORElNbzEzb1pZOTAwYUU3OWlfMWpadk5rTjZRV2R0b1oxWDdKNzRqSkdyVDF3VHFSaGswYnNCXzZEVDE0WmctQ2R5bUM2b2thOEZ1eW9ua2NvV1NHbnF1ekwtVWVmelgtbU1LNklfZW9vVkE?oc=5",
+          "published": "Sat, 07 Nov 2026 04:22:23 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Bharti Airtel",
-      "mentions": 5,
+      "mentions": 4,
       "investor_mentions": 1,
-      "commentary_mentions": 4,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -370,70 +401,15 @@
           "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Bharti Airtel Q2 Results Analysis | Bharti Airtel Q2 Update Today | Bharti Airtel Q2 Results Today | Airtel Share Latest News | Stock Market Only bharti airtel q2 results, bharti airtel q2 results analysis, bharti airtel q2 update today, bharti airtel q2 results today, airt - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdHhEM3dzQ0p5c2Z3SW4tX2NORUJGOWYwaVBvUG5SZ1pTWWlHcUR3MVBValZLM19Pa0F1TTI3QmI2STVaOTA5MGhWZUpMUlB2dHNEYTRaNTlselJHUzVfTVZrUU1jOXdidTJLZ1hMOTI4Zjc1LVJickN2dDZLaFpqenZLaGIxMGZkSEVaWEsyMVFRUFMzM2VzQlhYcjMwOHdxZTJJNldMOHplazktUnA3X285NFpqWkc3cU1aeWlsdXVuQ09VUWpwRG5uY0xQR3hJWU9SX1FrQ3dqdnQ0RnlJ?oc=5",
-          "published": "Thu, 05 Nov 2026 13:05:28 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 4,
-      "investor_mentions": 2,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Does ICICI Bank has the most potential for growth among all Banking shares as of now? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjlnandyeVVkZW4tOUhtS0NjYnNTdDBrY1pqam9zekF6UWF6VnAydEl0ZkZPOXJScnhuSDZpRkl5N2ZTVlNxTkJqeWxHaTZ3VGotM0tBV2pza1dJd0g4ZUhpeGgzSHVuWjY5ZndaY2VOb1l5NXhzQmZnNVBUU0hFZzJhTk5zVEs0c3RCVWtqZ0ZMaWpXcW1seUtRSUwzZ00wREJ0TUZjYUdpbUMxdnc?oc=5",
-          "published": "Sun, 01 Nov 2026 15:27:13 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "\ud83d\udd25MUHURAT TRADING 2026: 30 STOCKS TO WATCH! \ud83e\ude94\ud83d\udcc8 Which stocks are on Kotak Neo\u2019s BUY list this Diwali? \ud83d\udd25 Bajaj Finance \ud83d\udd25 ICICI Bank \ud83d\udd25 JSW Steel \ud83d\udd25 Bharat Electronics (BEL) and many more .... \ud83c\udfaf Target Prices + Stop Loss Levels Revealed! Will thes - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52Z2xYVF9iWHpTX1RoWVZ6UkdJeTZKLUphTFk5NTJwS29Ta2tWajJvUWxUN2ZyVWR1MXZwckpNOW5UcHJtRWZfcU1KR0E2ZVZsbXVMWTB3?oc=5",
-          "published": "Thu, 05 Nov 2026 09:25:19 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
-          "published": "Tue, 03 Nov 2026 11:24:39 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII. - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUd2bEJEUzAtbEIyY2N4WlZ1enhLN3d3UHprUU10d1ZyTkx2Z1JxMW9oVXI5VlJENnQzN2g5YVRETm5ORElNbzEzb1pZOTAwYUU3OWlfMWpadk5rTjZRV2R0b1oxWDdKNzRqSkdyVDF3VHFSaGswYnNCXzZEVDE0WmctQ2R5bUM2b2thOEZ1eW9ua2NvV1NHbnF1ekwtVWVmelgtbU1LNklfZW9vVkE?oc=5",
-          "published": "Sat, 07 Nov 2026 04:22:23 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 3,
+      "mentions": 4,
       "investor_mentions": 0,
-      "commentary_mentions": 3,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -445,6 +421,14 @@
           "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
           "published": "Thu, 05 Nov 2026 06:05:56 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
+          "published": "Tue, 03 Nov 2026 03:32:12 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -525,37 +509,6 @@
           "published": "Wed, 04 Nov 2026 14:00:09 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Maruti Suzuki",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 1,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "IT Shares Weigh On D-Street; Indices Pare Gains; Reliance, Tata Steel, Maruti Suzuki Rally - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLTWRTVTVhbll3QTlSTF80OVc4emxWbkZWSzhiNUJhQnBwNWJXNHpPLXplWlFLT3VxTTdVdXA1N292OGZwNGxEbnBCb2k2TkltR2RGajVn?oc=5",
-          "published": "Mon, 02 Nov 2026 09:37:04 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "All Fourwheeler Sell Guys_Maruti suzuki_mahindra_skoda_hyundai_kia_tata_ Volkswagen_ #virelvideo - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UdndfczA2X0VjaGNxTm1ybEI2aElYVV9JSGxXdHdBOWNfRi1WbTNqM0hnNzFFSXhYTmVjUGFjbGNQeWcxMmdjWnhtXzg3cklxdlMtM3hB?oc=5",
-          "published": "Thu, 05 Nov 2026 03:00:31 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bearish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -677,6 +630,29 @@
       "sufficient": false
     },
     {
+      "name": "Vodafone Idea",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
+          "published": "Tue, 03 Nov 2026 03:32:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "IRFC",
       "mentions": 1,
       "investor_mentions": 0,
@@ -764,6 +740,29 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IT Shares Weigh On D-Street; Indices Pare Gains; Reliance, Tata Steel, Maruti Suzuki Rally - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLTWRTVTVhbll3QTlSTF80OVc4emxWbkZWSzhiNUJhQnBwNWJXNHpPLXplWlFLT3VxTTdVdXA1N292OGZwNGxEbnBCb2k2TkltR2RGajVn?oc=5",
+          "published": "Mon, 02 Nov 2026 09:37:04 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -988,20 +987,6 @@
     },
     {
       "name": "Paytm",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Vodafone Idea",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
