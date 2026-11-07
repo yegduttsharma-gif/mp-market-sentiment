@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T00:51:22.254127+00:00",
+  "collected_at": "2026-11-07T01:44:57.257798+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 666,
+  "posts_collected": 668,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 12,
-    "indexed_reddit": 241,
+    "indexed_reddit": 243,
     "youtube": 195,
-    "instagram": 99,
-    "facebook": 83,
-    "total_unique": 666
+    "facebook": 93,
+    "instagram": 89,
+    "total_unique": 668
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -50,6 +50,93 @@
   },
   "status": "available",
   "stocks": [
+    {
+      "name": "Reliance Industries",
+      "mentions": 9,
+      "investor_mentions": 0,
+      "commentary_mentions": 9,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
+          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
+          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, HDFC Bank, SBI, Kotak Bank, BEL, FCL, HAL, Infosys Share | Stock Market News - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XRTdpbkM2Y3JXcC1tNk9ZOENmUExqLUhLcmRWWXF3YlJNcWxSQmlZNS05V1pHc0czcnpnNUVlWnNKb1k5bGJPNklyRjVxSmFGc1MxQ0dn?oc=5",
+          "published": "Wed, 04 Nov 2026 14:00:09 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Reliance Industries, FCL, BEL, ITC, GNG Electronics, Pashupati Cotspin Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vdG5jQjlOdm9RcEhWSUFUQURqQ1dQUm5yQmFnZW5qZlhKa1c1ay1uOGktQTdMeldGQWNhLUVGeXpmejhGQjR5SWRQTExLQUExcXI2ZjVB?oc=5",
+          "published": "Wed, 04 Nov 2026 13:00:13 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\u20b91 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani\u2019s Reliance Just Shook the Stock Market! \ud83d\udcc8\ud83d\udd25 Reliance Industries shares surged 11.6% on November 2, 2026, marking their strongest single-day rally in over six years! Following its record Q2 FY27 results, the - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1c2syWHRUQmJIQXFOYXA4UTV0RmdmS0ZXVTZnNHNTLVdBT19XdUk5Rk5LeFptaDJwWDRmMTdYQmdRWmpVZFliQ2RfMGc5LVBLNEE?oc=5",
+          "published": "Mon, 02 Nov 2026 12:08:54 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Indian stock markets witnessed a sharp rally on Monday, November 2, with Sensex surging over 1,000 points and Nifty jumping 277 points in early trade. Buying in Reliance Industries after strong Q2 earnings, falling crude oil prices, foreign fund inflows and po - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aM19ZdE1HLUczX2FKbGc4ZGtTZnpFdWl0eVRWMUltU2JiSzNWZjh0Qzl2YnhFblFSRmZuYjlWNERRX1M5YThPNHQzcWNQMmtadlE?oc=5",
+          "published": "Mon, 02 Nov 2026 05:45:43 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\u20b92 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani Breaks a 6-Year Record! \ud83d\udd25 Reliance Industries just made its biggest single-day stock market jump since April 2020! \ud83d\udcc8 On November 2, Reliance shares surged nearly 12%, adding around \u20b91.84 lakh crore to t - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rcXlZZmN4TGpBd2lzOWpZbXZJX2pPTDI5QmZPV3RRU0V4SGFHaDJHbHdteUljSWpneE9MNnV5d3Z4MlN1SldUSHZ2V1VzSE5XY1E?oc=5",
+          "published": "Wed, 04 Nov 2026 14:11:50 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India's stock market just witnessed a massive wealth surge! The Indian equity market added an estimated \u20b927 lakh crore in market value in just one week, driven by a strong rally across major stocks, including Reliance Industries, Bharti Airtel and Hindustan U - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhSkJHN2NFYnVNdjRSRTJ6T0puMkIwSkM4RkN0Wm5MeXY0WkxTOFFhMzVVcDUtaXRCRVQtVWhYbVhQaFF4eW5RSXlNSUhUa0M3dEE?oc=5",
+          "published": "Thu, 05 Nov 2026 09:48:59 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
     {
       "name": "HDFC Bank",
       "mentions": 8,
@@ -75,14 +162,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90TndQTFBSdkxRVnVBMHptN01ZM0ljNzJKbmljV1psTTc2c2hyaGZjMTNrNjVmU0hwckR1VWFFcWJWaG5PeVFiSm5IbGJMVVVtOGJnQV9n?oc=5",
           "published": "Fri, 06 Nov 2026 08:58:21 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
-          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -125,75 +204,12 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Reliance Industries",
-      "mentions": 7,
-      "investor_mentions": 0,
-      "commentary_mentions": 7,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Why Did RIL Stock Rally Yesterday? Expert Analysis | \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 RIL \u0928\u0947 \u0915\u0932 \u092d\u0930\u093e \u0925\u093e \u091c\u094b\u0936 | Anuj Singhal - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
-          "published": "Tue, 03 Nov 2026 09:58:25 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         },
         {
-          "title": "\u20b91 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani\u2019s Reliance Just Shook the Stock Market! \ud83d\udcc8\ud83d\udd25 Reliance Industries shares surged 11.6% on November 2, 2026, marking their strongest single-day rally in over six years! Following its record Q2 FY27 results, the - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1c2syWHRUQmJIQXFOYXA4UTV0RmdmS0ZXVTZnNHNTLVdBT19XdUk5Rk5LeFptaDJwWDRmMTdYQmdRWmpVZFliQ2RfMGc5LVBLNEE?oc=5",
-          "published": "Mon, 02 Nov 2026 12:08:54 GMT",
+          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
+          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
           "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian stock markets witnessed a sharp rally on Monday, November 2, with Sensex surging over 1,000 points and Nifty jumping 277 points in early trade. Buying in Reliance Industries after strong Q2 earnings, falling crude oil prices, foreign fund inflows and po - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aM19ZdE1HLUczX2FKbGc4ZGtTZnpFdWl0eVRWMUltU2JiSzNWZjh0Qzl2YnhFblFSRmZuYjlWNERRX1M5YThPNHQzcWNQMmtadlE?oc=5",
-          "published": "Mon, 02 Nov 2026 05:45:43 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "India's stock market just witnessed a massive wealth surge! The Indian equity market added an estimated \u20b927 lakh crore in market value in just one week, driven by a strong rally across major stocks, including Reliance Industries, Bharti Airtel and Hindustan U - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhSkJHN2NFYnVNdjRSRTJ6T0puMkIwSkM4RkN0Wm5MeXY0WkxTOFFhMzVVcDUtaXRCRVQtVWhYbVhQaFF4eW5RSXlNSUhUa0M3dEE?oc=5",
-          "published": "Thu, 05 Nov 2026 09:48:59 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Indian stock market closed today\u2019s trade on a higher note, led by the heavy-weight stock, Reliance Industries. The Nifty50 closed the trade 388 points or 1.68 per cent higher at 23,440.80, while the 30-stock BSE Sensex settled 1,233.25 points or 1.66 per cent h - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzUyZGg3Z2I0SF8zYkdoY1hRUGtHVGZiUzNCNkp1RW9NVUViTzZDMFdVQzkxamN1YUR4RThUSXZUSXE5Y0E3bWJvbHBaaEd2RDNWcnFQTUI0V25GTEJ2cjBUTHBmRGFtWWxzdnJILVR5dGpvR2F3Z2FjaFByQ1FjalAtOWNkcEpvNXA1SlJ1Y2pETUdEVXdKeHVyamxRSzNCcjVaR2hpbmV5YWRFOC1pLW1aMmU3NDAzMElKWkM3b3B6N29tRk4xc05OZkhpaUx0?oc=5",
-          "published": "Mon, 02 Nov 2026 10:29:22 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, HDFC Bank, SBI, Kotak Bank, BEL, FCL, HAL, Infosys Share | Stock Market News - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XRTdpbkM2Y3JXcC1tNk9ZOENmUExqLUhLcmRWWXF3YlJNcWxSQmlZNS05V1pHc0czcnpnNUVlWnNKb1k5bGJPNklyRjVxSmFGc1MxQ0dn?oc=5",
-          "published": "Wed, 04 Nov 2026 14:00:09 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Reliance Industries, FCL, BEL, ITC, GNG Electronics, Pashupati Cotspin Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vdG5jQjlOdm9RcEhWSUFUQURqQ1dQUm5yQmFnZW5qZlhKa1c1ay1uOGktQTdMeldGQWNhLUVGeXpmejhGQjR5SWRQTExLQUExcXI2ZjVB?oc=5",
-          "published": "Wed, 04 Nov 2026 13:00:13 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -272,6 +288,61 @@
       "sufficient": false
     },
     {
+      "name": "Bharti Airtel",
+      "mentions": 5,
+      "investor_mentions": 1,
+      "commentary_mentions": 4,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
+          "published": "Fri, 06 Nov 2026 01:30:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Bharti airtel - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BYW5rYlpuUjZ0QnRwUE1iZm1WR0w3emhrb3gyUzJ1ZmU1SmlKb29VWUZqeU44SXVKZ01yTkV5bGEySVk2bkdPMng0VWtrR1FzZDdxbkhoS2dYcm44aGlTSnVmVjVsSG5pN0tPdE1EeEthOHFZNk8tZUtzWkVtaFU?oc=5",
+          "published": "Fri, 06 Nov 2026 07:39:52 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market LIVE : Bharti Airtel, Titan, Glenmark Pharma, ONGC, Britannia Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yZDY0UzZuUVlZVFpkQUcxRUNZRmlVQ0IzZzk2UHdpaUFNcHpydlFyWlYxRTRwNEI1Z1FXb09mLVRnSlVHTVUyNXdaR3FsN2VLVWxkdlBR?oc=5",
+          "published": "Fri, 06 Nov 2026 02:30:20 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India\u2019s equity market witnessed a powerful rally, with the infographic highlighting an estimated \u20b927 lakh crore increase in market value in a single week. Several heavyweight stocks contributed to the gains, including Reliance Industries (+9.45%), Bharti Airtel ( - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMeXRUbzFTLWlyN01PUTVGSlBPNWNLWmNhYWh2SFl4ZjJWSkh0TzIxRmtnQ0V2V2RwTFBhX0w0c1V0b0pjTUtpSVZOVUxIMm96emc?oc=5",
+          "published": "Wed, 04 Nov 2026 13:14:34 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "India's stock market just witnessed a massive wealth surge! The Indian equity market added an estimated \u20b927 lakh crore in market value in just one week, driven by a strong rally across major stocks, including Reliance Industries, Bharti Airtel and Hindustan U - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhSkJHN2NFYnVNdjRSRTJ6T0puMkIwSkM4RkN0Wm5MeXY0WkxTOFFhMzVVcDUtaXRCRVQtVWhYbVhQaFF4eW5RSXlNSUhUa0M3dEE?oc=5",
+          "published": "Thu, 05 Nov 2026 09:48:59 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "ICICI Bank",
       "mentions": 4,
       "investor_mentions": 1,
@@ -312,53 +383,6 @@
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc19wRGppNDNzeERDM0xEX0lXMXV2RTRzMWMxNjA1OE1RclltOWdxZWdiZFlYY1JSazRMbFJmeERiNkpIWXdLZHEybFpubEFkc2hnVnJqYV9nVDNhajNDVUdyZ1NPNVdnTzR0ZS1aRU9ObHJWYU9XZlhsVjFtQVp4T2lZSk1SYzBqa20yX2R1OFIxTXhKTlNSamhWeXFsaHVfakQ3SkZwd3AzMDhINW91Y1RvT1JpOEVEcnR0YWczeS1tWEtFOUFaaDJmbHhKVkY4ZlBSM1FB?oc=5",
           "published": "Fri, 06 Nov 2026 10:05:48 GMT",
           "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Bharti Airtel",
-      "mentions": 4,
-      "investor_mentions": 1,
-      "commentary_mentions": 3,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
-          "published": "Fri, 06 Nov 2026 01:30:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Bharti airtel - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BYW5rYlpuUjZ0QnRwUE1iZm1WR0w3emhrb3gyUzJ1ZmU1SmlKb29VWUZqeU44SXVKZ01yTkV5bGEySVk2bkdPMng0VWtrR1FzZDdxbkhoS2dYcm44aGlTSnVmVjVsSG5pN0tPdE1EeEthOHFZNk8tZUtzWkVtaFU?oc=5",
-          "published": "Fri, 06 Nov 2026 07:39:52 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "India's stock market just witnessed a massive wealth surge! The Indian equity market added an estimated \u20b927 lakh crore in market value in just one week, driven by a strong rally across major stocks, including Reliance Industries, Bharti Airtel and Hindustan U - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhSkJHN2NFYnVNdjRSRTJ6T0puMkIwSkM4RkN0Wm5MeXY0WkxTOFFhMzVVcDUtaXRCRVQtVWhYbVhQaFF4eW5RSXlNSUhUa0M3dEE?oc=5",
-          "published": "Thu, 05 Nov 2026 09:48:59 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market LIVE : Bharti Airtel, Titan, Glenmark Pharma, ONGC, Britannia Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yZDY0UzZuUVlZVFpkQUcxRUNZRmlVQ0IzZzk2UHdpaUFNcHpydlFyWlYxRTRwNEI1Z1FXb09mLVRnSlVHTVUyNXdaR3FsN2VLVWxkdlBR?oc=5",
-          "published": "Fri, 06 Nov 2026 02:30:20 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
