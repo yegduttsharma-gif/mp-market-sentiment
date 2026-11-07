@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T14:05:26.986966+00:00",
+  "collected_at": "2026-11-07T14:46:48.486014+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -17,12 +17,12 @@
         "topics": 50
       },
       "sensex": {
-        "status": "ok",
-        "topics": 50
-      },
-      "kpit": {
         "status": "unavailable",
         "error": "HTTPError"
+      },
+      "kpit": {
+        "status": "ok",
+        "topics": 33
       },
       "reliance": {
         "status": "ok",
@@ -45,8 +45,8 @@
         "topics": 50
       },
       "sbi": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       }
     },
     "topics": {
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 248,
+  "posts_checked": 241,
   "status": "collected"
 }
