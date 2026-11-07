@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T15:59:05.528666+00:00",
+  "collected_at": "2026-11-07T16:36:34.933637+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 676,
+  "posts_collected": 671,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 9,
-    "indexed_reddit": 249,
-    "youtube": 196,
-    "instagram": 99,
-    "facebook": 87,
-    "total_unique": 676
+    "indexed_reddit": 242,
+    "youtube": 198,
+    "instagram": 100,
+    "facebook": 86,
+    "total_unique": 671
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -52,9 +52,9 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 8,
+      "mentions": 7,
       "investor_mentions": 1,
-      "commentary_mentions": 7,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -79,6 +79,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
+          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "HDFC Bank, Coforge, Kalyan Jewellers, Bandhan Bank, Data Patterns, Tata Motors Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOVhycFM1cGZVXzVyVXQ2cUVid0hiWV9ycjI4ai1qZXYzNHFqWWxVTE03VFA5czZ2Zm12U0FmbG5kN201eEhJNGt5RG8xLUJnUXhvY0dR?oc=5",
           "published": "Fri, 06 Nov 2026 12:45:18 GMT",
@@ -95,25 +103,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
-          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
           "published": "Tue, 03 Nov 2026 11:24:39 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Muhurat Trading is my favourite stock market tradition. And this year, I've picked 5 businesses that are on my radar for the long term. TCS, Nuvama Wealth, Asian Paints, HDFC Bank and Trent. From AI's impact on IT companies and India's wealth management - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMTc2ODdwVlJpcksyUERwX2FXY0JYOHBxVjE2ZVUxZGJOYUl6Q3NBWEtJNno2SmpNSXFETUl1bmRNdDdLZHdEaktYNVdCZXZXTy1TNEhtUTlINVpQWTA1OFVzano2WjlHdTVUa0tiSzJPTGhRVFNObUZJWUZRLXRJZFczdkt4bzlOWmV2MG9pS1VNaFVrLWVDVzVFWlZHY3ExM2o2d2VwS28zQmhoN09ZQjVzbHZnakxRTUpGYVpJbjgtV2tVSmlsQzVkbjA1ZEZmTXRnVE9yWjViUXp6YVV4a29ua0c?oc=5",
-          "published": "Fri, 06 Nov 2026 13:27:18 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -131,10 +123,10 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 7,
+      "mentions": 5,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
-      "commentary_bullish": 1,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -174,25 +166,9 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "tata motors share big breaking news - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JWjBJM2xkS3YyZVJYRlBDMDFHZXBJV1E0WDJGS0JnQjBpamp6VXFRRWlaUDkzdE81aWs2MEhVMWRibE5kNDlSQ3V0ck53WVNRSk8wbDFn?oc=5",
-          "published": "Thu, 05 Nov 2026 11:41:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Strongly Bullish Now - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04TDBYVFc2QUlvaHREX3ZpV3NKMjlqZEcxZVNPTHpNdWs1NHA3V0tObjk0OEVEYk5Rc3prUkFaWFJHVkEzbkxkSUo0UDZXTTF5WFpUOC1R?oc=5",
-          "published": "Wed, 04 Nov 2026 11:13:54 GMT",
-          "subreddit": "youtube",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Tata Motors Share Big Breaking News Today - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90Zzk2WmhITmhiNThMQ2VvMGlVTHBfWWhBTGVLWHZiZ2xvNUhqTDlzbnlhRVVNaDV3U01CMTJUeDF6RnVncXRSX3ZNa0FHVVNvQ01jNVV3?oc=5",
-          "published": "Tue, 03 Nov 2026 11:13:14 GMT",
+          "title": "Stocks To Watch: Lenskart , Groww, Adani, TARIL, Vodafone, HAL, Bajaj Fin, Tata Motors CV \u092e\u0947\u0902 \u092c\u0921\u093c\u0940 \u0939 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnRGlhVFhhNmZ6YWxXNG5UM21hQjVWSnUtT0RXeEFmb2Y3Rm56cEdnZE4zZHJVd1JZaGpvUVBXU2xqRjRncG5yNmdtb2R3cFJTNG1PbUpB?oc=5",
+          "published": "Wed, 04 Nov 2026 06:13:43 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -202,9 +178,9 @@
     },
     {
       "name": "Reliance Industries",
-      "mentions": 5,
+      "mentions": 4,
       "investor_mentions": 0,
-      "commentary_mentions": 5,
+      "commentary_mentions": 4,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -217,14 +193,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdGdHUFhaLXpUYkFIdkpsNk5LRWg5bjRVODgtcDNMbzdxbUU5VlVjOXJfelJaUGhoRWtBb2tjZ3NjcklZZFdLejdhTjdWSlM2eDJlOGx3?oc=5",
           "published": "Tue, 03 Nov 2026 09:58:25 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\u20b91 LAKH CRORE in ONE DAY! \ud83e\udd2f Mukesh Ambani\u2019s Reliance Just Shook the Stock Market! \ud83d\udcc8\ud83d\udd25 Reliance Industries shares surged 11.6% on November 2, 2026, marking their strongest single-day rally in over six years! Following its record Q2 FY27 results, the - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1c2syWHRUQmJIQXFOYXA4UTV0RmdmS0ZXVTZnNHNTLVdBT19XdUk5Rk5LeFptaDJwWDRmMTdYQmdRWmpVZFliQ2RfMGc5LVBLNEE?oc=5",
-          "published": "Mon, 02 Nov 2026 12:08:54 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -250,61 +218,6 @@
           "published": "Sat, 07 Nov 2026 01:50:36 GMT",
           "subreddit": "facebook",
           "sentiment": "bullish",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Suzlon Energy",
-      "mentions": 5,
-      "investor_mentions": 1,
-      "commentary_mentions": 4,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Bought 10 Suzlon shares... What do yall think of this? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVA4UGdUNHoxdW1FTlJQb1ZzZ1NTNmstM3QwSUNXbGQ1MUxoQkUtMVBJSk9lTkhBYWpkQXRNaDZBbTdVMjBROTgxTEVXaVBtWVU5M0U3bXJxTkFPQ3FCQlRDWnY4SkVma0tFdk1wdUJjR0VEUUN4elozNFQ1MUF2S2p6ekZoRUdSMUVLdXg4UUFibmRZSEk3U1FfV0Vkam1yMUVtZHVJcmhqYWRJUERR?oc=5",
-          "published": "Tue, 03 Nov 2026 08:33:21 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
-          "published": "Tue, 03 Nov 2026 03:32:12 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "NSE, Suzlon, GROWW, BSE, CDSL, JSW Infra, Cupid, MCX, Ashok Ley., SCI, GMR Air Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtLW5tbXpja1lsQ0dWdDAtcjJhbER4NTBheTBvS2JzQU9MbGpKR2NpMkNPeWNaaGlRZmw2ZF80OW9DUE1GME1ZTFZBOTliMkJXMU13YlNn?oc=5",
-          "published": "Tue, 03 Nov 2026 06:21:45 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
-          "published": "Fri, 06 Nov 2026 14:30:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "SENSEX CROSSES 80,000 POINTS | IDFC FIRST BANK | SUZLON | CDSL | TRIDENT | BSE | RELIANCE POWER |... - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wd2lTODlJODNGdURwbXdKOXhqVTVZWlZYUHczZkk0N1RCQ29Ncm42Um9QZFRENzRqRTVwcWhDc2Rxd0VTVkRrZm5MalRxUS1fMjdKRndB?oc=5",
-          "published": "Fri, 06 Nov 2026 10:00:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
       ],
@@ -345,6 +258,45 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Suzlon Energy",
+      "mentions": 3,
+      "investor_mentions": 1,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Bought 10 Suzlon shares... What do yall think of this? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVA4UGdUNHoxdW1FTlJQb1ZzZ1NTNmstM3QwSUNXbGQ1MUxoQkUtMVBJSk9lTkhBYWpkQXRNaDZBbTdVMjBROTgxTEVXaVBtWVU5M0U3bXJxTkFPQ3FCQlRDWnY4SkVma0tFdk1wdUJjR0VEUUN4elozNFQ1MUF2S2p6ekZoRUdSMUVLdXg4UUFibmRZSEk3U1FfV0Vkam1yMUVtZHVJcmhqYWRJUERR?oc=5",
+          "published": "Tue, 03 Nov 2026 08:33:21 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
+          "published": "Tue, 03 Nov 2026 03:32:12 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
+          "published": "Fri, 06 Nov 2026 14:30:27 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -412,37 +364,6 @@
       "sufficient": false
     },
     {
-      "name": "CDSL",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "NSE, Suzlon, GROWW, BSE, CDSL, JSW Infra, Cupid, MCX, Ashok Ley., SCI, GMR Air Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtLW5tbXpja1lsQ0dWdDAtcjJhbER4NTBheTBvS2JzQU9MbGpKR2NpMkNPeWNaaGlRZmw2ZF80OW9DUE1GME1ZTFZBOTliMkJXMU13YlNn?oc=5",
-          "published": "Tue, 03 Nov 2026 06:21:45 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "SENSEX CROSSES 80,000 POINTS | IDFC FIRST BANK | SUZLON | CDSL | TRIDENT | BSE | RELIANCE POWER |... - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wd2lTODlJODNGdURwbXdKOXhqVTVZWlZYUHczZkk0N1RCQ29Ncm42Um9QZFRENzRqRTVwcWhDc2Rxd0VTVkRrZm5MalRxUS1fMjdKRndB?oc=5",
-          "published": "Fri, 06 Nov 2026 10:00:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "BHEL",
       "mentions": 1,
       "investor_mentions": 0,
@@ -481,29 +402,6 @@
           "title": "HDFC Bank, Suzlon, Jio Platform, BSE, NSE, IREDA, HAL, TTK Prestige, PNB, IFCI Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q1lrajRZbDRMbl9zNEF4bmpwbTdCQW9FLXE0SUFvc0gwREpFancwbWpabEhqUlBTbzlpMWtOSkVLMm9tZEdRU09zNGFDVTJCdDhjRzBn?oc=5",
           "published": "Fri, 06 Nov 2026 14:30:27 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Jio Financial",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jio Financial Share Price: Jio Finance \u092e\u0947\u0902 3% \u0915\u0940 \u0924\u0917\u0921\u093c\u0940 \u0924\u0947\u091c\u0940, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u0940 \u0930\u093e\u092f? | Mukesh Ambani - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vMTdtcTZjbjdBNmVzVUtiQnZwSEVzbXNmcDJEWHZWS0w0aG5oZUwxR2dHNU9lMlV2dWhCOWdqX3NBUUM0bE90bmE2TmtoT0NXd1pzOWVB?oc=5",
-          "published": "Thu, 05 Nov 2026 08:18:49 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -622,29 +520,6 @@
           "subreddit": "indexed_reddit",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IDFC First Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "SENSEX CROSSES 80,000 POINTS | IDFC FIRST BANK | SUZLON | CDSL | TRIDENT | BSE | RELIANCE POWER |... - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wd2lTODlJODNGdURwbXdKOXhqVTVZWlZYUHczZkk0N1RCQ29Ncm42Um9QZFRENzRqRTVwcWhDc2Rxd0VTVkRrZm5MalRxUS1fMjdKRndB?oc=5",
-          "published": "Fri, 06 Nov 2026 10:00:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -868,6 +743,20 @@
       "sufficient": false
     },
     {
+      "name": "Jio Financial",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Trent",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1036,6 +925,20 @@
       "sufficient": false
     },
     {
+      "name": "IDFC First Bank",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Bank of Baroda",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1149,6 +1052,20 @@
     },
     {
       "name": "Titagarh Rail",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "CDSL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
