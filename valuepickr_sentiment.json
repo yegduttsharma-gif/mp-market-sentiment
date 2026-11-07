@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T12:17:42.377131+00:00",
+  "collected_at": "2026-11-07T13:16:28.540791+00:00",
   "platform": "ValuePickr",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -9,36 +9,36 @@
     },
     "targeted_search": {
       "nifty": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "bank nifty": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "sensex": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "kpit": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "reliance": {
         "status": "ok",
         "topics": 50
       },
       "hdfc bank": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "icici bank": {
         "status": "ok",
         "topics": 50
       },
       "tcs": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -50,7 +50,7 @@
       }
     },
     "topics": {
-      "attempted": 75,
+      "attempted": 57,
       "errors": 0
     }
   },
@@ -92,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 23,
+  "posts_checked": 13,
   "status": "collected"
 }

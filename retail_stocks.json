@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T12:16:52.817056+00:00",
+  "collected_at": "2026-11-07T13:15:36.640814+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 676,
+  "posts_collected": 668,
   "source_counts": {
     "tradingqna": 36,
     "valuepickr": 8,
-    "indexed_reddit": 250,
+    "indexed_reddit": 247,
     "youtube": 195,
-    "instagram": 99,
-    "facebook": 88,
-    "total_unique": 676
+    "instagram": 98,
+    "facebook": 84,
+    "total_unique": 668
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -55,7 +55,7 @@
       "mentions": 8,
       "investor_mentions": 1,
       "commentary_mentions": 7,
-      "commentary_bullish": 1,
+      "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -74,6 +74,14 @@
           "title": "Stock Insights: IT Index \u092e\u0947\u0902 Breakout \u092c\u0930\u0915\u0930\u093e\u0930, RIL \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0914\u0930 HDFC Bank \u092e\u0947\u0902 \u092c\u0921\u093c\u0947 Breakout \u0915\u0940 \u0924\u0948\u092f\u093e\u0930\u0940? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wR2VnbzlRZzdjMnlpbDJfTnVqbUhtWUFmNFFON19BbmtLc01CaTB0N0ZlSlFqalRzSmI4X05wbWpTVC1peHd1cXpFNGhsYTNzY0VhdTVR?oc=5",
           "published": "Thu, 05 Nov 2026 03:24:14 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bank, Coforge, Kalyan Jewellers, Bandhan Bank, Data Patterns, Tata Motors Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOVhycFM1cGZVXzVyVXQ2cUVid0hiWV9ycjI4ai1qZXYzNHFqWWxVTE03VFA5czZ2Zm12U0FmbG5kN201eEhJNGt5RG8xLUJnUXhvY0dR?oc=5",
+          "published": "Fri, 06 Nov 2026 12:45:18 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -117,23 +125,15 @@
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "F&O Talk: #Nifty\u2019s bullish structure intact after best week in 5 years; #SudeepShah on #HDFCBank strategy, picks 5 stocks this festive season #ETMarkets - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYTF4S2NrUmlnckZ0cjdNR1RNSURYaGl1UXV6WjUzZS1KMFlpVjJraEFTdkYtRzk3ZVlFZ1hZLWFRcFAwQWxvY0FNcnNaRmxLeUtyeGlTSWtsbHBQa0EzSXVsbEc1TEw0ckc0ZEZwYWdaN0xQYnRwVW51LXNkU1BNbzQxM2lUVUdJUUJQVGcweTdtM2U0aDR4Tng5N3RiMTJlWHE5ZUpKdGt1bjkweXpxT2FlY1UzdkpJbVhkQU9DaVdBdS0xRVFTcV95STFhWXQ1b19BR2JR?oc=5",
-          "published": "Sat, 07 Nov 2026 07:30:01 GMT",
-          "subreddit": "facebook",
-          "sentiment": "bullish",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Tata Motors",
-      "mentions": 7,
+      "mentions": 8,
       "investor_mentions": 0,
-      "commentary_mentions": 7,
+      "commentary_mentions": 8,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -161,6 +161,14 @@
           "title": "Tata Motors PV Share Price | Tata Motors PV \u092e\u0947\u0902 Hold \u0915\u0930\u0947\u0902 \u092f\u093e Sell? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u093e \u0905\u0917\u0932\u093e Outlook - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hUnYwcklyOWFpOEdMN1h0R1RoaXBpVkZZUDlPdGZlNjBJVllxTkZvV19veFFMSXpUX3h2ZXhvczFHMmdBRjVnckRQd29vX0NCdVJRd2Z3?oc=5",
           "published": "Thu, 05 Nov 2026 09:33:37 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "HDFC Bank, Coforge, Kalyan Jewellers, Bandhan Bank, Data Patterns, Tata Motors Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOVhycFM1cGZVXzVyVXQ2cUVid0hiWV9ycjI4ai1qZXYzNHFqWWxVTE03VFA5czZ2Zm12U0FmbG5kN201eEhJNGt5RG8xLUJnUXhvY0dR?oc=5",
+          "published": "Fri, 06 Nov 2026 12:45:18 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -256,64 +264,25 @@
       "sufficient": false
     },
     {
-      "name": "ICICI Bank",
-      "mentions": 4,
-      "investor_mentions": 2,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 2,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Does ICICI Bank has the most potential for growth among all Banking shares as of now? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjlnandyeVVkZW4tOUhtS0NjYnNTdDBrY1pqam9zekF6UWF6VnAydEl0ZkZPOXJScnhuSDZpRkl5N2ZTVlNxTkJqeWxHaTZ3VGotM0tBV2pza1dJd0g4ZUhpeGgzSHVuWjY5ZndaY2VOb1l5NXhzQmZnNVBUU0hFZzJhTk5zVEs0c3RCVWtqZ0ZMaWpXcW1seUtRSUwzZ00wREJ0TUZjYUdpbUMxdnc?oc=5",
-          "published": "Sun, 01 Nov 2026 15:27:13 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "\ud83d\udd25MUHURAT TRADING 2026: 30 STOCKS TO WATCH! \ud83e\ude94\ud83d\udcc8 Which stocks are on Kotak Neo\u2019s BUY list this Diwali? \ud83d\udd25 Bajaj Finance \ud83d\udd25 ICICI Bank \ud83d\udd25 JSW Steel \ud83d\udd25 Bharat Electronics (BEL) and many more .... \ud83c\udfaf Target Prices + Stop Loss Levels Revealed! Will thes - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52Z2xYVF9iWHpTX1RoWVZ6UkdJeTZKLUphTFk5NTJwS29Ta2tWajJvUWxUN2ZyVWR1MXZwckpNOW5UcHJtRWZfcU1KR0E2ZVZsbXVMWTB3?oc=5",
-          "published": "Thu, 05 Nov 2026 09:25:19 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII. - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUd2bEJEUzAtbEIyY2N4WlZ1enhLN3d3UHprUU10d1ZyTkx2Z1JxMW9oVXI5VlJENnQzN2g5YVRETm5ORElNbzEzb1pZOTAwYUU3OWlfMWpadk5rTjZRV2R0b1oxWDdKNzRqSkdyVDF3VHFSaGswYnNCXzZEVDE0WmctQ2R5bUM2b2thOEZ1eW9ua2NvV1NHbnF1ekwtVWVmelgtbU1LNklfZW9vVkE?oc=5",
-          "published": "Sat, 07 Nov 2026 04:22:23 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
-          "published": "Tue, 03 Nov 2026 11:24:39 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "Suzlon Energy",
-      "mentions": 4,
-      "investor_mentions": 0,
+      "mentions": 5,
+      "investor_mentions": 1,
       "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "Bought 10 Suzlon shares... What do yall think of this? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVA4UGdUNHoxdW1FTlJQb1ZzZ1NTNmstM3QwSUNXbGQ1MUxoQkUtMVBJSk9lTkhBYWpkQXRNaDZBbTdVMjBROTgxTEVXaVBtWVU5M0U3bXJxTkFPQ3FCQlRDWnY4SkVma0tFdk1wdUJjR0VEUUN4elozNFQ1MUF2S2p6ekZoRUdSMUVLdXg4UUFibmRZSEk3U1FfV0Vkam1yMUVtZHVJcmhqYWRJUERR?oc=5",
+          "published": "Tue, 03 Nov 2026 08:33:21 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
         {
           "title": "Suzlon, Vodafone Idea, ITC, Petronet, KRBL, Reliance Ind, Adani Ent, Tata Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 ? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WaVZpR3NOT3J1ZC1NWVZGUlZ2eWtqbXVFdzFKTlhvc1IwUFEyRnNEOVdacGlkU3FwTEhkMzYwME91czlQUEJDVjRQVTRnUkJKQ0E3bk5n?oc=5",
@@ -350,25 +319,56 @@
       "sufficient": false
     },
     {
-      "name": "Bharti Airtel",
+      "name": "ICICI Bank",
       "mentions": 3,
-      "investor_mentions": 1,
+      "investor_mentions": 2,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 2,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Does ICICI Bank has the most potential for growth among all Banking shares as of now? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjlnandyeVVkZW4tOUhtS0NjYnNTdDBrY1pqam9zekF6UWF6VnAydEl0ZkZPOXJScnhuSDZpRkl5N2ZTVlNxTkJqeWxHaTZ3VGotM0tBV2pza1dJd0g4ZUhpeGgzSHVuWjY5ZndaY2VOb1l5NXhzQmZnNVBUU0hFZzJhTk5zVEs0c3RCVWtqZ0ZMaWpXcW1seUtRSUwzZ00wREJ0TUZjYUdpbUMxdnc?oc=5",
+          "published": "Sun, 01 Nov 2026 15:27:13 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII. - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUd2bEJEUzAtbEIyY2N4WlZ1enhLN3d3UHprUU10d1ZyTkx2Z1JxMW9oVXI5VlJENnQzN2g5YVRETm5ORElNbzEzb1pZOTAwYUU3OWlfMWpadk5rTjZRV2R0b1oxWDdKNzRqSkdyVDF3VHFSaGswYnNCXzZEVDE0WmctQ2R5bUM2b2thOEZ1eW9ua2NvV1NHbnF1ekwtVWVmelgtbU1LNklfZW9vVkE?oc=5",
+          "published": "Sat, 07 Nov 2026 04:22:23 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Indian stock market closed today\u2019s (November 03) trade on a higher note, led by heavyweight stocks, HDFC Bank and ICICI Bank. The Nifty50 closed the trade 370 points or 1.58 per cent higher at 23,810.85, while the 30-stock BSE Sensex settled 1,225.07 poi - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEd2cGRqYnByVldYZTRwQ1V3QlItS2hoQXN2NHFsa2lLcllLRk5JZFdnNjdGSEN5cWYzaGxkNXJoSlI2RzRjSUpaS1ZrU1FPOWFqd25mYWpMdW1LQngxV3U0MWIwZUJFanc0NW44aU9MOEMtSkNWSVlfWGtXMVhTSmo0VF9zUm8yRXZBTmJ0Qlc4dmR4RlJNQzZrakw3M0trLWpRYmlIVEg2UkluWHlUajNGNzdDVkttYnZHdlp0M2VFd3FKUG5HNGs4ZUhHVnM0?oc=5",
+          "published": "Tue, 03 Nov 2026 11:24:39 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
+      "mentions": 2,
+      "investor_mentions": 0,
       "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "Bharti airtel - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BYW5rYlpuUjZ0QnRwUE1iZm1WR0w3emhrb3gyUzJ1ZmU1SmlKb29VWUZqeU44SXVKZ01yTkV5bGEySVk2bkdPMng0VWtrR1FzZDdxbkhoS2dYcm44aGlTSnVmVjVsSG5pN0tPdE1EeEthOHFZNk8tZUtzWkVtaFU?oc=5",
-          "published": "Fri, 06 Nov 2026 07:39:52 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
         {
           "title": "Daily Stock Market News(6 Nov 2026): \u20b914,500 Cr Energy Push, Titan, Bharti Airtel & Q2 Results - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZXF2VnZNNjZwSTAyM2xkaWtDbTRCTmpETncwQ2ZDblVlc2RfNFJFQnFBVUZOQi11eVNXWmN6RVRBTW5pUEx3bDdqdy0tOExYQjQxZVN3?oc=5",
@@ -497,7 +497,7 @@
       "sufficient": false
     },
     {
-      "name": "BEL",
+      "name": "Jio Financial",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -509,10 +509,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "\ud83d\udd25MUHURAT TRADING 2026: 30 STOCKS TO WATCH! \ud83e\ude94\ud83d\udcc8 Which stocks are on Kotak Neo\u2019s BUY list this Diwali? \ud83d\udd25 Bajaj Finance \ud83d\udd25 ICICI Bank \ud83d\udd25 JSW Steel \ud83d\udd25 Bharat Electronics (BEL) and many more .... \ud83c\udfaf Target Prices + Stop Loss Levels Revealed! Will thes - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52Z2xYVF9iWHpTX1RoWVZ6UkdJeTZKLUphTFk5NTJwS29Ta2tWajJvUWxUN2ZyVWR1MXZwckpNOW5UcHJtRWZfcU1KR0E2ZVZsbXVMWTB3?oc=5",
-          "published": "Thu, 05 Nov 2026 09:25:19 GMT",
-          "subreddit": "instagram",
+          "title": "Jio Financial Share Price: Jio Finance \u092e\u0947\u0902 3% \u0915\u0940 \u0924\u0917\u0921\u093c\u0940 \u0924\u0947\u091c\u0940, \u0906\u0917\u0947 \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u0940 \u0930\u093e\u092f? | Mukesh Ambani - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vMTdtcTZjbjdBNmVzVUtiQnZwSEVzbXNmcDJEWHZWS0w0aG5oZUwxR2dHNU9lMlV2dWhCOWdqX3NBUUM0bE90bmE2TmtoT0NXd1pzOWVB?oc=5",
+          "published": "Thu, 05 Nov 2026 08:18:49 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -876,7 +876,7 @@
       "sufficient": false
     },
     {
-      "name": "Jio Financial",
+      "name": "Trent",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -890,7 +890,7 @@
       "sufficient": false
     },
     {
-      "name": "Trent",
+      "name": "BEL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
