@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T21:11:37.652473+00:00",
+  "collected_at": "2026-11-08T00:36:51.235155+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -136,11 +136,19 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "pre-market data website to trade NIFTY, BANKNIFTY options?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xqibdy/premarket_data_website_to_trade_nifty_banknifty/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-07T22:09:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     },
     "SENSEX": {
       "bullish": 0,
