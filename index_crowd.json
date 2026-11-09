@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-09T01:53:10.785919+00:00",
+  "collected_at": "2026-11-09T09:29:20.466834+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,7 +25,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 7
+      "recent": 5
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 135,
+  "unique_titles": 134,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "What are the levels of nifty everyone is looking out for?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xrjpq3/what_are_the_levels_of_nifty_everyone_is_looking/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-09T05:45:28+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "What is expected open level of Nifty 50 on 9th Nov",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xqysfi/what_is_expected_open_level_of_nifty_50_on_9th_nov/",
@@ -67,34 +74,13 @@
           "source": "IndianStockMarket",
           "published": "2026-11-08T12:51:27+00:00",
           "sentiment": "neutral"
-        },
-        {
-          "title": "Anyone feels sad with Nifty jump \u2026",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xq69m1/anyone_feels_sad_with_nifty_jump/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-07T13:23:06+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 50 performance on Muhurat trading days.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xq17p2/nifty_50_performance_on_muhurat_trading_days/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-07T08:12:07+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xpxbus/nifty_25000_sensex_nearly_7000_in_one_week_icici/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-07T04:22:23+00:00",
-          "sentiment": "neutral"
         }
       ]
     },
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
@@ -105,32 +91,17 @@
           "source": "IndianStockMarket",
           "published": "2026-11-08T16:50:45+00:00",
           "sentiment": "neutral"
-        },
-        {
-          "title": "pre-market data website to trade NIFTY, BANKNIFTY options?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xqibdy/premarket_data_website_to_trade_nifty_banknifty/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-07T22:09:00+00:00",
-          "sentiment": "neutral"
         }
       ]
     },
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xpxbus/nifty_25000_sensex_nearly_7000_in_one_week_icici/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-07T04:22:23+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     }
   }
 }
