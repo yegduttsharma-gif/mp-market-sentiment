@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-10T02:37:42.736715+00:00",
+  "collected_at": "2026-11-10T10:23:52.479784+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -25,7 +25,7 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 6
+      "recent": 7
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 135,
+  "unique_titles": 136,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 4,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Gift Nifty up by 194 pts & Oil is crashing",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xsgjwb/gift_nifty_up_by_194_pts_oil_is_crashing/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-10T07:17:17+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Guys even after the blood bath on Wall street and the bull run on dalal street the SnP 500 has given 3x more returns then the nifty 50 in the past 10 years, are we getting scammed out here.",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xruaqq/guys_even_after_the_blood_bath_on_wall_street_and/",
@@ -80,19 +87,11 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "Banknifty \ud83d\udcc8",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xr2xf0/banknifty/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-08T16:50:45+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     },
     "SENSEX": {
       "bullish": 0,
