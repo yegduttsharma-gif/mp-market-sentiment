@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-10T23:15:08.880838+00:00",
+  "collected_at": "2026-11-11T02:51:20.559949+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 639,
+  "posts_collected": 636,
   "source_counts": {
     "tradingqna": 31,
     "valuepickr": 9,
-    "indexed_reddit": 212,
-    "youtube": 197,
-    "facebook": 98,
-    "instagram": 92,
-    "total_unique": 639
+    "indexed_reddit": 211,
+    "youtube": 196,
+    "instagram": 99,
+    "facebook": 90,
+    "total_unique": 636
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -155,9 +155,9 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 6,
+      "mentions": 7,
       "investor_mentions": 1,
-      "commentary_mentions": 5,
+      "commentary_mentions": 6,
       "commentary_bullish": 0,
       "commentary_bearish": 1,
       "bullish": 0,
@@ -165,6 +165,30 @@
       "neutral": 1,
       "bullish_pct": null,
       "evidence": [
+        {
+          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
+          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
+          "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Baadshah Broking. . HDFC Bank Stock \ud83d\ude80\ud83d\ude80\ud83d\udd25\ud83d\udd25 #stockmarketindia #financialeducation #indianinvestors #wealth #longterminvesting - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaWxhWFZRWUpiaDZSN0RZUmZpUEEwVzVMVnlYci13NUREM0pBYU92bXhEXy1UYUl3ZjhPWU91RzRYSjBwU3B5emRxYnB6a0xFbmpWTXRjWWdYM2p5QV9waGNoR0RSUGxYaG9CZjIzdFNMWWtjN3pFOTEzc0t4YXBEMmdUcl9STmQtRkFaZ19DbnN1eFJKYkVRdHlnNU5HbG5wRlM0bFd5Z3c3MzAzY1VIejZQbGk2TVFnV1BRdFFkeHhpeVpZZlBwYzJnMEZHSGVJeWZ4OTB2bDVEY2NJdkhN?oc=5",
+          "published": "Tue, 10 Nov 2026 07:08:47 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "'In the last few months FPIs continued to sell stocks like HDFC Bank' \ud83c\udfe6 Helios Capital's Samir Arora On HDFC Bank: Helios Capital founder shares his latest strategy on top private sector banking picks! \ud83d\udcc9 FPI Selling Impact: Foreign investors continued to sell st - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTjJiWlFmTkxDY28yUFE3ak5kR0hjemo5S3BqMndzUFUzTnNWdEVzYjVRNTFyVUNBTHJGQkRLNUlaYmdwVXB2bnVTLTNDSDBhRlhHSWVYS3VvYTJRN3paZGxueWk1RVZTTW5IRWtLR1FoSFc5czJhWV9uVDRabkhWT0M0M3BBUUM0NHh2WmdHMEdFZ2xMaUtNcUNDVXRIblNVT2FtdDNWS3k3MHZSU3BiZjN0THJZUzJveDJnN3A1UVo4VUFDVDRmQ2FVeTlSMXNDYzBCRF9XME9zdEFJX3c?oc=5",
+          "published": "Sun, 08 Nov 2026 10:24:44 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bearish",
+          "evidence_type": "market_commentary"
+        },
         {
           "title": "Suzlon, BHEL, HAL, BEL, NSE, MCX BSE, HDFC Bank, Hero Motors \u0915\u0947 Shares \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yUnc1TGpPVU45SEdQQWNEM01hd3NvcnFOLThfblBTQTFfUGJmSXV1WlhRZnc3dXdMbHJQMWdBR0RhekN3TDlwQm03QVJHcTNSQXZnZUJn?oc=5",
@@ -186,22 +210,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QOVhycFM1cGZVXzVyVXQ2cUVid0hiWV9ycjI4ai1qZXYzNHFqWWxVTE03VFA5czZ2Zm12U0FmbG5kN201eEhJNGt5RG8xLUJnUXhvY0dR?oc=5",
           "published": "Fri, 06 Nov 2026 12:45:18 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "'In the last few months FPIs continued to sell stocks like HDFC Bank' \ud83c\udfe6 Helios Capital's Samir Arora On HDFC Bank: Helios Capital founder shares his latest strategy on top private sector banking picks! \ud83d\udcc9 FPI Selling Impact: Foreign investors continued to sell st - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTjJiWlFmTkxDY28yUFE3ak5kR0hjemo5S3BqMndzUFUzTnNWdEVzYjVRNTFyVUNBTHJGQkRLNUlaYmdwVXB2bnVTLTNDSDBhRlhHSWVYS3VvYTJRN3paZGxueWk1RVZTTW5IRWtLR1FoSFc5czJhWV9uVDRabkhWT0M0M3BBUUM0NHh2WmdHMEdFZ2xMaUtNcUNDVXRIblNVT2FtdDNWS3k3MHZSU3BiZjN0THJZUzJveDJnN3A1UVo4VUFDVDRmQ2FVeTlSMXNDYzBCRF9XME9zdEFJX3c?oc=5",
-          "published": "Sun, 08 Nov 2026 10:24:44 GMT",
-          "subreddit": "facebook",
-          "sentiment": "bearish",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "India\u2019s stock market witnessed a massive surge in investor wealth, with its total market value reportedly increasing by \u20b97.8 lakh crore in just one hour of trading. The rally was broad-based, with banking and financial stocks leading the gains. HDFC Bank rose 3 - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ0MyTlpkQlZWU0E0RERGOFh0aTdjSFVjcUQxdEtSQ0VvTFp1RVB4MEJzR1Ewck1JbF9zZUlfc1c4Nzdkd2RZMUpmam5ZaGktcmc?oc=5",
-          "published": "Thu, 05 Nov 2026 06:59:27 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -279,6 +287,37 @@
       "sufficient": false
     },
     {
+      "name": "Coal India",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "IPO List With Shareholder Quota I IPO List \u091c\u0939\u093e\u0902 Shareholder \u0915\u094b\u091f\u093e \u0915\u093e \u092b\u093e\u092f\u0926\u093e \u092e\u093f\u0932 \u0938\u0915\u0924\u093e \u0939\u0948 I Coal India - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4Nl95ak9DODVCa2N6V0puMXFxamRXZ3FXbTI0eXR2YjE1NHBmRlBYNDNQSTNmZ09BV1N4SUhBSDFibFVpRklIVmhwY2F3SWhUQUJkZEtB?oc=5",
+          "published": "Sat, 07 Nov 2026 11:06:55 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Coal India \u0915\u0940 \u090f\u0915 \u0914\u0930 \u0915\u0902\u092a\u0928\u0940 \u0915\u093e IPO! Mahanadi Coalfields IPO \u0915\u094b SEBI \u0915\u0940 \u092e\u0902\u091c\u0942\u0930\u0940 | \u20b99,000 \u0915\u0930\u094b\u0921\u093c \u0915\u093e \u0907\u0936\u094d\u092f\u0942? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBodzVnb0VxQTFUS2dyMklwck03UGlqeFRMTzFfaGxpV2F2X21GLVBPcmhRckxweVk0RGpvNFVPRlN0NzFXYmU0LXdSNm9ZZ0pXejNZZ193?oc=5",
+          "published": "Mon, 09 Nov 2026 06:30:24 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Suzlon Energy",
       "mentions": 2,
       "investor_mentions": 0,
@@ -333,6 +372,29 @@
       "sufficient": false
     },
     {
+      "name": "SBI",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "The Banking Times . Giulio Cercato \u00b7 Lovely Day. \ud83d\udcc8 SBI STOCK GAINS 2.56% \u2014 TOUCHES Rs. 1,042! State Bank of India (SBI) shares gained Rs. 26 on November 9, 2026, closing at Rs. 1,042. \ud83d\udcca Key Highlights: - 1-year return: 9.01% - 2-year return: 23.58% - - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUDM0aDRsU2hXdVBSdWd6RWVVcVI1TGRpUjJQbmNzZzViekFqZ0VMYUJ4ckxoZV9NZFd1amw5a2FsUlAtb3BFTERQUXhKVnZMbHFvWGJDVzY0QnBJSERDX2dYYm9xbWpKcXlhaDFTNlNuLXV6bGZmZDdDMjF5cHdGWC1LaWxwcmZ1UWoxTm5RWmZETUdZdklKZ2dFUjFEU3FRUHNMUXJGUEtWYnZ6R2FxelpqamxGaFBvajR5eTlHQ1AtS1JuMVZ6RFpUV1RUVmF4emtObTdMQWVUemgyMXc?oc=5",
+          "published": "Wed, 11 Nov 2026 01:20:14 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Bharti Airtel",
       "mentions": 1,
       "investor_mentions": 0,
@@ -372,29 +434,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05cjRSUE91YURldXJrbEJjYjkyYVdqVTVfRHE2NVFaR0pxU1M4dUdkUDRyQjRVVTEwS3lHcFVCU2xPMjV0MGcwRGluYjF2TWxUQVE?oc=5",
           "published": "Mon, 09 Nov 2026 04:30:21 GMT",
           "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Coal India",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Coal India \u0915\u0940 \u090f\u0915 \u0914\u0930 \u0915\u0902\u092a\u0928\u0940 \u0915\u093e IPO! Mahanadi Coalfields IPO \u0915\u094b SEBI \u0915\u0940 \u092e\u0902\u091c\u0942\u0930\u0940 | \u20b99,000 \u0915\u0930\u094b\u0921\u093c \u0915\u093e \u0907\u0936\u094d\u092f\u0942? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBodzVnb0VxQTFUS2dyMklwck03UGlqeFRMTzFfaGxpV2F2X21GLVBPcmhRckxweVk0RGpvNFVPRlN0NzFXYmU0LXdSNm9ZZ0pXejNZZ193?oc=5",
-          "published": "Mon, 09 Nov 2026 06:30:24 GMT",
-          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -629,20 +668,6 @@
           "evidence_type": "market_commentary"
         }
       ],
-      "sufficient": false
-    },
-    {
-      "name": "SBI",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
       "sufficient": false
     },
     {
