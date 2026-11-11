@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-11T02:51:15.619610+00:00",
+  "collected_at": "2026-11-11T09:54:58.744856+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -12,8 +12,8 @@
       "error": "HTTPError"
     },
     "StockMarketIndia": {
-      "status": "unavailable",
-      "error": "HTTPError"
+      "status": "ok",
+      "recent": 100
     },
     "IndianStocks": {
       "status": "unavailable",
@@ -44,16 +44,51 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 135,
+  "unique_titles": 230,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 12,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Nifty v Sensex CAS Indicative prices",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xtdtu5/nifty_v_sensex_cas_indicative_prices/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-11T09:53:16+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xtdmwj/nifty/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-11T09:40:10+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Why Asian Paints on top of Nifty 50?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xtd3ab/why_asian_paints_on_top_of_nifty_50/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-11T09:03:48+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Will this 26000 be possible for Nifty?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xtax32/will_this_26000_be_possible_for_nifty/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-11T06:48:59+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "is it a good time to add nifty puts?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xt91cj/is_it_a_good_time_to_add_nifty_puts/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-11T05:01:47+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Gift Nifty up by 194 pts & Oil is crashing",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xsgjwb/gift_nifty_up_by_194_pts_oil_is_crashing/",
@@ -62,17 +97,45 @@
           "sentiment": "neutral"
         },
         {
-          "title": "Guys even after the blood bath on Wall street and the bull run on dalal street the SnP 500 has given 3x more returns then the nifty 50 in the past 10 years, are we getting scammed out here.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xruaqq/guys_even_after_the_blood_bath_on_wall_street_and/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-09T15:16:46+00:00",
+          "title": "Nifty mein aaj kaun kaun call liya bhai next time jo lena yaha p post kardena",
+          "url": "https://www.reddit.com/r/StockMarketIndia/comments/1xtc8db/nifty_mein_aaj_kaun_kaun_call_liya_bhai_next_time/",
+          "source": "StockMarketIndia",
+          "published": "2026-11-11T08:09:21+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NCU, Nifty cinematic universe",
+          "url": "https://www.reddit.com/r/StockMarketIndia/comments/1xt9s06/ncu_nifty_cinematic_universe/",
+          "source": "StockMarketIndia",
+          "published": "2026-11-11T05:42:23+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty oi data call writte are more and put are less nifty will not cross 25500 today one big red candel may be coming",
+          "url": "https://www.reddit.com/r/StockMarketIndia/comments/1xt9imj/nifty_oi_data_call_writte_are_more_and_put_are/",
+          "source": "StockMarketIndia",
+          "published": "2026-11-11T05:27:45+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Nifty has gained momentum post-Diwali break. This may be the perfect opportunity to enter the market.",
+          "url": "https://www.reddit.com/r/StockMarketIndia/comments/1xt9fh1/nifty_has_gained_momentum_postdiwali_break_this/",
+          "source": "StockMarketIndia",
+          "published": "2026-11-11T05:22:50+00:00",
           "sentiment": "neutral"
         },
         {
           "title": "What do you think about Nifty this week?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xrsj1l/what_do_you_think_about_nifty_this_week/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-09T14:06:23+00:00",
+          "url": "https://www.reddit.com/r/StockMarketIndia/comments/1xrski0/what_do_you_think_about_nifty_this_week/",
+          "source": "StockMarketIndia",
+          "published": "2026-11-09T14:08:06+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NIFTY Gap up post Diwali ?",
+          "url": "https://www.reddit.com/r/StockMarketIndia/comments/1xrqixm/nifty_gap_up_post_diwali/",
+          "source": "StockMarketIndia",
+          "published": "2026-11-09T12:34:08+00:00",
           "sentiment": "neutral"
         }
       ]
@@ -89,11 +152,19 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Nifty v Sensex CAS Indicative prices",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xtdtu5/nifty_v_sensex_cas_indicative_prices/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-11T09:53:16+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     }
   }
 }
