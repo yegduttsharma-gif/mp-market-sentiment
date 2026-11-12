@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-12T04:23:42.284789+00:00",
+  "collected_at": "2026-11-12T13:07:41.102839+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 621,
+  "posts_collected": 614,
   "source_counts": {
-    "tradingqna": 33,
-    "valuepickr": 7,
-    "indexed_reddit": 200,
+    "tradingqna": 34,
+    "valuepickr": 6,
+    "indexed_reddit": 194,
+    "instagram": 99,
     "youtube": 196,
-    "instagram": 100,
     "facebook": 85,
-    "total_unique": 621
+    "total_unique": 614
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -37,11 +37,11 @@
     },
     "valuepickr": {
       "status": "ok",
-      "recent_items": 6
+      "recent_items": 5
     },
     "valuepickr_top": {
       "status": "ok",
-      "recent_items": 6
+      "recent_items": 4
     },
     "tradingqna_active": {
       "status": "ok",
@@ -52,53 +52,21 @@
   "stocks": [
     {
       "name": "HDFC Bank",
-      "mentions": 13,
-      "investor_mentions": 1,
-      "commentary_mentions": 12,
+      "mentions": 9,
+      "investor_mentions": 0,
+      "commentary_mentions": 9,
       "commentary_bullish": 0,
-      "commentary_bearish": 0,
+      "commentary_bearish": 1,
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "STOCK INSIGHTS: RIL \u092e\u0947\u0902 \u092c\u0921\u093c\u093e Breakout? HDFC Bank, ICICI Bank, Biocon \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u0940 \u0924\u0947\u091c\u0940 \u092c\u093e\u0915\u0940? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmMllLYXViczJrQmtjWVdhY0VzajJvdzA1eUJQUkxaNFFsYUFmeTA2LWRTMG5PVG1FT212Nlp1eGw5VVVwZWIwMllhbVowUTJBT2NOSlln?oc=5",
-          "published": "Wed, 11 Nov 2026 03:12:42 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
         {
           "title": "Stock Insights: RIL, HDFC Bank \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 | ICICI Bank \u092e\u0947\u0902 \u092e\u094c\u0915\u093e? IT Stocks \u092a\u0930 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ME5zM3BuUGNBZjJBQkduQ0JmX1RCOGpNM0I2MmM5WUptM1ZMc1B6YVlFWFNIWUEwUkc5NkpMMmttWHJfcjJNQXNjMXNtakNQRTJXYnZ3?oc=5",
           "published": "Thu, 12 Nov 2026 03:12:53 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, IREDA, Suzlon, BEL, BSE, CDSL, IRFC, PNB, NHPC, HAL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UXgwaDk3N1NXcUxVWDlPWjhCV1VGSUxEMnlPbi1pQUJiaDhyOHY1RG5Xdk9FUEVpcWEyZFoyMXNLaWtSejdYdnJlSzFlWXNrWEtjSW5n?oc=5",
-          "published": "Tue, 10 Nov 2026 13:30:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "\ud83d\ude80 HDFC BANK: 22% RALLY! IS \u20b9900 NEXT? HDFC Bank has surged nearly 22% in just 10 trading sessions! \ud83d\udcc8 With governance concerns easing and earnings recovery expected, analysts are turning optimistic. \ud83c\udfaf Axis Direct: BUY \ud83d\udcca Bajaj Broking: HOLD & A - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HN2FVS3hhRUhUQlplamZ5bVJtOUtFcVRpbzByajhXSnU4eXQwYXVjc0o0eXFoY0RLd2ZuTS1IUkZSQmZrVDVqNWkwM3JuXzZyQjFCbXZ3?oc=5",
-          "published": "Wed, 11 Nov 2026 14:28:58 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#OpeningBell: Sensex off to choppy start, Nifty below 25,250; TCS, HDFC Bank slip 1% each #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-power-cupid-share-price - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPR19ZbHVVdE8xVkIwT0FsN0pzdFFieXAtbFh2d0dKTmtKU3U3NVBKOFRYUmw4UXA0OXNSQ2hIRmxXOFlTSXNhNWtKcFlCZGQ1WFRQQVRjcUdQQ0tZQ0hCOUw2MTZ4dE9PUldyU0tZY0FPN005eFc4aW9CeFNJN2loNEV0ZUlxUE1lOHBIaHU5aXZCNHA0ZFdEcjRSM0FOdFlnTUlUSE01VjA0aGl5Q241S3ZTZWNLNHNGclFhUjhCNFJFTEJkcVo3dnY0WXZuemFXVFpINkRn?oc=5",
-          "published": "Thu, 12 Nov 2026 03:58:54 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -143,19 +111,27 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Share Market : Tata Steel, HDFC Bank, Hindalco \u0914\u0930 CG Power stocks \u0915\u0939\u093e\u0902 \u0939\u094b\u0917\u0940 \u092e\u094b\u091f\u0940 \u0915\u092e\u093e\u0908? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1OTFmbzRMRzJtYzhHTXU4cnhFaHZlbWNpRjRXLVFsdndNeXh6dEp3S1hNZTVBbHBjVzZYVmJ4RGphdlpOSERsZ1ZjajdzWUJsRlFCN3BB?oc=5",
-          "published": "Wed, 11 Nov 2026 07:00:11 GMT",
-          "subreddit": "youtube",
+          "title": "Muhurat Trading is my favourite stock market tradition. And this year, I've picked 5 businesses that are on my radar for the long term. TCS, Nuvama Wealth, Asian Paints, HDFC Bank and Trent. From AI's impact on IT companies and India's wealth management - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMTc2ODdwVlJpcksyUERwX2FXY0JYOHBxVjE2ZVUxZGJOYUl6Q3NBWEtJNno2SmpNSXFETUl1bmRNdDdLZHdEaktYNVdCZXZXTy1TNEhtUTlINVpQWTA1OFVzano2WjlHdTVUa0tiSzJPTGhRVFNObUZJWUZRLXRJZFczdkt4bzlOWmV2MG9pS1VNaFVrLWVDVzVFWlZHY3ExM2o2d2VwS28zQmhoN09ZQjVzbHZnakxRTUpGYVpJbjgtV2tVSmlsQzVkbjA1ZEZmTXRnVE9yWjViUXp6YVV4a29ua0c?oc=5",
+          "published": "Fri, 06 Nov 2026 13:27:18 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "IREDA, BSE, NSE, Websol, Indiabulls, HDFC Bank, ITC, Ashok Leyland, Rolex Rings Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94UUtzaDZVRU5UWkp4aEd4X0x3WHg5SVJ0YmRNRTUyT0VYd3Z0c2l1TkRSTlZNZlhlM2tKdWpZYkRfQ0c5bTVzSXFoVkQ5UkZNZ3dZLXNn?oc=5",
-          "published": "Sat, 07 Nov 2026 04:30:35 GMT",
-          "subreddit": "youtube",
+          "title": "HDFC Bank has a new CEO. But can he fix the HDFC Bank share price? After three major leadership exits in one year, Anup Bagchi has taken charge as the new MD & CEO of HDFC Bank. The bank is now 34% bigger after the merger, yet its profit margins an - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTTNaTkJ0RVZicVlzaXRPb0FFd1M4OHVfZ2FWZkU3ZEFVVnJ6elhZWVl6bF9pY2dYMU11S0lGbC1PNnYweWQ1a3ZmVGlaUjRpSDBBYkw1NVhMUmR4R2xQeHQ2aUJNSmc2R2kybl95a2RCaUVVdUVnUHBDaXRBTVVacF84Y0JQX3dxZkFVeGxWaFp2YUl5cm1QOUVFV3g5cWhkd3plTnpXQVNKVEh6bjl1aUhjVm5mYWhfb2lDUnAwQ004N2MxTWVpYnl0aWpGRHB5b3ZTOXI4ZHRTbGpfWEEtUlRjaDc5Zw?oc=5",
+          "published": "Wed, 11 Nov 2026 12:18:38 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "'In the last few months FPIs continued to sell stocks like HDFC Bank' \ud83c\udfe6 Helios Capital's Samir Arora On HDFC Bank: Helios Capital founder shares his latest strategy on top private sector banking picks! \ud83d\udcc9 FPI Selling Impact: Foreign investors continued to sell st - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTjJiWlFmTkxDY28yUFE3ak5kR0hjemo5S3BqMndzUFUzTnNWdEVzYjVRNTFyVUNBTHJGQkRLNUlaYmdwVXB2bnVTLTNDSDBhRlhHSWVYS3VvYTJRN3paZGxueWk1RVZTTW5IRWtLR1FoSFc5czJhWV9uVDRabkhWT0M0M3BBUUM0NHh2WmdHMEdFZ2xMaUtNcUNDVXRIblNVT2FtdDNWS3k3MHZSU3BiZjN0THJZUzJveDJnN3A1UVo4VUFDVDRmQ2FVeTlSMXNDYzBCRF9XME9zdEFJX3c?oc=5",
+          "published": "Sun, 08 Nov 2026 10:24:44 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bearish",
           "evidence_type": "market_commentary"
         }
       ],
@@ -163,9 +139,9 @@
     },
     {
       "name": "Tata Motors",
-      "mentions": 10,
+      "mentions": 9,
       "investor_mentions": 0,
-      "commentary_mentions": 10,
+      "commentary_mentions": 9,
       "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -182,17 +158,17 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Stock Scan : Tata Motors \u0915\u093e \u0936\u0947\u092f\u0930 \u0926\u094c\u0921\u093c\u093e, \u0905\u0917\u0932\u093e \u0932\u0915\u094d\u0937\u094d\u092f? | Share Bazaar | BIZ Tak - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OQjZuZFVpNWZlYndKYkJYZDZnRDZzc0M4VE80LXNBcGRGdWloNnVfLXZGNGVSXzZ1MHRqNmRqQWZBLUJPS0l3NXM3bmQ2MEUzNzVJMWd3?oc=5",
-          "published": "Thu, 05 Nov 2026 11:13:04 GMT",
+          "title": "Tata Motors PV Q2 Results Preview: \u0915\u0948\u0938\u0947 \u0930\u0939\u0947\u0902\u0917\u0947 \u0928\u0924\u0940\u091c\u0947? Revenue \u0914\u0930 Profit \u092e\u0947\u0902 \u0926\u093f\u0916\u0947\u0917\u0940 \u0926\u092e\u0926\u093e\u0930 Growth? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wNTNiTjY2QnBBX0tHeE5xMms4bC1mR0NIREs5RDVlakoyMTUzOWVtU3RFTWpzLWxLLW1lMnZZMjFrbGpVc1dNbXVDQW9DcE8tejU4clN3?oc=5",
+          "published": "Thu, 12 Nov 2026 09:32:23 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Tata Motors PV Share Price | Tata Motors PV \u092e\u0947\u0902 Hold \u0915\u0930\u0947\u0902 \u092f\u093e Sell? \u091c\u093e\u0928\u093f\u090f Expert \u0915\u093e \u0905\u0917\u0932\u093e Outlook - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hUnYwcklyOWFpOEdMN1h0R1RoaXBpVkZZUDlPdGZlNjBJVllxTkZvV19veFFMSXpUX3h2ZXhvczFHMmdBRjVnckRQd29vX0NCdVJRd2Z3?oc=5",
-          "published": "Thu, 05 Nov 2026 09:33:37 GMT",
+          "title": "Eicher-Tata Motors \u0915\u0947 Q2 Results \u0938\u0947 \u0928\u093f\u0935\u0947\u0936\u0915\u094b\u0902 \u0915\u094b \u0915\u094d\u092f\u093e \u0938\u0902\u0915\u0947\u0924 \u092e\u093f\u0932\u0947\u0902\u0917\u0947? | Tata Motors, Eicher Q2 Results - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDMjNQQ19OX3UzWUVxTzFfWEZZdWlQTXUxX1ByUHJWaDEtcVdBekxKQmx5blQ0WlFFQlJUWEpUdzc5dkROdnZFS2doRTZGdERFNkxyM0t3?oc=5",
+          "published": "Thu, 12 Nov 2026 10:02:37 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -230,14 +206,6 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "tata motors share big breaking news - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JWjBJM2xkS3YyZVJYRlBDMDFHZXBJV1E0WDJGS0JnQjBpamp6VXFRRWlaUDkzdE81aWs2MEhVMWRibE5kNDlSQ3V0ck53WVNRSk8wbDFn?oc=5",
-          "published": "Thu, 05 Nov 2026 11:41:34 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "TATA MOTORS Share Hits Bullish Breakout Next Targets - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oOGVhNjM4WFRBdkFnVHhrQW5jZjlqRUVHclZZbDZIMU1ISWtuRnhIN2dmRjNreDgzdXJ0MG1nWW02YlJVcjd1YnJtTE8ydzN1MU15azRn?oc=5",
           "published": "Mon, 09 Nov 2026 12:05:00 GMT",
@@ -257,10 +225,10 @@
       "sufficient": false
     },
     {
-      "name": "IREDA",
-      "mentions": 5,
+      "name": "Tata Power",
+      "mentions": 7,
       "investor_mentions": 0,
-      "commentary_mentions": 5,
+      "commentary_mentions": 7,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -269,17 +237,80 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "HDFC Bank, IREDA, Suzlon, BEL, BSE, CDSL, IRFC, PNB, NHPC, HAL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UXgwaDk3N1NXcUxVWDlPWjhCV1VGSUxEMnlPbi1pQUJiaDhyOHY1RG5Xdk9FUEVpcWEyZFoyMXNLaWtSejdYdnJlSzFlWXNrWEtjSW5n?oc=5",
-          "published": "Tue, 10 Nov 2026 13:30:08 GMT",
+          "title": "Stock In News: Tata Power, Genus Power, Jyothy Labs \u0938\u092e\u0947\u0924 \u0906\u091c \u0915\u093f\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0930\u0939\u0947\u0917\u093e \u0924\u0917\u0921\u093c\u093e \u090f\u0915\u094d\u0936\u0928? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkSktsMER0Z0lXeXIyTmhyQWQwei1qdVAtSDdsQWwyeWVSWFNFLVhhR0dwaDZ1OTR1Ulc1QmJzZldBckNFbFJyTlAwd3RFb2laXzU4Zmt3?oc=5",
+          "published": "Wed, 11 Nov 2026 02:11:32 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
-          "published": "Thu, 05 Nov 2026 06:05:56 GMT",
+          "title": "Tata Power Q2 Results Preview: \u092e\u0941\u0928\u093e\u092b\u093e \u0914\u0930 \u0906\u092f \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u0940 \u092c\u0922\u093c\u0924 \u0938\u0902\u092d\u0935? | Tata Power Q2 Expectations - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RbkJPd3lVdFBMMFpJcW1KakplM3Zxbi1MQkFxUTZURUF3M2tpd1kzcXVGX1NsbXVjQjNDSE1Ibjk4WUE4SFdnRVU1R3dqNXZoYnp1R1RR?oc=5",
+          "published": "Mon, 09 Nov 2026 10:02:06 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Power Share Price | Tata Power Results \u0906\u091c! \u0928\u0924\u0940\u091c\u094b\u0902 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0916\u0930\u0940\u0926\u0947\u0902 \u092f\u093e \u0915\u0930\u0947\u0902 \u0907\u0902\u0924\u091c\u093e\u0930? \u091f\u094d\u0930\u0947\u0921\u0930\u094d\u0938 \u091c\u093e\u0928\u0947\u0902 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZnZqWXM3dTFoZUVIT19oc1RXNmthN2Q4MzhidWx1dU96eVZEMHY5bjlUYWdldWxtZVQ5akNjQ1ZPcTNpTWxLdmQtck8ydXZCajExNVZ3?oc=5",
+          "published": "Wed, 11 Nov 2026 03:20:59 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Power \u0915\u0947 Q2 Results \u091c\u093e\u0930\u0940, \u0906\u0902\u0915\u0921\u093c\u094b\u0902 \u0928\u0947 \u0915\u093f\u092f\u093e \u0915\u0948\u0938\u093e \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928? Brokerage \u0915\u0940 \u0930\u093e\u092f \u0915\u094d\u092f\u093e? |ETNS - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LX25JUmxVRWZSbVhHZ0RDR0RaM2NsMzFBVi0yalk5NHducWdWcEc1bFJxSTVGdmJmcFZ5eGloa0ItRWZ4YWppcWJIYjFYeXRsRVFyaXlR?oc=5",
+          "published": "Thu, 12 Nov 2026 08:00:03 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Power Q2 Results: \u0915\u0948\u0938\u0947 \u0930\u0939\u0947\u0902\u0917\u0947 \u0928\u0924\u0940\u091c\u0947? Profit \u0914\u0930 Revenue \u092a\u0930 \u0930\u0939\u0947\u0917\u0940 \u0928\u091c\u0930 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZmpTZ21JVDl4RWR6N01Ba1ZoWHkwSGNTcXcxY0pvWkdJcTZybkhoeGNsMllsd3dVVzBlVmRfdDh6Z3ZiVVVnU3dJb1l2NERyTzZ2ZVlR?oc=5",
+          "published": "Mon, 09 Nov 2026 09:44:22 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market LIVE|Tata Power, Hind Copper, Ola, Bajaj Finance, Meesho, Coforge, Cupid \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmaTFURjdIMmpMcVpzRHhSak1BZUpGS0NpWXk4YURobkJkaUVEdzN1dEJ2TGY0SXVYdXVjM1RUTFkxNUx1STdZS3RSLWNxVXlLQmVTWjdR?oc=5",
+          "published": "Thu, 12 Nov 2026 07:33:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "#MarketToday | Tata Power, HFCL, Bajaj Finance, ITC, Aurobindo Pharma among stocks in focus today http://ow.ly/XOmh106InFb - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRmNIWWN2VTZmaGdrTlI4UzFMYlp3MzFmcmM3cW50bTYxMzZyZVo2eGlsNXhlQ3RZQ1FyZ1FrM2E0eWw5YjEwWUtJQlBhdVNsVUFTTkI4ZkZUdXlsQU5WcmktX0pJUDRDbFdaX2hJYUtEVmZWaWhEZXpPUDRmYU1yLUgxQXotS1N2OHlnd2h0UmpHQVVraGJFellBOUVwVnkxcVN3dE1fSDR4NXRGUEhHeVE3T0NJWU5yUnN0SloxSWFyY1AzbU1DS2JtY0dkcDFKWkNDWkFUQ2pQQmc?oc=5",
+          "published": "Thu, 12 Nov 2026 03:41:28 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IREDA",
+      "mentions": 3,
+      "investor_mentions": 0,
+      "commentary_mentions": 3,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Suzlon, IREDA, Kalyan, RVNL, IRFC, JSW Infra, SJVN, Canara Bank, ACME Solar \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nNlk5MjlEOF9wQ2Rad0IyTGw5bGE3N0ZaM2xkTnBpOV9SODhIeDFKSGtpMnpoX3dJV1Y5VHV0Y2RsZzl0UTRkdkRYQXNMYmxfcmdJNlB3?oc=5",
+          "published": "Wed, 11 Nov 2026 07:30:21 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -299,23 +330,15 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        },
-        {
-          "title": "IREDA, BSE, NSE, Websol, Indiabulls, HDFC Bank, ITC, Ashok Leyland, Rolex Rings Stock \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94UUtzaDZVRU5UWkp4aEd4X0x3WHg5SVJ0YmRNRTUyT0VYd3Z0c2l1TkRSTlZNZlhlM2tKdWpZYkRfQ0c5bTVzSXFoVkQ5UkZNZ3dZLXNn?oc=5",
-          "published": "Sat, 07 Nov 2026 04:30:35 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
     },
     {
       "name": "Suzlon Energy",
-      "mentions": 5,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 5,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -324,25 +347,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Suzlon, PC Jew., Kalyan, Senco, Canara Bk, SBI, PNB, OLA, Trent Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05SjNKeHQ2N1h6cnY3OV80YTd5ZGoyN09Hd0FzWmZvSFRmMGZ6VUxGbFlmMlRzRDNzMnppME1TZGhZN2NseXEtS2UyeXUxY3NRcHFQS2xn?oc=5",
-          "published": "Wed, 11 Nov 2026 06:00:17 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "HDFC Bank, IREDA, Suzlon, BEL, BSE, CDSL, IRFC, PNB, NHPC, HAL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UXgwaDk3N1NXcUxVWDlPWjhCV1VGSUxEMnlPbi1pQUJiaDhyOHY1RG5Xdk9FUEVpcWEyZFoyMXNLaWtSejdYdnJlSzFlWXNrWEtjSW5n?oc=5",
-          "published": "Tue, 10 Nov 2026 13:30:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "BSE, NSE, Ashok Ley, Suzlon, IREDA, Zensan Tech, RIL, Motilal Oswal \u0915\u0947 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTWtFb2w1WGNfdDV0OHZMaFdIOEVoeERiQXpfNU12eWhVb1RRVHZEckd4ekZNRWNlOUtWQVFXeEVScE5fcC1QaGwwdzVTRGg2QnZNVDZn?oc=5",
-          "published": "Thu, 05 Nov 2026 06:05:56 GMT",
+          "title": "Suzlon, IREDA, Kalyan, RVNL, IRFC, JSW Infra, SJVN, Canara Bank, ACME Solar \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nNlk5MjlEOF9wQ2Rad0IyTGw5bGE3N0ZaM2xkTnBpOV9SODhIeDFKSGtpMnpoX3dJV1Y5VHV0Y2RsZzl0UTRkdkRYQXNMYmxfcmdJNlB3?oc=5",
+          "published": "Wed, 11 Nov 2026 07:30:21 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -356,51 +363,12 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Suzlon Energy, Waaree Energies, Tata Steel, Union Bank, Indus Towers Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SZkVDZk1DMUNKUVQyaVRJb2lRVlZXSU9tUUNtb2ZPMVFfUjBqTWs5SnczNE9Vd0dZQXlTdFJIQTVNWlJqd01hQTlDMUdYNEpqTkNSOHNB?oc=5",
-          "published": "Wed, 11 Nov 2026 15:00:38 GMT",
+          "title": "SENSEX CROSSES 80,000 POINTS | IDFC FIRST BANK | SUZLON | CDSL | TRIDENT | BSE | RELIANCE POWER |... - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wd2lTODlJODNGdURwbXdKOXhqVTVZWlZYUHczZkk0N1RCQ29Ncm42Um9QZFRENzRqRTVwcWhDc2Rxd0VTVkRrZm5MalRxUS1fMjdKRndB?oc=5",
+          "published": "Fri, 06 Nov 2026 10:00:08 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "ICICI Bank",
-      "mentions": 3,
-      "investor_mentions": 1,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "STOCK INSIGHTS: RIL \u092e\u0947\u0902 \u092c\u0921\u093c\u093e Breakout? HDFC Bank, ICICI Bank, Biocon \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u0940 \u0924\u0947\u091c\u0940 \u092c\u093e\u0915\u0940? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmMllLYXViczJrQmtjWVdhY0VzajJvdzA1eUJQUkxaNFFsYUFmeTA2LWRTMG5PVG1FT212Nlp1eGw5VVVwZWIwMllhbVowUTJBT2NOSlln?oc=5",
-          "published": "Wed, 11 Nov 2026 03:12:42 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Insights: RIL, HDFC Bank \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 | ICICI Bank \u092e\u0947\u0902 \u092e\u094c\u0915\u093e? IT Stocks \u092a\u0930 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ME5zM3BuUGNBZjJBQkduQ0JmX1RCOGpNM0I2MmM5WUptM1ZMc1B6YVlFWFNIWUEwUkc5NkpMMmttWHJfcjJNQXNjMXNtakNQRTJXYnZ3?oc=5",
-          "published": "Thu, 12 Nov 2026 03:12:53 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Nifty 25,000: Sensex Nearly +7,000 in One Week | ICICI Bank, HDFC Bank News | FII DII. - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUd2bEJEUzAtbEIyY2N4WlZ1enhLN3d3UHprUU10d1ZyTkx2Z1JxMW9oVXI5VlJENnQzN2g5YVRETm5ORElNbzEzb1pZOTAwYUU3OWlfMWpadk5rTjZRV2R0b1oxWDdKNzRqSkdyVDF3VHFSaGswYnNCXzZEVDE0WmctQ2R5bUM2b2thOEZ1eW9ua2NvV1NHbnF1ekwtVWVmelgtbU1LNklfZW9vVkE?oc=5",
-          "published": "Sat, 07 Nov 2026 04:22:23 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -437,7 +405,7 @@
       "sufficient": false
     },
     {
-      "name": "Infosys",
+      "name": "ICICI Bank",
       "mentions": 2,
       "investor_mentions": 0,
       "commentary_mentions": 2,
@@ -449,18 +417,49 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Infosys Stock Analysis: Attractive Valuations, But Is a Rally Ahead? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KSEFXbjhCVVRIcjhQV3NrMjNxZ0h4amJ0Zm8yZXk3bXp3Y0RWdXFNWmFubEdBUG9VN1BlZ1lrVE5FRC1RUF91SkhjbF93c0pWQ1lSYlFR?oc=5",
-          "published": "Thu, 05 Nov 2026 08:24:05 GMT",
+          "title": "Stock Insights: RIL, HDFC Bank \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 | ICICI Bank \u092e\u0947\u0902 \u092e\u094c\u0915\u093e? IT Stocks \u092a\u0930 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ME5zM3BuUGNBZjJBQkduQ0JmX1RCOGpNM0I2MmM5WUptM1ZMc1B6YVlFWFNIWUEwUkc5NkpMMmttWHJfcjJNQXNjMXNtakNQRTJXYnZ3?oc=5",
+          "published": "Thu, 12 Nov 2026 03:12:53 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
         {
-          "title": "Comment AI and we\u2019ll send you the full video. As AI stocks bleed in the US, money could be moving towards Indian companies like Infosys and TCS. \ud83c\uddee\ud83c\uddf3 Could India become the next investment destination as global investors look for an AI hedge? #FinanceWi - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3ZTVNbWNpaC1uOG85aGU1UnlMVEtPN1dIdjJXRld6SDFlYll1cUJfZUcybWM2MkNGaHRrZHJPd09aZGxVTVpnOS1LWFpVQ1plb3M3V19n?oc=5",
-          "published": "Wed, 11 Nov 2026 07:26:58 GMT",
-          "subreddit": "instagram",
+          "title": "#MarketToday | YES Bank, HDFC, ICICI Bank, SBI shares: Buy, hold or sell? Targets, US investor takeaways http://ow.ly/o7am106Io8e - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlJDUV9CTTVMS1pGaDZSbmJKeVhfaWRrdGxISnBnUHJ4bm9sTU1obzZqX3pLdWJpUm1FSmhDMWNDZVNENXNEbVhCdWtBREJveTlsNl9RWHRjUThtSEJHeWpGdlFwb0JqU3lydmdWRkFUVUtNT0gzdFZ6Tk13WVY2ZFVUVlhDOGNiWmxSWDF6Rl83d3ZLSUJEdUlleW5mLWZUM3JSZWhCM3JBZHdHZ1pVN2dLS0J6ZVpzeWt2N1RGbUhGTGFOdUwzcXItVmo3QnplUGtuRE5ZSlExeE0?oc=5",
+          "published": "Thu, 12 Nov 2026 06:00:48 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Bharti Airtel",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Bharti Airtel, Mahindra & Mahindra, TVS Motor, Force Motors, Apollo Micro Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ONXVZd294VHZFNzBZdVFmWXpwQktya3BtcktUc3kyd3BDV2dUN1R5LVlBVGt2MzZJa2hPWmd5aXc1WXlQdkVwZXRPYmV1QTB1ZzNZTHZn?oc=5",
+          "published": "Sat, 07 Nov 2026 10:32:10 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live: Sensex, Nifty open in red; Bharti Airtel, HUL down over 1% #stockmarketindia #NewsWithETNow #PD@ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOek1lU3hPQ1RIU1NYcEh2QU1LXy0wNE1rd3gxbk9FbnlEX2ROanN2NXdWMUxGZC1teFRNWlhLY2VMYjR1TFdMWlFEcU95MWtjLU5RSnZlMDNGVy1MM29yQll3aEpBMUFOTURxX3VqM2M2RXBGNUhJRjVwcDFQdWg0QTF2SkhJTDhZRmhmVk9Kc1R0U0FObGZRSXJkMWFZX0RDSzRnQTFfa2pGTzNVQl83OHdNYXdKcXFnMVptZDc0eG1YN2UwZERialR1amFzSGlp?oc=5",
+          "published": "Thu, 12 Nov 2026 03:49:31 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -511,9 +510,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "HDFC Bank, IREDA, Suzlon, BEL, BSE, CDSL, IRFC, PNB, NHPC, HAL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UXgwaDk3N1NXcUxVWDlPWjhCV1VGSUxEMnlPbi1pQUJiaDhyOHY1RG5Xdk9FUEVpcWEyZFoyMXNLaWtSejdYdnJlSzFlWXNrWEtjSW5n?oc=5",
-          "published": "Tue, 10 Nov 2026 13:30:08 GMT",
+          "title": "Suzlon, IREDA, Kalyan, RVNL, IRFC, JSW Infra, SJVN, Canara Bank, ACME Solar \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nNlk5MjlEOF9wQ2Rad0IyTGw5bGE3N0ZaM2xkTnBpOV9SODhIeDFKSGtpMnpoX3dJV1Y5VHV0Y2RsZzl0UTRkdkRYQXNMYmxfcmdJNlB3?oc=5",
+          "published": "Wed, 11 Nov 2026 07:30:21 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -530,41 +529,10 @@
       "sufficient": false
     },
     {
-      "name": "ONGC",
+      "name": "Canara Bank",
       "mentions": 2,
-      "investor_mentions": 1,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Adjustments in F&O contracts of ONGC on account of extraordinary dividend November 2026",
-          "url": "https://tradingqna.com/t/adjustments-in-f-o-contracts-of-ongc-on-account-of-extraordinary-dividend-november-2026/199390",
-          "published": "Mon, 09 Nov 2026 08:53:52 +0000",
-          "subreddit": "tradingqna",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        },
-        {
-          "title": "Stock Market : Tata Steel, ONGC, Gujarat Energy, Hindalco Stocks \u092e\u0947\u0902 \u0915\u092e\u093e\u0908 \u0915\u093e \u092e\u094c\u0915\u093e? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hMU9MSERncVl2SzNvSFR5OVFRbjNhNmE1VF9lZW1tN3hQQlpOM0ZqOUNXS3FUa2N1OWhNU2JzWUVFeS1heTd2VktyRi1Cc0xxMTFJWTln?oc=5",
-          "published": "Mon, 09 Nov 2026 07:00:22 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Bharti Airtel",
-      "mentions": 1,
       "investor_mentions": 0,
-      "commentary_mentions": 1,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -573,9 +541,79 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live: Sensex, Nifty open in red; Bharti Airtel, HUL down over 1% #stockmarketindia #NewsWithETNow #PD@ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOek1lU3hPQ1RIU1NYcEh2QU1LXy0wNE1rd3gxbk9FbnlEX2ROanN2NXdWMUxGZC1teFRNWlhLY2VMYjR1TFdMWlFEcU95MWtjLU5RSnZlMDNGVy1MM29yQll3aEpBMUFOTURxX3VqM2M2RXBGNUhJRjVwcDFQdWg0QTF2SkhJTDhZRmhmVk9Kc1R0U0FObGZRSXJkMWFZX0RDSzRnQTFfa2pGTzNVQl83OHdNYXdKcXFnMVptZDc0eG1YN2UwZERialR1amFzSGlp?oc=5",
-          "published": "Thu, 12 Nov 2026 03:49:31 GMT",
+          "title": "Suzlon, IREDA, Kalyan, RVNL, IRFC, JSW Infra, SJVN, Canara Bank, ACME Solar \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nNlk5MjlEOF9wQ2Rad0IyTGw5bGE3N0ZaM2xkTnBpOV9SODhIeDFKSGtpMnpoX3dJV1Y5VHV0Y2RsZzl0UTRkdkRYQXNMYmxfcmdJNlB3?oc=5",
+          "published": "Wed, 11 Nov 2026 07:30:21 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "PNB, Canara Bank, IREDA, IRCON, IRFC, Meesho, SPML, MIC Electronic share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kT0hReWxUd2ZRX0N2Qm9LcmYwU3N2U2dhT201MWRnaWpjX0RCaTgxSmNVY1FCSHRlOWgza1NmQll1Q196VnhNNXNfSE9PRnI1ZlBEZnFn?oc=5",
+          "published": "Mon, 09 Nov 2026 12:30:16 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "IDFC First Bank",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "SENSEX CROSSES 80,000 POINTS | IDFC FIRST BANK | SUZLON | CDSL | TRIDENT | BSE | RELIANCE POWER |... - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wd2lTODlJODNGdURwbXdKOXhqVTVZWlZYUHczZkk0N1RCQ29Ncm42Um9QZFRENzRqRTVwcWhDc2Rxd0VTVkRrZm5MalRxUS1fMjdKRndB?oc=5",
+          "published": "Fri, 06 Nov 2026 10:00:08 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Top stock market recommendations: IDFC First Bank, Bajaj Holdings And Investment, and TCS are the top stocks to buy as per Aakash K Hindocha, Vice President - Research, Nuvama Professional Clients Group/Nuvama Wealth\u2019s recommendation for Novem - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMDRhT3d5VnJ1XzZRSTNmWFpqQzhKRU8yR09wcEViZkhVODVSQ19ueDgwNWVrVGJramY2QW5ISDNhZkRLU2IwVEQyUHNJN0hTWEppYTgtRVdtZi1LaVV2WlYwSl83OUlKTjhBLVFaY2JfX3lkQV9LVWtuLW1uMEJxZ3lnS2JfVG5kcXBTNEo2bHhZbTVBdVhMVFRqQW83UUZxaDZaWDlScDVKTUQ2YTdmT2lMZlBtWG1SWFl4N3lGSnJZSmRlRklBTjVXVmwyUUVrSXNiVFRvWGM?oc=5",
+          "published": "Thu, 12 Nov 2026 04:01:20 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "CDSL",
+      "mentions": 2,
+      "investor_mentions": 0,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "SENSEX CROSSES 80,000 POINTS | IDFC FIRST BANK | SUZLON | CDSL | TRIDENT | BSE | RELIANCE POWER |... - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wd2lTODlJODNGdURwbXdKOXhqVTVZWlZYUHczZkk0N1RCQ29Ncm42Um9QZFRENzRqRTVwcWhDc2Rxd0VTVkRrZm5MalRxUS1fMjdKRndB?oc=5",
+          "published": "Fri, 06 Nov 2026 10:00:08 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Capital market stocks CAMS, CDSL, Groww, Geojit Financial Services shares witnessed strong buying during the Thursday session - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLXJMLXJ6c1ZKRWpEUVZ5alVpQXVJNjZMazVtOVpjLXp6MDhIeTM5ck5NV1p2cFBuRUZZQjktUHNzczJDRHNKVExQRDJHcG55cDFjX0RlQVBCVGtJVXI4bGpySVI1bkVQeGlMaDhTemx3Vm93MXZocnEzUGJmelNCNk5MTjlhMWtGZlNla05ZOGtLQ01naDEtcy1KWG54Q21HTUktWTNsbEI5OWw1ZlVwdTdxZFpKN0YyYUtfTWFiNUxPRERLOGRNdzZ3aW5tQ095cFJMTU5R?oc=5",
+          "published": "Thu, 12 Nov 2026 07:01:32 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -607,7 +645,7 @@
       "sufficient": false
     },
     {
-      "name": "BHEL",
+      "name": "RVNL",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -619,10 +657,10 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Market Alert for 12 Nov \ud83d\udea8 Market Outlook for 12 November (Thursday): Brent crude above $92 could pressure Indian markets and aviation stocks. Hotter-than-expected US CPI and rising Treasury yields may weigh on global cues. BHEL\u2019s \u20b9600\u2013900 crore Pow - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcERlYVpNamYybFBzelZaaG1ldTJsWlRRSDVVdzVFaHo5QnJvNmlWRlBYcVVONXhjWUZtTW1iOXZNMXNHN1lRUzRPQXFYeTBna1ZFV2RDWWlxRGZGd3ZVU3llcXBVbDJ0YjFBbXRsUGFfMmVDaXdTTFJJaEgwWE51eGZKLVg1SzZaZ1V5STBCcEpjYlUxWDFqREVtbVZnNlhlaVZvcHJPYXhXWHNCZThWRlpVN0pNb19OaHVma2pTOFJIWjlYX3Z2aTE3VUJ4YzVVR0FVWUtKWDVSR2Fvc2RF?oc=5",
-          "published": "Wed, 11 Nov 2026 12:16:32 GMT",
-          "subreddit": "facebook",
+          "title": "Suzlon, IREDA, Kalyan, RVNL, IRFC, JSW Infra, SJVN, Canara Bank, ACME Solar \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nNlk5MjlEOF9wQ2Rad0IyTGw5bGE3N0ZaM2xkTnBpOV9SODhIeDFKSGtpMnpoX3dJV1Y5VHV0Y2RsZzl0UTRkdkRYQXNMYmxfcmdJNlB3?oc=5",
+          "published": "Wed, 11 Nov 2026 07:30:21 GMT",
+          "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -630,7 +668,7 @@
       "sufficient": false
     },
     {
-      "name": "Waaree Energies",
+      "name": "Coal India",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -642,9 +680,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Suzlon Energy, Waaree Energies, Tata Steel, Union Bank, Indus Towers Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SZkVDZk1DMUNKUVQyaVRJb2lRVlZXSU9tUUNtb2ZPMVFfUjBqTWs5SnczNE9Vd0dZQXlTdFJIQTVNWlJqd01hQTlDMUdYNEpqTkNSOHNB?oc=5",
-          "published": "Wed, 11 Nov 2026 15:00:38 GMT",
+          "title": "Coal India \u0915\u0940 \u090f\u0915 \u0914\u0930 \u0915\u0902\u092a\u0928\u0940 \u0915\u093e IPO! Mahanadi Coalfields IPO \u0915\u094b SEBI \u0915\u0940 \u092e\u0902\u091c\u0942\u0930\u0940 | \u20b99,000 \u0915\u0930\u094b\u0921\u093c \u0915\u093e \u0907\u0936\u094d\u092f\u0942? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBodzVnb0VxQTFUS2dyMklwck03UGlqeFRMTzFfaGxpV2F2X21GLVBPcmhRckxweVk0RGpvNFVPRlN0NzFXYmU0LXdSNm9ZZ0pXejNZZ193?oc=5",
+          "published": "Mon, 09 Nov 2026 06:30:24 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -676,7 +714,7 @@
       "sufficient": false
     },
     {
-      "name": "NHPC",
+      "name": "Yes Bank",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -688,101 +726,9 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "HDFC Bank, IREDA, Suzlon, BEL, BSE, CDSL, IRFC, PNB, NHPC, HAL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UXgwaDk3N1NXcUxVWDlPWjhCV1VGSUxEMnlPbi1pQUJiaDhyOHY1RG5Xdk9FUEVpcWEyZFoyMXNLaWtSejdYdnJlSzFlWXNrWEtjSW5n?oc=5",
-          "published": "Tue, 10 Nov 2026 13:30:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Tata Power",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Stock In News: Tata Power, Genus Power, Jyothy Labs \u0938\u092e\u0947\u0924 \u0906\u091c \u0915\u093f\u0928 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0930\u0939\u0947\u0917\u093e \u0924\u0917\u0921\u093c\u093e \u090f\u0915\u094d\u0936\u0928? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkSktsMER0Z0lXeXIyTmhyQWQwei1qdVAtSDdsQWwyeWVSWFNFLVhhR0dwaDZ1OTR1Ulc1QmJzZldBckNFbFJyTlAwd3RFb2laXzU4Zmt3?oc=5",
-          "published": "Wed, 11 Nov 2026 02:11:32 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Adani Ports",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Adani Ports and Special Economic Zone Limited agrees to acquire 100% of Evos B.V., Europe\u2019s 2nd largest independent liquid storage operator, at an enterprise value of \u20ac2.56 bn - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTUJkbmlwSmpmeTBrdmFxWFZDWEFLcnlzQW5rUFdhUXRXdXZ5emFjQS1YTE8yU0kxeUpjTk5peng3S3pwRGVPVVRCOUNBaGhKN3prdk0wQ2kzeGpMNlFwbUZteUZCQThIZk45d0lfTHZ5ZjEtcGtXRV93cUh4U2twcERkMnZ5cVp6UXVVRnh0akNVZThaUFptWHBoZFFzTTlrZ2RZTEZXYmg?oc=5",
-          "published": "Thu, 05 Nov 2026 10:24:34 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Canara Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "PNB, Canara Bank, IREDA, IRCON, IRFC, Meesho, SPML, MIC Electronic share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kT0hReWxUd2ZRX0N2Qm9LcmYwU3N2U2dhT201MWRnaWpjX0RCaTgxSmNVY1FCSHRlOWgza1NmQll1Q196VnhNNXNfSE9PRnI1ZlBEZnFn?oc=5",
-          "published": "Mon, 09 Nov 2026 12:30:16 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "IDFC First Bank",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Top stock market recommendations: IDFC First Bank, Bajaj Holdings And Investment, and TCS are the top stocks to buy as per Aakash K Hindocha, Vice President - Research, Nuvama Professional Clients Group/Nuvama Wealth\u2019s recommendation for Novem - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMDRhT3d5VnJ1XzZRSTNmWFpqQzhKRU8yR09wcEViZkhVODVSQ19ueDgwNWVrVGJramY2QW5ISDNhZkRLU2IwVEQyUHNJN0hTWEppYTgtRVdtZi1LaVV2WlYwSl83OUlKTjhBLVFaY2JfX3lkQV9LVWtuLW1uMEJxZ3lnS2JfVG5kcXBTNEo2bHhZbTVBdVhMVFRqQW83UUZxaDZaWDlScDVKTUQ2YTdmT2lMZlBtWG1SWFl4N3lGSnJZSmRlRklBTjVXVmwyUUVrSXNiVFRvWGM?oc=5",
-          "published": "Thu, 12 Nov 2026 04:01:20 GMT",
+          "title": "#MarketToday | YES Bank, HDFC, ICICI Bank, SBI shares: Buy, hold or sell? Targets, US investor takeaways http://ow.ly/o7am106Io8e - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlJDUV9CTTVMS1pGaDZSbmJKeVhfaWRrdGxISnBnUHJ4bm9sTU1obzZqX3pLdWJpUm1FSmhDMWNDZVNENXNEbVhCdWtBREJveTlsNl9RWHRjUThtSEJHeWpGdlFwb0JqU3lydmdWRkFUVUtNT0gzdFZ6Tk13WVY2ZFVUVlhDOGNiWmxSWDF6Rl83d3ZLSUJEdUlleW5mLWZUM3JSZWhCM3JBZHdHZ1pVN2dLS0J6ZVpzeWt2N1RGbUhGTGFOdUwzcXItVmo3QnplUGtuRE5ZSlExeE0?oc=5",
+          "published": "Thu, 12 Nov 2026 06:00:48 GMT",
           "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -814,7 +760,30 @@
       "sufficient": false
     },
     {
-      "name": "Maruti Suzuki",
+      "name": "ONGC",
+      "mentions": 1,
+      "investor_mentions": 1,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Adjustments in F&O contracts of ONGC on account of extraordinary dividend November 2026",
+          "url": "https://tradingqna.com/t/adjustments-in-f-o-contracts-of-ongc-on-account-of-extraordinary-dividend-november-2026/199390",
+          "published": "Mon, 09 Nov 2026 08:53:52 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "HFCL",
       "mentions": 1,
       "investor_mentions": 0,
       "commentary_mentions": 1,
@@ -826,57 +795,11 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Muhurat Trading Breaks 9-Year Record | Markets End in the Red Indian markets ended Muhurat Trading in the red for the first time since 2017. Sensex and Nifty closed lower, while select stocks like Sun Pharma, Tata Steel and Maruti Suzuki traded higher. Her - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBscUtPNHNvRnhCMlNobWZqbE53ajk0QjNyNzRBZW9LdXczT1A5YlczQUJqYmtqWkEtdnRxaWtDd3pMMlpHZUJXaTRpbTFZOFJvZGJjRDRB?oc=5",
-          "published": "Mon, 09 Nov 2026 10:50:05 GMT",
-          "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "CDSL",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "HDFC Bank, IREDA, Suzlon, BEL, BSE, CDSL, IRFC, PNB, NHPC, HAL \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UXgwaDk3N1NXcUxVWDlPWjhCV1VGSUxEMnlPbi1pQUJiaDhyOHY1RG5Xdk9FUEVpcWEyZFoyMXNLaWtSejdYdnJlSzFlWXNrWEtjSW5n?oc=5",
-          "published": "Tue, 10 Nov 2026 13:30:08 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "BSE Ltd",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 1,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Top Stocks Of The Day: BSE Stock Result | Apollo Hospital Q2 | urobindo Pharma Result | Stock to Buy #stockmarketindia #stocksinnews - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTnZzNnFlQXJ1enRCajFfaGpfdmZTNVBFQmZYM2xEd2NzRWVFNHlHODdNWnpMdW9Qc2F1ckMyWWdZRkZoakZ2WUR4dzktbVE4SWt1RVdfaWEtRmxPY1dtdjl0V1RRcUR0d2ozaXpYN3VNZ1Nkdm9hdHVaTXJoV1NGTjFYc2RMOEZWU0d2V2lCc2ZwWlRBb3NMcHY0WlliQzd5ZEN5cVcyZTJzc1hhUDJaclEyV3haZVhFampSSloycl9DcGVndEVRbjVmWUUxektiLTZiRFVn?oc=5",
-          "published": "Thu, 05 Nov 2026 07:23:50 GMT",
+          "title": "#MarketToday | Tata Power, HFCL, Bajaj Finance, ITC, Aurobindo Pharma among stocks in focus today http://ow.ly/XOmh106InFb - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRmNIWWN2VTZmaGdrTlI4UzFMYlp3MzFmcmM3cW50bTYxMzZyZVo2eGlsNXhlQ3RZQ1FyZ1FrM2E0eWw5YjEwWUtJQlBhdVNsVUFTTkI4ZkZUdXlsQU5WcmktX0pJUDRDbFdaX2hJYUtEVmZWaWhEZXpPUDRmYU1yLUgxQXotS1N2OHlnd2h0UmpHQVVraGJFellBOUVwVnkxcVN3dE1fSDR4NXRGUEhHeVE3T0NJWU5yUnN0SloxSWFyY1AzbU1DS2JtY0dkcDFKWkNDWkFUQ2pQQmc?oc=5",
+          "published": "Thu, 12 Nov 2026 03:41:28 GMT",
           "subreddit": "facebook",
-          "sentiment": "bullish",
+          "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
       ],
@@ -906,29 +829,6 @@
       "sufficient": false
     },
     {
-      "name": "CG Power",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Share Market : Tata Steel, HDFC Bank, Hindalco \u0914\u0930 CG Power stocks \u0915\u0939\u093e\u0902 \u0939\u094b\u0917\u0940 \u092e\u094b\u091f\u0940 \u0915\u092e\u093e\u0908? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1OTFmbzRMRzJtYzhHTXU4cnhFaHZlbWNpRjRXLVFsdndNeXh6dEp3S1hNZTVBbHBjVzZYVmJ4RGphdlpOSERsZ1ZjajdzWUJsRlFCN3BB?oc=5",
-          "published": "Wed, 11 Nov 2026 07:00:11 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "SBI",
       "mentions": 0,
       "investor_mentions": 0,
@@ -944,6 +844,20 @@
     },
     {
       "name": "Tata Consultancy Services",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -985,7 +899,7 @@
       "sufficient": false
     },
     {
-      "name": "RVNL",
+      "name": "BHEL",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1000,6 +914,20 @@
     },
     {
       "name": "Zomato / Eternal",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Waaree Energies",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1055,35 +983,21 @@
       "sufficient": false
     },
     {
-      "name": "Coal India",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Yes Bank",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "JP Power",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "NHPC",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1153,6 +1067,20 @@
       "sufficient": false
     },
     {
+      "name": "Adani Ports",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
       "name": "Punjab National Bank",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1182,6 +1110,20 @@
     },
     {
       "name": "Axis Bank",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "Maruti Suzuki",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1251,20 +1193,6 @@
       "sufficient": false
     },
     {
-      "name": "HFCL",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "RailTel",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1280,6 +1208,20 @@
     },
     {
       "name": "Titagarh Rail",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "BSE Ltd",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
@@ -1350,6 +1292,20 @@
     },
     {
       "name": "Polycab",
+      "mentions": 0,
+      "investor_mentions": 0,
+      "commentary_mentions": 0,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [],
+      "sufficient": false
+    },
+    {
+      "name": "CG Power",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
