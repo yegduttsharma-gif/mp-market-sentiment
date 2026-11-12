@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-12T13:07:34.885571+00:00",
+  "collected_at": "2026-11-12T20:46:41.539516+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -44,35 +44,21 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 134,
+  "unique_titles": 133,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
         {
-          "title": "same NIFTY 5-min candle. same session. different OHLC. what exactly changed?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xu4u54/same_nifty_5min_candle_same_session_different/",
+          "title": "Nifty it\u2019s done bro",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xucrup/nifty_its_done_bro/",
           "source": "IndianStockMarket",
-          "published": "2026-11-12T05:49:06+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY 17 NOV POLL TP",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xu4fbw/nifty_17_nov_poll_tp/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-12T05:25:08+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Finally seeing green after August, but if this is the best of nifty (25k+), will it go up?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xu3u6n/finally_seeing_green_after_august_but_if_this_is/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-12T04:54:01+00:00",
+          "published": "2026-11-12T13:29:11+00:00",
           "sentiment": "neutral"
         }
       ]
@@ -80,11 +66,19 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Which Stocks Moved NIFTY Today? Free Screener for Stock Market: NIFTY, BANK NIFTY, SENSEX Points",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xujilh/which_stocks_moved_nifty_today_free_screener_for/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-12T17:50:44+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     },
     "SENSEX": {
       "bullish": 0,
@@ -95,10 +89,10 @@
       "label": "Insufficient Evidence",
       "evidence": [
         {
-          "title": "Market is going to dip in SENSEX EXPIRY.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xu3ubs/market_is_going_to_dip_in_sensex_expiry/",
+          "title": "Which Stocks Moved NIFTY Today? Free Screener for Stock Market: NIFTY, BANK NIFTY, SENSEX Points",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xujilh/which_stocks_moved_nifty_today_free_screener_for/",
           "source": "IndianStockMarket",
-          "published": "2026-11-12T04:54:15+00:00",
+          "published": "2026-11-12T17:50:44+00:00",
           "sentiment": "neutral"
         }
       ]
