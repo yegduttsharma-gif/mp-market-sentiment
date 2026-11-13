@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-13T08:42:18.952046+00:00",
+  "collected_at": "2026-11-13T16:45:21.396799+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -33,20 +33,20 @@
         "topics": 50
       },
       "icici bank": {
-        "status": "unavailable",
-        "error": "HTTPError"
-      },
-      "tcs": {
         "status": "ok",
         "topics": 50
+      },
+      "tcs": {
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
         "topics": 50
       },
       "sbi": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 50
       }
     },
     "topics": {
@@ -58,7 +58,7 @@
     "NIFTY 50": {
       "bullish": 2,
       "bearish": 0,
-      "neutral": 54,
+      "neutral": 53,
       "directional": 2,
       "independent_authors": 2,
       "conflicting_authors_excluded": 0,
@@ -101,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 189,
+  "posts_checked": 205,
   "status": "collected"
 }
