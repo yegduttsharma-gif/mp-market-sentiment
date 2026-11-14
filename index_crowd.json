@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T09:18:59.092106+00:00",
+  "collected_at": "2026-11-14T15:53:13.108456+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -44,16 +44,37 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 135,
+  "unique_titles": 134,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 5,
+      "neutral": 8,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Nifty going to make new All time High.",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xw236z/nifty_going_to_make_new_all_time_high/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-14T13:12:03+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Monday nifty gap up or gap down?",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xw16ca/monday_nifty_gap_up_or_gap_down/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-14T12:24:25+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "I backtested every SIP and lumpsum start month on NIFTY 50 since 2007. Lumpsum made more money, but SIP had the better yearly return 80% of the time over 15 years",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xvz7x6/i_backtested_every_sip_and_lumpsum_start_month_on/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-14T10:28:48+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Outperforming nifty 50",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xvq6mh/outperforming_nifty_50/",
