@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-16T11:04:59.574359+00:00",
+  "collected_at": "2026-11-16T20:59:06.620896+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -8,8 +8,8 @@
       "recent": 100
     },
     "IndianStreetBets": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "StockMarketIndia": {
       "status": "unavailable",
@@ -21,11 +21,11 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 26
+      "recent": 23
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 4
+      "recent": 5
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 225,
+  "unique_titles": 127,
   "indices": {
     "NIFTY 50": {
-      "bullish": 1,
-      "bearish": 1,
-      "neutral": 15,
-      "directional": 2,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 4,
+      "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Market is recovering but portfolio is going down. FIIs have made a comeback but only for Nifty stocks it seems. Sometimes I think of selling off my stock portfolio and relying only on MFs. Anyone else facing the same dilemma? What should I do? Need advice.",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xxv5my/market_is_recovering_but_portfolio_is_going_down/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-16T17:17:31+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Be cautious with put option , specially IT stocks and nifty",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xxlaaq/be_cautious_with_put_option_specially_it_stocks/",
@@ -69,104 +76,6 @@
           "sentiment": "neutral"
         },
         {
-          "title": "NIFTY 10-Year Algo Backtest (2016 to 2026, Is it worth it?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xwu040/nifty_10year_algo_backtest_2016_to_2026_is_it/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-15T12:12:47+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Monday nifty gap down?",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xwbj8m/monday_nifty_gap_down/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-14T19:49:48+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Nifty up but Mid micro small cap all are negative. What does it mean?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xxlwms/nifty_up_but_mid_micro_small_cap_all_are_negative/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-16T10:20:17+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY Option Buying Strategy (4 Indicators): Har Saal Profit? #shorts",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xxdwqq/nifty_option_buying_strategy_4_indicators_har/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-16T02:32:18+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "A parrot that only says UP beat the viral \"70% accurate\" gap-prediction trick on 10 years of Nifty. Here is the test, and why",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xvztyd/a_parrot_that_only_says_up_beat_the_viral_70/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-14T11:06:29+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Backtested the viral \"\u20b94,000 every expiry, 9 of 10 days win\" iron condor on 399 Nifty expiries. The win rate is real, but it depends on one number",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xvyhkb/backtested_the_viral_4000_every_expiry_9_of_10/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-14T09:42:17+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Inflation crosses 6%, FIIs are buying billions, and somehow we're supposed to predict where Nifty goes next \ud83d\ude02",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xvy5z4/inflation_crosses_6_fiis_are_buying_billions_and/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-14T09:20:52+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Before the fresh brokerage targets were issued on November 9\u201312, 2026, the Nifty 50 surged +1,977 points (+8.58%) in a single week. After the predictions were released, the index climbed briefly to 25,299 before consolidating back toward 25,050.",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xvev9k/before_the_fresh_brokerage_targets_were_issued_on/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-13T18:00:04+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Jewellery stocks are up 42% while Nifty barely moved. Are we buying gold or just paying more for it?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xu9zhl/jewellery_stocks_are_up_42_while_nifty_barely/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-12T11:04:49+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY--- Clear Breakout hai bhai!",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xtix4f/nifty_clear_breakout_hai_bhai/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-11T14:19:05+00:00",
-          "sentiment": "bullish"
-        },
-        {
-          "title": "Nifty has gained momentum post-Diwali break. This may be the perfect opportunity to enter the market.",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xt9gk6/nifty_has_gained_momentum_postdiwali_break_this/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-11T05:24:31+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY NAKED PUTS BET",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xt78xv/nifty_naked_puts_bet/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-11T03:27:31+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Bearish Trade idea for NSE Nifty 50",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xsqvgt/bearish_trade_idea_for_nse_nifty_50/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-10T16:09:41+00:00",
-          "sentiment": "bearish"
-        },
-        {
-          "title": "Nifty opening 25100?",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xshtf7/nifty_opening_25100/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-10T08:39:50+00:00",
-          "sentiment": "neutral"
-        },
-        {
           "title": "\ud83c\udfc6 NIFTY Expiry Leaderboard",
           "url": "https://tradingqna.com/t/nifty-expiry-leaderboard/199477",
           "source": "tradingqna",
@@ -178,19 +87,11 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 0,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": [
-        {
-          "title": "9:45 to 11:00 Really the \"Prime Time\" of Nifty/BankNifty Trading..",
-          "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xwkn4x/945_to_1100_really_the_prime_time_of/",
-          "source": "IndianStreetBets",
-          "published": "2026-11-15T02:58:08+00:00",
-          "sentiment": "neutral"
-        }
-      ]
+      "evidence": []
     },
     "SENSEX": {
       "bullish": 0,
