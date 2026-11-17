@@ -18,8 +18,9 @@ on:
       - 'collect.py'
       - '.github/workflows/update.yml'
   schedule:
-    # Request a snapshot every 10 minutes (GitHub scheduling can be delayed).
-    - cron: '3,13,23,33,43,53 * * * *'
+    # Request every 5 minutes, offset from the hour to reduce GitHub Actions congestion.
+    # Runs may still be delayed or skipped by GitHub; the dashboard must report staleness.
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
 concurrency:
   group: pdmp-snapshot-main
