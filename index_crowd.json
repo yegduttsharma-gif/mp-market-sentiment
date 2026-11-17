@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-17T03:39:39.893125+00:00",
+  "collected_at": "2026-11-17T12:28:51.773200+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -21,11 +21,11 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 24
+      "recent": 26
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 4
+      "recent": 3
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,7 +44,7 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 127,
+  "unique_titles": 129,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
@@ -55,24 +55,24 @@
       "label": "Insufficient Evidence",
       "evidence": [
         {
+          "title": "Nifty 50 will cross 26K end of Nov",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xyfbcv/nifty_50_will_cross_26k_end_of_nov/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-17T08:39:44+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "NIFTY F&O vs MCX",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xyaahf/nifty_fo_vs_mcx/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-17T03:47:39+00:00",
+          "sentiment": "neutral"
+        },
+        {
           "title": "Market is recovering but portfolio is going down. FIIs have made a comeback but only for Nifty stocks it seems. Sometimes I think of selling off my stock portfolio and relying only on MFs. Anyone else facing the same dilemma? What should I do? Need advice.",
           "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xxv5my/market_is_recovering_but_portfolio_is_going_down/",
           "source": "IndianStockMarket",
           "published": "2026-11-16T17:17:31+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Be cautious with put option , specially IT stocks and nifty",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xxlaaq/be_cautious_with_put_option_specially_it_stocks/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-16T09:40:58+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Friendly Reminder- Nifty is still stuck in a range!",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xxhv15/friendly_reminder_nifty_is_still_stuck_in_a_range/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-16T06:05:17+00:00",
           "sentiment": "neutral"
         },
         {
@@ -87,11 +87,26 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 0,
+      "neutral": 2,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Markets turn green today and Nifty bank touches all time high!!",
+          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xydasr/markets_turn_green_today_and_nifty_bank_touches/",
+          "source": "IndianStockMarket",
+          "published": "2026-11-17T06:32:33+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "Bank Nifty hits a new all-time high!",
+          "url": "https://tradingqna.com/t/bank-nifty-hits-a-new-all-time-high/199560",
+          "source": "tradingqna",
+          "published": "2026-11-17T06:27:48+00:00",
+          "sentiment": "neutral"
+        }
+      ]
     },
     "SENSEX": {
       "bullish": 0,
