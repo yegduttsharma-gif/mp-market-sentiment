@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-11-17T12:28:51.773200+00:00",
+  "collected_at": "2026-11-17T19:58:23.159640+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
     "IndianStockMarket": {
-      "status": "ok",
-      "recent": 100
+      "status": "unavailable",
+      "error": "HTTPError"
     },
     "IndianStreetBets": {
       "status": "unavailable",
@@ -21,7 +21,7 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 26
+      "recent": 24
     },
     "valuepickr": {
       "status": "ok",
@@ -44,37 +44,16 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 129,
+  "unique_titles": 27,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
-        {
-          "title": "Nifty 50 will cross 26K end of Nov",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xyfbcv/nifty_50_will_cross_26k_end_of_nov/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-17T08:39:44+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "NIFTY F&O vs MCX",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xyaahf/nifty_fo_vs_mcx/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-17T03:47:39+00:00",
-          "sentiment": "neutral"
-        },
-        {
-          "title": "Market is recovering but portfolio is going down. FIIs have made a comeback but only for Nifty stocks it seems. Sometimes I think of selling off my stock portfolio and relying only on MFs. Anyone else facing the same dilemma? What should I do? Need advice.",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xxv5my/market_is_recovering_but_portfolio_is_going_down/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-16T17:17:31+00:00",
-          "sentiment": "neutral"
-        },
         {
           "title": "\ud83c\udfc6 NIFTY Expiry Leaderboard",
           "url": "https://tradingqna.com/t/nifty-expiry-leaderboard/199477",
@@ -87,18 +66,11 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 1,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
-        {
-          "title": "Markets turn green today and Nifty bank touches all time high!!",
-          "url": "https://www.reddit.com/r/IndianStockMarket/comments/1xydasr/markets_turn_green_today_and_nifty_bank_touches/",
-          "source": "IndianStockMarket",
-          "published": "2026-11-17T06:32:33+00:00",
-          "sentiment": "neutral"
-        },
         {
           "title": "Bank Nifty hits a new all-time high!",
           "url": "https://tradingqna.com/t/bank-nifty-hits-a-new-all-time-high/199560",

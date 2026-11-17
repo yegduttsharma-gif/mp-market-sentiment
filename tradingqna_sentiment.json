@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-17T12:29:21.557719+00:00",
+  "collected_at": "2026-11-17T19:58:54.385768+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -37,8 +37,8 @@
         "topics": 50
       },
       "tcs": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "infosys": {
         "status": "ok",
@@ -56,17 +56,13 @@
   },
   "assets": {
     "NIFTY 50": {
-      "bullish": 3,
+      "bullish": 2,
       "bearish": 0,
-      "neutral": 58,
-      "directional": 3,
-      "independent_authors": 3,
+      "neutral": 48,
+      "directional": 2,
+      "independent_authors": 2,
       "conflicting_authors_excluded": 0,
       "evidence": [
-        {
-          "url": "https://www.tradingqna.com/t/199102/11",
-          "sentiment": "bullish"
-        },
         {
           "url": "https://www.tradingqna.com/t/199102/17",
           "sentiment": "bullish"
@@ -80,7 +76,7 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 8,
+      "neutral": 10,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -105,6 +101,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 216,
+  "posts_checked": 192,
   "status": "collected"
 }
