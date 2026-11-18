@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-18T18:48:10.138782+00:00",
+  "collected_at": "2026-11-18T18:57:45.268017+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 623,
+  "posts_collected": 622,
   "source_counts": {
-    "tradingqna": 29,
+    "tradingqna": 28,
     "valuepickr": 3,
-    "indexed_reddit": 211,
-    "youtube": 195,
-    "facebook": 92,
-    "instagram": 93,
-    "total_unique": 623
+    "indexed_reddit": 212,
+    "youtube": 194,
+    "instagram": 97,
+    "facebook": 88,
+    "total_unique": 622
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -62,14 +62,6 @@
       "neutral": 1,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "The Tata Motors Passenger Vehicles (TMPV) stock recovered a bit on Tuesday, rising about 1% after plunging 9% a day earlier. Investors have had to come to terms with the extended recovery timelines now anticipated for subsidiary Jaguar Land Rover Autom - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV0MxRzFhSV9vZElTQllJWVRscUFwMTNMbldpRFdvTVNvbDl1VmhqNXlTXzQ1RWVLdV85ejBRUzdsX3JvbU9FNUZwb19LYllWZmdFbWVwTjNGaEJLeE5zdjNxUE5xVnowY2JtQ2xNWFZVY20wN2d4dVFUUHl4SkNOTGpQamRXM3pMWFIxbWJyMGdNckFHZUEzZnJjSTNLRVJjd0huTDg2RnJoblZhRFk2OWs0RDMxX1Y1Mjk2aG5SNWhmSzhWdkZjcjlMcUtYUkh3QkMwbWowQQ?oc=5",
-          "published": "Tue, 17 Nov 2026 09:56:52 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
         {
           "title": "Tata \u0921\u0942\u092c\u0928\u0947 \u0935\u093e\u0932\u0940 \u0939\u0948? Share Market \u0938\u0947 \u0932\u0947\u0915\u0930 Tata Motors \u092e\u093e\u0930\u094d\u0915\u0947\u091f \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u092c\u0921\u093c\u093e \u0917\u093f\u0930\u093e\u0935 \u0906 \u0930\u0939\u093e? Paisa Pinch - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWQ0Q1VWRzOWNFc0tuY2NHYVNjeXNnckxDTUZsX2NIMlE5Z2E1TWtPcHdMQkc1NDc0aldISW9kQjQ3VmhyWnhMczA3dzZ6dk1VMEpmTkZ3?oc=5",
@@ -157,6 +149,14 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Tata Motors or M&M? Experts Decode the Auto Stock Outlook | Market Closing | ET Now - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KeF85ZWlDbEk3MDFaVXJSS3lUR2hub0oxODZiOGQ5S3pCVVdhVWNjcks0bU5XTE1VbUQ3dTAwTFhvVjhNeFJEY1RTR1l5V01ITG9ES0RR?oc=5",
+          "published": "Fri, 13 Nov 2026 11:03:10 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
         }
       ],
       "sufficient": false
@@ -173,14 +173,6 @@
       "neutral": 0,
       "bullish_pct": null,
       "evidence": [
-        {
-          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
-          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
         {
           "title": "Your Stocks | Tata Motors PV \u0914\u0930 IREDA \u0938\u092e\u0947\u0924 \u0915\u0908 \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u0939\u0932\u091a\u0932 \u0915\u0947 \u0938\u0902\u0915\u0947\u0924, \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902 Traders? | ETNS - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwa1VxOHpFMkdRM0t6TmlzRnpOTGY1RnVuQmJfdkZwWlpraWY5NmRVZGZfdzdFcE5uNWFxaHYyTlZXVnpBUktjV1Y2Rjh1UzIxM1lib0VB?oc=5",
@@ -210,6 +202,14 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UckMwWEVwc0sxbjVJVlFUTlltQlQzSFVhZFU3VTQtRUtEdk5jRjh4ZW1QMG4ySXJBR1N1clB1SE5xLTZIdHlkRlVoZ19yT2Z3N2EtNjRR?oc=5",
           "published": "Tue, 17 Nov 2026 07:30:46 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
+          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -245,18 +245,18 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "We waited 13 years for GTA 6. Here\u2019s what India\u2019s biggest stocks did while we waited \ud83d\udc40 When GTA 5 dropped in 2013, you were saving up for a PS3. ICICI Bank was \u20b9177 (split-adjusted). Today it\u2019s \u20b91,607. SBI, Reliance, Bharti Airtel, HDFC Bank and the Nift - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3BILW9zXzlkZHhlcUIyU0VoTjBJdktJeGR5cDE2Zkk3NHJXS05PaWZhai1zc3d3a0xmQ3hhbzhPTzFabTFpU1oxTWp1VGkzQ0I3NEJKa3BHV2pRZm1zNUlsTk5yTTQ0dG1PQlNmTTJNN29MRXpqZE4xMVJrNUg1NTlmNjJueXdrQWwyZ0txNXktRTVYWFhaamhBalBXZkttUU10aVFUeWxGU0FJYUJSQmpfdDVHTXQyRzl3bHRTTEdNaThHV3RQcmx6Zm5tN1U1RGc?oc=5",
-          "published": "Wed, 18 Nov 2026 12:03:30 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Banking Stocks Rally: Sunny Agrawal's Top Private Bank, PSU Bank And Financial Stock Picks #BankingStocks #PrivateBanks #PSUBanks #HDFCBank #ICICIBank #FederalBank #KarurVysyaBank #IndianBank #BFSI #CapitalMarkets #BSE #NSE #Groww # - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTZ1BEa0xxQ0dxZlB5Y0N5SWFPVHZ0NWdFLWkycWl1TGlFLWV4OUNxWVBEVEVLcm92Tkd2clZOeDMyR2JIWDZYR2o0cWV0Wk51dzBVRHh3?oc=5",
           "published": "Tue, 17 Nov 2026 07:37:31 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "We waited 13 years for GTA 6. Here\u2019s what India\u2019s biggest stocks did while we waited \ud83d\udc40 When GTA 5 dropped in 2013, you were saving up for a PS3. ICICI Bank was \u20b9177 (split-adjusted). Today it\u2019s \u20b91,607. SBI, Reliance, Bharti Airtel, HDFC Bank and the Nift - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3BILW9zXzlkZHhlcUIyU0VoTjBJdktJeGR5cDE2Zkk3NHJXS05PaWZhai1zc3d3a0xmQ3hhbzhPTzFabTFpU1oxTWp1VGkzQ0I3NEJKa3BHV2pRZm1zNUlsTk5yTTQ0dG1PQlNmTTJNN29MRXpqZE4xMVJrNUg1NTlmNjJueXdrQWwyZ0txNXktRTVYWFhaamhBalBXZkttUU10aVFUeWxGU0FJYUJSQmpfdDVHTXQyRzl3bHRTTEdNaThHV3RQcmx6Zm5tN1U1RGc?oc=5",
+          "published": "Wed, 18 Nov 2026 12:03:30 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -284,18 +284,18 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
-          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Indian I.T. Stocks: Can Infosys, Wipro And HCL Tech Regain Their Growth Momentum? #IndianIT #ITStocks #Infosys #Wipro #HCLTech #ArtificialIntelligence #AIDisruption #ITServices #TechStocks #IndianITSector #ITIndustry #AIRevolution #StockMarket #In - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jUE11Y015b0VFeEZkWnpLNFlYb2xCcHRfYzdna3EzMUtKSjZrZmVpaXpQQnFTZ2ZZMHJONlA4WDM1M19pVVk0R09DcXJyQmNCSE5mUFNB?oc=5",
           "published": "Mon, 16 Nov 2026 08:20:59 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
+          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -323,14 +323,6 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
-          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "TATA MOTORS Q2 Results ( \u092d\u092f\u0902\u0915\u0930 LOSS )\u26ab TVS Q2 \u26ab Ashok Leyland Q2 \u26ab Patanjali Q2 \u26ab Vodafone idea SMKC - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13RHRzRGVxbURucFhKb2hybnRUUFNGbmdUS0s2YTNZLV9sZkFudXNtMWVVaTJYVHFVQzZPTE5Db1R1NHY3UGZsX3NYdzVOeEMzRGU4UHpR?oc=5",
           "published": "Sat, 14 Nov 2026 16:00:50 GMT",
@@ -351,6 +343,14 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWWjNLQUFFTEVUanJSbEFhMENoMWRMSnNwSHlhMnZEM2NkWmQ4SHd5ZUZSR3dINTFmUUplSUZOa2dEc1JuU3RqZ0tuVGdqeGxPc18tbGp3?oc=5",
           "published": "Fri, 13 Nov 2026 09:30:22 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
+          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -425,18 +425,18 @@
           "evidence_type": "market_commentary"
         },
         {
-          "title": "We waited 13 years for GTA 6. Here\u2019s what India\u2019s biggest stocks did while we waited \ud83d\udc40 When GTA 5 dropped in 2013, you were saving up for a PS3. ICICI Bank was \u20b9177 (split-adjusted). Today it\u2019s \u20b91,607. SBI, Reliance, Bharti Airtel, HDFC Bank and the Nift - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3BILW9zXzlkZHhlcUIyU0VoTjBJdktJeGR5cDE2Zkk3NHJXS05PaWZhai1zc3d3a0xmQ3hhbzhPTzFabTFpU1oxTWp1VGkzQ0I3NEJKa3BHV2pRZm1zNUlsTk5yTTQ0dG1PQlNmTTJNN29MRXpqZE4xMVJrNUg1NTlmNjJueXdrQWwyZ0txNXktRTVYWFhaamhBalBXZkttUU10aVFUeWxGU0FJYUJSQmpfdDVHTXQyRzl3bHRTTEdNaThHV3RQcmx6Zm5tN1U1RGc?oc=5",
-          "published": "Wed, 18 Nov 2026 12:03:30 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Banking Stocks Rally: Sunny Agrawal's Top Private Bank, PSU Bank And Financial Stock Picks #BankingStocks #PrivateBanks #PSUBanks #HDFCBank #ICICIBank #FederalBank #KarurVysyaBank #IndianBank #BFSI #CapitalMarkets #BSE #NSE #Groww # - Instagram",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTZ1BEa0xxQ0dxZlB5Y0N5SWFPVHZ0NWdFLWkycWl1TGlFLWV4OUNxWVBEVEVLcm92Tkd2clZOeDMyR2JIWDZYR2o0cWV0Wk51dzBVRHh3?oc=5",
           "published": "Tue, 17 Nov 2026 07:37:31 GMT",
           "subreddit": "instagram",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "We waited 13 years for GTA 6. Here\u2019s what India\u2019s biggest stocks did while we waited \ud83d\udc40 When GTA 5 dropped in 2013, you were saving up for a PS3. ICICI Bank was \u20b9177 (split-adjusted). Today it\u2019s \u20b91,607. SBI, Reliance, Bharti Airtel, HDFC Bank and the Nift - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3BILW9zXzlkZHhlcUIyU0VoTjBJdktJeGR5cDE2Zkk3NHJXS05PaWZhai1zc3d3a0xmQ3hhbzhPTzFabTFpU1oxTWp1VGkzQ0I3NEJKa3BHV2pRZm1zNUlsTk5yTTQ0dG1PQlNmTTJNN29MRXpqZE4xMVJrNUg1NTlmNjJueXdrQWwyZ0txNXktRTVYWFhaamhBalBXZkttUU10aVFUeWxGU0FJYUJSQmpfdDVHTXQyRzl3bHRTTEdNaThHV3RQcmx6Zm5tN1U1RGc?oc=5",
+          "published": "Wed, 18 Nov 2026 12:03:30 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -464,18 +464,18 @@
           "evidence_type": "investor_discussion"
         },
         {
-          "title": "We waited 13 years for GTA 6. Here\u2019s what India\u2019s biggest stocks did while we waited \ud83d\udc40 When GTA 5 dropped in 2013, you were saving up for a PS3. ICICI Bank was \u20b9177 (split-adjusted). Today it\u2019s \u20b91,607. SBI, Reliance, Bharti Airtel, HDFC Bank and the Nift - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3BILW9zXzlkZHhlcUIyU0VoTjBJdktJeGR5cDE2Zkk3NHJXS05PaWZhai1zc3d3a0xmQ3hhbzhPTzFabTFpU1oxTWp1VGkzQ0I3NEJKa3BHV2pRZm1zNUlsTk5yTTQ0dG1PQlNmTTJNN29MRXpqZE4xMVJrNUg1NTlmNjJueXdrQWwyZ0txNXktRTVYWFhaamhBalBXZkttUU10aVFUeWxGU0FJYUJSQmpfdDVHTXQyRzl3bHRTTEdNaThHV3RQcmx6Zm5tN1U1RGc?oc=5",
-          "published": "Wed, 18 Nov 2026 12:03:30 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "Bharti Airtel, Tata Motors PV, BEL, Eicher Motors, Inox Wind, Pricol Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pN2ZNUWc5RDcweG5JdkNJc3BZZkFwWVEwOW9rWTFaYWpCUERrbFdSdllzMFA1SUdvbG90dndxMkNfcXlycjJlcTlrUGxmSGdfTF9WOVBn?oc=5",
           "published": "Mon, 16 Nov 2026 02:31:10 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "We waited 13 years for GTA 6. Here\u2019s what India\u2019s biggest stocks did while we waited \ud83d\udc40 When GTA 5 dropped in 2013, you were saving up for a PS3. ICICI Bank was \u20b9177 (split-adjusted). Today it\u2019s \u20b91,607. SBI, Reliance, Bharti Airtel, HDFC Bank and the Nift - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3BILW9zXzlkZHhlcUIyU0VoTjBJdktJeGR5cDE2Zkk3NHJXS05PaWZhai1zc3d3a0xmQ3hhbzhPTzFabTFpU1oxTWp1VGkzQ0I3NEJKa3BHV2pRZm1zNUlsTk5yTTQ0dG1PQlNmTTJNN29MRXpqZE4xMVJrNUg1NTlmNjJueXdrQWwyZ0txNXktRTVYWFhaamhBalBXZkttUU10aVFUeWxGU0FJYUJSQmpfdDVHTXQyRzl3bHRTTEdNaThHV3RQcmx6Zm5tN1U1RGc?oc=5",
+          "published": "Wed, 18 Nov 2026 12:03:30 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -495,14 +495,6 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
-          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
           "title": "IREDA, NSE, RVNL, Cupid, SAIL, BSE, MCX, HAL, OLA, SJVN, PNB \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zTjBlQlRGOVdRU2dHT0Q1U3htQUhTR1BzVy1YN2xybW96VWhHSDFPeDJEN2dnUWlVZnFBTkFicmc5RG9rR1YtZXZvUXpCb3lJOXJjczlB?oc=5",
           "published": "Thu, 12 Nov 2026 14:30:16 GMT",
@@ -515,6 +507,14 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWWjNLQUFFTEVUanJSbEFhMENoMWRMSnNwSHlhMnZEM2NkWmQ4SHd5ZUZSR3dINTFmUUplSUZOa2dEc1JuU3RqZ0tuVGdqeGxPc18tbGp3?oc=5",
           "published": "Fri, 13 Nov 2026 09:30:22 GMT",
           "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Stock Market Live | Vodafone Idea, Infosys, IREDA, Polycab India, RVNL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtube.com/live/fV6lxWFZiMo - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbEJGeFY2eGplbjVRWTctdHoySFBtc1AwNVNLVHBVQnRZTG9LQWx4aUlIRmJ6dmpzM0N6Rk1rVmswcWpXdTBiamJXSXZTcGh3eW5tdHJFWFFUZDVEMlZWRFFVa2R1SDZJYTdOc0d4NGFiT081YllNVVlNc0V5MzRfTzhZVzV4aHZ4blRLZFFpVnF5X3RTSTQ1X3dqWmZUWmN3SEhtNjF5czRLUzVid3dITjdOWWExeTlWOUdNV2I0dzVGUUhvVU1xVXA2cFhNS0lXQlZTWWhGdzRiekVmYzNaeG5qQmxwS1h5MXppa1duVm1ab1oxdHo1UE9Pd2VtOTlZdFY4cjlqZXlfQm1YNWx2dXlpSDdHRUVMdXFFLXlOclotSlZzcV9JYjZR?oc=5",
+          "published": "Wed, 18 Nov 2026 07:30:01 GMT",
+          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
