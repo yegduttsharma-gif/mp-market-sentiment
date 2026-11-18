@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-18T02:22:46.702515+00:00",
+  "collected_at": "2026-11-18T10:26:01.462830+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -21,7 +21,7 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 24
+      "recent": 27
     },
     "valuepickr": {
       "status": "ok",
@@ -44,16 +44,30 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 27,
+  "unique_titles": 30,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "Why do so many traders prefer Nifty Futures over ITM options?",
+          "url": "https://tradingqna.com/t/why-do-so-many-traders-prefer-nifty-futures-over-itm-options/199581",
+          "source": "tradingqna",
+          "published": "2026-11-18T09:32:10+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "title": "A NIFTY Simulator thats not behind a paywall?",
+          "url": "https://tradingqna.com/t/a-nifty-simulator-thats-not-behind-a-paywall/199574",
+          "source": "tradingqna",
+          "published": "2026-11-18T07:36:45+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "\ud83c\udfc6 NIFTY Expiry Leaderboard",
           "url": "https://tradingqna.com/t/nifty-expiry-leaderboard/199477",
