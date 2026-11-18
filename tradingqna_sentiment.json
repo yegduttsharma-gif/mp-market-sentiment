@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-18T10:26:27.920913+00:00",
+  "collected_at": "2026-11-18T18:48:33.590090+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -17,8 +17,8 @@
         "topics": 50
       },
       "sensex": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "kpit": {
         "status": "ok",
@@ -29,8 +29,8 @@
         "topics": 50
       },
       "hdfc bank": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "icici bank": {
         "status": "ok",
@@ -41,8 +41,8 @@
         "topics": 50
       },
       "infosys": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       },
       "sbi": {
         "status": "ok",
@@ -50,23 +50,19 @@
       }
     },
     "topics": {
-      "attempted": 75,
+      "attempted": 74,
       "errors": 0
     }
   },
   "assets": {
     "NIFTY 50": {
-      "bullish": 2,
+      "bullish": 1,
       "bearish": 0,
-      "neutral": 46,
-      "directional": 2,
-      "independent_authors": 2,
+      "neutral": 44,
+      "directional": 1,
+      "independent_authors": 1,
       "conflicting_authors_excluded": 0,
       "evidence": [
-        {
-          "url": "https://www.tradingqna.com/t/199102/17",
-          "sentiment": "bullish"
-        },
         {
           "url": "https://www.tradingqna.com/t/199477/5",
           "sentiment": "bullish"
@@ -85,7 +81,7 @@
     "SENSEX": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 0,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -101,6 +97,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 192,
+  "posts_checked": 179,
   "status": "collected"
 }
