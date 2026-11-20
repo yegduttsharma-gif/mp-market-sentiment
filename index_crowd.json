@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-20T04:24:38.221706+00:00",
+  "collected_at": "2026-11-20T13:24:39.389511+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -21,11 +21,11 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 21
+      "recent": 24
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 5
+      "recent": 6
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 26,
+  "unique_titles": 30,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 2,
+      "neutral": 3,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "I dont have account in Zerodha. I want to know if index based stoploss is available in tradig Nifty options. Any one who are trading Nifty options can clarify me",
+          "url": "https://tradingqna.com/t/i-dont-have-account-in-zerodha-i-want-to-know-if-index-based-stoploss-is-available-in-tradig-nifty-options-any-one-who-are-trading-nifty-options-can-clarify-me/199604",
+          "source": "tradingqna",
+          "published": "2026-11-20T09:14:22+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "Why do so many traders prefer Nifty Futures over ITM options?",
           "url": "https://tradingqna.com/t/why-do-so-many-traders-prefer-nifty-futures-over-itm-options/199581",
