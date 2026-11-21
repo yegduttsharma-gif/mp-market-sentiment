@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T17:37:52.978435+00:00",
+  "collected_at": "2026-11-21T22:23:12.077985+00:00",
   "platform": "ValuePickr",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -56,13 +56,18 @@
   },
   "assets": {
     "NIFTY 50": {
-      "bullish": 0,
+      "bullish": 1,
       "bearish": 0,
-      "neutral": 3,
-      "directional": 0,
-      "independent_authors": 0,
+      "neutral": 5,
+      "directional": 1,
+      "independent_authors": 1,
       "conflicting_authors_excluded": 0,
-      "evidence": []
+      "evidence": [
+        {
+          "url": "https://forum.valuepickr.com/t/226208/2",
+          "sentiment": "bullish"
+        }
+      ]
     },
     "BANK NIFTY": {
       "bullish": 0,
@@ -92,6 +97,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 39,
+  "posts_checked": 46,
   "status": "collected"
 }
