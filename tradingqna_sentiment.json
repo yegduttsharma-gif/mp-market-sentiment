@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T10:15:22.979981+00:00",
+  "collected_at": "2026-11-21T17:37:15.300963+00:00",
   "platform": "TradingQnA",
   "method": "public_forum_expanded_stock_search_unique_author_v3",
   "source_health": {
@@ -21,8 +21,8 @@
         "topics": 50
       },
       "kpit": {
-        "status": "unavailable",
-        "error": "HTTPError"
+        "status": "ok",
+        "topics": 33
       },
       "reliance": {
         "status": "ok",
@@ -45,8 +45,8 @@
         "topics": 50
       },
       "sbi": {
-        "status": "ok",
-        "topics": 50
+        "status": "unavailable",
+        "error": "HTTPError"
       }
     },
     "topics": {
@@ -67,7 +67,7 @@
     "BANK NIFTY": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 11,
+      "neutral": 10,
       "directional": 0,
       "independent_authors": 0,
       "conflicting_authors_excluded": 0,
@@ -92,6 +92,6 @@
       "evidence": []
     }
   },
-  "posts_checked": 180,
+  "posts_checked": 193,
   "status": "collected"
 }
