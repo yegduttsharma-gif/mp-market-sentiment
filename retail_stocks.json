@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T22:22:17.905595+00:00",
+  "collected_at": "2026-11-22T02:24:45.888679+00:00",
   "method": "explicit_forward_looking_retail_opinion_v16_dedup",
   "sources": [
     "https://www.reddit.com/r/IndianStockMarket/new/.rss?limit=100",
@@ -20,15 +20,15 @@
     "HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "coverage": "Expanded direct Reddit and Discourse RSS plus search-indexed titles, with a seven-day freshness filter. Indexed platform labels are inferred from publisher titles, not verified platform API access. Coverage varies sharply and is not a representative poll.",
-  "posts_collected": 659,
+  "posts_collected": 672,
   "source_counts": {
-    "tradingqna": 30,
-    "valuepickr": 7,
-    "indexed_reddit": 229,
-    "youtube": 199,
-    "instagram": 99,
-    "facebook": 95,
-    "total_unique": 659
+    "tradingqna": 29,
+    "valuepickr": 6,
+    "indexed_reddit": 248,
+    "youtube": 198,
+    "facebook": 94,
+    "instagram": 97,
+    "total_unique": 672
   },
   "direct_feed_health": {
     "tradingqna": {
@@ -41,7 +41,7 @@
     },
     "valuepickr_top": {
       "status": "ok",
-      "recent_items": 5
+      "recent_items": 6
     },
     "tradingqna_active": {
       "status": "ok",
@@ -67,14 +67,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrV3RCbzduNFNEemZCUVhiYVBIcmY2OEdMNEY2aEFZbldtWnNPYjJCSzRJYVVzSUQtNVBCWXl2eWR6emhQXzVCQmppVHdHcEtTRFhlZmZn?oc=5",
           "published": "Tue, 17 Nov 2026 15:50:52 GMT",
           "subreddit": "instagram",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "The Tata Motors Passenger Vehicles (TMPV) stock recovered a bit on Tuesday, rising about 1% after plunging 9% a day earlier. Investors have had to come to terms with the extended recovery timelines now anticipated for subsidiary Jaguar Land Rover Autom - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV0MxRzFhSV9vZElTQllJWVRscUFwMTNMbldpRFdvTVNvbDl1VmhqNXlTXzQ1RWVLdV85ejBRUzdsX3JvbU9FNUZwb19LYllWZmdFbWVwTjNGaEJLeE5zdjNxUE5xVnowY2JtQ2xNWFZVY20wN2d4dVFUUHl4SkNOTGpQamRXM3pMWFIxbWJyMGdNckFHZUEzZnJjSTNLRVJjd0huTDg2RnJoblZhRFk2OWs0RDMxX1Y1Mjk2aG5SNWhmSzhWdkZjcjlMcUtYUkh3QkMwbWowQQ?oc=5",
-          "published": "Tue, 17 Nov 2026 09:56:52 GMT",
-          "subreddit": "facebook",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -157,82 +149,11 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Paytm",
-      "mentions": 8,
-      "investor_mentions": 1,
-      "commentary_mentions": 7,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "What happened to Paytm ? - Reddit",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOE9RVERJVHUtaFF1TFdoYlREcF9yaV91RlJuelBBanlSYTU4ZkJQaklXYVgzZGdwR0tNREJncGlNRmdQOE5oZE1oajR5RGNTemt4N2hSbDJpemdsUG9uOE1xbWJQZ0Z2NEpfQWpRTlpTSUJESDFMb1VUOFdBQkpHa2phUkJuZ2tHVlZr?oc=5",
-          "published": "Thu, 19 Nov 2026 03:51:38 GMT",
-          "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
         },
         {
-          "title": "#ClosingBell: Sensex rockets 898 pts, Nifty ends at 25,800; bank stocks lead gainers #ETMarkets https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-coal-india-share-price-20-nov - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWmJ6bFM3SVg2YXlVOXBUaW1HRFNsWnVHSTBhVDF1NzVQOU1DYXhVWW4tS0tTd0MwTFAzOFM2alo4alQ1RnBJbDlqWUc3bVV3Nk52eEtBbS15T1NUTXl5NGRJUHZNZGVFN2xIY080bGFrdUVRWFdPSUF4MU85VlRJSlk5aUNSRmdlZTgwd3lLZ2VwZWJjanJUZ2JvMW9VaEVVVzUyeWd4ZnZpR0ttTFc4VUlqOVo1Q0EzNHV4SW1tZ0gyWkJseXdva2NVbXNSQ2Qwam9WUzR3?oc=5",
-          "published": "Fri, 20 Nov 2026 10:50:09 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market: Top gainers at this hour Catch all the LIVE updates here https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-coal-india-share-price-20-november-2026/liveblog/1360 - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWWxlNVRodWM5cVFfRUVQTVlMYXRsM3NCRUtqSkRPTnJKSmJ3MTUtSEprUzF3LUY2U2lkaXJlNUhEZTg0OXgzbFFIMmptVms1UkFtZGRMMFFRWjBTQ1dqQVlBNUlwRU5iZVBRc0xXTEZlWng4cXZPWkJRNmZwdHhRcGltcS1SUGtfeWhKdENlQzN5T2N5MGMzVi1vdTZ4OFlfSDNRRHk5TFl0TTNvWXMzM21IWnlBR2tyQUtBU2tvUEFPMmFPLUE?oc=5",
-          "published": "Fri, 20 Nov 2026 06:59:43 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#Sensex bucks Asia's trend, zooms 900 pts; Nifty above 25,750 Catch the LIVE stock market updates https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-coal-india-share-price-20- - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOekpXbHhSX0p0aWIyQjZfQnpOYUFqdElxd2hvQ3dRR3ZIVWRGSEVBSS0zYl8ydzRaY0NnYmVseDhhd2Mzbk5VRGZOeHJMQlJlUURpWWpxcWdjTWxNMUI2UUR6cGZYUTBfcG5URUNfaF9mTzBBVC1CamM3dkl5b1BrU1JYVFFabVpGYTZjSW1pMW00eGNVZ3MwQ1lDN1hfT2ZWNnhnRUpWQmVmWnhIdWxSVlVJZ1JkZ3JJbnJOYkJwRmwtTjdNMVgxYzlFQUVUZ2c3bE9hRUl3?oc=5",
-          "published": "Fri, 20 Nov 2026 08:52:18 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "#OpeningBell: Sensex slides over 400 pts, Nifty below 25,400; Hindalco, Titan drop 2% each https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-coal-india-share-price-20-novemb - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONXR5blFQUm81ampmVFhNODkzV1JURldKQkg3TVBabFVEeEVMR19JclRpT1V1bGpVeWNRTjNfTVVZZkR5cHhMSlhQUkVGRGlqajZQdDllQ3FPNFZlOEVLQ3VadEhxR3hzMnE0RHlVUF9ucll1QTdEOVE1ek5QRVlmMjNReWlTdHZWNVpvZjhRbks3MGhId0RTSm9ObGlVV2dPbV9YWVkwV3poS0pEYjRENW1aUWlkUm92a0Vrd2trWTB5RFc3dVg3TVFNWGZyeHVlc21udDhn?oc=5",
-          "published": "Fri, 20 Nov 2026 03:49:19 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Stock Market Live: Sensex down 200 pts, Nifty below 25,200; Paytm down 7% #stockmarketindia #NewsWithETNow #PD@ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWVVEemFJOE5Ua2hDSVZobGlndVZyS2RMSmQ4ZUVGcmVoVVRoWHJvMnNmZzBoRmNueXB6bjh4RkQ2QWJxN3J3R1l6TXJlT3FuZnRfSThySFFQcXhudEpGbW42TDd1QTQzVGtYZVFIZEx3VEh2OTlPSmY4MUt5N3BGSklnVkRjd2RxX1JfcmFVbWVHbm5nVEFvcFJoYzVWYUFYT3M3R0d3Q2JvSWcwMjVSdGVIbEllMXowdTFOdGQ4SjJZNXhNMnFucjFkNW1vakVz?oc=5",
-          "published": "Thu, 19 Nov 2026 04:04:32 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Paytm \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u093e \u092e\u0941\u0928\u093e\u092b\u093c\u093e? Mudit Goyal #reels #reel #reelsviral #reelsvideo #paytmsharelatestnews paytm share latest news, paytm share price target, paytm share news today, paytm share price, paytm share news today, mudit goyal, share market new - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOdDd1WUR4M0o5TWRNUWJmTkNXZmUtdk53dk05c1l0ekVxS0tCbzZPamJCNGU2QVFYWHYzemJSU0R4WUttTW5JX3NheExJVmdhZWdXNkFHWGNRY3o2ZlpTUjBKUVBLRDBIcE9pYWNRbUFTSjJIR2NsOWlBbjhSZGpaejJnV2Y4NmlBTHlfWHIyWF9MNUNEbmFOdVFxclY4YU5qRV9URXhCQ1ZiUkFSNnlKbzRLWVRvZ3l6Vmd2WTRfa1dyMThwNnAyS2Jyc2ljcFZGdE5XOVMwS3hoTG9OZlI0d1NMR2prLUgwMmZzM2lIMXZzeVhrV0Rqd3B3VC1Pdi1Pc0V5MzdySVA4bjc5eGktWGYzaW1EcERmRVctQlprTFFBalg2OWIyaExjdWU3S21Nazh0YXJwS2dNZzJfRU5Fdy1QeVZsS2dZaVRhNUNpZnhBN1VWQThQZTcxVHF3bzFNR0hnQ1FMcWl1MVBmeEdycWdoNFM?oc=5",
-          "published": "Sat, 21 Nov 2026 12:31:08 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "Paytm, One MobiKwik Shares \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! MDR \u0915\u093e \u0928\u092f\u093e Framework \u0915\u092c \u0906\u090f\u0917\u093e? \u0928\u093f\u0935\u0947\u0936\u0915\u094b\u0902 \u0915\u0940 \u092c\u0922\u093c\u0940 \u091a\u093f\u0902\u0924\u093e! - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GYU9xbGppR21aSHYzd1puV2RpdXFqSldGZVp0enpVTWZQekhXemxlS2xab0NxWmJYM0w5MmZpQU04bGhDQUpHVkRKZmx1OGJYZmtNMDZn?oc=5",
-          "published": "Thu, 19 Nov 2026 04:40:53 GMT",
+          "title": "Key Stocks In Focus: Eicher Motors, ABB India, Tata Motors PV, Manipal Health, Ashok Leyland, Pricol - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5UnZjaUFiOFBGYTd2SEZBWFhHY3MyWG9YbjNhTzY0REZ5NjhfZjJiSndGVlZqd0xKQ2dhVEtXbXN1UVc1YzdUNXF2djlqNE56VnRFSEF3?oc=5",
+          "published": "Mon, 16 Nov 2026 03:34:12 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -242,10 +163,10 @@
     },
     {
       "name": "HDFC Bank",
-      "mentions": 6,
+      "mentions": 7,
       "investor_mentions": 1,
-      "commentary_mentions": 5,
-      "commentary_bullish": 0,
+      "commentary_mentions": 6,
+      "commentary_bullish": 1,
       "commentary_bearish": 0,
       "bullish": 0,
       "bearish": 0,
@@ -277,6 +198,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Stock Of The Day Buy Diamond Power (Cash): SL 362 Tgt 370, 375, 380 Company received big order of 707 Cr from Adani energy Buy HDFC Bank Futures on decline: SL 800 Tgt 828, 835, 842 New MD Anup Bagchi is meeting with Investors in Singapore is v - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcUp1ckFkX2hqMkN1NVN3RE5aR2RIS201cV9rWmMxYmJOZXBwZ1JjLUNpN2pBY1pCM2FHRkx4NmE4bnFyWGtPYS1FSGVrbE15YzUxcnlmRXhMQmM5ZGNnU3l2Q1VKUGI5VW5YRlNyQzhaRHdLMDZvR2g3Q1ZwaDBqVHpzcGRfcDdwMkxlZkhDSGJ4djFOYm9mN0NHSkZ5TTRkeGR3VXVPcjhMR2ZlVGRZRTRJV2owQ09neDlYN1FTdm5qZE5GYU00V0FIMzZiRXhydmdUbGVtZWp2MkNpeEpxY3d3?oc=5",
+          "published": "Fri, 20 Nov 2026 04:08:32 GMT",
+          "subreddit": "facebook",
+          "sentiment": "bullish",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Reliance, PC Jeweller, HDFC Bank, Suzlon, Paras, GNG, JTL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91aEFLcVBMUlpSNFJkLXNVdUFSUE1PNVZyTURZQWVWaTlaNDJ1U3RxQ1hYOWRqQXVFZ2RHVm5KMThDYi14eG9PcmJGSWFxcDM4a2tpSEN3?oc=5",
           "published": "Sat, 21 Nov 2026 15:30:07 GMT",
@@ -305,9 +234,9 @@
     },
     {
       "name": "IREDA",
-      "mentions": 5,
+      "mentions": 6,
       "investor_mentions": 2,
-      "commentary_mentions": 3,
+      "commentary_mentions": 4,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -340,6 +269,14 @@
           "evidence_type": "market_commentary"
         },
         {
+          "title": "Dow Jones -1000 CRASH\ud83d\udcc9\u26abIREDA\u26abTata Technologies\u26abGTA VI\u26abAdani\u26abPW\u26abTata Motors\u26abNvidia\u26abAnthropic Listing - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4ZFVfQTNfQjNmR0UyUmVSdHBNcjRsaU51MmNoV0tZSUp5dXl1LVhHaERxSjJNZXpEQ1BDaGQtVGFSQURsbE9veTJiaU5uRF9NM2dsbm9n?oc=5",
+          "published": "Thu, 19 Nov 2026 18:05:13 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "IREDA, HDFC Bk, PNB, Apollo Mic, Tata Power, RIL, GRSE, Moschip \u0915\u0947 Stocks \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? Vipul Singh - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MQ1pRNDFlT1FhUGFoeUpmWnpDczdZdjlDbjlmMTRuOWpiWjZ6SW9ZRXl4eU4wdUlDV25leGJ3SjlmQ1IzeGNlSlM5YldReGROSXgtTWZB?oc=5",
           "published": "Wed, 18 Nov 2026 14:30:35 GMT",
@@ -359,10 +296,73 @@
       "sufficient": false
     },
     {
+      "name": "Paytm",
+      "mentions": 6,
+      "investor_mentions": 1,
+      "commentary_mentions": 5,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "What happened to Paytm ? - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOE9RVERJVHUtaFF1TFdoYlREcF9yaV91RlJuelBBanlSYTU4ZkJQaklXYVgzZGdwR0tNREJncGlNRmdQOE5oZE1oajR5RGNTemt4N2hSbDJpemdsUG9uOE1xbWJQZ0Z2NEpfQWpRTlpTSUJESDFMb1VUOFdBQkpHa2phUkJuZ2tHVlZr?oc=5",
+          "published": "Thu, 19 Nov 2026 03:51:38 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Stock Market: Top gainers at this hour Catch all the LIVE updates here https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-coal-india-share-price-20-november-2026/liveblog/1360 - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWWxlNVRodWM5cVFfRUVQTVlMYXRsM3NCRUtqSkRPTnJKSmJ3MTUtSEprUzF3LUY2U2lkaXJlNUhEZTg0OXgzbFFIMmptVms1UkFtZGRMMFFRWjBTQ1dqQVlBNUlwRU5iZVBRc0xXTEZlWng4cXZPWkJRNmZwdHhRcGltcS1SUGtfeWhKdENlQzN5T2N5MGMzVi1vdTZ4OFlfSDNRRHk5TFl0TTNvWXMzM21IWnlBR2tyQUtBU2tvUEFPMmFPLUE?oc=5",
+          "published": "Fri, 20 Nov 2026 06:59:43 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "#Sensex bucks Asia's trend, zooms 900 pts; Nifty above 25,750 Catch the LIVE stock market updates https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-paytm-coal-india-share-price-20- - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOekpXbHhSX0p0aWIyQjZfQnpOYUFqdElxd2hvQ3dRR3ZIVWRGSEVBSS0zYl8ydzRaY0NnYmVseDhhd2Mzbk5VRGZOeHJMQlJlUURpWWpxcWdjTWxNMUI2UUR6cGZYUTBfcG5URUNfaF9mTzBBVC1CamM3dkl5b1BrU1JYVFFabVpGYTZjSW1pMW00eGNVZ3MwQ1lDN1hfT2ZWNnhnRUpWQmVmWnhIdWxSVlVJZ1JkZ3JJbnJOYkJwRmwtTjdNMVgxYzlFQUVUZ2c3bE9hRUl3?oc=5",
+          "published": "Fri, 20 Nov 2026 08:52:18 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Paytm \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u093e \u092e\u0941\u0928\u093e\u092b\u093c\u093e? Mudit Goyal #reels #reel #reelsviral #reelsvideo #paytmsharelatestnews paytm share latest news, paytm share price target, paytm share news today, paytm share price, paytm share news today, mudit goyal, share market new - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOdDd1WUR4M0o5TWRNUWJmTkNXZmUtdk53dk05c1l0ekVxS0tCbzZPamJCNGU2QVFYWHYzemJSU0R4WUttTW5JX3NheExJVmdhZWdXNkFHWGNRY3o2ZlpTUjBKUVBLRDBIcE9pYWNRbUFTSjJIR2NsOWlBbjhSZGpaejJnV2Y4NmlBTHlfWHIyWF9MNUNEbmFOdVFxclY4YU5qRV9URXhCQ1ZiUkFSNnlKbzRLWVRvZ3l6Vmd2WTRfa1dyMThwNnAyS2Jyc2ljcFZGdE5XOVMwS3hoTG9OZlI0d1NMR2prLUgwMmZzM2lIMXZzeVhrV0Rqd3B3VC1Pdi1Pc0V5MzdySVA4bjc5eGktWGYzaW1EcERmRVctQlprTFFBalg2OWIyaExjdWU3S21Nazh0YXJwS2dNZzJfRU5Fdy1QeVZsS2dZaVRhNUNpZnhBN1VWQThQZTcxVHF3bzFNR0hnQ1FMcWl1MVBmeEdycWdoNFM?oc=5",
+          "published": "Sat, 21 Nov 2026 12:31:08 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Finance Gyani. . Paytm \u092e\u0947\u0902 \u092c\u0928\u0947\u0917\u093e \u092e\u0941\u0928\u093e\u092b\u093c\u093e? Mudit Goyal #reels #reel #reelsviral #reelsvideo #paytmsharelatestnews paytm share latest news, paytm share price target, paytm share news today, paytm share price, paytm share news today, mudit goyal, s - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNRTdQVlhUcjdsd1l4a1J1OU1KYUVJLXNEQTROMlBINjcweFdXdWZ4YWJ1bG9OY3NCMTBjZUZIR0QyNjIzR0c5SDZIODFZbWRfWWlSYW9NN3BLOU5KaVUwa0F5bUZScm84NFJmYklmQkZQQ0twX3AxMDNNODFHUzdYb2pXTzdRbGFCeXlKakpaWXNlY0pkNk1WQ3JNRXBrcHIzbS1yZHJqVEs1Y3FKT0laakxlSjBRdFVsUFhDZjByVlZkeEQ2azVXMDE3VndHM2VoNHpIWWc3b2VuN01OaW9mNk1CYzJ6c3dZZjQwSWJrM2hqNzVlUDRTbkNhZ1liN252cC1obnp3NzJrRkFrQnRzc1RjWDFWVl9nZ2NoZ3I5eWprWjhwS19DZzF3UzNILWkxNDRqYTBTbnJjYVVGaVNmZkxlOGRQbHBLd2Eya1EzYi1rU3lfMGV6NkdJcTVja1BNYkk2eE12dXItSXdVbUdDUmpJUWlOQQ?oc=5",
+          "published": "Sat, 21 Nov 2026 12:31:03 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Paytm, One MobiKwik Shares \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u0917\u093f\u0930\u093e\u0935\u091f! MDR \u0915\u093e \u0928\u092f\u093e Framework \u0915\u092c \u0906\u090f\u0917\u093e? \u0928\u093f\u0935\u0947\u0936\u0915\u094b\u0902 \u0915\u0940 \u092c\u0922\u093c\u0940 \u091a\u093f\u0902\u0924\u093e! - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GYU9xbGppR21aSHYzd1puV2RpdXFqSldGZVp0enpVTWZQekhXemxlS2xab0NxWmJYM0w5MmZpQU04bGhDQUpHVkRKZmx1OGJYZmtNMDZn?oc=5",
+          "published": "Thu, 19 Nov 2026 04:40:53 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
       "name": "Suzlon Energy",
-      "mentions": 3,
+      "mentions": 4,
       "investor_mentions": 2,
-      "commentary_mentions": 1,
+      "commentary_mentions": 2,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -387,6 +387,14 @@
           "evidence_type": "investor_discussion"
         },
         {
+          "title": "Suzlon, Ola Electric, NMDC, JTL, IOB, Dhanlaxmi Bank Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtu.be/PgUMlmQ_OFc - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOdzJ6X0dLek5GdHlFSnROaTI3TlhlUEJZdnNXZE96ZWJDZElsYThEQWE4eERaa3RYUkNzekY3WllXUlN6cTloWjFOYmxBa3A0YWlCcGt3b1BmVWRZMTZBU2ZPcDg4bWprY0JjOE9ISzF5cHJhM2tnbHhKVVVXSWNkNklKQmNtMEhmbWpBZkdFekV0NXp3cVF0OGc1SGVWdG5QcTN6U0g2UTJHdFQ0ZFVrMWJYXzVlOGU3YkdNLXRCeW5paGhJWHFoY0VzUkx5RVJWc3Nyb0h3ZHZkMnRCelBnbEMwdlRKc21xNG80dm9yVGRiUVpfTW8tR1JFaEtyWWxmbWN0VWlfUlowWEVUVkdJQ3NKZG04UW5naWdOeWFxc3BlMG16XzBoa1U4bTNwajZNUm16aVJYU0pOUG4tQnlNQ1VLZ0hkRWdEMVM5eHkxQ0VpaG52?oc=5",
+          "published": "Sat, 21 Nov 2026 13:00:00 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
           "title": "Reliance, PC Jeweller, HDFC Bank, Suzlon, Paras, GNG, JTL Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91aEFLcVBMUlpSNFJkLXNVdUFSUE1PNVZyTURZQWVWaTlaNDJ1U3RxQ1hYOWRqQXVFZ2RHVm5KMThDYi14eG9PcmJGSWFxcDM4a2tpSEN3?oc=5",
           "published": "Sat, 21 Nov 2026 15:30:07 GMT",
@@ -399,9 +407,9 @@
     },
     {
       "name": "Reliance Industries",
-      "mentions": 2,
+      "mentions": 3,
       "investor_mentions": 0,
-      "commentary_mentions": 2,
+      "commentary_mentions": 3,
       "commentary_bullish": 0,
       "commentary_bearish": 0,
       "bullish": 0,
@@ -410,10 +418,18 @@
       "bullish_pct": null,
       "evidence": [
         {
-          "title": "Diwali celebrations may be over, but the stock market\u2019s festive rally is showing no signs of slowing down. The Nifty has surged more than 10% in November, with the month only halfway through. Analysts feel the heavyweight trifecta of Reliance Industries (RIL), - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYzZjdjNKeGt2VkktUHFJNnFWWkdyTGJ1VUZ6eE1FMEVEN3pwVEZiTVEzaUFoOHBJOGd3Tk9leGxjLS1QYnVHdE1mRTF1RkZOb05vLWtoNjUyM01LdGhGdDVBY243LVJtSWE3dm53RkNJSFdsRWtWWFJwWjZlNHBmTU9YMDVkSkRtMF8yRWdMcVBzcUJWYzJPNDJvdXhUX09Fa0V6R2ZvYldJNE5aTWlHeGZFbFRFT2xFTEZjb2w1NnpULVdMNFRIN21rQ0FsLXFpVVBYMEZ3?oc=5",
-          "published": "Thu, 19 Nov 2026 06:45:04 GMT",
+          "title": "Reliance Industries, Kalyan Jewellers, BSE, GAIL, TCS, Apollo Hospitals Share \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? | Stock Market News | Finance Gyani | https://youtu.be/Z6Pz5IVHODQ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOd0hHbGFzUjctZWk0cXE5TXBiMUYteDJxa0NRQnNCWFBuc1JuaEdfNmYzVEtEQUc4TzRIdmxSZ2h6SF9SY1Mwbk9kdDVRMGVoWWwyQ1FEcjZJQ1V0cVpjVFduQXBCN2d4MEx3aVNERThlaHlaOUVJLS1HZXhDOWNLOUo4enQwa3FQYVQ5aHhmZzJQa0VlY256S2RPUDhVQy11RU9fWUozV2lrQmNGLVlTV0k2X1Z6cG5Oa0Z6dXFkbW5rYUxjaVRJQ1Z3ektZSWhNamFvajF5SFNPc19lZGFORV9QWXlYQkh5WkRITDdTdE55M1dKMFgwelJOVk1aaUM0b05qS1JVS0lMSW5Oa3NXT2xCUUdTS1hzUmNxeUl1TQ?oc=5",
+          "published": "Fri, 20 Nov 2026 12:10:01 GMT",
           "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "[#LinkInBio] Reliance's comeback may have more gas in the tank, says JPMorgan | Billionaire Mukesh Ambani-led Reliance Industries' sharp rebound may have further room to run, according to JPMorgan. The brokerage sees the stock rising nearly 23% from i - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sbDk4anVCeDNwV09kd0UwaDQ4emViVkZJQkF6VnczZEZKSzJKM1MyTjBWZXA4c3VGSHI5eVN0bFdLZ0E4bFZnRGZvNmhPSjUtaGc?oc=5",
+          "published": "Thu, 19 Nov 2026 10:42:55 GMT",
+          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         },
@@ -424,6 +440,76 @@
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Coal India",
+      "mentions": 3,
+      "investor_mentions": 1,
+      "commentary_mentions": 2,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Coal India\u2019s largest subsidiary goes public",
+          "url": "https://tradingqna.com/t/coal-india-s-largest-subsidiary-goes-public/199541",
+          "published": "Mon, 16 Nov 2026 06:22:47 +0000",
+          "subreddit": "tradingqna",
+          "sentiment": "neutral",
+          "evidence_type": "investor_discussion"
+        },
+        {
+          "title": "Business Today. . Mahanadi Coalfields, a subsidiary of Coal India, is preparing to enter the stock market through an offer for sale worth around \u20b98,800 crore. With strong profitability, an EBITDA margin of nearly 48-49% and an attractive dividend track record, t - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOEtEcjg2NzJxR2Rsd2tpdUduZUlpdjZ5VlgzTlVDbTRuYXpSQ1luZnNzVUpPMHNNTDM1d1pjRGo5c0NhQThhN211RWlsUWJxSW52QUM0UUUtNmdHeTdkSk1fV1RjSXRYTWZoQWFBNUEzN3htakkydzFnMWUwVERhdE5CS0pzemRXdW1CR2V1bExoR19kbm5iSGwtUDluQXRIVzNucG5tbVM2aFZsMDVydDVRQkVkM3hiYkZJbGxfajVTX1l6R1dyVXd2WmY5MTVFeU5MNVhWTkpwellN?oc=5",
+          "published": "Tue, 17 Nov 2026 10:09:31 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "\ud83d\ude80 Mahanadi Coalfields IPO \u2013 Powering India\u2019s Energy Story! One of India\u2019s largest coal producers is hitting Dalal Street! \u26cf\ufe0f Coal India subsidiary \ud83d\udcb0 IPO Size: \u20b98,981 Cr \ud83d\udcca Price Band: \u20b9129\u2013136 \ud83d\udcc5 Opens: 19 Nov | Closes: 23 Nov \u26a1 A major player in India\u2019s e - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNajdBd0MzUlRTdnprMk4wODlPd2JlcG1lUU9VdE9aQmluS1R1UU92TUlpZlJjOXFuYWRUSk52a3RoM01SblFsNWhMcEIzLWZOcjIzZkVuVm5OSUd4Qm1DUnBuN1RtUHpUMFdoSnQtMThaYjdaRU5JQ3llV000T0FYQmNBME9lZjhWVXgtakJpN1Jud2Vfdno4d3cwQnJBcEwxN1VQN19LcTBPYjlyVkxBNmxuZTM1ZTlKOE83azdCNjFZQ3RNWW5HallOWXlLdjcteFVIbUpGS3RUSlg0VGlZLQ?oc=5",
+          "published": "Thu, 19 Nov 2026 19:57:03 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Infosys",
+      "mentions": 2,
+      "investor_mentions": 1,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": 100,
+      "evidence": [
+        {
+          "title": "\ud83c\udf6b A Bigger Market Cap Doesn't Always Mean Higher Nifty 50 Weightage! TCS has almost twice the market cap of Infosys. So why does Infosys have a higher weightage in the Nifty 50? \ud83e\udd14 The answer is Free-Float Market Capitalisation! \ud83d\udcca Learn how promoter s - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSG1lcW1ReU93ZmJYTENYUGdIN0U0STBnTTFPbzJYMWVUekdfNmxES2IyOG5TTGxWSHZtR185eFpsWmhQUU5qdGljeGRTeVdZODNWc1A2WkpqeXRiakVTdEdmT0NsT3JSSGxtNXRZYXgwLUdlMFFScFdUNFkyUndmTzFCVHk2YjhuVy1NVnM2QWRrWmZjYXhZMlFzX3hJM1BRcDlxUnd5RkFXT1A4bDZ1XzVQN2ZiRkh1NzlSNDFjSDdFMlNRX3dSU3dUcE1OR3FvbUQtWWZlckVhaEF4d2NQeVJhTVJFWVJ3?oc=5",
+          "published": "Fri, 20 Nov 2026 07:30:42 GMT",
+          "subreddit": "facebook",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        },
+        {
+          "title": "Portfolio review I choose this stocks I buy infosys - Reddit",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVVVOTWk1YXpVaWY0UUNkV0EtOWJ3MzM0SWo5WUs0cWNoRjlveGx4bzlvbUZ0REYyZ3JjNmNkb21uV3pMaEpPZFNzSTN6V0F2MXZqa2Z1aXE1cW9weVlWWU1LcXRsVEN4TVhZUG1FeWk0NVNTNkFaQURlc1g1MXZuSzloX2VzNm5Nb29ITEZva1YycGVFdHdPYWtyQ192WjB0Q2lzUi11dw?oc=5",
+          "published": "Mon, 16 Nov 2026 13:26:30 GMT",
+          "subreddit": "indexed_reddit",
+          "sentiment": "bullish",
+          "evidence_type": "investor_discussion"
         }
       ],
       "sufficient": false
@@ -491,37 +577,6 @@
       "sufficient": false
     },
     {
-      "name": "Titagarh Rail",
-      "mentions": 2,
-      "investor_mentions": 0,
-      "commentary_mentions": 2,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Jefferies has bullish view on Titagarh Rail Systems, implying around 42% upside from its report reference price. \ud83d\ude86 Passenger rail revenue grew 146%, while a fresh 4,955-wagon order adds to its growth opportunity. But wagon sales fell 29%. Can execution de - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSDVNZ19EeUhSZ1FzWmF2TXl2UTBOdXJxS1VKZG9yVlkydGY1bU1qRXZNc0paeUg3S21GNXQ0NHUyMTU0Vml1cjBIaFdwSllnUTZNcnJQOUcwOVg5c3RjYXFDR2Q1X2dKOFg2NDFFUkhiNVIzTWhzUUVncm5abFk1M3BLUlNiT2tYZzhBbG5mMkxnSmVJZlUyNlZicmJKZFp3OXRXOUJYU29pMlY3aDdPVWZPSmFnTXpOeHZyeHd5Zlh0NTYtUUpOTVBoTFJHVWV6NURIbHRKd2pNaHJBbnhZ?oc=5",
-          "published": "Sat, 21 Nov 2026 03:31:19 GMT",
-          "subreddit": "facebook",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        },
-        {
-          "title": "4 Stocks \u092a\u0930 \u092c\u094d\u0930\u094b\u0915\u0930\u0947\u091c \u0915\u0940 \u0928\u0908 \u0930\u093f\u092a\u094b\u0930\u094d\u091f: Belrise, Titagarh, Tata Motors \u0914\u0930 Ashok Leyland \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HQmxUTVVuaFJFLWVvUC1Xa2VXMjBJZXVnbE9iTFBsMThlR0JkTnpjbWtVMWIzWU12Nm4ySDQzSzh4WVgtMTZPY080QjI3dmdPMHB1cmZB?oc=5",
-          "published": "Mon, 16 Nov 2026 07:00:10 GMT",
-          "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
       "name": "ICICI Bank",
       "mentions": 1,
       "investor_mentions": 0,
@@ -538,29 +593,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PZ3pxRzc2bnlVQTIycUlBMldhUTMzM2NNU2lyTzd6U0R2Y3ZJcEVtdi00ZlUwRlRKSk5IeDIxdGpMQVdaYXpjbW5WNW02SzI0cFFKMUpB?oc=5",
           "published": "Tue, 17 Nov 2026 09:12:53 GMT",
           "subreddit": "youtube",
-          "sentiment": "neutral",
-          "evidence_type": "market_commentary"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Infosys",
-      "mentions": 1,
-      "investor_mentions": 0,
-      "commentary_mentions": 1,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "\ud83c\udf6b A Bigger Market Cap Doesn't Always Mean Higher Nifty 50 Weightage! TCS has almost twice the market cap of Infosys. So why does Infosys have a higher weightage in the Nifty 50? \ud83e\udd14 The answer is Free-Float Market Capitalisation! \ud83d\udcca Learn how promoter s - Instagram",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12ZUo0aEI0WU45Zk0zTUNxaGJLRFNNS1htRXMxSXNJU2ZacVNCNmFDMThjMEpkZ2x3UDM3Q3JhUUVseXJPcUNCV3h2M0w3eVd2VTRhaUV3?oc=5",
-          "published": "Fri, 20 Nov 2026 07:31:50 GMT",
-          "subreddit": "instagram",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
         }
@@ -607,29 +639,6 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUzhJcmdvV05PeGNPb0IwUzhJVkdKLW1XT3Z3TXFaQmtHWXNfN1plVkxuQjlZTnQta092b0JLM2UtakJtLVV6UkdrZEFKdHpnWmV6OVQxOXNTd0J3M3BGQnhGOFVlQmtxZUd5Yy1WMno0aTZfNm1yblZFZ1FQUWRtcXpuTjMwRDVLUUJDSHRsOVNibGVYdTVFcERjLTZWUTR1RTBWS1VTOU5ENURKekE?oc=5",
           "published": "Sat, 21 Nov 2026 10:35:56 GMT",
           "subreddit": "indexed_reddit",
-          "sentiment": "neutral",
-          "evidence_type": "investor_discussion"
-        }
-      ],
-      "sufficient": false
-    },
-    {
-      "name": "Coal India",
-      "mentions": 1,
-      "investor_mentions": 1,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 1,
-      "bullish_pct": null,
-      "evidence": [
-        {
-          "title": "Coal India\u2019s largest subsidiary goes public",
-          "url": "https://tradingqna.com/t/coal-india-s-largest-subsidiary-goes-public/199541",
-          "published": "Mon, 16 Nov 2026 06:22:47 +0000",
-          "subreddit": "tradingqna",
           "sentiment": "neutral",
           "evidence_type": "investor_discussion"
         }
@@ -767,6 +776,75 @@
           "title": "Nifty to 25,450? Bank Nifty Outlook, Axis Bank, ICICI & Kotak Bank Stock Picks | Jay Vora - YouTube",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fUE5jNi0wbDVGaEZuZ1V6b2Uzc0hxS1JwTW11ZGFBanNGQ0hfeVBhUU9mRjdnQW5hdnpPNHJ3UWk1M0NqYWxsRVJtLXZESlpBSFhpOThR?oc=5",
           "published": "Tue, 17 Nov 2026 11:37:13 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Hindustan Zinc",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Of The Day: Polycab \u092e\u0947\u0902 SELL, Hindustan Zinc \u092e\u0947\u0902 \u092d\u0940 \u092c\u093f\u0915\u0935\u093e\u0932\u0940! IIFL Finance \u092e\u0947\u0902 BUY \u0915\u093e \u092e\u094c\u0915\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TZFNvMUExZllLVDlKQmt6MjVnc2szRjhWX0x2dzJRSktKUXB2aVowSUx0MmlMdEJBRkRWc2JRTXhmUzVWNVgzODZiVkNFUXlINVNyM0VB?oc=5",
+          "published": "Wed, 18 Nov 2026 03:37:38 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Titagarh Rail",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "4 Stocks \u092a\u0930 \u092c\u094d\u0930\u094b\u0915\u0930\u0947\u091c \u0915\u0940 \u0928\u0908 \u0930\u093f\u092a\u094b\u0930\u094d\u091f: Belrise, Titagarh, Tata Motors \u0914\u0930 Ashok Leyland \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HQmxUTVVuaFJFLWVvUC1Xa2VXMjBJZXVnbE9iTFBsMThlR0JkTnpjbWtVMWIzWU12Nm4ySDQzSzh4WVgtMTZPY080QjI3dmdPMHB1cmZB?oc=5",
+          "published": "Mon, 16 Nov 2026 07:00:10 GMT",
+          "subreddit": "youtube",
+          "sentiment": "neutral",
+          "evidence_type": "market_commentary"
+        }
+      ],
+      "sufficient": false
+    },
+    {
+      "name": "Polycab",
+      "mentions": 1,
+      "investor_mentions": 0,
+      "commentary_mentions": 1,
+      "commentary_bullish": 0,
+      "commentary_bearish": 0,
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 0,
+      "bullish_pct": null,
+      "evidence": [
+        {
+          "title": "Stock Of The Day: Polycab \u092e\u0947\u0902 SELL, Hindustan Zinc \u092e\u0947\u0902 \u092d\u0940 \u092c\u093f\u0915\u0935\u093e\u0932\u0940! IIFL Finance \u092e\u0947\u0902 BUY \u0915\u093e \u092e\u094c\u0915\u093e? - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TZFNvMUExZllLVDlKQmt6MjVnc2szRjhWX0x2dzJRSktKUXB2aVowSUx0MmlMdEJBRkRWc2JRTXhmUzVWNVgzODZiVkNFUXlINVNyM0VB?oc=5",
+          "published": "Wed, 18 Nov 2026 03:37:38 GMT",
           "subreddit": "youtube",
           "sentiment": "neutral",
           "evidence_type": "market_commentary"
@@ -1125,20 +1203,6 @@
       "sufficient": false
     },
     {
-      "name": "Hindustan Zinc",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
       "name": "HFCL",
       "mentions": 0,
       "investor_mentions": 0,
@@ -1252,20 +1316,6 @@
     },
     {
       "name": "Persistent Systems",
-      "mentions": 0,
-      "investor_mentions": 0,
-      "commentary_mentions": 0,
-      "commentary_bullish": 0,
-      "commentary_bearish": 0,
-      "bullish": 0,
-      "bearish": 0,
-      "neutral": 0,
-      "bullish_pct": null,
-      "evidence": [],
-      "sufficient": false
-    },
-    {
-      "name": "Polycab",
       "mentions": 0,
       "investor_mentions": 0,
       "commentary_mentions": 0,
