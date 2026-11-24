@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-23T13:13:06.393678+00:00",
+  "collected_at": "2026-11-24T00:54:58.215688+00:00",
   "method": "explicit_directional_index_forum_titles_v2",
   "minimum_directional": 10,
   "source_health": {
@@ -21,11 +21,11 @@
     },
     "tradingqna": {
       "status": "ok",
-      "recent": 23
+      "recent": 25
     },
     "valuepickr": {
       "status": "ok",
-      "recent": 8
+      "recent": 7
     },
     "nifty_search": {
       "status": "unavailable",
@@ -44,16 +44,23 @@
       "error": "HTTPError"
     }
   },
-  "unique_titles": 31,
+  "unique_titles": 32,
   "indices": {
     "NIFTY 50": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 5,
       "directional": 0,
       "bullish_pct": null,
       "label": "Insufficient Evidence",
       "evidence": [
+        {
+          "title": "[POLL][2026-12-29]Where will NIFTY close this month's expiry?",
+          "url": "https://tradingqna.com/t/poll-2026-12-29-where-will-nifty-close-this-months-expiry/199665",
+          "source": "tradingqna",
+          "published": "2026-11-23T14:22:25+00:00",
+          "sentiment": "neutral"
+        },
         {
           "title": "I dont have account in Zerodha. I want to know if index based stoploss is available in tradig Nifty options. Any one who are trading Nifty options can clarify me",
           "url": "https://tradingqna.com/t/i-dont-have-account-in-zerodha-i-want-to-know-if-index-based-stoploss-is-available-in-tradig-nifty-options-any-one-who-are-trading-nifty-options-can-clarify-me/199604",
