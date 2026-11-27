@@ -18,9 +18,8 @@ on:
       - 'collect.py'
       - '.github/workflows/update.yml'
   schedule:
-    # Request every 5 minutes, offset from the hour to reduce GitHub Actions congestion.
-    # Runs may still be delayed or skipped by GitHub; the dashboard must report staleness.
-    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
+    # Predictable 10-minute cadence; GitHub may still delay scheduled events.
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 concurrency:
   group: pdmp-snapshot-main
@@ -46,6 +45,7 @@ jobs:
         timeout-minutes: 3
         run: python btc_volatility.py
       - name: Collect index investor crowd opinions
+        id: index_crowd
         continue-on-error: true
         timeout-minutes: 3
         run: python index_crowd.py
@@ -149,6 +149,7 @@ jobs:
           OPTIONS: ${{ steps.options.outcome }}
           MARKET: ${{ steps.market.outcome }}
           VIX: ${{ steps.vix.outcome }}
+          INDEX_CROWD: ${{ steps.index_crowd.outcome }}
         run: |
           python - <<'PY'
           import json,os
